@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-AST-29",
+  "area": "Asset Management",
+  "artifact_name": "Authorized To Connect",
+  "artifact_description": "Documented evidence of a list of devices and systems authorized to connect to organizational Technology Asset, Application and/or Service (TAAS).",
+  "scf_controls": [
+    "AST-01.5"
+  ],
+  "cmmc_mapping": "AC.L1-3.1.1"
+}

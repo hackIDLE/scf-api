@@ -1,0 +1,76 @@
+{
+  "scf_control_id": "PRI-01.3",
+  "total": 7,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-01.3",
+      "ao_id": "PRI-01.3_A01",
+      "objective": "a central resource webpage is maintained on the organization's principal public website.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-20[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-01.3",
+      "ao_id": "PRI-01.3_A02",
+      "objective": "the webpage serves as a central source of information about the organization's privacy program.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-20[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-01.3",
+      "ao_id": "PRI-01.3_A03",
+      "objective": "the webpage ensures that the public has access to information about organizational privacy activities.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_PM-20a.[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-01.3",
+      "ao_id": "PRI-01.3_A04",
+      "objective": "the webpage ensures that the public can communicate with its senior organization official for privacy.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-20a.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-01.3",
+      "ao_id": "PRI-01.3_A05",
+      "objective": "the webpage ensures that organizational privacy practices are publicly available.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_PM-20b.[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-01.3",
+      "ao_id": "PRI-01.3_A06",
+      "objective": "the webpage ensures that organizational privacy reports are publicly available.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_PM-20b.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-01.3",
+      "ao_id": "PRI-01.3_A07",
+      "objective": "the webpage employs publicly facing email addresses and/or phone numbers to enable the public to provide feedback and/or direct questions to privacy offices regarding privacy practices.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_PM-20c.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

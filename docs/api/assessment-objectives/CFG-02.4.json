@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "CFG-02.4",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CFG-02.4",
+      "ao_id": "CFG-02.4_A01",
+      "objective": "a baseline configuration for system development environments that is managed separately from the operational baseline configuration is maintained.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_CM-02(06)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-02.4",
+      "ao_id": "CFG-02.4_A02",
+      "objective": "a baseline configuration for test environments that is managed separately from the operational baseline configuration is maintained.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_CM-02(06)[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

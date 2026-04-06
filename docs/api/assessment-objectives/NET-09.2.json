@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "NET-09.2",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-09.2",
+      "ao_id": "NET-09.2_A01",
+      "objective": "randomness requirements for generating a unique session identifier for each session are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-23(03)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-09.2",
+      "ao_id": "NET-09.2_A02",
+      "objective": "a unique session identifier is generated for each session with organization-defined randomness requirements.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-23(03)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-09.2",
+      "ao_id": "NET-09.2_A03",
+      "objective": "only system-generated session identifiers are recognized.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-23(03)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

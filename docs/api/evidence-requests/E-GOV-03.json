@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-GOV-03",
+  "area": "Cybersecurity & Data Protection Management",
+  "artifact_name": "Charter - Cybersecurity Steering Committee",
+  "artifact_description": "Documented evidence of an executive steering committee, or advisory board, that is formed to perform oversight of cybersecurity management decisions and is comprised of key cybersecurity, technology, risk, privacy and business executives.",
+  "scf_controls": [
+    "GOV-01.1",
+    "GOV-01.2"
+  ],
+  "cmmc_mapping": ""
+}

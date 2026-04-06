@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "WEB-14",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "WEB-14",
+      "ao_id": "WEB-14_A01",
+      "objective": "the scope of publicly accessible systems is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "WEB-14",
+      "ao_id": "WEB-14_A02",
+      "objective": "publicly accessible systems containing sensitive / regulated data are identified.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "WEB-14",
+      "ao_id": "WEB-14_A03",
+      "objective": "a capability exists to routinely review the content on publicly accessible systems for sensitive / regulated data and remove such information, if discovered.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "WEB-14",
+      "ao_id": "WEB-14_A04",
+      "objective": "a capability exists to expeditiously remove sensitive / regulated data from publicly accessible systems, if discovered.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

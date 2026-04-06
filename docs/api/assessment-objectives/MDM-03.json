@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "MDM-03",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MDM-03",
+      "ao_id": "MDM-03_A01",
+      "objective": "mobile devices on which to employ encryption are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-19(05)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MDM-03",
+      "ao_id": "MDM-03_A02",
+      "objective": "full-device or container-based encryption is implemented to protect the confidentiality of sensitive / regulated data on mobile devices.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-19(05)_ODP[01]\n53A_R5_AC-19(05)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MDM-03",
+      "ao_id": "MDM-03_A03",
+      "objective": "mobile devices and mobile computing platforms that process, store or transmit sensitive / regulated data are identified.",
+      "pptdf": "Process",
+      "origin": "171A_3.1.19[a]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MDM-03",
+      "ao_id": "MDM-03_A04",
+      "objective": "encryption is employed to protect sensitive / regulated data on identified mobile devices and mobile computing platforms",
+      "pptdf": "Technology",
+      "origin": "171A_3.1.19[b]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MDM-03",
+      "ao_id": "MDM-03_A05",
+      "objective": "full-device or container-based encryption is implemented to protect the confidentiality of CUI on mobile devices.",
+      "pptdf": "Data",
+      "origin": "171A_R3_A.03.01.18.c",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "erl_id": "E-HRS-12",
+  "area": "Human Resources",
+  "artifact_name": "Role Review",
+  "artifact_description": "Documented evidence of a formal review process to ensure personnel roles currently reflect business needs.",
+  "scf_controls": [
+    "IAC-07",
+    "IAC-07.1",
+    "IAC-08",
+    "IAC-17"
+  ],
+  "cmmc_mapping": ""
+}

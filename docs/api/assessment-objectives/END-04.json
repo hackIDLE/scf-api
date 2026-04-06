@@ -1,0 +1,186 @@
+{
+  "scf_control_id": "END-04",
+  "total": 18,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "END-04",
+      "ao_id": "END-04_A01",
+      "objective": "the frequency for malicious code scans is defined.",
+      "pptdf": "Process",
+      "origin": "171A_3.14.5[a]\n53A_R5_SI-03_ODP[01]\n53A_R5_SI-03_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least weekly",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-04",
+      "ao_id": "END-04_A02",
+      "objective": "malicious code scans are performed with the defined frequency.",
+      "pptdf": "Process",
+      "origin": "171A_3.14.5[b]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least weekly",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-04",
+      "ao_id": "END-04_A03",
+      "objective": "malicious code protection mechanisms are configured to perform real-time scans of files from external sources as the files are downloaded, opened or executed.",
+      "pptdf": "Technology",
+      "origin": "171A_3.14.5[c]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-04",
+      "ao_id": "END-04_A04",
+      "objective": "designated locations for malicious code protection are identified.",
+      "pptdf": "Process",
+      "origin": "171A_3.14.2[a]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-04",
+      "ao_id": "END-04_A05",
+      "objective": "protection from malicious code at designated locations is provided.",
+      "pptdf": "Technology",
+      "origin": "171A_3.14.2[b]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-04",
+      "ao_id": "END-04_A06",
+      "objective": "action to be taken in response to malicious code detection are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-03_ODP[04]\n53A_R5_SI-03_ODP[05]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-04",
+      "ao_id": "END-04_A07",
+      "objective": "personnel or roles to be alerted when malicious code is detected is/are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-03_ODP[06]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-04",
+      "ao_id": "END-04_A08",
+      "objective": "malicious code protection mechanisms are implemented at system entry and exit points to detect malicious code.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-03_ODP[01]\n53A_R5_SI-03a.[01]\n171A_R3_A.03.14.02.a[01]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-04",
+      "ao_id": "END-04_A09",
+      "objective": "malicious code protection mechanisms are implemented at system entry and exit points to eradicate malicious code.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-03_ODP[04]\n53A_R5_SI-03a.[02]\n171A_R3_A.03.14.02.a[02]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-04",
+      "ao_id": "END-04_A10",
+      "objective": "malicious code protection mechanisms are updated automatically as new releases are available in accordance with organizational configuration management policy and procedures.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-03b.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-04",
+      "ao_id": "END-04_A11",
+      "objective": "malicious code protection mechanisms are configured to perform periodic scans of the system frequency.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-03c.01[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least weekly",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-04",
+      "ao_id": "END-04_A12",
+      "objective": "malicious code protection mechanisms are configured to perform real-time scans of files from external sources as the files are downloaded, opened or executed in accordance with organizational policy.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-03c.01[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-04",
+      "ao_id": "END-04_A13",
+      "objective": "malicious code protection mechanisms are configured to respond to malicious code detection.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-03c.02[01]\n53A_R5_SI-03_ODP[04]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-04",
+      "ao_id": "END-04_A14",
+      "objective": "malicious code protection mechanisms are configured to send alerts to personnel or roles in response to malicious code detection.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-03c.02[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-04",
+      "ao_id": "END-04_A15",
+      "objective": "the receipt of false positives during malicious code detection and eradication and the resulting potential impact on the availability of the system are addressed.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-03d.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-04",
+      "ao_id": "END-04_A16",
+      "objective": "malicious code protection mechanisms are implemented at system entry and exit points to eradicate malicious code.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-03a.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-04",
+      "ao_id": "END-04_A17",
+      "objective": "malicious code protection mechanisms are configured to block malicious code, quarantine malicious code, or take other actions in response to malicious code detection.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.14.02.c.02",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-04",
+      "ao_id": "END-04_A18",
+      "objective": "the frequency at which malicious code protection mechanisms perform scans is defined.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.14.02.ODP[01]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "at least weekly",
+      "org_defined_parameters": ""
+    }
+  ]
+}

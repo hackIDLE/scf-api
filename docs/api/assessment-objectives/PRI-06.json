@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "PRI-06",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-06",
+      "ao_id": "PRI-06_A01",
+      "objective": "mechanisms enabling individuals to have access to elements of their Personal Data (PD) are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-03(14)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-06",
+      "ao_id": "PRI-06_A02",
+      "objective": "elements of Personal Data (PD) to which individuals have access are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-03(14)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-06",
+      "ao_id": "PRI-06_A03",
+      "objective": "organization-defined mechanisms are provided to enable individuals to have access to organization-defined elements of their Personal Data (PD).",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-03(14)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

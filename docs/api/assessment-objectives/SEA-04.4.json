@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "SEA-04.4",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "SEA-04.4",
+      "ao_id": "SEA-04.4_A01",
+      "objective": "systems are configured to isolate, or logically separate, any application, service and/or process running with system privileges.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

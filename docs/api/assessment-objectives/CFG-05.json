@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "CFG-05",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CFG-05",
+      "ao_id": "CFG-05_A01",
+      "objective": "policies governing the installation of software by users are defined.",
+      "pptdf": "Process",
+      "origin": "171A_3.4.9[b]\n53A_R5_CM-11_ODP[01]\n53A_R5_CM-11a.",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-05",
+      "ao_id": "CFG-05_A02",
+      "objective": "methods used to enforce software installation policies are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-11_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-05",
+      "ao_id": "CFG-05_A03",
+      "objective": "software installation policies are enforced through organization-defined methods.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_CM-11b.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-05",
+      "ao_id": "CFG-05_A04",
+      "objective": "installation of software by users is monitored.",
+      "pptdf": "Technology",
+      "origin": "171A_3.4.9[c]\n53A_R5_CM-11_ODP[03]\n53A_R5_CM-11c.",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "Continuously",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-05",
+      "ao_id": "CFG-05_A05",
+      "objective": "configuration settings prevent the ability of non-privileged users to install unauthorized software.",
+      "pptdf": "Technology",
+      "origin": "171A_3.4.9[a]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

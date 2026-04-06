@@ -1,0 +1,116 @@
+{
+  "control_id": "IAC-04.1",
+  "title": "Device Attestation",
+  "family": "IAC",
+  "description": "Mechanisms exist to ensure device identification and authentication is accurate by centrally-managing the joining of systems to the domain as part of the initial asset configuration management process.",
+  "scf_question": "Does the organization ensure device identification and authentication is accurate by centrally-managing the joining of systems to the domain as part of the initial asset configuration management process?",
+  "relative_weight": 5,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [],
+  "pptdf": "Technology",
+  "nist_csf_function": "Protect",
+  "scrm_focus": {
+    "strategic": false,
+    "operational": true,
+    "tactical": true
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "2": "Identification & Authentication (IAC) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IAC domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with IAC domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IAC  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Identity & Access Management (IAM)-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines) to enforce Logical Access Control (LAC).\n▪ IAM may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel to implement Role Based Access Control (RBAC) practices for the management of user, group and system accounts, including privileged accounts.\n▪ A directory services technology is used to centrally manage identities and permissions with RBAC. Due to technical or business limitations, asset/process owners are empowered to operate a decentralized access control program for their specific Technology Assets, Applications and/or Services (TAAS) that cannot be integrated into directory services.\n▪ Configuration management and IAM functions collaborate to ensure Secure Baseline Configurations (SBC) enforce “least privileges” on TAAS.",
+    "3": "Identification & Authentication (IAC) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IAC domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with IAC domain capabilities are well-documented and kept current by process owners.\n▪ An Identity & Access Management (IAM) team, or similar function, is appropriately staffed and supported to implement and maintain IAC domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of IAM operations (e.g., directory services, Authenticate, Authorize and Audit (AAA) solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IAC domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to ensure device identification and authentication is accurate by centrally-managing the joining of systems to the domain as part of the initial asset configuration management process.",
+    "4": "Identification & Authentication (IAC) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+    "5": "Identification & Authentication (IAC) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions."
+  },
+  "profiles": [],
+  "possible_solutions": {
+    "micro_small": "∙ Microsoft Entra (https://microsoft.com)\n∙ AWS IAM (https://aws.amazon.com)",
+    "small": "∙ Microsoft Entra (https://microsoft.com)\n∙ AWS IAM (https://aws.amazon.com)",
+    "medium": "∙ Microsoft Entra (https://microsoft.com)\n∙ AWS IAM (https://aws.amazon.com)",
+    "large": "∙ Microsoft Entra (https://microsoft.com)\n∙ AWS IAM (https://aws.amazon.com)",
+    "enterprise": "∙ Microsoft Entra (https://microsoft.com)\n∙ AWS IAM (https://aws.amazon.com)"
+  },
+  "risks": [
+    "R-AC-1",
+    "R-AC-2",
+    "R-AC-3",
+    "R-AC-4",
+    "R-AM-1",
+    "R-AM-2",
+    "R-AM-3",
+    "R-BC-1",
+    "R-BC-2",
+    "R-BC-3",
+    "R-BC-4",
+    "R-EX-1",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-EX-5",
+    "R-EX-6",
+    "R-EX-7",
+    "R-GV-1",
+    "R-GV-2",
+    "R-GV-3",
+    "R-GV-4",
+    "R-GV-5",
+    "R-GV-6",
+    "R-GV-7",
+    "R-GV-8",
+    "R-IR-1",
+    "R-IR-2",
+    "R-IR-3",
+    "R-IR-4",
+    "R-SA-1",
+    "R-SC-1",
+    "R-SC-2",
+    "R-SC-3",
+    "R-SC-4",
+    "R-SC-5",
+    "R-SC-6"
+  ],
+  "threats": [
+    "NT-7",
+    "MT-1",
+    "MT-2",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-10",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Identification & Authentication",
+  "crosswalks": {
+    "general-nist-800-53-r4": [
+      "IA-3(4)"
+    ],
+    "general-nist-800-53-r5-2": [
+      "IA-03(04)"
+    ],
+    "general-nist-800-53-r5-2-privacy": [
+      "IA-03(04)"
+    ],
+    "general-nist-800-82-r3": [
+      "IA-03(04)"
+    ],
+    "usa-federal-gsa-fedramp-5-low": [
+      "IA-03(04)"
+    ],
+    "usa-federal-gsa-fedramp-5-mod": [
+      "IA-03(04)"
+    ],
+    "usa-federal-gsa-fedramp-5-high": [
+      "IA-03(04)"
+    ],
+    "usa-federal-gsa-fedramp-5-li-saas": [
+      "IA-03(04)"
+    ]
+  }
+}

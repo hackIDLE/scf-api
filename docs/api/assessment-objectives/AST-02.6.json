@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AST-02.6",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AST-02.6",
+      "ao_id": "AST-02.6_A01",
+      "objective": "Dynamic Host Configuration Protocol (DHCP) server logging is implemented.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-02.6",
+      "ao_id": "AST-02.6_A02",
+      "objective": "DHCP server logging is utilized to detect unknown systems.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

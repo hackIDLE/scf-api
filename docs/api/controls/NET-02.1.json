@@ -1,0 +1,189 @@
+{
+  "control_id": "NET-02.1",
+  "title": "Denial of Service (DoS) Protection",
+  "family": "NET",
+  "description": "Automated mechanisms exist to protect against or limit the effects of denial of service attacks.",
+  "scf_question": "Does the organization use automated mechanisms to protect against or limit the effects of denial of service attacks?",
+  "relative_weight": 9,
+  "conformity_cadence": "Quarterly",
+  "evidence_requests": [],
+  "pptdf": "Technology",
+  "nist_csf_function": "Protect",
+  "scrm_focus": {
+    "strategic": false,
+    "operational": true,
+    "tactical": true
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "2": "Network Security (NET) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with NET domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with NET domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with NET  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Network security-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Network security management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT personnel define secure networking practices to protect the Confidentiality, Integrity, Availability and Safety (CIAS) of the organization's TAASD.\n▪ Secure Baseline Configurations (SBC) enforce the principles of least privileges and least functionality for boundary protection technologies.\n▪ Boundary protection technologies minimize the effect of Denial of Service (DoS) attacks against business-critical services.",
+    "3": "Network Security (NET) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with NET domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with NET domain capabilities are well-documented and kept current by process owners.\n▪ A network security management team, or similar function, is appropriately staffed and supported to implement and maintain NET domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of network security operations (e.g., network management solution, log aggregator, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with NET domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ Secure Baseline Configurations (SBC) enforce the principles of least privileges and least functionality for boundary protection technologies.\n▪ An implemented and operational capability exists to automatically protect against or limit the effects of denial of service attacks.",
+    "4": "Network Security (NET) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [
+    "CORE ESP Level 2 Critical Infrastructure",
+    "CORE ESP Level 3 Advanced Threats",
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ Enable DDoS protection on ISP/hosting provider",
+    "small": "∙ Cloud-based DDoS protection (e.g., Cloudflare free tier)\n∙ ISP-level DDoS mitigation",
+    "medium": "∙ DDoS protection service (e.g., Cloudflare, Akamai)\n∙ Rate limiting\n∙ Traffic scrubbing",
+    "large": "∙ Enterprise DDoS protection (e.g., Cloudflare Enterprise, Akamai Prolexic)\n∙ On-premises mitigation appliances",
+    "enterprise": "∙ Enterprise DDoS mitigation platform\n∙ BGP-based scrubbing centers\n∙ Always-on cloud DDoS protection\n∙ On-prem + cloud hybrid protection"
+  },
+  "risks": [
+    "R-AM-3",
+    "R-BC-1",
+    "R-BC-3",
+    "R-EX-3",
+    "R-EX-4",
+    "R-GV-1",
+    "R-GV-2"
+  ],
+  "threats": [
+    "NT-7",
+    "MT-1",
+    "MT-2",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-10",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Network Security",
+  "crosswalks": {
+    "general-csa-iot-2": [
+      "OPA-08",
+      "OPA-09"
+    ],
+    "general-govramp": [
+      "SC-05"
+    ],
+    "general-govramp-low": [
+      "SC-05"
+    ],
+    "general-govramp-low-plus": [
+      "SC-05"
+    ],
+    "general-govramp-mod": [
+      "SC-05"
+    ],
+    "general-govramp-high": [
+      "SC-05"
+    ],
+    "general-iec-62443-3-3-2013": [
+      "SR 7.1",
+      "SR 7.1 RE 1",
+      "SR 7.1 RE 2"
+    ],
+    "general-iec-62443-4-2-2019": [
+      "CR 7.1",
+      "CR 7.1(1)"
+    ],
+    "general-mitre-att&ck-16-1": [
+      "T1496.003"
+    ],
+    "general-nist-800-53-r4": [
+      "SC-5"
+    ],
+    "general-nist-800-53-r5-2": [
+      "SC-05"
+    ],
+    "general-nist-800-53-r5-2-privacy": [
+      "SC-05"
+    ],
+    "general-nist-800-53-r5-2-low": [
+      "SC-05"
+    ],
+    "general-nist-800-82-r3": [
+      "SC-05"
+    ],
+    "general-nist-800-82-r3-low": [
+      "SC-05"
+    ],
+    "general-nist-800-82-r3-mod": [
+      "SC-05"
+    ],
+    "general-nist-800-82-r3-high": [
+      "SC-05"
+    ],
+    "usa-federal-dhs-cisa-tic-3-0": [
+      "3.PEP.RE.DDSPR"
+    ],
+    "usa-federal-fbi-cjis-6-0": [
+      "SC-5"
+    ],
+    "usa-federal-gsa-fedramp-5-low": [
+      "SC-05"
+    ],
+    "usa-federal-gsa-fedramp-5-mod": [
+      "SC-05"
+    ],
+    "usa-federal-gsa-fedramp-5-high": [
+      "SC-05"
+    ],
+    "usa-federal-gsa-fedramp-5-li-saas": [
+      "SC-05"
+    ],
+    "usa-federal-cms-marse-2-0": [
+      "SC-5",
+      "SC-5.a",
+      "SC-5.b",
+      "SC-5.c",
+      "SC-5-IS"
+    ],
+    "usa-state-tx-dir-security-control-standards-catalog-2-2": [
+      "SC-05"
+    ],
+    "usa-state-tx-txramp-2-0-level-1": [
+      "SC-05"
+    ],
+    "usa-state-tx-txramp-2-0-level-2": [
+      "SC-05"
+    ],
+    "emea-isr-cmo-1-0": [
+      "9.3"
+    ],
+    "emea-sau-cscc-1-2019": [
+      "2-4-1-8"
+    ],
+    "emea-sau-sacs-002-2022": [
+      "TPC-92"
+    ],
+    "emea-esp-ccn-stic-825-2023": [
+      "8.8.3 [MP.S.3]"
+    ],
+    "apac-aus-ism-2024-june": [
+      "ISM-1019",
+      "ISM-1431",
+      "ISM-1436",
+      "ISM-1805"
+    ],
+    "apac-nzl-hisf-microsmall-2023": [
+      "HMS17"
+    ],
+    "apac-nzl-ism-3-9": [
+      "18.3.18.C.01",
+      "18.3.19.C.01"
+    ],
+    "apac-sgp-mas-trm-2021": [
+      "11.2.7"
+    ],
+    "americas-bmu-mba-coc-2020": [
+      "6.19"
+    ],
+    "amaericas-can-osfi-self-assessment": [
+      "4.3",
+      "4.4"
+    ]
+  }
+}

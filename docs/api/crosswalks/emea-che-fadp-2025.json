@@ -1,0 +1,106 @@
+{
+  "framework_id": "emea-che-fadp-2025",
+  "display_name": "Switzerland - FADP",
+  "scf_to_framework": {
+    "total_mappings": 16,
+    "mappings": {
+      "GOV-01": [
+        "7"
+      ],
+      "CPL-01": [
+        "7"
+      ],
+      "CPL-02": [
+        "7"
+      ],
+      "DCH-01": [
+        "6",
+        "7"
+      ],
+      "DCH-22.1": [
+        "5"
+      ],
+      "IRO-04.1": [
+        "12"
+      ],
+      "PRI-01": [
+        "Inferred",
+        "Expectation"
+      ],
+      "PRI-04": [
+        "4"
+      ],
+      "PRI-04.1": [
+        "4"
+      ],
+      "PRI-05": [
+        "4"
+      ],
+      "PRI-06": [
+        "8"
+      ],
+      "PRI-06.1": [
+        "5"
+      ],
+      "PRI-15": [
+        "11"
+      ],
+      "SEA-01": [
+        "6",
+        "7"
+      ],
+      "SEA-02": [
+        "6",
+        "7"
+      ],
+      "SEA-03": [
+        "6",
+        "7"
+      ]
+    }
+  },
+  "framework_to_scf": {
+    "total_mappings": 9,
+    "mappings": {
+      "4": [
+        "PRI-04",
+        "PRI-04.1",
+        "PRI-05"
+      ],
+      "5": [
+        "DCH-22.1",
+        "PRI-06.1"
+      ],
+      "6": [
+        "DCH-01",
+        "SEA-01",
+        "SEA-02",
+        "SEA-03"
+      ],
+      "7": [
+        "GOV-01",
+        "CPL-01",
+        "CPL-02",
+        "DCH-01",
+        "SEA-01",
+        "SEA-02",
+        "SEA-03"
+      ],
+      "8": [
+        "PRI-06"
+      ],
+      "11": [
+        "PRI-15"
+      ],
+      "12": [
+        "IRO-04.1"
+      ],
+      "Inferred": [
+        "PRI-01"
+      ],
+      "Expectation": [
+        "PRI-01"
+      ]
+    }
+  }
+}

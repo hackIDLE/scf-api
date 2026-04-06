@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "EMB-15",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "EMB-15",
+      "ao_id": "EMB-15_A01",
+      "objective": "the safety aspects of embedded technologies are evaluated via a fault tree analysis or similar method, to determine possible consequences of misuse, misconfiguration and/or failure.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

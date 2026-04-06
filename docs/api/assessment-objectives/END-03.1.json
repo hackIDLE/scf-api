@@ -1,0 +1,76 @@
+{
+  "scf_control_id": "END-03.1",
+  "total": 7,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "END-03.1",
+      "ao_id": "END-03.1_A01",
+      "objective": "compliance with software installation policies is monitored using organization-defined automated mechanisms.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_CM-11(03)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-03.1",
+      "ao_id": "END-03.1_A02",
+      "objective": "automated mechanisms used to detect the presence of unauthorized hardware, software and/or firmware within the system are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-08(03)_ODP[01]\n53A_R5_CM-08(03)_ODP[02]\n53A_R5_CM-08(03)_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-03.1",
+      "ao_id": "END-03.1_A03",
+      "objective": "the presence of unauthorized hardware, software and/or firmware within the system is detected using automated mechanisms frequency.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-08(03)(a)[01]\n53A_R5_CM-08(03)(a)[02]\n53A_R5_CM-08(03)(a)[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "continuously",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-03.1",
+      "ao_id": "END-03.1_A04",
+      "objective": "the frequency at which automated mechanisms are used to detect the presence of unauthorized hardware, software and/or firmware within the system is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-08(03)_ODP[04]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "automated mechanisms with a maximum five-minute delay in detection",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-03.1",
+      "ao_id": "END-03.1_A05",
+      "objective": "automated mechanisms disable network access by unauthorized components, isolate unauthorized components and/or notify organization-defined personnel or roles.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_CM-08(03)_ODP[05]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-03.1",
+      "ao_id": "END-03.1_A06",
+      "objective": "personnel or roles to be notified when unauthorized components are detected is/are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-08(03)_ODP[06]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-03.1",
+      "ao_id": "END-03.1_A07",
+      "objective": "organization-defined actions are taken when unauthorized hardware, software and/or firmware is detected.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_CM-08(03)(b)[01]\n53A_R5_CM-08(03)(b)[02]\n53A_R5_CM-08(03)(b)[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "scf_control_id": "PRI-05",
+  "total": 10,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-05",
+      "ao_id": "PRI-05_A01",
+      "objective": "techniques used to dispose of information following the retention period are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-12(03)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05",
+      "ao_id": "PRI-05_A02",
+      "objective": "techniques used to destroy information following the retention period are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-12(03)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05",
+      "ao_id": "PRI-05_A03",
+      "objective": "techniques used to erase information following the retention period are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-12(03)_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05",
+      "ao_id": "PRI-05_A04",
+      "objective": "organization-defined techniques are used to dispose of information following the retention period.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-12(03)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05",
+      "ao_id": "PRI-05_A05",
+      "objective": "organization-defined techniques are used to destroy information following the retention period.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-12(03)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05",
+      "ao_id": "PRI-05_A06",
+      "objective": "organization-defined techniques are used to erase information following the retention period.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-12(03)[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05",
+      "ao_id": "PRI-05_A07",
+      "objective": "information within the system is retained in accordance with applicable laws, Executive Orders, directives, regulations, policies, standards, guidelines and operational requirements.",
+      "pptdf": "Data",
+      "origin": "53A_R5_SI-12[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05",
+      "ao_id": "PRI-05_A08",
+      "objective": "information output from the system is retained in accordance with applicable laws, Executive Orders, directives, regulations, policies, standards, guidelines and operational requirements.",
+      "pptdf": "Data",
+      "origin": "53A_R5_SI-12[04]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05",
+      "ao_id": "PRI-05_A09",
+      "objective": "information within the system is managed in accordance with applicable laws, Executive Orders, directives, regulations, policies, standards, guidelines and operational requirements.",
+      "pptdf": "Data",
+      "origin": "53A_R5_SI-12[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05",
+      "ao_id": "PRI-05_A10",
+      "objective": "information output from the system is managed in accordance with applicable laws, Executive Orders, directives, regulations, policies, standards, guidelines and operational requirements.",
+      "pptdf": "Data",
+      "origin": "53A_R5_SI-12[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

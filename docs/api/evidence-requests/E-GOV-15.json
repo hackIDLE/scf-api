@@ -1,0 +1,12 @@
+{
+  "erl_id": "E-GOV-15",
+  "area": "Cybersecurity & Data Protection Management",
+  "artifact_name": "Material Risks",
+  "artifact_description": "Documented evidence of specific risks that are categorized as material risks.",
+  "scf_controls": [
+    "GOV-16.1",
+    "RSK-13",
+    "RSK-13.2"
+  ],
+  "cmmc_mapping": ""
+}

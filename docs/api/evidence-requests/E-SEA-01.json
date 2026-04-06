@@ -1,0 +1,12 @@
+{
+  "erl_id": "E-SEA-01",
+  "area": "Secure Engineering & Architecture",
+  "artifact_name": "Logon Banner",
+  "artifact_description": "Documented evidence of a system use notification message or logon banner.",
+  "scf_controls": [
+    "SEA-18",
+    "SEA-18.1",
+    "SEA-18.2"
+  ],
+  "cmmc_mapping": "AC.L2-3.1.7\nAC.L2-3.1.9"
+}

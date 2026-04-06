@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "IAC-21.2",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-21.2",
+      "ao_id": "IAC-21.2_A01",
+      "objective": "non-security functions are identified.",
+      "pptdf": "Process",
+      "origin": "171A_3.1.6[a]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-21.2",
+      "ao_id": "IAC-21.2_A02",
+      "objective": "users (or roles) with privileged accounts are required to use non-privileged accounts when accessing non-security functions or non-security information.",
+      "pptdf": "Technology",
+      "origin": "171A_3.1.6[b]\n53A_R5_AC-06(02)\n171A_R3_A.03.01.06.b",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-21.2",
+      "ao_id": "IAC-21.2_A03",
+      "objective": "security functions or security-relevant information, the access to which requires users to use non-privileged accounts to access non-security functions, are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-06(02)_ODP",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

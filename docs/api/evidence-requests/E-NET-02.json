@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-NET-02",
+  "area": "Network Security",
+  "artifact_name": "Wireless Rogue Detection",
+  "artifact_description": "Documented evidence of automated or manual means to detect rogue wireless devices.",
+  "scf_controls": [
+    "NET-15.5"
+  ],
+  "cmmc_mapping": ""
+}

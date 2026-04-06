@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-BCM-17",
+  "area": "Business Continuity",
+  "artifact_name": "Designated Alternative Decision Makers",
+  "artifact_description": "Documented evidence of personnel being assigned with decision-making authority if the primary decision maker is unable to communicate due to adverse conditions.",
+  "scf_controls": [
+    "BCD-06.1"
+  ],
+  "cmmc_mapping": ""
+}

@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-BCM-04",
+  "area": "Business Continuity",
+  "artifact_name": "COOP Root Cause Analysis (RCA)",
+  "artifact_description": "Documented evidence of a Root Cause Analysis (RCA) from any Continuity of Operations Plan (COOP)-related training, testing or incident.",
+  "scf_controls": [
+    "BCD-05"
+  ],
+  "cmmc_mapping": ""
+}

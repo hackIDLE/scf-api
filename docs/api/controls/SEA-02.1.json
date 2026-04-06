@@ -1,0 +1,167 @@
+{
+  "control_id": "SEA-02.1",
+  "title": "Standardized Terminology",
+  "family": "SEA",
+  "description": "Mechanisms exist to standardize technology and process terminology to reduce confusion amongst groups and departments.",
+  "scf_question": "Does the organization standardize technology and process terminology to reduce confusion amongst groups and departments?",
+  "relative_weight": 3,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [],
+  "pptdf": "Process",
+  "nist_csf_function": "Protect",
+  "scrm_focus": {
+    "strategic": false,
+    "operational": true,
+    "tactical": false
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "2": "Secure Engineering & Architecture (SEA) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with SEA domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with SEA domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with SEA  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Secure engineering and architecture-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Secure engineering and architecture management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT and/or cybersecurity personnel define entity-specific secure engineering practices to protect the Confidentiality, Integrity, Availability and Safety (CIAS) of the entity's TAASD.\n▪ IT and/or cybersecurity personnel align secure engineering practices with the entity's broader IT architecture practices.\n▪ IT and/or cybersecurity personnel use secure engineering practices to influence Secure Baseline Configurations (SBC).",
+    "3": "Secure Engineering & Architecture (SEA) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with SEA domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with SEA domain capabilities are well-documented and kept current by process owners.\n▪ A cybersecurity engineering / architecture team, or similar function, is appropriately staffed and supported to implement and maintain RSK domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of secure engineering management operations (e.g., project management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with SEA domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ Secure Baseline Configurations (SBC) enforce the secure engineering principles on all applicable Technology Assets, Applications and/or Services (TAAS).\n▪ An implemented and operational capability exists to standardize technology and process terminology to reduce confusion amongst groups and departments.",
+    "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [
+    "CORE AI Model Deployment",
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ Follow secure coding basics when developing software",
+    "small": "∙ Secure coding guidelines for developers\n∙ Basic security review before release",
+    "medium": "∙ Formal security engineering principles\n∙ Secure design patterns\n∙ Threat modeling",
+    "large": "∙ Enterprise security engineering program\n∙ Formal threat modeling\n∙ Security architecture standards",
+    "enterprise": "∙ Enterprise security architecture framework (SABSA)\n∙ Formal threat modeling program\n∙ Security design patterns library"
+  },
+  "risks": [
+    "R-BC-3",
+    "R-EX-4",
+    "R-GV-1",
+    "R-GV-4",
+    "R-GV-5",
+    "R-SA-1"
+  ],
+  "threats": [
+    "NT-7",
+    "MT-1",
+    "MT-2",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Secure Engineering & Architecture",
+  "crosswalks": {
+    "general-aicpa-tsc-2017": [
+      "CC2.2"
+    ],
+    "general-cobit-2019": [
+      "APO14.02"
+    ],
+    "general-coso-2013": [
+      "14"
+    ],
+    "general-iec-tr-60601-4-5-2021": [
+      "3.0"
+    ],
+    "general-iso-22301-2019": [
+      "3"
+    ],
+    "general-iso-27001-2022": [
+      "3.0"
+    ],
+    "general-iso-27002-2022": [
+      "3.0",
+      "3.1",
+      "3.2"
+    ],
+    "general-iso-27701-2025": [
+      "3"
+    ],
+    "general-iso-42001-2023": [
+      "3.0"
+    ],
+    "general-naic-insurance-data-security-model-law-668-2017": [
+      "3"
+    ],
+    "general-nist-privacy-framework-1-0": [
+      "GV.PO-P2"
+    ],
+    "usa-federal-dow-cert-rmm-1-2": [
+      "ADM:SG1.SP2"
+    ],
+    "usa-federal-far-52-204-21": [
+      "52.204-21(a)"
+    ],
+    "usa-federal-law-glba-cfr-314-2023": [
+      "314.2"
+    ],
+    "usa-federal-law-hipaa-simplification-2013": [
+      "164.103",
+      "164.304",
+      "164.402",
+      "164.501",
+      "164.504(a)"
+    ],
+    "usa-state-ca-ccpa-cpra-2026": [
+      "7001"
+    ],
+    "usa-state-nv-regulation-5-2024": [
+      "5.260.2"
+    ],
+    "usa-state-ny-dfs-23-nycrr500-2023-amd2": [
+      "500.1"
+    ],
+    "usa-state-tn-tipa-2025": [
+      "47-18-3201"
+    ],
+    "usa-state-tx-cdpa-2025": [
+      "541.001"
+    ],
+    "usa-state-tx-sb2610-2025": [
+      "542.001(1)",
+      "542.001(2)",
+      "542.001(3)"
+    ],
+    "usa-state-va-cdpa-2023": [
+      "59.1-575"
+    ],
+    "emea-eu-ai-act-2024": [
+      "Article 3"
+    ],
+    "emea-eu-cyber-resilience-act-2022": [
+      "Article 3"
+    ],
+    "emea-eu-gdpr-2016": [
+      "Article 4"
+    ],
+    "emea-ken-pda-2019": [
+      "2"
+    ],
+    "emea-nga-dpr-2019": [
+      "1.3"
+    ],
+    "emea-qat-pdppl-2020": [
+      "1"
+    ],
+    "emea-esp-boe-a-2022-7191": [
+      "Article 4"
+    ],
+    "emea-esp-decree-311-2022": [
+      "4"
+    ],
+    "amaericas-can-osfi-self-assessment": [
+      "6.4"
+    ],
+    "americas-can-osfi-b13-2022": [
+      "A.1"
+    ]
+  }
+}

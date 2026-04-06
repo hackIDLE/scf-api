@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "CPL-13.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CPL-13.2",
+      "ao_id": "CPL-13.2_A01",
+      "objective": "the minimum threshold for evidence of due care activities capable of withstanding external audit or regulatory scrutiny is defined",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-13.2",
+      "ao_id": "CPL-13.2_A02",
+      "objective": "evidence of due care activities is generated and retained to demonstrate conformity with applicable requirements.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

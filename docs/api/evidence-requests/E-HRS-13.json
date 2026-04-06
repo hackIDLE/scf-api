@@ -1,0 +1,14 @@
+{
+  "erl_id": "E-HRS-13",
+  "area": "Human Resources",
+  "artifact_name": "Defined Cybersecurity & Data Privacy Responsibilities",
+  "artifact_description": "Documented evidence of a role-based cybersecurity & data privacy responsibilities to ensure personnel are both educated on the role and are responsible for the associated control execution.",
+  "scf_controls": [
+    "CHG-04",
+    "GOV-04",
+    "HRS-03",
+    "HRS-03.1",
+    "OPS-01"
+  ],
+  "cmmc_mapping": ""
+}

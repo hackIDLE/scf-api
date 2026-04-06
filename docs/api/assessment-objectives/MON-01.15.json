@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "MON-01.15",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MON-01.15",
+      "ao_id": "MON-01.15_A01",
+      "objective": "additional monitoring of privileged users is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-04(20)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-01.15",
+      "ao_id": "MON-01.15_A02",
+      "objective": "additional monitoring of privileged users is implemented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-04(20)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

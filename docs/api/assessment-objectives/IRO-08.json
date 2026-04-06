@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "IRO-08",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IRO-08",
+      "ao_id": "IRO-08_A01",
+      "objective": "reviewer or releaser credentials are maintained within the established chain of custody for information reviewed or released.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AU-10(03)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

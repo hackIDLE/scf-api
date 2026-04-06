@@ -1,0 +1,44 @@
+{
+  "framework_id": "usa-federal-law-facta-fcra-2023",
+  "display_name": "Fair & Accurate Credit Transactions Act (FACTA) & Fair Credit Reporting Act (FCRA) (2023)",
+  "scf_to_framework": {
+    "total_mappings": 3,
+    "mappings": {
+      "HRS-07.1": [
+        "606(b)"
+      ],
+      "PRI-01.11": [
+        "623(a)(1)(A)",
+        "623(a)(1)(B)",
+        "623(a)(1)(B)(i)",
+        "623(a)(1)(B)(ii)"
+      ],
+      "THR-01": [
+        "615(e)(2)(A)"
+      ]
+    }
+  },
+  "framework_to_scf": {
+    "total_mappings": 6,
+    "mappings": {
+      "606(b)": [
+        "HRS-07.1"
+      ],
+      "623(a)(1)(A)": [
+        "PRI-01.11"
+      ],
+      "623(a)(1)(B)": [
+        "PRI-01.11"
+      ],
+      "623(a)(1)(B)(i)": [
+        "PRI-01.11"
+      ],
+      "623(a)(1)(B)(ii)": [
+        "PRI-01.11"
+      ],
+      "615(e)(2)(A)": [
+        "THR-01"
+      ]
+    }
+  }
+}

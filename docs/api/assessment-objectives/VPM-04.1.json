@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "VPM-04.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "VPM-04.1",
+      "ao_id": "VPM-04.1_A01",
+      "objective": "the latest stable version of software and/or security-related updates is installed on applicable systems.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

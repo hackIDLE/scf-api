@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "PES-10",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PES-10",
+      "ao_id": "PES-10_A01",
+      "objective": "types of system components to be authorized and controlled when entering the facility are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PE-16_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-10",
+      "ao_id": "PES-10_A02",
+      "objective": "types of system components to be authorized and controlled when exiting the facility are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PE-16_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-10",
+      "ao_id": "PES-10_A03",
+      "objective": "types of system components are authorized and controlled when entering the facility.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-16a.[01]\n53A_R5_PE-16a.[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "all information system components",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-10",
+      "ao_id": "PES-10_A04",
+      "objective": "types of system components are authorized and controlled when exiting the facility.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-16a.[03]\n53A_R5_PE-16a.[04]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "all information system components",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-10",
+      "ao_id": "PES-10_A05",
+      "objective": "records of the system components are maintained.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-16b.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "NET-04.8",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-04.8",
+      "ao_id": "NET-04.8_A01",
+      "objective": "data type identifiers to be used to validate data essential for information flow decisions are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-04(12)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-04.8",
+      "ao_id": "NET-04.8_A02",
+      "objective": "when transferring information between different security domains, organization-defined data type identifiers are used to validate data essential for information flow decisions.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-04(12)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

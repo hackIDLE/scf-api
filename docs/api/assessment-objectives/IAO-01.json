@@ -1,0 +1,96 @@
+{
+  "scf_control_id": "IAO-01",
+  "total": 9,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAO-01",
+      "ao_id": "IAO-01_A01",
+      "objective": "an Information Assurance (IA) process is implemented for conducting cybersecurity / data privacy testing, training and monitoring activities associated with systems, applications and services.",
+      "pptdf": "Process",
+      "origin": "SCF Created\n53A_R5_PM-14a.01[01]\n53A_R5_PM-14a.01[02]\n53A_R5_PM-14a.01[03]\n53A_R5_PM-14a.01[04]\n53A_R5_PM-14a.02[01]\n53A_R5_PM-14a.02[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-01",
+      "ao_id": "IAO-01_A02",
+      "objective": "the Information Assurance (IA) program is organization-wide.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CA-01_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-01",
+      "ao_id": "IAO-01_A03",
+      "objective": "the authorization processes are integrated into an organization-wide Risk Management Program (RMP).",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-10c.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-01",
+      "ao_id": "IAO-01_A04",
+      "objective": "the cybersecurity / data privacy security state of organizational systems and the environments in which those systems operate are managed through authorization processes.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-10a.[01]\n53A_R5_PM-10a.[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-01",
+      "ao_id": "IAO-01_A05",
+      "objective": "individuals are designated to fulfill specific roles and responsibilities within the organizational risk management process.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-10b.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-01",
+      "ao_id": "IAO-01_A06",
+      "objective": "information assurance management operations are conducted according to documented policies, standards, procedures and/or other organizational directives.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-01",
+      "ao_id": "IAO-01_A07",
+      "objective": "adequate resources (e.g., people, processes, technologies, data and/or facilities) are provided to support information assurance management operations.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-01",
+      "ao_id": "IAO-01_A08",
+      "objective": "responsibility and authority for the performance of information assurance management-related activities are assigned to designated personnel.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-01",
+      "ao_id": "IAO-01_A09",
+      "objective": "personnel performing information assurance management-related activities have the skills and knowledge needed to perform their assigned duties.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

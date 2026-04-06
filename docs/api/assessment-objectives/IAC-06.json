@@ -1,0 +1,66 @@
+{
+  "scf_control_id": "IAC-06",
+  "total": 6,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-06",
+      "ao_id": "IAC-06_A01",
+      "objective": "multi-factor authentication for access to privileged accounts is implemented.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-02(01)\n171A_R3_A.03.05.03[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "local, network and remote",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-06",
+      "ao_id": "IAC-06_A02",
+      "objective": "multi-factor authentication for access to non-privileged accounts is implemented.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-02(02)\n171A_R3_A.03.05.03[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "local, network and remote",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-06",
+      "ao_id": "IAC-06_A03",
+      "objective": "system components that are known, authenticated, in a properly configured state or in a trust profile are identified.",
+      "pptdf": "Process",
+      "origin": "172A_3.5.3e[a]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-06",
+      "ao_id": "IAC-06_A04",
+      "objective": "automated or manual/procedural mechanisms to prohibit system components from connecting to organizational systems are identified.",
+      "pptdf": "Process",
+      "origin": "172A_3.5.3e[b]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-06",
+      "ao_id": "IAC-06_A05",
+      "objective": "automated or manual/procedural mechanisms are employed to prohibit system components from connecting to organizational systems unless the components are known, authenticated, in a properly configured state or in a trust profile.",
+      "pptdf": "Technology",
+      "origin": "172A_3.5.3e[c]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-06",
+      "ao_id": "IAC-06_A06",
+      "objective": "multi-factor authentication is implemented in the establishment of nonlocal maintenance and diagnostic sessions.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.07.05.b[01]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

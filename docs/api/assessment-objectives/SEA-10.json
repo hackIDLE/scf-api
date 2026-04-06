@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "SEA-10",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "SEA-10",
+      "ao_id": "SEA-10_A01",
+      "objective": "controls to be implemented to protect the system memory from unauthorized code execution are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-16_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-10",
+      "ao_id": "SEA-10_A02",
+      "objective": "controls are implemented to protect the system memory from unauthorized code execution.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-16",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

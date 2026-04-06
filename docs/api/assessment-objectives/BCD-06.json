@@ -1,0 +1,316 @@
+{
+  "scf_control_id": "BCD-06",
+  "total": 31,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "BCD-06",
+      "ao_id": "BCD-06_A01",
+      "objective": "a contingency plan is developed that identifies essential mission and business functions and associated contingency requirements.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-02a.01",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-06",
+      "ao_id": "BCD-06_A02",
+      "objective": "personnel or roles to review a contingency plan is/are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-02_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-06",
+      "ao_id": "BCD-06_A03",
+      "objective": "the contingency plan is updated to address changes to the organization, system or environment of operation.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-02e.[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-06",
+      "ao_id": "BCD-06_A04",
+      "objective": "contingency plan changes are communicated to key contingency personnel.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-02f.[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-06",
+      "ao_id": "BCD-06_A05",
+      "objective": "the contingency plan is updated to address problems encountered during contingency plan implementation, execution or testing.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-02e.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-06",
+      "ao_id": "BCD-06_A06",
+      "objective": "personnel or roles to approve a contingency plan is/are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-02_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-06",
+      "ao_id": "BCD-06_A07",
+      "objective": "key contingency personnel (identified by name and/or by role) to whom copies of the contingency plan are distributed are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-02_ODP[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-06",
+      "ao_id": "BCD-06_A08",
+      "objective": "key contingency organizational elements to which copies of the contingency plan are distributed are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-02_ODP[04]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-06",
+      "ao_id": "BCD-06_A09",
+      "objective": "the frequency of contingency plan review is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-02_ODP[05]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-06",
+      "ao_id": "BCD-06_A10",
+      "objective": "key contingency personnel (identified by name and/or by role) to communicate changes to are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-02_ODP[06]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-06",
+      "ao_id": "BCD-06_A11",
+      "objective": "key contingency organizational elements to communicate changes to are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-02_ODP[07]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-06",
+      "ao_id": "BCD-06_A12",
+      "objective": "a contingency plan for the system is developed that provides recovery objectives.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-02a.02[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-06",
+      "ao_id": "BCD-06_A13",
+      "objective": "a contingency plan for the system is developed that provides restoration priorities.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-02a.02[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-06",
+      "ao_id": "BCD-06_A14",
+      "objective": "a contingency plan for the system is developed that provides metrics.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-02a.02[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-06",
+      "ao_id": "BCD-06_A15",
+      "objective": "a contingency plan for the system is developed that addresses contingency roles.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-02a.03[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-06",
+      "ao_id": "BCD-06_A16",
+      "objective": "a contingency plan for the system is developed that addresses contingency responsibilities.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-02a.03[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-06",
+      "ao_id": "BCD-06_A17",
+      "objective": "a contingency plan for the system is developed that addresses assigned individuals with contact information.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-02a.03[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-06",
+      "ao_id": "BCD-06_A18",
+      "objective": "a contingency plan for the system is developed that addresses maintaining essential mission and business functions despite a disruption, compromise or failure of a system, application or service.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-02a.04",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-06",
+      "ao_id": "BCD-06_A19",
+      "objective": "a contingency plan for the system is developed that addresses eventual, full-system restoration without deterioration of the controls originally planned and implemented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-02a.05",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-06",
+      "ao_id": "BCD-06_A20",
+      "objective": "a contingency plan for the system is developed that addresses the sharing of contingency information.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-02a.06",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-06",
+      "ao_id": "BCD-06_A21",
+      "objective": "a contingency plan for the system is developed that is reviewed by personnel or roles.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-02a.07[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-06",
+      "ao_id": "BCD-06_A22",
+      "objective": "a contingency plan for the system is developed that is approved by personnel or roles.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-02a.07[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-06",
+      "ao_id": "BCD-06_A23",
+      "objective": "copies of the contingency plan are distributed to key contingency personnel.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-02b.[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-06",
+      "ao_id": "BCD-06_A24",
+      "objective": "copies of the contingency plan are distributed to organizational elements.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-02b.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-06",
+      "ao_id": "BCD-06_A25",
+      "objective": "contingency planning activities are coordinated with incident handling activities.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-02c.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-06",
+      "ao_id": "BCD-06_A26",
+      "objective": "the contingency plan for the system is reviewed frequently.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-02d.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-06",
+      "ao_id": "BCD-06_A27",
+      "objective": "contingency plan changes are communicated to organizational elements.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-02f.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-06",
+      "ao_id": "BCD-06_A28",
+      "objective": "lessons learned from contingency plan testing or actual contingency activities are incorporated into contingency testing.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-02g.[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-06",
+      "ao_id": "BCD-06_A29",
+      "objective": "lessons learned from contingency plan training or actual contingency activities are incorporated into contingency testing and training.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-02g.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-06",
+      "ao_id": "BCD-06_A30",
+      "objective": "the contingency plan is protected from unauthorized disclosure.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_CP-02h.[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-06",
+      "ao_id": "BCD-06_A31",
+      "objective": "the contingency plan is protected from unauthorized modification.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_CP-02h.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

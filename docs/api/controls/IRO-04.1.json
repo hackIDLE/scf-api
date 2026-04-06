@@ -1,0 +1,245 @@
+{
+  "control_id": "IRO-04.1",
+  "title": "Data Breach",
+  "family": "IRO",
+  "description": "Mechanisms exist to address data breaches, or other incidents involving the unauthorized disclosure of sensitive or regulated data, according to applicable laws, regulations and contractual obligations.",
+  "scf_question": "Does the organization address data breaches, or other incidents involving the unauthorized disclosure of sensitive or regulated data, according to applicable laws, regulations and contractual obligations?",
+  "relative_weight": 8,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [],
+  "pptdf": "Process",
+  "nist_csf_function": "Respond",
+  "scrm_focus": {
+    "strategic": true,
+    "operational": true,
+    "tactical": true
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "2": "Incident Response (IRO) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IRO domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with DCH domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IRO  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Incident response-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Incident response management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT and/or cybersecurity personnel operate an incident response capability using a documented and tested Incident Response Plan (IRP) to facilitate incident management operations that cover preparation, detection and analysis, containment, eradication and recovery.",
+    "3": "Incident Response (IRO) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IRO domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Cybersecurity personnel operate an incident response capability using a documented and tested Incident Response Plan (IRP) to facilitate incident management operations that cover preparation, detection and analysis, containment, eradication and recovery.\n▪ An incident response team, or similar function, is appropriately staffed and supported to implement and maintain IRO domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of incident response operations (e.g., incident management software, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IRO domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to address data breaches, or other incidents involving the unauthorized disclosure of sensitive or regulated data, according to applicable laws, regulations and contractual obligations.",
+    "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ Incident Response Plan (IRP)",
+    "small": "∙ Incident Response Plan (IRP)",
+    "medium": "∙ Integrated Incident Response Program (IIRP)",
+    "large": "∙ Integrated Incident Response Program (IIRP)",
+    "enterprise": "∙ Integrated Incident Response Program (IIRP)"
+  },
+  "risks": [
+    "R-AC-1",
+    "R-AC-2",
+    "R-AC-3",
+    "R-AC-4",
+    "R-AM-1",
+    "R-AM-2",
+    "R-BC-1",
+    "R-BC-2",
+    "R-BC-3",
+    "R-BC-4",
+    "R-BC-5",
+    "R-EX-1",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-EX-5",
+    "R-EX-6",
+    "R-EX-7",
+    "R-GV-1",
+    "R-GV-2",
+    "R-GV-3",
+    "R-GV-4",
+    "R-GV-5",
+    "R-GV-6",
+    "R-GV-7",
+    "R-IR-1",
+    "R-IR-2",
+    "R-IR-3",
+    "R-IR-4",
+    "R-SA-1",
+    "R-SC-1",
+    "R-SC-2",
+    "R-SC-3",
+    "R-SC-4",
+    "R-SC-5",
+    "R-SC-6"
+  ],
+  "threats": [
+    "NT-7",
+    "MT-1",
+    "MT-2",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Incident Response",
+  "crosswalks": {
+    "general-aicpa-pmf-2020": [
+      "D6.6",
+      "D6.6-POF2"
+    ],
+    "general-aicpa-tsc-2017": [
+      "CC7.3",
+      "CC7.3-POF4",
+      "CC7.3-POF5",
+      "P6.3",
+      "P6.6",
+      "P6.6-POF2",
+      "P6.7"
+    ],
+    "general-csa-cmm-4-1-0": [
+      "SEF-08"
+    ],
+    "general-csa-iot-2": [
+      "GVN-06"
+    ],
+    "general-iso-27002-2022": [
+      "5.25"
+    ],
+    "general-iso-27018-2025": [
+      "5.25"
+    ],
+    "general-naic-insurance-data-security-model-law-668-2017": [
+      "6.C"
+    ],
+    "general-nist-privacy-framework-1-0": [
+      "CM.AW-P7",
+      "CM.AW-P8"
+    ],
+    "general-nist-800-53-r4": [
+      "SE-2"
+    ],
+    "general-nist-800-53-r5-2": [
+      "IR-08(01)"
+    ],
+    "general-nist-800-53-r5-2-privacy": [
+      "IR-08(01)"
+    ],
+    "general-nist-800-82-r3": [
+      "IR-08(01)"
+    ],
+    "general-scf-dpmp-2025": [
+      "8.0"
+    ],
+    "usa-federal-fbi-cjis-6-0": [
+      "IR-8(1)"
+    ],
+    "usa-federal-law-hipaa-simplification-2013": [
+      "164.404(a)(1)",
+      "164.404(a)(2)",
+      "164.404(c)(1)(A)",
+      "164.404(c)(1)(B)",
+      "164.404(c)(1)(C)",
+      "164.404(c)(1)(D)",
+      "164.404(c)(1)(E)",
+      "164.404(c)(2)",
+      "164.404(d)(1)(i)",
+      "164.404(d)(1)(ii)",
+      "164.404(d)(2)",
+      "164.404(d)(2)(i)",
+      "164.404(d)(2)(ii)(A)",
+      "164.404(d)(2)(ii)(B)",
+      "164.404(d)(3)",
+      "164.406(a)",
+      "164.406(b)",
+      "164.406(c)",
+      "164.410(c)(1)"
+    ],
+    "usa-federal-irs-1075-2021": [
+      "IR-8(CE-1)",
+      "IR-8(CE-1).a",
+      "IR-8(CE-1).b",
+      "IR-8(CE-1).c"
+    ],
+    "emea-eu-gdpr-2016": [
+      "Article 33.1"
+    ],
+    "emea-deu-c5-2020": [
+      "SIM-02"
+    ],
+    "emea-ken-pda-2019": [
+      "43(1)(b)",
+      "43(2)",
+      "43(3)",
+      "43(4)",
+      "43(5)",
+      "43(5)(a)",
+      "43(5)(b)",
+      "43(5)(c)",
+      "43(5)(d)",
+      "43(5)(e)",
+      "43(6)",
+      "43(7)",
+      "43(8)(a)",
+      "43(8)(b)",
+      "43(8)(c)"
+    ],
+    "emea-qat-pdppl-2020": [
+      "14"
+    ],
+    "emea-sau-pdpl-2023": [
+      "Article 20.1",
+      "Article 20.2"
+    ],
+    "emea-srb-act-9-2018": [
+      "53",
+      "53.1",
+      "53.2",
+      "53.3"
+    ],
+    "emea-zaf-popia-2013": [
+      "22"
+    ],
+    "emea-che-fadp-2025": [
+      "12"
+    ],
+    "emea-gbr-dpa-1998": [
+      "Chapter29-Schedule1-Part1-Principles 7"
+    ],
+    "apac-aus-ism-2024-june": [
+      "ISM-0133"
+    ],
+    "apac-chn-pipl-2021": [
+      "57",
+      "57(1)",
+      "57(2)",
+      "57(3)"
+    ],
+    "apac-ind-dpdpa-2023": [
+      "8(6)"
+    ],
+    "apac-jpn-ppi-2020": [
+      "22-2(1)",
+      "22-2(2)"
+    ],
+    "apac-phl-dpa-2012": [
+      "38"
+    ],
+    "apac-kor-pipa-2011": [
+      "34"
+    ],
+    "apac-twn-pdpa-2025": [
+      "12"
+    ],
+    "americas-bra-lgpd-2018": [
+      "48"
+    ],
+    "americas-mex-fdpa-2010": [
+      "20"
+    ]
+  }
+}

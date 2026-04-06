@@ -1,0 +1,106 @@
+{
+  "scf_control_id": "MON-01.8",
+  "total": 10,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MON-01.8",
+      "ao_id": "MON-01.8_A01",
+      "objective": "the frequency at which system audit records are reviewed and analyzed is defined.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.03.05.ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least weekly",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-01.8",
+      "ao_id": "MON-01.8_A02",
+      "objective": "system audit records are reviewed and analyzed per an organization-defined frequency for indications and the potential impact of inappropriate or unusual activity.",
+      "pptdf": "Process",
+      "origin": "171A_3.3.3[a]\n171A_3.3.3[b]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least weekly",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-01.8",
+      "ao_id": "MON-01.8_A03",
+      "objective": "response actions to system security alerts and advisories are identified.",
+      "pptdf": "Process",
+      "origin": "171A_3.14.3[a]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-01.8",
+      "ao_id": "MON-01.8_A04",
+      "objective": "system security alerts and advisories are monitored.",
+      "pptdf": "Technology",
+      "origin": "171A_3.14.3[b]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-01.8",
+      "ao_id": "MON-01.8_A05",
+      "objective": "actions in response to system security alerts and advisories are taken.",
+      "pptdf": "Technology",
+      "origin": "171A_3.14.3[c]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-01.8",
+      "ao_id": "MON-01.8_A06",
+      "objective": "the frequency of event types selected for logging are reviewed and updated.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.03.01.ODP[02]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "at least weekly",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-01.8",
+      "ao_id": "MON-01.8_A07",
+      "objective": "event types being logged are updated based on the review.",
+      "pptdf": "Technology",
+      "origin": "171A_3.3.3[c]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-01.8",
+      "ao_id": "MON-01.8_A08",
+      "objective": "a process for determining when to review logged events is defined.",
+      "pptdf": "Process",
+      "origin": "171A_3.3.3[a]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-01.8",
+      "ao_id": "MON-01.8_A09",
+      "objective": "the event types selected for logging are reviewed <A.03.03.01.ODP[02]: frequency>.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.03.01.b[01]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "at least every 12 months and after any significant incidents or significant changes to risks",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-01.8",
+      "ao_id": "MON-01.8_A10",
+      "objective": "system audit records are reviewed and analyzed <A.03.03.05.ODP[01]: frequency> for indications and the potential impact of inappropriate or unusual activity.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.03.05.a",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "at least weekly",
+      "org_defined_parameters": ""
+    }
+  ]
+}

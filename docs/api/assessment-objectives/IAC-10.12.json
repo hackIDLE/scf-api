@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "IAC-10.12",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-10.12",
+      "ao_id": "IAC-10.12_A01",
+      "objective": "biometric quality requirements for biometric-based authentication are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IA-05(12)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10.12",
+      "ao_id": "IAC-10.12_A02",
+      "objective": "mechanisms that satisfy organization-defined biometric quality requirements are employed for biometric-based authentication.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-05(12)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

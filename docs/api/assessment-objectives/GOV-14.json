@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "GOV-14",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "GOV-14",
+      "ao_id": "GOV-14_A01",
+      "objective": "the executive steering committee, or advisory board, directs organization leadership to incorporate cybersecurity / data privacy principles into Business As Usual (BAU) practices.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-14",
+      "ao_id": "GOV-14_A02",
+      "objective": "cybersecurity incidents are reviewed to identify incidents that occurred due to cybersecurity / data privacy principles not being adopted as Business As Usual (BAU) practices.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-14",
+      "ao_id": "GOV-14_A03",
+      "objective": "identified deficiencies of cybersecurity / data privacy principles not being adopted as Business As Usual (BAU) practices are tracked via a Plan of Action and Milestones (POA&M), or risk register, through remediation.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

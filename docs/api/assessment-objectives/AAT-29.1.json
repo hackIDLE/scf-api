@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "AAT-29.1",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-29.1",
+      "ao_id": "AAT-29.1_A01",
+      "objective": "infrastructure resources used by AI agents are protected through resource allocation.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-29.1",
+      "ao_id": "AAT-29.1_A02",
+      "objective": "infrastructure resources used by AI agents are protected through privilege management.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-29.1",
+      "ao_id": "AAT-29.1_A03",
+      "objective": "infrastructure resources used by AI agents are protected through network segmentation.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-29.1",
+      "ao_id": "AAT-29.1_A04",
+      "objective": "infrastructure resources used by AI agents are protected through workload isolation.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

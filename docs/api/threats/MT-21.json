@@ -1,0 +1,6 @@
+{
+  "threat_id": "MT-21",
+  "grouping": "Man-Made Threat",
+  "name": "Operational Environment",
+  "description": "Operational Environment is a Supply Chain Risk Management (SCRM) threat category that pertains to the user environment (e.g., place of performance). Primarily, the concern is if the operational environment is hazardous that could expose the organization operationally or financially."
+}

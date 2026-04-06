@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "SEA-04",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "SEA-04",
+      "ao_id": "SEA-04_A01",
+      "objective": "a separate execution domain is maintained for each executing system process.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-39",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-26.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-26.1",
+      "ao_id": "AAT-26.1_A01",
+      "objective": "testing techniques are developed to identify Generative Artificial Intelligence (GAI) produced content (e.g., synthetic media).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-26.1",
+      "ao_id": "AAT-26.1_A02",
+      "objective": "testing techniques are implemented to identify Generative Artificial Intelligence (GAI) produced content (e.g., synthetic media).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

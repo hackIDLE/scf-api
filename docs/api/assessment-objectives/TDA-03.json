@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "TDA-03",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-03",
+      "ao_id": "TDA-03_A01",
+      "objective": "the organization only uses Commercial Off-the-Shelf (COTS) security products.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-03",
+      "ao_id": "TDA-03_A02",
+      "objective": "for classified environments, only Government Off-The-Shelf (GOTS)or Commercial Off-The-Shelf (COTS) information assurance and information assurance-enabled information technology products that compose an NSA-approved solution are employed.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SA-04(06)(a)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-03",
+      "ao_id": "TDA-03_A03",
+      "objective": "for classified environments, GOTS and COTS products have been evaluated and/or validated by NSA or in accordance with NSA-approved procedures.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-04(06)(b)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

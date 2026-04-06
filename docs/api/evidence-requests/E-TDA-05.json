@@ -1,0 +1,12 @@
+{
+  "erl_id": "E-TDA-05",
+  "area": "Technology Design & Acquisition",
+  "artifact_name": "Failure Mode and Effect Analysis (FMEA)",
+  "artifact_description": "Documented evidence of an engineering method designed to define, identify, and present solutions for system failures, problems, or errors.",
+  "scf_controls": [
+    "TDA-01.1",
+    "TDA-06.5",
+    "TDA-09"
+  ],
+  "cmmc_mapping": ""
+}

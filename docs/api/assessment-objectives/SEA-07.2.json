@@ -1,0 +1,116 @@
+{
+  "scf_control_id": "SEA-07.2",
+  "total": 11,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "SEA-07.2",
+      "ao_id": "SEA-07.2_A01",
+      "objective": "restrictions for safe mode of operation are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-12_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-07.2",
+      "ao_id": "SEA-07.2_A02",
+      "objective": "conditions detected to enter a safe mode of operation are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-12_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-07.2",
+      "ao_id": "SEA-07.2_A03",
+      "objective": "a safe mode of operation is entered with restrictions when conditions are detected.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_CP-12",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-07.2",
+      "ao_id": "SEA-07.2_A04",
+      "objective": "systems or system components that implement the security design principle of secure failure are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-08(24)_ODP[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-07.2",
+      "ao_id": "SEA-07.2_A05",
+      "objective": "systems or system components that implement the security design principle of secure recovery are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-08(24)_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-07.2",
+      "ao_id": "SEA-07.2_A06",
+      "objective": "systems or system components implement the security design principle of secure failure.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SA-08(24)[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-07.2",
+      "ao_id": "SEA-07.2_A07",
+      "objective": "systems or system components implement the security design principle of secure recovery.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SA-08(24)[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-07.2",
+      "ao_id": "SEA-07.2_A08",
+      "objective": "types of system failures for which the system components fail to a known state are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-24_ODP[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-07.2",
+      "ao_id": "SEA-07.2_A09",
+      "objective": "known system state to which system components fail in the event of a system failure is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-24_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-07.2",
+      "ao_id": "SEA-07.2_A10",
+      "objective": "system state information to be preserved in the event of a system failure is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-24_ODP[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-07.2",
+      "ao_id": "SEA-07.2_A11",
+      "objective": "types of system failures on system components fail to a known system state while preserving system state information in failure.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-24",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

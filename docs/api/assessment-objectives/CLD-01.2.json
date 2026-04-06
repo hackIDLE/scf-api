@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "CLD-01.2",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CLD-01.2",
+      "ao_id": "CLD-01.2_A01",
+      "objective": "the decommission process for cloud services is formally governed so that data is securely transitioned to new systems or archived in accordance with applicable organizational standards, as well as statutory, regulatory and contractual obligations.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "AAT-22.6",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-22.6",
+      "ao_id": "AAT-22.6_A01",
+      "objective": "serious incidents and/or irregularities associated with the deployment of Artificial Intelligence (AI) and Autonomous Technologies (AAT) are reported without delay to the AAT provider.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-22.6",
+      "ao_id": "AAT-22.6_A02",
+      "objective": "serious incidents and/or irregularities associated with the deployment of Artificial Intelligence (AI) and Autonomous Technologies (AAT) are reported without delay to the AAT importer or distributor, if applicable.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-22.6",
+      "ao_id": "AAT-22.6_A03",
+      "objective": "serious incidents and/or irregularities associated with the deployment of Artificial Intelligence (AI) and Autonomous Technologies (AAT) are reported without delay to local law authorities and/or governmental agency, as required.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

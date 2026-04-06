@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-AAT-06",
+  "area": "Artificial Intelligence (AI) & Autonomous Technologies Governance",
+  "artifact_name": "Impact Assessments for Artificial Intelligence and Autonomous Technologies (AAT)",
+  "artifact_description": "Documented evidence of impact assessments of proposed Artificial Intelligence (AI) and Autonomous Technologies (AAT) on individuals, groups, communities, organizations and society.",
+  "scf_controls": [
+    "AAT-07.1",
+    "AAT-07.2"
+  ],
+  "cmmc_mapping": ""
+}

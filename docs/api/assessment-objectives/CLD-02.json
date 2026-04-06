@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "CLD-02",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CLD-02",
+      "ao_id": "CLD-02_A01",
+      "objective": "a cloud security architecture is defined to address cloud employments that support the organization's mission.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CLD-02",
+      "ao_id": "CLD-02_A02",
+      "objective": "the cloud security architecture supports the organization's technology strategy to securely design, configure and maintain cloud employments.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

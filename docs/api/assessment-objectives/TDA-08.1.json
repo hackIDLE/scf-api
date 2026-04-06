@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "TDA-08.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-08.1",
+      "ao_id": "TDA-08.1_A01",
+      "objective": "secure migration practices purge systems, applications and services of test/development/staging data and accounts before it is migrated into a production environment.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

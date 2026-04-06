@@ -1,0 +1,116 @@
+{
+  "scf_control_id": "IAC-20",
+  "total": 11,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-20",
+      "ao_id": "IAC-20_A01",
+      "objective": "approved authorizations for logical access to information and system resources are enforced in accordance with applicable access control policies.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-03",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-20",
+      "ao_id": "IAC-20_A02",
+      "objective": "the principle of least privilege is employed, allowing only authorized access for users (or processes acting on behalf of users) that are necessary to accomplish assigned organizational tasks.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-06",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-20",
+      "ao_id": "IAC-20_A03",
+      "objective": "authorized users are identified.",
+      "pptdf": "Process",
+      "origin": "171A_3.1.1[a]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-20",
+      "ao_id": "IAC-20_A04",
+      "objective": "processes acting on behalf of authorized users are identified.",
+      "pptdf": "Process",
+      "origin": "171A_3.1.1[b]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-20",
+      "ao_id": "IAC-20_A05",
+      "objective": "devices (including other systems) authorized to connect to the system are identified.",
+      "pptdf": "Process",
+      "origin": "171A_3.1.1[c]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-20",
+      "ao_id": "IAC-20_A06",
+      "objective": "system access is limited to authorized users.",
+      "pptdf": "Technology",
+      "origin": "171A_3.1.1[d]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-20",
+      "ao_id": "IAC-20_A07",
+      "objective": "system access is limited to processes acting on behalf of authorized users.",
+      "pptdf": "Technology",
+      "origin": "171A_3.1.1[e]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-20",
+      "ao_id": "IAC-20_A08",
+      "objective": "system access is limited to authorized devices (including other systems).",
+      "pptdf": "Technology",
+      "origin": "171A_3.1.1[f]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-20",
+      "ao_id": "IAC-20_A09",
+      "objective": "systems and system components included in the scope of the specified enhanced security requirements are identified.",
+      "pptdf": "Process",
+      "origin": "172A_3.14.3e_ODP[1]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-20",
+      "ao_id": "IAC-20_A10",
+      "objective": "systems and system components are included in the scope of the specified enhanced security requirements.",
+      "pptdf": "Process",
+      "origin": "172A_3.14.3e[a]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-20",
+      "ao_id": "IAC-20_A11",
+      "objective": "systems and system components that are not included in systems and system components are segregated in purpose-specific networks.",
+      "pptdf": "Technology",
+      "origin": "172A_3.14.3e[b]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

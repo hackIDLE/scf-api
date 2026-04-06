@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "AAT-22.2",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-22.2",
+      "ao_id": "AAT-22.2_A01",
+      "objective": "oversight measures for Artificial Intelligence (AI) and Autonomous Technologies (AAT) are commensurate with the AAT's assessed risk(s).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-22.2",
+      "ao_id": "AAT-22.2_A02",
+      "objective": "oversight measures for Artificial Intelligence (AI) and Autonomous Technologies (AAT) are commensurate with the AAT's level of autonomy.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-22.2",
+      "ao_id": "AAT-22.2_A03",
+      "objective": "oversight measures for Artificial Intelligence (AI) and Autonomous Technologies (AAT) are commensurate with the AAT's context of use.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

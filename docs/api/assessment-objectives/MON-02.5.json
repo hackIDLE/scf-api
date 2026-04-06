@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "MON-02.5",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MON-02.5",
+      "ao_id": "MON-02.5_A01",
+      "objective": "the permitted actions for each organization-defined criteria (e.g., system process, role or user) associated with the review, analysis and reporting of audit record information are specified.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AU-06(07)\n53A_R5_AU-06(07)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

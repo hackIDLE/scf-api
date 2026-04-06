@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "PRI-01.10",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-01.10",
+      "ao_id": "PRI-01.10_A01",
+      "objective": "any financial incentives offered to data subjects for Personal Data (PD) are reviewed by a Data Protection Officer (DPO), or similar role, to ensure compliance with applicable legal and regulatory requirements.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

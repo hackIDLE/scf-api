@@ -1,0 +1,118 @@
+{
+  "framework_id": "apac-hkg-pdo-2022",
+  "display_name": "Hong Kong - Personal Data Ordinance (2022)",
+  "scf_to_framework": {
+    "total_mappings": 14,
+    "mappings": {
+      "GOV-01": [
+        "Principle 4"
+      ],
+      "CPL-01": [
+        "Principle 4"
+      ],
+      "CPL-02": [
+        "Principle 4"
+      ],
+      "DCH-01": [
+        "Principle 4",
+        "Sec 33"
+      ],
+      "DCH-22.1": [
+        "Sec 22"
+      ],
+      "PRI-01": [
+        "Inferred",
+        "Expectation"
+      ],
+      "PRI-02.1": [
+        "Principle 1"
+      ],
+      "PRI-05": [
+        "Principle 2",
+        "Sec 26",
+        "Principle 3",
+        "Sec 4"
+      ],
+      "PRI-06": [
+        "Principle 6",
+        "Sec 17A",
+        "Sec 18"
+      ],
+      "PRI-06.1": [
+        "Sec 22"
+      ],
+      "PRI-15": [
+        "Sec 15"
+      ],
+      "SEA-01": [
+        "Principle 4",
+        "Sec 33"
+      ],
+      "SEA-02": [
+        "Principle 4",
+        "Sec 33"
+      ],
+      "SEA-03": [
+        "Principle 4",
+        "Sec 33"
+      ]
+    }
+  },
+  "framework_to_scf": {
+    "total_mappings": 14,
+    "mappings": {
+      "Principle 4": [
+        "GOV-01",
+        "CPL-01",
+        "CPL-02",
+        "DCH-01",
+        "SEA-01",
+        "SEA-02",
+        "SEA-03"
+      ],
+      "Sec 33": [
+        "DCH-01",
+        "SEA-01",
+        "SEA-02",
+        "SEA-03"
+      ],
+      "Sec 22": [
+        "DCH-22.1",
+        "PRI-06.1"
+      ],
+      "Inferred": [
+        "PRI-01"
+      ],
+      "Expectation": [
+        "PRI-01"
+      ],
+      "Principle 1": [
+        "PRI-02.1"
+      ],
+      "Principle 2": [
+        "PRI-05"
+      ],
+      "Sec 26": [
+        "PRI-05"
+      ],
+      "Principle 3": [
+        "PRI-05"
+      ],
+      "Sec 4": [
+        "PRI-05"
+      ],
+      "Principle 6": [
+        "PRI-06"
+      ],
+      "Sec 17A": [
+        "PRI-06"
+      ],
+      "Sec 18": [
+        "PRI-06"
+      ],
+      "Sec 15": [
+        "PRI-15"
+      ]
+    }
+  }
+}

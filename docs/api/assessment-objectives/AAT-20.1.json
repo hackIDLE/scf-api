@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "AAT-20.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-20.1",
+      "ao_id": "AAT-20.1_A01",
+      "objective": "Artificial Intelligence (AI) and Autonomous Technologies (AAT) are designed and developed so its operation is sufficiently transparent such that output can be easily interpreted by personnel implementing the AAT.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "IAC-09.4",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-09.4",
+      "ao_id": "IAC-09.4_A01",
+      "objective": "external organizations with whom to coordinate the cross-organization management of identifiers are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IA-04(06)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-09.4",
+      "ao_id": "IAC-09.4_A02",
+      "objective": "cross-organization management of identifiers is coordinated with external organizations.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-04(06)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

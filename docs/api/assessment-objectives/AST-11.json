@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "AST-11",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AST-11",
+      "ao_id": "AST-11_A01",
+      "objective": "facility egress points are controlled by physical security measures.",
+      "pptdf": "Facility",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-11",
+      "ao_id": "AST-11_A02",
+      "objective": "prior management authorization is required for the removal of technology assets from organizational facilities.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-11",
+      "ao_id": "AST-11_A03",
+      "objective": "the organization controls and tracks technology assets entering and exiting organizational facilities.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

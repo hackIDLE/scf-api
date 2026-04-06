@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "IAC-15.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-15.2",
+      "ao_id": "IAC-15.2_A01",
+      "objective": "the time period after which to automatically remove or disable temporary or emergency accounts is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-02(02)_ODP[01]\n53A_R5_AC-02(02)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "disable temporary and emergency accounts after no more than 96 hours from last use.",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-15.2",
+      "ao_id": "IAC-15.2_A02",
+      "objective": "temporary and emergency accounts are automatically disabled per an organization-defined time period.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-02(02)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "disable temporary and emergency accounts after no more than 96 hours from last use.",
+      "org_defined_parameters": ""
+    }
+  ]
+}

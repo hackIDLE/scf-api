@@ -1,0 +1,143 @@
+{
+  "control_id": "GOV-02.1",
+  "title": "Exception Management",
+  "family": "GOV",
+  "description": "Mechanisms exist to prohibit exceptions to standards, except when the exception has been formally assessed for risk impact, approved and recorded.",
+  "scf_question": "Does the organization prohibit exceptions to standards, except when the exception has been formally assessed for risk impact, approved and recorded?",
+  "relative_weight": 8,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [
+    "E-GOV-18"
+  ],
+  "pptdf": "Process",
+  "nist_csf_function": "Govern",
+  "scrm_focus": {
+    "strategic": true,
+    "operational": true,
+    "tactical": true
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "Cybersecurity & Data Protection Governance (GOV) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with GOV domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Governance-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ No formal Governance, Risk & Compliance (GRC) team exists. GRC roles are assigned to existing IT/cybersecurity personnel.\n▪ Cybersecurity and data protection governance is informally assigned as an additional duty to existing IT/cybersecurity personnel.\n▪ Cybersecurity and data privacy governance practices are informally assigned as an additional duty to existing IT/cybersecurity personnel.",
+    "2": "Cybersecurity & Data Protection Governance (GOV) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with GOV domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with GOV domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with GOV  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Governance-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ No formal Governance, Risk & Compliance (GRC) team exists. GRC roles are assigned to existing IT and/or cybersecurity personnel.",
+    "3": "Cybersecurity & Data Protection Governance (GOV) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with GOV domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with GOV domain capabilities are well-documented and kept current by process owners.\n▪ The entity's GRC team, or similar function, is appropriately staffed and supported to implement and maintain GOV domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ Technology is leveraged to enhance the efficiency and accuracy of governance, risk management and compliance operations (e.g., GRC platform).\n▪ An implemented and operational capability exists to prohibit exceptions to standards, except when the exception has been formally assessed for risk impact, approved and recorded.",
+    "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [
+    "SCRMS",
+    "CORE ESP Level 1 Foundational",
+    "CORE ESP Level 2 Critical Infrastructure",
+    "CORE ESP Level 3 Advanced Threats",
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ Manual exception management process\n∙ Documented exception request form (Word/PDF template)\n∙ SCFConnect (https://scfconnect.com)",
+    "small": "∙ Manual exception management process\n∙ Formalized exception request and approval workflow\n∙  GRC solution (e.g., SCFConnect, Cyturus, SureCloud, SimpleRisk, Ignyte, ZenGRC, Galvanize, MetricStream, Archer, etc.)",
+    "medium": "∙ Documented exception management process with approval authority matrix\n∙  GRC solution (e.g., SCFConnect, Cyturus, SureCloud, SimpleRisk, Ignyte, ZenGRC, Galvanize, MetricStream, Archer, etc.)\n∙ Risk acceptance tracking with time-bound exceptions",
+    "large": "∙ Formal exception management program with defined risk acceptance criteria\n∙  GRC solution (e.g., SCFConnect, Cyturus, SureCloud, SimpleRisk, Ignyte, ZenGRC, Galvanize, MetricStream, Archer, etc.)\n∙ Time-limited exceptions with mandatory compensating controls\n∙ Periodic exception review and recertification process",
+    "enterprise": "∙ Enterprise exception management program integrated with GRC platform\n∙ Automated exception workflows with defined approval chains\n∙ Exception-to-risk register linkage with ongoing monitoring\n∙ Audit-ready exception documentation and closure tracking"
+  },
+  "risks": [
+    "R-AC-1",
+    "R-AC-2",
+    "R-AC-3",
+    "R-AC-4",
+    "R-AM-1",
+    "R-AM-2",
+    "R-AM-3",
+    "R-BC-1",
+    "R-BC-2",
+    "R-BC-3",
+    "R-BC-4",
+    "R-BC-5",
+    "R-EX-1",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-EX-5",
+    "R-EX-6",
+    "R-EX-7",
+    "R-GV-1",
+    "R-GV-2",
+    "R-GV-3",
+    "R-GV-4",
+    "R-GV-5",
+    "R-GV-6",
+    "R-GV-7",
+    "R-GV-8",
+    "R-IR-1",
+    "R-IR-2",
+    "R-IR-3",
+    "R-IR-4",
+    "R-SA-1",
+    "R-SA-2",
+    "R-SC-1",
+    "R-SC-2",
+    "R-SC-3",
+    "R-SC-4",
+    "R-SC-5",
+    "R-SC-6"
+  ],
+  "threats": [
+    "NT-7",
+    "MT-1",
+    "MT-2",
+    "MT-3",
+    "MT-4",
+    "MT-6",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Cybersecurity & Data Protection Governance",
+  "crosswalks": {
+    "general-cobit-2019": [
+      "DSS06.04"
+    ],
+    "general-csa-cmm-4-1-0": [
+      "CCC-08",
+      "GRC-04"
+    ],
+    "general-nist-csf-2-0": [
+      "ID.RA-07"
+    ],
+    "general-tisax-6-0-3": [
+      "1.5.1"
+    ],
+    "usa-federal-dow-zt-roadmap-1-1": [
+      "2.3.7",
+      "2.7.3"
+    ],
+    "usa-federal-law-hipaa-simplification-2013": [
+      "164.306(d)(3)(ii)(B)(1)"
+    ],
+    "usa-federal-law-hipaa-security-rule-2013": [
+      "164.306(d)(3)(ii)(B)(1)"
+    ],
+    "usa-federal-tsa-security-directive-1580-82-2022-01": [
+      "III.C.1",
+      "III.C.1.b",
+      "III.C.3"
+    ],
+    "usa-state-ny-dfs-23-nycrr500-2023-amd2": [
+      "500.9(b)(3)",
+      "500.12(b)",
+      "500.15(b)"
+    ],
+    "apac-ind-sebi-2024": [
+      "GV.PO.S3"
+    ],
+    "apac-jpn-ismap": [
+      "5.1.1.7"
+    ]
+  }
+}

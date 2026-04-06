@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-CAP-04",
+  "area": "Capacity Management",
+  "artifact_name": "Dynamic Expansion Capabilities",
+  "artifact_description": "Documented evidence of dynamic expansion capabilities (e.g., elastic expansion) to meet capacity and/or performance requirements for critical Technology Assets, Applications and/or Services (TAAS).",
+  "scf_controls": [
+    "CAP-05"
+  ],
+  "cmmc_mapping": ""
+}

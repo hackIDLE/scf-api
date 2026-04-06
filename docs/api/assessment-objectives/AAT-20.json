@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "AAT-20",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-20",
+      "ao_id": "AAT-20_A01",
+      "objective": "Artificial Intelligence (AI) and Autonomous Technologies (AAT) are designed and developed to achieve an appropriate level of accuracy, robustness, and cybersecurity.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-20",
+      "ao_id": "AAT-20_A02",
+      "objective": "Artificial Intelligence (AI) and Autonomous Technologies (AAT) are designed and developed to perform consistently in those respects throughout the AAT system's lifecycle.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-20",
+      "ao_id": "AAT-20_A03",
+      "objective": "Artificial Intelligence (AI) and Autonomous Technologies (AAT) are designed and developed to be effectively overseen by competent individuals.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

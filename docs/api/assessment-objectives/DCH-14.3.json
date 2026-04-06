@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "DCH-14.3",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-14.3",
+      "ao_id": "DCH-14.3_A01",
+      "objective": "a data-specific Access Control List (ACL) or Data Information Sharing Agreement (DISA) is documented to determine the personnel with whom sensitive / regulated data is shared.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

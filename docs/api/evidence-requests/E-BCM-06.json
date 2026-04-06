@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-BCM-06",
+  "area": "Business Continuity",
+  "artifact_name": "COOP Testing",
+  "artifact_description": "Documented evidence of a Continuity of Operations Plan (COOP)-related testing activity.",
+  "scf_controls": [
+    "BCD-03.1",
+    "BCD-04"
+  ],
+  "cmmc_mapping": ""
+}

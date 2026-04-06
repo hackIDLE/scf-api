@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "NET-08.2",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-08.2",
+      "ao_id": "NET-08.2_A01",
+      "objective": "wireless network segments implement Wireless Intrusion Detection / Prevention Systems (WIDS/WIPS) technologies.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

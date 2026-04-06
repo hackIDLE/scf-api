@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "TDA-04.1",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-04.1",
+      "ao_id": "TDA-04.1_A01",
+      "objective": "the developer of the system, system component or system service is required to provide a description of the functional properties of the controls to be implemented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-04(01)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-04.1",
+      "ao_id": "TDA-04.1_A02",
+      "objective": "organization-defined criteria for security-relevant information pertaining to external system interfaces, high-level design, low-level design, source code or hardware schematics and design and implementation information are documented in a System Security & Privacy Plan (SSPP), or similar document.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-04(02)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at a minimum to include security-relevant external system interfaces; high-level design; low-level design; source code or network and data flow diagram",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-04.1",
+      "ao_id": "TDA-04.1_A03",
+      "objective": "design and implementation information is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-04(02)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-04.1",
+      "ao_id": "TDA-04.1_A04",
+      "objective": "level of detail is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-04(02)_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-04.1",
+      "ao_id": "TDA-04.1_A05",
+      "objective": "the developer of the system, system component or system service is required to provide design and implementation information for the controls that includes using at level of detail.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-04(02)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

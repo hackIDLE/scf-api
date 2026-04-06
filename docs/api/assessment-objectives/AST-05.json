@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "AST-05",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AST-05",
+      "ao_id": "AST-05_A01",
+      "objective": "strict control is maintained over the internal or external distribution of any kind of sensitive / regulated media.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

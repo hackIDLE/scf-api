@@ -1,0 +1,19 @@
+{
+  "erl_id": "E-AST-01",
+  "area": "Asset Management",
+  "artifact_name": "IT Asset Management (ITAM)",
+  "artifact_description": "Documented evidence of an IT Asset Management (ITAM) program that addresses the due diligence and due care activities associated with maintaining both secure, compliance and resilient Technology Assets, Applications and/or Services (TAAS).",
+  "scf_controls": [
+    "AST-01",
+    "AST-03",
+    "AST-03.1",
+    "AST-10",
+    "CFG-05",
+    "END-01",
+    "IAC-01",
+    "IAC-02.2",
+    "MON-03",
+    "MON-16.4"
+  ],
+  "cmmc_mapping": "CM.L2-3.4.9"
+}

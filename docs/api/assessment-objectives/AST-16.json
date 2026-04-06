@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "AST-16",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AST-16",
+      "ao_id": "AST-16_A01",
+      "objective": "a Bring Your Own Device (BYOD) program is implemented and governed to reduce risk associated with personally-owned devices in the workplace.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

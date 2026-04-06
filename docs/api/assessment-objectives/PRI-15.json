@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PRI-15",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-15",
+      "ao_id": "PRI-15_A01",
+      "objective": "a list of Data Authorities that require database registration is created and maintained.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-15",
+      "ao_id": "PRI-15_A02",
+      "objective": "as required by a law or regulation, databases containing Personal Data (PD) are registered with the appropriate Data Authority.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

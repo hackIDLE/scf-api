@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-NET-05",
+  "area": "Network Security",
+  "artifact_name": "Zero Trust Architecture (ZTA)",
+  "artifact_description": "Documented evidence of controls that would enable the organization to claim conformity with Zero Trust (ZT) principles.",
+  "scf_controls": [
+    "NET-01.1"
+  ],
+  "cmmc_mapping": ""
+}

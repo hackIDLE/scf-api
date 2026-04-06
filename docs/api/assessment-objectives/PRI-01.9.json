@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PRI-01.9",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-01.9",
+      "ao_id": "PRI-01.9_A01",
+      "objective": "the role and responsibilities associated with a Personal Data Process Manager are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-01.9",
+      "ao_id": "PRI-01.9_A02",
+      "objective": "accountability is assigned to the Personal Data Process Manager to ensure data is used according to the Data Subject's consent.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

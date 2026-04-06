@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "IAC-20.7",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-20.7",
+      "ao_id": "IAC-20.7_A01",
+      "objective": "the types of accounts allowed on systems, applications and services is/are defined and documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-20.7",
+      "ao_id": "IAC-20.7_A02",
+      "objective": "the types of accounts prohibited on systems, applications and services is/are defined and documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

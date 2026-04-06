@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-24",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-24",
+      "ao_id": "AAT-24_A01",
+      "objective": "consent is obtained from the subjects of testing Artificial Intelligence (AI) and Autonomous Technologies (AAT) prior to their participation in such testing.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-24",
+      "ao_id": "AAT-24_A02",
+      "objective": "consent is obtained from the subjects of testing Artificial Intelligence (AI) and Autonomous Technologies (AAT) after their having been provided with clear and concise information regarding the testing.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

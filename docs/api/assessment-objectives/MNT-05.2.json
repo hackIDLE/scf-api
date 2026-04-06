@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "MNT-05.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MNT-05.2",
+      "ao_id": "MNT-05.2_A01",
+      "objective": "personnel and roles to be notified of the date and time of planned nonlocal maintenance is/are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-04(05)_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-05.2",
+      "ao_id": "MNT-05.2_A02",
+      "objective": "personnel and roles are notified of the date and time of planned nonlocal maintenance.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-04(05)(b)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

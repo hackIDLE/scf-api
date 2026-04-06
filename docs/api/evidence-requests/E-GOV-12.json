@@ -1,0 +1,12 @@
+{
+  "erl_id": "E-GOV-12",
+  "area": "Cybersecurity & Data Protection Management",
+  "artifact_name": "Cybersecurity & Data Protection Policies & Standards Reviews",
+  "artifact_description": "Documented evidence of a periodic review process for the organization's cybersecurity & data protection policies and standards to identify necessary updates.",
+  "scf_controls": [
+    "GOV-03",
+    "SEA-01.1",
+    "SEA-01.2"
+  ],
+  "cmmc_mapping": ""
+}

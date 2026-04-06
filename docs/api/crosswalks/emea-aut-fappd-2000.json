@@ -1,0 +1,376 @@
+{
+  "framework_id": "emea-aut-fappd-2000",
+  "display_name": "Austria - Federal Act concerning the Protection of Personal Data (2000)",
+  "scf_to_framework": {
+    "total_mappings": 63,
+    "mappings": {
+      "GOV-01": [
+        "Sec 14",
+        "Sec 15"
+      ],
+      "GOV-02": [
+        "Sec 14",
+        "Sec 15"
+      ],
+      "GOV-03": [
+        "Sec 14",
+        "Sec 15"
+      ],
+      "GOV-04": [
+        "Sec 14",
+        "Sec 15"
+      ],
+      "AST-01": [
+        "Sec 14",
+        "Sec 15"
+      ],
+      "AST-02": [
+        "Sec 14",
+        "Sec 15"
+      ],
+      "AST-03": [
+        "Sec 14",
+        "Sec 15"
+      ],
+      "AST-04": [
+        "Sec 14",
+        "Sec 15"
+      ],
+      "BCD-01": [
+        "Sec 14",
+        "Sec 15"
+      ],
+      "CAP-01": [
+        "Sec 14",
+        "Sec 15"
+      ],
+      "CHG-01": [
+        "Sec 14",
+        "Sec 15"
+      ],
+      "CLD-01": [
+        "Sec 14",
+        "Sec 15"
+      ],
+      "CPL-01": [
+        "Sec 14",
+        "Sec 15"
+      ],
+      "CFG-01": [
+        "Sec 14",
+        "Sec 15"
+      ],
+      "MON-01": [
+        "Sec 14",
+        "Sec 15"
+      ],
+      "MON-01.16": [
+        "Sec 14",
+        "Sec 15"
+      ],
+      "CRY-01": [
+        "Sec 14",
+        "Sec 15"
+      ],
+      "DCH-01": [
+        "Sec 14",
+        "Sec 15"
+      ],
+      "DCH-22.1": [
+        "Sec 27"
+      ],
+      "DCH-24": [
+        "Sec 10"
+      ],
+      "DCH-24.1": [
+        "Sec 10"
+      ],
+      "DCH-25": [
+        "Sec 10"
+      ],
+      "EMB-01": [
+        "Sec 14",
+        "Sec 15"
+      ],
+      "END-01": [
+        "Sec 14",
+        "Sec 15"
+      ],
+      "HRS-01": [
+        "Sec 14",
+        "Sec 15"
+      ],
+      "IAC-01": [
+        "Sec 14",
+        "Sec 15"
+      ],
+      "IRO-01": [
+        "Sec 14",
+        "Sec 15"
+      ],
+      "IRO-14": [
+        "Sec 10"
+      ],
+      "IAO-01": [
+        "Sec 14",
+        "Sec 15"
+      ],
+      "MNT-01": [
+        "Sec 14",
+        "Sec 15"
+      ],
+      "MDM-01": [
+        "Sec 14",
+        "Sec 15"
+      ],
+      "NET-01": [
+        "Sec 14",
+        "Sec 15"
+      ],
+      "PES-01": [
+        "Sec 14",
+        "Sec 15"
+      ],
+      "PRI-01": [
+        "Sec 14",
+        "Sec 15"
+      ],
+      "PRI-02.1": [
+        "Sec 6"
+      ],
+      "PRI-03": [
+        "Sec 8"
+      ],
+      "PRI-03.2": [
+        "Sec 8"
+      ],
+      "PRI-04": [
+        "Sec 6"
+      ],
+      "PRI-04.1": [
+        "Sec 6"
+      ],
+      "PRI-05": [
+        "Sec 7"
+      ],
+      "PRI-05.1": [
+        "Sec 12"
+      ],
+      "PRI-05.4": [
+        "Sec 12"
+      ],
+      "PRI-06": [
+        "Sec 26"
+      ],
+      "PRI-06.1": [
+        "Sec 27"
+      ],
+      "PRI-06.3": [
+        "Sec 28"
+      ],
+      "PRI-07": [
+        "Sec 10"
+      ],
+      "PRI-07.1": [
+        "Sec 10"
+      ],
+      "PRI-15": [
+        "Sec 16",
+        "Sec 17"
+      ],
+      "PRM-01": [
+        "Sec 14",
+        "Sec 15"
+      ],
+      "RSK-01": [
+        "Sec 14",
+        "Sec 15"
+      ],
+      "SEA-01": [
+        "Sec 14",
+        "Sec 15"
+      ],
+      "SEA-02": [
+        "Sec 14",
+        "Sec 15"
+      ],
+      "SEA-03": [
+        "Sec 14",
+        "Sec 15"
+      ],
+      "SEA-15": [
+        "Sec 10"
+      ],
+      "OPS-01": [
+        "Sec 14",
+        "Sec 15"
+      ],
+      "SAT-01": [
+        "Sec 14",
+        "Sec 15"
+      ],
+      "TDA-01": [
+        "Sec 14",
+        "Sec 15"
+      ],
+      "TPM-01": [
+        "Sec 14",
+        "Sec 15"
+      ],
+      "TPM-04.4": [
+        "Sec 10"
+      ],
+      "THR-01": [
+        "Sec 14",
+        "Sec 15"
+      ],
+      "VPM-01": [
+        "Sec 14",
+        "Sec 15"
+      ],
+      "WEB-01": [
+        "Sec 14",
+        "Sec 15"
+      ],
+      "WEB-02": [
+        "Sec 14",
+        "Sec 15"
+      ]
+    }
+  },
+  "framework_to_scf": {
+    "total_mappings": 12,
+    "mappings": {
+      "Sec 14": [
+        "GOV-01",
+        "GOV-02",
+        "GOV-03",
+        "GOV-04",
+        "AST-01",
+        "AST-02",
+        "AST-03",
+        "AST-04",
+        "BCD-01",
+        "CAP-01",
+        "CHG-01",
+        "CLD-01",
+        "CPL-01",
+        "CFG-01",
+        "MON-01",
+        "MON-01.16",
+        "CRY-01",
+        "DCH-01",
+        "EMB-01",
+        "END-01",
+        "HRS-01",
+        "IAC-01",
+        "IRO-01",
+        "IAO-01",
+        "MNT-01",
+        "MDM-01",
+        "NET-01",
+        "PES-01",
+        "PRI-01",
+        "PRM-01",
+        "RSK-01",
+        "SEA-01",
+        "SEA-02",
+        "SEA-03",
+        "OPS-01",
+        "SAT-01",
+        "TDA-01",
+        "TPM-01",
+        "THR-01",
+        "VPM-01",
+        "WEB-01",
+        "WEB-02"
+      ],
+      "Sec 15": [
+        "GOV-01",
+        "GOV-02",
+        "GOV-03",
+        "GOV-04",
+        "AST-01",
+        "AST-02",
+        "AST-03",
+        "AST-04",
+        "BCD-01",
+        "CAP-01",
+        "CHG-01",
+        "CLD-01",
+        "CPL-01",
+        "CFG-01",
+        "MON-01",
+        "MON-01.16",
+        "CRY-01",
+        "DCH-01",
+        "EMB-01",
+        "END-01",
+        "HRS-01",
+        "IAC-01",
+        "IRO-01",
+        "IAO-01",
+        "MNT-01",
+        "MDM-01",
+        "NET-01",
+        "PES-01",
+        "PRI-01",
+        "PRM-01",
+        "RSK-01",
+        "SEA-01",
+        "SEA-02",
+        "SEA-03",
+        "OPS-01",
+        "SAT-01",
+        "TDA-01",
+        "TPM-01",
+        "THR-01",
+        "VPM-01",
+        "WEB-01",
+        "WEB-02"
+      ],
+      "Sec 27": [
+        "DCH-22.1",
+        "PRI-06.1"
+      ],
+      "Sec 10": [
+        "DCH-24",
+        "DCH-24.1",
+        "DCH-25",
+        "IRO-14",
+        "PRI-07",
+        "PRI-07.1",
+        "SEA-15",
+        "TPM-04.4"
+      ],
+      "Sec 6": [
+        "PRI-02.1",
+        "PRI-04",
+        "PRI-04.1"
+      ],
+      "Sec 8": [
+        "PRI-03",
+        "PRI-03.2"
+      ],
+      "Sec 7": [
+        "PRI-05"
+      ],
+      "Sec 12": [
+        "PRI-05.1",
+        "PRI-05.4"
+      ],
+      "Sec 26": [
+        "PRI-06"
+      ],
+      "Sec 28": [
+        "PRI-06.3"
+      ],
+      "Sec 16": [
+        "PRI-15"
+      ],
+      "Sec 17": [
+        "PRI-15"
+      ]
+    }
+  }
+}

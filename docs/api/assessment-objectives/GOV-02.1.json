@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "GOV-02.1",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "GOV-02.1",
+      "ao_id": "GOV-02.1_A01",
+      "objective": "exception requests to standards are formally submitted for review, along with a business justification for the deviation and proposed compensating controls.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-02.1",
+      "ao_id": "GOV-02.1_A02",
+      "objective": "the exception request undergoes a risk assessment to evaluate the business justification and proposed compensating controls.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-02.1",
+      "ao_id": "GOV-02.1_A03",
+      "objective": "a documented determination is made to approve or deny the exception request.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-02.1",
+      "ao_id": "GOV-02.1_A04",
+      "objective": "the requestor of the exception is provided a response on the determination including required actions, if applicable.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PRI-03",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-03",
+      "ao_id": "PRI-03_A01",
+      "objective": "the tools or mechanisms to be implemented for individuals to consent to the processing of their Personal Data (PD) are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PT-04_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-03",
+      "ao_id": "PRI-03_A02",
+      "objective": "tools or mechanisms are implemented for individuals to consent to the processing of their Personal Data (PD) prior to its collection that facilitates individuals’ informed decision-making.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_PT-04",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

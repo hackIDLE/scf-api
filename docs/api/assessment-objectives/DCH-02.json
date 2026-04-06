@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "DCH-02",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-02",
+      "ao_id": "DCH-02_A01",
+      "objective": "a data classification scheme is defined that covers reasonable data types to address the organization's operational needs.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-02",
+      "ao_id": "DCH-02_A02",
+      "objective": "data and assets are categorized in accordance with the data classification scheme that addresses applicable statutory, regulatory and contractual requirements.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

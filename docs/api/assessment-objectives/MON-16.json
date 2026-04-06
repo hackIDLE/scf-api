@@ -1,0 +1,126 @@
+{
+  "scf_control_id": "MON-16",
+  "total": 12,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MON-16",
+      "ao_id": "MON-16_A01",
+      "objective": "environments or resources which may contain or may be related to anomalous or suspected adversarial behavior are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-04(11)_ODP\n53A_R5_IR-04(13)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-16",
+      "ao_id": "MON-16_A02",
+      "objective": "systems are monitored to detect unauthorized local connections.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-04a.02[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-16",
+      "ao_id": "MON-16_A03",
+      "objective": "systems are monitored to detect unauthorized network connections.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-04a.02[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-16",
+      "ao_id": "MON-16_A04",
+      "objective": "systems are monitored to detect unauthorized remote connections.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-04a.02[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-16",
+      "ao_id": "MON-16_A05",
+      "objective": "outbound communications traffic at the external interfaces to the system is analyzed to discover anomalies.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-04(11)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-16",
+      "ao_id": "MON-16_A06",
+      "objective": "outbound communications traffic at interior points is analyzed to discover anomalies.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-04(11)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-16",
+      "ao_id": "MON-16_A07",
+      "objective": "anomalous or suspected adversarial behavior in or related to organization-defined environments or resources are analyzed.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IR-04(13)\n53A_R5_SI-04d.[01]\n53A_R5_SI-04d.[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-16",
+      "ao_id": "MON-16_A08",
+      "objective": "unauthorized use of the system is identified.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.14.06.b",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-16",
+      "ao_id": "MON-16_A09",
+      "objective": "anomalous or suspicious behavior is defined.",
+      "pptdf": "Process",
+      "origin": "172A_3.14.2e[a]\n53A_R5_AC-02(12)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-16",
+      "ao_id": "MON-16_A10",
+      "objective": "personnel or roles to report atypical usage is/are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-02(12)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at a minimum, the organization's cybersecurity team and/or similar role within the organization",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-16",
+      "ao_id": "MON-16_A11",
+      "objective": "atypical usage of system accounts is reported to organization-defined personnel or roles.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-02(12)(b)\n53A_R5_SI-04g.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at a minimum, the organization's cybersecurity team and/or similar role within the organization",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-16",
+      "ao_id": "MON-16_A12",
+      "objective": "organizational systems and system components are monitored on an ongoing basis for anomalous or suspicious behavior.",
+      "pptdf": "Technology",
+      "origin": "172A_3.14.2e[b]\n53A_R5_AC-02(12)(a)\n53A_R5_SI-04a.01",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

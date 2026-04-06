@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "VPM-05.6",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "VPM-05.6",
+      "ao_id": "VPM-05.6_A01",
+      "objective": "a process to conduct reasonable testing of software and/or firmware patching in a non-production environment, prior to production release, is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-05.6",
+      "ao_id": "VPM-05.6_A02",
+      "objective": "prior to production release, the organization performs reasonable testing of software and/or firmware patching in a non-production environment.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

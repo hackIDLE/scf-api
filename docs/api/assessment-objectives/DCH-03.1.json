@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "DCH-03.1",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-03.1",
+      "ao_id": "DCH-03.1_A01",
+      "objective": "a documented data classification scheme exists that covers data protection controls associated with sharing information with third-parties.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-03.1",
+      "ao_id": "DCH-03.1_A02",
+      "objective": "data stewards establish formalized business process-specific procedures to limit the disclosure of data to authorized parties.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-03.1",
+      "ao_id": "DCH-03.1_A03",
+      "objective": "the system security plan is protected from unauthorized disclosure.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.15.02.c",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-03.1",
+      "ao_id": "DCH-03.1_A04",
+      "objective": "the SCRM plan is protected from unauthorized disclosure.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SR-02c.[01]\n171A_R3_A.03.17.01.c",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

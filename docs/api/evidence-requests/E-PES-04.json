@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-PES-04",
+  "area": "Physical Security",
+  "artifact_name": "Physical Security Plan",
+  "artifact_description": "Documented evidence of a physical security plan.",
+  "scf_controls": [
+    "PES-01.1"
+  ],
+  "cmmc_mapping": "SI.L2-3.14.6\nSI.L2-3.14.7"
+}

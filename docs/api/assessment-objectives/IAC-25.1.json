@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "IAC-25.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-25.1",
+      "ao_id": "IAC-25.1_A01",
+      "objective": "information resources for which a logout capability for user-initiated communications sessions is required are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-12(01)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-25.1",
+      "ao_id": "IAC-25.1_A02",
+      "objective": "a logout capability is provided for user-initiated communications sessions whenever authentication is used to gain access to organization-defined information resources.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-12(01)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

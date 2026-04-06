@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "GOV-05",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "GOV-05",
+      "ao_id": "GOV-05_A01",
+      "objective": "cybersecurity / data privacy measures of performance are developed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-06[01]\n53A_R5_PM-06[04]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-05",
+      "ao_id": "GOV-05_A02",
+      "objective": "cybersecurity / data privacy measures of performance are monitored.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-06[02]\n53A_R5_PM-06[05]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-05",
+      "ao_id": "GOV-05_A03",
+      "objective": "the results of cybersecurity / data privacy measures of performance are reported.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-06[03]\n53A_R5_PM-06[06]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

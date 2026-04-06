@@ -1,0 +1,76 @@
+{
+  "scf_control_id": "TDA-02.3",
+  "total": 7,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-02.3",
+      "ao_id": "TDA-02.3_A01",
+      "objective": "cybersecurity / data privacy systems engineering methods are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-04(03)_ODP[01]\n53A_R5_SA-04(03)_ODP[02]\n53A_R5_SA-04(03)_ODP[03]\n53A_R5_SA-04(03)_ODP[04]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-02.3",
+      "ao_id": "TDA-02.3_A02",
+      "objective": "software development methods are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-04(03)_ODP[05]\n53A_R5_SA-04(03)_ODP[06]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-02.3",
+      "ao_id": "TDA-02.3_A03",
+      "objective": "testing, evaluation, assessment, verification and validation methods are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-04(03)_ODP[07]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-02.3",
+      "ao_id": "TDA-02.3_A04",
+      "objective": "quality control processes are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-04(03)_ODP[08]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-02.3",
+      "ao_id": "TDA-02.3_A05",
+      "objective": "the developer of the system, system component or system service is required to demonstrate the use of a system development life cycle process that includes organization-defined system security engineering methods.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-04(03)(a)\n53A_R5_SA-04(03)(b)\n53A_R5_SA-04(03)(c)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-02.3",
+      "ao_id": "TDA-02.3_A06",
+      "objective": "systems security engineering principles to be applied to the development or modification of the system and system components are defined.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.16.01.ODP[01]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-02.3",
+      "ao_id": "TDA-02.3_A07",
+      "objective": "<A.03.16.01.ODP[01]: systems security engineering principles> are applied to the development or modification of the system and system components.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.16.01",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "Guidance: At a minimum, documentation that provides user and administrator guidance for the implementation and operation of controls. The level of detail required in such documentation should be based on the degree to which organizations depend on the capabilities, functions, or mechanisms to meet risk response expectations. Requirements can include mandated configuration settings that specify allowed functions, ports, protocols, and services. Acceptance criteria for systems, system components, and system services are defined in the same manner as the criteria for any organizational acquisition or procurement.",
+      "org_defined_parameters": ""
+    }
+  ]
+}

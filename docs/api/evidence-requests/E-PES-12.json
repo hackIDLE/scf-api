@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-PES-12",
+  "area": "Physical Security",
+  "artifact_name": "Entry and Exist Points",
+  "artifact_description": "Documented evidence of physical entry and exit points.",
+  "scf_controls": [
+    "PES-03.1"
+  ],
+  "cmmc_mapping": "PE.L1-3.10.3\nPE.L1-3.10.4\nPE.L1-3.10.5"
+}

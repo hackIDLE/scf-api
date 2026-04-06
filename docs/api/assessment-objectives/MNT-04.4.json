@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "MNT-04.4",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MNT-04.4",
+      "ao_id": "MNT-04.4_A01",
+      "objective": "the use of maintenance tools is restricted to authorized personnel only.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-03(04)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

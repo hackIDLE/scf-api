@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "HRS-09.4",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "HRS-09.4",
+      "ao_id": "HRS-09.4_A01",
+      "objective": "automated mechanisms to notify personnel or roles of individual termination actions and/or to disable access to system resources are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PS-04(02)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-09.4",
+      "ao_id": "HRS-09.4_A02",
+      "objective": "personnel or roles to be notified upon termination of an individual is/are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PS-04(02)_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-09.4",
+      "ao_id": "HRS-09.4_A03",
+      "objective": "automated mechanisms are used to notify personnel or roles of individual termination actions and/or disable access to system resources.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_PS-04(02)\n53A_R5_PS-04(02)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

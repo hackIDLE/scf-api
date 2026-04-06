@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "PRI-05.2",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-05.2",
+      "ao_id": "PRI-05.2_A01",
+      "objective": "a data integrity board/function is established.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-24",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05.2",
+      "ao_id": "PRI-05.2_A02",
+      "objective": "the data integrity board/function reviews proposals to conduct or participate in a matching program.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-24a.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05.2",
+      "ao_id": "PRI-05.2_A03",
+      "objective": "the data integrity board/function conducts an annual review of all matching programs in which the agency has participated.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-24b.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

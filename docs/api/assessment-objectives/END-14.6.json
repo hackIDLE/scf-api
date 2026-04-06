@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "END-14.6",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "END-14.6",
+      "ao_id": "END-14.6_A01",
+      "objective": "an explicit indication of use is provided to users who are physically present at the devices.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.13.12.b",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "HRS-01.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "HRS-01.1",
+      "ao_id": "HRS-01.1_A01",
+      "objective": "the organization proactively governs secure practices to address personnel onboarding, transfers and offboarding actions",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

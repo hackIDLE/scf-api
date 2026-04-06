@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "AAT-05",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-05",
+      "ao_id": "AAT-05_A01",
+      "objective": "roles and responsibilities for role-based cybersecurity / data privacy training are defined for Artificial Intelligence (AI) and Autonomous Technologies (AAT) internal and external stakeholders.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-05",
+      "ao_id": "AAT-05_A02",
+      "objective": "the frequency at which to provide role-based cybersecurity / data privacy training to Artificial Intelligence (AI) and Autonomous Technologies (AAT) stakeholders after initial training is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-05",
+      "ao_id": "AAT-05_A03",
+      "objective": "events that require role-based training content for Artificial Intelligence (AI) and Autonomous Technologies (AAT) to be updated are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-05",
+      "ao_id": "AAT-05_A04",
+      "objective": "role-based privacy training is provided to organization-defined roles and responsibilities before authorizing access to Artificial Intelligence (AI) and Autonomous Technologies (AAT) or performing assigned duties.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-05",
+      "ao_id": "AAT-05_A05",
+      "objective": "role-based cybersecurity / data privacy training for Artificial Intelligence (AI) and Autonomous Technologies (AAT) is provided upon hire and per an organization-defined frequency thereafter.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    }
+  ]
+}

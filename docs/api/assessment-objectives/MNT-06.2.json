@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "MNT-06.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MNT-06.2",
+      "ao_id": "MNT-06.2_A01",
+      "objective": "non-escorted personnel performing maintenance activities not directly associated with the system but in the physical proximity of the system have required access authorizations.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-05(05)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-06.2",
+      "ao_id": "MNT-06.2_A02",
+      "objective": "non-escorted personnel who perform maintenance on the system possess the required access authorizations.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.07.06.c",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

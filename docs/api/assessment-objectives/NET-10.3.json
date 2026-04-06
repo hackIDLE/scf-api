@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "NET-10.3",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-10.3",
+      "ao_id": "NET-10.3_A01",
+      "objective": "the legitimacy of email communications is validated through configuring a Domain Naming Service (DNS) Sender Policy Framework (SPF) record to specify the IP addresses and/or hostnames that are authorized to send email from the specified domain.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

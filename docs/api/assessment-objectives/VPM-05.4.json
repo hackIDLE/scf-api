@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "VPM-05.4",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "VPM-05.4",
+      "ao_id": "VPM-05.4_A01",
+      "objective": "the system components requiring automated patch management tools to facilitate flaw remediation are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-02(04)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-05.4",
+      "ao_id": "VPM-05.4_A02",
+      "objective": "automated patch management tools are employed to facilitate flaw remediation to components.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-02(04)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-05.4",
+      "ao_id": "VPM-05.4_A03",
+      "objective": "security-relevant software and firmware updates to be automatically installed to system components are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-02(05)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-05.4",
+      "ao_id": "VPM-05.4_A04",
+      "objective": "system components requiring security-relevant software updates to be automatically installed are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-02(05)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-05.4",
+      "ao_id": "VPM-05.4_A05",
+      "objective": "security-relevant software and firmware updates are installed automatically to system components.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-02(05)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

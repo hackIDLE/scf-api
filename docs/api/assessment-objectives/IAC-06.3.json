@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "IAC-06.3",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-06.3",
+      "ao_id": "IAC-06.3_A01",
+      "objective": "privileged accounts are identified.",
+      "pptdf": "Process",
+      "origin": "171A_3.5.3[a]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-06.3",
+      "ao_id": "IAC-06.3_A02",
+      "objective": "multifactor authentication is implemented for local access to privileged accounts.",
+      "pptdf": "Technology",
+      "origin": "171A_3.5.3[b]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

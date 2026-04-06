@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "BCD-10.4",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "BCD-10.4",
+      "ao_id": "BCD-10.4_A01",
+      "objective": "alternate communication paths for system operations and operational command and control are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-47_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-10.4",
+      "ao_id": "BCD-10.4_A02",
+      "objective": "alternate communication paths are established for system operations and operational command and control.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-47",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "EMB-17",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "EMB-17",
+      "ao_id": "EMB-17_A01",
+      "objective": "embedded technologies utilize pre-provisioned cloud trust anchors to support secure bootstrap and Zero Touch Provisioning (ZTP).",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

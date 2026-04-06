@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "SEA-19",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "SEA-19",
+      "ao_id": "SEA-19_A01",
+      "objective": "the user is notified, upon successful logon to the system, of the date and time of the last logon.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-09",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

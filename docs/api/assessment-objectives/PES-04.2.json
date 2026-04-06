@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "PES-04.2",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PES-04.2",
+      "ao_id": "PES-04.2_A01",
+      "objective": "physical security personnel inspect individuals and their personal effects (e.g., personal property ordinarily worn or carried by the individual, including vehicles) to prevent the unauthorized exfiltration of data and technology assets.",
+      "pptdf": "Facility",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

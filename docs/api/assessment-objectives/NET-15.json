@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "NET-15",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-15",
+      "ao_id": "NET-15_A01",
+      "objective": "usage restrictions are established for each type of wireless access to the system.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.01.16.a[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-15",
+      "ao_id": "NET-15_A02",
+      "objective": "connection requirements are established for each type of wireless access to the system.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.01.16.a[04]\n53A_R5_AC-18a.[01]\n53A_R5_AC-18a.[02]\n53A_R5_AC-18a.[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-15",
+      "ao_id": "NET-15_A03",
+      "objective": "wireless access points are identified.",
+      "pptdf": "Process",
+      "origin": "171A_3.1.16[a]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-15",
+      "ao_id": "NET-15_A04",
+      "objective": "wireless access is authorized prior to allowing such connections.",
+      "pptdf": "Technology",
+      "origin": "171A_3.1.16[b]\n53A_R5_AC-18b.",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-15",
+      "ao_id": "NET-15_A05",
+      "objective": "each type of wireless access to the system is defined.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.01.16.a[01]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

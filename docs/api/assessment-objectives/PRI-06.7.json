@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "PRI-06.7",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-06.7",
+      "ao_id": "PRI-06.7_A01",
+      "objective": "Personal Data (PD) is capable of being digitally exported in a secure manner upon request by the data subject.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

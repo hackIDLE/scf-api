@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-OPS-01",
+  "area": "Security Operations",
+  "artifact_name": "Security Operations Center (SOC)",
+  "artifact_description": "Documented evidence of a Security Operations Center (SOC).",
+  "scf_controls": [
+    "OPS-04"
+  ],
+  "cmmc_mapping": ""
+}

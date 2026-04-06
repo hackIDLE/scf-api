@@ -1,0 +1,96 @@
+{
+  "scf_control_id": "MNT-02.1",
+  "total": 9,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MNT-02.1",
+      "ao_id": "MNT-02.1_A01",
+      "objective": "automated mechanisms used to schedule maintenance, repair and replacement actions for the system, application and/or service are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-02(02)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-02.1",
+      "ao_id": "MNT-02.1_A02",
+      "objective": "automated mechanisms used to conduct maintenance, repair and replacement actions for the system, application and/or service are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-02(02)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-02.1",
+      "ao_id": "MNT-02.1_A03",
+      "objective": "automated mechanisms used to document maintenance, repair and replacement actions for the system, application and/or service are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-02(02)_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-02.1",
+      "ao_id": "MNT-02.1_A04",
+      "objective": "automated mechanisms are used to schedule maintenance, repair and replacement actions for the system, application and/or service.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_MA-02(02)(a)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-02.1",
+      "ao_id": "MNT-02.1_A05",
+      "objective": "automated mechanisms are used to conduct maintenance, repair and replacement actions for the system, application and/or service.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_MA-02(02)(a)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-02.1",
+      "ao_id": "MNT-02.1_A06",
+      "objective": "automated mechanisms are used to document maintenance, repair and replacement actions for the system, application and/or service.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_MA-02(02)(a)[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-02.1",
+      "ao_id": "MNT-02.1_A07",
+      "objective": "up-to-date, accurate and complete records of all maintenance actions requested, scheduled, in process and completed are produced.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-02(02)(b)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-02.1",
+      "ao_id": "MNT-02.1_A08",
+      "objective": "up-to-date, accurate and complete records of all repair actions requested, scheduled, in process and completed are produced.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-02(02)(b)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-02.1",
+      "ao_id": "MNT-02.1_A09",
+      "objective": "up-to-date, accurate and complete records of all replacement actions requested, scheduled, in process and completed are produced.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-02(02)(b)[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

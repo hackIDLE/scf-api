@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "CRY-09.5",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CRY-09.5",
+      "ao_id": "CRY-09.5_A01",
+      "objective": "secure baseline configurations ensure cryptographic keys are bound to individual identities.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

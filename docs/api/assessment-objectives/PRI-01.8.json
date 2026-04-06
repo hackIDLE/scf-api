@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PRI-01.8",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-01.8",
+      "ao_id": "PRI-01.8_A01",
+      "objective": "an individual, or role, is appointed to determine along the purpose and means of processing of Personal Data (PD).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-01.8",
+      "ao_id": "PRI-01.8_A02",
+      "objective": "the purpose and means of processing of Personal Data (PD) is documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

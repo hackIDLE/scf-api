@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-VPM-03",
+  "area": "Vulnerability Management",
+  "artifact_name": "Penetration Testing - Network",
+  "artifact_description": "Documented evidence of internal and external network penetration testing activities that focus on discovering and exploiting security vulnerabilities.",
+  "scf_controls": [
+    "VPM-07"
+  ],
+  "cmmc_mapping": ""
+}

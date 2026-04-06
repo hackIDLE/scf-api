@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "END-01.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "END-01.1",
+      "ao_id": "END-01.1_A01",
+      "objective": "a centralized Unified Endpoint Device Management (UEDM) solution is used to provide agent and/or agentless management of endpoint devices, regardless of device location.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

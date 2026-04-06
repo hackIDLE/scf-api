@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "NET-06.2",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-06.2",
+      "ao_id": "NET-06.2_A01",
+      "objective": "enable Virtual Local Area Networks (VLANs) to limit the ability of devices on a network to directly communicate with other devices on the subnet and limit an attacker's ability to laterally move to compromise neighboring systems.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

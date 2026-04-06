@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "DCH-13.4",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-13.4",
+      "ao_id": "DCH-13.4_A01",
+      "objective": "restrictions on the use of non-organizationally owned systems or system components to process, store or transmit organizational information are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-20(03)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-13.4",
+      "ao_id": "DCH-13.4_A02",
+      "objective": "the use of non-organizationally owned systems or system components to process, store or transmit organizational information is restricted using organization-defined restrictions.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-20(03)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-13.4",
+      "ao_id": "DCH-13.4_A03",
+      "objective": "information resources that are owned, provisioned or issued by the organization are identified.",
+      "pptdf": "Process",
+      "origin": "172A_3.1.2e[a]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-13.4",
+      "ao_id": "DCH-13.4_A04",
+      "objective": "access to systems and system components is restricted to only those information resources that are owned, provisioned or issued by the organization.",
+      "pptdf": "Technology",
+      "origin": "172A_3.1.2e[b]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

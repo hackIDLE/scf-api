@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-GOV-02",
+  "area": "Cybersecurity & Data Protection Management",
+  "artifact_name": "Charter - Data Privacy Program",
+  "artifact_description": "Documented evidence of a charter to establish and resource the organization's data privacy program.",
+  "scf_controls": [
+    "GOV-01",
+    "PRI-01"
+  ],
+  "cmmc_mapping": ""
+}

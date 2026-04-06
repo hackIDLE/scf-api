@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "CLD-08",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CLD-08",
+      "ao_id": "CLD-08_A01",
+      "objective": "cloud providers use industry-recognized formats to support secure interoperability.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CLD-08",
+      "ao_id": "CLD-08_A02",
+      "objective": "cloud providers provide documentation of custom changes to virtualization formats for review by affected stakeholders.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

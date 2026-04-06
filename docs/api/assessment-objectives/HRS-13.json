@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "HRS-13",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "HRS-13",
+      "ao_id": "HRS-13_A01",
+      "objective": "critical cybersecurity / data privacy skills needed to support the organization's mission are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-13",
+      "ao_id": "HRS-13_A02",
+      "objective": "gaps / shortfalls in identified critical cybersecurity / data privacy skills needed to support the organization's mission are identified.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

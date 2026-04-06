@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "GOV-08",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "GOV-08",
+      "ao_id": "GOV-08_A01",
+      "objective": "the organization's mission is clearly defined and documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-08",
+      "ao_id": "GOV-08_A02",
+      "objective": "the organization's executive leadership defines and documents a formal business strategy that is used to provide operational guidance to key business leaders across the organization.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

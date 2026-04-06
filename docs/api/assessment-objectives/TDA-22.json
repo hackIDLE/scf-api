@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "TDA-22",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-22",
+      "ao_id": "TDA-22_A01",
+      "objective": "appropriate technical documentation artifacts are generated for products and/or services in sufficient detail to demonstrate conformity with applicable statutory, regulatory and contractual compliance requirements.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

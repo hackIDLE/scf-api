@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-HRS-26",
+  "area": "Human Resources",
+  "artifact_name": "Vital Cybersecurity & Data Privacy Staff",
+  "artifact_description": "Documented evidence of personnel management practices to formally identify vital cybersecurity & data privacy personnel.",
+  "scf_controls": [
+    "HRS-13.2"
+  ],
+  "cmmc_mapping": ""
+}

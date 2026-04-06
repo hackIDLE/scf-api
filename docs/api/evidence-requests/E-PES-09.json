@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-PES-09",
+  "area": "Physical Security",
+  "artifact_name": "Key & Combination Changes",
+  "artifact_description": "Documented evidence of key and lock combination changes.",
+  "scf_controls": [
+    "PES-03"
+  ],
+  "cmmc_mapping": "PE.L1-3.10.3\nPE.L1-3.10.4\nPE.L1-3.10.5"
+}

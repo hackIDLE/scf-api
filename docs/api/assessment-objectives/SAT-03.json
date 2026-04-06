@@ -1,0 +1,226 @@
+{
+  "scf_control_id": "SAT-03",
+  "total": 22,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "SAT-03",
+      "ao_id": "SAT-03_A01",
+      "objective": "roles and responsibilities for role-based cybersecurity / data privacy training are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AT-03_ODP[01]\n53A_R5_AT-03_ODP[02]\n171A_3.2.2[a]\n171A_3.2.2[b]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-03",
+      "ao_id": "SAT-03_A02",
+      "objective": "events that require role-based security training content updates are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AT-03_ODP[05]\n171A_R3_A.03.02.02.ODP[04]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-03",
+      "ao_id": "SAT-03_A03",
+      "objective": "role-based cybersecurity / data privacy training is provided to organizational personnel before authorizing access to the system or sensitive / regulated data.",
+      "pptdf": "People",
+      "origin": "53A_R5_AT-03a.01[01]\n171A_3.2.2[c]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-03",
+      "ao_id": "SAT-03_A04",
+      "objective": "role-based security training is provided to organizational personnel before performing assigned duties.",
+      "pptdf": "People",
+      "origin": "53A_R5_AT-03a.01[02]\n171A_R3_A.03.02.02.a.01[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-03",
+      "ao_id": "SAT-03_A05",
+      "objective": "role-based cybersecurity / data privacy training is provided to organizational personnel per an organization-defined frequency after initial training.",
+      "pptdf": "People",
+      "origin": "53A_R5_AT-03a.01[03]\n53A_R5_AT-03a.01[04]\n171A_3.2.2[c]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-03",
+      "ao_id": "SAT-03_A06",
+      "objective": "role-based cybersecurity / data privacy training is provided to organizational personnel when required by system changes or following organization-defined events.",
+      "pptdf": "People",
+      "origin": "53A_R5_AT-03a.02[01]\n53A_R5_AT-03a.02[02]\n171A_3.2.2[c]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-03",
+      "ao_id": "SAT-03_A07",
+      "objective": "the frequency at which to provide role-based security training to assigned personnel after initial training is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AT-03_ODP[03]\n171A_R3_A.03.02.02.ODP[01]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-03",
+      "ao_id": "SAT-03_A08",
+      "objective": "the frequency at which to update role-based security training content is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AT-03_ODP[04]\n171A_R3_A.03.02.02.ODP[03]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-03",
+      "ao_id": "SAT-03_A09",
+      "objective": "role-based security training content is updated per an organization-defined frequency.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AT-03b.[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-03",
+      "ao_id": "SAT-03_A10",
+      "objective": "role-based security training content is updated following organization-defined events.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AT-03b.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-03",
+      "ao_id": "SAT-03_A11",
+      "objective": "lessons learned from internal or external security incidents or breaches are incorporated into role-based training.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AT-03c.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-03",
+      "ao_id": "SAT-03_A12",
+      "objective": "events that require role-based security training are defined.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.02.02.ODP[02]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-03",
+      "ao_id": "SAT-03_A13",
+      "objective": "incident response training for system users consistent with assigned roles and responsibilities is provided within an organization-defined time period of assuming an incident response role or responsibility or acquiring system access.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-03",
+      "ao_id": "SAT-03_A14",
+      "objective": "incident response training for system users consistent with assigned roles and responsibilities is provided when required by system changes.",
+      "pptdf": "People",
+      "origin": "171A_R3_A.03.06.04.a.02",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-03",
+      "ao_id": "SAT-03_A15",
+      "objective": "incident response training for system users consistent with assigned roles and responsibilities is provided per an organization-defined frequency thereafter.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least every 12 months, or when there are significant\nincidents or significant changes to risks",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-03",
+      "ao_id": "SAT-03_A16",
+      "objective": "role-based security training is provided to organizational personnel before authorizing access to the system or CUI.",
+      "pptdf": "People",
+      "origin": "171A_R3_A.03.02.02.a.01[01]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-03",
+      "ao_id": "SAT-03_A17",
+      "objective": "role-based security training is provided to organizational personnel <A.03.02.02.ODP[01]: frequency> after initial training.",
+      "pptdf": "People",
+      "origin": "171A_R3_A.03.02.02.a.01[03]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "at least every 12 months",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-03",
+      "ao_id": "SAT-03_A18",
+      "objective": "role-based security training is provided to organizational personnel when required by system changes or following <A.03.02.02.ODP[02]: events>.",
+      "pptdf": "People",
+      "origin": "171A_R3_A.03.02.02.a.02",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "significant, novel incidents, or significant changes to risks",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-03",
+      "ao_id": "SAT-03_A19",
+      "objective": "role-based security training content is updated <A.03.02.02.ODP[03]: frequency>.",
+      "pptdf": "Process",
+      "origin": "A.03.02.02.b[01]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "at least every 12 months",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-03",
+      "ao_id": "SAT-03_A20",
+      "objective": "role-based security training content is updated following <A.03.02.02.ODP[04]: events>.",
+      "pptdf": "Process",
+      "origin": "A.03.02.02.b[02]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "significant, novel incidents, or significant changes to risks",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-03",
+      "ao_id": "SAT-03_A21",
+      "objective": "incident response training for system users consistent with assigned roles and responsibilities is provided within <A.03.06.04.ODP[01]: time period> of assuming an incident response role or responsibility or acquiring system access.",
+      "pptdf": "People",
+      "origin": "171A_R3_A.03.06.04.a.01",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "ten (10) days for privileged users, thirty (30) days for all other roles",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-03",
+      "ao_id": "SAT-03_A22",
+      "objective": "incident response training for system users consistent with assigned roles and responsibilities is provided <A.03.06.04.ODP[02]: frequency> thereafter.",
+      "pptdf": "People",
+      "origin": "171A_R3_A.03.06.04.a.03",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "at least every 12 months",
+      "org_defined_parameters": ""
+    }
+  ]
+}

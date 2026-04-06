@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "DCH-16",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-16",
+      "ao_id": "DCH-16_A01",
+      "objective": "data mining prevention and detection techniques are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-23_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-16",
+      "ao_id": "DCH-16_A02",
+      "objective": "data storage objects to be protected against unauthorized data mining are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-23_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-16",
+      "ao_id": "DCH-16_A03",
+      "objective": "mechanisms are employed for organization-defined data storage objects to detect and protect against unauthorized data mining.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-23",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

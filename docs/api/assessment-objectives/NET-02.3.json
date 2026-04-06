@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "NET-02.3",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-02.3",
+      "ao_id": "NET-02.3_A01",
+      "objective": "a Cross Domain Solution (CDS) is implemented to mitigate the specific security risks of accessing or transferring information between security domains.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

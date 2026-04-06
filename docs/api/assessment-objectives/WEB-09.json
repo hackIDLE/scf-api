@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "WEB-09",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "WEB-09",
+      "ao_id": "WEB-09_A01",
+      "objective": "all input handled by a web application is validated and/or sanitized.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

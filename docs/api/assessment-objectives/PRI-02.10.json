@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PRI-02.10",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-02.10",
+      "ao_id": "PRI-02.10_A01",
+      "objective": "methods to implement symmetry in choice are identified, where options presented to consumers for more protective options are not longer, more difficult, nor more time-consuming than less protective options.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-02.10",
+      "ao_id": "PRI-02.10_A02",
+      "objective": "symmetry in choice are implemented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "scf_control_id": "TDA-14",
+  "total": 24,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-14",
+      "ao_id": "TDA-14_A01",
+      "objective": "the developer of system, systems component or system service is required to have appropriate access authorizations as determined by assigned official duties.",
+      "pptdf": "People",
+      "origin": "53A_R5_SA-21a.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-14",
+      "ao_id": "TDA-14_A02",
+      "objective": "configuration items under configuration management are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-10_ODP[01]\n53A_R5_SA-10_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-14",
+      "ao_id": "TDA-14_A03",
+      "objective": "personnel to whom security flaws and flaw resolutions within the system, component or service are reported is/are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-10_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-14",
+      "ao_id": "TDA-14_A04",
+      "objective": "the developer of the system, system component or system service is required to perform configuration management during system, component or service per organization-defined criteria.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-10a.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "development, implementation, AND operation",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-14",
+      "ao_id": "TDA-14_A05",
+      "objective": "the developer of the system, system component or system service is required to document the integrity of changes to configuration items.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-10b.[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-14",
+      "ao_id": "TDA-14_A06",
+      "objective": "the developer of the system, system component or system service is required to manage the integrity of changes to configuration items.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-10b.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-14",
+      "ao_id": "TDA-14_A07",
+      "objective": "the developer of the system, system component or system service is required to control the integrity of changes to configuration items.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-10b.[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-14",
+      "ao_id": "TDA-14_A08",
+      "objective": "the developer of the system, system component or system service is required to implement only organization-approved changes to the system, component or service.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-10c.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-14",
+      "ao_id": "TDA-14_A09",
+      "objective": "the developer of the system, system component or system service is required to document approved changes to the system, component or service.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-10d.[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-14",
+      "ao_id": "TDA-14_A10",
+      "objective": "the developer of the system, system component or system service is required to document the potential security impacts of approved changes.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-10d.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-14",
+      "ao_id": "TDA-14_A11",
+      "objective": "the developer of the system, system component or system service is required to document the potential privacy impacts of approved changes.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-10d.[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-14",
+      "ao_id": "TDA-14_A12",
+      "objective": "the developer of the system, system component or system service is required to track security flaws within the system, component or service.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-10e.[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-14",
+      "ao_id": "TDA-14_A13",
+      "objective": "the developer of the system, system component or system service is required to track security flaw resolutions within the system, component or service.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-10e.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-14",
+      "ao_id": "TDA-14_A14",
+      "objective": "the developer of the system, system component or system service is required to report findings to personnel.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-10e.[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-14",
+      "ao_id": "TDA-14_A15",
+      "objective": "an alternate configuration management process has been provided using organizational personnel in the absence of a dedicated developer configuration management team.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-10(02)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-14",
+      "ao_id": "TDA-14_A16",
+      "objective": "the frequency with which to reassess individual positions and access to sensitive / regulated data is defined.",
+      "pptdf": "Process",
+      "origin": "172A_3.9.1e_ODP[2]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-14",
+      "ao_id": "TDA-14_A17",
+      "objective": "individuals that require enhanced personnel screening are identified.",
+      "pptdf": "Process",
+      "origin": "172A_3.9.1e[a]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-14",
+      "ao_id": "TDA-14_A18",
+      "objective": "positions that require access to sensitive / regulated data are identified.",
+      "pptdf": "Process",
+      "origin": "172A_3.9.1e[b]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-14",
+      "ao_id": "TDA-14_A19",
+      "objective": "organization-defined enhanced personnel screening is conducted for individuals.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-21b.\n172A_3.9.1e_ODP[1]\n172A_3.9.1e[c]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-14",
+      "ao_id": "TDA-14_A20",
+      "objective": "individual positions and access to sensitive / regulated data is reassessed per an organization-defined frequency.",
+      "pptdf": "Process",
+      "origin": "172A_3.9.1e[d]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-14",
+      "ao_id": "TDA-14_A21",
+      "objective": "individuals with access to sensitive / regulated data are identified.",
+      "pptdf": "Process",
+      "origin": "172A_3.9.2e[a]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-14",
+      "ao_id": "TDA-14_A22",
+      "objective": "adverse information about individuals with access to sensitive / regulated data is defined.",
+      "pptdf": "Process",
+      "origin": "172A_3.9.2e[b]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-14",
+      "ao_id": "TDA-14_A23",
+      "objective": "organizational systems to which individuals have access are identified.",
+      "pptdf": "Process",
+      "origin": "172A_3.9.2e[c]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-14",
+      "ao_id": "TDA-14_A24",
+      "objective": "mechanisms are in place to protect organizational systems if adverse information develops or is obtained about individuals with access to sensitive / regulated data.",
+      "pptdf": "Process",
+      "origin": "172A_3.9.2e[d]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

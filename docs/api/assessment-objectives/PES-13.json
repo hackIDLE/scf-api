@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "PES-13",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PES-13",
+      "ao_id": "PES-13_A01",
+      "objective": "the system is protected from information leakage due to electromagnetic signal emanations.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-19",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

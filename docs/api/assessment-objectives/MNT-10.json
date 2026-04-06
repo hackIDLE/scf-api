@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "MNT-10",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MNT-10",
+      "ao_id": "MNT-10_A01",
+      "objective": "maintenance activities are validated to ensure they were appropriately performed according to the work order and that security controls are operational.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

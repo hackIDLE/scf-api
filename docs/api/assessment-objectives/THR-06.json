@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "THR-06",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "THR-06",
+      "ao_id": "THR-06_A01",
+      "objective": "a public reporting channel is established for receiving reports of vulnerabilities in organizational systems and system components.",
+      "pptdf": "Process",
+      "origin": "53A_R5_RA-05(11)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

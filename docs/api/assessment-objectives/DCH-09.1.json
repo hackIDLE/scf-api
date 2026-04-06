@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "DCH-09.1",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-09.1",
+      "ao_id": "DCH-09.1_A01",
+      "objective": "media sanitization and disposal actions are reviewed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MP-06(01)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-09.1",
+      "ao_id": "DCH-09.1_A02",
+      "objective": "media sanitization and disposal actions are approved.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_MP-06(01)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-09.1",
+      "ao_id": "DCH-09.1_A03",
+      "objective": "media sanitization and disposal actions are documented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MP-06(01)[04]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-09.1",
+      "ao_id": "DCH-09.1_A04",
+      "objective": "media sanitization and disposal actions are tracked.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_MP-06(01)[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-09.1",
+      "ao_id": "DCH-09.1_A05",
+      "objective": "media sanitization and disposal actions are verified.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_MP-06(01)[05]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

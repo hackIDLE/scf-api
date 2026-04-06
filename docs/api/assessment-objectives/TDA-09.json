@@ -1,0 +1,166 @@
+{
+  "scf_control_id": "TDA-09",
+  "total": 16,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-09",
+      "ao_id": "TDA-09_A01",
+      "objective": "the developer of the system, system component or system service is required to demonstrate the use of a system development life cycle process that includes organization-defined system security engineering methods.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-04(03)(a)\n53A_R5_SA-04(03)(b)\n53A_R5_SA-04(03)(c)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-09",
+      "ao_id": "TDA-09_A02",
+      "objective": "the developer of the system, system component or system service is required to perform attack surface reviews.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11(06)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-09",
+      "ao_id": "TDA-09_A03",
+      "objective": "the breadth of testing and evaluation of required controls is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11(07)_ODP[01]\n53A_R5_SA-11_ODP[03]\n53A_R5_SA-11_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-09",
+      "ao_id": "TDA-09_A04",
+      "objective": "the depth of testing and evaluation of required controls is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11(07)_ODP[02]\n53A_R5_SA-11_ODP[03]\n53A_R5_SA-11_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-09",
+      "ao_id": "TDA-09_A05",
+      "objective": "frequency at which to conduct testing/evaluation is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11_ODP[02]\n53A_R5_SA-11_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-09",
+      "ao_id": "TDA-09_A06",
+      "objective": "the developer of the system, system component or system service is required at all post-design stages of the system development life cycle to develop a plan for ongoing security assessments.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11a.[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-09",
+      "ao_id": "TDA-09_A07",
+      "objective": "the developer of the system, system component or system service is required at all post-design stages of the system development life cycle to implement a plan for ongoing security assessments.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11a.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-09",
+      "ao_id": "TDA-09_A08",
+      "objective": "the developer of the system, system component or system service is required at all post-design stages of the system development life cycle to develop a plan for privacy assessments.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11a.[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-09",
+      "ao_id": "TDA-09_A09",
+      "objective": "the developer of the system, system component or system service is required at all post-design stages of the system development life cycle to implement a plan for ongoing privacy assessments.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11a.[04]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-09",
+      "ao_id": "TDA-09_A10",
+      "objective": "the developer of the system, system component or system service is required at all post-design stages of the system development life cycle to perform testing/evaluation frequency to conduct at depth and coverage.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11b.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-09",
+      "ao_id": "TDA-09_A11",
+      "objective": "the developer of the system, system component or system service is required at all post-design stages of the system development life cycle to produce evidence of the execution of the assessment plan.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11c.[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-09",
+      "ao_id": "TDA-09_A12",
+      "objective": "the developer of the system, system component or system service is required at all post-design stages of the system development life cycle to produce the results of the testing and evaluation.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11c.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-09",
+      "ao_id": "TDA-09_A13",
+      "objective": "the developer of the system, system component or system service is required at all post-design stages of the system development life cycle to implement a verifiable flaw remediation process.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11d.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-09",
+      "ao_id": "TDA-09_A14",
+      "objective": "the developer of the system, system component or system service is required at all post-design stages of the system development life cycle to correct flaws identified during testing and evaluation.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11e.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-09",
+      "ao_id": "TDA-09_A15",
+      "objective": "the developer of the system, system component, or system service is required to verify that the scope of testing and evaluation provides complete coverage of the required controls per an organization-defined breadth.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11(07)[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-09",
+      "ao_id": "TDA-09_A16",
+      "objective": "the developer of the system, system component, or system service is required to verify that the scope of testing and evaluation provides complete coverage of the required controls per an organization-defined depth.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11(07)[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

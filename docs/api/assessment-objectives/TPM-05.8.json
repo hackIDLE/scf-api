@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "TPM-05.8",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TPM-05.8",
+      "ao_id": "TPM-05.8_A01",
+      "objective": "statutory, regulatory and/or contractual obligations requiring a conformity assessment by an independent Third-Party Assessment Organization (3PAO) are identified.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-05.8",
+      "ao_id": "TPM-05.8_A02",
+      "objective": "a current and passing conformity assessment by an independent Third-Party Assessment Organization (3PAO) exists for each applicable statutory, regulatory and/or contractual obligation requiring a 3PAO's attestation.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-05.8",
+      "ao_id": "TPM-05.8_A03",
+      "objective": "processes, methods, and techniques to monitor security requirement compliance by external service providers on an ongoing basis are implemented.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.16.03.c",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

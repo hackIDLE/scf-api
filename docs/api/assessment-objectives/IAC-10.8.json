@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "IAC-10.8",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-10.8",
+      "ao_id": "IAC-10.8_A01",
+      "objective": "developers and installers of system components are required to provide unique authenticators or change default authenticators prior to delivery and installation.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IA-05(05)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

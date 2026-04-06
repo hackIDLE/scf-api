@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-AAT-07",
+  "area": "Artificial Intelligence (AI) & Autonomous Technologies Governance",
+  "artifact_name": "Artificial Intelligence Test, Evaluation, Validation & Verification (AI TEVV) Practices",
+  "artifact_description": "Documented evidence of Artificial Intelligence Test, Evaluation, Validation & Verification (AI TEVV) practices.",
+  "scf_controls": [
+    "AAT-10"
+  ],
+  "cmmc_mapping": ""
+}

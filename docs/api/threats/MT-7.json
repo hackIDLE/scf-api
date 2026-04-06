@@ -1,0 +1,6 @@
+{
+  "threat_id": "MT-7",
+  "grouping": "Man-Made Threat",
+  "name": "Utility Service Disruption",
+  "description": "Utility service disruptions are focused on the sustained loss of electricity, Internet, natural gas, water and/or sanitation services. These incidents can have a variety of causes but directly impact the fulfillment of utility services that your business needs to operate."
+}

@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-VPM-10",
+  "area": "Vulnerability Management",
+  "artifact_name": "Applicable Flaws & Vulnerabilities",
+  "artifact_description": "Documented evidence of flaws and vulnerabilities potentially affecting a specific system, application and/or service.",
+  "scf_controls": [
+    "VPM-03",
+    "VPM-05"
+  ],
+  "cmmc_mapping": "RA.L2-3.11.2\nSI.L1-3.14.1"
+}

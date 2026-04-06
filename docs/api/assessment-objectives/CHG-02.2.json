@@ -1,0 +1,96 @@
+{
+  "scf_control_id": "CHG-02.2",
+  "total": 9,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CHG-02.2",
+      "ao_id": "CHG-02.2_A01",
+      "objective": "changes to the system are tested before finalizing the implementation of the changes.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-03(02)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-02.2",
+      "ao_id": "CHG-02.2_A02",
+      "objective": "changes to the system are validated before finalizing the implementation of the changes.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-03(02)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-02.2",
+      "ao_id": "CHG-02.2_A03",
+      "objective": "changes to the system are documented before finalizing the implementation of the changes.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-03(02)[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-02.2",
+      "ao_id": "CHG-02.2_A04",
+      "objective": "the frequency at which changes are to be reviewed is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-03(07)_ODP[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-02.2",
+      "ao_id": "CHG-02.2_A05",
+      "objective": "the circumstances under which changes are to be reviewed are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-03(07)_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-02.2",
+      "ao_id": "CHG-02.2_A06",
+      "objective": "changes to the system are reviewed organization-defined frequency or when organization-defined circumstances to determine whether unauthorized changes have occurred.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-03(07)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-02.2",
+      "ao_id": "CHG-02.2_A07",
+      "objective": "systems or system components that implement the security design principle of secure system modification are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-08(31)_ODP",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-02.2",
+      "ao_id": "CHG-02.2_A08",
+      "objective": "systems or system components implement the security design principle of secure system modification.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SA-08(31)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-02.2",
+      "ao_id": "CHG-02.2_A09",
+      "objective": "approved configuration-controlled changes to the system are documented.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.04.03.c[02]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

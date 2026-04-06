@@ -1,0 +1,112 @@
+{
+  "control_id": "SAT-03.7",
+  "title": "Continuing Professional Education (CPE) - Security, Compliance & Resilience Personnel",
+  "family": "SAT",
+  "description": "Mechanisms exist to ensure security, compliance and resilience personnel receive Continuing Professional Education (CPE) training to maintain currency and proficiency with industry-recognized secure practices that are pertinent to their assigned roles and responsibilities.",
+  "scf_question": "Does the organization ensure security, compliance and resilience personnel receive Continuing Professional Education (CPE) training to maintain currency and proficiency with industry-recognized secure practices that are pertinent to their assigned roles and responsibilities?",
+  "relative_weight": 8,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [
+    "E-SAT-01",
+    "E-SAT-04"
+  ],
+  "pptdf": "People",
+  "nist_csf_function": "Identify",
+  "scrm_focus": {
+    "strategic": false,
+    "operational": true,
+    "tactical": false
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "2": "SCR-CMM Level 2 criteria definitions are not available for this control:\n▪ A reasonable person would conclude a well-defined and standardized process is required.\n▪ At this level of maturity, the “requirements-driven” nature of performing the control is focused on a localized and/or regionalized implementation, not uniform and consistent across the organization.\n▪ Requirements are narrowly scoped for applicability and are primarily derived from compliance obligations (e.g., laws, regulations and contracts).",
+    "3": "Security Awareness & Training (SAT) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with SAT domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with SAT domain capabilities are well-documented and kept current by process owners.\n▪ A security awareness & training team, or similar function, is appropriately staffed and supported to implement and maintain SAT domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of security awareness and training management (e.g., Computer Based Learning (CBL) solutions, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with SAT domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to ensure security, compliance and resilience personnel receive Continuing Professional Education (CPE) training to maintain currency and proficiency with industry-recognized secure practices that are pertinent to their assigned roles and responsibilities.",
+    "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [
+    "CORE ESP Level 1 Foundational",
+    "CORE ESP Level 2 Critical Infrastructure",
+    "CORE ESP Level 3 Advanced Threats"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ Annual security awareness training",
+    "small": "∙ Security awareness training platform (e.g., KnowBe4 free tier)\n∙ Annual completion tracking",
+    "medium": "∙ Minimum requirements for Continuing Professional Education (CPE)",
+    "large": "∙ Minimum requirements for Continuing Professional Education (CPE)",
+    "enterprise": "∙ Minimum requirements for Continuing Professional Education (CPE)"
+  },
+  "risks": [
+    "R-BC-1",
+    "R-BC-3",
+    "R-EX-7",
+    "R-GV-1",
+    "R-GV-4",
+    "R-SA-2"
+  ],
+  "threats": [
+    "NT-1",
+    "NT-2",
+    "NT-3",
+    "NT-4",
+    "NT-5",
+    "NT-6",
+    "NT-7",
+    "NT-8",
+    "NT-9",
+    "NT-10",
+    "NT-11",
+    "NT-12",
+    "NT-13",
+    "NT-14",
+    "MT-8",
+    "MT-9",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "errata": "- renamed\n- wordsmithed",
+  "family_name": "Security Awareness & Training",
+  "crosswalks": {
+    "general-aicpa-tsc-2017": [
+      "CC1.4",
+      "CC1.4-POF3",
+      "CC1.4-POF7"
+    ],
+    "general-cis-csc-8-1": [
+      "14.9"
+    ],
+    "general-cis-csc-8-1-ig2": [
+      "14.9"
+    ],
+    "general-cis-csc-8-1-ig3": [
+      "14.9"
+    ],
+    "general-iso-27701-2025": [
+      "7.2"
+    ],
+    "general-nist-800-171-r3": [
+      "03.06.04.b"
+    ],
+    "general-nist-csf-2-0": [
+      "PR.AT-02"
+    ],
+    "usa-federal-law-glba-cfr-314-2023": [
+      "314.4(e)(4)"
+    ],
+    "usa-state-ny-dfs-23-nycrr500-2023-amd2": [
+      "500.10(a)(3)"
+    ],
+    "apac-jpn-ismap": [
+      "4.5.2.4"
+    ],
+    "americas-can-itsp-10-171-2025": [
+      "03.06.04.B"
+    ]
+  }
+}

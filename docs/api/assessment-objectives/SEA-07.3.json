@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "SEA-07.3",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "SEA-07.3",
+      "ao_id": "SEA-07.3_A01",
+      "objective": "fail-safe procedures associated with failure conditions are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-17_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-07.3",
+      "ao_id": "SEA-07.3_A02",
+      "objective": "a list of failure conditions requiring fail-safe procedures is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-17_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-07.3",
+      "ao_id": "SEA-07.3_A03",
+      "objective": "fail-safe procedures are implemented when list of failure conditions occur.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-17",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

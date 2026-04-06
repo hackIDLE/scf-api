@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "HRS-12.1",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "HRS-12.1",
+      "ao_id": "HRS-12.1_A01",
+      "objective": "privileged commands and/or other actions requiring dual authorization are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-03(02)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-12.1",
+      "ao_id": "HRS-12.1_A02",
+      "objective": "dual authorization is enforced for organization-defined privileged commands and/or other actions.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-03(02)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-12.1",
+      "ao_id": "HRS-12.1_A03",
+      "objective": "critical or sensitive system and organizational operations for which dual authorization is to be enforced are identified.",
+      "pptdf": "Process",
+      "origin": "172A_3.1.1e[a]\n53A_R5_CM-05(04)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-12.1",
+      "ao_id": "HRS-12.1_A04",
+      "objective": "dual authorization is employed to execute critical or sensitive system and organizational operations.",
+      "pptdf": "Technology",
+      "origin": "172A_3.1.1e[b]\n53A_R5_CM-05(04)[01]\n53A_R5_CM-05(04)[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

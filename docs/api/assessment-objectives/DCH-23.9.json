@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "DCH-23.9",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-23.9",
+      "ao_id": "DCH-23.9_A01",
+      "objective": "aliases used to name assets that are mission-critical and/or contain highly-sensitive / regulated data that are unique and not readily associated with a product, project or type of data.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

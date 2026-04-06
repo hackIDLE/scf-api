@@ -1,0 +1,17 @@
+{
+  "erl_id": "E-TDA-03",
+  "area": "Technology Design & Acquisition",
+  "artifact_name": "Application Security Testing (AST)",
+  "artifact_description": "Documented evidence of application security testing (e.g., DAST, SAST, fuzzing, etc.).",
+  "scf_controls": [
+    "TDA-06.2",
+    "TDA-09",
+    "TDA-09.1",
+    "TDA-09.2",
+    "TDA-09.3",
+    "TDA-09.4",
+    "TDA-09.5",
+    "TDA-09.6"
+  ],
+  "cmmc_mapping": ""
+}

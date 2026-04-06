@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "TPM-05.1",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TPM-05.1",
+      "ao_id": "TPM-05.1_A01",
+      "objective": "security requirements to be satisfied by external system service providers are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-08_ODP[01]\n53A_R5_SR-08_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "notification of supply chain compromises and results of assessment or audits",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-05.1",
+      "ao_id": "TPM-05.1_A02",
+      "objective": "agreements and procedures are established with entities involved in the supply chain for the system, system components or system service per organization-defined criteria.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-08",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "notification of supply chain compromises and results of assessment or audits",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-05.1",
+      "ao_id": "TPM-05.1_A03",
+      "objective": "External Service Providers (ESPs) are contractually obligated to provide notification of actual or potential compromises in the supply chain that can potentially affect or have adversely affected systems, applications and/or services that the organization utilizes.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-HRS-08",
+  "area": "Human Resources",
+  "artifact_name": "Role Assignment - CPO",
+  "artifact_description": "Documented evidence of a formal role assignment to the Chief Privacy Officer (CPO) position.",
+  "scf_controls": [
+    "GOV-04",
+    "PRI-01.1"
+  ],
+  "cmmc_mapping": ""
+}

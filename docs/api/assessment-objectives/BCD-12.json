@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "BCD-12",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "BCD-12",
+      "ao_id": "BCD-12_A01",
+      "objective": "secure baseline configurations exist for systems, applications and/or services protect the confidentiality and integrity of data being stored, processed and/or transmitted.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-12",
+      "ao_id": "BCD-12_A02",
+      "objective": "systems, applications and/or services are securely recovered / reconstituted to a known, trusted state after a disruption, compromise or failure.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

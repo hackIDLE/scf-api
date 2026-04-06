@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "MDM-10",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MDM-10",
+      "ao_id": "MDM-10_A01",
+      "objective": "a separate device workspace is enforced on applicable mobile devices to separate work-related and personal-related applications and data.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-RSK-07",
+  "area": "Risk Management",
+  "artifact_name": "Risk Tolerance",
+  "artifact_description": "Documented evidence the organization has a defined risk tolerance.",
+  "scf_controls": [
+    "RSK-01.1",
+    "RSK-01.4"
+  ],
+  "cmmc_mapping": ""
+}

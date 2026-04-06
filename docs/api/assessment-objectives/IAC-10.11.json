@@ -1,0 +1,136 @@
+{
+  "scf_control_id": "IAC-10.11",
+  "total": 13,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-10.11",
+      "ao_id": "IAC-10.11_A01",
+      "objective": "password managers employed for generating and managing passwords are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IA-05(18)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10.11",
+      "ao_id": "IAC-10.11_A02",
+      "objective": "password managers are employed to generate and manage passwords.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-05(18)(a)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10.11",
+      "ao_id": "IAC-10.11_A03",
+      "objective": "systems and system components that do not support multifactor authentication or complex account management are identified.",
+      "pptdf": "Process",
+      "origin": "172A_3.5.2e[a]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10.11",
+      "ao_id": "IAC-10.11_A04",
+      "objective": "automated mechanisms for the generation, protection, rotation and management of passwords for systems and system components that do not support multifactor authentication or complex account management are identified.",
+      "pptdf": "Process",
+      "origin": "172A_3.5.2e[b]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10.11",
+      "ao_id": "IAC-10.11_A05",
+      "objective": "automated mechanisms for the generation, protection, rotation and management of passwords for systems and system components that do not support multifactor authentication or complex account management are employed.",
+      "pptdf": "Technology",
+      "origin": "172A_3.5.2e[c]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10.11",
+      "ao_id": "IAC-10.11_A06",
+      "objective": "controls for protecting passwords are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IA-05(18)_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10.11",
+      "ao_id": "IAC-10.11_A07",
+      "objective": "the passwords are protected using controls.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-05(18)(b)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10.11",
+      "ao_id": "IAC-10.11_A08",
+      "objective": "the frequency at which to update the list of commonly used, expected, or compromised passwords is defined.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.05.07.ODP[01]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10.11",
+      "ao_id": "IAC-10.11_A09",
+      "objective": "a list of commonly used, expected, or compromised passwords is maintained.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.05.07.a[01]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10.11",
+      "ao_id": "IAC-10.11_A10",
+      "objective": "a list of commonly used, expected, or compromised passwords is updated per an organization-defined frequency.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10.11",
+      "ao_id": "IAC-10.11_A11",
+      "objective": "a list of commonly used, expected, or compromised passwords is updated when organizational passwords are suspected to have been compromised.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.05.07.a[03]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10.11",
+      "ao_id": "IAC-10.11_A12",
+      "objective": "passwords are verified not to be found on the list of commonly used, expected, or compromised passwords when they are created or updated by users.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.05.07.b",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10.11",
+      "ao_id": "IAC-10.11_A13",
+      "objective": "a list of commonly used, expected, or compromised passwords is updated <A.03.05.07.ODP[01]: frequency>.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.05.07.a[02]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "at least quarterly",
+      "org_defined_parameters": ""
+    }
+  ]
+}

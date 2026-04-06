@@ -1,0 +1,561 @@
+{
+  "control_id": "VPM-06",
+  "title": "Vulnerability Scanning",
+  "family": "VPM",
+  "description": "Mechanisms exist to detect vulnerabilities and configuration errors by routine vulnerability scanning of systems and applications.",
+  "scf_question": "Does the organization detect vulnerabilities and configuration errors by routine vulnerability scanning of systems and applications?",
+  "relative_weight": 9,
+  "conformity_cadence": "Semi-Annual",
+  "evidence_requests": [
+    "E-VPM-05",
+    "E-VPM-11"
+  ],
+  "pptdf": "Process",
+  "nist_csf_function": "Detect",
+  "scrm_focus": {
+    "strategic": false,
+    "operational": true,
+    "tactical": true
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "Vulnerability & Patch Management (VPM) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with VPM domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Attack Surface Management (ASM)-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ Occasional vulnerability scanning is conducted on High Value Assets (HVAs).\n▪ Vulnerability scanning services may not be internal competencies and have to be outsourced.",
+    "2": "Vulnerability & Patch Management (VPM) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with VPM domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with VPM domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with VPM  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Vulnerability management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Vulnerability management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT and/or cybersecurity personnel configure technologies to update vulnerability scanning tools.",
+    "3": "Vulnerability & Patch Management (VPM) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with VPM domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with VPM domain capabilities are well-documented and kept current by process owners.\n▪ A vulnerability management team, or similar function, is appropriately staffed and supported to implement and maintain VPM domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of vulnerability management operations (e.g., patch management solution, vulnerability scanning solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with VPM domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to detect vulnerabilities and configuration errors by routine vulnerability scanning of systems and applications.",
+    "4": "Vulnerability & Patch Management (VPM) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+    "5": "Vulnerability & Patch Management (VPM) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions."
+  },
+  "profiles": [
+    "SCRMS",
+    "CORE ESP Level 1 Foundational",
+    "CORE ESP Level 2 Critical Infrastructure",
+    "CORE ESP Level 3 Advanced Threats",
+    "CORE Fundamentals",
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ External vulnerability scans (unauthenticated)\n∙ Internal vulnerability scans (authenticated)\n∙ Nessus (https://tenable.com)\n∙ Qualys (https://qualys.com)\n∙ Rapid7 (https://rapid7.com)",
+    "small": "∙ External vulnerability scans (unauthenticated)\n∙ Internal vulnerability scans (authenticated)\n∙ Nessus (https://tenable.com)\n∙ Qualys (https://qualys.com)\n∙ Rapid7 (https://rapid7.com)",
+    "medium": "∙ External vulnerability scans (unauthenticated)\n∙ Internal vulnerability scans (authenticated)\n∙ Nessus (https://tenable.com)\n∙ Qualys (https://qualys.com)\n∙ Rapid7 (https://rapid7.com)",
+    "large": "∙ External vulnerability scans (unauthenticated)\n∙ Internal vulnerability scans (authenticated)\n∙ Nessus (https://tenable.com)\n∙ Qualys (https://qualys.com)\n∙ Rapid7 (https://rapid7.com)",
+    "enterprise": "∙ External vulnerability scans (unauthenticated)\n∙ Internal vulnerability scans (authenticated)\n∙ Nessus (https://tenable.com)\n∙ Qualys (https://qualys.com)\n∙ Rapid7 (https://rapid7.com)"
+  },
+  "risks": [
+    "R-AC-2",
+    "R-AC-3",
+    "R-AC-4",
+    "R-AM-3",
+    "R-BC-1",
+    "R-BC-2",
+    "R-BC-3",
+    "R-BC-4",
+    "R-EX-1",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-EX-5",
+    "R-EX-6",
+    "R-EX-7",
+    "R-GV-1",
+    "R-GV-2",
+    "R-GV-3",
+    "R-GV-4",
+    "R-GV-5",
+    "R-GV-6",
+    "R-GV-7",
+    "R-IR-1",
+    "R-IR-2",
+    "R-IR-3",
+    "R-IR-4",
+    "R-SA-1",
+    "R-SC-1",
+    "R-SC-2",
+    "R-SC-3",
+    "R-SC-4",
+    "R-SC-5",
+    "R-SC-6"
+  ],
+  "threats": [
+    "NT-7",
+    "MT-1",
+    "MT-2",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Vulnerability & Patch Management",
+  "crosswalks": {
+    "general-aicpa-tsc-2017": [
+      "CC3.2-POF7",
+      "CC3.4-POF6",
+      "CC7.1",
+      "CC7.1-POF5",
+      "CC9.2-POF13"
+    ],
+    "general-cis-csc-8-1": [
+      "7.5",
+      "7.6"
+    ],
+    "general-cis-csc-8-1-ig2": [
+      "7.5",
+      "7.6"
+    ],
+    "general-cis-csc-8-1-ig3": [
+      "7.5",
+      "7.6"
+    ],
+    "general-cobit-2019": [
+      "DSS05.07"
+    ],
+    "general-csa-iot-2": [
+      "VLN-04"
+    ],
+    "general-govramp": [
+      "RA-05"
+    ],
+    "general-govramp-core": [
+      "RA-05"
+    ],
+    "general-govramp-low": [
+      "RA-05"
+    ],
+    "general-govramp-low-plus": [
+      "RA-05"
+    ],
+    "general-govramp-mod": [
+      "RA-05"
+    ],
+    "general-govramp-high": [
+      "RA-05"
+    ],
+    "general-iec-62443-2-1-2024": [
+      "ORG 2.2(c)"
+    ],
+    "general-imo-maritime-cyber-risk-management-2025": [
+      "3.5.2.3"
+    ],
+    "general-iso-27002-2022": [
+      "8.8"
+    ],
+    "general-iso-27018-2025": [
+      "8.8"
+    ],
+    "general-mitre-att&ck-16-1": [
+      "T1011.001",
+      "T1021.001",
+      "T1021.003",
+      "T1021.004",
+      "T1021.005",
+      "T1021.006",
+      "T1046",
+      "T1047",
+      "T1052",
+      "T1052.001",
+      "T1053",
+      "T1053.002",
+      "T1053.003",
+      "T1053.005",
+      "T1059",
+      "T1059.001",
+      "T1059.005",
+      "T1059.007",
+      "T1068",
+      "T1078",
+      "T1091",
+      "T1092",
+      "T1098.004",
+      "T1127",
+      "T1127.001",
+      "T1127.002",
+      "T1133",
+      "T1137",
+      "T1137.001",
+      "T1176",
+      "T1190",
+      "T1195",
+      "T1195.001",
+      "T1195.002",
+      "T1204.003",
+      "T1210",
+      "T1211",
+      "T1212",
+      "T1213",
+      "T1213.001",
+      "T1213.002",
+      "T1213.003",
+      "T1213.005",
+      "T1218",
+      "T1218.003",
+      "T1218.004",
+      "T1218.005",
+      "T1218.008",
+      "T1218.009",
+      "T1218.012",
+      "T1218.013",
+      "T1218.014",
+      "T1218.015",
+      "T1221",
+      "T1482",
+      "T1484",
+      "T1505",
+      "T1505.001",
+      "T1505.002",
+      "T1505.003",
+      "T1505.004",
+      "T1505.005",
+      "T1525",
+      "T1528",
+      "T1530",
+      "T1542.004",
+      "T1542.005",
+      "T1543",
+      "T1546.002",
+      "T1546.014",
+      "T1547.006",
+      "T1547.007",
+      "T1547.008",
+      "T1548",
+      "T1548.002",
+      "T1548.003",
+      "T1548.006",
+      "T1552",
+      "T1552.001",
+      "T1552.002",
+      "T1552.004",
+      "T1552.006",
+      "T1557",
+      "T1558.004",
+      "T1559",
+      "T1559.002",
+      "T1560",
+      "T1560.001",
+      "T1562",
+      "T1562.010",
+      "T1563",
+      "T1563.001",
+      "T1563.002",
+      "T1566",
+      "T1574",
+      "T1574.001",
+      "T1574.004",
+      "T1574.005",
+      "T1574.007",
+      "T1574.008",
+      "T1574.009",
+      "T1574.010",
+      "T1578",
+      "T1578.001",
+      "T1578.002",
+      "T1578.003",
+      "T1612"
+    ],
+    "general-mpa-csbp-5-3-1": [
+      "TS-4.0"
+    ],
+    "general-nist-600-1-gen-ai-profile": [
+      "MS-2.6-007"
+    ],
+    "general-nist-800-53-r4": [
+      "RA-5"
+    ],
+    "general-nist-800-53-r5-2": [
+      "RA-05"
+    ],
+    "general-nist-800-53-r5-2-privacy": [
+      "RA-05"
+    ],
+    "general-nist-800-53-r5-2-low": [
+      "RA-05"
+    ],
+    "general-nist-800-82-r3": [
+      "RA-05"
+    ],
+    "general-nist-800-82-r3-low": [
+      "RA-05"
+    ],
+    "general-nist-800-82-r3-mod": [
+      "RA-05"
+    ],
+    "general-nist-800-82-r3-high": [
+      "RA-05"
+    ],
+    "general-nist-800-161-r1": [
+      "RA-5"
+    ],
+    "general-nist-800-161-r1-cscrm": [
+      "RA-5"
+    ],
+    "general-nist-800-161-r1-flowdown": [
+      "RA-5"
+    ],
+    "general-nist-800-161-r1-level-2": [
+      "RA-5"
+    ],
+    "general-nist-800-161-r1-level-3": [
+      "RA-5"
+    ],
+    "general-nist-800-171-r2": [
+      "3.11.2"
+    ],
+    "general-nist-800-171-r3": [
+      "03.11.02.a"
+    ],
+    "general-nist-800-171a": [
+      "3.11.2[a]",
+      "3.11.2[b]",
+      "3.11.2[c]",
+      "3.11.2[d]",
+      "3.11.2[e]"
+    ],
+    "general-nist-800-171a-r3": [
+      "A.03.11.02.ODP[01]",
+      "A.03.11.02.ODP[02]",
+      "A.03.11.02.ODP[04]",
+      "A.03.11.02.a[01]",
+      "A.03.11.02.a[02]",
+      "A.03.11.02.a[03]",
+      "A.03.11.02.a[04]",
+      "A.03.11.02.c[01]",
+      "A.03.11.02.c[02]"
+    ],
+    "general-nist-csf-2-0": [
+      "ID.RA-01"
+    ],
+    "general-owasp-top-10-2025": [
+      "A05:2025"
+    ],
+    "general-pci-dss-4-0-1": [
+      "6.4.1",
+      "11.3",
+      "11.3.1",
+      "11.3.1.1",
+      "11.3.1.2",
+      "11.3.1.3",
+      "11.3.2",
+      "11.3.2.1"
+    ],
+    "general-pci-dss-4-0-1-saq-a": [
+      "11.3.2",
+      "11.3.2.1"
+    ],
+    "general-pci-dss-4-0-1-saq-a-ep": [
+      "6.4.1",
+      "11.3.2",
+      "11.3.2.1"
+    ],
+    "general-pci-dss-4-0-1-saq-b-ip": [
+      "11.3.2"
+    ],
+    "general-pci-dss-4-0-1-saq-c": [
+      "11.3.1",
+      "11.3.1.3",
+      "11.3.2",
+      "11.3.2.1"
+    ],
+    "general-pci-dss-4-0-1-saq-d-merchant": [
+      "6.4.1",
+      "11.3.1",
+      "11.3.1.1",
+      "11.3.1.2",
+      "11.3.1.3",
+      "11.3.2",
+      "11.3.2.1"
+    ],
+    "general-pci-dss-4-0-1-saq-d-service-provider": [
+      "6.4.1",
+      "11.3.1",
+      "11.3.1.1",
+      "11.3.1.2",
+      "11.3.1.3",
+      "11.3.2",
+      "11.3.2.1"
+    ],
+    "general-sparta": [
+      "CM0008",
+      "CM0011"
+    ],
+    "general-swift-cscf-2025": [
+      "2.7"
+    ],
+    "usa-federal-dhs-cisa-tic-3-0": [
+      "3.UNI.VMANG"
+    ],
+    "usa-federal-fbi-cjis-6-0": [
+      "RA-5"
+    ],
+    "usa-federal-doe-c2m2-2-1": [
+      "THREAT-1c",
+      "THREAT-1f",
+      "THREAT-1k"
+    ],
+    "usa-federal-dow-cmmc-2-level-2": [
+      "RAL2.-3.11.2"
+    ],
+    "usa-federal-gsa-fedramp-5-low": [
+      "RA-05"
+    ],
+    "usa-federal-gsa-fedramp-5-mod": [
+      "RA-05"
+    ],
+    "usa-federal-gsa-fedramp-5-high": [
+      "RA-05"
+    ],
+    "usa-federal-gsa-fedramp-5-li-saas": [
+      "RA-05"
+    ],
+    "usa-federal-law-glba-cfr-314-2023": [
+      "314.4(d)(2)",
+      "314.4(d)(2)(ii)"
+    ],
+    "usa-federal-irs-1075-2021": [
+      "RA-5"
+    ],
+    "usa-federal-cms-marse-2-0": [
+      "RA-5",
+      "RA-5.a",
+      "RA-5.b",
+      "RA-5.b.1",
+      "RA-5.b.2",
+      "RA-5.b.3",
+      "RA-5.c",
+      "RA-5.d",
+      "RA-5.e",
+      "RA-5-IS.1",
+      "RA-5-IS.2",
+      "RA-5(1)"
+    ],
+    "usa-federal-nerc-cip-2024": [
+      "CIP-010-4 3.1",
+      "CIP-010-4 3.2.1",
+      "CIP-010-4 3.2.2",
+      "CIP-010-4 3.3",
+      "CIP-010-4 3.4"
+    ],
+    "usa-state-ca-ccpa-cpra-2026": [
+      "7123(c)(5)(D)",
+      "7123(c)(6)"
+    ],
+    "usa-state-ny-dfs-23-nycrr500-2023-amd2": [
+      "500.5(a)(2)"
+    ],
+    "usa-state-tx-dir-security-control-standards-catalog-2-2": [
+      "RA-05",
+      "RA-05-SID"
+    ],
+    "usa-state-tx-txramp-2-0-level-1": [
+      "RA-05"
+    ],
+    "usa-state-tx-txramp-2-0-level-2": [
+      "RA-05"
+    ],
+    "emea-eu-dora-2023": [
+      "Article 25.1",
+      "Article 25.2",
+      "Article 25.3"
+    ],
+    "emea-eu-nis2-annex-2024": [
+      "6.10.2(b)"
+    ],
+    "emea-deu-bsrit-2017": [
+      "5.6"
+    ],
+    "emea-deu-c5-2020": [
+      "OPS-22",
+      "PSS-02",
+      "PSS-03"
+    ],
+    "emea-isr-cmo-1-0": [
+      "3.4",
+      "9.25",
+      "12.30",
+      "22.3",
+      "22.6"
+    ],
+    "emea-sau-cscc-1-2019": [
+      "2-9-1-1",
+      "2-9-2"
+    ],
+    "emea-sau-cgiot-2024": [
+      "2-9-1"
+    ],
+    "emea-sau-ecc-1-2018": [
+      "2-10-3-1"
+    ],
+    "emea-sau-sacs-002-2022": [
+      "TPC-85"
+    ],
+    "emea-uae-niaf-2023": [
+      "3.1.3"
+    ],
+    "emea-gbr-def-stan-05-138-2024": [
+      "2402"
+    ],
+    "emea-gbr-def-stan-05-138-l1-2024": [
+      "2402"
+    ],
+    "emea-gbr-def-stan-05-138-l2-2024": [
+      "2402"
+    ],
+    "emea-gbr-def-stan-05-138-l3-2024": [
+      "2402"
+    ],
+    "apac-aus-essential-8-2024": [
+      "ML1-P1",
+      "ML1-P2",
+      "ML2-P1",
+      "ML2-P2",
+      "ML3-P1",
+      "ML3-P2"
+    ],
+    "apac-aus-ism-2024-june": [
+      "ISM-1163",
+      "ISM-1698",
+      "ISM-1699",
+      "ISM-1700",
+      "ISM-1701",
+      "ISM-1702",
+      "ISM-1703",
+      "ISM-1752"
+    ],
+    "apac-ind-sebi-2024": [
+      "ID.RA.S1"
+    ],
+    "apac-nzl-hisf-mlhsp-2023": [
+      "HHSP26",
+      "HHSP59",
+      "HML26",
+      "HML59"
+    ],
+    "apac-nzl-hisf-suppliers-2023": [
+      "HSUP51"
+    ],
+    "apac-nzl-ism-3-9": [
+      "6.2.5.C.01"
+    ],
+    "apac-sgp-mas-trm-2021": [
+      "13.1.1",
+      "13.1.2"
+    ],
+    "americas-bmu-mba-coc-2020": [
+      "6.15"
+    ],
+    "amaericas-can-osfi-self-assessment": [
+      "2.5"
+    ],
+    "americas-can-osfi-b13-2022": [
+      "3.1.2",
+      "3.1.3"
+    ],
+    "americas-can-itsp-10-171-2025": [
+      "03.11.02.A"
+    ]
+  }
+}

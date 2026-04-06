@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "END-14.1",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "END-14.1",
+      "ao_id": "END-14.1_A01",
+      "objective": "systems or system components from which collaborative computing devices are to be disabled or removed are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-15(03)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-14.1",
+      "ao_id": "END-14.1_A02",
+      "objective": "secure work areas where collaborative computing devices are to be disabled or removed from systems or system components are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-15(03)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-14.1",
+      "ao_id": "END-14.1_A03",
+      "objective": "collaborative computing devices and applications are disabled or removed from systems or system components in secure work areas.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-15(03)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

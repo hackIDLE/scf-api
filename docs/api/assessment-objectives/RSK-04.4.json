@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "RSK-04.4",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "RSK-04.4",
+      "ao_id": "RSK-04.4_A01",
+      "objective": "applicable stakeholders for each risk assessment are identified.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-04.4",
+      "ao_id": "RSK-04.4_A02",
+      "objective": "identified stakeholders are involved in the risk assessment process.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-04.4",
+      "ao_id": "RSK-04.4_A03",
+      "objective": "identified stakeholders are provided with results of the risk assessment, upon completion.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

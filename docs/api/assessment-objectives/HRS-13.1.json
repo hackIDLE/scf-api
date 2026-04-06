@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "HRS-13.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "HRS-13.1",
+      "ao_id": "HRS-13.1_A01",
+      "objective": "a plan to remediate critical skills deficiencies necessary to support the organization's mission and business functions is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-13.1",
+      "ao_id": "HRS-13.1_A02",
+      "objective": "a plan to remediate critical skills deficiencies necessary to support the organization's mission and business functions is implemented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

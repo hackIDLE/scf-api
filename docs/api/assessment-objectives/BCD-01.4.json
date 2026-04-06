@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "BCD-01.4",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "BCD-01.4",
+      "ao_id": "BCD-01.4_A01",
+      "objective": "time period consistent with Recovery Time Objectives (RTOs) and Recovery Point Objectives (RPOs) for the recovery of the system is determined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-10_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-01.4",
+      "ao_id": "BCD-01.4_A02",
+      "objective": "the alternate storage site is configured to facilitate recovery operations in accordance with Recovery Time Objectives (RTOs) and Recovery Point Objectives (RPOs).",
+      "pptdf": "Technology",
+      "origin": "53A_R5_CP-06(02)[01]\n53A_R5_CP-06(02)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-01.4",
+      "ao_id": "BCD-01.4_A03",
+      "objective": "time period consistent with Recovery Time Objectives (RTOs) and Recovery Point Objectives (RPOs) for the reconstitution of the system is determined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-10_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-01.4",
+      "ao_id": "BCD-01.4_A04",
+      "objective": "the recovery of the system to a known state is provided within a specified time period after a disruption, compromise or failure.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_CP-10[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-01.4",
+      "ao_id": "BCD-01.4_A05",
+      "objective": "a reconstitution of the system to a known state is provided within an organization-defined time period after a disruption, compromise or failure.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_CP-10[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

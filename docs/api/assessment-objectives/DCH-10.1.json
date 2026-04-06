@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "DCH-10.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-10.1",
+      "ao_id": "DCH-10.1_A01",
+      "objective": "the use of sensitive / regulated data is restricted to approved business practices.",
+      "pptdf": "Data",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-10.1",
+      "ao_id": "DCH-10.1_A02",
+      "objective": "the distribution of sensitive / regulated data is restricted to authorized personnel.",
+      "pptdf": "Data",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

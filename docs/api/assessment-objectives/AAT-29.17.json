@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "AAT-29.17",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-29.17",
+      "ao_id": "AAT-29.17_A01",
+      "objective": "agentic delegation, chaining and/or multi-agent communication is controlled to prevent unauthorized task escalation or emergent risks.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

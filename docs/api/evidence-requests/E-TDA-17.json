@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-TDA-17",
+  "area": "Technology Design & Acquisition",
+  "artifact_name": "System Design Documentation",
+  "artifact_description": "Documented evidence of system design documentation.",
+  "scf_controls": [
+    "TDA-01",
+    "TDA-01.1"
+  ],
+  "cmmc_mapping": ""
+}

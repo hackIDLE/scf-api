@@ -1,0 +1,7 @@
+{
+  "risk_id": "R-BC-4",
+  "grouping": "Business Continuity",
+  "name": "Information loss / corruption or system compromise due to technical attack",
+  "description": "A technical attack that compromises data, systems, applications or services (e.g., malware, phishing, hacking, etc.).",
+  "nist_csf_function": "Protect"
+}

@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-MON-04",
+  "area": "Event Log Monitoring",
+  "artifact_name": "Rogue Devices",
+  "artifact_description": "Documented evidence of rogue device identification is included as part of the centralized event log collection and review/analysis process.",
+  "scf_controls": [
+    "AST-02.6"
+  ],
+  "cmmc_mapping": ""
+}

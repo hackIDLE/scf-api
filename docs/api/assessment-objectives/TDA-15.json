@@ -1,0 +1,206 @@
+{
+  "scf_control_id": "TDA-15",
+  "total": 20,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-15",
+      "ao_id": "TDA-15_A01",
+      "objective": "information concerning impact, environment of operations, known or assumed threats and acceptable risk levels to be used as contextual information for threat modeling and vulnerability analyses is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11(02)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-15",
+      "ao_id": "TDA-15_A02",
+      "objective": "the tools and methods to be employed for threat modeling and vulnerability analyses are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11(02)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-15",
+      "ao_id": "TDA-15_A03",
+      "objective": "the breadth and depth of threat modeling to be conducted is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11(02)_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-15",
+      "ao_id": "TDA-15_A04",
+      "objective": "the breadth and depth of vulnerability analyses to be conducted is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11(02)_ODP[04]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-15",
+      "ao_id": "TDA-15_A05",
+      "objective": "acceptance criteria to be met by produced evidence for threat modeling are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11(02)_ODP[05]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-15",
+      "ao_id": "TDA-15_A06",
+      "objective": "acceptance criteria to be met by produced evidence for vulnerability analyses are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11(02)_ODP[06]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-15",
+      "ao_id": "TDA-15_A07",
+      "objective": "the developer of the system, system component, or system service is required to perform threat modeling during development of the system, component, or service that uses organization-defined information.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11(02)(a)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-15",
+      "ao_id": "TDA-15_A08",
+      "objective": "the developer of the system, system component, or system service is required to perform vulnerability analyses during development of the system, component, or service that uses organization-defined information.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11(02)(a)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-15",
+      "ao_id": "TDA-15_A09",
+      "objective": "the developer of the system, system component, or system service is required to perform threat modeling during the subsequent testing and evaluation of the system, component, or service that uses organization-defined information.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11(02)(a)[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-15",
+      "ao_id": "TDA-15_A10",
+      "objective": "the developer of the system, system component, or system service is required to perform vulnerability analyses during the subsequent testing and evaluation of the system, component, or service that uses organization-defined information.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11(02)(a)[04]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-15",
+      "ao_id": "TDA-15_A11",
+      "objective": "the developer of the system, system component, or system service is required to perform threat modeling during development of the system, component, or service that employs organization-defined tools and methods.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11(02)(b)[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-15",
+      "ao_id": "TDA-15_A12",
+      "objective": "the developer of the system, system component, or system service is required to perform threat modeling during the subsequent testing and evaluation of the system, component, or service that employs organization-defined tools and methods.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11(02)(b)[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-15",
+      "ao_id": "TDA-15_A13",
+      "objective": "the developer of the system, system component, or system service is required to perform vulnerability analyses during development of the system, component, or service that employs organization-defined tools and methods.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11(02)(b)[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-15",
+      "ao_id": "TDA-15_A14",
+      "objective": "the developer of the system, system component, or system service is required to perform vulnerability analyses during the subsequent testing and evaluation of the system, component, or service that employs organization-defined tools and methods.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11(02)(b)[04]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-15",
+      "ao_id": "TDA-15_A15",
+      "objective": "the developer of the system, system component, or system service is required to perform threat modeling per an organization-defined breadth and depth during development of the system, component or service.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11(02)(c)[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-15",
+      "ao_id": "TDA-15_A16",
+      "objective": "the developer of the system, system component, or system service is required to perform vulnerability analyses during the subsequent testing and evaluation of the system, component, or service that conducts modeling and analyses per an organization-defined breadth and depth.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11(02)(c)[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-15",
+      "ao_id": "TDA-15_A17",
+      "objective": "the developer of the system, system component, or system service is required to perform threat modeling during development of the system, component, or service that produces evidence that meets organization-defined acceptance criteria.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11(02)(d)[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-15",
+      "ao_id": "TDA-15_A18",
+      "objective": "the developer of the system, system component, or system service is required to perform threat modeling during the subsequent testing and evaluation of the system, component, or service that produces evidence that meets organization-defined acceptance criteria.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11(02)(d)[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-15",
+      "ao_id": "TDA-15_A19",
+      "objective": "the developer of the system, system component, or system service is required to perform vulnerability analyses during development of the system, component, or service that produces evidence that meets organization-defined acceptance criteria.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11(02)(d)[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-15",
+      "ao_id": "TDA-15_A20",
+      "objective": "the developer of the system, system component, or system service is required to perform vulnerability analyses during the subsequent testing and evaluation of the system, component, or service that produces evidence that meets organization-defined acceptance criteria.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11(02)(d)[04]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

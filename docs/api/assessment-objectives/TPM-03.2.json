@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "TPM-03.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TPM-03.2",
+      "ao_id": "TPM-03.2_A01",
+      "objective": "controls to limit harm from potential supply chain adversaries are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-03(02)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-03.2",
+      "ao_id": "TPM-03.2_A02",
+      "objective": "controls are employed to limit harm from potential adversaries identifying and targeting the organizational supply chain.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-03(02)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

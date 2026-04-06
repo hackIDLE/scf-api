@@ -1,0 +1,15 @@
+{
+  "erl_id": "E-TDA-08",
+  "area": "Technology Design & Acquisition",
+  "artifact_name": "Secure Engineering Principles (SEP)",
+  "artifact_description": "Documented evidence of defined secure engineering principles used to ensure Sensitivity, Integrity, Availability & Safety (CIAS) concerns are properly addressed in the design and implementation of Technology Assets, Applications and/or Services (TAAS).",
+  "scf_controls": [
+    "SEA-01",
+    "TDA-01",
+    "TDA-06",
+    "TDA-14",
+    "TDA-14.1",
+    "TDA-14.2"
+  ],
+  "cmmc_mapping": ""
+}

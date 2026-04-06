@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-19.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-19.1",
+      "ao_id": "AAT-19.1_A01",
+      "objective": "the organization defines manipulative or deceptive techniques that Artificial Intelligence (AI) and Autonomous Technologies (AAT) could use to impair an individual's ability to make a reasonably informed decision.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-19.1",
+      "ao_id": "AAT-19.1_A02",
+      "objective": "the organization prohibits the sale, deployment and/or use of Artificial Intelligence (AI) and Autonomous Technologies (AAT) that utilizes manipulative or deceptive techniques (including biased data) to impair an individual's ability to make a reasonably informed decision.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

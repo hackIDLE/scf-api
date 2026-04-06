@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-DCH-12",
+  "area": "Data Protection",
+  "artifact_name": "Publicly Accessible Information Reviews",
+  "artifact_description": "Documented evidence of reviews for publicly accessible sensitive / regulated data.",
+  "scf_controls": [
+    "DCH-15",
+    "WEB-14"
+  ],
+  "cmmc_mapping": "AC.L1-3.1.22"
+}

@@ -1,0 +1,13 @@
+{
+  "erl_id": "E-CPL-02",
+  "area": "Compliance",
+  "artifact_name": "Defined Compliance Scope (DCS)",
+  "artifact_description": "Documented evidence of a formal scoping document that identifies applicable statutory, regulatory and/or contractual obligations for the organization. Defines the affected Lines of Business (LOB), internal / external stakeholders and facilities for the specific scope of compliance obligations.",
+  "scf_controls": [
+    "AST-04.1",
+    "AST-04.2",
+    "AST-04.3",
+    "CPL-01.2"
+  ],
+  "cmmc_mapping": ""
+}

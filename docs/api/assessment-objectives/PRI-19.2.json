@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PRI-19.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-19.2",
+      "ao_id": "PRI-19.2_A01",
+      "objective": "data subject-focused instructions pertaining to Automated Decision-Making Technology (ADMT) are documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-19.2",
+      "ao_id": "PRI-19.2_A02",
+      "objective": "data subjects are provided concise, unambiguous and understandable instructions on how a data subjects can opt-out of Automated Decision-Making Technology (ADMT).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

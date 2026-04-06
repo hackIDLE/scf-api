@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "MNT-03",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MNT-03",
+      "ao_id": "MNT-03_A01",
+      "objective": "system components for which maintenance support and/or spare parts are obtained are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-06_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-03",
+      "ao_id": "MNT-03_A02",
+      "objective": "time period within which maintenance support and/or spare parts are to be obtained after a failure are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-06_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-03",
+      "ao_id": "MNT-03_A03",
+      "objective": "maintenance support and/or spare parts are obtained for system components within an organization-defined time period of failure.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-06",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

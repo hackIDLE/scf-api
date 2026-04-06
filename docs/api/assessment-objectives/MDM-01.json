@@ -1,0 +1,66 @@
+{
+  "scf_control_id": "MDM-01",
+  "total": 6,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MDM-01",
+      "ao_id": "MDM-01_A01",
+      "objective": "policies and standards facilitate the implementation of mobile device management controls.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MDM-01",
+      "ao_id": "MDM-01_A02",
+      "objective": "usage restrictions are established for mobile devices.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.01.18.a[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MDM-01",
+      "ao_id": "MDM-01_A03",
+      "objective": "Mobile Device Management (MDM) operations are conducted according to documented policies, standards, procedures and/or other organizational directives.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MDM-01",
+      "ao_id": "MDM-01_A04",
+      "objective": "adequate resources (e.g., people, processes, technologies, data and/or facilities) are provided to support Mobile Device Management (MDM) operations.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MDM-01",
+      "ao_id": "MDM-01_A05",
+      "objective": "responsibility and authority for the performance of Mobile Device Management (MDM)-related activities are assigned to designated personnel.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MDM-01",
+      "ao_id": "MDM-01_A06",
+      "objective": "personnel performing Mobile Device Management (MDM)-related activities have the skills and knowledge needed to perform their assigned duties.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

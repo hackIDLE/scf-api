@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "RSK-09.2",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "RSK-09.2",
+      "ao_id": "RSK-09.2_A01",
+      "objective": "Supply Chain Risk Management (SCRM) practices address Artificial Intelligence (AI) and Autonomous Technologies (AAT)-related risks and benefits arising from the organization's supply chain, including third-party software and data.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

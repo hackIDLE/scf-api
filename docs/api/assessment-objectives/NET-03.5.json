@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "NET-03.5",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-03.5",
+      "ao_id": "NET-03.5_A01",
+      "objective": "the exfiltration of information is prevented.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-07(10)(a)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-03.5",
+      "ao_id": "NET-03.5_A02",
+      "objective": "the frequency for conducting exfiltration tests is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-07(10)_ODP",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-03.5",
+      "ao_id": "NET-03.5_A03",
+      "objective": "exfiltration tests are conducted per an organization-defined frequency.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-07(10)(b)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

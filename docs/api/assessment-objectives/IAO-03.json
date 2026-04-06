@@ -1,0 +1,656 @@
+{
+  "scf_control_id": "IAO-03",
+  "total": 65,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A01",
+      "objective": "the system boundary is described and documented in the system security plan.",
+      "pptdf": "Process",
+      "origin": "171A_3.12.4[b]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A02",
+      "objective": "the system components on which sensitive / regulated data is processed are identified and documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A03",
+      "objective": "the system components on which sensitive / regulated data is stored are identified and documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A04",
+      "objective": "changes to the system or system component location where sensitive / regulated data is processed are documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A05",
+      "objective": "changes to the system or system component location where sensitive / regulated data is stored are documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A06",
+      "objective": "a system security plan that describes specific threats to the system that are of concern to the organization is developed.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.15.02.a.03",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A07",
+      "objective": "a system security plan that describes the safeguards in place or planned for meeting the security requirements is developed.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.15.02.a.06",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A08",
+      "objective": "a system security plan that identifies individuals that fulfill system roles and responsibilities is developed.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.15.02.a.07",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A09",
+      "objective": "a system security plan that includes other relevant information necessary for the protection of sensitive / regulated data is developed.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A10",
+      "objective": "the system security plan is reviewed per an organization-defined frequency.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least every 12 months, or when there are significant incidents or significant changes to risks",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A11",
+      "objective": "the system security plan is protected from unauthorized disclosure.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.15.02.c",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A12",
+      "objective": "the security requirements identified and approved by the designated authority as non-applicable are identified.",
+      "pptdf": "Process",
+      "origin": "171A_3.12.4[d]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A13",
+      "objective": "the method of security requirement implementation is described and documented in the system security plan.",
+      "pptdf": "Process",
+      "origin": "171A_3.12.4[e]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A14",
+      "objective": "the relationship with or connection to other systems is described and documented in the system security plan.",
+      "pptdf": "Process",
+      "origin": "171A_3.12.4[f]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A15",
+      "objective": "the system security plan documents or references the security solution selected.",
+      "pptdf": "Process",
+      "origin": "172A_3.11.4e[a]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A16",
+      "objective": "the system security plan documents or references the rationale for the security solution.",
+      "pptdf": "Process",
+      "origin": "172A_3.11.4e[b]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A17",
+      "objective": "the system security plan documents or references the risk determination.",
+      "pptdf": "Process",
+      "origin": "172A_3.11.4e[c]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A18",
+      "objective": "individuals or groups with whom cybersecurity / data privacy-related activities affecting the system that require planning and coordination is/are assigned.",
+      "pptdf": "People",
+      "origin": "53A_R5_PL-02_ODP[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A19",
+      "objective": "personnel or roles to receive distributed copies of the system cybersecurity / data privacy plans is/are assigned.",
+      "pptdf": "People",
+      "origin": "53A_R5_PL-02_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A20",
+      "objective": "the frequency at which the system security plan is reviewed and updated is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-02_ODP[03]\n171A_3.12.4[g]\n171A_R3_A.03.15.02.ODP[01]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "at least every 12 months, or when there are significant incidents or significant changes to risks",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A21",
+      "objective": "the system security plan is updated per an organization-defined frequency.",
+      "pptdf": "Process",
+      "origin": "171A_3.12.4[h]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "at least every 12 months, or when there are significant incidents or significant changes to risks",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A22",
+      "objective": "a security plan for the system is developed that is consistent with the organization's enterprise architecture.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-02a.01[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A23",
+      "objective": "a privacy plan for the system is developed that is consistent with the organization's enterprise architecture.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-02a.01[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A24",
+      "objective": "a system security plan that defines the constituent system components is developed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-02a.02[01]\n171A_R3_A.03.15.02.a.01",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A25",
+      "objective": "a privacy plan for the system is developed that explicitly defines the constituent system components.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-02a.02[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A26",
+      "objective": "a security plan for the system is developed that describes the operational context of the system in terms of mission and business processes.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-02a.03[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A27",
+      "objective": "a privacy plan for the system is developed that describes the operational context of the system in terms of mission and business processes.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-02a.03[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A28",
+      "objective": "a security plan for the system is developed that identifies the individuals that fulfill system roles and responsibilities.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-02a.04[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A29",
+      "objective": "a privacy plan for the system is developed that identifies the individuals that fulfill system roles and responsibilities.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-02a.04[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A30",
+      "objective": "a system security plan that identifies the information types processed, stored, and transmitted by the system is developed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-02a.05[01]\n171A_R3_A.03.15.02.a.02",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A31",
+      "objective": "a privacy plan for the system is developed that identifies the information types processed, stored and transmitted by the system.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-02a.05[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A32",
+      "objective": "a security plan for the system is developed that provides the security categorization of the system, including supporting rationale.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-02a.06[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A33",
+      "objective": "a privacy plan for the system is developed that provides the security categorization of the system, including supporting rationale.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-02a.06[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A34",
+      "objective": "a security plan for the system is developed that describes any specific threats to the system that are of concern to the organization.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-02a.07[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A35",
+      "objective": "a privacy plan for the system is developed that describes any specific threats to the system that are of concern to the organization.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-02a.07[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A36",
+      "objective": "a security plan for the system is developed that provides the results of a privacy risk assessment for systems processing Personal Data (PD).",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-02a.08[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A37",
+      "objective": "a privacy plan for the system is developed that provides the results of a privacy risk assessment for systems processing Personal Data (PD).",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-02a.08[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A38",
+      "objective": "a system security plan that describes the operational environment for the system and any dependencies on or connections to other systems or system components is developed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-02a.09[01]\n53A_R5_PL-02a.09[02]\n171A_3.12.4[c]\n171A_R3_A.03.15.02.a.04",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A39",
+      "objective": "a system security plan that provides an overview of the security requirements for the system is developed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-02a.10[01]\n171A_3.12.4[a]\n171A_R3_A.03.15.02.a.05",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A40",
+      "objective": "a privacy plan for the system is developed that provides an overview of the privacy requirements for the system.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-02a.10[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A41",
+      "objective": "a security plan for the system is developed that identifies any relevant control baselines or overlays, if applicable.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-02a.11[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A42",
+      "objective": "a privacy plan for the system is developed that identifies any relevant control baselines or overlays, if applicable.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-02a.11[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A43",
+      "objective": "a security plan for the system is developed that describes the controls in place or planned for meeting the security requirements, including rationale for any tailoring decisions.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-02a.12[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A44",
+      "objective": "a privacy plan for the system is developed that describes the controls in place or planned for meeting the privacy requirements, including rationale for any tailoring decisions.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-02a.12[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A45",
+      "objective": "a security plan for the system is developed that includes risk determinations for security architecture and design decisions.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-02a.13[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A46",
+      "objective": "a privacy plan for the system is developed that includes risk determinations for privacy architecture and design decisions.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-02a.13[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A47",
+      "objective": "a security plan for the system is developed that includes security-related activities affecting the system that require planning and coordination with individuals or groups.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-02a.14[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A48",
+      "objective": "a privacy plan for the system is developed that includes privacy-related activities affecting the system that require planning and coordination with individuals or groups.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-02a.14[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A49",
+      "objective": "a security plan for the system is developed that is reviewed and approved by the authorizing official or designated representative prior to plan implementation.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-02a.15[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A50",
+      "objective": "a privacy plan for the system is developed that is reviewed and approved by the authorizing official or designated representative prior to plan implementation.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-02a.15[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A51",
+      "objective": "copies of the plans are distributed to personnel or roles.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-02b.[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A52",
+      "objective": "subsequent changes to the plans are communicated to personnel or roles.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-02b.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A53",
+      "objective": "plans are reviewed frequently.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-02c.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A54",
+      "objective": "plans are updated to address changes to the system and environment of operations.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-02d.[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A55",
+      "objective": "plans are updated to address problems identified during the plan implementation.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-02d.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A56",
+      "objective": "plans are updated to address problems identified during control assessments.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-02d.[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A57",
+      "objective": "plans are protected from unauthorized disclosure.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_PL-02e.[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A58",
+      "objective": "plans are protected from unauthorized modification.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_PL-02e.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A59",
+      "objective": "the system components on which CUI is stored are identified and documented.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.04.11.a[02]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A60",
+      "objective": "the system components on which CUI is stored are identified and documented.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.04.11.a[03]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A61",
+      "objective": "changes to the system or system component location where CUI is processed are documented.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.04.11.b[01]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A62",
+      "objective": "changes to the system or system component location where CUI is stored are documented.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.04.11.b[02]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A63",
+      "objective": "a system security plan that includes other relevant information necessary for the protection of CUI is developed.",
+      "pptdf": "Data",
+      "origin": "171A_R3_A.03.15.02.a.08",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A64",
+      "objective": "the system security plan is reviewed <A.03.15.02.ODP[01]: frequency>.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.15.02.b[01]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "at least every 12 months, or when there are significant incidents or significant changes to risks",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-03",
+      "ao_id": "IAO-03_A65",
+      "objective": "the system security plan is updated <A.03.15.02.ODP[01]: frequency>.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.15.02.b[02]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "at least every 12 months, or when there are significant incidents or significant changes to risks",
+      "org_defined_parameters": ""
+    }
+  ]
+}

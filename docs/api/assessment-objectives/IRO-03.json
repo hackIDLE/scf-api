@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "IRO-03",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IRO-03",
+      "ao_id": "IRO-03_A01",
+      "objective": "anomalous or suspicious behavior is defined.",
+      "pptdf": "Process",
+      "origin": "172A_3.14.2e[a]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-03",
+      "ao_id": "IRO-03_A02",
+      "objective": "environments or resources which may contain or may be related to anomalous or suspected adversarial behavior are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-04(13)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-03",
+      "ao_id": "IRO-03_A03",
+      "objective": "anomalous or suspected adversarial behavior in or related to organization-defined environments or resources are analyzed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-04(13)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-03",
+      "ao_id": "IRO-03_A04",
+      "objective": "organizational systems and system components are monitored on an ongoing basis for anomalous or suspicious behavior.",
+      "pptdf": "Technology",
+      "origin": "172A_3.14.2e[b]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

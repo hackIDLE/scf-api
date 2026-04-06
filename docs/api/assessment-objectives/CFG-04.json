@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "CFG-04",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CFG-04",
+      "ao_id": "CFG-04_A01",
+      "objective": "software and associated documentation are used in accordance with contract agreements and copyright laws.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_CM-10a.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-04",
+      "ao_id": "CFG-04_A02",
+      "objective": "the use of software and associated documentation protected by quantity licenses is tracked to control copying and distribution.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_CM-10b.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-04",
+      "ao_id": "CFG-04_A03",
+      "objective": "the use of peer-to-peer file sharing technology is controlled and documented to ensure that peer-to-peer file sharing is not used for the unauthorized distribution, display, performance or reproduction of copyrighted work.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-10c.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

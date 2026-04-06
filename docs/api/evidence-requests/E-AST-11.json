@@ -1,0 +1,12 @@
+{
+  "erl_id": "E-AST-11",
+  "area": "Asset Management",
+  "artifact_name": "Data Retention Program",
+  "artifact_description": "Documented evidence of a formal data retention program that governs the retention and destruction of data types.",
+  "scf_controls": [
+    "DCH-18",
+    "MON-10",
+    "PRI-05"
+  ],
+  "cmmc_mapping": ""
+}

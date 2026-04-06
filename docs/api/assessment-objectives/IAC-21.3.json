@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "IAC-21.3",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-21.3",
+      "ao_id": "IAC-21.3_A01",
+      "objective": "personnel or roles to which privileged accounts on the system are to be restricted are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-06(05)_ODP\n171A_R3_A.03.01.06.ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-21.3",
+      "ao_id": "IAC-21.3_A02",
+      "objective": "privileged accounts on the system are restricted to <A.03.01.06.ODP[01]: personnel or roles>.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-06(05)\n171A_R3_A.03.01.06.a",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "only defined and authorized personnel or administrative roles",
+      "org_defined_parameters": ""
+    }
+  ]
+}

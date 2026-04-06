@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "MNT-09",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MNT-09",
+      "ao_id": "MNT-09_A01",
+      "objective": "off-site maintenance activities are conducted securely and the asset(s) undergoing maintenance actions are secured during physical transfer and storage while off-site.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

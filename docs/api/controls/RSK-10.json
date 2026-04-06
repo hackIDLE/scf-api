@@ -1,0 +1,378 @@
+{
+  "control_id": "RSK-10",
+  "title": "Data Protection Impact Assessment (DPIA)",
+  "family": "RSK",
+  "description": "Mechanisms exist to conduct a Data Protection Impact Assessment (DPIA) on Technology Assets, Applications and/or Services (TAAS) that store, process and/or transmit Personal Data (PD) to identify and remediate reasonably-expected risks.",
+  "scf_question": "Does the organization conduct a Data Protection Impact Assessment (DPIA) on Technology Assets, Applications and/or Services (TAAS) that store, process and/or transmit Personal Data (PD) to identify and remediate reasonably-expected risks?",
+  "relative_weight": 9,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [
+    "E-PRI-04"
+  ],
+  "pptdf": "Process",
+  "nist_csf_function": "Identify",
+  "scrm_focus": {
+    "strategic": false,
+    "operational": true,
+    "tactical": true
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. \nRisk Management (RSK) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with RSK domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Risk management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ IT and/or cybersecurity personnel use an informal process to identify, assess, remediate and report on risk.\n▪ Risk management processes (e.g., risk assessments) focus on protecting High Value Assets (HVAs), including environments where sensitive/regulated data is stored, transmitted and processed.\n▪ Data/process owners are expected to self-manage risks associated with their Technology Assets, Applications, Services and/or Data (TAASD), based on the organization's published policies and standards, including the identification, remediation and reporting of risks.",
+    "2": "Risk Management (RSK) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with RSK domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with RSK domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with RSK  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Risk management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Risk management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Risk management processes (e.g., risk assessments) and technologies focus on protecting High Value Assets (HVAs), including environments where sensitive/regulated data is stored, transmitted and processed.\n▪ IT and/or cybersecurity personnel implement and maintain a form of Risk Management Program (RMP) that provides operational guidance on how risk is identified, assessed, remediated and reported.\n▪ Data/process owners are expected to self-manage risks associated with their systems, applications, services and data, based on the organization's published policies and standards, including the identification, remediation and reporting of risks.\n▪ Business process owners (BPOs) are made aware of cybersecurity and data protection risk(s).",
+    "3": "Risk Management (RSK) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with RSK domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with RSK domain capabilities are well-documented and kept current by process owners.\n▪ A risk management team, or similar function, is appropriately staffed and supported to implement and maintain RSK domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of risk management operations (e.g., risk management solution, GRC platform, TPRM tool, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with RSK domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to conduct a Data Protection Impact Assessment (DPIA) on Technology Assets, Applications and/or Services (TAAS) that store, process and/or transmit Personal Data (PD) to identify and remediate reasonably-expected risks.",
+    "4": "Risk Management (RSK) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [
+    "SCRMS",
+    "CORE AI Model Deployment",
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ Risk Management Program (RMP)\n∙ Data Protection Impact Assessment (DPIA)\n∙ Privacy Impact Assessment (PIA)",
+    "small": "∙ Risk Management Program (RMP)\n∙ Data Protection Impact Assessment (DPIA)\n∙ Privacy Impact Assessment (PIA)",
+    "medium": "∙ Risk Management Program (RMP)\n∙ Data Protection Impact Assessment (DPIA)\n∙ Privacy Impact Assessment (PIA)",
+    "large": "∙ Risk Management Program (RMP)\n∙ Data Protection Impact Assessment (DPIA)\n∙ Privacy Impact Assessment (PIA)",
+    "enterprise": "∙ Risk Management Program (RMP)\n∙ Data Protection Impact Assessment (DPIA)\n∙ Privacy Impact Assessment (PIA)"
+  },
+  "risks": [
+    "R-AC-4",
+    "R-BC-2",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-EX-5",
+    "R-GV-1",
+    "R-GV-2",
+    "R-GV-4",
+    "R-GV-5",
+    "R-GV-6",
+    "R-GV-7",
+    "R-SA-2",
+    "R-SC-1",
+    "R-SC-2",
+    "R-SC-3",
+    "R-SC-4",
+    "R-SC-5",
+    "R-SC-6"
+  ],
+  "threats": [
+    "NT-7",
+    "MT-1",
+    "MT-2",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-17",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Risk Management",
+  "crosswalks": {
+    "general-aicpa-pmf-2020": [
+      "M1.3-POF2"
+    ],
+    "general-aicpa-tsc-2017": [
+      "CC3.2",
+      "CC5.2",
+      "PI1.1"
+    ],
+    "general-cobit-2019": [
+      "APO12.01",
+      "APO12.02",
+      "APO12.03",
+      "APO12.04"
+    ],
+    "general-coso-2013": [
+      "7"
+    ],
+    "general-csa-cmm-4-1-0": [
+      "DSP-09"
+    ],
+    "general-csa-iot-2": [
+      "GVN-07",
+      "GVN-08",
+      "LGL-01",
+      "LGL-03"
+    ],
+    "general-iso-27002-2022": [
+      "5.33"
+    ],
+    "general-iso-27017-2015": [
+      "18.1.4"
+    ],
+    "general-iso-27018-2025": [
+      "5.33",
+      "5.35(a)",
+      "8.31(a)"
+    ],
+    "general-iso-27701-2025": [
+      "6.1.2",
+      "6.1.2(a)",
+      "6.1.2(a)(1)",
+      "6.1.2(a)(2)",
+      "6.1.2(b)",
+      "6.1.2(c)",
+      "6.1.2(c)(1)",
+      "6.1.2(c)(2)",
+      "6.1.2(d)",
+      "6.1.2(d)(1)",
+      "6.1.2(d)(2)",
+      "6.1.2(d)(3)",
+      "6.1.2(e)",
+      "6.1.2(e)(1)",
+      "6.1.2(e)(2)",
+      "8.2"
+    ],
+    "general-iso-42001-2023": [
+      "6.1.4",
+      "8.4",
+      "A.5.3",
+      "A.5.4",
+      "A.5.5"
+    ],
+    "general-nist-100-1-ai-rmf": [
+      "MAP 1.1",
+      "MEASURE 2.10"
+    ],
+    "general-nist-privacy-framework-1-0": [
+      "ID.IM-P7",
+      "ID.RA-P1",
+      "ID.RA-P2",
+      "ID.RA-P3",
+      "ID.RA-P4",
+      "ID.RA-P5",
+      "ID.DE-P2",
+      "ID.DE-P3",
+      "GV.MT-P1"
+    ],
+    "general-nist-800-53-r4": [
+      "AR-2"
+    ],
+    "general-nist-800-53-r5-2": [
+      "RA-08"
+    ],
+    "general-nist-800-53-r5-2-privacy": [
+      "RA-08"
+    ],
+    "general-nist-800-82-r3": [
+      "RA-08"
+    ],
+    "general-pci-dss-4-0-1": [
+      "A3.2.2"
+    ],
+    "general-scf-dpmp-2025": [
+      "9.5"
+    ],
+    "general-shared-assessments-sig-2025": [
+      "P.5"
+    ],
+    "general-tisax-6-0-3": [
+      "9.4.1"
+    ],
+    "general-ul-2900-1-2017": [
+      "12.1"
+    ],
+    "usa-federal-irs-1075-2021": [
+      "RA-8"
+    ],
+    "usa-federal-cms-marse-2-0": [
+      "AR-2",
+      "AR-2.a",
+      "AR-2.b"
+    ],
+    "usa-state-ca-ccpa-cpra-2026": [
+      "7152(a)",
+      "7152(a)(1)",
+      "7152(a)(2)",
+      "7152(a)(3)",
+      "7152(a)(3)(A)",
+      "7152(a)(3)(B)",
+      "7152(a)(3)(C)",
+      "7152(a)(3)(D)",
+      "7152(a)(3)(E)",
+      "7152(a)(3)(F)",
+      "7152(a)(3)(G)",
+      "7152(a)(3)(G)(i)",
+      "7152(a)(3)(G)(ii)",
+      "7152(a)(4)",
+      "7152(a)(5)",
+      "7152(a)(5)(A)",
+      "7152(a)(5)(B)",
+      "7152(a)(5)(C)",
+      "7152(a)(5)(D)",
+      "7152(a)(5)(E)",
+      "7152(a)(5)(F)",
+      "7152(a)(5)(G)",
+      "7152(a)(5)(H)",
+      "7152(a)(6)",
+      "7152(a)(6)(A)",
+      "7152(a)(6)(A)(i)",
+      "7152(a)(6)(A)(ii)",
+      "7152(a)(6)(A)(iii)",
+      "7152(a)(6)(A)(iv)",
+      "7152(a)(7)",
+      "7152(a)(8)",
+      "7152(a)(9)",
+      "7154(a)",
+      "7155(a)",
+      "7156(a)",
+      "7156(b)"
+    ],
+    "usa-state-or-ors-646a-2025": [
+      "646A.586(1)(a)",
+      "646A.586(1)(b)",
+      "646A.586(1)(b)(A)",
+      "646A.586(1)(b)(B)",
+      "646A.586(1)(b)(C)",
+      "646A.586(1)(b)(D)",
+      "646A.586(1)(b)(D)(i)",
+      "646A.586(1)(b)(D)(ii)",
+      "646A.586(1)(b)(D)(iii)",
+      "646A.586(1)(b)(D)(iv)",
+      "646A.586(1)(c)",
+      "646A.586(2)",
+      "646A.586(4)",
+      "646A.586(5)"
+    ],
+    "usa-state-or-cpa-2023": [
+      "Section 6(1)(c)",
+      "Section 8(1)(a)",
+      "Section 8(1)(c)",
+      "Section 8(2)"
+    ],
+    "usa-state-tn-tipa-2025": [
+      "47-18-3206(a)",
+      "47-18-3206(a)(1)",
+      "47-18-3206(a)(2)",
+      "47-18-3206(a)(3)",
+      "47-18-3206(a)(3)(A)",
+      "47-18-3206(a)(3)(B)",
+      "47-18-3206(a)(3)(C)",
+      "47-18-3206(a)(3)(D)",
+      "47-18-3206(a)(4)",
+      "47-18-3206(a)(5)",
+      "47-18-3206(b)",
+      "47-18-3206(c)",
+      "47-18-3206(d)",
+      "47-18-3206(e)",
+      "47-18-3206(f)"
+    ],
+    "usa-state-tx-cdpa-2025": [
+      "541.105(a)(1)",
+      "541.105(a)(2)",
+      "541.105(a)(3)(A)",
+      "541.105(a)(3)(B)",
+      "541.105(a)(3)(C)",
+      "541.105(a)(3)(D)",
+      "541.105(a)(4)",
+      "541.105(a)(5)",
+      "541.105(b)(1)",
+      "541.105(b)(2)(A)",
+      "541.105(b)(2)(B)",
+      "541.105(b)(2)(C)",
+      "541.105(b)(2)(D)",
+      "541.105(c)",
+      "541.105(d)",
+      "541.105(e)",
+      "541.105(f)"
+    ],
+    "usa-state-va-cdpa-2023": [
+      "59.1-580.A",
+      "59.1-580.A.1",
+      "59.1-580.A.2",
+      "59.1-580.A.3",
+      "59.1-580.A.4",
+      "59.1-580.A.5",
+      "59.1-580.B",
+      "59.1-580.C",
+      "59.1-580.D",
+      "59.1-580.E",
+      "59.1-580.F",
+      "59.1-580.G"
+    ],
+    "emea-eu-ai-act-2024": [
+      "Article 26.9"
+    ],
+    "emea-eu-gdpr-2016": [
+      "Article 35.1",
+      "Article 35.3(a)",
+      "Article 35.3(b)",
+      "Article 35.3(c)",
+      "Article 35.7(a)",
+      "Article 35.7(b)",
+      "Article 35.7(c)",
+      "Article 35.7(d)",
+      "Article 35.8",
+      "Article 35.9",
+      "Article 35.11",
+      "Article 36.1"
+    ],
+    "emea-deu-c5-2020": [
+      "BCM-02"
+    ],
+    "emea-isr-cmo-1-0": [
+      "16.6",
+      "17.3"
+    ],
+    "emea-ken-pda-2019": [
+      "31(1)",
+      "31(2)(a)",
+      "31(2)(b)",
+      "31(2)(c)",
+      "31(2)(d)",
+      "31(3)",
+      "31(4)",
+      "31(5)",
+      "31(6)"
+    ],
+    "emea-qat-pdppl-2020": [
+      "8.2"
+    ],
+    "emea-sau-ecc-1-2018": [
+      "1-5-3-4"
+    ],
+    "emea-sau-pdpl-2023": [
+      "Article 22"
+    ],
+    "emea-srb-act-9-2018": [
+      "54",
+      "54.x"
+    ],
+    "emea-zaf-popia-2013": [
+      "19"
+    ],
+    "apac-aus-ps-cps-234-2019": [
+      "21(d)"
+    ],
+    "apac-chn-pipl-2021": [
+      "55",
+      "55(1)",
+      "55(2)",
+      "55(3)",
+      "55(4)",
+      "55(5)",
+      "56",
+      "56(1)",
+      "56(2)",
+      "56(3)"
+    ],
+    "apac-ind-dpdpa-2023": [
+      "10(2)(c)(i)"
+    ],
+    "apac-sgp-mas-trm-2021": [
+      "5.1.3",
+      "5.3.3"
+    ],
+    "apac-kor-pipa-2011": [
+      "33"
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "scf_control_id": "IRO-12",
+  "total": 9,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IRO-12",
+      "ao_id": "IRO-12_A01",
+      "objective": "actions to be performed are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-09_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-12",
+      "ao_id": "IRO-12_A02",
+      "objective": "the specific information involved in the system contamination is identified in response to information spills.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-09b.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-12",
+      "ao_id": "IRO-12_A03",
+      "objective": "personnel or roles is/are alerted of the information spill using a method of communication not associated with the spill.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-09c.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-12",
+      "ao_id": "IRO-12_A04",
+      "objective": "the contaminated system or system component is isolated in response to information spills.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-09d.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-12",
+      "ao_id": "IRO-12_A05",
+      "objective": "the information is eradicated from the contaminated system or component in response to information spills.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-09e.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-12",
+      "ao_id": "IRO-12_A06",
+      "objective": "other systems or system components that may have been subsequently contaminated are identified in response to information spills.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-09f.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-12",
+      "ao_id": "IRO-12_A07",
+      "objective": "actions are performed in response to information spills.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-09g.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-12",
+      "ao_id": "IRO-12_A08",
+      "objective": "sensitive / regulated data is removed from publicly accessible systems, if discovered.",
+      "pptdf": "Data",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-12",
+      "ao_id": "IRO-12_A09",
+      "objective": "CUI is removed from publicly accessible systems, if discovered.",
+      "pptdf": "Data",
+      "origin": "171A_R3_A.03.01.22.b[02]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

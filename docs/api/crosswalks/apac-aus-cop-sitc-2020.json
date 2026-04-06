@@ -1,0 +1,128 @@
+{
+  "framework_id": "apac-aus-cop-sitc-2020",
+  "display_name": "Australia - Code of Practice - Securing the Internet of Things for Consumers (2020)",
+  "scf_to_framework": {
+    "total_mappings": 15,
+    "mappings": {
+      "AST-18": [
+        "Principle 4",
+        "Principle 7"
+      ],
+      "EMB-02": [
+        "Principle 11",
+        "Principle 13"
+      ],
+      "EMB-04": [
+        "Principle 6",
+        "Principle 13"
+      ],
+      "EMB-05": [
+        "Principle 8",
+        "Principle 10"
+      ],
+      "EMB-06": [
+        "Principle 6"
+      ],
+      "EMB-07": [
+        "Principle 3",
+        "Principle 12"
+      ],
+      "EMB-08": [
+        "Principle 9"
+      ],
+      "END-06.5": [
+        "Principle 8"
+      ],
+      "END-06.6": [
+        "Principle 8"
+      ],
+      "IAC-10.1": [
+        "Principle 1"
+      ],
+      "IAC-10.8": [
+        "Principle 1"
+      ],
+      "SEA-01": [
+        "Principle 4",
+        "Principle 5",
+        "Principle 6",
+        "Principle 7"
+      ],
+      "SEA-02": [
+        "Principle 4",
+        "Principle 5",
+        "Principle 6",
+        "Principle 7"
+      ],
+      "SEA-03": [
+        "Principle 4",
+        "Principle 5",
+        "Principle 6",
+        "Principle 7"
+      ],
+      "THR-06": [
+        "Principle 2"
+      ]
+    }
+  },
+  "framework_to_scf": {
+    "total_mappings": 13,
+    "mappings": {
+      "Principle 4": [
+        "AST-18",
+        "SEA-01",
+        "SEA-02",
+        "SEA-03"
+      ],
+      "Principle 7": [
+        "AST-18",
+        "SEA-01",
+        "SEA-02",
+        "SEA-03"
+      ],
+      "Principle 11": [
+        "EMB-02"
+      ],
+      "Principle 13": [
+        "EMB-02",
+        "EMB-04"
+      ],
+      "Principle 6": [
+        "EMB-04",
+        "EMB-06",
+        "SEA-01",
+        "SEA-02",
+        "SEA-03"
+      ],
+      "Principle 8": [
+        "EMB-05",
+        "END-06.5",
+        "END-06.6"
+      ],
+      "Principle 10": [
+        "EMB-05"
+      ],
+      "Principle 3": [
+        "EMB-07"
+      ],
+      "Principle 12": [
+        "EMB-07"
+      ],
+      "Principle 9": [
+        "EMB-08"
+      ],
+      "Principle 1": [
+        "IAC-10.1",
+        "IAC-10.8"
+      ],
+      "Principle 5": [
+        "SEA-01",
+        "SEA-02",
+        "SEA-03"
+      ],
+      "Principle 2": [
+        "THR-06"
+      ]
+    }
+  }
+}

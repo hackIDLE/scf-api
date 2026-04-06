@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-BCM-03",
+  "area": "Business Continuity",
+  "artifact_name": "Recovery Point Objectives (RPOs)",
+  "artifact_description": "Documented evidence of Recovery Point Objectives (RPOs) that guide Continuity of Operations Plan (COOP)-related operations.",
+  "scf_controls": [
+    "BCD-01.4"
+  ],
+  "cmmc_mapping": ""
+}

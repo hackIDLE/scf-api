@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "PRI-02.14",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-02.14",
+      "ao_id": "PRI-02.14_A01",
+      "objective": "alternative methods to deliver a data privacy notice are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-02.14",
+      "ao_id": "PRI-02.14_A02",
+      "objective": "alternative methods to deliver a data privacy notice are implemented.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-02.14",
+      "ao_id": "PRI-02.14_A03",
+      "objective": "data subjects are provided with a data privacy notice through alternative means for interactions that do not utilize an interface on a website or application.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "IAO-02.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAO-02.1",
+      "ao_id": "IAO-02.1_A01",
+      "objective": "independent assessors or assessment teams are employed to conduct control assessments.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CA-02(01)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

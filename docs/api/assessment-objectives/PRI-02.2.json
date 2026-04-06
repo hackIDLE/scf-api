@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PRI-02.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-02.2",
+      "ao_id": "PRI-02.2_A01",
+      "objective": "automated mechanisms used to manage enforcement of the authorized processing of Personal Data (PD) are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PT-02(02)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-02.2",
+      "ao_id": "PRI-02.2_A02",
+      "objective": "enforcement of the authorized processing of Personal Data (PD) is managed using automated mechanisms.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_PT-02(02)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

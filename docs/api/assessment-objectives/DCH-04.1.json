@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "DCH-04.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-04.1",
+      "ao_id": "DCH-04.1_A01",
+      "objective": "automated mechanisms mark media and system output to indicate the distribution limitations, handling requirements and applicable security markings (if any) of the information to enable the use of Data Loss Prevention (DLP) and similar automated data protection technologies.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

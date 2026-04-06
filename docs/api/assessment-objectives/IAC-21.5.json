@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "IAC-21.5",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-21.5",
+      "ao_id": "IAC-21.5_A01",
+      "objective": "privileged functions are defined.",
+      "pptdf": "Process",
+      "origin": "171A_3.1.7[a]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-21.5",
+      "ao_id": "IAC-21.5_A02",
+      "objective": "non-privileged users are defined.",
+      "pptdf": "Process",
+      "origin": "171A_3.1.7[b]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-21.5",
+      "ao_id": "IAC-21.5_A03",
+      "objective": "non-privileged users are prevented from executing privileged functions.",
+      "pptdf": "Technology",
+      "origin": "171A_3.1.7[c]\n171A_R3_A.03.01.07.a\n53A_R5_AC-06(10)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-21.5",
+      "ao_id": "IAC-21.5_A04",
+      "objective": "the execution of privileged functions is captured in event logs.",
+      "pptdf": "Technology",
+      "origin": "171A_3.1.7[d]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

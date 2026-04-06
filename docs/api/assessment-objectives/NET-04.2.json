@@ -1,0 +1,96 @@
+{
+  "scf_control_id": "NET-04.2",
+  "total": 9,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-04.2",
+      "ao_id": "NET-04.2_A01",
+      "objective": "cybersecurity / data privacy attributes associated with information, source and destination objects are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-04(01)_ODP[01]\n53A_R5_AC-04(01)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-04.2",
+      "ao_id": "NET-04.2_A02",
+      "objective": "information objects to be associated with cybersecurity / data privacy attributes are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-04(01)_ODP[03]\n53A_R5_AC-04(01)_ODP[04]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-04.2",
+      "ao_id": "NET-04.2_A03",
+      "objective": "source objects to be associated with cybersecurity / data privacy attributes are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-04(01)_ODP[05]\n53A_R5_AC-04(01)_ODP[06]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-04.2",
+      "ao_id": "NET-04.2_A04",
+      "objective": "destination objects to be associated with cybersecurity / data privacy attributes are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-04(01)_ODP[07]\n53A_R5_AC-04(01)_ODP[08]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-04.2",
+      "ao_id": "NET-04.2_A05",
+      "objective": "information flow control policies as a basis for enforcement of flow control decisions are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-04(01)_ODP[09]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-04.2",
+      "ao_id": "NET-04.2_A06",
+      "objective": "organization-defined cybersecurity / data privacy attributes associated with organization-defined information objects, organization-defined source objects and organization-defined destination objects are used to enforce organization-defined information flow control policies as a basis for flow control decisions.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-04(01)[01]\n53A_R5_AC-04(01)[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-04.2",
+      "ao_id": "NET-04.2_A07",
+      "objective": "secure information transfer solutions are defined.",
+      "pptdf": "Process",
+      "origin": "172A_3.1.3e_ODP[1]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-04.2",
+      "ao_id": "NET-04.2_A08",
+      "objective": "information flows between security domains on connected systems are identified.",
+      "pptdf": "Process",
+      "origin": "172A_3.1.3e[a]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-04.2",
+      "ao_id": "NET-04.2_A09",
+      "objective": "solutions are employed to control information flows between security domains on connected systems.",
+      "pptdf": "Technology",
+      "origin": "172A_3.1.3e[b]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

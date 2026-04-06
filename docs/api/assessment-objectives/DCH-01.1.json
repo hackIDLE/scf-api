@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "DCH-01.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-01.1",
+      "ao_id": "DCH-01.1_A01",
+      "objective": "organizational data ownership requirements are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-01.1",
+      "ao_id": "DCH-01.1_A02",
+      "objective": "data ownership is formally assigned to an individual through defined roles and responsibilities.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

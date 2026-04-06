@@ -1,0 +1,18 @@
+{
+  "erl_id": "E-IAM-06",
+  "area": "Identity & Access Management",
+  "artifact_name": "Authenticate, Authorize and Audit (AAA) Solution",
+  "artifact_description": "Documented evidence of an Authenticate, Authorize and Audit (AAA) solution (on-premises and hosted by External Service Providers (ESP)).",
+  "scf_controls": [
+    "IAC-01.2",
+    "IAC-02",
+    "IAC-02.2",
+    "IAC-03",
+    "IAC-03.5",
+    "IAC-04",
+    "IAC-05",
+    "IAC-21",
+    "IAC-28"
+  ],
+  "cmmc_mapping": ""
+}

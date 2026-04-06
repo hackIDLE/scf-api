@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-GOV-19",
+  "area": "Cybersecurity & Data Protection Management",
+  "artifact_name": "Operationalizing Cybersecurity & Data Protection Practices",
+  "artifact_description": "Documented evidence of personnel management actions to compel data and/or process owners to operationalize cybersecurity and data protection practices for each Technology Asset, Application and/or Service (TAAS) under their control.",
+  "scf_controls": [
+    "GOV-15"
+  ],
+  "cmmc_mapping": ""
+}

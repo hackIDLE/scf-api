@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "AAT-28",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-28",
+      "ao_id": "AAT-28_A01",
+      "objective": "evidence supports the claim that AI models are designed with resilience capabilities that are sufficient to withstand reasonable threats.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

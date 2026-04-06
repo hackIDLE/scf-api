@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "DCH-25.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-25.1",
+      "ao_id": "DCH-25.1_A01",
+      "objective": "organization-specific \"normal business activities\" are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-25.1",
+      "ao_id": "DCH-25.1_A02",
+      "objective": "mechanisms are implemented to identify anomalous transaction activities that can reduce the opportunity for sending (outbound) and/or receiving (inbound) fraudulent actions.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

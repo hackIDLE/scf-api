@@ -1,0 +1,215 @@
+{
+  "control_id": "GOV-06",
+  "title": "Contacts With Authorities",
+  "family": "GOV",
+  "description": "Mechanisms exist to identify and document appropriate contacts with relevant law enforcement and regulatory bodies.",
+  "scf_question": "Does the organization identify and document appropriate contacts with relevant law enforcement and regulatory bodies?",
+  "relative_weight": 5,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [],
+  "pptdf": "Process",
+  "nist_csf_function": "Govern",
+  "scrm_focus": {
+    "strategic": false,
+    "operational": true,
+    "tactical": false
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "Cybersecurity & Data Protection Governance (GOV) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with GOV domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Governance-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ No formal Governance, Risk & Compliance (GRC) team exists. GRC roles are assigned to existing IT/cybersecurity personnel.\n▪ Cybersecurity and data protection governance is informally assigned as an additional duty to existing IT/cybersecurity personnel.\n▪ Cybersecurity personnel identify and maintain contact information for local and national law enforcement (e.g., FBI field office) in case of cybersecurity incidents that require law enforcement involvement.",
+    "2": "Cybersecurity & Data Protection Governance (GOV) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with GOV domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with GOV domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with GOV  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Governance-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ No formal Governance, Risk & Compliance (GRC) team exists. GRC roles are assigned to existing IT and/or cybersecurity personnel.",
+    "3": "Cybersecurity & Data Protection Governance (GOV) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with GOV domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with GOV domain capabilities are well-documented and kept current by process owners.\n▪ The entity's GRC team, or similar function, is appropriately staffed and supported to implement and maintain GOV domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ Technology is leveraged to enhance the efficiency and accuracy of governance, risk management and compliance operations (e.g., GRC platform).\n▪ An implemented and operational capability exists to identify and document appropriate contacts with relevant law enforcement and regulatory bodies.",
+    "4": "Cybersecurity & Data Protection Governance (GOV) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+    "5": "Cybersecurity & Data Protection Governance (GOV) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions."
+  },
+  "profiles": [
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ Documented list of law enforcement and regulatory contacts (FBI, CISA, state AG)\n∙ MS-ISAC free membership (https://www.cisecurity.org/ms-isac)",
+    "small": "∙ Documented contacts with FBI Cyber Division, CISA, and relevant regulators\n∙ MS-ISAC or sector-specific ISAC membership\n∙ Pre-established law enforcement liaisons for incident response",
+    "medium": "∙ Integrated Security Incident Response Team (ISIRT) with defined authority contacts\n∙ CISA Cyber Liaison and FBI Cyber Division contacts\n∙ Sector ISAC membership (e.g., FS-ISAC, H-ISAC, E-ISAC)\n∙ Regulatory notification contact list (e.g., FTC, OCR, state regulators)",
+    "large": "∙ Integrated Security Incident Response Team (ISIRT) with pre-established authority relationships\n∙ Formal engagement with law enforcement (FBI, USSS, CISA)\n∙ Sector ISAC active membership with information sharing participation\n∙ Regulatory breach notification contacts and documented procedures",
+    "enterprise": "∙ Dedicated government liaison program (FBI, CISA, NSA, sector regulators)\n∙ Active ISAC membership with classified threat briefing access (where applicable)\n∙ Pre-established breach notification workflows for all applicable regulators\n∙ Integrated Security Incident Response Team (ISIRT) with 24/7 law enforcement contact protocols"
+  },
+  "risks": [
+    "R-BC-4",
+    "R-BC-5",
+    "R-EX-1",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-EX-5",
+    "R-EX-6",
+    "R-EX-7",
+    "R-GV-1",
+    "R-GV-2",
+    "R-GV-3",
+    "R-GV-4",
+    "R-GV-5",
+    "R-GV-8",
+    "R-IR-1",
+    "R-IR-2",
+    "R-IR-3",
+    "R-IR-4",
+    "R-SA-1"
+  ],
+  "threats": [
+    "NT-7",
+    "MT-1",
+    "MT-2",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-10",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Cybersecurity & Data Protection Governance",
+  "crosswalks": {
+    "general-aicpa-tsc-2017": [
+      "CC2.2-POF4",
+      "CC2.3",
+      "CC3.1-POF10"
+    ],
+    "general-coso-2013": [
+      "15"
+    ],
+    "general-govramp": [
+      "IR-06"
+    ],
+    "general-govramp-core": [
+      "IR-06"
+    ],
+    "general-govramp-low": [
+      "IR-06"
+    ],
+    "general-govramp-low-plus": [
+      "IR-06"
+    ],
+    "general-govramp-mod": [
+      "IR-06"
+    ],
+    "general-govramp-high": [
+      "IR-06"
+    ],
+    "general-iso-27002-2022": [
+      "5.5"
+    ],
+    "general-iso-27017-2015": [
+      "6.1.3"
+    ],
+    "general-iso-27018-2025": [
+      "5.5"
+    ],
+    "general-nist-600-1-gen-ai-profile": [
+      "GV-2.1-004"
+    ],
+    "general-nist-800-53-r4": [
+      "IR-6"
+    ],
+    "general-nist-800-53-r5-2": [
+      "IR-06"
+    ],
+    "general-nist-800-53-r5-2-privacy": [
+      "IR-06"
+    ],
+    "general-nist-800-53-r5-2-low": [
+      "IR-06"
+    ],
+    "general-nist-800-82-r3": [
+      "IR-06"
+    ],
+    "general-nist-800-82-r3-low": [
+      "IR-06"
+    ],
+    "general-nist-800-82-r3-mod": [
+      "IR-06"
+    ],
+    "general-nist-800-82-r3-high": [
+      "IR-06"
+    ],
+    "general-nist-800-161-r1": [
+      "IR-6"
+    ],
+    "usa-federal-dhs-cisa-cpg-2-0": [
+      "4.A"
+    ],
+    "usa-federal-fbi-cjis-6-0": [
+      "IR-6"
+    ],
+    "usa-federal-gsa-fedramp-5-low": [
+      "IR-06"
+    ],
+    "usa-federal-gsa-fedramp-5-mod": [
+      "IR-06"
+    ],
+    "usa-federal-gsa-fedramp-5-high": [
+      "IR-06"
+    ],
+    "usa-federal-gsa-fedramp-5-li-saas": [
+      "IR-06"
+    ],
+    "usa-federal-irs-1075-2021": [
+      "IR-6"
+    ],
+    "usa-federal-cms-marse-2-0": [
+      "IR-6"
+    ],
+    "usa-federal-sec-cybersecurity-rule-2023": [
+      "Form 8-K Item 1.05(a)"
+    ],
+    "usa-state-tx-dir-security-control-standards-catalog-2-2": [
+      "IR-06"
+    ],
+    "usa-state-tx-txramp-2-0-level-1": [
+      "IR-06"
+    ],
+    "usa-state-tx-txramp-2-0-level-2": [
+      "IR-06"
+    ],
+    "emea-eu-eba-ict-srm-2025": [
+      "3.7.5(91)"
+    ],
+    "emea-eu-dora-2023": [
+      "Article 31.4"
+    ],
+    "emea-deu-c5-2020": [
+      "OIS-05"
+    ],
+    "emea-esp-boe-a-2022-7191": [
+      "Article 32.1",
+      "Article 32.2",
+      "Article 32.3"
+    ],
+    "emea-esp-decree-311-2022": [
+      "32.1",
+      "32.2",
+      "32.3"
+    ],
+    "apac-aus-ps-cps-230-2023": [
+      "33",
+      "42",
+      "51",
+      "59(a)",
+      "59(b)"
+    ],
+    "apac-aus-ps-cps-234-2019": [
+      "35",
+      "35(a)",
+      "35(b)",
+      "36"
+    ],
+    "apac-jpn-ismap": [
+      "6.1.3",
+      "6.1.3.1",
+      "6.1.3.3.PB"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "NET-08",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-08",
+      "ao_id": "NET-08_A01",
+      "objective": "Network Intrusion Detection / Prevention Systems (NIDS/NIPS) is utilized to detect and/or prevent intrusions into the network.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

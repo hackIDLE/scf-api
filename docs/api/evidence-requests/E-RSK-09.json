@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-RSK-09",
+  "area": "Risk Management",
+  "artifact_name": "Risk Catalog",
+  "artifact_description": "Documented evidence of a risk catalog.",
+  "scf_controls": [
+    "RSK-03.1"
+  ],
+  "cmmc_mapping": ""
+}

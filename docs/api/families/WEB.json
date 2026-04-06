@@ -1,0 +1,1593 @@
+{
+  "family_code": "WEB",
+  "family_name": "Web Security",
+  "control_count": 15,
+  "controls": [
+    {
+      "control_id": "WEB-01",
+      "title": "Web Security",
+      "family": "WEB",
+      "description": "Mechanisms exist to facilitate the implementation of an enterprise-wide web management policy, as well as associated standards, controls and procedures.",
+      "scf_question": "Does the organization facilitate the implementation of an enterprise-wide web management policy, as well as associated standards, controls and procedures?",
+      "relative_weight": 8,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [],
+      "pptdf": "Process",
+      "nist_csf_function": "Govern",
+      "scrm_focus": {
+        "strategic": true,
+        "operational": true,
+        "tactical": true
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "Web Security (WEB) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with WEB domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Web management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.",
+        "2": "Web Security (WEB) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with WEB domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with WEB domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with WEB  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Web security-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Web security management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
+        "3": "Web Security (WEB) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with WEB domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with WEB domain capabilities are well-documented and kept current by process owners.\n▪ A web management team, or simiE210:E1635main capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of web management operations (e.g., secure web gateway, Content Management System (CMS) solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with WEB domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to facilitate the implementation of an enterprise-wide web management policy, as well as associated standards, controls and procedures.",
+        "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [
+        "SCRMS",
+        "CORE ESP Level 2 Critical Infrastructure",
+        "CORE ESP Level 3 Advanced Threats",
+        "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+      ],
+      "possible_solutions": {
+        "micro_small": "∙ Keep website CMS and plugins updated",
+        "small": "∙ Web security policy\n∙ HTTPS enforcement\n∙ Regular updates for web software",
+        "medium": "∙ Formal web security program\n∙ WAF\n∙ HTTPS enforcement\n∙ Regular security testing",
+        "large": "∙ Enterprise web security program\n∙ WAF\n∙ DAST\n∙ Content security policy\n∙ Bot management",
+        "enterprise": "∙ Enterprise web security platform (e.g., Imperva, Cloudflare)\n∙ WAF\n∙ DDoS protection\n∙ DAST integration\n∙ Bot management"
+      },
+      "risks": [
+        "R-AC-1",
+        "R-AC-2",
+        "R-AC-3",
+        "R-AC-4",
+        "R-AM-1",
+        "R-AM-2",
+        "R-AM-3",
+        "R-BC-1",
+        "R-BC-2",
+        "R-BC-3",
+        "R-BC-4",
+        "R-BC-5",
+        "R-EX-1",
+        "R-EX-2",
+        "R-EX-3",
+        "R-EX-4",
+        "R-EX-5",
+        "R-EX-6",
+        "R-EX-7",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-3",
+        "R-GV-4",
+        "R-GV-5",
+        "R-GV-6",
+        "R-GV-7",
+        "R-GV-8",
+        "R-IR-1",
+        "R-IR-2",
+        "R-IR-3",
+        "R-IR-4",
+        "R-SA-1",
+        "R-SC-1",
+        "R-SC-2",
+        "R-SC-3",
+        "R-SC-4",
+        "R-SC-5",
+        "R-SC-6"
+      ],
+      "threats": [
+        "NT-7",
+        "MT-1",
+        "MT-2",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-16",
+        "MT-17",
+        "MT-18",
+        "MT-19",
+        "MT-20",
+        "MT-21",
+        "MT-22",
+        "MT-23",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Web Security",
+      "crosswalks": {
+        "general-mpa-csbp-5-3-1": [
+          "TS-1.10",
+          "TS-2.0"
+        ],
+        "general-nist-800-171-r2": [
+          "3.1.22"
+        ],
+        "general-nist-800-171-r3": [
+          "03.01.22.a"
+        ],
+        "general-pci-dss-4-0-1": [
+          "6.4",
+          "6.4.1",
+          "6.4.2"
+        ],
+        "general-pci-dss-4-0-1-saq-a-ep": [
+          "6.4.1",
+          "6.4.2"
+        ],
+        "general-pci-dss-4-0-1-saq-d-merchant": [
+          "6.4.1",
+          "6.4.2"
+        ],
+        "general-pci-dss-4-0-1-saq-d-service-provider": [
+          "6.4.1",
+          "6.4.2"
+        ],
+        "usa-federal-dow-cmmc-2-level-1": [
+          "AC.L1-B.1.IV"
+        ],
+        "usa-federal-dow-cmmc-2-level-2": [
+          "ACL2.-3.1.22"
+        ],
+        "usa-federal-far-52-204-21": [
+          "52.204-21(b)(1)(iv)"
+        ],
+        "usa-federal-irs-1075-2021": [
+          "3.3.8",
+          "3.3.8.c"
+        ],
+        "emea-aut-fappd-2000": [
+          "Sec 14",
+          "Sec 15"
+        ],
+        "emea-bel-act-8-1992": [
+          "16"
+        ],
+        "emea-sau-cscc-1-2019": [
+          "2-12",
+          "2-12-1-1",
+          "2-12-1-2"
+        ],
+        "emea-sau-ecc-1-2018": [
+          "2-15-1",
+          "2-15-2",
+          "2-15-3",
+          "2-15-4"
+        ],
+        "emea-esp-ccn-stic-825-2023": [
+          "8.8.2 [MP.S.2]"
+        ],
+        "apac-nzl-ism-3-9": [
+          "14.5.6.C.01",
+          "14.5.7.C.01",
+          "14.5.8.C.01"
+        ],
+        "americas-can-itsp-10-171-2025": [
+          "03.01.22.A"
+        ]
+      }
+    },
+    {
+      "control_id": "WEB-01.1",
+      "title": "Unauthorized Code",
+      "family": "WEB",
+      "description": "Mechanisms exist to prevent unauthorized code from being present in a secure page as it is rendered in a client’s browser.",
+      "scf_question": "Does the organization prevent unauthorized code from being present in a secure page as it is rendered in a client’s browser?",
+      "relative_weight": 9,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [],
+      "pptdf": "Process",
+      "nist_csf_function": "Protect",
+      "scrm_focus": {
+        "strategic": false,
+        "operational": true,
+        "tactical": true
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. \nWeb Security (WEB) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with WEB domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Web management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.",
+        "2": "Web Security (WEB) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with WEB domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with WEB domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with WEB  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Web security-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Web security management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
+        "3": "Web Security (WEB) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with WEB domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with WEB domain capabilities are well-documented and kept current by process owners.\n▪ A web management team, or simiE210:E1635main capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of web management operations (e.g., secure web gateway, Content Management System (CMS) solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with WEB domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to prevent unauthorized code from being present in a secure page as it is rendered in a client’s browser.",
+        "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [],
+      "possible_solutions": {
+        "micro_small": "∙ Review website for unauthorized scripts or content regularly",
+        "small": "∙ Policy to prevent and detect unauthorized code on web properties",
+        "medium": "∙ Formal unauthorized code detection program\n∙ Web integrity monitoring",
+        "large": "∙ Enterprise web integrity monitoring (e.g., RiskIQ, Reflectiz)\n∙ Automated unauthorized code detection",
+        "enterprise": "∙ Enterprise web security platform with unauthorized code detection (e.g., Featurespace, Reflectiz, c/side)\n∙ Real-time monitoring"
+      },
+      "risks": [
+        "R-AC-1",
+        "R-AC-2",
+        "R-AC-3",
+        "R-AC-4",
+        "R-AM-1",
+        "R-AM-2",
+        "R-AM-3",
+        "R-BC-1",
+        "R-BC-2",
+        "R-BC-3",
+        "R-BC-4",
+        "R-BC-5",
+        "R-EX-1",
+        "R-EX-2",
+        "R-EX-3",
+        "R-EX-4",
+        "R-EX-5",
+        "R-EX-6",
+        "R-EX-7",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-3",
+        "R-GV-4",
+        "R-GV-5",
+        "R-GV-6",
+        "R-GV-7",
+        "R-IR-1",
+        "R-IR-2",
+        "R-IR-3",
+        "R-IR-4",
+        "R-SA-1",
+        "R-SC-1",
+        "R-SC-2",
+        "R-SC-3",
+        "R-SC-4",
+        "R-SC-5",
+        "R-SC-6"
+      ],
+      "threats": [
+        "MT-8",
+        "MT-9",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Web Security",
+      "crosswalks": {
+        "general-pci-dss-4-0-1": [
+          "6.4.3"
+        ],
+        "general-pci-dss-4-0-1-saq-a": [
+          "6.4.3"
+        ],
+        "general-pci-dss-4-0-1-saq-a-ep": [
+          "6.4.3"
+        ],
+        "general-pci-dss-4-0-1-saq-d-merchant": [
+          "6.4.3"
+        ],
+        "general-pci-dss-4-0-1-saq-d-service-provider": [
+          "6.4.3"
+        ]
+      }
+    },
+    {
+      "control_id": "WEB-02",
+      "title": "Use of Demilitarized Zones (DMZ)",
+      "family": "WEB",
+      "description": "Mechanisms exist to utilize a Demilitarized Zone (DMZ) to restrict inbound traffic to authorized Technology Assets, Applications and/or Services (TAAS) on certain services, protocols and ports.",
+      "scf_question": "Does the organization utilize a Demilitarized Zone (DMZ) to restrict inbound traffic to authorized Technology Assets, Applications and/or Services (TAAS) on certain services, protocols and ports?",
+      "relative_weight": 9,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [],
+      "pptdf": "Process",
+      "nist_csf_function": "Protect",
+      "scrm_focus": {
+        "strategic": false,
+        "operational": true,
+        "tactical": true
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. \nWeb Security (WEB) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with WEB domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Web management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.",
+        "2": "Web Security (WEB) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with WEB domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with WEB domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with WEB  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Web security-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Web security management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
+        "3": "Web Security (WEB) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with WEB domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with WEB domain capabilities are well-documented and kept current by process owners.\n▪ A web management team, or simiE210:E1635main capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of web management operations (e.g., secure web gateway, Content Management System (CMS) solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with WEB domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to utilize a Demilitarized Zone (DMZ) to restrict inbound traffic to authorized Technology Assets, Applications and/or Services (TAAS) on certain services, protocols and ports.",
+        "4": "Web Security (WEB) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [
+        "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+      ],
+      "possible_solutions": {
+        "micro_small": "∙ Host internet-facing services in isolated network from internal systems",
+        "small": "∙ DMZ for internet-facing web services",
+        "medium": "∙ Formal DMZ architecture for web services\n∙ Separation from internal network",
+        "large": "∙ Enterprise DMZ design with WAF and IDS/IPS for web services",
+        "enterprise": "∙ Enterprise web architecture with DMZ\n∙ WAF\n∙ Reverse proxy\n∙ Network segmentation\n∙ DDoS protection"
+      },
+      "risks": [
+        "R-AC-2",
+        "R-AC-3",
+        "R-AC-4",
+        "R-AM-1",
+        "R-AM-2",
+        "R-AM-3",
+        "R-BC-1",
+        "R-BC-2",
+        "R-BC-3",
+        "R-BC-4",
+        "R-EX-1",
+        "R-EX-2",
+        "R-EX-3",
+        "R-EX-4",
+        "R-EX-5",
+        "R-EX-6",
+        "R-EX-7",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-3",
+        "R-GV-4",
+        "R-GV-5",
+        "R-GV-6",
+        "R-GV-7",
+        "R-GV-8",
+        "R-IR-4",
+        "R-SA-1",
+        "R-SC-1",
+        "R-SC-2",
+        "R-SC-3",
+        "R-SC-4",
+        "R-SC-5",
+        "R-SC-6"
+      ],
+      "threats": [
+        "NT-7",
+        "MT-1",
+        "MT-2",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Web Security",
+      "crosswalks": {
+        "general-iso-27002-2022": [
+          "8.22"
+        ],
+        "general-iso-27017-2015": [
+          "13.1.3"
+        ],
+        "general-iso-27018-2025": [
+          "8.22"
+        ],
+        "general-mpa-csbp-5-3-1": [
+          "TS-1.10",
+          "TS-2.0"
+        ],
+        "general-nist-800-171-r2": [
+          "3.1.22"
+        ],
+        "general-nist-800-171a": [
+          "3.1.22[a]",
+          "3.1.22[b]",
+          "3.1.22[c]",
+          "3.1.22[d]",
+          "3.1.22[e]"
+        ],
+        "general-shared-assessments-sig-2025": [
+          "N.8"
+        ],
+        "general-swift-cscf-2025": [
+          "1.1",
+          "1.5"
+        ],
+        "usa-federal-dow-cmmc-2-level-1": [
+          "AC.L1-B.1.IV"
+        ],
+        "usa-federal-dow-cmmc-2-level-2": [
+          "ACL2.-3.1.22"
+        ],
+        "usa-federal-far-52-204-21": [
+          "52.204-21(b)(1)(iv)"
+        ],
+        "usa-federal-irs-1075-2021": [
+          "3.3.8.a"
+        ],
+        "emea-aut-fappd-2000": [
+          "Sec 14",
+          "Sec 15"
+        ],
+        "emea-bel-act-8-1992": [
+          "16"
+        ],
+        "emea-sau-otcc-1-2022": [
+          "2-4-1-10",
+          "2-4-1-13"
+        ],
+        "emea-sau-sacs-002-2022": [
+          "TPC-41"
+        ]
+      }
+    },
+    {
+      "control_id": "WEB-03",
+      "title": "Web Application Firewall (WAF)",
+      "family": "WEB",
+      "description": "Mechanisms exist to deploy Web Application Firewalls (WAFs) to provide defense-in-depth protection for application-specific threats.",
+      "scf_question": "Does the organization deploy Web Application Firewalls (WAFs) to provide defense-in-depth protection for application-specific threats?",
+      "relative_weight": 8,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [],
+      "pptdf": "Technology",
+      "nist_csf_function": "Protect",
+      "scrm_focus": {
+        "strategic": false,
+        "operational": true,
+        "tactical": true
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. \nWeb Security (WEB) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with WEB domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Web management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.",
+        "2": "Web Security (WEB) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with WEB domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with WEB domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with WEB  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Web security-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Web security management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
+        "3": "Web Security (WEB) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with WEB domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with WEB domain capabilities are well-documented and kept current by process owners.\n▪ A web management team, or simiE210:E1635main capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of web management operations (e.g., secure web gateway, Content Management System (CMS) solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with WEB domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to deploy Web Application Firewalls (WAFs) to provide defense-in-depth protection for application-specific threats.",
+        "4": "Web Security (WEB) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [
+        "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+      ],
+      "possible_solutions": {
+        "micro_small": "∙ Keep website CMS and plugins updated\n∙ Use HTTPS",
+        "small": "∙ Web Application Firewall (WAF)",
+        "medium": "∙ Web Application Firewall (WAF)",
+        "large": "∙ Web Application Firewall (WAF)",
+        "enterprise": "∙ Web Application Firewall (WAF)"
+      },
+      "risks": [
+        "R-AM-1",
+        "R-AM-3",
+        "R-BC-1",
+        "R-BC-4",
+        "R-EX-5",
+        "R-EX-6",
+        "R-EX-7",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-4",
+        "R-GV-5",
+        "R-IR-4",
+        "R-SA-1"
+      ],
+      "threats": [
+        "NT-7",
+        "MT-1",
+        "MT-2",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-10",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Web Security",
+      "crosswalks": {
+        "general-cis-csc-8-1": [
+          "4.4",
+          "13.1"
+        ],
+        "general-cis-csc-8-1-ig1": [
+          "4.4"
+        ],
+        "general-cis-csc-8-1-ig2": [
+          "4.4"
+        ],
+        "general-cis-csc-8-1-ig3": [
+          "4.4",
+          "13.1"
+        ],
+        "general-nist-800-53-r4": [
+          "SC-7(17)"
+        ],
+        "general-nist-800-53-r5-2": [
+          "SC-07(17)"
+        ],
+        "general-nist-800-82-r3": [
+          "SC-07(17)"
+        ],
+        "general-pci-dss-4-0-1": [
+          "6.4",
+          "6.4.1",
+          "6.4.2"
+        ],
+        "general-pci-dss-4-0-1-saq-a-ep": [
+          "6.4.1",
+          "6.4.2"
+        ],
+        "general-pci-dss-4-0-1-saq-d-merchant": [
+          "6.4.1",
+          "6.4.2"
+        ],
+        "general-pci-dss-4-0-1-saq-d-service-provider": [
+          "6.4.1",
+          "6.4.2"
+        ],
+        "usa-federal-irs-1075-2021": [
+          "SC-7(CE-17)"
+        ],
+        "emea-sau-ecc-1-2018": [
+          "2-15-3-1"
+        ],
+        "emea-sau-sacs-002-2022": [
+          "TPC-79"
+        ],
+        "amaericas-can-osfi-self-assessment": [
+          "4.3",
+          "4.4"
+        ]
+      }
+    },
+    {
+      "control_id": "WEB-04",
+      "title": "Client-Facing Web Services",
+      "family": "WEB",
+      "description": "Mechanisms exist to deploy reasonably-expected security, compliance and resilience controls to protect the confidentiality and availability of client data that is stored, transmitted or processed by the Internet-based service.",
+      "scf_question": "Does the organization deploy reasonably-expected security, compliance and resilience controls to protect the confidentiality and availability of client data that is stored, transmitted or processed by the Internet-based service?",
+      "relative_weight": 10,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [],
+      "pptdf": "Technology",
+      "nist_csf_function": "Protect",
+      "scrm_focus": {
+        "strategic": false,
+        "operational": true,
+        "tactical": true
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. \nWeb Security (WEB) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with WEB domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Web management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.",
+        "2": "Web Security (WEB) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with WEB domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with WEB domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with WEB  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Web security-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Web security management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
+        "3": "Web Security (WEB) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with WEB domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with WEB domain capabilities are well-documented and kept current by process owners.\n▪ A web management team, or simiE210:E1635main capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of web management operations (e.g., secure web gateway, Content Management System (CMS) solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with WEB domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to deploy reasonably-expected security, compliance and resilience controls to protect the confidentiality and availability of client data that is stored, transmitted or processed by the Internet-based service.",
+        "4": "Web Security (WEB) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [
+        "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+      ],
+      "possible_solutions": {
+        "micro_small": "∙ Only expose necessary web service APIs/endpoints to clients",
+        "small": "∙ Client-facing web service security policy\n∙ Minimize exposed endpoints",
+        "medium": "∙ Formal client-facing web service security standards\n∙ API security controls",
+        "large": "∙ Enterprise client-facing web security program\n∙ API gateway\n∙ WAF\n∙ Rate limiting",
+        "enterprise": "∙ Enterprise web services security platform (e.g., Apigee, AWS API Gateway + WAF)\n∙ Full API security lifecycle"
+      },
+      "risks": [
+        "R-AC-4",
+        "R-AM-2",
+        "R-AM-3",
+        "R-BC-2",
+        "R-BC-5",
+        "R-EX-1",
+        "R-EX-2",
+        "R-EX-3",
+        "R-EX-4",
+        "R-EX-5",
+        "R-EX-7",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-4",
+        "R-GV-5",
+        "R-GV-6",
+        "R-GV-7",
+        "R-IR-1",
+        "R-IR-4",
+        "R-SC-1",
+        "R-SC-2",
+        "R-SC-3",
+        "R-SC-4",
+        "R-SC-5",
+        "R-SC-6"
+      ],
+      "threats": [
+        "NT-7",
+        "MT-1",
+        "MT-2",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "errata": "- wordsmithed",
+      "family_name": "Web Security",
+      "crosswalks": {
+        "general-nist-800-171-r2": [
+          "3.1.22"
+        ],
+        "general-nist-800-171a": [
+          "3.1.22[a]",
+          "3.1.22[b]",
+          "3.1.22[c]",
+          "3.1.22[d]",
+          "3.1.22[e]"
+        ],
+        "usa-federal-dow-cmmc-2-level-1": [
+          "AC.L1-B.1.IV"
+        ],
+        "usa-federal-dow-cmmc-2-level-2": [
+          "ACL2.-3.1.22"
+        ],
+        "usa-federal-far-52-204-21": [
+          "52.204-21(b)(1)(iv)"
+        ],
+        "emea-sau-cscc-1-2019": [
+          "2-12",
+          "2-12-1-1",
+          "2-12-1-2"
+        ],
+        "emea-zaf-popia-2013": [
+          "19"
+        ]
+      }
+    },
+    {
+      "control_id": "WEB-05",
+      "title": "Cookie Management",
+      "family": "WEB",
+      "description": "Mechanisms exist to provide individuals with clear and precise information about cookies, in accordance with applicable legal requirements for cookie management.",
+      "scf_question": "Does the organization provide individuals with clear and precise information about cookies, in accordance with applicable legal requirements for cookie management?",
+      "relative_weight": 5,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [],
+      "pptdf": "Technology",
+      "nist_csf_function": "Identify",
+      "scrm_focus": {
+        "strategic": false,
+        "operational": true,
+        "tactical": true
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. \nWeb Security (WEB) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with WEB domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Web management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.",
+        "2": "Web Security (WEB) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with WEB domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with WEB domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with WEB  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Web security-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Web security management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
+        "3": "Web Security (WEB) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with WEB domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with WEB domain capabilities are well-documented and kept current by process owners.\n▪ A web management team, or simiE210:E1635main capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of web management operations (e.g., secure web gateway, Content Management System (CMS) solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with WEB domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to provide individuals with clear and precise information about cookies, in accordance with applicable legal requirements for cookie management.",
+        "4": "Web Security (WEB) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [],
+      "possible_solutions": {
+        "micro_small": "∙ Set secure cookie attributes on all cookies (HttpOnly, Secure, SameSite)",
+        "small": "∙ Cookie security policy\n∙ Enforce secure cookie attributes",
+        "medium": "∙ Formal cookie management standards\n∙ Secure cookie attributes\n∙ Cookie consent for PD",
+        "large": "∙ Enterprise cookie management program\n∙ Automated cookie attribute enforcement\n∙ Consent management",
+        "enterprise": "∙ Enterprise cookie management platform (e.g., OneTrust, Cookiebot)\n∙ Automated enforcement of secure cookie attributes\n∙ GDPR/CCPA compliance"
+      },
+      "risks": [
+        "R-AM-3",
+        "R-EX-1",
+        "R-EX-2",
+        "R-EX-3",
+        "R-EX-4",
+        "R-EX-5",
+        "R-GV-1",
+        "R-GV-3",
+        "R-GV-4",
+        "R-GV-5",
+        "R-GV-6",
+        "R-GV-7",
+        "R-SC-1",
+        "R-SC-2",
+        "R-SC-3",
+        "R-SC-4",
+        "R-SC-5",
+        "R-SC-6"
+      ],
+      "threats": [
+        "NT-7",
+        "MT-1",
+        "MT-2",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Web Security",
+      "crosswalks": {}
+    },
+    {
+      "control_id": "WEB-06",
+      "title": "Strong Customer Authentication (SCA)",
+      "family": "WEB",
+      "description": "Mechanisms exist to implement Strong Customer Authentication (SCA) for consumers to reasonably prove their identity.",
+      "scf_question": "Does the organization implement Strong Customer Authentication (SCA) for consumers to reasonably prove their identity?",
+      "relative_weight": 8,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [],
+      "pptdf": "Technology",
+      "nist_csf_function": "Protect",
+      "scrm_focus": {
+        "strategic": false,
+        "operational": true,
+        "tactical": true
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. \nWeb Security (WEB) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with WEB domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Web management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.",
+        "2": "Web Security (WEB) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with WEB domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with WEB domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with WEB  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Web security-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Web security management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
+        "3": "Web Security (WEB) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with WEB domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with WEB domain capabilities are well-documented and kept current by process owners.\n▪ A web management team, or simiE210:E1635main capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of web management operations (e.g., secure web gateway, Content Management System (CMS) solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with WEB domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to implement Strong Customer Authentication (SCA) for consumers to reasonably prove their identity.",
+        "4": "Web Security (WEB) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+        "5": "Web Security (WEB) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions."
+      },
+      "profiles": [
+        "CORE ESP Level 2 Critical Infrastructure",
+        "CORE ESP Level 3 Advanced Threats"
+      ],
+      "possible_solutions": {
+        "micro_small": "∙ Use MFA for customer-facing authentication",
+        "small": "∙ Strong customer authentication (SCA) policy\n∙ MFA for customer accounts",
+        "medium": "∙ Formal SCA implementation for applicable customer services",
+        "large": "∙ Enterprise SCA program for customer-facing services\n∙ PSD2 compliance where applicable",
+        "enterprise": "∙ Enterprise customer authentication platform (e.g., Auth0, Okta Customer Identity)\n∙ SCA enforcement\n∙ PSD2/FIDO2 compliance"
+      },
+      "risks": [
+        "R-AC-4",
+        "R-AM-2",
+        "R-AM-3",
+        "R-BC-2",
+        "R-BC-5",
+        "R-EX-1",
+        "R-EX-2",
+        "R-EX-3",
+        "R-EX-4",
+        "R-EX-5",
+        "R-EX-7",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-4",
+        "R-GV-5",
+        "R-GV-6",
+        "R-GV-7",
+        "R-IR-1",
+        "R-IR-4",
+        "R-SC-1",
+        "R-SC-2",
+        "R-SC-3",
+        "R-SC-4",
+        "R-SC-5",
+        "R-SC-6"
+      ],
+      "threats": [
+        "NT-7",
+        "MT-1",
+        "MT-2",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-10",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Web Security",
+      "crosswalks": {
+        "general-csa-cmm-4-1-0": [
+          "IAM-01",
+          "IAM-13",
+          "IAM-14"
+        ],
+        "general-pci-dss-4-0-1": [
+          "8.3.10"
+        ],
+        "general-pci-dss-4-0-1-saq-d-service-provider": [
+          "8.3.10"
+        ],
+        "usa-federal-dhs-cisa-tic-3-0": [
+          "3.UNI.SAUTH"
+        ],
+        "usa-state-ca-ccpa-cpra-2026": [
+          "7024(g)",
+          "7027(e)"
+        ],
+        "usa-state-tx-cdpa-2025": [
+          "541.055(a)(3)"
+        ],
+        "emea-us-psd2-2015": [
+          "4"
+        ],
+        "emea-deu-c5-2020": [
+          "PSS-05"
+        ],
+        "emea-sau-cscc-1-2019": [
+          "2-12-1-1"
+        ]
+      }
+    },
+    {
+      "control_id": "WEB-07",
+      "title": "Web Security Standard",
+      "family": "WEB",
+      "description": "Mechanisms exist to ensure the Open Web Application Security Project (OWASP) Application Security Verification Standard is incorporated into the organization's Secure Systems Development Lifecycle (SSDLC) process.",
+      "scf_question": "Does the organization ensure the Open Web Application Security Project (OWASP) Application Security Verification Standard is incorporated into its Secure Systems Development Lifecycle (SSDLC) process?",
+      "relative_weight": 9,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [],
+      "pptdf": "Process",
+      "nist_csf_function": "Protect",
+      "scrm_focus": {
+        "strategic": false,
+        "operational": true,
+        "tactical": true
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. \nWeb Security (WEB) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with WEB domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Web management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.",
+        "2": "SCR-CMM Level 2 criteria definitions are not available for this control:\n▪ A reasonable person would conclude a well-defined and standardized process is required.\n▪ At this level of maturity, the “requirements-driven” nature of performing the control is focused on a localized and/or regionalized implementation, not uniform and consistent across the organization.\n▪ Requirements are narrowly scoped for applicability and are primarily derived from compliance obligations (e.g., laws, regulations and contracts).",
+        "3": "Web Security (WEB) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with WEB domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with WEB domain capabilities are well-documented and kept current by process owners.\n▪ A web management team, or simiE210:E1635main capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of web management operations (e.g., secure web gateway, Content Management System (CMS) solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with WEB domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to ensure the Open Web Application Security Project (OWASP) Application Security Verification Standard is incorporated into the organization's Secure Systems Development Lifecycle (SSDLC) process.",
+        "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [],
+      "possible_solutions": {
+        "micro_small": "∙ Follow OWASP Top 10 guidance for web security",
+        "small": "∙ OWASP Top 10 as web security standard baseline",
+        "medium": "∙ Formal web security standard (e.g., OWASP ASVS)\n∙ Developer training on web security",
+        "large": "∙ Enterprise web security standard program (OWASP ASVS)\n∙ WAF enforcement\n∙ Security code reviews",
+        "enterprise": "∙ Enterprise web security program based on OWASP ASVS\n∙ Automated security testing\n∙ WAF enforcement\n∙ Developer training"
+      },
+      "risks": [
+        "R-AC-4",
+        "R-AM-2",
+        "R-AM-3",
+        "R-BC-2",
+        "R-BC-5",
+        "R-EX-1",
+        "R-EX-2",
+        "R-EX-3",
+        "R-EX-4",
+        "R-EX-5",
+        "R-EX-7",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-4",
+        "R-GV-5",
+        "R-GV-6",
+        "R-GV-7",
+        "R-IR-1",
+        "R-IR-4",
+        "R-SC-1",
+        "R-SC-2",
+        "R-SC-3",
+        "R-SC-4",
+        "R-SC-5",
+        "R-SC-6"
+      ],
+      "threats": [
+        "NT-7",
+        "MT-1",
+        "MT-2",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Web Security",
+      "crosswalks": {
+        "general-cis-csc-8-1": [
+          "16.0",
+          "16.1",
+          "16.7"
+        ],
+        "general-cis-csc-8-1-ig2": [
+          "16.1",
+          "16.7"
+        ],
+        "general-cis-csc-8-1-ig3": [
+          "16.1",
+          "16.7"
+        ],
+        "emea-sau-cscc-1-2019": [
+          "2-12-1-2"
+        ],
+        "apac-aus-ism-2024-june": [
+          "ISM-0971",
+          "ISM-1239"
+        ],
+        "apac-nzl-ism-3-9": [
+          "14.5.7.C.01",
+          "14.5.8.C.01"
+        ]
+      }
+    },
+    {
+      "control_id": "WEB-08",
+      "title": "Web Application Framework",
+      "family": "WEB",
+      "description": "Mechanisms exist to ensure a robust Web Application Framework is used to aid in the development of secure web applications, including web services, web resources and web APIs.",
+      "scf_question": "Does the organization ensure a robust Web Application Framework is used to aid in the development of secure web applications, including web services, web resources and web APIs?",
+      "relative_weight": 9,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [],
+      "pptdf": "Process",
+      "nist_csf_function": "Protect",
+      "scrm_focus": {
+        "strategic": false,
+        "operational": true,
+        "tactical": true
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. \nWeb Security (WEB) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with WEB domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Web management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.",
+        "2": "SCR-CMM Level 2 criteria definitions are not available for this control:\n▪ A reasonable person would conclude a well-defined and standardized process is required.\n▪ At this level of maturity, the “requirements-driven” nature of performing the control is focused on a localized and/or regionalized implementation, not uniform and consistent across the organization.\n▪ Requirements are narrowly scoped for applicability and are primarily derived from compliance obligations (e.g., laws, regulations and contracts).",
+        "3": "Web Security (WEB) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with WEB domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with WEB domain capabilities are well-documented and kept current by process owners.\n▪ A web management team, or simiE210:E1635main capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of web management operations (e.g., secure web gateway, Content Management System (CMS) solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with WEB domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to ensure a robust Web Application Framework is used to aid in the development of secure web applications, including web services, web resources and web APIs.",
+        "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [],
+      "possible_solutions": {
+        "micro_small": "∙ Use a security-tested web framework",
+        "small": "∙ Approved secure web framework policy\n∙ Use maintained frameworks only",
+        "medium": "∙ Formal web application framework security requirements\n∙ Approved framework list",
+        "large": "∙ Enterprise web framework governance program\n∙ Security-approved frameworks\n∙ Framework lifecycle management",
+        "enterprise": "∙ Enterprise web framework governance\n∙ Security-approved framework library\n∙ Automated framework vulnerability monitoring"
+      },
+      "risks": [
+        "R-AC-4",
+        "R-AM-2",
+        "R-AM-3",
+        "R-BC-2",
+        "R-BC-5",
+        "R-EX-1",
+        "R-EX-2",
+        "R-EX-3",
+        "R-EX-4",
+        "R-EX-5",
+        "R-EX-7",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-4",
+        "R-GV-5",
+        "R-GV-6",
+        "R-GV-7",
+        "R-IR-1",
+        "R-IR-4",
+        "R-SC-1",
+        "R-SC-2",
+        "R-SC-3",
+        "R-SC-4",
+        "R-SC-5",
+        "R-SC-6"
+      ],
+      "threats": [
+        "NT-7",
+        "MT-1",
+        "MT-2",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Web Security",
+      "crosswalks": {
+        "general-cis-csc-8-1": [
+          "16.0",
+          "16.1"
+        ],
+        "general-cis-csc-8-1-ig2": [
+          "16.1"
+        ],
+        "general-cis-csc-8-1-ig3": [
+          "16.1"
+        ],
+        "emea-sau-cscc-1-2019": [
+          "2-12-1-1"
+        ],
+        "apac-aus-ism-2024-june": [
+          "ISM-1239"
+        ],
+        "apac-nzl-ism-3-9": [
+          "14.5.7.C.01",
+          "14.5.8.C.01"
+        ]
+      }
+    },
+    {
+      "control_id": "WEB-09",
+      "title": "Validation & Sanitization",
+      "family": "WEB",
+      "description": "Mechanisms exist to ensure all input handled by a web application is validated and/or sanitized.",
+      "scf_question": "Does the organization ensure all input handled by a web application is validated and/or sanitized?",
+      "relative_weight": 9,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [],
+      "pptdf": "Process",
+      "nist_csf_function": "Protect",
+      "scrm_focus": {
+        "strategic": false,
+        "operational": true,
+        "tactical": true
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. \nWeb Security (WEB) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with WEB domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Web management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.",
+        "2": "SCR-CMM Level 2 criteria definitions are not available for this control:\n▪ A reasonable person would conclude a well-defined and standardized process is required.\n▪ At this level of maturity, the “requirements-driven” nature of performing the control is focused on a localized and/or regionalized implementation, not uniform and consistent across the organization.\n▪ Requirements are narrowly scoped for applicability and are primarily derived from compliance obligations (e.g., laws, regulations and contracts).",
+        "3": "Web Security (WEB) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with WEB domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with WEB domain capabilities are well-documented and kept current by process owners.\n▪ A web management team, or simiE210:E1635main capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of web management operations (e.g., secure web gateway, Content Management System (CMS) solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with WEB domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to ensure all input handled by a web application is validated and/or sanitized.",
+        "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [],
+      "possible_solutions": {
+        "micro_small": "∙ Validate and sanitize all user inputs in web applications",
+        "small": "∙ Input validation and output encoding policy for web applications",
+        "medium": "∙ Formal input validation and sanitization standards\n∙ OWASP input validation guide",
+        "large": "∙ Enterprise input validation program\n∙ SAST/DAST for input validation testing",
+        "enterprise": "∙ Enterprise input validation and sanitization framework\n∙ Automated SAST/DAST scanning\n∙ WAF input filtering"
+      },
+      "risks": [
+        "R-AC-4",
+        "R-AM-2",
+        "R-AM-3",
+        "R-BC-2",
+        "R-BC-5",
+        "R-EX-1",
+        "R-EX-2",
+        "R-EX-3",
+        "R-EX-4",
+        "R-EX-5",
+        "R-EX-7",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-4",
+        "R-GV-5",
+        "R-GV-6",
+        "R-GV-7",
+        "R-IR-1",
+        "R-IR-4",
+        "R-SC-1",
+        "R-SC-2",
+        "R-SC-3",
+        "R-SC-4",
+        "R-SC-5",
+        "R-SC-6"
+      ],
+      "threats": [
+        "NT-7",
+        "MT-1",
+        "MT-2",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Web Security",
+      "crosswalks": {
+        "apac-aus-ism-2024-june": [
+          "ISM-1240"
+        ]
+      }
+    },
+    {
+      "control_id": "WEB-10",
+      "title": "Secure Web Traffic",
+      "family": "WEB",
+      "description": "Mechanisms exist to ensure all web application content is delivered using cryptographic mechanisms (e.g., TLS).",
+      "scf_question": "Does the organization ensure all web application content is delivered using cryptographic mechanisms (e.g., TLS)?",
+      "relative_weight": 9,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [],
+      "pptdf": "Technology",
+      "nist_csf_function": "Protect",
+      "scrm_focus": {
+        "strategic": false,
+        "operational": true,
+        "tactical": true
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. \nWeb Security (WEB) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with WEB domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Web management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.",
+        "2": "SCR-CMM Level 2 criteria definitions are not available for this control:\n▪ A reasonable person would conclude a well-defined and standardized process is required.\n▪ At this level of maturity, the “requirements-driven” nature of performing the control is focused on a localized and/or regionalized implementation, not uniform and consistent across the organization.\n▪ Requirements are narrowly scoped for applicability and are primarily derived from compliance obligations (e.g., laws, regulations and contracts).",
+        "3": "Web Security (WEB) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with WEB domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with WEB domain capabilities are well-documented and kept current by process owners.\n▪ A web management team, or simiE210:E1635main capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of web management operations (e.g., secure web gateway, Content Management System (CMS) solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with WEB domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to ensure all web application content is delivered using cryptographic mechanisms (e.g., TLS).",
+        "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [
+        "SCRMS"
+      ],
+      "possible_solutions": {
+        "micro_small": "∙ Use HTTPS for all web traffic",
+        "small": "∙ HTTPS-only policy for all web services\n∙ TLS 1.2+ enforcement",
+        "medium": "∙ Formal secure web traffic standard\n∙ TLS 1.2+\n∙ HSTS enforcement\n∙ Certificate management",
+        "large": "∙ Enterprise web traffic security program\n∙ TLS 1.3\n∙ HSTS\n∙ Certificate lifecycle management",
+        "enterprise": "∙ Enterprise secure web traffic program\n∙ TLS 1.3 enforcement\n∙ HSTS\n∙ Automated certificate management (e.g., Let's Encrypt, Venafi)"
+      },
+      "risks": [
+        "R-AC-4",
+        "R-AM-2",
+        "R-AM-3",
+        "R-BC-2",
+        "R-BC-5",
+        "R-EX-1",
+        "R-EX-2",
+        "R-EX-3",
+        "R-EX-4",
+        "R-EX-5",
+        "R-EX-7",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-4",
+        "R-GV-5",
+        "R-GV-6",
+        "R-GV-7",
+        "R-IR-1",
+        "R-IR-4",
+        "R-SC-1",
+        "R-SC-2",
+        "R-SC-3",
+        "R-SC-4",
+        "R-SC-5",
+        "R-SC-6"
+      ],
+      "threats": [
+        "NT-7",
+        "MT-1",
+        "MT-2",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Web Security",
+      "crosswalks": {
+        "general-pci-dss-4-0-1": [
+          "A2.1",
+          "A2.1.1",
+          "A2.1.2"
+        ],
+        "general-pci-dss-4-0-1-saq-b-ip": [
+          "A2.1.1"
+        ],
+        "general-pci-dss-4-0-1-saq-c": [
+          "A2.1.1"
+        ],
+        "general-pci-dss-4-0-1-saq-d-merchant": [
+          "A2.1.1"
+        ],
+        "general-pci-dss-4-0-1-saq-d-service-provider": [
+          "A2.1.1",
+          "A2.1.2"
+        ],
+        "emea-sau-cscc-1-2019": [
+          "2-12-1-1"
+        ],
+        "apac-aus-ism-2024-june": [
+          "ISM-1552"
+        ]
+      }
+    },
+    {
+      "control_id": "WEB-11",
+      "title": "Output Encoding",
+      "family": "WEB",
+      "description": "Mechanisms exist to ensure output encoding is performed on all content produced by a web application to reduce the likelihood of cross-site scripting and other injection attacks.",
+      "scf_question": "Does the organization ensure output encoding is performed on all content produced by a web application to reduce the likelihood of cross-site scripting and other injection attacks?",
+      "relative_weight": 9,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [],
+      "pptdf": "Technology",
+      "nist_csf_function": "Protect",
+      "scrm_focus": {
+        "strategic": false,
+        "operational": true,
+        "tactical": true
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. \nWeb Security (WEB) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with WEB domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Web management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.",
+        "2": "SCR-CMM Level 2 criteria definitions are not available for this control:\n▪ A reasonable person would conclude a well-defined and standardized process is required.\n▪ At this level of maturity, the “requirements-driven” nature of performing the control is focused on a localized and/or regionalized implementation, not uniform and consistent across the organization.\n▪ Requirements are narrowly scoped for applicability and are primarily derived from compliance obligations (e.g., laws, regulations and contracts).",
+        "3": "Web Security (WEB) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with WEB domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with WEB domain capabilities are well-documented and kept current by process owners.\n▪ A web management team, or simiE210:E1635main capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of web management operations (e.g., secure web gateway, Content Management System (CMS) solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with WEB domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to ensure output encoding is performed on all content produced by a web application to reduce the likelihood of cross-site scripting and other injection attacks.",
+        "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [],
+      "possible_solutions": {
+        "micro_small": "∙ Use output encoding to prevent XSS",
+        "small": "∙ Output encoding policy for web applications\n∙ Prevent XSS",
+        "medium": "∙ Formal output encoding standards\n∙ Prevent XSS via content security policy and encoding",
+        "large": "∙ Enterprise output encoding program\n∙ CSP enforcement\n∙ SAST for XSS detection",
+        "enterprise": "∙ Enterprise web security program with output encoding standards\n∙ Automated XSS detection (DAST/SAST)\n∙ CSP enforcement"
+      },
+      "risks": [
+        "R-AC-4",
+        "R-AM-2",
+        "R-AM-3",
+        "R-BC-2",
+        "R-BC-5",
+        "R-EX-1",
+        "R-EX-2",
+        "R-EX-3",
+        "R-EX-4",
+        "R-EX-5",
+        "R-EX-7",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-4",
+        "R-GV-5",
+        "R-GV-6",
+        "R-GV-7",
+        "R-IR-1",
+        "R-IR-4",
+        "R-SC-1",
+        "R-SC-2",
+        "R-SC-3",
+        "R-SC-4",
+        "R-SC-5",
+        "R-SC-6"
+      ],
+      "threats": [
+        "NT-7",
+        "MT-1",
+        "MT-2",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Web Security",
+      "crosswalks": {
+        "apac-aus-ism-2024-june": [
+          "ISM-1241"
+        ]
+      }
+    },
+    {
+      "control_id": "WEB-12",
+      "title": "Web Browser Security",
+      "family": "WEB",
+      "description": "Mechanisms exist to ensure web applications implement Content-Security-Policy, HSTS and X-Frame-Options response headers to protect both the web application and its users.",
+      "scf_question": "Does the organization ensure web applications implement Content-Security-Policy, HSTS and X-Frame-Options response headers to protect both the web application and its users?",
+      "relative_weight": 9,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [],
+      "pptdf": "Technology",
+      "nist_csf_function": "Protect",
+      "scrm_focus": {
+        "strategic": false,
+        "operational": true,
+        "tactical": true
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. \nWeb Security (WEB) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with WEB domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Web management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.",
+        "2": "SCR-CMM Level 2 criteria definitions are not available for this control:\n▪ A reasonable person would conclude a well-defined and standardized process is required.\n▪ At this level of maturity, the “requirements-driven” nature of performing the control is focused on a localized and/or regionalized implementation, not uniform and consistent across the organization.\n▪ Requirements are narrowly scoped for applicability and are primarily derived from compliance obligations (e.g., laws, regulations and contracts).",
+        "3": "Web Security (WEB) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with WEB domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with WEB domain capabilities are well-documented and kept current by process owners.\n▪ A web management team, or simiE210:E1635main capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of web management operations (e.g., secure web gateway, Content Management System (CMS) solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with WEB domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to ensure web applications implement Content-Security-Policy, HSTS and X-Frame-Options response headers to protect both the web application and its users.",
+        "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [],
+      "possible_solutions": {
+        "micro_small": "∙ Keep web browsers updated and configured securely",
+        "small": "∙ Web browser security policy\n∙ Approved browsers\n∙ Security settings enforcement",
+        "medium": "∙ Formal web browser security standard\n∙ Browser configuration baseline\n∙ Extension policy",
+        "large": "∙ Enterprise browser management (e.g., Google Chrome enterprise policy)\n∙ Approved extension list\n∙ Automated updates",
+        "enterprise": "∙ Enterprise browser security management (e.g., Chrome Enterprise, Microsoft Edge policies)\n∙ Remote browser isolation (RBI) option\n∙ Extension control"
+      },
+      "risks": [
+        "R-AC-4",
+        "R-AM-2",
+        "R-AM-3",
+        "R-BC-2",
+        "R-BC-5",
+        "R-EX-1",
+        "R-EX-2",
+        "R-EX-3",
+        "R-EX-4",
+        "R-EX-5",
+        "R-EX-7",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-4",
+        "R-GV-5",
+        "R-GV-6",
+        "R-GV-7",
+        "R-IR-1",
+        "R-IR-4",
+        "R-SC-1",
+        "R-SC-2",
+        "R-SC-3",
+        "R-SC-4",
+        "R-SC-5",
+        "R-SC-6"
+      ],
+      "threats": [
+        "NT-7",
+        "MT-1",
+        "MT-2",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Web Security",
+      "crosswalks": {
+        "emea-sau-cscc-1-2019": [
+          "2-12-1-1"
+        ],
+        "apac-aus-ism-2024-june": [
+          "ISM-1424"
+        ]
+      }
+    },
+    {
+      "control_id": "WEB-13",
+      "title": "Website Change Detection",
+      "family": "WEB",
+      "description": "Mechanisms exist to detect and respond to Indicators of Compromise (IoC) for unauthorized alterations, additions, deletions or changes on websites that store, process and/or transmit sensitive/regulated data.",
+      "scf_question": "Does the organization detect and respond to Indicators of Compromise (IoC) for unauthorized alterations, additions, deletions or changes on websites that store, process and/or transmit sensitive/regulated data?",
+      "relative_weight": 8,
+      "conformity_cadence": "Semi-Annual",
+      "evidence_requests": [],
+      "pptdf": "Technology",
+      "nist_csf_function": "Detect",
+      "scrm_focus": {
+        "strategic": false,
+        "operational": false,
+        "tactical": true
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. \nWeb Security (WEB) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with WEB domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Web management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.",
+        "2": "SCR-CMM Level 2 criteria definitions are not available for this control:\n▪ A reasonable person would conclude a well-defined and standardized process is required.\n▪ At this level of maturity, the “requirements-driven” nature of performing the control is focused on a localized and/or regionalized implementation, not uniform and consistent across the organization.\n▪ Requirements are narrowly scoped for applicability and are primarily derived from compliance obligations (e.g., laws, regulations and contracts).",
+        "3": "Web Security (WEB) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with WEB domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with WEB domain capabilities are well-documented and kept current by process owners.\n▪ A web management team, or simiE210:E1635main capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of web management operations (e.g., secure web gateway, Content Management System (CMS) solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with WEB domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to detect and respond to Indicators of Compromise (IoC) for unauthorized alterations, additions, deletions or changes on websites that store, process and/or transmit sensitive/regulated data.",
+        "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [],
+      "possible_solutions": {
+        "micro_small": "∙ Periodically verify website content has not been modified unexpectedly",
+        "small": "∙ Website integrity monitoring policy\n∙ Periodic manual checks for defacement",
+        "medium": "∙ Formal website change detection program\n∙ Automated monitoring for unauthorized changes",
+        "large": "∙ Enterprise website change detection tool (e.g., Sitelock, RiskIQ)\n∙ Automated alerting for changes",
+        "enterprise": "∙ Enterprise web integrity monitoring platform (e.g., Reflectiz, RiskIQ, c/side)\n∙ Real-time change detection and alerting"
+      },
+      "risks": [
+        "R-AC-1",
+        "R-AC-2",
+        "R-AC-3",
+        "R-AC-4",
+        "R-AM-1",
+        "R-AM-2",
+        "R-AM-3",
+        "R-BC-1",
+        "R-BC-2",
+        "R-BC-3",
+        "R-BC-4",
+        "R-BC-5",
+        "R-EX-1",
+        "R-EX-2",
+        "R-EX-3",
+        "R-EX-4",
+        "R-EX-5",
+        "R-EX-6",
+        "R-EX-7",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-3",
+        "R-GV-4",
+        "R-GV-5",
+        "R-GV-6",
+        "R-GV-7",
+        "R-IR-1",
+        "R-IR-2",
+        "R-IR-3",
+        "R-IR-4",
+        "R-SA-1",
+        "R-SC-1",
+        "R-SC-2",
+        "R-SC-3",
+        "R-SC-4",
+        "R-SC-5",
+        "R-SC-6"
+      ],
+      "threats": [
+        "MT-8",
+        "MT-9",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Web Security",
+      "crosswalks": {
+        "general-pci-dss-4-0-1": [
+          "11.6",
+          "11.6.1"
+        ],
+        "general-pci-dss-4-0-1-saq-a": [
+          "11.6.1"
+        ],
+        "general-pci-dss-4-0-1-saq-a-ep": [
+          "11.6.1"
+        ],
+        "general-pci-dss-4-0-1-saq-d-merchant": [
+          "11.6.1"
+        ],
+        "general-pci-dss-4-0-1-saq-d-service-provider": [
+          "11.6.1"
+        ]
+      }
+    },
+    {
+      "control_id": "WEB-14",
+      "title": "Publicly Accessible Content Reviews",
+      "family": "WEB",
+      "description": "Mechanisms exist to routinely review the content on publicly accessible systems for sensitive/regulated data and remove such information, if discovered.",
+      "scf_question": "Does the organization routinely review the content on publicly accessible systems for sensitive/regulated data and remove such information, if discovered?",
+      "relative_weight": 7,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [
+        "E-DCH-12"
+      ],
+      "pptdf": "Process",
+      "nist_csf_function": "Identify",
+      "scrm_focus": {
+        "strategic": false,
+        "operational": true,
+        "tactical": false
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "Web Security (WEB) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with WEB domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Web management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.",
+        "2": "SCR-CMM Level 2 criteria definitions are not available for this control:\n▪ A reasonable person would conclude a well-defined and standardized process is required.\n▪ At this level of maturity, the “requirements-driven” nature of performing the control is focused on a localized and/or regionalized implementation, not uniform and consistent across the organization.\n▪ Requirements are narrowly scoped for applicability and are primarily derived from compliance obligations (e.g., laws, regulations and contracts).",
+        "3": "Web Security (WEB) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with WEB domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with WEB domain capabilities are well-documented and kept current by process owners.\n▪ A web management team, or simiE210:E1635main capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of web management operations (e.g., secure web gateway, Content Management System (CMS) solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with WEB domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to routinely review the content on publicly accessible systems for sensitive/regulated data and remove such information, if discovered.",
+        "4": "Web Security (WEB) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [
+        "CORE ESP Level 2 Critical Infrastructure",
+        "CORE ESP Level 3 Advanced Threats"
+      ],
+      "possible_solutions": {
+        "micro_small": "∙ Review public website content for accuracy and appropriateness regularly",
+        "small": "∙ Publicly accessible content review policy and schedule",
+        "medium": "∙ Formal content review program for public-facing web content",
+        "large": "∙ Enterprise content governance program\n∙ Regular content audits\n∙ Content accuracy review",
+        "enterprise": "∙ Enterprise web content governance platform\n∙ Automated content monitoring\n∙ Regular content audits by stakeholders"
+      },
+      "risks": [
+        "R-AC-4",
+        "R-EX-1",
+        "R-EX-2",
+        "R-EX-3",
+        "R-EX-4",
+        "R-EX-5",
+        "R-EX-6",
+        "R-EX-7",
+        "R-GV-1",
+        "R-GV-4",
+        "R-GV-6",
+        "R-GV-8",
+        "R-IR-1",
+        "R-IR-2",
+        "R-IR-3",
+        "R-IR-4",
+        "R-SA-1"
+      ],
+      "threats": [
+        "NT-7",
+        "MT-1",
+        "MT-8",
+        "MT-9",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Web Security",
+      "crosswalks": {
+        "general-nist-800-171-r3": [
+          "03.01.22.b"
+        ],
+        "emea-gbr-def-stan-05-138-2024": [
+          "2321"
+        ],
+        "emea-gbr-def-stan-05-138-l1-2024": [
+          "2321"
+        ],
+        "emea-gbr-def-stan-05-138-l2-2024": [
+          "2321"
+        ],
+        "emea-gbr-def-stan-05-138-l3-2024": [
+          "2321"
+        ],
+        "americas-can-itsp-10-171-2025": [
+          "03.01.22.B"
+        ]
+      }
+    }
+  ]
+}

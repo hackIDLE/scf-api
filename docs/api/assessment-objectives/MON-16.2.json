@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "MON-16.2",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MON-16.2",
+      "ao_id": "MON-16.2_A01",
+      "objective": "a legal opinion regarding third-party threat monitoring is obtained.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-16.2",
+      "ao_id": "MON-16.2_A02",
+      "objective": "monitoring activities for third-party threats is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-16.2",
+      "ao_id": "MON-16.2_A03",
+      "objective": "organization-defined mechanisms are employed to monitor third-party activities for potential security incidents.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

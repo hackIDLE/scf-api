@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-CPL-01",
+  "area": "Compliance",
+  "artifact_name": "Statutory, Regulatory & Contractual Obligations",
+  "artifact_description": "Documented evidence of applicable statutory, regulatory and/or contractual obligations for cybersecurity & data privacy controls.",
+  "scf_controls": [
+    "CPL-01",
+    "MON-03"
+  ],
+  "cmmc_mapping": ""
+}

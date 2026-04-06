@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "TDA-20.2",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-20.2",
+      "ao_id": "TDA-20.2_A01",
+      "objective": "software releases and all of their components (e.g., code, package files, third-party libraries, documentation) are securely archived to maintain integrity verification information.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

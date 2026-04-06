@@ -1,0 +1,12 @@
+{
+  "erl_id": "E-CPL-05",
+  "area": "Compliance",
+  "artifact_name": "Internal Audit (IA) Findings",
+  "artifact_description": "Documented evidence of a centrally-managed and prioritized repository Internal Audit (IA) findings.",
+  "scf_controls": [
+    "CPL-01.1",
+    "CPL-03",
+    "GOV-01.2"
+  ],
+  "cmmc_mapping": ""
+}

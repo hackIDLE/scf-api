@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "IAC-14",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-14",
+      "ao_id": "IAC-14_A01",
+      "objective": "circumstances or situations that require re-authentication are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IA-11_ODP\n171A_R3_A.03.05.01.ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-14",
+      "ao_id": "IAC-14_A02",
+      "objective": "users are reauthenticated per organization-defined circumstances or situations.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-11",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-14",
+      "ao_id": "IAC-14_A03",
+      "objective": "users are reauthenticated when <A.03.05.01.ODP[01]: circumstances or situations>.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.05.01.b",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "roles, authenticators, or credentials change (including modification of user privilege); when security categories of systems change; when the execution of privileged functions occurs; and after a session termination",
+      "org_defined_parameters": ""
+    }
+  ]
+}

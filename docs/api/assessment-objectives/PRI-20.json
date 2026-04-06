@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "PRI-20",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-20",
+      "ao_id": "PRI-20_A01",
+      "objective": "sources of Personal Data (PD) other than directly from a data subject are documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-20",
+      "ao_id": "PRI-20_A02",
+      "objective": "formal contracts exist with data brokers.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-20",
+      "ao_id": "PRI-20_A03",
+      "objective": "data brokers that collect Personal Data (PD) from a source other than directly from the data subject are required to adhere to all applicable statutory, regulatory and/or contractual obligations.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-HRS-07",
+  "area": "Human Resources",
+  "artifact_name": "Role Assignment - CIO",
+  "artifact_description": "Documented evidence of a formal role assignment to the Chief Information Officer (CIO) position.",
+  "scf_controls": [
+    "GOV-04"
+  ],
+  "cmmc_mapping": ""
+}

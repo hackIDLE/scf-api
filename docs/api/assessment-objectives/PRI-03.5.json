@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "PRI-03.5",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-03.5",
+      "ao_id": "PRI-03.5_A01",
+      "objective": "processes exist to prevent the refusal of products and/or services on the grounds that a data subject does not agree to the processing of Personal Data (PD) or withdraws consent.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "BCD-07",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "BCD-07",
+      "ao_id": "BCD-07_A01",
+      "objective": "alternative or supplemental security mechanisms are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-13_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-07",
+      "ao_id": "BCD-07_A02",
+      "objective": "alternative or supplemental security mechanisms are employed for satisfying security functions when the primary means of implementing the security function is unavailable or compromised.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-13",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-07",
+      "ao_id": "BCD-07_A03",
+      "objective": "security functions are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-13_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

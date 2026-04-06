@@ -1,0 +1,72 @@
+{
+  "framework_id": "emea-gbr-dpa-1998",
+  "display_name": "UK - Data Protection Act (DPA) (1998)",
+  "scf_to_framework": {
+    "total_mappings": 10,
+    "mappings": {
+      "DCH-08": [
+        "Chapter29-Schedule1-Part1-Principle 5"
+      ],
+      "DCH-18": [
+        "Chapter29-Schedule1-Part1-Principle 3 & 5"
+      ],
+      "DCH-22": [
+        "Chapter29-Schedule1-Part1-Principle 1"
+      ],
+      "IRO-04.1": [
+        "Chapter29-Schedule1-Part1-Principles 7"
+      ],
+      "PRI-01": [
+        "Inferred",
+        "Expectation"
+      ],
+      "PRI-01.2": [
+        "Chapter29-Schedule1-Part1-Principles 8"
+      ],
+      "PRI-02": [
+        "Chapter29-Schedule1-Part1-Principles 8"
+      ],
+      "PRI-05": [
+        "Chapter29-Schedule1-Part1-Principle 5"
+      ],
+      "PRI-05.1": [
+        "Chapter29-Schedule1-Part1-Principle 3"
+      ],
+      "PRI-05.4": [
+        "Chapter29-Schedule1-Part1-Principle 3"
+      ]
+    }
+  },
+  "framework_to_scf": {
+    "total_mappings": 8,
+    "mappings": {
+      "Chapter29-Schedule1-Part1-Principle 5": [
+        "DCH-08",
+        "PRI-05"
+      ],
+      "Chapter29-Schedule1-Part1-Principle 3 & 5": [
+        "DCH-18"
+      ],
+      "Chapter29-Schedule1-Part1-Principle 1": [
+        "DCH-22"
+      ],
+      "Chapter29-Schedule1-Part1-Principles 7": [
+        "IRO-04.1"
+      ],
+      "Inferred": [
+        "PRI-01"
+      ],
+      "Expectation": [
+        "PRI-01"
+      ],
+      "Chapter29-Schedule1-Part1-Principles 8": [
+        "PRI-01.2",
+        "PRI-02"
+      ],
+      "Chapter29-Schedule1-Part1-Principle 3": [
+        "PRI-05.1",
+        "PRI-05.4"
+      ]
+    }
+  }
+}

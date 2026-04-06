@@ -1,0 +1,82 @@
+{
+  "framework_id": "apac-ind-privacy-rules-2011",
+  "display_name": "India - Privacy Rules (2011)",
+  "scf_to_framework": {
+    "total_mappings": 12,
+    "mappings": {
+      "GOV-01": [
+        "8"
+      ],
+      "CPL-01": [
+        "8"
+      ],
+      "CPL-02": [
+        "8"
+      ],
+      "DCH-01": [
+        "7",
+        "8"
+      ],
+      "PRI-01": [
+        "Inferred",
+        "Expectation"
+      ],
+      "PRI-03": [
+        "5"
+      ],
+      "PRI-04": [
+        "5"
+      ],
+      "PRI-04.1": [
+        "5"
+      ],
+      "PRI-05": [
+        "5"
+      ],
+      "SEA-01": [
+        "7",
+        "8"
+      ],
+      "SEA-02": [
+        "7",
+        "8"
+      ],
+      "SEA-03": [
+        "7",
+        "8"
+      ]
+    }
+  },
+  "framework_to_scf": {
+    "total_mappings": 5,
+    "mappings": {
+      "5": [
+        "PRI-03",
+        "PRI-04",
+        "PRI-04.1",
+        "PRI-05"
+      ],
+      "7": [
+        "DCH-01",
+        "SEA-01",
+        "SEA-02",
+        "SEA-03"
+      ],
+      "8": [
+        "GOV-01",
+        "CPL-01",
+        "CPL-02",
+        "DCH-01",
+        "SEA-01",
+        "SEA-02",
+        "SEA-03"
+      ],
+      "Inferred": [
+        "PRI-01"
+      ],
+      "Expectation": [
+        "PRI-01"
+      ]
+    }
+  }
+}

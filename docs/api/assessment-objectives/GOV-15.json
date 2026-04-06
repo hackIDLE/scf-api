@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "GOV-15",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "GOV-15",
+      "ao_id": "GOV-15_A01",
+      "objective": "roles and responsibilities exist to compel data and/or process owners to operationalize cybersecurity / data privacy practices for each system, application and/or service under their control.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-15",
+      "ao_id": "GOV-15_A02",
+      "objective": "Individual Contributor (IC) performance reviews cover how data and/or process owners operationalized cybersecurity / data privacy practices for each system, application and/or service under their control.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-15",
+      "ao_id": "GOV-15_A03",
+      "objective": "organization-defined systems security engineering principles are applied to the development or modification of the system and system components.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-15",
+      "ao_id": "GOV-15_A04",
+      "objective": "<A.03.16.01.ODP[01]: systems security engineering principles> are applied to the development or modification of the system and system components.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.16.01",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "Guidance: At a minimum, documentation that provides user and administrator guidance for the implementation and operation of controls. The level of detail required in such documentation should be based on the degree to which organizations depend on the capabilities, functions, or mechanisms to meet risk response expectations. Requirements can include mandated configuration settings that specify allowed functions, ports, protocols, and services. Acceptance criteria for systems, system components, and system services are defined in the same manner as the criteria for any organizational acquisition or procurement.",
+      "org_defined_parameters": ""
+    }
+  ]
+}

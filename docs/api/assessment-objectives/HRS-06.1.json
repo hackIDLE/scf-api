@@ -1,0 +1,96 @@
+{
+  "scf_control_id": "HRS-06.1",
+  "total": 9,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "HRS-06.1",
+      "ao_id": "HRS-06.1_A01",
+      "objective": "individuals requiring access to organizational information and systems sign appropriate access agreements prior to being granted access.",
+      "pptdf": "People",
+      "origin": "53A_R5_PS-06c.01",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually and any time there is a change to the user's level of access",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-06.1",
+      "ao_id": "HRS-06.1_A02",
+      "objective": "individuals requiring access to organizational information and systems re-sign access agreements to maintain access to organizational systems when access agreements have been updated or frequency.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PS-06c.02",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually and any time there is a change to the user's level of access",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-06.1",
+      "ao_id": "HRS-06.1_A03",
+      "objective": "the frequency at which to review / update access agreements is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PS-06_ODP[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually and any time there is a change to the user's level of access",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-06.1",
+      "ao_id": "HRS-06.1_A04",
+      "objective": "the frequency at which to re-sign access agreements to maintain access to organizational information is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PS-06_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually and any time there is a change to the user's level of access",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-06.1",
+      "ao_id": "HRS-06.1_A05",
+      "objective": "access agreements are developed and documented for organizational systems.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PS-06a.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-06.1",
+      "ao_id": "HRS-06.1_A06",
+      "objective": "the access agreements are reviewed / updated frequently.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PS-06b.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-06.1",
+      "ao_id": "HRS-06.1_A07",
+      "objective": "access to sensitive / regulated data requiring special protection is granted only to individuals who have a valid access authorization that is demonstrated by assigned duties.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PS-06(02)(a)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-06.1",
+      "ao_id": "HRS-06.1_A08",
+      "objective": "access to sensitive / regulated data requiring special protection is granted only to individuals who satisfy associated personnel security criteria.",
+      "pptdf": "Data",
+      "origin": "53A_R5_PS-06(02)(b)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-06.1",
+      "ao_id": "HRS-06.1_A09",
+      "objective": "access to sensitive / regulated data requiring special protection is granted only to individuals who have read, understood and signed a non-disclosure agreement.",
+      "pptdf": "Data",
+      "origin": "53A_R5_PS-06(02)(c)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

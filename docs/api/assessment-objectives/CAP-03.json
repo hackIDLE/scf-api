@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "CAP-03",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CAP-03",
+      "ao_id": "CAP-03_A01",
+      "objective": "capacity planning is conducted so that the necessary capacity exists during contingency operations for information processing.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-02(02)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CAP-03",
+      "ao_id": "CAP-03_A02",
+      "objective": "capacity planning is conducted so that the necessary capacity exists during contingency operations for telecommunications.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-02(02)[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CAP-03",
+      "ao_id": "CAP-03_A03",
+      "objective": "capacity planning is conducted so that the necessary capacity exists during contingency operations for environmental support.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-02(02)[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

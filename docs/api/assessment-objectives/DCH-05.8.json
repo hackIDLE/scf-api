@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "DCH-05.8",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-05.8",
+      "ao_id": "DCH-05.8_A01",
+      "objective": "techniques and technologies to be implemented in associating cybersecurity / data privacy attributes to information are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-16(08)_ODP[01]\n53A_R5_AC-16(08)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-05.8",
+      "ao_id": "DCH-05.8_A02",
+      "objective": "organization-defined techniques and technologies are implemented in associating cybersecurity / data privacy attributes to information.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-16(08)[01]\n53A_R5_AC-16(08)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

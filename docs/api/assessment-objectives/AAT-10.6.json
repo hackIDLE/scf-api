@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-10.6",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-10.6",
+      "ao_id": "AAT-10.6_A01",
+      "objective": "the organization's Artificial Intelligence Test, Evaluation, Validation & Verification (AI TEVV) capability is integrated into an organization-wide risk management program.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-10.6",
+      "ao_id": "AAT-10.6_A02",
+      "objective": "the organization's Artificial Intelligence Test, Evaluation, Validation & Verification (AI TEVV) capability examines risks associated with transparency and accountability of Artificial Intelligence (AI) and Autonomous Technologies (AAT) to be deployed.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

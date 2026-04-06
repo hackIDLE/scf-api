@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "BCD-10.2",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "BCD-10.2",
+      "ao_id": "BCD-10.2_A01",
+      "objective": "alternate telecommunications services from providers that are separated from primary service providers are obtained to reduce susceptibility to the same threats.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_CP-08(03)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

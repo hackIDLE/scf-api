@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "AAT-16.6",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-16.6",
+      "ao_id": "AAT-16.6_A01",
+      "objective": "an executive steering committee, or advisory board, evaluates performance improvements or declines with domain experts and relevant stakeholders to define context-relevant risks and trustworthiness issues.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

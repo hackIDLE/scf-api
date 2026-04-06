@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-MON-11",
+  "area": "Event Log Monitoring",
+  "artifact_name": "System Authenticator Types",
+  "artifact_description": "Documented evidence of the list of authorized system authenticator types.",
+  "scf_controls": [
+    "IAC-01"
+  ],
+  "cmmc_mapping": "IA.L1-3.5.2\nIA.L2-3.5.10\nIA.L2-3.5.5"
+}

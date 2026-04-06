@@ -1,0 +1,120 @@
+{
+  "control_id": "MON-12",
+  "title": "Session Audit",
+  "family": "MON",
+  "description": "Mechanisms exist to provide session audit capabilities that can: \n(1) Capture and log all content related to a user session; and\n(2) Remotely view all content related to an established user session in real time.",
+  "scf_question": "Does the organization provide session audit capabilities that can: \n (1) Capture and log all content related to a user session; and\n (2) Remotely view all content related to an established user session in real time?",
+  "relative_weight": 7,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [],
+  "pptdf": "Technology",
+  "nist_csf_function": "Detect",
+  "scrm_focus": {
+    "strategic": false,
+    "operational": true,
+    "tactical": true
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "Continuous Monitoring (MON) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with MON domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Event monitoring-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ Monitoring is primarily reactive in nature, focused on identifying incidents that occurred.\n▪ Event log reviews primarily rely on manual processes to identify anomalous behaviors.",
+    "2": "Continuous Monitoring (MON) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MON domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with MON domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MON  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Continuous monitoring-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Continuous monitoring may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
+    "3": "Continuous Monitoring (MON) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MON domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Cybersecurity personnel use a structured process via Standardized Operating Procedures (SOP) to review and analyze logs.\n▪ A Security Operations Center (SOC) team, or similar function, is appropriately staffed and supported to implement and maintain MON domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of continuous monitoring operations (e.g., Security Incident Event Manager (SIEM), etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MON domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ Secure Baseline Configurations (SBC) enforce security event logging to contain sufficient information to establish necessary details of activity and allow for forensics analysis.\n▪ An implemented and operational capability exists to provide session audit capabilities that can: \n(1) Capture and log all content related to a user session; and\n(2) Remotely view all content related to an established user session in real time.",
+    "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ ManageEngine PAM360 (https://manageengine.com)\n∙ Basic privileged session recording (e.g., built-in OS logging)",
+    "small": "∙ ManageEngine PAM360 (https://manageengine.com)\n∙ Privileged Access Workstation (PAW) or jump server logging",
+    "medium": "∙ ManageEngine PAM360 (https://manageengine.com)\n∙ Ekran User Activity Monitoring (UAM) (https://ekransystem.com)\n∙ Privileged Access Management (PAM) solution with session recording",
+    "large": "∙ ManageEngine PAM360 (https://manageengine.com)\n∙ Ekran User Activity Monitoring (UAM) (https://ekransystem.com)\n∙ CyberArk Privileged Session Manager or BeyondTrust Session Management",
+    "enterprise": "∙ Enterprise PAM with session audit (e.g., CyberArk, BeyondTrust, Delinea)\n∙ ManageEngine PAM360 (https://manageengine.com)\n∙ Ekran User Activity Monitoring (UAM) (https://ekransystem.com)\n∙ AI-powered anomalous behavior detection in privileged sessions"
+  },
+  "risks": [
+    "R-AC-1",
+    "R-AC-2",
+    "R-AC-3",
+    "R-AC-4",
+    "R-AM-1",
+    "R-AM-2",
+    "R-AM-3",
+    "R-BC-1",
+    "R-BC-2",
+    "R-BC-3",
+    "R-BC-4",
+    "R-BC-5",
+    "R-EX-1",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-EX-5",
+    "R-EX-6",
+    "R-EX-7",
+    "R-GV-1",
+    "R-GV-2",
+    "R-GV-3",
+    "R-GV-4",
+    "R-GV-5",
+    "R-GV-6",
+    "R-GV-7",
+    "R-GV-8",
+    "R-IR-1",
+    "R-IR-2",
+    "R-IR-3",
+    "R-IR-4",
+    "R-SA-1",
+    "R-SC-1",
+    "R-SC-2",
+    "R-SC-3",
+    "R-SC-4",
+    "R-SC-5",
+    "R-SC-6"
+  ],
+  "threats": [
+    "NT-7",
+    "MT-1",
+    "MT-2",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-10",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Continuous Monitoring",
+  "crosswalks": {
+    "general-nist-800-53-r4": [
+      "AU-14"
+    ],
+    "general-nist-800-53-r5-2": [
+      "AU-14"
+    ],
+    "general-nist-800-82-r3": [
+      "AU-14"
+    ],
+    "general-nist-800-161-r1": [
+      "AU-14"
+    ],
+    "general-nist-800-161-r1-flowdown": [
+      "AU-14"
+    ],
+    "general-nist-800-161-r1-level-2": [
+      "AU-14"
+    ],
+    "general-nist-800-161-r1-level-3": [
+      "AU-14"
+    ],
+    "emea-isr-cmo-1-0": [
+      "21.10",
+      "21.18"
+    ]
+  }
+}

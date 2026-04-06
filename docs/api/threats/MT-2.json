@@ -1,0 +1,6 @@
+{
+  "threat_id": "MT-2",
+  "grouping": "Man-Made Threat",
+  "name": "Technology & Cybersecurity",
+  "description": "Unlike physical threats that prompt immediate action (e.g., \"stop, drop and roll\" in the event of a fire), cyber incidents are often difficult to identify as the incident is occurring. Detection generally occurs after the incident has occurred, with the exception of \"denial of service\" attacks. The spectrum of cybersecurity risks is limitless and threats can have wide-ranging effects on the individual, organizational, geographic and national levels. \n\nThis category of risk includes the management of cybersecurity requirements for Information and Communications Technology (ICT), including technical vulnerabilities and weaknesses in computation logic (code) found in software and hardware components that, when exploited, results in a negative impact to Confidentiality, Integrity, Availability and/or Safety (CIAS)."
+}

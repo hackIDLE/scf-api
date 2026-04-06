@@ -1,0 +1,106 @@
+{
+  "scf_control_id": "MON-06",
+  "total": 10,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MON-06",
+      "ao_id": "MON-06_A01",
+      "objective": "system components that provide an audit record generation capability for the events types are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AU-12_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-06",
+      "ao_id": "MON-06_A02",
+      "objective": "audit records include organization-defined audit record content requirements.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AU-12c.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-06",
+      "ao_id": "MON-06_A03",
+      "objective": "personnel or roles allowed to select the event types that are to be logged by specific components of the system is/are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AU-12_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-06",
+      "ao_id": "MON-06_A04",
+      "objective": "an audit record reduction and report generation capability is implemented that supports on-demand audit record review, analysis and reporting requirements and after-the-fact investigations of incidents that does not alter the original content or time ordering of audit records.",
+      "pptdf": "Technology",
+      "origin": "171A_3.3.6[b]\n53A_R5_AU-07a.[02]\n53A_R5_AU-07b.[02]\n53A_R5_AU-07(01)[01]\n53A_R5_AU-07(01)[02]\n53A_R5_AU-12a.\n53A_R5_AU-12b.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-06",
+      "ao_id": "MON-06_A05",
+      "objective": "fields within audit records that can be processed, sorted or searched are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AU-07(01)_ODP",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-06",
+      "ao_id": "MON-06_A06",
+      "objective": "findings are reported to organizational personnel or roles.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.03.05.b",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-06",
+      "ao_id": "MON-06_A07",
+      "objective": "an audit record reduction and report generation capability that supports audit record review is implemented.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.03.06.a[01]\n171A_3.3.6[a]\n53A_R5_AU-07a.[01]\n53A_R5_AU-07b.[01]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-06",
+      "ao_id": "MON-06_A08",
+      "objective": "an audit record reduction and report generation capability that supports audit record analysis is implemented.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.03.06.a[02]\n171A_3.3.6[a]\n53A_R5_AU-07a.[01]\n53A_R5_AU-07b.[01]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-06",
+      "ao_id": "MON-06_A09",
+      "objective": "an audit record reduction and report generation capability that supports audit record reporting requirements is implemented.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.03.06.a[03]\n171A_3.3.6[a]\n53A_R5_AU-07a.[01]\n53A_R5_AU-07b.[01]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-06",
+      "ao_id": "MON-06_A10",
+      "objective": "an audit record reduction and report generation capability that supports after-the-fact investigations of incidents is implemented.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.03.06.a[04]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

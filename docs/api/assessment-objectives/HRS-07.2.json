@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "HRS-07.2",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "HRS-07.2",
+      "ao_id": "HRS-07.2_A01",
+      "objective": "disciplinary processes are updated due to legal changes (e.g., new laws or regulations).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-07.2",
+      "ao_id": "HRS-07.2_A02",
+      "objective": "disciplinary processes are updated due to significant changes to operations (e.g., new locations, technologies, etc.).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-07.2",
+      "ao_id": "HRS-07.2_A03",
+      "objective": "disciplinary processes are updated due to applicable threats and risks.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "AAT-10.2",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-10.2",
+      "ao_id": "AAT-10.2_A01",
+      "objective": "the organization's Artificial Intelligence Test, Evaluation, Validation & Verification (AI TEVV) capability documents test sets used during AI TEVV.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-10.2",
+      "ao_id": "AAT-10.2_A02",
+      "objective": "the organization's Artificial Intelligence Test, Evaluation, Validation & Verification (AI TEVV) capability documents metrics used during AI TEVV.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-10.2",
+      "ao_id": "AAT-10.2_A03",
+      "objective": "the organization's Artificial Intelligence Test, Evaluation, Validation & Verification (AI TEVV) capability documents details about the tools used during AI TEVV.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

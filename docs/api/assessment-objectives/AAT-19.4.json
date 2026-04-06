@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-19.4",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-19.4",
+      "ao_id": "AAT-19.4_A01",
+      "objective": "the organization prohibits the sale, deployment and/or use of Artificial Intelligence (AI) and Autonomous Technologies (AAT) that lead to the detrimental or unfavorable treatment of certain data subjects, or groups of data subjects, in social contexts that are unrelated to the contexts in which the data was originally generated or collected.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-19.4",
+      "ao_id": "AAT-19.4_A02",
+      "objective": "the organization prohibits the sale, deployment and/or use of Artificial Intelligence (AI) and Autonomous Technologies (AAT) that lead to the detrimental or unfavorable treatment of certain data subjects, or groups of data subjects, in social contexts that are unjustified or disproportionate to their social behavior or its gravity.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

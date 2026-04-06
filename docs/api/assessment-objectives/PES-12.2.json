@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "PES-12.2",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PES-12.2",
+      "ao_id": "PES-12.2_A01",
+      "objective": "output devices that require physical access control to output are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PE-05_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-12.2",
+      "ao_id": "PES-12.2_A02",
+      "objective": "physical access to output devices is controlled to prevent unauthorized individuals from obtaining access to sensitive / regulated data.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_PE-05",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-12.2",
+      "ao_id": "PES-12.2_A03",
+      "objective": "physical access to output devices is controlled to prevent unauthorized individuals from obtaining access to CUI.",
+      "pptdf": "Data",
+      "origin": "171A_R3_A.03.10.07.e",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "NET-10.4",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-10.4",
+      "ao_id": "NET-10.4_A01",
+      "objective": "the domain name registrar is locked to prevent a denial of service caused by unauthorized deletion, transfer or other unauthorized modification of a domain’s registration details.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

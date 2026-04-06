@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "TDA-17.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-17.1",
+      "ao_id": "TDA-17.1_A01",
+      "objective": "options for risk mitigation or alternative sources for continued support for unsupported components that cannot be replaced are provided.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-22b.\n171A_R3_A.03.16.02.b",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

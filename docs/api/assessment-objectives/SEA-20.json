@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "SEA-20",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "SEA-20",
+      "ao_id": "SEA-20_A01",
+      "objective": "granularity of time measurement for audit record timestamps is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AU-08_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "one second granularity of time measurement",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-20",
+      "ao_id": "SEA-20_A02",
+      "objective": "internal system clocks are used to generate timestamps for audit records.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AU-08a.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

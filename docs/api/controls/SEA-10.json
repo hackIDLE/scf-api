@@ -1,0 +1,168 @@
+{
+  "control_id": "SEA-10",
+  "title": "Memory Protection",
+  "family": "SEA",
+  "description": "Mechanisms exist to implement security safeguards to protect system memory from unauthorized code execution.",
+  "scf_question": "Does the organization implement security safeguards to protect system memory from unauthorized code execution?",
+  "relative_weight": 8,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [],
+  "pptdf": "Technology",
+  "nist_csf_function": "Protect",
+  "scrm_focus": {
+    "strategic": false,
+    "operational": false,
+    "tactical": true
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "2": "Secure Engineering & Architecture (SEA) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with SEA domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with SEA domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with SEA  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Secure engineering and architecture-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Secure engineering and architecture management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT and/or cybersecurity personnel define entity-specific secure engineering practices to protect the Confidentiality, Integrity, Availability and Safety (CIAS) of the entity's TAASD.\n▪ IT and/or cybersecurity personnel align secure engineering practices with the entity's broader IT architecture practices.\n▪ IT and/or cybersecurity personnel use secure engineering practices to influence Secure Baseline Configurations (SBC).",
+    "3": "Secure Engineering & Architecture (SEA) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with SEA domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with SEA domain capabilities are well-documented and kept current by process owners.\n▪ A cybersecurity engineering / architecture team, or similar function, is appropriately staffed and supported to implement and maintain RSK domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of secure engineering management operations (e.g., project management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with SEA domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ Secure Baseline Configurations (SBC) enforce the secure engineering principles on all applicable Technology Assets, Applications and/or Services (TAAS).\n▪ An implemented and operational capability exists to implement security safeguards to protect system memory from unauthorized code execution.",
+    "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [],
+  "possible_solutions": {
+    "micro_small": "∙ Secure Baseline Configurations (SBC)",
+    "small": "∙ Secure Baseline Configurations (SBC)",
+    "medium": "∙ Secure Baseline Configurations (SBC)",
+    "large": "∙ Secure Baseline Configurations (SBC)",
+    "enterprise": "∙ Secure Baseline Configurations (SBC)"
+  },
+  "risks": [
+    "R-AC-1",
+    "R-AC-2",
+    "R-AC-3",
+    "R-AC-4",
+    "R-AM-1",
+    "R-AM-2",
+    "R-AM-3",
+    "R-BC-1",
+    "R-BC-2",
+    "R-BC-4",
+    "R-BC-5",
+    "R-EX-7",
+    "R-GV-1",
+    "R-GV-2",
+    "R-GV-4",
+    "R-GV-5",
+    "R-IR-1",
+    "R-IR-4"
+  ],
+  "threats": [
+    "NT-7",
+    "MT-1",
+    "MT-2",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-10",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Secure Engineering & Architecture",
+  "crosswalks": {
+    "general-govramp": [
+      "SI-16"
+    ],
+    "general-govramp-low": [
+      "SI-16"
+    ],
+    "general-govramp-low-plus": [
+      "SI-16"
+    ],
+    "general-govramp-mod": [
+      "SI-16"
+    ],
+    "general-govramp-high": [
+      "SI-16"
+    ],
+    "general-mitre-att&ck-16-1": [
+      "T1003.001",
+      "T1047",
+      "T1055.009",
+      "T1059",
+      "T1059.001",
+      "T1059.002",
+      "T1059.003",
+      "T1059.004",
+      "T1059.005",
+      "T1059.006",
+      "T1059.007",
+      "T1059.008",
+      "T1059.011",
+      "T1218",
+      "T1218.001",
+      "T1218.002",
+      "T1218.003",
+      "T1218.004",
+      "T1218.005",
+      "T1218.008",
+      "T1218.009",
+      "T1218.012",
+      "T1218.013",
+      "T1218.014",
+      "T1218.015",
+      "T1505.004",
+      "T1543",
+      "T1543.002",
+      "T1547.004",
+      "T1547.006",
+      "T1548",
+      "T1548.004",
+      "T1565",
+      "T1565.001",
+      "T1565.003",
+      "T1611"
+    ],
+    "general-nist-800-53-r4": [
+      "SI-16"
+    ],
+    "general-nist-800-53-r5-2": [
+      "SI-16"
+    ],
+    "general-nist-800-53-r5-2-mod": [
+      "SI-16"
+    ],
+    "general-nist-800-82-r3": [
+      "SI-16"
+    ],
+    "general-nist-800-82-r3-mod": [
+      "SI-16"
+    ],
+    "general-nist-800-82-r3-high": [
+      "SI-16"
+    ],
+    "general-nist-800-160-vol-2-r1": [
+      "SI-16"
+    ],
+    "general-nist-800-171-r2": [
+      "NFO - SI-16"
+    ],
+    "usa-federal-fbi-cjis-6-0": [
+      "SI-16"
+    ],
+    "usa-federal-gsa-fedramp-5-mod": [
+      "SI-16"
+    ],
+    "usa-federal-gsa-fedramp-5-high": [
+      "SI-16"
+    ],
+    "usa-federal-irs-1075-2021": [
+      "SI-16"
+    ],
+    "usa-federal-cms-marse-2-0": [
+      "SI-16"
+    ],
+    "usa-state-tx-txramp-2-0-level-2": [
+      "SI-16"
+    ]
+  }
+}

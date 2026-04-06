@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "IRO-11.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IRO-11.2",
+      "ao_id": "IRO-11.2_A01",
+      "objective": "a direct, cooperative relationship is established between its incident response capability and external providers of the system protection capability.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-07(02)(a)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-11.2",
+      "ao_id": "IRO-11.2_A02",
+      "objective": "organizational incident response team members are identified to the external providers.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-07(02)(b)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

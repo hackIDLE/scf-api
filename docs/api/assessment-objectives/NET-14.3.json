@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "NET-14.3",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-14.3",
+      "ao_id": "NET-14.3_A01",
+      "objective": "managed access control points are identified and implemented.",
+      "pptdf": "Process",
+      "origin": "171A_3.1.14[a]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-14.3",
+      "ao_id": "NET-14.3_A02",
+      "objective": "remote access is routed through managed network access control points.",
+      "pptdf": "Technology",
+      "origin": "171A_3.1.14[b]\n53A_R5_AC-17(03)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

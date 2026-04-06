@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "AAT-19.2",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-19.2",
+      "ao_id": "AAT-19.2_A01",
+      "objective": "the organization prohibits the sale, deployment and/or use of Artificial Intelligence (AI) and Autonomous Technologies (AAT) that exploits a human subject to materially affect a targeted behavior due to their age.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-19.2",
+      "ao_id": "AAT-19.2_A02",
+      "objective": "the organization prohibits the sale, deployment and/or use of Artificial Intelligence (AI) and Autonomous Technologies (AAT) that exploits a human subject to materially affect a targeted behavior due to their disability.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-19.2",
+      "ao_id": "AAT-19.2_A03",
+      "objective": "the organization prohibits the sale, deployment and/or use of Artificial Intelligence (AI) and Autonomous Technologies (AAT) that exploits a human subject to materially affect a targeted behavior due to their specific social or economic situation.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

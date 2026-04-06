@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "NET-04.14",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-04.14",
+      "ao_id": "NET-04.14_A01",
+      "objective": "visibility and control over application traffic is maintained, regardless of the user’s location or the security posture of the surrounding network.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

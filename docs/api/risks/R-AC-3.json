@@ -1,0 +1,7 @@
+{
+  "risk_id": "R-AC-3",
+  "grouping": "Access Control",
+  "name": "Privilege escalation",
+  "description": "The inability to restrict access to privileged functions.",
+  "nist_csf_function": "Protect"
+}

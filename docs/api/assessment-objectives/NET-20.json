@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "NET-20",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-20",
+      "ao_id": "NET-20_A01",
+      "objective": "an email filtering security service is implemented.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-20",
+      "ao_id": "NET-20_A02",
+      "objective": "email filtering security services are configured to detect malicious attachments in emails and prevent users from accessing them.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-20",
+      "ao_id": "NET-20_A03",
+      "objective": "email filtering security services are configured to prevent users from accessing malicious email attachments.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

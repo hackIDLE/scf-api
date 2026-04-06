@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "SEA-02.3",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "SEA-02.3",
+      "ao_id": "SEA-02.3_A01",
+      "objective": "“technical debt” reviews of hardware and software technologies are routinely conducted.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-02.3",
+      "ao_id": "SEA-02.3_A02",
+      "objective": "the results of “technical debt” reviews are leveraged as justification to remediate outdated and/or unsupported technologies.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "IAC-16.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-16.1",
+      "ao_id": "IAC-16.1_A01",
+      "objective": "all privileged accounts are inventoried.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-16.1",
+      "ao_id": "IAC-16.1_A02",
+      "objective": "validation is performed for each person with elevated privileges for authorization by the appropriate level of organizational management.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

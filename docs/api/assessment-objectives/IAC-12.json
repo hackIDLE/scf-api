@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "IAC-12",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-12",
+      "ao_id": "IAC-12_A01",
+      "objective": "mechanisms for authentication to a cryptographic module are implemented that meet the requirements of applicable laws, executive orders, directives, policies, regulations, standards and guidelines for such authentication.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-07",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

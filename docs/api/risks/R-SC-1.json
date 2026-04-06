@@ -1,0 +1,7 @@
+{
+  "risk_id": "R-SC-1",
+  "grouping": "Supply Chain",
+  "name": "Third-party cybersecurity exposure",
+  "description": "Loss of Confidentiality, Integrity, Availability and/or Safety (CIAS) from third-party cybersecurity practices, vulnerabilities and/or incidents that affects the supply chain through impacted products and/or services.",
+  "nist_csf_function": "Protect"
+}

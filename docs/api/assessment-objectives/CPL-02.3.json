@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "CPL-02.3",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CPL-02.3",
+      "ao_id": "CPL-02.3_A01",
+      "objective": "corrective action is taken to remediate instances of non-conformity with applicable statutory, regulatory, and/or contractual compliance obligations.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

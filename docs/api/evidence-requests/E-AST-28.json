@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-AST-28",
+  "area": "Asset Management",
+  "artifact_name": "Software Licenses",
+  "artifact_description": "Documented evidence of software license inventories.",
+  "scf_controls": [
+    "AST-02"
+  ],
+  "cmmc_mapping": ""
+}

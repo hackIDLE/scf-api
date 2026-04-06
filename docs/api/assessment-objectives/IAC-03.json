@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "IAC-03",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-03",
+      "ao_id": "IAC-03_A01",
+      "objective": "non-organizational users or processes acting on behalf of non-organizational users are uniquely identified and authenticated.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IA-08",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

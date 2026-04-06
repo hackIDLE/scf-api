@@ -1,0 +1,1003 @@
+{
+  "family_code": "CAP",
+  "family_name": "Capacity & Performance Planning",
+  "control_count": 6,
+  "controls": [
+    {
+      "control_id": "CAP-01",
+      "title": "Capacity & Performance Management",
+      "family": "CAP",
+      "description": "Mechanisms exist to facilitate the implementation of capacity management controls to ensure optimal system performance to meet expected and anticipated future capacity requirements.",
+      "scf_question": "Does the organization facilitate the implementation of capacity management controls to ensure optimal system performance to meet expected and anticipated future capacity requirements?",
+      "relative_weight": 8,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [
+        "E-CAP-01"
+      ],
+      "pptdf": "Process",
+      "nist_csf_function": "Govern",
+      "scrm_focus": {
+        "strategic": false,
+        "operational": true,
+        "tactical": false
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "Capability & Performance Planning (CAP) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with CAP domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Capability management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ IT and/or cybersecurity personnel work with business stakeholders to identify growth requirements and add capacity accordingly.",
+        "2": "Capability & Performance Planning (CAP) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CAP domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with CAP domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CAP  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Capability management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Capability management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
+        "3": "Capability & Performance Planning (CAP) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CAP domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CAP domain capabilities are well-documented and kept current by process owners.\n▪ A Business Continuity & Disaster Recovery (BC/DR) team, or similar function, is appropriately staffed and supported to implement and maintain BCD domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of BC/DR operations (e.g., BC/DR planning software, Disaster Recovery as a Service (DRaaS), Orchestration and Automation Tools, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CAP domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to facilitate the implementation of capacity management controls to ensure optimal system performance to meet expected and anticipated future capacity requirements.",
+        "4": "Capability & Performance Planning (CAP) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+        "5": "Capability & Performance Planning (CAP) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions."
+      },
+      "profiles": [
+        "SCRMS",
+        "CORE ESP Level 1 Foundational",
+        "CORE ESP Level 2 Critical Infrastructure",
+        "CORE ESP Level 3 Advanced Threats",
+        "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+      ],
+      "possible_solutions": {
+        "micro_small": "∙ Manual resource monitoring\n∙ ManageEngine OpManager (https://manageengine.com)",
+        "small": "∙ Manual resource monitoring\n∙ ManageEngine OpManager (https://manageengine.com)",
+        "medium": "∙ Manual resource monitoring\n∙ ManageEngine OpManager (https://manageengine.com)\n∙ Splunk (https://splunk.com)\n∙ Solarwinds (https://solarwinds.com)",
+        "large": "∙ ManageEngine OpManager (https://manageengine.com)\n∙ Splunk (https://splunk.com)\n∙ Solarwinds (https://solarwinds.com)",
+        "enterprise": "∙ Splunk (https://splunk.com)\n∙ Solarwinds (https://solarwinds.com)"
+      },
+      "risks": [
+        "R-AM-3",
+        "R-BC-1",
+        "R-BC-3",
+        "R-BC-4",
+        "R-BC-5",
+        "R-EX-1",
+        "R-EX-2",
+        "R-EX-3",
+        "R-EX-4",
+        "R-EX-5",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-4",
+        "R-GV-5",
+        "R-SA-1"
+      ],
+      "threats": [
+        "NT-7",
+        "MT-1",
+        "MT-2",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-10",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-16",
+        "MT-17",
+        "MT-18",
+        "MT-19",
+        "MT-20",
+        "MT-21",
+        "MT-22",
+        "MT-23",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Capacity & Performance Planning",
+      "crosswalks": {
+        "general-aicpa-tsc-2017": [
+          "A1.1",
+          "A1.1-POF1",
+          "A1.1-POF3"
+        ],
+        "general-cobit-2019": [
+          "BAI04.04",
+          "BAI04.05"
+        ],
+        "general-csa-cmm-4-1-0": [
+          "I&S-02"
+        ],
+        "general-csa-iot-2": [
+          "SNT-03"
+        ],
+        "general-govramp": [
+          "SC-05"
+        ],
+        "general-govramp-low": [
+          "SC-05"
+        ],
+        "general-govramp-low-plus": [
+          "SC-05"
+        ],
+        "general-govramp-mod": [
+          "SC-05"
+        ],
+        "general-govramp-high": [
+          "SC-05"
+        ],
+        "general-iec-62443-2-1-2024": [
+          "AVAIL 1.2"
+        ],
+        "general-iec-62443-3-3-2013": [
+          "SR 7.2"
+        ],
+        "general-iec-62443-4-2-2019": [
+          "CR 7.2"
+        ],
+        "general-iso-27002-2022": [
+          "8.6"
+        ],
+        "general-iso-27017-2015": [
+          "12.1.3"
+        ],
+        "general-iso-27018-2025": [
+          "8.6"
+        ],
+        "general-nist-privacy-framework-1-0": [
+          "PR.DS-P4"
+        ],
+        "general-nist-800-53-r4": [
+          "SC-5",
+          "SC-5(3)"
+        ],
+        "general-nist-800-53-r5-2": [
+          "SC-05",
+          "SC-05(03)"
+        ],
+        "general-nist-800-53-r5-2-privacy": [
+          "SC-05"
+        ],
+        "general-nist-800-53-r5-2-low": [
+          "SC-05"
+        ],
+        "general-nist-800-82-r3": [
+          "SC-05",
+          "SC-05(03)"
+        ],
+        "general-nist-800-82-r3-low": [
+          "SC-05"
+        ],
+        "general-nist-800-82-r3-mod": [
+          "SC-05"
+        ],
+        "general-nist-800-82-r3-high": [
+          "SC-05"
+        ],
+        "general-nist-800-160-vol-2-r1": [
+          "SC-05(03)"
+        ],
+        "general-nist-csf-2-0": [
+          "PR.IR-04"
+        ],
+        "general-shared-assessments-sig-2025": [
+          "K.1"
+        ],
+        "usa-federal-dow-cert-rmm-1-2": [
+          "EC:SG4.SP1"
+        ],
+        "usa-federal-fbi-cjis-6-0": [
+          "SC-5"
+        ],
+        "usa-federal-doe-c2m2-2-1": [
+          "ARCHITECTURE-3i"
+        ],
+        "usa-federal-dow-zt-roadmap-1-1": [
+          "7.1.1"
+        ],
+        "usa-federal-gsa-fedramp-5-low": [
+          "SC-05"
+        ],
+        "usa-federal-gsa-fedramp-5-mod": [
+          "SC-05"
+        ],
+        "usa-federal-gsa-fedramp-5-high": [
+          "SC-05"
+        ],
+        "usa-federal-gsa-fedramp-5-li-saas": [
+          "SC-05"
+        ],
+        "usa-federal-cms-marse-2-0": [
+          "SC-5"
+        ],
+        "usa-state-ny-dfs-23-nycrr500-2023-amd2": [
+          "500.3(f)"
+        ],
+        "usa-state-tx-dir-security-control-standards-catalog-2-2": [
+          "SC-05"
+        ],
+        "usa-state-tx-txramp-2-0-level-1": [
+          "SC-05"
+        ],
+        "usa-state-tx-txramp-2-0-level-2": [
+          "SC-05"
+        ],
+        "emea-eu-eba-ict-srm-2025": [
+          "3.5(56)"
+        ],
+        "emea-aut-fappd-2000": [
+          "Sec 14",
+          "Sec 15"
+        ],
+        "emea-bel-act-8-1992": [
+          "16"
+        ],
+        "emea-deu-bsrit-2017": [
+          "8.8"
+        ],
+        "emea-deu-c5-2020": [
+          "OPS-01",
+          "OPS-02",
+          "OPS-03"
+        ],
+        "emea-isr-cmo-1-0": [
+          "25.2"
+        ],
+        "emea-zaf-popia-2013": [
+          "19.1",
+          "19.2"
+        ],
+        "emea-esp-ccn-stic-825-2023": [
+          "7.1.4 [OP.PL.4]"
+        ],
+        "apac-aus-ism-2024-june": [
+          "ISM-1579",
+          "ISM-1580",
+          "ISM-1581"
+        ],
+        "apac-ind-sebi-2024": [
+          "PR.DS.S3"
+        ],
+        "apac-jpn-ismap": [
+          "12.1.3",
+          "12.1.3.1",
+          "12.1.3.2",
+          "12.1.3.3",
+          "12.1.3.4",
+          "12.1.3.5",
+          "12.1.3.6",
+          "12.1.3.7",
+          "12.1.3.8"
+        ],
+        "apac-nzl-hisf-mlhsp-2023": [
+          "HHSP61",
+          "HML61"
+        ],
+        "apac-nzl-hisf-suppliers-2023": [
+          "HSUP53"
+        ],
+        "apac-sgp-mas-trm-2021": [
+          "8.1.1"
+        ],
+        "americas-bmu-mba-coc-2020": [
+          "6.1"
+        ],
+        "americas-can-osfi-b13-2022": [
+          "2",
+          "2.8.2"
+        ]
+      }
+    },
+    {
+      "control_id": "CAP-02",
+      "title": "Resource Priority",
+      "family": "CAP",
+      "description": "Mechanisms exist to control resource utilization of Technology Assets, Applications and/or Services (TAAS) that are susceptible to Denial of Service (DoS) attacks to limit and prioritize the use of resources.",
+      "scf_question": "Does the organization control resource utilization of Technology Assets, Applications and/or Services (TAAS) that are susceptible to Denial of Service (DoS) attacks to limit and prioritize the use of resources?",
+      "relative_weight": 8,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [
+        "E-CAP-02"
+      ],
+      "pptdf": "Technology",
+      "nist_csf_function": "Protect",
+      "scrm_focus": {
+        "strategic": false,
+        "operational": true,
+        "tactical": false
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "Capability & Performance Planning (CAP) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with CAP domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Capability management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ IT and/or cybersecurity personnel work with business stakeholders to identify growth requirements and add capacity accordingly.",
+        "2": "Capability & Performance Planning (CAP) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CAP domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with CAP domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CAP  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Capability management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Capability management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT personnel work with business stakeholders and process owners to create and maintain infrastructure performance metrics to understand current resource needs.",
+        "3": "Capability & Performance Planning (CAP) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CAP domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CAP domain capabilities are well-documented and kept current by process owners.\n▪ A Business Continuity & Disaster Recovery (BC/DR) team, or similar function, is appropriately staffed and supported to implement and maintain BCD domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of BC/DR operations (e.g., BC/DR planning software, Disaster Recovery as a Service (DRaaS), Orchestration and Automation Tools, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CAP domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to control resource utilization of Technology Assets, Applications and/or Services (TAAS) that are susceptible to Denial of Service (DoS) attacks to limit and prioritize the use of resources.",
+        "4": "Capability & Performance Planning (CAP) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+        "5": "Capability & Performance Planning (CAP) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions."
+      },
+      "profiles": [
+        "CORE ESP Level 1 Foundational",
+        "CORE ESP Level 2 Critical Infrastructure",
+        "CORE ESP Level 3 Advanced Threats"
+      ],
+      "possible_solutions": {
+        "micro_small": "∙ Monitor system resource usage periodically",
+        "small": "∙ Capacity monitoring for critical systems\n∙ Resource usage baseline",
+        "medium": "∙ Capacity planning process\n∙ Performance monitoring tools",
+        "large": "∙ Enterprise capacity management program\n∙ Performance monitoring platform (e.g., Dynatrace, New Relic)",
+        "enterprise": "∙ Enterprise capacity management platform\n∙ APM tools (e.g., Dynatrace, Datadog)\n∙ Automated scaling"
+      },
+      "risks": [
+        "R-AM-3",
+        "R-BC-1",
+        "R-BC-3",
+        "R-BC-4",
+        "R-BC-5",
+        "R-EX-1",
+        "R-EX-2",
+        "R-EX-3",
+        "R-EX-4",
+        "R-EX-5",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-4",
+        "R-GV-5",
+        "R-SA-1"
+      ],
+      "threats": [
+        "NT-7",
+        "MT-1",
+        "MT-2",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-10",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Capacity & Performance Planning",
+      "crosswalks": {
+        "general-aicpa-tsc-2017": [
+          "A1.1"
+        ],
+        "general-csa-iot-2": [
+          "OPA-08",
+          "OPA-09"
+        ],
+        "general-govramp": [
+          "SC-05",
+          "SC-06"
+        ],
+        "general-govramp-low": [
+          "SC-05"
+        ],
+        "general-govramp-low-plus": [
+          "SC-05"
+        ],
+        "general-govramp-mod": [
+          "SC-05",
+          "SC-06"
+        ],
+        "general-govramp-high": [
+          "SC-05",
+          "SC-06"
+        ],
+        "general-mitre-att&ck-16-1": [
+          "T1564.009"
+        ],
+        "general-nist-800-53-r4": [
+          "SC-5",
+          "SC-5(1)",
+          "SC-5(2)",
+          "SC-6"
+        ],
+        "general-nist-800-53-r5-2": [
+          "SC-05",
+          "SC-05(01)",
+          "SC-05(02)",
+          "SC-06"
+        ],
+        "general-nist-800-53-r5-2-privacy": [
+          "SC-05",
+          "SC-05(02)"
+        ],
+        "general-nist-800-53-r5-2-low": [
+          "SC-05"
+        ],
+        "general-nist-800-82-r3": [
+          "SC-05",
+          "SC-05(01)",
+          "SC-05(02)",
+          "SC-06"
+        ],
+        "general-nist-800-82-r3-low": [
+          "SC-05"
+        ],
+        "general-nist-800-82-r3-mod": [
+          "SC-05"
+        ],
+        "general-nist-800-82-r3-high": [
+          "SC-05"
+        ],
+        "general-nist-800-160-vol-2-r1": [
+          "SC-05(02)"
+        ],
+        "general-nist-800-161-r1": [
+          "SC-5",
+          "SC-5(2)"
+        ],
+        "general-nist-800-161-r1-level-2": [
+          "SC-5(2)"
+        ],
+        "general-nist-csf-2-0": [
+          "PR.IR-04"
+        ],
+        "general-shared-assessments-sig-2025": [
+          "N.2"
+        ],
+        "usa-federal-fbi-cjis-6-0": [
+          "SC-5"
+        ],
+        "usa-federal-gsa-fedramp-5-low": [
+          "SC-05",
+          "SC-05(02)"
+        ],
+        "usa-federal-gsa-fedramp-5-mod": [
+          "SC-05",
+          "SC-05(02)"
+        ],
+        "usa-federal-gsa-fedramp-5-high": [
+          "SC-05",
+          "SC-05(02)"
+        ],
+        "usa-federal-gsa-fedramp-5-li-saas": [
+          "SC-05",
+          "SC-05(02)"
+        ],
+        "usa-federal-cms-marse-2-0": [
+          "SC-5",
+          "SC-6"
+        ],
+        "usa-state-tx-dir-security-control-standards-catalog-2-2": [
+          "SC-05"
+        ],
+        "usa-state-tx-txramp-2-0-level-1": [
+          "SC-05"
+        ],
+        "usa-state-tx-txramp-2-0-level-2": [
+          "SC-05"
+        ],
+        "apac-aus-ism-2024-june": [
+          "ISM-1579",
+          "ISM-1580",
+          "ISM-1581"
+        ]
+      }
+    },
+    {
+      "control_id": "CAP-03",
+      "title": "Capacity Planning",
+      "family": "CAP",
+      "description": "Mechanisms exist to conduct capacity planning so that necessary capacity for information processing, telecommunications and environmental support will exist during contingency operations.",
+      "scf_question": "Does the organization conduct capacity planning so that necessary capacity for information processing, telecommunications and environmental support will exist during contingency operations?",
+      "relative_weight": 8,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [
+        "E-CAP-01"
+      ],
+      "pptdf": "Process",
+      "nist_csf_function": "Protect",
+      "scrm_focus": {
+        "strategic": false,
+        "operational": true,
+        "tactical": true
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "2": "Capability & Performance Planning (CAP) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CAP domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with CAP domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CAP  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Capability management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Capability management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT personnel work with business stakeholders and process owners to create and maintain infrastructure performance metrics to understand current resource needs.",
+        "3": "Capability & Performance Planning (CAP) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CAP domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CAP domain capabilities are well-documented and kept current by process owners.\n▪ A Business Continuity & Disaster Recovery (BC/DR) team, or similar function, is appropriately staffed and supported to implement and maintain BCD domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of BC/DR operations (e.g., BC/DR planning software, Disaster Recovery as a Service (DRaaS), Orchestration and Automation Tools, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CAP domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to conduct capacity planning so that necessary capacity for information processing, telecommunications and environmental support will exist during contingency operations.",
+        "4": "Capability & Performance Planning (CAP) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+        "5": "Capability & Performance Planning (CAP) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions."
+      },
+      "profiles": [
+        "SCRMS",
+        "CORE ESP Level 1 Foundational",
+        "CORE ESP Level 2 Critical Infrastructure",
+        "CORE ESP Level 3 Advanced Threats",
+        "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+      ],
+      "possible_solutions": {
+        "micro_small": "∙ Monitor system resource usage periodically",
+        "small": "∙ Capacity monitoring for critical systems\n∙ Resource usage baseline",
+        "medium": "∙ Capacity planning process\n∙ Performance monitoring tools",
+        "large": "∙ Enterprise capacity management program\n∙ Performance monitoring platform (e.g., Dynatrace, New Relic)",
+        "enterprise": "∙ Enterprise capacity management platform\n∙ APM tools (e.g., Dynatrace, Datadog)\n∙ Automated scaling"
+      },
+      "risks": [
+        "R-AM-3",
+        "R-BC-1",
+        "R-BC-3",
+        "R-BC-4",
+        "R-BC-5",
+        "R-EX-1",
+        "R-EX-2",
+        "R-EX-3",
+        "R-EX-4",
+        "R-EX-5",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-4",
+        "R-GV-5",
+        "R-SA-1"
+      ],
+      "threats": [
+        "NT-7",
+        "MT-1",
+        "MT-2",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-10",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Capacity & Performance Planning",
+      "crosswalks": {
+        "general-aicpa-tsc-2017": [
+          "A1.1",
+          "A1.1-POF2"
+        ],
+        "general-csa-cmm-4-1-0": [
+          "I&S-02"
+        ],
+        "general-govramp": [
+          "CP-02(02)",
+          "SC-05"
+        ],
+        "general-govramp-low": [
+          "SC-05"
+        ],
+        "general-govramp-low-plus": [
+          "SC-05"
+        ],
+        "general-govramp-mod": [
+          "CP-02(02)",
+          "SC-05"
+        ],
+        "general-govramp-high": [
+          "CP-02(02)",
+          "SC-05"
+        ],
+        "general-iso-27002-2022": [
+          "8.6"
+        ],
+        "general-iso-27017-2015": [
+          "12.1.3"
+        ],
+        "general-iso-27018-2025": [
+          "8.6"
+        ],
+        "general-nist-privacy-framework-1-0": [
+          "PR.DS-P4"
+        ],
+        "general-nist-800-53-r4": [
+          "SC-5",
+          "SC-5(2)",
+          "CP-2(2)"
+        ],
+        "general-nist-800-53-r5-2": [
+          "CP-02(02)",
+          "SC-05",
+          "SC-05(02)"
+        ],
+        "general-nist-800-53-r5-2-privacy": [
+          "SC-05",
+          "SC-05(02)"
+        ],
+        "general-nist-800-53-r5-2-low": [
+          "SC-05"
+        ],
+        "general-nist-800-53-r5-2-high": [
+          "CP-02(02)"
+        ],
+        "general-nist-800-82-r3": [
+          "CP-02(02)",
+          "SC-05",
+          "SC-05(02)"
+        ],
+        "general-nist-800-82-r3-low": [
+          "SC-05"
+        ],
+        "general-nist-800-82-r3-mod": [
+          "SC-05"
+        ],
+        "general-nist-800-82-r3-high": [
+          "CP-02(02)",
+          "SC-05"
+        ],
+        "general-nist-800-160-vol-2-r1": [
+          "SC-05(02)"
+        ],
+        "general-nist-800-161-r1": [
+          "CP-2(2)",
+          "SC-5(2)"
+        ],
+        "general-nist-800-161-r1-level-2": [
+          "CP-2(2)",
+          "SC-5(2)"
+        ],
+        "general-nist-800-161-r1-level-3": [
+          "CP-2(2)"
+        ],
+        "general-nist-csf-2-0": [
+          "PR.IR-04"
+        ],
+        "general-shared-assessments-sig-2025": [
+          "N.2"
+        ],
+        "usa-federal-fbi-cjis-6-0": [
+          "SC-5"
+        ],
+        "usa-federal-dow-zt-roadmap-1-1": [
+          "7.1.1"
+        ],
+        "usa-federal-gsa-fedramp-5-low": [
+          "SC-05",
+          "SC-05(02)"
+        ],
+        "usa-federal-gsa-fedramp-5-mod": [
+          "SC-05",
+          "SC-05(02)"
+        ],
+        "usa-federal-gsa-fedramp-5-high": [
+          "CP-02(02)",
+          "SC-05",
+          "SC-05(02)"
+        ],
+        "usa-federal-gsa-fedramp-5-li-saas": [
+          "SC-05",
+          "SC-05(02)"
+        ],
+        "usa-federal-cms-marse-2-0": [
+          "CP-2(2)",
+          "SC-5"
+        ],
+        "usa-state-tx-dir-security-control-standards-catalog-2-2": [
+          "SC-05"
+        ],
+        "usa-state-tx-txramp-2-0-level-1": [
+          "SC-05"
+        ],
+        "usa-state-tx-txramp-2-0-level-2": [
+          "SC-05"
+        ],
+        "emea-deu-bsrit-2017": [
+          "8.8"
+        ],
+        "emea-deu-c5-2020": [
+          "OPS-01",
+          "OPS-02",
+          "OPS-03"
+        ],
+        "emea-isr-cmo-1-0": [
+          "25.2"
+        ],
+        "apac-aus-ism-2024-june": [
+          "ISM-1579",
+          "ISM-1580",
+          "ISM-1581"
+        ],
+        "apac-sgp-mas-trm-2021": [
+          "8.1.3"
+        ],
+        "americas-can-osfi-b13-2022": [
+          "2.8.2"
+        ]
+      }
+    },
+    {
+      "control_id": "CAP-04",
+      "title": "Performance Monitoring",
+      "family": "CAP",
+      "description": "Automated mechanisms exist to centrally-monitor and alert on the operating state and health status of critical Technology Assets, Applications and/or Services (TAAS).",
+      "scf_question": "Does the organization use automated mechanisms to centrally-monitor and alert on the operating state and health status of critical Technology Assets, Applications and/or Services (TAAS)?",
+      "relative_weight": 7,
+      "conformity_cadence": "Quarterly",
+      "evidence_requests": [
+        "E-CAP-03"
+      ],
+      "pptdf": "Technology",
+      "nist_csf_function": "Detect",
+      "scrm_focus": {
+        "strategic": false,
+        "operational": true,
+        "tactical": true
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "2": "Capability & Performance Planning (CAP) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CAP domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with CAP domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CAP  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Capability management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Capability management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT personnel work with business stakeholders and process owners to create and maintain infrastructure performance metrics to understand current resource needs.",
+        "3": "Capability & Performance Planning (CAP) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CAP domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CAP domain capabilities are well-documented and kept current by process owners.\n▪ A Business Continuity & Disaster Recovery (BC/DR) team, or similar function, is appropriately staffed and supported to implement and maintain BCD domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of BC/DR operations (e.g., BC/DR planning software, Disaster Recovery as a Service (DRaaS), Orchestration and Automation Tools, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CAP domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to automatically centrally-monitor and alert on the operating state and health status of critical Technology Assets, Applications and/or Services (TAAS).",
+        "4": "Capability & Performance Planning (CAP) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+        "5": "Capability & Performance Planning (CAP) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions."
+      },
+      "profiles": [
+        "CORE ESP Level 1 Foundational",
+        "CORE ESP Level 2 Critical Infrastructure",
+        "CORE ESP Level 3 Advanced Threats"
+      ],
+      "possible_solutions": {
+        "micro_small": "∙ ManageEngine OpManager (https://manageengine.com)",
+        "small": "∙ ManageEngine OpManager (https://manageengine.com)",
+        "medium": "∙ ManageEngine OpManager (https://manageengine.com)\n∙ Splunk (https://splunk.com)\n∙ Solarwinds (https://solarwinds.com)",
+        "large": "∙ ManageEngine OpManager (https://manageengine.com)\n∙ Splunk (https://splunk.com)\n∙ Solarwinds (https://solarwinds.com)",
+        "enterprise": "∙ Splunk (https://splunk.com)\n∙ Solarwinds (https://solarwinds.com)"
+      },
+      "risks": [
+        "R-AM-3",
+        "R-BC-1",
+        "R-BC-2",
+        "R-BC-3",
+        "R-BC-4",
+        "R-EX-6",
+        "R-GV-1",
+        "R-GV-4",
+        "R-GV-5",
+        "R-GV-6",
+        "R-GV-7",
+        "R-IR-1",
+        "R-IR-2",
+        "R-IR-3",
+        "R-IR-4",
+        "R-SA-1",
+        "R-SC-1",
+        "R-SC-2",
+        "R-SC-3",
+        "R-SC-4",
+        "R-SC-5",
+        "R-SC-6"
+      ],
+      "threats": [
+        "NT-2",
+        "NT-3",
+        "NT-4",
+        "NT-5",
+        "NT-6",
+        "NT-7",
+        "NT-11",
+        "NT-12",
+        "NT-13",
+        "MT-1",
+        "MT-2",
+        "MT-5",
+        "MT-6",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-10",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Capacity & Performance Planning",
+      "crosswalks": {
+        "general-aicpa-tsc-2017": [
+          "A1.1-POF1"
+        ],
+        "general-csa-iot-2": [
+          "SNT-03"
+        ],
+        "general-nist-csf-2-0": [
+          "PR.IR-04"
+        ],
+        "emea-deu-bsrit-2017": [
+          "8.8"
+        ],
+        "apac-ind-sebi-2024": [
+          "DE.CM.S4"
+        ],
+        "amaericas-can-osfi-self-assessment": [
+          "3.1"
+        ],
+        "americas-can-osfi-b13-2022": [
+          "2.8.2"
+        ]
+      }
+    },
+    {
+      "control_id": "CAP-05",
+      "title": "Elastic Expansion",
+      "family": "CAP",
+      "description": "Mechanisms exist to automatically scale the resources available for Technology Assets, Applications and/or Services (TAAS), as demand conditions change.",
+      "scf_question": "Does the organization automatically scale the resources available for Technology Assets, Applications and/or Services (TAAS), as demand conditions change?",
+      "relative_weight": 5,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [
+        "E-CAP-04"
+      ],
+      "pptdf": "Technology",
+      "nist_csf_function": "Govern",
+      "scrm_focus": {
+        "strategic": false,
+        "operational": true,
+        "tactical": true
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "2": "SCR-CMM Level 2 criteria definitions are not available for this control:\n▪ A reasonable person would conclude a well-defined and standardized process is required.\n▪ At this level of maturity, the “requirements-driven” nature of performing the control is focused on a localized and/or regionalized implementation, not uniform and consistent across the organization.\n▪ Requirements are narrowly scoped for applicability and are primarily derived from compliance obligations (e.g., laws, regulations and contracts).",
+        "3": "Capability & Performance Planning (CAP) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CAP domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CAP domain capabilities are well-documented and kept current by process owners.\n▪ A Business Continuity & Disaster Recovery (BC/DR) team, or similar function, is appropriately staffed and supported to implement and maintain BCD domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of BC/DR operations (e.g., BC/DR planning software, Disaster Recovery as a Service (DRaaS), Orchestration and Automation Tools, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CAP domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to automatically scale the resources available for Technology Assets, Applications and/or Services (TAAS), as demand conditions change.",
+        "4": "Capability & Performance Planning (CAP) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+        "5": "Capability & Performance Planning (CAP) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions."
+      },
+      "profiles": [
+        "SCRMS",
+        "CORE ESP Level 1 Foundational",
+        "CORE ESP Level 2 Critical Infrastructure",
+        "CORE ESP Level 3 Advanced Threats",
+        "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+      ],
+      "possible_solutions": {
+        "micro_small": "∙ Monitor system resource usage periodically",
+        "small": "∙ Capacity monitoring for critical systems\n∙ Resource usage baseline",
+        "medium": "∙ Capacity planning process\n∙ Performance monitoring tools",
+        "large": "∙ Enterprise capacity management program\n∙ Performance monitoring platform (e.g., Dynatrace, New Relic)",
+        "enterprise": "∙ Enterprise capacity management platform\n∙ APM tools (e.g., Dynatrace, Datadog)\n∙ Automated scaling"
+      },
+      "risks": [
+        "R-BC-1",
+        "R-BC-3",
+        "R-GV-1"
+      ],
+      "threats": [
+        "NT-2",
+        "NT-3",
+        "NT-4",
+        "NT-5",
+        "NT-6",
+        "NT-7",
+        "NT-8",
+        "NT-9",
+        "NT-10",
+        "NT-11",
+        "NT-12",
+        "NT-13",
+        "MT-2",
+        "MT-4",
+        "MT-5",
+        "MT-6",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-10",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-16",
+        "MT-17",
+        "MT-18",
+        "MT-19",
+        "MT-20",
+        "MT-21",
+        "MT-22",
+        "MT-23",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Capacity & Performance Planning",
+      "crosswalks": {
+        "general-nist-csf-2-0": [
+          "PR.IR-04"
+        ],
+        "usa-federal-dhs-cisa-tic-3-0": [
+          "3.PEP.RE.EEXPS"
+        ],
+        "usa-federal-dow-zt-roadmap-1-1": [
+          "7.1.1"
+        ],
+        "apac-aus-ism-2024-june": [
+          "ISM-1579"
+        ]
+      }
+    },
+    {
+      "control_id": "CAP-06",
+      "title": "Regional Delivery",
+      "family": "CAP",
+      "description": "Mechanisms exist to support operations that are geographically dispersed via regional delivery of technological Technology Assets, Applications and/or Services (TAAS).",
+      "scf_question": "Does the organization support operations that are geographically dispersed via regional delivery of technological Technology Assets, Applications and/or Services (TAAS)?",
+      "relative_weight": 1,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [],
+      "pptdf": "Technology",
+      "nist_csf_function": "Govern",
+      "scrm_focus": {
+        "strategic": false,
+        "operational": true,
+        "tactical": true
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "Capability & Performance Planning (CAP) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with CAP domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Capability management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ IT and/or cybersecurity personnel work with business stakeholders to identify growth requirements and add capacity accordingly.",
+        "2": "SCR-CMM Level 2 criteria definitions are not available for this control:\n▪ A reasonable person would conclude a well-defined and standardized process is required.\n▪ At this level of maturity, the “requirements-driven” nature of performing the control is focused on a localized and/or regionalized implementation, not uniform and consistent across the organization.\n▪ Requirements are narrowly scoped for applicability and are primarily derived from compliance obligations (e.g., laws, regulations and contracts).",
+        "3": "Capability & Performance Planning (CAP) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CAP domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CAP domain capabilities are well-documented and kept current by process owners.\n▪ A Business Continuity & Disaster Recovery (BC/DR) team, or similar function, is appropriately staffed and supported to implement and maintain BCD domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of BC/DR operations (e.g., BC/DR planning software, Disaster Recovery as a Service (DRaaS), Orchestration and Automation Tools, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CAP domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to support operations that are geographically dispersed via regional delivery of technological Technology Assets, Applications and/or Services (TAAS).",
+        "4": "Capability & Performance Planning (CAP) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+        "5": "Capability & Performance Planning (CAP) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions."
+      },
+      "profiles": [
+        "CORE ESP Level 2 Critical Infrastructure",
+        "CORE ESP Level 3 Advanced Threats"
+      ],
+      "possible_solutions": {
+        "micro_small": "∙ Monitor system resource usage periodically",
+        "small": "∙ Capacity monitoring for critical systems\n∙ Resource usage baseline",
+        "medium": "∙ Capacity planning process\n∙ Performance monitoring tools",
+        "large": "∙ Enterprise capacity management program\n∙ Performance monitoring platform (e.g., Dynatrace, New Relic)",
+        "enterprise": "∙ Enterprise capacity management platform\n∙ APM tools (e.g., Dynatrace, Datadog)\n∙ Automated scaling"
+      },
+      "risks": [
+        "R-BC-1",
+        "R-BC-3",
+        "R-GV-1"
+      ],
+      "threats": [
+        "NT-2",
+        "NT-3",
+        "NT-4",
+        "NT-5",
+        "NT-6",
+        "NT-7",
+        "NT-8",
+        "NT-9",
+        "NT-10",
+        "NT-11",
+        "NT-12",
+        "NT-13",
+        "MT-1",
+        "MT-2",
+        "MT-4",
+        "MT-5",
+        "MT-6",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-10",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-16",
+        "MT-17",
+        "MT-18",
+        "MT-19",
+        "MT-20",
+        "MT-21",
+        "MT-22",
+        "MT-23",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Capacity & Performance Planning",
+      "crosswalks": {
+        "general-csa-iot-2": [
+          "OPA-03"
+        ],
+        "usa-federal-dhs-cisa-tic-3-0": [
+          "3.PEP.RE.RDELI"
+        ]
+      }
+    }
+  ]
+}

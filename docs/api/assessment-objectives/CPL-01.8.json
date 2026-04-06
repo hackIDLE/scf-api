@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "CPL-01.8",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CPL-01.8",
+      "ao_id": "CPL-01.8_A01",
+      "objective": "the process for the certifying official to attest to the accuracy of conformity attestations is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-01.8",
+      "ao_id": "CPL-01.8_A02",
+      "objective": "the certifying official attests to the accuracy of conformity attestations, based on applicable laws, regulations and/or contractual criteria.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "PRI-03.6",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-03.6",
+      "ao_id": "PRI-03.6_A01",
+      "objective": "data subjects are empowered to authorize another person or entity, acting on the data subject's behalf, to make Personal Data (PD) processing decisions.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

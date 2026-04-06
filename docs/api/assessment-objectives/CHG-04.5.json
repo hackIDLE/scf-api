@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "CHG-04.5",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CHG-04.5",
+      "ao_id": "CHG-04.5_A01",
+      "objective": "privileges to change software resident within software libraries are limited.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_CM-05(06)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

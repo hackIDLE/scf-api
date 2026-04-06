@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "TPM-06",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TPM-06",
+      "ao_id": "TPM-06_A01",
+      "objective": "roles and responsibilities for third-party provider personnel are documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

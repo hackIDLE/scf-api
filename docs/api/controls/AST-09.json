@@ -1,0 +1,426 @@
+{
+  "control_id": "AST-09",
+  "title": "Secure Disposal, Destruction or Re-Use of Equipment",
+  "family": "AST",
+  "description": "Mechanisms exist to securely dispose of, destroy or repurpose system components using organization-defined techniques and methods to prevent information being recovered from these components.",
+  "scf_question": "Does the organization securely dispose of, destroy or repurpose system components using organization-defined techniques and methods to prevent information being recovered from these components?",
+  "relative_weight": 10,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [
+    "E-AST-03"
+  ],
+  "pptdf": "Process",
+  "nist_csf_function": "Identify",
+  "scrm_focus": {
+    "strategic": false,
+    "operational": true,
+    "tactical": true
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "Asset Management (AST) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with AST domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Asset management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ Asset management is informally assigned as an additional duty to existing IT/cybersecurity personnel.\n▪ Decentralized requirements for data / process owners to dispose of, destroy or repurpose systems when no longer needed for business or legal reasons.",
+    "2": "Asset Management (AST) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with AST domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with AST domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with AST  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Asset management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Asset management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ The IT department establishes, maintains and updates an inventory that contains a listing of all organizational-owned TAASD, at a minimum covering common devices (e.g., laptops, workstations and servers).\n▪ IT personnel collect technology assets and media for destruction when it is no longer needed for business or legal reasons.\n▪ IT personnel perform the destruction of technology assets and media in a secure manner or outsource the destruction to a third-party that specializes in technology assets and media destruction, as well as provides evidence of destruction (e.g., certificate of destruction).\n▪ Asset decommissioning consists of mainly wiping hard drives.\n▪ IT personnel use technology to re-image, or configure, assets from configuration-controlled and integrity-protected images or scripts (infrastructure as code).",
+    "3": "Asset Management (AST) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with AST domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with AST domain capabilities are well-documented and kept current by process owners.\n▪ An IT Asset Management (ITAM) team, or similar function, is appropriately staffed and supported to implement and maintain AST domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of ITAM operations (e.g., ITAM platform, (e.g., Configuration Management Database (CMBD) Asset Management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with AST domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to securely dispose of, destroy or repurpose system components using organization-defined techniques and methods to prevent information being recovered from these components.",
+    "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [
+    "SCRMS",
+    "CORE ESP Level 1 Foundational",
+    "CORE ESP Level 2 Critical Infrastructure",
+    "CORE ESP Level 3 Advanced Threats",
+    "CORE Fundamentals",
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ Shred-it (https://shredit.com)\n∙ IronMountain (https://ironmountain.com)\n∙ BitRaser (https://bitraser.com)\n∙ DBAN (https://dban.org)\n∙ DoD-strength data erasers",
+    "small": "∙ Shred-it (https://shredit.com)\n∙ IronMountain (https://ironmountain.com)\n∙ BitRaser (https://bitraser.com)\n∙ DBAN (https://dban.org)\n∙ DoD-strength data erasers",
+    "medium": "∙ Shred-it (https://shredit.com)\n∙ IronMountain (https://ironmountain.com)\n∙ BitRaser (https://bitraser.com)\n∙ DBAN (https://dban.org)\n∙ DoD-strength data erasers",
+    "large": "∙ Shred-it (https://shredit.com)\n∙ IronMountain (https://ironmountain.com)\n∙ BitRaser (https://bitraser.com)\n∙ DBAN (https://dban.org)\n∙ DoD-strength data erasers",
+    "enterprise": "∙ Shred-it (https://shredit.com)\n∙ IronMountain (https://ironmountain.com)\n∙ BitRaser (https://bitraser.com)\n∙ DBAN (https://dban.org)\n∙ DoD-strength data erasers"
+  },
+  "risks": [
+    "R-AC-1",
+    "R-AC-2",
+    "R-AC-4",
+    "R-AM-1",
+    "R-AM-3",
+    "R-BC-1",
+    "R-BC-2",
+    "R-BC-5",
+    "R-EX-1",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-EX-5",
+    "R-EX-7",
+    "R-GV-1",
+    "R-GV-2",
+    "R-GV-4",
+    "R-GV-5",
+    "R-GV-6",
+    "R-GV-7",
+    "R-IR-1",
+    "R-IR-4",
+    "R-SC-1",
+    "R-SC-2",
+    "R-SC-3",
+    "R-SC-4",
+    "R-SC-5",
+    "R-SC-6"
+  ],
+  "threats": [
+    "NT-2",
+    "NT-3",
+    "NT-4",
+    "NT-5",
+    "NT-6",
+    "NT-7",
+    "NT-8",
+    "NT-9",
+    "NT-10",
+    "NT-11",
+    "NT-12",
+    "NT-13",
+    "NT-14",
+    "MT-1",
+    "MT-2",
+    "MT-3",
+    "MT-4",
+    "MT-5",
+    "MT-6",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-10",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Asset Management",
+  "crosswalks": {
+    "general-aicpa-tsc-2017": [
+      "C1.2-POF2",
+      "CC6.5",
+      "CC6.5-POF2",
+      "P4.3-POF2",
+      "P4.3-POF3"
+    ],
+    "general-cis-csc-8-1": [
+      "3.5"
+    ],
+    "general-cis-csc-8-1-ig1": [
+      "3.5"
+    ],
+    "general-cis-csc-8-1-ig2": [
+      "3.5"
+    ],
+    "general-cis-csc-8-1-ig3": [
+      "3.5"
+    ],
+    "general-csa-cmm-4-1-0": [
+      "DCS-02",
+      "DSP-02"
+    ],
+    "general-csa-iot-2": [
+      "POL-04"
+    ],
+    "general-iso-27002-2022": [
+      "7.14",
+      "8.1"
+    ],
+    "general-iso-27017-2015": [
+      "11.2.7"
+    ],
+    "general-iso-27018-2025": [
+      "7.14",
+      "7.14(a)",
+      "8.10"
+    ],
+    "general-mpa-csbp-5-3-1": [
+      "OP-3.2"
+    ],
+    "general-nist-100-1-ai-rmf": [
+      "GOVERN 1.7"
+    ],
+    "general-nist-800-37-r2": [
+      "TASK M-7"
+    ],
+    "general-nist-800-53-r4": [
+      "SA-19(3)"
+    ],
+    "general-nist-800-53-r5-2": [
+      "SR-12"
+    ],
+    "general-nist-800-53-r5-2-privacy": [
+      "SR-12"
+    ],
+    "general-nist-800-53-r5-2-low": [
+      "SR-12"
+    ],
+    "general-nist-800-66-r2": [
+      "164.310(d)"
+    ],
+    "general-nist-800-82-r3": [
+      "SR-12"
+    ],
+    "general-nist-800-82-r3-low": [
+      "SR-12"
+    ],
+    "general-nist-800-82-r3-mod": [
+      "SR-12"
+    ],
+    "general-nist-800-82-r3-high": [
+      "SR-12"
+    ],
+    "general-nist-800-161-r1": [
+      "SR-12"
+    ],
+    "general-nist-800-161-r1-cscrm": [
+      "SR-12"
+    ],
+    "general-nist-800-161-r1-level-2": [
+      "SR-12"
+    ],
+    "general-nist-800-161-r1-level-3": [
+      "SR-12"
+    ],
+    "general-nist-800-171-r2": [
+      "3.8.3"
+    ],
+    "general-nist-800-171-r3": [
+      "03.07.04.c",
+      "03.08.03"
+    ],
+    "general-pci-dss-4-0-1": [
+      "9.4.7"
+    ],
+    "general-pci-dss-4-0-1-saq-d-merchant": [
+      "9.4.7"
+    ],
+    "general-pci-dss-4-0-1-saq-d-service-provider": [
+      "9.4.7"
+    ],
+    "general-swift-cscf-2025": [
+      "3.1"
+    ],
+    "general-tisax-6-0-3": [
+      "3.1.3"
+    ],
+    "usa-federal-fbi-cjis-6-0": [
+      "SR-12"
+    ],
+    "usa-federal-doe-c2m2-2-1": [
+      "ASSET-1h",
+      "ASSET-2h"
+    ],
+    "usa-federal-dow-cmmc-2-level-1": [
+      "MP.L1-B.1.VII"
+    ],
+    "usa-federal-dow-cmmc-2-level-2": [
+      "MPL2.-3.8.3"
+    ],
+    "usa-federal-far-52-204-21": [
+      "52.204-21(b)(1)(vii)"
+    ],
+    "usa-federal-gsa-fedramp-5-low": [
+      "SR-12"
+    ],
+    "usa-federal-gsa-fedramp-5-mod": [
+      "SR-12"
+    ],
+    "usa-federal-gsa-fedramp-5-high": [
+      "SR-12"
+    ],
+    "usa-federal-gsa-fedramp-5-li-saas": [
+      "SR-12"
+    ],
+    "usa-federal-law-glba-cfr-314-2023": [
+      "314.4(c)(6)(i)"
+    ],
+    "usa-federal-law-hipaa-simplification-2013": [
+      "164.310(d)(2)(i)",
+      "164.310(d)(2)(ii)"
+    ],
+    "usa-federal-law-hipaa-security-rule-2013": [
+      "164.310(d)(2)(i)",
+      "164.310(d)(2)(ii)"
+    ],
+    "usa-federal-irs-1075-2021": [
+      "2.F.3.1"
+    ],
+    "usa-federal-dow-safeguarding-nnpi-2010": [
+      "6-2.a",
+      "6-3",
+      "6-3.a",
+      "11-3.a(4)(d)",
+      "11-3.a(5)(c)",
+      "11-3.c"
+    ],
+    "usa-state-ak-pipa-2009": [
+      "45.48.500 - .590"
+    ],
+    "usa-state-ny-dfs-23-nycrr500-2023-amd2": [
+      "500.13(b)"
+    ],
+    "usa-state-tx-dir-security-control-standards-catalog-2-2": [
+      "SR-12"
+    ],
+    "emea-us-psd2-2015": [
+      "24"
+    ],
+    "emea-deu-c5-2020": [
+      "AM-04",
+      "PI-03"
+    ],
+    "emea-isr-cmo-1-0": [
+      "15.4",
+      "17.21"
+    ],
+    "emea-sau-cgiot-2024": [
+      "2-5-1",
+      "2-15-3"
+    ],
+    "emea-sau-ecc-1-2018": [
+      "2-14-3-4"
+    ],
+    "emea-sau-otcc-1-2022": [
+      "2-6-1-3"
+    ],
+    "emea-sau-sacs-002-2022": [
+      "TPC-19",
+      "TPC-66"
+    ],
+    "emea-sau-sama-csf-1-2017": [
+      "3.3.11"
+    ],
+    "emea-esp-ccn-stic-825-2023": [
+      "8.5.5 [MP.SI.5]"
+    ],
+    "emea-gbr-def-stan-05-138-2024": [
+      "2323"
+    ],
+    "emea-gbr-def-stan-05-138-l1-2024": [
+      "2323"
+    ],
+    "emea-gbr-def-stan-05-138-l2-2024": [
+      "2323"
+    ],
+    "emea-gbr-def-stan-05-138-l3-2024": [
+      "2323"
+    ],
+    "apac-aus-ism-2024-june": [
+      "ISM-0311",
+      "ISM-0312",
+      "ISM-0315",
+      "ISM-0318",
+      "ISM-0321",
+      "ISM-0330",
+      "ISM-0350",
+      "ISM-0363",
+      "ISM-0370",
+      "ISM-0372",
+      "ISM-0378",
+      "ISM-0839",
+      "ISM-1076",
+      "ISM-1217",
+      "ISM-1218",
+      "ISM-1219",
+      "ISM-1220",
+      "ISM-1221",
+      "ISM-1222",
+      "ISM-1223",
+      "ISM-1225",
+      "ISM-1534",
+      "ISM-1550",
+      "ISM-1641",
+      "ISM-1722",
+      "ISM-1723",
+      "ISM-1724",
+      "ISM-1725",
+      "ISM-1726",
+      "ISM-1727",
+      "ISM-1728",
+      "ISM-1729",
+      "ISM-1741",
+      "ISM-1742"
+    ],
+    "apac-ind-sebi-2024": [
+      "PR.AA.S14"
+    ],
+    "apac-jpn-ismap": [
+      "8.1.2.6",
+      "8.3.1.1",
+      "8.3.2",
+      "8.3.2.1",
+      "8.3.2.2",
+      "8.3.2.3",
+      "11.2.7",
+      "11.2.7.1",
+      "11.2.7.2"
+    ],
+    "apac-nzl-hisf-mlhsp-2023": [
+      "HHSP06",
+      "HHSP45",
+      "HML06",
+      "HML45"
+    ],
+    "apac-nzl-hisf-suppliers-2023": [
+      "HSUP06"
+    ],
+    "apac-nzl-ism-3-9": [
+      "11.2.13.C.01",
+      "11.2.13.C.02",
+      "11.7.35.C.01",
+      "12.6.4.C.01",
+      "12.6.4.C.02",
+      "12.6.5.C.01",
+      "12.6.5.C.02",
+      "12.6.5.C.03",
+      "12.6.5.C.04",
+      "12.6.5.C.05",
+      "12.6.8.C.01",
+      "12.6.9.C.01",
+      "12.6.10.C.01",
+      "13.4.19.C.02",
+      "13.4.10.C.01",
+      "13.5.24.C.01",
+      "13.5.24.C.02",
+      "13.5.24.C.03",
+      "13.5.24.C.04",
+      "13.5.25.C.01",
+      "13.5.26.C.01",
+      "13.5.26.C.02",
+      "13.5.26.C.03",
+      "13.5.29.C.01",
+      "13.5.29.C.02",
+      "13.5.30.C.01",
+      "13.6.6.C.01",
+      "13.6.6.C.02",
+      "13.6.7.C.01",
+      "13.6.8.C.01",
+      "13.6.9.C.01",
+      "13.6.10.C.01",
+      "13.6.10.C.02",
+      "13.6.10.C.03",
+      "13.6.11.C.01",
+      "13.6.12.C.01"
+    ],
+    "apac-sgp-mas-trm-2021": [
+      "11.1.7"
+    ],
+    "americas-can-osfi-b13-2022": [
+      "2.2",
+      "2.2.4"
+    ],
+    "americas-can-itsp-10-171-2025": [
+      "03.07.04.C",
+      "03.08.03"
+    ]
+  }
+}

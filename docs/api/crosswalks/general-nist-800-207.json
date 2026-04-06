@@ -1,0 +1,464 @@
+{
+  "framework_id": "general-nist-800-207",
+  "display_name": "NIST SP 800-207",
+  "scf_to_framework": {
+    "total_mappings": 93,
+    "mappings": {
+      "GOV-05": [
+        "NIST Tenet 7"
+      ],
+      "AST-01": [
+        "NIST Tenet 1",
+        "NIST Tenet 5"
+      ],
+      "AST-01.1": [
+        "NIST Tenet 1"
+      ],
+      "AST-02": [
+        "NIST Tenet 1"
+      ],
+      "AST-02.2": [
+        "NIST Tenet 5",
+        "NIST Tenet 6"
+      ],
+      "AST-02.3": [
+        "NIST Tenet 1"
+      ],
+      "AST-02.5": [
+        "NIST Tenet 6"
+      ],
+      "AST-02.6": [
+        "NIST Tenet 7"
+      ],
+      "AST-02.8": [
+        "NIST Tenet 1",
+        "NIST Tenet 7"
+      ],
+      "AST-02.9": [
+        "NIST Tenet 1",
+        "NIST Tenet 6",
+        "NIST Tenet 7"
+      ],
+      "AST-04": [
+        "NIST Tenet 1"
+      ],
+      "AST-04.1": [
+        "NIST Tenet 1"
+      ],
+      "CHG-01": [
+        "NIST Tenet 5"
+      ],
+      "CHG-02": [
+        "NIST Tenet 5"
+      ],
+      "CHG-02.1": [
+        "NIST Tenet 5"
+      ],
+      "CHG-02.4": [
+        "NIST Tenet 5"
+      ],
+      "CLD-01": [
+        "NIST Tenet 1"
+      ],
+      "CLD-13": [
+        "NIST Tenet 1"
+      ],
+      "CFG-01": [
+        "NIST Tenet 5"
+      ],
+      "CFG-02": [
+        "NIST Tenet 5"
+      ],
+      "CFG-02.1": [
+        "NIST Tenet 5"
+      ],
+      "CFG-02.2": [
+        "NIST Tenet 5"
+      ],
+      "CFG-02.7": [
+        "NIST Tenet 5"
+      ],
+      "CFG-02.8": [
+        "NIST Tenet 5"
+      ],
+      "CFG-06": [
+        "NIST Tenet 5"
+      ],
+      "CFG-06.1": [
+        "NIST Tenet 5"
+      ],
+      "CFG-08": [
+        "NIST Tenet 4"
+      ],
+      "MON-01": [
+        "NIST Tenet 5",
+        "NIST Tenet 6",
+        "NIST Tenet 7"
+      ],
+      "MON-01.2": [
+        "NIST Tenet 5",
+        "NIST Tenet 7"
+      ],
+      "MON-01.4": [
+        "NIST Tenet 7"
+      ],
+      "MON-02": [
+        "NIST Tenet 5",
+        "NIST Tenet 7"
+      ],
+      "MON-02.1": [
+        "NIST Tenet 5",
+        "NIST Tenet 7"
+      ],
+      "MON-02.2": [
+        "NIST Tenet 5",
+        "NIST Tenet 7"
+      ],
+      "MON-02.3": [
+        "NIST Tenet 4",
+        "NIST Tenet 5",
+        "NIST Tenet 7"
+      ],
+      "MON-02.4": [
+        "NIST Tenet 4"
+      ],
+      "MON-16": [
+        "NIST Tenet 4"
+      ],
+      "CRY-01": [
+        "NIST Tenet 2"
+      ],
+      "CRY-03": [
+        "NIST Tenet 2"
+      ],
+      "CRY-04": [
+        "NIST Tenet 2"
+      ],
+      "CRY-07": [
+        "NIST Tenet 2"
+      ],
+      "CRY-08": [
+        "NIST Tenet 2"
+      ],
+      "DCH-01": [
+        "NIST Tenet 1"
+      ],
+      "DCH-01.2": [
+        "NIST Tenet 4"
+      ],
+      "DCH-01.4": [
+        "NIST Tenet 3",
+        "NIST Tenet 4"
+      ],
+      "DCH-02": [
+        "NIST Tenet 1"
+      ],
+      "DCH-06.2": [
+        "NIST Tenet 1"
+      ],
+      "DCH-13.1": [
+        "NIST Tenet 5"
+      ],
+      "DCH-13.3": [
+        "NIST Tenet 3",
+        "NIST Tenet 4"
+      ],
+      "DCH-13.4": [
+        "NIST Tenet 1"
+      ],
+      "DCH-14.2": [
+        "NIST Tenet 3",
+        "NIST Tenet 4"
+      ],
+      "DCH-24": [
+        "NIST Tenet 1"
+      ],
+      "DCH-24.1": [
+        "NIST Tenet 4",
+        "NIST Tenet 7"
+      ],
+      "DCH-25": [
+        "NIST Tenet 4"
+      ],
+      "DCH-25.1": [
+        "NIST Tenet 4"
+      ],
+      "END-01": [
+        "NIST Tenet 4"
+      ],
+      "IAC-01": [
+        "NIST Tenet 6"
+      ],
+      "IAC-01.2": [
+        "NIST Tenet 2",
+        "NIST Tenet 3",
+        "NIST Tenet 4",
+        "NIST Tenet 6"
+      ],
+      "IAC-02": [
+        "NIST Tenet 3"
+      ],
+      "IAC-03": [
+        "NIST Tenet 3",
+        "NIST Tenet 4"
+      ],
+      "IAC-04": [
+        "NIST Tenet 2",
+        "NIST Tenet 3",
+        "NIST Tenet 4"
+      ],
+      "IAC-05": [
+        "NIST Tenet 3",
+        "NIST Tenet 4"
+      ],
+      "IAC-05.2": [
+        "NIST Tenet 4"
+      ],
+      "IAC-06": [
+        "NIST Tenet 6"
+      ],
+      "IAC-08": [
+        "NIST Tenet 3",
+        "NIST Tenet 4"
+      ],
+      "IAC-09": [
+        "NIST Tenet 4"
+      ],
+      "IAC-13.2": [
+        "NIST Tenet 4"
+      ],
+      "IAC-15.1": [
+        "NIST Tenet 3",
+        "NIST Tenet 4"
+      ],
+      "IAC-20.1": [
+        "NIST Tenet 3"
+      ],
+      "IAC-21": [
+        "NIST Tenet 3"
+      ],
+      "IAC-21.2": [
+        "NIST Tenet 3"
+      ],
+      "MDM-01": [
+        "NIST Tenet 1"
+      ],
+      "MDM-02": [
+        "NIST Tenet 1"
+      ],
+      "MDM-06": [
+        "NIST Tenet 1"
+      ],
+      "MDM-07": [
+        "NIST Tenet 1"
+      ],
+      "MDM-09": [
+        "NIST Tenet 4"
+      ],
+      "NET-01": [
+        "NIST Tenet 2"
+      ],
+      "NET-01.1": [
+        "NIST Tenet 3",
+        "NIST Tenet 5",
+        "NIST Tenet 6"
+      ],
+      "NET-02.3": [
+        "NIST Tenet 4"
+      ],
+      "NET-04": [
+        "NIST Tenet 4"
+      ],
+      "NET-04.1": [
+        "NIST Tenet 4"
+      ],
+      "NET-04.7": [
+        "NIST Tenet 4"
+      ],
+      "NET-04.12": [
+        "NIST Tenet 4"
+      ],
+      "NET-08.3": [
+        "NIST Tenet 4",
+        "NIST Tenet 5"
+      ],
+      "NET-08.4": [
+        "NIST Tenet 4",
+        "NIST Tenet 5"
+      ],
+      "NET-14.1": [
+        "NIST Tenet 5"
+      ],
+      "NET-14.2": [
+        "NIST Tenet 2"
+      ],
+      "NET-14.5": [
+        "NIST Tenet 2"
+      ],
+      "NET-14.7": [
+        "NIST Tenet 4",
+        "NIST Tenet 5",
+        "NIST Tenet 7"
+      ],
+      "NET-15": [
+        "NIST Tenet 2"
+      ],
+      "PRI-05.5": [
+        "NIST Tenet 1"
+      ],
+      "TPM-01.1": [
+        "NIST Tenet 1"
+      ],
+      "THR-01": [
+        "NIST Tenet 7"
+      ],
+      "THR-03": [
+        "NIST Tenet 7"
+      ]
+    }
+  },
+  "framework_to_scf": {
+    "total_mappings": 7,
+    "mappings": {
+      "NIST Tenet 7": [
+        "GOV-05",
+        "AST-02.6",
+        "AST-02.8",
+        "AST-02.9",
+        "MON-01",
+        "MON-01.2",
+        "MON-01.4",
+        "MON-02",
+        "MON-02.1",
+        "MON-02.2",
+        "MON-02.3",
+        "DCH-24.1",
+        "NET-14.7",
+        "THR-01",
+        "THR-03"
+      ],
+      "NIST Tenet 1": [
+        "AST-01",
+        "AST-01.1",
+        "AST-02",
+        "AST-02.3",
+        "AST-02.8",
+        "AST-02.9",
+        "AST-04",
+        "AST-04.1",
+        "CLD-01",
+        "CLD-13",
+        "DCH-01",
+        "DCH-02",
+        "DCH-06.2",
+        "DCH-13.4",
+        "DCH-24",
+        "MDM-01",
+        "MDM-02",
+        "MDM-06",
+        "MDM-07",
+        "PRI-05.5",
+        "TPM-01.1"
+      ],
+      "NIST Tenet 5": [
+        "AST-01",
+        "AST-02.2",
+        "CHG-01",
+        "CHG-02",
+        "CHG-02.1",
+        "CHG-02.4",
+        "CFG-01",
+        "CFG-02",
+        "CFG-02.1",
+        "CFG-02.2",
+        "CFG-02.7",
+        "CFG-02.8",
+        "CFG-06",
+        "CFG-06.1",
+        "MON-01",
+        "MON-01.2",
+        "MON-02",
+        "MON-02.1",
+        "MON-02.2",
+        "MON-02.3",
+        "DCH-13.1",
+        "NET-01.1",
+        "NET-08.3",
+        "NET-08.4",
+        "NET-14.1",
+        "NET-14.7"
+      ],
+      "NIST Tenet 6": [
+        "AST-02.2",
+        "AST-02.5",
+        "AST-02.9",
+        "MON-01",
+        "IAC-01",
+        "IAC-01.2",
+        "IAC-06",
+        "NET-01.1"
+      ],
+      "NIST Tenet 4": [
+        "CFG-08",
+        "MON-02.3",
+        "MON-02.4",
+        "MON-16",
+        "DCH-01.2",
+        "DCH-01.4",
+        "DCH-13.3",
+        "DCH-14.2",
+        "DCH-24.1",
+        "DCH-25",
+        "DCH-25.1",
+        "END-01",
+        "IAC-01.2",
+        "IAC-03",
+        "IAC-04",
+        "IAC-05",
+        "IAC-05.2",
+        "IAC-08",
+        "IAC-09",
+        "IAC-13.2",
+        "IAC-15.1",
+        "MDM-09",
+        "NET-02.3",
+        "NET-04",
+        "NET-04.1",
+        "NET-04.7",
+        "NET-04.12",
+        "NET-08.3",
+        "NET-08.4",
+        "NET-14.7"
+      ],
+      "NIST Tenet 2": [
+        "CRY-01",
+        "CRY-03",
+        "CRY-04",
+        "CRY-07",
+        "CRY-08",
+        "IAC-01.2",
+        "IAC-04",
+        "NET-01",
+        "NET-14.2",
+        "NET-14.5",
+        "NET-15"
+      ],
+      "NIST Tenet 3": [
+        "DCH-01.4",
+        "DCH-13.3",
+        "DCH-14.2",
+        "IAC-01.2",
+        "IAC-02",
+        "IAC-03",
+        "IAC-04",
+        "IAC-05",
+        "IAC-08",
+        "IAC-15.1",
+        "IAC-20.1",
+        "IAC-21",
+        "IAC-21.2",
+        "NET-01.1"
+      ]
+    }
+  }
+}

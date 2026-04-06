@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-29.23",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-29.23",
+      "ao_id": "AAT-29.23_A01",
+      "objective": "AI agent-generated outputs are validated through content scanning.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-29.23",
+      "ao_id": "AAT-29.23_A02",
+      "objective": "AI agent-generated outputs are validated through output vetting that uses human approvals, where appropriate.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

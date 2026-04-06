@@ -1,0 +1,257 @@
+{
+  "control_id": "RSK-04.1",
+  "title": "Risk Register",
+  "family": "RSK",
+  "description": "Mechanisms exist to maintain a risk register that facilitates monitoring and reporting of risks.",
+  "scf_question": "Does the organization maintain a risk register that facilitates monitoring and reporting of risks?",
+  "relative_weight": 10,
+  "conformity_cadence": "Semi-Annual",
+  "evidence_requests": [
+    "E-RSK-03"
+  ],
+  "pptdf": "Process",
+  "nist_csf_function": "Identify",
+  "scrm_focus": {
+    "strategic": false,
+    "operational": true,
+    "tactical": false
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. \nRisk Management (RSK) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with RSK domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Risk management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ IT and/or cybersecurity personnel use an informal process to identify, assess, remediate and report on risk.\n▪ Risk management processes (e.g., risk assessments) focus on protecting High Value Assets (HVAs), including environments where sensitive/regulated data is stored, transmitted and processed.\n▪ Data/process owners are expected to self-manage risks associated with their Technology Assets, Applications, Services and/or Data (TAASD), based on the organization's published policies and standards, including the identification, remediation and reporting of risks.",
+    "2": "Risk Management (RSK) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with RSK domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with RSK domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with RSK  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Risk management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Risk management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Risk management processes (e.g., risk assessments) and technologies focus on protecting High Value Assets (HVAs), including environments where sensitive/regulated data is stored, transmitted and processed.\n▪ IT and/or cybersecurity personnel implement and maintain a form of Risk Management Program (RMP) that provides operational guidance on how risk is identified, assessed, remediated and reported.\n▪ Data/process owners are expected to self-manage risks associated with their systems, applications, services and data, based on the organization's published policies and standards, including the identification, remediation and reporting of risks.\n▪ Business process owners (BPOs) are made aware of cybersecurity and data protection risk(s).",
+    "3": "Risk Management (RSK) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with RSK domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with RSK domain capabilities are well-documented and kept current by process owners.\n▪ A risk management team, or similar function, is appropriately staffed and supported to implement and maintain RSK domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of risk management operations (e.g., risk management solution, GRC platform, TPRM tool, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with RSK domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to maintain a risk register that facilitates monitoring and reporting of risks.",
+    "4": "Risk Management (RSK) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+    "5": "Risk Management (RSK) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions."
+  },
+  "profiles": [
+    "SCRMS",
+    "CORE ESP Level 1 Foundational",
+    "CORE ESP Level 2 Critical Infrastructure",
+    "CORE ESP Level 3 Advanced Threats",
+    "CORE Fundamentals",
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ Risk Management Program (RMP)\n∙ Risk register\n∙ Plan of Action & Milestones (POA&M)",
+    "small": "∙ Risk Management Program (RMP)\n∙ Risk register\n∙ Plan of Action & Milestones (POA&M)",
+    "medium": "∙ Risk Management Program (RMP)\n∙ Risk register\n∙ Plan of Action & Milestones (POA&M)",
+    "large": "∙ Risk Management Program (RMP)\n∙ Risk register\n∙ Plan of Action & Milestones (POA&M)",
+    "enterprise": "∙ Risk Management Program (RMP)\n∙ Risk register\n∙ Plan of Action & Milestones (POA&M)"
+  },
+  "risks": [
+    "R-AC-1",
+    "R-AC-2",
+    "R-AC-3",
+    "R-AC-4",
+    "R-AM-1",
+    "R-AM-2",
+    "R-BC-1",
+    "R-BC-2",
+    "R-BC-3",
+    "R-BC-4",
+    "R-BC-5",
+    "R-EX-1",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-EX-5",
+    "R-EX-6",
+    "R-EX-7",
+    "R-GV-1",
+    "R-GV-2",
+    "R-GV-3",
+    "R-GV-4",
+    "R-GV-5",
+    "R-GV-6",
+    "R-GV-7",
+    "R-GV-8",
+    "R-IR-1",
+    "R-IR-2",
+    "R-IR-3",
+    "R-IR-4",
+    "R-SA-1",
+    "R-SA-2",
+    "R-SC-1",
+    "R-SC-2",
+    "R-SC-3",
+    "R-SC-4",
+    "R-SC-5",
+    "R-SC-6"
+  ],
+  "threats": [
+    "NT-7",
+    "MT-1",
+    "MT-2",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-17",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Risk Management",
+  "crosswalks": {
+    "general-aicpa-tsc-2017": [
+      "CC4.2-POF3"
+    ],
+    "general-cobit-2019": [
+      "APO12.03",
+      "APO12.05"
+    ],
+    "general-coso-2013": [
+      "7"
+    ],
+    "general-csa-cmm-4-1-0": [
+      "A&A-06",
+      "CEK-07"
+    ],
+    "general-iso-31010-2009": [
+      "4.3.6",
+      "5.6"
+    ],
+    "general-iso-42001-2023": [
+      "6.1.2",
+      "9.3.2(a)",
+      "9.3.2(b)"
+    ],
+    "general-nist-100-1-ai-rmf": [
+      "GOVERN 1.5",
+      "MEASURE 3.0",
+      "MEASURE 3.1",
+      "MEASURE 3.2",
+      "MANAGE 1.4"
+    ],
+    "general-nist-800-171-r3": [
+      "03.12.02.a.01",
+      "03.12.02.a.02"
+    ],
+    "general-nist-csf-2-0": [
+      "GV.RM-06",
+      "ID",
+      "ID.RA-01"
+    ],
+    "general-pci-dss-4-0-1": [
+      "12.3.1",
+      "12.3.2"
+    ],
+    "general-pci-dss-4-0-1-saq-a-ep": [
+      "12.3.1"
+    ],
+    "general-pci-dss-4-0-1-saq-c": [
+      "12.3.1"
+    ],
+    "general-pci-dss-4-0-1-saq-d-merchant": [
+      "12.3.1",
+      "12.3.2"
+    ],
+    "general-pci-dss-4-0-1-saq-d-service-provider": [
+      "12.3.1"
+    ],
+    "general-scf-dpmp-2025": [
+      "9.3"
+    ],
+    "general-tisax-6-0-3": [
+      "1.4.1"
+    ],
+    "usa-federal-doe-c2m2-2-1": [
+      "RISK-2e",
+      "RISK-2f",
+      "RISK-3f"
+    ],
+    "usa-federal-sro-fca-crm-2023": [
+      "609.930(a)"
+    ],
+    "usa-federal-law-glba-cfr-314-2023": [
+      "314.4(c)(2)"
+    ],
+    "usa-federal-sec-cybersecurity-rule-2023": [
+      "17 CFR 229.105(a)",
+      "17 CFR 229.105(b)"
+    ],
+    "usa-state-ma-201-cmr-17-2008": [
+      "17.03(2)(b)"
+    ],
+    "usa-state-nv-regulation-5-2024": [
+      "5.260.3"
+    ],
+    "usa-state-ny-dfs-23-nycrr500-2023-amd2": [
+      "500.9(a)"
+    ],
+    "emea-eu-eba-ict-srm-2025": [
+      "3.3.1(10)",
+      "3.3.1(13)(d)"
+    ],
+    "emea-deu-c5-2020": [
+      "SP-03"
+    ],
+    "emea-isr-cmo-1-0": [
+      "2.2",
+      "6.8"
+    ],
+    "emea-sau-cscc-1-2019": [
+      "1-2-1-2"
+    ],
+    "emea-sau-cgiot-2024": [
+      "1-4-3"
+    ],
+    "emea-sau-otcc-1-2022": [
+      "1-3-1-3",
+      "1-3-1-6"
+    ],
+    "emea-sau-sacs-002-2022": [
+      "TPC-31"
+    ],
+    "emea-sau-sama-csf-1-2017": [
+      "3.2.1.4"
+    ],
+    "emea-zaf-popia-2013": [
+      "19"
+    ],
+    "emea-gbr-def-stan-05-138-2024": [
+      "4201"
+    ],
+    "emea-gbr-def-stan-05-138-l2-2024": [
+      "4201"
+    ],
+    "emea-gbr-def-stan-05-138-l3-2024": [
+      "4201"
+    ],
+    "apac-ind-sebi-2024": [
+      "GV.RM.S4"
+    ],
+    "apac-jpn-ismap": [
+      "4.4.7.2"
+    ],
+    "apac-nzl-hisf-mlhsp-2023": [
+      "HHSP65",
+      "HML64"
+    ],
+    "apac-sgp-mas-trm-2021": [
+      "4.1.3",
+      "4.1.4(d)",
+      "4.5.2",
+      "4.5.3"
+    ],
+    "americas-bmu-mba-coc-2020": [
+      "5.5"
+    ],
+    "amaericas-can-osfi-self-assessment": [
+      "6.24"
+    ],
+    "americas-can-osfi-b13-2022": [
+      "1.3",
+      "3.1.1"
+    ],
+    "americas-can-itsp-10-171-2025": [
+      "03.12.02.A.01",
+      "03.12.02.A.02"
+    ]
+  }
+}

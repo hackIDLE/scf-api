@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "AST-17",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AST-17",
+      "ao_id": "AST-17_A01",
+      "objective": "Supply Chain Risk Management (SCRM) practices require the removal and prohibition of certain technology services and/or equipment that are designated as supply chain threats by a statutory or regulatory body.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

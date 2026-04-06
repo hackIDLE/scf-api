@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "TPM-05.3",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TPM-05.3",
+      "ao_id": "TPM-05.3_A01",
+      "objective": "Third-Party Service Providers (TSP) are obligated to use unique authentication factors for each of its customers.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AST-04.3",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AST-04.3",
+      "ao_id": "AST-04.3_A01",
+      "objective": "an inventory of systems, applications and services exists for each specific statutory, regulatory and/or contractual compliance obligations that provides sufficient detail to determine control applicability, based on asset scope categorization.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-04.3",
+      "ao_id": "AST-04.3_A02",
+      "objective": "inventories of systems, applications and services are kept current for each specific statutory, regulatory and/or contractual compliance obligations that provides sufficient detail to determine control applicability, based on asset scope categorization.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

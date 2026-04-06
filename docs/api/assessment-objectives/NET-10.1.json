@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "NET-10.1",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-10.1",
+      "ao_id": "NET-10.1_A01",
+      "objective": "the systems that collectively provide name/address resolution services for an organization are fault-tolerant.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-22[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-10.1",
+      "ao_id": "NET-10.1_A02",
+      "objective": "the systems that collectively provide name/address resolution services for an organization implement internal role separation.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-22[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-10.1",
+      "ao_id": "NET-10.1_A03",
+      "objective": "the systems that collectively provide name/address resolution services for an organization implement external role separation.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-22[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

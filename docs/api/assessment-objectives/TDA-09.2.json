@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "TDA-09.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-09.2",
+      "ao_id": "TDA-09.2_A01",
+      "objective": "the developer of the system, system component or system service is required to employ static code analysis tools to identify common flaws.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11(01)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-09.2",
+      "ao_id": "TDA-09.2_A02",
+      "objective": "the developer of the system, system component or system service is required to employ static code analysis tools to document the results of the analysis.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11(01)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

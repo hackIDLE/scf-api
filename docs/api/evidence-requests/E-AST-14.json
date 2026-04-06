@@ -1,0 +1,12 @@
+{
+  "erl_id": "E-AST-14",
+  "area": "Asset Management",
+  "artifact_name": "Secure Baseline Configurations - Databases",
+  "artifact_description": "Documented evidence of secure baseline configurations for all deployed types of databases.",
+  "scf_controls": [
+    "CFG-02",
+    "CFG-03",
+    "CFG-02.5"
+  ],
+  "cmmc_mapping": "AC.L1-3.1.1\nAC.L1-3.1.2\nAC.L1-3.1.20\nAC.L2-3.1.10\nAC.L2-3.1.11\nAC.L2-3.1.12\nAC.L2-3.1.13\nAC.L2-3.1.14\nAC.L2-3.1.15\nAC.L2-3.1.16\nAC.L2-3.1.17\nAC.L2-3.1.18\nAC.L2-3.1.19\nAC.L2-3.1.21\nAC.L2-3.1.3\nAC.L2-3.1.4\nAC.L2-3.1.5\nAC.L2-3.1.6\nAC.L2-3.1.7\nAC.L2-3.1.8\nAC.L2-3.1.9\nAU.L2-3.3.1\nAU.L2-3.3.2\nAU.L2-3.3.4\nAU.L2-3.3.7\nAU.L2-3.3.8\nAU.L2-3.3.9\nCM.L2-3.4.1\nCM.L2-3.4.5\nCM.L2-3.4.6\nCM.L2-3.4.8\nCM.L2-3.4.9\nIA.L1-3.5.2\nIA.L2-3.5.10\nIA.L2-3.5.4\nIA.L2-3.5.5\nIA.L2-3.5.6\nIA.L2-3.5.7\nIA.L2-3.5.8\nIA.L2-3.5.9\nMP.L1-3.8.3\nMP.L2-3.8.6\nMP.L2-3.8.7\nMP.L2-3.8.8\nSC.L1-3.13.1\nSC.L1-3.13.5\nSC.L2-3.13.10\nSC.L2-3.13.12\nSC.L2-3.13.14\nSC.L2-3.13.15\nSC.L2-3.13.2\nSC.L2-3.13.3\nSC.L2-3.13.9\nSI.L1-3.14.4\nSI.L1-3.14.5\nSI.L2-3.14.6\nSI.L2-3.14.7"
+}

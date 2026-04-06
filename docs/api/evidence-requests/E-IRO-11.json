@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-IRO-11",
+  "area": "Incident Response",
+  "artifact_name": "Incident Reporting Capability",
+  "artifact_description": "Documented evidence of a capability to provide situational awareness of incidents to internal stakeholders and generated necessary reporting to affected clients, applicable third-parties and regulatory authorities.",
+  "scf_controls": [
+    "IRO-10",
+    "IRO-10.2"
+  ],
+  "cmmc_mapping": ""
+}

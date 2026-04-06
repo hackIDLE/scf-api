@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-CRY-02",
+  "area": "Cryptographic Protections",
+  "artifact_name": "Cryptographic Key Management",
+  "artifact_description": "Documented evidence of cryptographic key management practices.",
+  "scf_controls": [
+    "CRY-09"
+  ],
+  "cmmc_mapping": ""
+}

@@ -1,0 +1,199 @@
+{
+  "control_id": "GOV-08",
+  "title": "Defining Business Context & Mission",
+  "family": "GOV",
+  "description": "Mechanisms exist to define the context of its business model and document the organization's mission.",
+  "scf_question": "Does the organization define the context of its business model and document the mission of the organization?",
+  "relative_weight": 5,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [
+    "E-PRM-01"
+  ],
+  "pptdf": "Process",
+  "nist_csf_function": "Govern",
+  "scrm_focus": {
+    "strategic": true,
+    "operational": false,
+    "tactical": false
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "2": "Cybersecurity & Data Protection Governance (GOV) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with GOV domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with GOV domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with GOV  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Governance-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ No formal Governance, Risk & Compliance (GRC) team exists. GRC roles are assigned to existing IT and/or cybersecurity personnel.",
+    "3": "Cybersecurity & Data Protection Governance (GOV) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with GOV domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with GOV domain capabilities are well-documented and kept current by process owners.\n▪ The entity's GRC team, or similar function, is appropriately staffed and supported to implement and maintain GOV domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ Technology is leveraged to enhance the efficiency and accuracy of governance, risk management and compliance operations (e.g., GRC platform).\n▪ The context of the entity's business model and its mission are documented.",
+    "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [
+    "SCRMS",
+    "CORE ESP Level 1 Foundational",
+    "CORE ESP Level 2 Critical Infrastructure",
+    "CORE ESP Level 3 Advanced Threats"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ Document mission statement and business context in writing",
+    "small": "∙ Written mission statement and business context document\n∙ Annual review",
+    "medium": "∙ Formal business context document\n∙ Integrated into risk management process",
+    "large": "∙ Formal business context and mission documentation\n∙ Linked to enterprise risk management (ERM)\n∙ Stakeholder review process",
+    "enterprise": "∙ Enterprise business context framework\n∙ Integrated ERM platform\n∙ Formal mission alignment review process\n∙ Strategic planning documentation"
+  },
+  "risks": [
+    "R-AC-1",
+    "R-AC-2",
+    "R-AC-3",
+    "R-AC-4",
+    "R-AM-1",
+    "R-AM-2",
+    "R-BC-1",
+    "R-BC-2",
+    "R-BC-3",
+    "R-BC-4",
+    "R-BC-5",
+    "R-EX-1",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-EX-5",
+    "R-EX-6",
+    "R-EX-7",
+    "R-GV-1",
+    "R-GV-2",
+    "R-GV-3",
+    "R-GV-4",
+    "R-GV-5",
+    "R-GV-6",
+    "R-GV-7",
+    "R-GV-8",
+    "R-IR-1",
+    "R-IR-2",
+    "R-IR-3",
+    "R-IR-4",
+    "R-SA-1",
+    "R-SC-1",
+    "R-SC-2",
+    "R-SC-3",
+    "R-SC-4",
+    "R-SC-5",
+    "R-SC-6"
+  ],
+  "threats": [
+    "NT-7",
+    "MT-1",
+    "MT-2",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-10",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Cybersecurity & Data Protection Governance",
+  "crosswalks": {
+    "general-aicpa-tsc-2017": [
+      "CC1.2-POF1",
+      "CC2.2-POF10",
+      "CC3.1-POF1",
+      "CC3.1-POF3",
+      "CC3.1-POF15",
+      "CC5.1-POF2"
+    ],
+    "general-cobit-2019": [
+      "EDM05.01",
+      "EDM05.02",
+      "EDM05.03",
+      "APO01.01",
+      "APO01.02",
+      "APO01.03",
+      "APO01.04",
+      "APO01.06",
+      "APO02.01",
+      "APO02.05",
+      "APO08.01",
+      "APO08.02",
+      "APO08.03",
+      "APO08.04"
+    ],
+    "general-coso-2013": [
+      "6",
+      "10"
+    ],
+    "general-iso-22301-2019": [
+      "4.1",
+      "4.2.1",
+      "4.2.1(a)",
+      "4.2.1(b)"
+    ],
+    "general-iso-27001-2022": [
+      "4.1",
+      "4.2(a)",
+      "4.3",
+      "5.1"
+    ],
+    "general-iso-27701-2025": [
+      "4.1",
+      "6.1.1"
+    ],
+    "general-iso-31000-2018": [
+      "5.4.1"
+    ],
+    "general-iso-42001-2023": [
+      "6.2"
+    ],
+    "general-nist-100-1-ai-rmf": [
+      "MAP 1.3"
+    ],
+    "general-nist-privacy-framework-1-0": [
+      "ID.IM-P5",
+      "ID.BE-P1",
+      "ID.BE-P2",
+      "GV.RM-P3"
+    ],
+    "general-nist-csf-2-0": [
+      "GV.OC",
+      "GV.OC-01",
+      "GV.OC-04",
+      "GV.OV-01",
+      "GV.SC-03"
+    ],
+    "general-scf-dpmp-2025": [
+      "11.1"
+    ],
+    "general-shared-assessments-sig-2025": [
+      "B.1"
+    ],
+    "general-tisax-6-0-3": [
+      "1.1.1"
+    ],
+    "usa-federal-sro-fca-crm-2023": [
+      "609.930(a)"
+    ],
+    "usa-federal-law-ftc-act": [
+      "45(a)(1)"
+    ],
+    "usa-federal-law-hipaa-simplification-2013": [
+      "164.306(b)(2)(i)"
+    ],
+    "usa-federal-law-hipaa-security-rule-2013": [
+      "164.306(b)(2)(i)"
+    ],
+    "emea-eu-eba-ict-srm-2025": [
+      "3.2.1(4)"
+    ],
+    "emea-eu-nis2-annex-2024": [
+      "1.1.1(b)"
+    ],
+    "emea-sau-ecc-1-2018": [
+      "1-1-1"
+    ],
+    "americas-can-osfi-b13-2022": [
+      "1.2",
+      "2.1.1"
+    ]
+  }
+}

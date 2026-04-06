@@ -1,0 +1,66 @@
+{
+  "scf_control_id": "MNT-04.3",
+  "total": 6,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MNT-04.3",
+      "ao_id": "MNT-04.3_A01",
+      "objective": "personnel or roles who can authorize removal of equipment from the facility is/are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-03(03)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "the information owner",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-04.3",
+      "ao_id": "MNT-04.3_A02",
+      "objective": "the removal of system maintenance equipment containing sensitive / regulated data is prevented by verifying that there is no sensitive / regulated data on the equipment, sanitizing or destroying the equipment, or retaining the equipment within the facility.",
+      "pptdf": "Data",
+      "origin": "53A_R5_MA-03(03)(a)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-04.3",
+      "ao_id": "MNT-04.3_A03",
+      "objective": "the removal of maintenance equipment containing organizational information is prevented by sanitizing or destroying the equipment.",
+      "pptdf": "Data",
+      "origin": "53A_R5_MA-03(03)(b)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-04.3",
+      "ao_id": "MNT-04.3_A04",
+      "objective": "the removal of maintenance equipment containing organizational information is prevented by retaining the equipment within the facility.",
+      "pptdf": "Data",
+      "origin": "53A_R5_MA-03(03)(c)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-04.3",
+      "ao_id": "MNT-04.3_A05",
+      "objective": "the removal of maintenance equipment containing organizational information is prevented by obtaining an exemption from personnel or roles explicitly authorizing removal of the equipment from the facility.",
+      "pptdf": "Data",
+      "origin": "53A_R5_MA-03(03)(d)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-04.3",
+      "ao_id": "MNT-04.3_A06",
+      "objective": "the removal of system maintenance equipment containing CUI is prevented by verifying that there is no CUI on the equipment, sanitizing or destroying the equipment, or retaining the equipment within the facility.",
+      "pptdf": "Data",
+      "origin": "171A_R3_A.03.07.04.c",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-MON-03",
+  "area": "Event Log Monitoring",
+  "artifact_name": "Privileged User Oversight",
+  "artifact_description": "Documented evidence of privileged user activity being logged and included as part of the centralized event log collection and review/analysis process.",
+  "scf_controls": [
+    "MON-01.14",
+    "MON-01.15"
+  ],
+  "cmmc_mapping": ""
+}

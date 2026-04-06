@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "DCH-05.7",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-05.7",
+      "ao_id": "DCH-05.7_A01",
+      "objective": "a consistent interpretation of cybersecurity / data privacy attributes transmitted between distributed system components is provided.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-16(07)[01]\n53A_R5_AC-16(07)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

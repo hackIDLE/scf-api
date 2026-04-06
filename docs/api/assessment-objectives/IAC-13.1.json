@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "IAC-13.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-13.1",
+      "ao_id": "IAC-13.1_A01",
+      "objective": "system accounts and services for which a single sign-on capability must be provided are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IA-02(10)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-13.1",
+      "ao_id": "IAC-13.1_A02",
+      "objective": "a single sign-on capability is provided for organization-defined system accounts and services.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-02(10)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

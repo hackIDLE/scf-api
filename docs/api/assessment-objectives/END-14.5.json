@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "END-14.5",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "END-14.5",
+      "ao_id": "END-14.5_A01",
+      "objective": "antimalware technologies can detect malicious links and/or files in communications.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-14.5",
+      "ao_id": "END-14.5_A02",
+      "objective": "antimalware technologies can prevent users from accessing malicious links and/or files sent in communications.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

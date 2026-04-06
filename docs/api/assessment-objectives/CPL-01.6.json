@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "CPL-01.6",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CPL-01.6",
+      "ao_id": "CPL-01.6_A01",
+      "objective": "based on the scope of an audit/assessment, necessary subject matter expertise is defined to perform review, interview and/or test activities for in-scope People, Processes, Technologies, Data and/or Facilities (PPTDF).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-01.6",
+      "ao_id": "CPL-01.6_A02",
+      "objective": "minimum professional qualifications to participate in an audit and/or assessment are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-01.6",
+      "ao_id": "CPL-01.6_A03",
+      "objective": "auditors/assessors are evaluated for necessary subject matter expertise to perform an audit/assessment.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-01.6",
+      "ao_id": "CPL-01.6_A04",
+      "objective": "auditors/assessors are required to have minimum professional qualifications to participate in an audit/assessment.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

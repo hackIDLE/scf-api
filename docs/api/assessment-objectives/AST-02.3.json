@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "AST-02.3",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AST-02.3",
+      "ao_id": "AST-02.3_A01",
+      "objective": "an inventory of system components that accurately reflects the system is developed and documented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-08a.01",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-02.3",
+      "ao_id": "AST-02.3_A02",
+      "objective": "an inventory of system components that includes all components within the system is developed and documented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-08a.02",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-02.3",
+      "ao_id": "AST-02.3_A03",
+      "objective": "an inventory of system components that does not include duplicate accounting of components or components assigned to any other system is developed and documented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-08a.03",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-02.3",
+      "ao_id": "AST-02.3_A04",
+      "objective": "an inventory of system components that includes information is developed and documented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-08a.05",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-02.3",
+      "ao_id": "AST-02.3_A05",
+      "objective": "the system component inventory is reviewed / updated frequently.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-08b.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least monthly",
+      "org_defined_parameters": ""
+    }
+  ]
+}

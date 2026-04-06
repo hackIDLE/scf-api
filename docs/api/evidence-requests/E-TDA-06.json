@@ -1,0 +1,13 @@
+{
+  "erl_id": "E-TDA-06",
+  "area": "Technology Design & Acquisition",
+  "artifact_name": "Multi Patient Harm View (MPHV)",
+  "artifact_description": "Documented evidence of a description of a Multi Patient Harm View (MPHV) that explains how the device / system defends against and/or responds to attacks with the potential to harm multiple patients. [note MPHV is specific to medical device manufacturers]",
+  "scf_controls": [
+    "TDA-01.1",
+    "TDA-02",
+    "TDA-04",
+    "TDA-04.1"
+  ],
+  "cmmc_mapping": ""
+}

@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "AAT-01.4",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-01.4",
+      "ao_id": "AAT-01.4_A01",
+      "objective": "the organization tracks AI models and AI agents deployed in development environments that captures:\n(1) ownership\n(2) intended purpose; and \n(3) status.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-01.4",
+      "ao_id": "AAT-01.4_A02",
+      "objective": "the organization tracks AI models and AI agents deployed in production environments that captures:\n(1) ownership\n(2) intended purpose; and \n(3) status.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-01.4",
+      "ao_id": "AAT-01.4_A03",
+      "objective": "the organization tracks AI models and AI agents updates that captures:\n(1) ownership\n(2) intended purpose; and \n(3) status.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-01.4",
+      "ao_id": "AAT-01.4_A04",
+      "objective": "the organization tracks decommissioned AI models and AI agents that captures:\n(1) ownership;\n(2) intended purpose; and\n(3) date of decommissioning.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

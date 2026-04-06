@@ -1,0 +1,126 @@
+{
+  "scf_control_id": "CHG-02.1",
+  "total": 12,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CHG-02.1",
+      "ao_id": "CHG-02.1_A01",
+      "objective": "mechanisms used to automate configuration change control are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-03(01)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-02.1",
+      "ao_id": "CHG-02.1_A02",
+      "objective": "organization-defined automated mechanisms are used to prohibit changes to the system until designated approvals are received.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-03(01)(d)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-02.1",
+      "ao_id": "CHG-02.1_A03",
+      "objective": "approval authorities to be notified of and request approval for proposed changes to the system are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-03(01)_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-02.1",
+      "ao_id": "CHG-02.1_A04",
+      "objective": "the time period after which to highlight changes that have not been approved or disapproved is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-03(01)_ODP[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-02.1",
+      "ao_id": "CHG-02.1_A05",
+      "objective": "personnel to be notified when approved changes are complete is/are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-03(01)_ODP[04]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-02.1",
+      "ao_id": "CHG-02.1_A06",
+      "objective": "organization-defined automated mechanisms are used to document proposed changes to the system.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-03(01)(a)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-02.1",
+      "ao_id": "CHG-02.1_A07",
+      "objective": "organization-defined automated mechanisms are used to notify organization-defined approval authorities of proposed changes to the system and request change approval.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-03(01)(b)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-02.1",
+      "ao_id": "CHG-02.1_A08",
+      "objective": "organization-defined automated mechanisms are used to highlight proposed changes to the system that have not been approved or disapproved within an organization-defined time period.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-03(01)(c)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-02.1",
+      "ao_id": "CHG-02.1_A09",
+      "objective": "organization-defined automated mechanisms are used to document all changes to the system.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-03(01)(e)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-02.1",
+      "ao_id": "CHG-02.1_A10",
+      "objective": "organization-defined automated mechanisms are used to notify organization-defined personnel when approved changes to the system are completed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-03(01)(f)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-02.1",
+      "ao_id": "CHG-02.1_A11",
+      "objective": "proposed configuration-controlled changes to the system are approved or disapproved with explicit consideration for security impacts.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.04.03.b[02]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-02.1",
+      "ao_id": "CHG-02.1_A12",
+      "objective": "logical access restrictions associated with changes to the system are approved.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.04.05[05]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

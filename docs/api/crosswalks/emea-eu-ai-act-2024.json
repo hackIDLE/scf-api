@@ -1,0 +1,1510 @@
+{
+  "framework_id": "emea-eu-ai-act-2024",
+  "display_name": "EU Artificial Intelligence Act (AI Act) (2024)",
+  "scf_to_framework": {
+    "total_mappings": 119,
+    "mappings": {
+      "GOV-01": [
+        "Article 17.2"
+      ],
+      "GOV-04": [
+        "Article 17.1(m)"
+      ],
+      "GOV-04.1": [
+        "Article 17.1(m)"
+      ],
+      "GOV-15": [
+        "Article 17.2"
+      ],
+      "GOV-15.2": [
+        "Article 17.1(e)"
+      ],
+      "GOV-18": [
+        "Article 16(c)",
+        "Article 17.1"
+      ],
+      "AAT-01": [
+        "Article 17.1(c)"
+      ],
+      "AAT-01.1": [
+        "Article 17.1(e)"
+      ],
+      "AAT-02.1": [
+        "Article 9.1"
+      ],
+      "AAT-02.2": [
+        "Article 17.1(e)"
+      ],
+      "AAT-02.3": [
+        "Article 55.1(d)",
+        "Article 55.2"
+      ],
+      "AAT-03": [
+        "Article 8.1"
+      ],
+      "AAT-04.2": [
+        "Article 9.2(b)"
+      ],
+      "AAT-07": [
+        "Article 9.2(a)"
+      ],
+      "AAT-07.1": [
+        "Article 27.2",
+        "Article 27.4"
+      ],
+      "AAT-07.2": [
+        "Article 9.9"
+      ],
+      "AAT-09": [
+        "Article 9.2(a)",
+        "Article 9.2(b)",
+        "Article 13.1",
+        "Article 17.1(g)"
+      ],
+      "AAT-09.1": [
+        "Article 6.1",
+        "Article 6.1(a)",
+        "Article 6.3",
+        "Article 13.1",
+        "Article 51.1",
+        "Article 51.1(a)",
+        "Article 51.2"
+      ],
+      "AAT-10": [
+        "Article 9.6",
+        "Article 11.1",
+        "Article 16(f)",
+        "Article 17.1(b)",
+        "Article 17.1(d)",
+        "Article 23.1",
+        "Article 23.1(a)",
+        "Article 27.1",
+        "Article 27.1(a)",
+        "Article 27.1(b)",
+        "Article 27.1(c)",
+        "Article 27.1(d)",
+        "Article 27.1(e)",
+        "Article 27.1(f)",
+        "Article 27.2",
+        "Article 55.1(a)",
+        "Article 55.1(b)",
+        "Article 60.1",
+        "Article 60.2",
+        "Article 60.3",
+        "Article 60.4(a)",
+        "Article 60.4(b)",
+        "Article 60.4(c)",
+        "Article 60.4(d)",
+        "Article 60.4(e)",
+        "Article 60.4(f)",
+        "Article 60.4(g)",
+        "Article 60.4(h)",
+        "Article 60.4(i)",
+        "Article 60.4(j)",
+        "Article 60.4(k)"
+      ],
+      "AAT-10.3": [
+        "Article 9.6"
+      ],
+      "AAT-10.4": [
+        "Article 9.6"
+      ],
+      "AAT-10.5": [
+        "Article 9.6"
+      ],
+      "AAT-10.8": [
+        "Article 10.2(f)",
+        "Article 10.2(g)",
+        "Article 10.4",
+        "Article 10.5",
+        "Article 10.5(a)"
+      ],
+      "AAT-10.12": [
+        "Article 9.7",
+        "Article 10.3"
+      ],
+      "AAT-10.13": [
+        "Article 17.1(h)"
+      ],
+      "AAT-10.15": [
+        "Article 27.3",
+        "Article 60.7",
+        "Article 60.8"
+      ],
+      "AAT-11.2": [
+        "Article 17.1(h)"
+      ],
+      "AAT-11.4": [
+        "Article 17.1(i)"
+      ],
+      "AAT-12": [
+        "Article 17.1(f)",
+        "Article 53.1(c)"
+      ],
+      "AAT-12.1": [
+        "Article 17.1(f)"
+      ],
+      "AAT-12.2": [
+        "Article 17.1(f)"
+      ],
+      "AAT-12.3": [
+        "Article 53.1(d)"
+      ],
+      "AAT-13.1": [
+        "Article 4"
+      ],
+      "AAT-14": [
+        "Article 11.1",
+        "Article 12.2(a)"
+      ],
+      "AAT-15.2": [
+        "Article 14.2",
+        "Article 14.4(d)",
+        "Article 14.4(e)"
+      ],
+      "AAT-16": [
+        "Article 12.1",
+        "Article 12.2(a)",
+        "Article 12.2(b)",
+        "Article 12.2(c)",
+        "Article 14.2",
+        "Article 15.3",
+        "Article 17.1(h)",
+        "Article 72.1",
+        "Article 72.2",
+        "Article 72.3",
+        "Article 72.4"
+      ],
+      "AAT-16.3": [
+        "Article 12.2(a)"
+      ],
+      "AAT-16.8": [
+        "Article 12.1",
+        "Article 12.2",
+        "Article 12.3(a)",
+        "Article 12.3(b)",
+        "Article 12.3(c)",
+        "Article 12.3(d)",
+        "Article 16(e)",
+        "Article 26.6"
+      ],
+      "AAT-16.9": [
+        "Article 55.1(c)",
+        "Article 60.7",
+        "Article 73.1",
+        "Article 73.2",
+        "Article 73.3",
+        "Article 73.4",
+        "Article 73.5"
+      ],
+      "AAT-16.10": [
+        "Article 73.6"
+      ],
+      "AAT-17": [
+        "Article 14.2"
+      ],
+      "AAT-17.3": [
+        "Article 20.2"
+      ],
+      "AAT-18": [
+        "Article 20.2"
+      ],
+      "AAT-18.1": [
+        "Article 20.2"
+      ],
+      "AAT-19": [
+        "Article 5.1"
+      ],
+      "AAT-19.1": [
+        "Article 5.1(a)"
+      ],
+      "AAT-19.2": [
+        "Article 5.1(b)"
+      ],
+      "AAT-19.3": [
+        "Article 5.1(c)"
+      ],
+      "AAT-19.4": [
+        "Article 5.1(c)(i)",
+        "Article 5.1(c)(ii)"
+      ],
+      "AAT-19.5": [
+        "Article 5.1(d)"
+      ],
+      "AAT-19.6": [
+        "Article 5.1(e)"
+      ],
+      "AAT-19.7": [
+        "Article 5.1(f)"
+      ],
+      "AAT-19.8": [
+        "Article 5.1(g)"
+      ],
+      "AAT-20": [
+        "Article 13.1",
+        "Article 14.1",
+        "Article 14.3(a)",
+        "Article 14.3(b)",
+        "Article 15.1",
+        "Article 15.4",
+        "Article 15.5",
+        "Article 16(a)",
+        "Article 17.1(b)"
+      ],
+      "AAT-20.1": [
+        "Article 13.1",
+        "Article 14.3(b)",
+        "Article 14.4",
+        "Article 14.4(a)"
+      ],
+      "AAT-20.2": [
+        "Article 13.2",
+        "Article 13.3(a)",
+        "Article 13.3(b)(i)",
+        "Article 13.3(b)(ii)",
+        "Article 13.3(b)(iii)",
+        "Article 13.3(b)(iv)",
+        "Article 13.3(b)(v)",
+        "Article 13.3(b)(vi)",
+        "Article 13.3(b)(vii)",
+        "Article 13.3(c)",
+        "Article 13.3(d)",
+        "Article 13.3(e)",
+        "Article 13.3(f)",
+        "Article 14.4",
+        "Article 14.4(a)",
+        "Article 15.3",
+        "Article 53.1(b)",
+        "Article 53.1(b)(i)"
+      ],
+      "AAT-21": [
+        "Article 16(i)",
+        "Article 22.3(e)",
+        "Article 26.8",
+        "Article 49.1",
+        "Article 49.2",
+        "Article 49.3",
+        "Article 52.1",
+        "Article 52.2"
+      ],
+      "AAT-22": [
+        "Article 26.1"
+      ],
+      "AAT-22.1": [
+        "Article 14.2"
+      ],
+      "AAT-22.2": [
+        "Article 14.3"
+      ],
+      "AAT-22.3": [
+        "Article 14.4(b)",
+        "Article 14.4(c)",
+        "Article 14.5"
+      ],
+      "AAT-22.4": [
+        "Article 26.2"
+      ],
+      "AAT-22.5": [
+        "Article 26.4"
+      ],
+      "AAT-22.6": [
+        "Article 26.5"
+      ],
+      "AAT-22.7": [
+        "Article 26.7"
+      ],
+      "AAT-22.8": [
+        "Article 26.11",
+        "Article 50.1",
+        "Article 50.3",
+        "Article 50.5"
+      ],
+      "AAT-23": [
+        "Article 50.2",
+        "Article 50.4"
+      ],
+      "AAT-24": [
+        "Article 9.7",
+        "Article 61.1",
+        "Article 61.1(a)",
+        "Article 61.1(b)",
+        "Article 61.1(c)",
+        "Article 61.1(d)",
+        "Article 61.1(e)",
+        "Article 61.2"
+      ],
+      "AST-31.2": [
+        "Article 6.3"
+      ],
+      "CPL-01": [
+        "Article 16(l)",
+        "Article 17.1(a)",
+        "Article 21.3",
+        "Article 40.1"
+      ],
+      "CPL-01.1": [
+        "Article 10.2(h)",
+        "Article 16(j)",
+        "Article 20.1",
+        "Article 41.5"
+      ],
+      "CPL-01.3": [
+        "Article 11.1",
+        "Article 16(k)",
+        "Article 21.1",
+        "Article 22.3",
+        "Article 22.3(a)"
+      ],
+      "CPL-01.4": [
+        "Article 16(f)",
+        "Article 43.1",
+        "Article 43.1(a)",
+        "Article 43.1(b)(a)",
+        "Article 43.1(b)(b)",
+        "Article 43.1(b)(c)",
+        "Article 43.1(b)(d)",
+        "Article 43.2",
+        "Article 43.3",
+        "Article 43.4"
+      ],
+      "CPL-01.5": [
+        "Article 16(g)",
+        "Article 47.1",
+        "Article 47.2",
+        "Article 47.3",
+        "Article 47.4"
+      ],
+      "CPL-02.3": [
+        "Article 79.4",
+        "Article 80.4",
+        "Article 80.5",
+        "Article 82.2",
+        "Article 93.1(a)",
+        "Article 93.1(b)",
+        "Article 93.1(c)"
+      ],
+      "CPL-05": [
+        "Article 21.1",
+        "Article 22.3(c)",
+        "Article 22.3(d)",
+        "Article 24.5",
+        "Article 24.6",
+        "Article 91.4",
+        "Article 91.5",
+        "Article 92.4",
+        "Article 92.5"
+      ],
+      "CPL-05.2": [
+        "Article 21.2"
+      ],
+      "CPL-08": [
+        "Article 22.1",
+        "Article 22.2",
+        "Article 22.3",
+        "Article 23.1(d)",
+        "Article 54.1"
+      ],
+      "CPL-08.1": [
+        "Article 54.2",
+        "Article 54.3",
+        "Article 54.3(a)",
+        "Article 54.3(b)",
+        "Article 54.3(c)",
+        "Article 54.3(d)",
+        "Article 54.4",
+        "Article 54.5"
+      ],
+      "CFG-02": [
+        "Article 17.1(e)"
+      ],
+      "CFG-02.5": [
+        "Article 14.3(a)"
+      ],
+      "MON-01.4": [
+        "Article 12.1"
+      ],
+      "MON-10": [
+        "Article 19.1",
+        "Article 19.2"
+      ],
+      "DCH-01": [
+        "Article 17.1(f)"
+      ],
+      "DCH-02": [
+        "Article 17.1(f)"
+      ],
+      "DCH-18": [
+        "Article 16(d)",
+        "Article 18.1",
+        "Article 18.1(a)",
+        "Article 18.1(b)",
+        "Article 18.1(c)",
+        "Article 18.1(d)",
+        "Article 18.1(e)",
+        "Article 18.3"
+      ],
+      "DCH-18.2": [
+        "Article 10.2",
+        "Article 10.2(a)",
+        "Article 10.2(b)",
+        "Article 10.2(c)",
+        "Article 10.2(d)",
+        "Article 10.2(e)",
+        "Article 10.3",
+        "Article 10.6"
+      ],
+      "DCH-22": [
+        "Article 10.3",
+        "Article 17.1(f)"
+      ],
+      "DCH-23": [
+        "Article 10.5(b)"
+      ],
+      "IRO-10": [
+        "Article 17.1(j)"
+      ],
+      "IRO-10.2": [
+        "Article 17.1(j)"
+      ],
+      "IAO-01": [
+        "Article 9.8"
+      ],
+      "IAO-02": [
+        "Article 9.8"
+      ],
+      "IAO-03": [
+        "Article 11.1"
+      ],
+      "PRI-01": [
+        "Article 10.5"
+      ],
+      "PRI-01.6": [
+        "Article 10.5(b)",
+        "Article 10.5(c)"
+      ],
+      "PRI-05": [
+        "Article 10.5(e)"
+      ],
+      "PRI-05.4": [
+        "Article 10.5(c)",
+        "Article 10.5(d)"
+      ],
+      "PRI-05.7": [
+        "Article 10.5"
+      ],
+      "PRI-14": [
+        "Article 10.5(f)"
+      ],
+      "PRM-03": [
+        "Article 17.1(l)"
+      ],
+      "PRM-05": [
+        "Article 14.3(b)"
+      ],
+      "RSK-01": [
+        "Article 8.1",
+        "Article 9.1",
+        "Article 9.2",
+        "Article 9.4",
+        "Article 9.5",
+        "Article 9.9",
+        "Article 17.1(g)"
+      ],
+      "RSK-03": [
+        "Article 9.2(c)"
+      ],
+      "RSK-04": [
+        "Article 9.2(c)"
+      ],
+      "RSK-06": [
+        "Article 9.2(d)"
+      ],
+      "RSK-06.1": [
+        "Article 9.4",
+        "Article 9.5",
+        "Article 9.5(a)",
+        "Article 9.5(b)"
+      ],
+      "RSK-06.2": [
+        "Article 9.5(b)"
+      ],
+      "RSK-09": [
+        "Article 17.1(l)"
+      ],
+      "RSK-10": [
+        "Article 26.9"
+      ],
+      "SEA-01.2": [
+        "Article 15.4"
+      ],
+      "SEA-02.1": [
+        "Article 3"
+      ],
+      "SAT-03": [
+        "Article 9.5(c)"
+      ],
+      "TDA-01": [
+        "Article 14.4"
+      ],
+      "TDA-01.1": [
+        "Article 14.3(b)"
+      ],
+      "TDA-02.3": [
+        "Article 14.1"
+      ],
+      "TDA-04": [
+        "Article 11.1"
+      ],
+      "TDA-21": [
+        "Article 8.1",
+        "Article 8.2",
+        "Article 10.1",
+        "Article 23.1(c)",
+        "Article 23.2",
+        "Article 23.3",
+        "Article 23.4",
+        "Article 23.5",
+        "Article 23.6",
+        "Article 23.7",
+        "Article 24.1",
+        "Article 24.2",
+        "Article 24.3",
+        "Article 24.4",
+        "Article 25.1",
+        "Article 25.1(a)",
+        "Article 25.1(b)",
+        "Article 25.1(c)",
+        "Article 25.2",
+        "Article 25.4",
+        "Article 48.1",
+        "Article 48.2",
+        "Article 48.3",
+        "Article 48.4",
+        "Article 48.5",
+        "Article 53.1(b)(ii)",
+        "Article 53.1(c)",
+        "Article 111.3"
+      ],
+      "TDA-22": [
+        "Article 11.1",
+        "Article 11.2",
+        "Article 17.1(k)",
+        "Article 23.1(b)",
+        "Article 53.1(a)"
+      ]
+    }
+  },
+  "framework_to_scf": {
+    "total_mappings": 279,
+    "mappings": {
+      "Article 17.2": [
+        "GOV-01",
+        "GOV-15"
+      ],
+      "Article 17.1(m)": [
+        "GOV-04",
+        "GOV-04.1"
+      ],
+      "Article 17.1(e)": [
+        "GOV-15.2",
+        "AAT-01.1",
+        "AAT-02.2",
+        "CFG-02"
+      ],
+      "Article 16(c)": [
+        "GOV-18"
+      ],
+      "Article 17.1": [
+        "GOV-18"
+      ],
+      "Article 17.1(c)": [
+        "AAT-01"
+      ],
+      "Article 9.1": [
+        "AAT-02.1",
+        "RSK-01"
+      ],
+      "Article 55.1(d)": [
+        "AAT-02.3"
+      ],
+      "Article 55.2": [
+        "AAT-02.3"
+      ],
+      "Article 8.1": [
+        "AAT-03",
+        "RSK-01",
+        "TDA-21"
+      ],
+      "Article 9.2(b)": [
+        "AAT-04.2",
+        "AAT-09"
+      ],
+      "Article 9.2(a)": [
+        "AAT-07",
+        "AAT-09"
+      ],
+      "Article 27.2": [
+        "AAT-07.1",
+        "AAT-10"
+      ],
+      "Article 27.4": [
+        "AAT-07.1"
+      ],
+      "Article 9.9": [
+        "AAT-07.2",
+        "RSK-01"
+      ],
+      "Article 13.1": [
+        "AAT-09",
+        "AAT-09.1",
+        "AAT-20",
+        "AAT-20.1"
+      ],
+      "Article 17.1(g)": [
+        "AAT-09",
+        "RSK-01"
+      ],
+      "Article 6.1": [
+        "AAT-09.1"
+      ],
+      "Article 6.1(a)": [
+        "AAT-09.1"
+      ],
+      "Article 6.3": [
+        "AAT-09.1",
+        "AST-31.2"
+      ],
+      "Article 51.1": [
+        "AAT-09.1"
+      ],
+      "Article 51.1(a)": [
+        "AAT-09.1"
+      ],
+      "Article 51.2": [
+        "AAT-09.1"
+      ],
+      "Article 9.6": [
+        "AAT-10",
+        "AAT-10.3",
+        "AAT-10.4",
+        "AAT-10.5"
+      ],
+      "Article 11.1": [
+        "AAT-10",
+        "AAT-14",
+        "CPL-01.3",
+        "IAO-03",
+        "TDA-04",
+        "TDA-22"
+      ],
+      "Article 16(f)": [
+        "AAT-10",
+        "CPL-01.4"
+      ],
+      "Article 17.1(b)": [
+        "AAT-10",
+        "AAT-20"
+      ],
+      "Article 17.1(d)": [
+        "AAT-10"
+      ],
+      "Article 23.1": [
+        "AAT-10"
+      ],
+      "Article 23.1(a)": [
+        "AAT-10"
+      ],
+      "Article 27.1": [
+        "AAT-10"
+      ],
+      "Article 27.1(a)": [
+        "AAT-10"
+      ],
+      "Article 27.1(b)": [
+        "AAT-10"
+      ],
+      "Article 27.1(c)": [
+        "AAT-10"
+      ],
+      "Article 27.1(d)": [
+        "AAT-10"
+      ],
+      "Article 27.1(e)": [
+        "AAT-10"
+      ],
+      "Article 27.1(f)": [
+        "AAT-10"
+      ],
+      "Article 55.1(a)": [
+        "AAT-10"
+      ],
+      "Article 55.1(b)": [
+        "AAT-10"
+      ],
+      "Article 60.1": [
+        "AAT-10"
+      ],
+      "Article 60.2": [
+        "AAT-10"
+      ],
+      "Article 60.3": [
+        "AAT-10"
+      ],
+      "Article 60.4(a)": [
+        "AAT-10"
+      ],
+      "Article 60.4(b)": [
+        "AAT-10"
+      ],
+      "Article 60.4(c)": [
+        "AAT-10"
+      ],
+      "Article 60.4(d)": [
+        "AAT-10"
+      ],
+      "Article 60.4(e)": [
+        "AAT-10"
+      ],
+      "Article 60.4(f)": [
+        "AAT-10"
+      ],
+      "Article 60.4(g)": [
+        "AAT-10"
+      ],
+      "Article 60.4(h)": [
+        "AAT-10"
+      ],
+      "Article 60.4(i)": [
+        "AAT-10"
+      ],
+      "Article 60.4(j)": [
+        "AAT-10"
+      ],
+      "Article 60.4(k)": [
+        "AAT-10"
+      ],
+      "Article 10.2(f)": [
+        "AAT-10.8"
+      ],
+      "Article 10.2(g)": [
+        "AAT-10.8"
+      ],
+      "Article 10.4": [
+        "AAT-10.8"
+      ],
+      "Article 10.5": [
+        "AAT-10.8",
+        "PRI-01",
+        "PRI-05.7"
+      ],
+      "Article 10.5(a)": [
+        "AAT-10.8"
+      ],
+      "Article 9.7": [
+        "AAT-10.12",
+        "AAT-24"
+      ],
+      "Article 10.3": [
+        "AAT-10.12",
+        "DCH-18.2",
+        "DCH-22"
+      ],
+      "Article 17.1(h)": [
+        "AAT-10.13",
+        "AAT-11.2",
+        "AAT-16"
+      ],
+      "Article 27.3": [
+        "AAT-10.15"
+      ],
+      "Article 60.7": [
+        "AAT-10.15",
+        "AAT-16.9"
+      ],
+      "Article 60.8": [
+        "AAT-10.15"
+      ],
+      "Article 17.1(i)": [
+        "AAT-11.4"
+      ],
+      "Article 17.1(f)": [
+        "AAT-12",
+        "AAT-12.1",
+        "AAT-12.2",
+        "DCH-01",
+        "DCH-02",
+        "DCH-22"
+      ],
+      "Article 53.1(c)": [
+        "AAT-12",
+        "TDA-21"
+      ],
+      "Article 53.1(d)": [
+        "AAT-12.3"
+      ],
+      "Article 4": [
+        "AAT-13.1"
+      ],
+      "Article 12.2(a)": [
+        "AAT-14",
+        "AAT-16",
+        "AAT-16.3"
+      ],
+      "Article 14.2": [
+        "AAT-15.2",
+        "AAT-16",
+        "AAT-17",
+        "AAT-22.1"
+      ],
+      "Article 14.4(d)": [
+        "AAT-15.2"
+      ],
+      "Article 14.4(e)": [
+        "AAT-15.2"
+      ],
+      "Article 12.1": [
+        "AAT-16",
+        "AAT-16.8",
+        "MON-01.4"
+      ],
+      "Article 12.2(b)": [
+        "AAT-16"
+      ],
+      "Article 12.2(c)": [
+        "AAT-16"
+      ],
+      "Article 15.3": [
+        "AAT-16",
+        "AAT-20.2"
+      ],
+      "Article 72.1": [
+        "AAT-16"
+      ],
+      "Article 72.2": [
+        "AAT-16"
+      ],
+      "Article 72.3": [
+        "AAT-16"
+      ],
+      "Article 72.4": [
+        "AAT-16"
+      ],
+      "Article 12.2": [
+        "AAT-16.8"
+      ],
+      "Article 12.3(a)": [
+        "AAT-16.8"
+      ],
+      "Article 12.3(b)": [
+        "AAT-16.8"
+      ],
+      "Article 12.3(c)": [
+        "AAT-16.8"
+      ],
+      "Article 12.3(d)": [
+        "AAT-16.8"
+      ],
+      "Article 16(e)": [
+        "AAT-16.8"
+      ],
+      "Article 26.6": [
+        "AAT-16.8"
+      ],
+      "Article 55.1(c)": [
+        "AAT-16.9"
+      ],
+      "Article 73.1": [
+        "AAT-16.9"
+      ],
+      "Article 73.2": [
+        "AAT-16.9"
+      ],
+      "Article 73.3": [
+        "AAT-16.9"
+      ],
+      "Article 73.4": [
+        "AAT-16.9"
+      ],
+      "Article 73.5": [
+        "AAT-16.9"
+      ],
+      "Article 73.6": [
+        "AAT-16.10"
+      ],
+      "Article 20.2": [
+        "AAT-17.3",
+        "AAT-18",
+        "AAT-18.1"
+      ],
+      "Article 5.1": [
+        "AAT-19"
+      ],
+      "Article 5.1(a)": [
+        "AAT-19.1"
+      ],
+      "Article 5.1(b)": [
+        "AAT-19.2"
+      ],
+      "Article 5.1(c)": [
+        "AAT-19.3"
+      ],
+      "Article 5.1(c)(i)": [
+        "AAT-19.4"
+      ],
+      "Article 5.1(c)(ii)": [
+        "AAT-19.4"
+      ],
+      "Article 5.1(d)": [
+        "AAT-19.5"
+      ],
+      "Article 5.1(e)": [
+        "AAT-19.6"
+      ],
+      "Article 5.1(f)": [
+        "AAT-19.7"
+      ],
+      "Article 5.1(g)": [
+        "AAT-19.8"
+      ],
+      "Article 14.1": [
+        "AAT-20",
+        "TDA-02.3"
+      ],
+      "Article 14.3(a)": [
+        "AAT-20",
+        "CFG-02.5"
+      ],
+      "Article 14.3(b)": [
+        "AAT-20",
+        "AAT-20.1",
+        "PRM-05",
+        "TDA-01.1"
+      ],
+      "Article 15.1": [
+        "AAT-20"
+      ],
+      "Article 15.4": [
+        "AAT-20",
+        "SEA-01.2"
+      ],
+      "Article 15.5": [
+        "AAT-20"
+      ],
+      "Article 16(a)": [
+        "AAT-20"
+      ],
+      "Article 14.4": [
+        "AAT-20.1",
+        "AAT-20.2",
+        "TDA-01"
+      ],
+      "Article 14.4(a)": [
+        "AAT-20.1",
+        "AAT-20.2"
+      ],
+      "Article 13.2": [
+        "AAT-20.2"
+      ],
+      "Article 13.3(a)": [
+        "AAT-20.2"
+      ],
+      "Article 13.3(b)(i)": [
+        "AAT-20.2"
+      ],
+      "Article 13.3(b)(ii)": [
+        "AAT-20.2"
+      ],
+      "Article 13.3(b)(iii)": [
+        "AAT-20.2"
+      ],
+      "Article 13.3(b)(iv)": [
+        "AAT-20.2"
+      ],
+      "Article 13.3(b)(v)": [
+        "AAT-20.2"
+      ],
+      "Article 13.3(b)(vi)": [
+        "AAT-20.2"
+      ],
+      "Article 13.3(b)(vii)": [
+        "AAT-20.2"
+      ],
+      "Article 13.3(c)": [
+        "AAT-20.2"
+      ],
+      "Article 13.3(d)": [
+        "AAT-20.2"
+      ],
+      "Article 13.3(e)": [
+        "AAT-20.2"
+      ],
+      "Article 13.3(f)": [
+        "AAT-20.2"
+      ],
+      "Article 53.1(b)": [
+        "AAT-20.2"
+      ],
+      "Article 53.1(b)(i)": [
+        "AAT-20.2"
+      ],
+      "Article 16(i)": [
+        "AAT-21"
+      ],
+      "Article 22.3(e)": [
+        "AAT-21"
+      ],
+      "Article 26.8": [
+        "AAT-21"
+      ],
+      "Article 49.1": [
+        "AAT-21"
+      ],
+      "Article 49.2": [
+        "AAT-21"
+      ],
+      "Article 49.3": [
+        "AAT-21"
+      ],
+      "Article 52.1": [
+        "AAT-21"
+      ],
+      "Article 52.2": [
+        "AAT-21"
+      ],
+      "Article 26.1": [
+        "AAT-22"
+      ],
+      "Article 14.3": [
+        "AAT-22.2"
+      ],
+      "Article 14.4(b)": [
+        "AAT-22.3"
+      ],
+      "Article 14.4(c)": [
+        "AAT-22.3"
+      ],
+      "Article 14.5": [
+        "AAT-22.3"
+      ],
+      "Article 26.2": [
+        "AAT-22.4"
+      ],
+      "Article 26.4": [
+        "AAT-22.5"
+      ],
+      "Article 26.5": [
+        "AAT-22.6"
+      ],
+      "Article 26.7": [
+        "AAT-22.7"
+      ],
+      "Article 26.11": [
+        "AAT-22.8"
+      ],
+      "Article 50.1": [
+        "AAT-22.8"
+      ],
+      "Article 50.3": [
+        "AAT-22.8"
+      ],
+      "Article 50.5": [
+        "AAT-22.8"
+      ],
+      "Article 50.2": [
+        "AAT-23"
+      ],
+      "Article 50.4": [
+        "AAT-23"
+      ],
+      "Article 61.1": [
+        "AAT-24"
+      ],
+      "Article 61.1(a)": [
+        "AAT-24"
+      ],
+      "Article 61.1(b)": [
+        "AAT-24"
+      ],
+      "Article 61.1(c)": [
+        "AAT-24"
+      ],
+      "Article 61.1(d)": [
+        "AAT-24"
+      ],
+      "Article 61.1(e)": [
+        "AAT-24"
+      ],
+      "Article 61.2": [
+        "AAT-24"
+      ],
+      "Article 16(l)": [
+        "CPL-01"
+      ],
+      "Article 17.1(a)": [
+        "CPL-01"
+      ],
+      "Article 21.3": [
+        "CPL-01"
+      ],
+      "Article 40.1": [
+        "CPL-01"
+      ],
+      "Article 10.2(h)": [
+        "CPL-01.1"
+      ],
+      "Article 16(j)": [
+        "CPL-01.1"
+      ],
+      "Article 20.1": [
+        "CPL-01.1"
+      ],
+      "Article 41.5": [
+        "CPL-01.1"
+      ],
+      "Article 16(k)": [
+        "CPL-01.3"
+      ],
+      "Article 21.1": [
+        "CPL-01.3",
+        "CPL-05"
+      ],
+      "Article 22.3": [
+        "CPL-01.3",
+        "CPL-08"
+      ],
+      "Article 22.3(a)": [
+        "CPL-01.3"
+      ],
+      "Article 43.1": [
+        "CPL-01.4"
+      ],
+      "Article 43.1(a)": [
+        "CPL-01.4"
+      ],
+      "Article 43.1(b)(a)": [
+        "CPL-01.4"
+      ],
+      "Article 43.1(b)(b)": [
+        "CPL-01.4"
+      ],
+      "Article 43.1(b)(c)": [
+        "CPL-01.4"
+      ],
+      "Article 43.1(b)(d)": [
+        "CPL-01.4"
+      ],
+      "Article 43.2": [
+        "CPL-01.4"
+      ],
+      "Article 43.3": [
+        "CPL-01.4"
+      ],
+      "Article 43.4": [
+        "CPL-01.4"
+      ],
+      "Article 16(g)": [
+        "CPL-01.5"
+      ],
+      "Article 47.1": [
+        "CPL-01.5"
+      ],
+      "Article 47.2": [
+        "CPL-01.5"
+      ],
+      "Article 47.3": [
+        "CPL-01.5"
+      ],
+      "Article 47.4": [
+        "CPL-01.5"
+      ],
+      "Article 79.4": [
+        "CPL-02.3"
+      ],
+      "Article 80.4": [
+        "CPL-02.3"
+      ],
+      "Article 80.5": [
+        "CPL-02.3"
+      ],
+      "Article 82.2": [
+        "CPL-02.3"
+      ],
+      "Article 93.1(a)": [
+        "CPL-02.3"
+      ],
+      "Article 93.1(b)": [
+        "CPL-02.3"
+      ],
+      "Article 93.1(c)": [
+        "CPL-02.3"
+      ],
+      "Article 22.3(c)": [
+        "CPL-05"
+      ],
+      "Article 22.3(d)": [
+        "CPL-05"
+      ],
+      "Article 24.5": [
+        "CPL-05"
+      ],
+      "Article 24.6": [
+        "CPL-05"
+      ],
+      "Article 91.4": [
+        "CPL-05"
+      ],
+      "Article 91.5": [
+        "CPL-05"
+      ],
+      "Article 92.4": [
+        "CPL-05"
+      ],
+      "Article 92.5": [
+        "CPL-05"
+      ],
+      "Article 21.2": [
+        "CPL-05.2"
+      ],
+      "Article 22.1": [
+        "CPL-08"
+      ],
+      "Article 22.2": [
+        "CPL-08"
+      ],
+      "Article 23.1(d)": [
+        "CPL-08"
+      ],
+      "Article 54.1": [
+        "CPL-08"
+      ],
+      "Article 54.2": [
+        "CPL-08.1"
+      ],
+      "Article 54.3": [
+        "CPL-08.1"
+      ],
+      "Article 54.3(a)": [
+        "CPL-08.1"
+      ],
+      "Article 54.3(b)": [
+        "CPL-08.1"
+      ],
+      "Article 54.3(c)": [
+        "CPL-08.1"
+      ],
+      "Article 54.3(d)": [
+        "CPL-08.1"
+      ],
+      "Article 54.4": [
+        "CPL-08.1"
+      ],
+      "Article 54.5": [
+        "CPL-08.1"
+      ],
+      "Article 19.1": [
+        "MON-10"
+      ],
+      "Article 19.2": [
+        "MON-10"
+      ],
+      "Article 16(d)": [
+        "DCH-18"
+      ],
+      "Article 18.1": [
+        "DCH-18"
+      ],
+      "Article 18.1(a)": [
+        "DCH-18"
+      ],
+      "Article 18.1(b)": [
+        "DCH-18"
+      ],
+      "Article 18.1(c)": [
+        "DCH-18"
+      ],
+      "Article 18.1(d)": [
+        "DCH-18"
+      ],
+      "Article 18.1(e)": [
+        "DCH-18"
+      ],
+      "Article 18.3": [
+        "DCH-18"
+      ],
+      "Article 10.2": [
+        "DCH-18.2"
+      ],
+      "Article 10.2(a)": [
+        "DCH-18.2"
+      ],
+      "Article 10.2(b)": [
+        "DCH-18.2"
+      ],
+      "Article 10.2(c)": [
+        "DCH-18.2"
+      ],
+      "Article 10.2(d)": [
+        "DCH-18.2"
+      ],
+      "Article 10.2(e)": [
+        "DCH-18.2"
+      ],
+      "Article 10.6": [
+        "DCH-18.2"
+      ],
+      "Article 10.5(b)": [
+        "DCH-23",
+        "PRI-01.6"
+      ],
+      "Article 17.1(j)": [
+        "IRO-10",
+        "IRO-10.2"
+      ],
+      "Article 9.8": [
+        "IAO-01",
+        "IAO-02"
+      ],
+      "Article 10.5(c)": [
+        "PRI-01.6",
+        "PRI-05.4"
+      ],
+      "Article 10.5(e)": [
+        "PRI-05"
+      ],
+      "Article 10.5(d)": [
+        "PRI-05.4"
+      ],
+      "Article 10.5(f)": [
+        "PRI-14"
+      ],
+      "Article 17.1(l)": [
+        "PRM-03",
+        "RSK-09"
+      ],
+      "Article 9.2": [
+        "RSK-01"
+      ],
+      "Article 9.4": [
+        "RSK-01",
+        "RSK-06.1"
+      ],
+      "Article 9.5": [
+        "RSK-01",
+        "RSK-06.1"
+      ],
+      "Article 9.2(c)": [
+        "RSK-03",
+        "RSK-04"
+      ],
+      "Article 9.2(d)": [
+        "RSK-06"
+      ],
+      "Article 9.5(a)": [
+        "RSK-06.1"
+      ],
+      "Article 9.5(b)": [
+        "RSK-06.1",
+        "RSK-06.2"
+      ],
+      "Article 26.9": [
+        "RSK-10"
+      ],
+      "Article 3": [
+        "SEA-02.1"
+      ],
+      "Article 9.5(c)": [
+        "SAT-03"
+      ],
+      "Article 8.2": [
+        "TDA-21"
+      ],
+      "Article 10.1": [
+        "TDA-21"
+      ],
+      "Article 23.1(c)": [
+        "TDA-21"
+      ],
+      "Article 23.2": [
+        "TDA-21"
+      ],
+      "Article 23.3": [
+        "TDA-21"
+      ],
+      "Article 23.4": [
+        "TDA-21"
+      ],
+      "Article 23.5": [
+        "TDA-21"
+      ],
+      "Article 23.6": [
+        "TDA-21"
+      ],
+      "Article 23.7": [
+        "TDA-21"
+      ],
+      "Article 24.1": [
+        "TDA-21"
+      ],
+      "Article 24.2": [
+        "TDA-21"
+      ],
+      "Article 24.3": [
+        "TDA-21"
+      ],
+      "Article 24.4": [
+        "TDA-21"
+      ],
+      "Article 25.1": [
+        "TDA-21"
+      ],
+      "Article 25.1(a)": [
+        "TDA-21"
+      ],
+      "Article 25.1(b)": [
+        "TDA-21"
+      ],
+      "Article 25.1(c)": [
+        "TDA-21"
+      ],
+      "Article 25.2": [
+        "TDA-21"
+      ],
+      "Article 25.4": [
+        "TDA-21"
+      ],
+      "Article 48.1": [
+        "TDA-21"
+      ],
+      "Article 48.2": [
+        "TDA-21"
+      ],
+      "Article 48.3": [
+        "TDA-21"
+      ],
+      "Article 48.4": [
+        "TDA-21"
+      ],
+      "Article 48.5": [
+        "TDA-21"
+      ],
+      "Article 53.1(b)(ii)": [
+        "TDA-21"
+      ],
+      "Article 111.3": [
+        "TDA-21"
+      ],
+      "Article 11.2": [
+        "TDA-22"
+      ],
+      "Article 17.1(k)": [
+        "TDA-22"
+      ],
+      "Article 23.1(b)": [
+        "TDA-22"
+      ],
+      "Article 53.1(a)": [
+        "TDA-22"
+      ]
+    }
+  }
+}

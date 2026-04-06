@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "VPM-05.3",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "VPM-05.3",
+      "ao_id": "VPM-05.3_A01",
+      "objective": "the benchmarks for taking corrective actions are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-02(03)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-05.3",
+      "ao_id": "VPM-05.3_A02",
+      "objective": "the time between flaw identification and flaw remediation is measured.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-02(03)(a)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-05.3",
+      "ao_id": "VPM-05.3_A03",
+      "objective": "benchmarks for taking corrective actions have been established.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-02(03)(b)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "AST-02.5",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AST-02.5",
+      "ao_id": "AST-02.5_A01",
+      "objective": "system components that are known, authenticated, in a properly configured state or in a trust profile are identified.",
+      "pptdf": "Process",
+      "origin": "172A_3.5.3e[a]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-02.5",
+      "ao_id": "AST-02.5_A02",
+      "objective": "automated or manual/procedural mechanisms to prohibit system components from connecting to organizational systems are identified.",
+      "pptdf": "Process",
+      "origin": "172A_3.5.3e[b]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-02.5",
+      "ao_id": "AST-02.5_A03",
+      "objective": "automated or manual/procedural mechanisms are employed to prohibit system components from connecting to organizational systems unless the components are known, authenticated, in a properly configured state or in a trust profile.",
+      "pptdf": "Technology",
+      "origin": "172A_3.5.3e[c]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-02.5",
+      "ao_id": "AST-02.5_A04",
+      "objective": "configuration management process to be employed to handle device identification and authentication based on attestation is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IA-03(04)_ODP",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-02.5",
+      "ao_id": "AST-02.5_A05",
+      "objective": "device identification and authentication are handled based on attestation by configuration management process.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-03(04)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

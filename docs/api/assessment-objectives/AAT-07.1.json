@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "AAT-07.1",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-07.1",
+      "ao_id": "AAT-07.1_A01",
+      "objective": "the organization characterizes the impacts of proposed Artificial Intelligence (AI) and Autonomous Technologies (AAT) on individuals.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-07.1",
+      "ao_id": "AAT-07.1_A02",
+      "objective": "the organization characterizes the impact of proposed Artificial Intelligence (AI) and Autonomous Technologies (AAT) on groups.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-07.1",
+      "ao_id": "AAT-07.1_A03",
+      "objective": "the organization characterizes the impact of proposed Artificial Intelligence (AI) and Autonomous Technologies (AAT) on communities",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-07.1",
+      "ao_id": "AAT-07.1_A04",
+      "objective": "the organization characterizes the impact of proposed Artificial Intelligence (AI) and Autonomous Technologies (AAT) on organizations.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-07.1",
+      "ao_id": "AAT-07.1_A05",
+      "objective": "the organization characterizes the impact of proposed Artificial Intelligence (AI) and Autonomous Technologies (AAT) on society.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

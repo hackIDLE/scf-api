@@ -1,0 +1,176 @@
+{
+  "scf_control_id": "DCH-13",
+  "total": 17,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-13",
+      "ao_id": "DCH-13_A01",
+      "objective": "connections to external systems are identified.",
+      "pptdf": "Process",
+      "origin": "171A_3.1.20[a]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-13",
+      "ao_id": "DCH-13_A02",
+      "objective": "the use of external systems is identified.",
+      "pptdf": "Process",
+      "origin": "171A_3.1.20[b]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-13",
+      "ao_id": "DCH-13_A03",
+      "objective": "connections to external systems are verified.",
+      "pptdf": "Process",
+      "origin": "171A_3.1.20[c]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-13",
+      "ao_id": "DCH-13_A04",
+      "objective": "the use of external systems is verified.",
+      "pptdf": "Process",
+      "origin": "171A_3.1.20[d]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-13",
+      "ao_id": "DCH-13_A05",
+      "objective": "connections to external systems are controlled/limited.",
+      "pptdf": "Technology",
+      "origin": "171A_3.1.20[e]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-13",
+      "ao_id": "DCH-13_A06",
+      "objective": "the use of external systems is controlled/limited.",
+      "pptdf": "Technology",
+      "origin": "171A_3.1.20[f]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-13",
+      "ao_id": "DCH-13_A07",
+      "objective": "terms and conditions consistent with the trust relationships established with other organizations owning, operating, and/or maintaining external systems are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-20_ODP[01]\n53A_R5_AC-20_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-13",
+      "ao_id": "DCH-13_A08",
+      "objective": "controls asserted to be implemented on external systems consistent with the trust relationships established with other organizations owning, operating, and/or maintaining external systems are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-20_ODP[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-13",
+      "ao_id": "DCH-13_A09",
+      "objective": "types of external systems prohibited from use are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-20_ODP[04]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-13",
+      "ao_id": "DCH-13_A10",
+      "objective": "organization-defined criteria are consistent with the trust relationships established with other organizations owning, operating, and/or maintaining external systems, allowing authorized individuals to access the system from external systems (if applicable).",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-20a.01",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-13",
+      "ao_id": "DCH-13_A11",
+      "objective": "organization-defined criteria consistent with the trust relationships established with other organizations owning, operating, and/or maintaining external systems, allowing authorized individuals to process, store or transmit organization-controlled information using external systems (if applicable).",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-20a.02",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-13",
+      "ao_id": "DCH-13_A12",
+      "objective": "the use of organization-defined prohibited types of external systems is prohibited (if applicable).",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-20b.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-13",
+      "ao_id": "DCH-13_A13",
+      "objective": "security requirements to be satisfied on external systems prior to allowing the use of or access to those systems by authorized individuals are defined.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.01.20.ODP[01]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-13",
+      "ao_id": "DCH-13_A14",
+      "objective": "the use of external systems is prohibited unless the systems are specifically authorized.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.01.20.a",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-13",
+      "ao_id": "DCH-13_A15",
+      "objective": "the following security requirements to be satisfied on external systems prior to allowing the use of or access to those systems by authorized individuals are established: <A.03.01.20.ODP[01]: security requirements>.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.01.20.b",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "Guidance: Organizations establish specific terms and conditions for the use of external systems in accordance with organizational security policies and procedures. At a minimum, terms and conditions address the specific types of applications that can be accessed on organizational systems from external systems and the highest security category of information that can be processed, stored, or transmitted on external systems. If the terms and conditions with the owners of the external systems cannot be established, organizations may impose restrictions on organizational personnel using those external systems. If applicable, use NIST SP 800-47 as a guide for establishing information exchanges between organizations.",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-13",
+      "ao_id": "DCH-13_A16",
+      "objective": "authorized individuals are permitted to use external systems to access the organizational system or to process, store, or transmit CUI only after verifying that the security requirements on the external systems as specified in the organization’s system security plans have been satisfied.",
+      "pptdf": "Data",
+      "origin": "171A_R3_A.03.01.20.c.01",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-13",
+      "ao_id": "DCH-13_A17",
+      "objective": "authorized individuals are permitted to use external systems to access the organizational system or to process, store, or transmit CUI only after retaining approved system connection or processing agreements with the organizational entity hosting the external systems.",
+      "pptdf": "Data",
+      "origin": "171A_R3_A.03.01.20.c.02",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

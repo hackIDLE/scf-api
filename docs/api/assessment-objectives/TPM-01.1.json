@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "TPM-01.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TPM-01.1",
+      "ao_id": "TPM-01.1_A01",
+      "objective": "a current, accurate and complete list of Third-Party Service Providers (TSP) that can potentially impact the Sensitivity, Integrity, Availability and/or Safety (CIAS) of the organization's systems, applications, services and data is maintained.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

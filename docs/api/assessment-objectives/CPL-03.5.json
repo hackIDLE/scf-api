@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "CPL-03.5",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CPL-03.5",
+      "ao_id": "CPL-03.5_A01",
+      "objective": "the level of assessment rigor necessary to conduct a cybersecurity and/or data protection assessment is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

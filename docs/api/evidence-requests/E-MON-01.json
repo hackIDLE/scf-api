@@ -1,0 +1,17 @@
+{
+  "erl_id": "E-MON-01",
+  "area": "Event Log Monitoring",
+  "artifact_name": "Event Log Review & Analysis",
+  "artifact_description": "Documented evidence of a capability to perform security event log review and analysis (e.g., system monitoring records, continuous monitoring strategy, etc.).",
+  "scf_controls": [
+    "MON-01",
+    "MON-01.1",
+    "MON-01.2",
+    "MON-01.3",
+    "MON-01.4",
+    "MON-01.8",
+    "MON-02",
+    "MON-02.2"
+  ],
+  "cmmc_mapping": "AC.L1-3.1.1\nCM.L2-3.4.9\nSC.L2-3.13.13\nSC.L2-3.13.14\nSI.L2-3.14.6\nSI.L2-3.14.7"
+}

@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "SEA-17",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "SEA-17",
+      "ao_id": "SEA-17_A01",
+      "objective": "a trusted communications path is used between the user and the security functions of the system (e.g., Ctrl+Alt+Del).",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

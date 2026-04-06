@@ -1,0 +1,76 @@
+{
+  "scf_control_id": "MNT-05.1",
+  "total": 7,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MNT-05.1",
+      "ao_id": "MNT-05.1_A01",
+      "objective": "nonlocal maintenance and diagnostic activities are monitored.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_MA-04a.[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-05.1",
+      "ao_id": "MNT-05.1_A02",
+      "objective": "audit events to be logged for nonlocal maintenance are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-04(01)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-05.1",
+      "ao_id": "MNT-05.1_A03",
+      "objective": "audit events to be logged for diagnostic sessions are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-04(01)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-05.1",
+      "ao_id": "MNT-05.1_A04",
+      "objective": "audit events are logged for nonlocal maintenance sessions.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_MA-04(01)(a)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-05.1",
+      "ao_id": "MNT-05.1_A05",
+      "objective": "audit events are logged for nonlocal diagnostic sessions.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_MA-04(01)(a)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-05.1",
+      "ao_id": "MNT-05.1_A06",
+      "objective": "the audit records of the maintenance sessions are reviewed to detect anomalous behavior.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-04(01)(b)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-05.1",
+      "ao_id": "MNT-05.1_A07",
+      "objective": "the audit records of the diagnostic sessions are reviewed to detect anomalous behavior.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-04(01)(b)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

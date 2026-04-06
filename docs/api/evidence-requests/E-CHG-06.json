@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-CHG-06",
+  "area": "Change Management",
+  "artifact_name": "Stakeholder Notification of Changes",
+  "artifact_description": "Documented evidence of stakeholder notification communications for proposed changes.",
+  "scf_controls": [
+    "CHG-05"
+  ],
+  "cmmc_mapping": ""
+}

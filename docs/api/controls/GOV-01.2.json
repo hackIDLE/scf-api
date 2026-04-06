@@ -1,0 +1,263 @@
+{
+  "control_id": "GOV-01.2",
+  "title": "Status Reporting To Governing Body",
+  "family": "GOV",
+  "description": "Mechanisms exist to provide governance oversight reporting and recommendations to those entrusted to make executive decisions about matters considered material to the organization's Security, Compliance & Resilience Program (SCRP).",
+  "scf_question": "Does the organization provide governance oversight reporting and recommendations to those entrusted to make executive decisions about matters considered material to the organization's Security, Compliance & Resilience Program (SCRP)?",
+  "relative_weight": 5,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [
+    "E-CPL-05",
+    "E-CPL-09",
+    "E-GOV-03",
+    "E-GOV-04",
+    "E-GOV-05",
+    "E-GOV-06",
+    "E-GOV-07",
+    "E-GOV-13"
+  ],
+  "pptdf": "Process",
+  "nist_csf_function": "Govern",
+  "scrm_focus": {
+    "strategic": true,
+    "operational": true,
+    "tactical": false
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "2": "Cybersecurity & Data Protection Governance (GOV) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with GOV domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with GOV domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with GOV  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Governance-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ No formal Governance, Risk & Compliance (GRC) team exists. GRC roles are assigned to existing IT and/or cybersecurity personnel.\n▪ Organizational leadership maintains an informal process to review and respond to trends.",
+    "3": "Cybersecurity & Data Protection Governance (GOV) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with GOV domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with GOV domain capabilities are well-documented and kept current by process owners.\n▪ The entity's GRC team, or similar function, is appropriately staffed and supported to implement and maintain GOV domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ Technology is leveraged to enhance the efficiency and accuracy of governance, risk management and compliance operations (e.g., GRC platform).\n▪ An implemented and operational capability exists to  provide governance oversight reporting and recommendations to those entrusted to make executive decisions about matters considered material to the organization's Security, Compliance & Resilience Program (SCRP).",
+    "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [
+    "SCRMS",
+    "CORE ESP Level 1 Foundational",
+    "CORE ESP Level 2 Critical Infrastructure",
+    "CORE ESP Level 3 Advanced Threats",
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ Quarterly Business Review (QBR)\n∙ Simple security status dashboard (spreadsheet or slide deck)\n∙ Email status updates to owner/manager",
+    "small": "∙ Quarterly Business Review (QBR)\n∙ Structured security metrics report (incidents, patching status, training completion)\n∙ Documented reporting cadence",
+    "medium": "∙ Quarterly Business Review (QBR)\n∙ Formal security status reports to leadership\n∙ KPI/KRI dashboard (e.g., Power BI, Tableau, or GRC tool reporting)",
+    "large": "∙ Quarterly Business Review (QBR)\n∙ Executive security dashboard with KPIs/KRIs\n∙ Board-level reporting on material risk indicators\n∙ Automated reporting via GRC platform",
+    "enterprise": "∙ Quarterly Business Review (QBR)\n∙ Board and audit committee cybersecurity briefings\n∙ Integrated GRC dashboard with real-time metrics\n∙ SEC cybersecurity disclosure-ready reporting processes (if applicable)"
+  },
+  "risks": [
+    "R-AC-1",
+    "R-EX-3",
+    "R-EX-4",
+    "R-GV-1",
+    "R-GV-4",
+    "R-GV-5",
+    "R-GV-6",
+    "R-GV-7",
+    "R-SC-1",
+    "R-SC-2",
+    "R-SC-3",
+    "R-SC-4",
+    "R-SC-5",
+    "R-SC-6"
+  ],
+  "threats": [
+    "NT-1",
+    "NT-2",
+    "NT-3",
+    "NT-4",
+    "NT-5",
+    "NT-6",
+    "NT-7",
+    "NT-8",
+    "NT-9",
+    "NT-10",
+    "NT-11",
+    "NT-12",
+    "NT-13",
+    "NT-14",
+    "MT-8",
+    "MT-9",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "errata": "- wordsmithed",
+  "family_name": "Cybersecurity & Data Protection Governance",
+  "crosswalks": {
+    "general-aicpa-tsc-2017": [
+      "CC2.2-POF2",
+      "CC2.3-POF3",
+      "CC2.3-POF5",
+      "CC3.1-POF10",
+      "CC3.1-POF11",
+      "CC4.2",
+      "CC4.2-POF1",
+      "CC4.2-POF2"
+    ],
+    "general-bsi-200-1-1-0": [
+      "4.3",
+      "7.5",
+      "8.4"
+    ],
+    "general-cobit-2019": [
+      "BAI01.06"
+    ],
+    "general-coso-2013": [
+      "2"
+    ],
+    "general-imo-maritime-cyber-risk-management-2025": [
+      "3.3"
+    ],
+    "general-iso-27001-2022": [
+      "7.4",
+      "7.4(a)",
+      "7.4(b)",
+      "7.4(c)",
+      "7.4(d)",
+      "9.1",
+      "9.1(a)",
+      "9.1(b)",
+      "9.1(c)",
+      "9.1(d)",
+      "9.1(e)",
+      "9.1(f)",
+      "9.3.1",
+      "9.3.2(a)",
+      "9.3.2(b)",
+      "9.3.2(c)",
+      "9.3.2(d)",
+      "9.3.2(d)(1)",
+      "9.3.2(d)(2)",
+      "9.3.2(d)(3)",
+      "9.3.2(d)(4)",
+      "9.3.2(e)",
+      "9.3.2(f)",
+      "9.3.2(g)",
+      "9.3.3"
+    ],
+    "general-iso-27701-2025": [
+      "5.1",
+      "5.3(b)",
+      "9.3.1"
+    ],
+    "general-iso-31000-2018": [
+      "5.2",
+      "6.6"
+    ],
+    "general-iso-42001-2023": [
+      "5.1",
+      "9.3.3"
+    ],
+    "general-nist-100-1-ai-rmf": [
+      "GOVERN 2.3",
+      "MAP 3.5"
+    ],
+    "general-nist-privacy-framework-1-0": [
+      "PR.PO-P6"
+    ],
+    "general-nist-800-171-r3": [
+      "03.12.03"
+    ],
+    "general-nist-csf-2-0": [
+      "GV.OV",
+      "GV.OV-01",
+      "GV.OV-03",
+      "GV.SC",
+      "GV.SC-09",
+      "ID"
+    ],
+    "general-scf-dpmp-2025": [
+      "11.5",
+      "11.8"
+    ],
+    "usa-federal-doe-c2m2-2-1": [
+      "PROGRAM-2g"
+    ],
+    "usa-federal-sro-fca-crm-2023": [
+      "609.930(e)"
+    ],
+    "usa-federal-law-glba-cfr-314-2023": [
+      "314.4(i)",
+      "314.4(i)(1)",
+      "314.4(i)(2)"
+    ],
+    "usa-federal-sec-cybersecurity-rule-2023": [
+      "17 CFR 229.106(b)(1)(iii)",
+      "17 CFR 229.106(c)(1)",
+      "17 CFR 229.106(c)(2)(ii)",
+      "17 CFR 229.106(c)(2)(iii)"
+    ],
+    "usa-state-nv-regulation-5-2024": [
+      "5.260.4(b)",
+      "5.260.4(c)"
+    ],
+    "usa-state-ny-dfs-23-nycrr500-2023-amd2": [
+      "500.4(b)",
+      "500.4(c)"
+    ],
+    "emea-eu-eba-ict-srm-2025": [
+      "3.3.1(13)(e)",
+      "3.3.5(24)"
+    ],
+    "emea-eu-dora-2023": [
+      "Article 5.2(i)",
+      "Article 13.5"
+    ],
+    "emea-eu-nis2-annex-2024": [
+      "1.2.3",
+      "2.1.1",
+      "2.2.1",
+      "2.2.2",
+      "2.3.3",
+      "13.2.2(c)"
+    ],
+    "emea-deu-bsrit-2017": [
+      "3.9",
+      "3.11",
+      "4.10",
+      "7.5"
+    ],
+    "apac-aus-ism-2024-june": [
+      "ISM-0718"
+    ],
+    "apac-aus-ps-cps-230-2023": [
+      "30",
+      "58(a)",
+      "58(b)",
+      "58(c)"
+    ],
+    "apac-ind-dpdpa-2023": [
+      "10(2)(c)(ii)"
+    ],
+    "apac-ind-sebi-2024": [
+      "GV.OV.S1"
+    ],
+    "apac-jpn-ismap": [
+      "4.6.1.1"
+    ],
+    "apac-nzl-hisf-mlhsp-2023": [
+      "HHSP46",
+      "HHSP75",
+      "HML12",
+      "HML46",
+      "HML75"
+    ],
+    "apac-nzl-hisf-suppliers-2023": [
+      "HSUP10",
+      "HSUP38",
+      "HSUP65"
+    ],
+    "americas-can-osfi-b13-2022": [
+      "1",
+      "1.1.2"
+    ],
+    "americas-can-itsp-10-171-2025": [
+      "03.12.03"
+    ]
+  }
+}

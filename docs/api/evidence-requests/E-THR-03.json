@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-THR-03",
+  "area": "Threat Management",
+  "artifact_name": "Threat Intelligence Feeds (TIF)",
+  "artifact_description": "Documented evidence of threat intelligence feeds.",
+  "scf_controls": [
+    "THR-03"
+  ],
+  "cmmc_mapping": "SI.L2-3.14.3"
+}

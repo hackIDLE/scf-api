@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "NET-06.5",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-06.5",
+      "ao_id": "NET-06.5_A01",
+      "objective": "Internet access from sensitive / regulated data enclaves (secure zones) is prohibited or strictly-controlled.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

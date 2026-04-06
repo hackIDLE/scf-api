@@ -1,0 +1,12 @@
+{
+  "erl_id": "E-HRS-21",
+  "area": "Human Resources",
+  "artifact_name": "Position Competency Requirements",
+  "artifact_description": "Documented evidence of personnel management practices to define minimum competency requirements for cybersecurity & data privacy-related roles.",
+  "scf_controls": [
+    "HRS-03.2",
+    "HRS-04",
+    "HRS-04.1"
+  ],
+  "cmmc_mapping": ""
+}

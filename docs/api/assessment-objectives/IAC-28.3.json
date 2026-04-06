@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "IAC-28.3",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-28.3",
+      "ao_id": "IAC-28.3_A01",
+      "objective": "methods of validation and verification of identity evidence are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IA-12(03)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-28.3",
+      "ao_id": "IAC-28.3_A02",
+      "objective": "the presented identity evidence is validated and verified through organization-defined methods of validation and verification.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IA-12(03)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

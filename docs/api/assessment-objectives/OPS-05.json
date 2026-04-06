@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "OPS-05",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "OPS-05",
+      "ao_id": "OPS-05_A01",
+      "objective": "guidelines and recommendations for the secure use of products and/or services are generated to assist in the configuration, installation and use of the product and/or service.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

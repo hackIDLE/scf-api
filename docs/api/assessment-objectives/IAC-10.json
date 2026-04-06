@@ -1,0 +1,276 @@
+{
+  "scf_control_id": "IAC-10",
+  "total": 27,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-10",
+      "ao_id": "IAC-10_A01",
+      "objective": "the number of generations during which a password cannot be reused is specified.",
+      "pptdf": "Technology",
+      "origin": "171A_3.5.8[a]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10",
+      "ao_id": "IAC-10_A02",
+      "objective": "reuse of passwords is prohibited during the specified number of generations.",
+      "pptdf": "Technology",
+      "origin": "171A_3.5.8[b]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10",
+      "ao_id": "IAC-10_A03",
+      "objective": "an immediate change to a permanent password is required when a temporary password is used for system logon.",
+      "pptdf": "Technology",
+      "origin": "171A_3.5.9",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10",
+      "ao_id": "IAC-10_A04",
+      "objective": "the frequency for changing or refreshing authenticators is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IA-05_ODP[01]\n171A_R3_A.03.05.12.ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10",
+      "ao_id": "IAC-10_A05",
+      "objective": "events that trigger the change or refreshment of authenticators are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IA-05_ODP[02]\n171A_R3_A.03.05.12.ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10",
+      "ao_id": "IAC-10_A06",
+      "objective": "the identity of the individual, group, role, service, or device receiving the authenticator as part of the initial authenticator distribution is verified.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-05a.\n171A_R3_A.03.05.12.a",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10",
+      "ao_id": "IAC-10_A07",
+      "objective": "initial authenticator content for any authenticators issued by the organization is established.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IA-05b.\n171A_R3_A.03.05.12.b",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10",
+      "ao_id": "IAC-10_A08",
+      "objective": "system authenticators are managed to ensure that authenticators have sufficient strength of mechanism for their intended use.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-05c.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10",
+      "ao_id": "IAC-10_A09",
+      "objective": "system authenticators are managed through the establishment and implementation of administrative procedures for initial authenticator distribution. lost, compromised or damaged authenticators. and the revocation of authenticators.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-05d.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10",
+      "ao_id": "IAC-10_A10",
+      "objective": "default authenticators are changed at first use.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-05e.\n171A_R3_A.03.05.12.d",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10",
+      "ao_id": "IAC-10_A11",
+      "objective": "authenticators are changed or refreshed per an organization-defined frequency or when organization-defined events occur.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IA-05f.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10",
+      "ao_id": "IAC-10_A12",
+      "objective": "system authenticators are managed through the protection of authenticator content from unauthorized disclosure and modification.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-05g.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10",
+      "ao_id": "IAC-10_A13",
+      "objective": "system authenticators are managed through the requirement for individuals to take specific controls to protect authenticators.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-05h.[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10",
+      "ao_id": "IAC-10_A14",
+      "objective": "system authenticators are managed through the requirement for devices to implement specific controls to protect authenticators.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-05h.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10",
+      "ao_id": "IAC-10_A15",
+      "objective": "system authenticators are managed through the change of authenticators for group or role accounts when membership to those accounts changes.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-05i.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10",
+      "ao_id": "IAC-10_A16",
+      "objective": "the frequency at which to update the list of commonly used, expected or compromised passwords is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IA-05(01)_ODP[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10",
+      "ao_id": "IAC-10_A17",
+      "objective": "authenticator composition and complexity rules are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IA-05(01)_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10",
+      "ao_id": "IAC-10_A18",
+      "objective": "administrative procedures for initial authenticator distribution are established.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.05.12.c[01]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10",
+      "ao_id": "IAC-10_A19",
+      "objective": "administrative procedures for lost, compromised, or damaged authenticators are established.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.05.12.c[02]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10",
+      "ao_id": "IAC-10_A20",
+      "objective": "administrative procedures for revoking authenticators are established.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.05.12.c[03]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10",
+      "ao_id": "IAC-10_A21",
+      "objective": "administrative procedures for initial authenticator distribution are implemented.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.05.12.c[04]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10",
+      "ao_id": "IAC-10_A22",
+      "objective": "administrative procedures for lost, compromised, or damaged authenticators are implemented.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.05.12.c[05]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10",
+      "ao_id": "IAC-10_A23",
+      "objective": "administrative procedures for revoking authenticators are implemented.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.05.12.c[06]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10",
+      "ao_id": "IAC-10_A24",
+      "objective": "authenticator content is protected from unauthorized disclosure.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10",
+      "ao_id": "IAC-10_A25",
+      "objective": "authenticators are changed or refreshed <A.03.05.12.ODP[01]: frequency> or when the following events occur: <A.03.05.12.ODP[02]: events>.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.05.12.e",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "SDP values:\n(1) never for passwords where MFA is employed, at least every five (5) years for hard tokens and identification badges, and at least every three (3)\nyears for all other authenticators.\n(2) after a relevant security incident or any evidence of\ncompromise or loss.",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10",
+      "ao_id": "IAC-10_A26",
+      "objective": "authenticator content is protected from unauthorized disclosure.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.05.12.f[01]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10",
+      "ao_id": "IAC-10_A27",
+      "objective": "authenticator content is protected from unauthorized modification.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.05.12.f[02]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

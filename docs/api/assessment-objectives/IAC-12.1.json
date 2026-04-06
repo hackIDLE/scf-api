@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "IAC-12.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-12.1",
+      "ao_id": "IAC-12.1_A01",
+      "objective": "Hardware Security Modules (HSM) protect authenticators on which the component relies.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

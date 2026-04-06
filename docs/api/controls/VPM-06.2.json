@@ -1,0 +1,168 @@
+{
+  "control_id": "VPM-06.2",
+  "title": "Breadth / Depth of Coverage",
+  "family": "VPM",
+  "description": "Mechanisms exist to identify the breadth and depth of coverage for vulnerability scanning that define the system components scanned and types of vulnerabilities that are checked for.",
+  "scf_question": "Does the organization identify the breadth and depth of coverage for vulnerability scanning that define the system components scanned and types of vulnerabilities that are checked for?",
+  "relative_weight": 8,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [],
+  "pptdf": "Process",
+  "nist_csf_function": "Protect",
+  "scrm_focus": {
+    "strategic": false,
+    "operational": true,
+    "tactical": true
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "Vulnerability & Patch Management (VPM) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with VPM domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Attack Surface Management (ASM)-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.",
+    "2": "Vulnerability & Patch Management (VPM) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with VPM domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with VPM domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with VPM  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Vulnerability management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Vulnerability management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT and/or cybersecurity personnel define the breadth and depth of coverage for vulnerability scanning that covers system components scanned and types of vulnerabilities that are checked for.",
+    "3": "Vulnerability & Patch Management (VPM) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with VPM domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with VPM domain capabilities are well-documented and kept current by process owners.\n▪ A vulnerability management team, or similar function, is appropriately staffed and supported to implement and maintain VPM domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of vulnerability management operations (e.g., patch management solution, vulnerability scanning solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with VPM domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to identify the breadth and depth of coverage for vulnerability scanning that define the system components scanned and types of vulnerabilities that are checked for.",
+    "4": "Vulnerability & Patch Management (VPM) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ Scan all systems in scope for vulnerabilities",
+    "small": "∙ Comprehensive vulnerability scan coverage policy",
+    "medium": "∙ Formal scan coverage policy\n∙ All in-scope assets scanned regularly",
+    "large": "∙ Enterprise vulnerability scan coverage management\n∙ Asset-driven scan scope",
+    "enterprise": "∙ Enterprise vulnerability management with comprehensive asset discovery and scanning (e.g., Tenable One)"
+  },
+  "risks": [
+    "R-AC-2",
+    "R-AC-3",
+    "R-AC-4",
+    "R-AM-3",
+    "R-BC-1",
+    "R-BC-2",
+    "R-BC-3",
+    "R-BC-4",
+    "R-EX-1",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-EX-5",
+    "R-EX-6",
+    "R-EX-7",
+    "R-GV-1",
+    "R-GV-2",
+    "R-GV-3",
+    "R-GV-4",
+    "R-GV-5",
+    "R-GV-6",
+    "R-GV-7",
+    "R-IR-1",
+    "R-IR-2",
+    "R-IR-3",
+    "R-IR-4",
+    "R-SA-1",
+    "R-SC-1",
+    "R-SC-2",
+    "R-SC-3",
+    "R-SC-4",
+    "R-SC-5",
+    "R-SC-6"
+  ],
+  "threats": [
+    "NT-7",
+    "MT-1",
+    "MT-2",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Vulnerability & Patch Management",
+  "crosswalks": {
+    "general-csa-iot-2": [
+      "VLN-04"
+    ],
+    "general-govramp": [
+      "RA-05(03)"
+    ],
+    "general-govramp-mod": [
+      "RA-05(03)"
+    ],
+    "general-govramp-high": [
+      "RA-05(03)"
+    ],
+    "general-nist-800-53-r4": [
+      "RA-5(3)"
+    ],
+    "general-nist-800-53-r5-2": [
+      "RA-05(03)"
+    ],
+    "general-nist-800-82-r3": [
+      "RA-05(03)"
+    ],
+    "general-nist-800-161-r1": [
+      "RA-5(3)"
+    ],
+    "general-nist-800-161-r1-level-2": [
+      "RA-5(3)"
+    ],
+    "general-nist-800-161-r1-level-3": [
+      "RA-5(3)"
+    ],
+    "general-pci-dss-4-0-1": [
+      "11.3.1",
+      "11.3.2.1"
+    ],
+    "general-pci-dss-4-0-1-saq-a": [
+      "11.3.2.1"
+    ],
+    "general-pci-dss-4-0-1-saq-a-ep": [
+      "11.3.2.1"
+    ],
+    "general-pci-dss-4-0-1-saq-c": [
+      "11.3.1",
+      "11.3.2.1"
+    ],
+    "general-pci-dss-4-0-1-saq-d-merchant": [
+      "11.3.1",
+      "11.3.2.1"
+    ],
+    "general-pci-dss-4-0-1-saq-d-service-provider": [
+      "11.3.1",
+      "11.3.2.1"
+    ],
+    "general-swift-cscf-2025": [
+      "2.7"
+    ],
+    "usa-federal-doe-c2m2-2-1": [
+      "THREAT-1e"
+    ],
+    "usa-federal-gsa-fedramp-5-mod": [
+      "RA-05(03)"
+    ],
+    "usa-federal-gsa-fedramp-5-high": [
+      "RA-05(03)"
+    ],
+    "usa-federal-cms-marse-2-0": [
+      "RA-5(3)"
+    ],
+    "usa-state-tx-txramp-2-0-level-2": [
+      "RA-05 (03)"
+    ],
+    "emea-isr-cmo-1-0": [
+      "22.6"
+    ],
+    "emea-sau-cscc-1-2019": [
+      "2-9-2-1"
+    ],
+    "emea-sau-ecc-1-2018": [
+      "2-11-3-1"
+    ]
+  }
+}

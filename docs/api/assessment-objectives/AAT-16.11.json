@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-16.11",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-16.11",
+      "ao_id": "AAT-16.11_A01",
+      "objective": "a real-time review feature allows personnel to analyze anomalous Artificial Intelligence (AI) and Autonomous Technologies (AAT) behavior and provide escalation paths.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-16.11",
+      "ao_id": "AAT-16.11_A02",
+      "objective": "escalation paths enable human intervention to address AAT anomalies.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

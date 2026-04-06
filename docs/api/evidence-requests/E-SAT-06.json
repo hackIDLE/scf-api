@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-SAT-06",
+  "area": "Education",
+  "artifact_name": "Training Materials",
+  "artifact_description": "Documented evidence of security awareness training materials (e.g., curriculum, course work, presentations, etc.)",
+  "scf_controls": [
+    "SAT-04"
+  ],
+  "cmmc_mapping": "AC.L1-3.1.22\nAT.L2-3.2.1\nAT.L2-3.2.2\nAT.L2-3.2.3\nIR.L2-3.6.1"
+}

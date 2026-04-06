@@ -1,0 +1,16 @@
+{
+  "control_id": "SAT-03.8",
+  "risk_if_not_implemented": "Without Continuing Professional Education (CPE) - DevOps Personnel, residual security, compliance, or resilience risk may accumulate, potentially leading to control failures or non-compliance.",
+  "compensating_control_1": {
+    "control_id": "SAT-02",
+    "name": "Security, Compliance & Resilience Awareness Training",
+    "description": "Mechanisms exist to provide all employees and contractors appropriate security, compliance and resilience awareness education and training that is relevant for their job function.",
+    "justification": "Security, Compliance & Resilience Awareness Training (SAT-02) provides personnel training and awareness that compensates for the absence of Continuing Professional Education (CPE) - DevOps Personnel (SAT-03.8) by reducing human-factor risk by equipping personnel to recognize and respond to relevant threats. Given the people-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  },
+  "compensating_control_2": {
+    "control_id": "SAT-03",
+    "name": "Role-Based Security, Compliance & Resilience Training",
+    "description": "Mechanisms exist to provide role-based security, compliance and resilience-related training: \n(1) Before authorizing access to the system or performing assigned duties; \n(2) When required by system changes; and \n(3) Annually thereafter.",
+    "justification": "Role-Based Security, Compliance & Resilience Training (SAT-03) provides personnel training and awareness that compensates for the absence of Continuing Professional Education (CPE) - DevOps Personnel (SAT-03.8) by reducing human-factor risk by equipping personnel to recognize and respond to relevant threats. Given the people-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  }
+}

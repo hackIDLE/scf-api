@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "TDA-01.4",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-01.4",
+      "ao_id": "TDA-01.4_A01",
+      "objective": "cybersecurity / data privacy is integrated into emerging Development and Operations (DevOps) to prioritize secure practices throughout the Software Development Lifecycle (SDLC).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

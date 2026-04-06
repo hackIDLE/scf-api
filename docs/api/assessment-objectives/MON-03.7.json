@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "MON-03.7",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MON-03.7",
+      "ao_id": "MON-03.7_A01",
+      "objective": "the content of database audit records needed to support the ability to uniquely trace account actions is defined.",
+      "pptdf": "Process",
+      "origin": "171A_3.3.2[a]\n53A_R5_AU-02_ODP[01]\n53A_R5_AU-02_ODP[02]\n53A_R5_AU-02a.\n53A_R5_AU-02c.[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "successful and unsuccessful account logon events, account management events, object access, policy change, privilege functions, process tracking, and system events.",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-03.7",
+      "ao_id": "MON-03.7_A02",
+      "objective": "database audit records contain information that establishes the identity of any individuals, subjects or objects/entities associated with the event.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AU-03f.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

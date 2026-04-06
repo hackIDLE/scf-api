@@ -1,0 +1,76 @@
+{
+  "scf_control_id": "DCH-05",
+  "total": 7,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-05",
+      "ao_id": "DCH-05_A01",
+      "objective": "types of security / privacy attributes associated with cybersecurity attribute values for information in storage, in process, and/or in transmission are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-16_ODP[01] \n53A_R5_AC-16_ODP[02]\n53A_R5_AC-16_ODP[03]\n53A_R5_AC-16_ODP[04]\n53A_R5_AC-16_ODP[05]\n53A_R5_AC-16_ODP[06]\n53A_R5_AC-16_ODP[07]\n53A_R5_AC-16_ODP[08]\n53A_R5_AC-16_ODP[09]\n53A_R5_AC-16c.[01]\n53A_R5_AC-16c.[02]\n53A_R5_AC-16d.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-05",
+      "ao_id": "DCH-05_A02",
+      "objective": "the means to associate organization-defined types of security / privacy attributes with organization-defined security attribute values for information in storage, in process, and/or in transmission are provided.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-16a.[01]\n53A_R5_AC-16a.[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-05",
+      "ao_id": "DCH-05_A03",
+      "objective": "the frequency at which to review cybersecurity / data privacy attributes for applicability is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-16_ODP[10]\n53A_R5_AC-16_ODP[11]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-05",
+      "ao_id": "DCH-05_A04",
+      "objective": "attributes are reviewed according to an organization-defined frequency.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-16f.[01]\n53A_R5_AC-16f.[02]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-05",
+      "ao_id": "DCH-05_A05",
+      "objective": "attribute associations are made.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-16b.[01]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-05",
+      "ao_id": "DCH-05_A06",
+      "objective": "changes to attributes are audited.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-16e.",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-05",
+      "ao_id": "DCH-05_A07",
+      "objective": "attribute associations are retained with the information.",
+      "pptdf": "Data",
+      "origin": "53A_R5_AC-16b.[02]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

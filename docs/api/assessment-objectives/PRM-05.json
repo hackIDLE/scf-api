@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "PRM-05",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRM-05",
+      "ao_id": "PRM-05_A01",
+      "objective": "systems, system components or system services to be analyzed for criticality are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_RA-09_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRM-05",
+      "ao_id": "PRM-05_A02",
+      "objective": "decision points in the system development life cycle when a criticality analysis is to be performed are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_RA-09_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRM-05",
+      "ao_id": "PRM-05_A03",
+      "objective": "critical system components and functions are identified by performing a criticality analysis for systems, system components or system services at decision points in the system development life cycle.",
+      "pptdf": "Process",
+      "origin": "53A_R5_RA-09",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

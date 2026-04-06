@@ -1,0 +1,731 @@
+{
+  "control_id": "HRS-03",
+  "title": "Defined Roles & Responsibilities",
+  "family": "HRS",
+  "description": "Mechanisms exist to define cybersecurity roles & responsibilities for all personnel.",
+  "scf_question": "Does the organization define cybersecurity roles & responsibilities for all personnel?",
+  "relative_weight": 10,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [
+    "E-HRS-01",
+    "E-HRS-02",
+    "E-HRS-03",
+    "E-HRS-04",
+    "E-HRS-11",
+    "E-HRS-13",
+    "E-HRS-18",
+    "E-HRS-22",
+    "E-HRS-28"
+  ],
+  "pptdf": "People",
+  "nist_csf_function": "Identify",
+  "scrm_focus": {
+    "strategic": true,
+    "operational": true,
+    "tactical": false
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "Human Resources Security (HRS) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with HRS domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Personnel management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ The Human Resources (HR) department provides guidance on secure HR practices for hiring, retaining and terminating employees, contractors and other personnel that work on behalf of the organization.\n▪ Formal roles and responsibilities for cybersecurity and/or data protection are not consistent and/or standardized.",
+    "2": "Human Resources Security (HRS) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with HRS domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with HRS domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with HRS  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Personnel management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Personnel management is decentralized at a localized/regionalized function, where there are non-standardized methods to govern personnel matters across the organization.\n▪ Localized HR practices are implemented for hiring, managing, training, investigating and terminating employees, contractors and other personnel that work on behalf of the organization.",
+    "3": "Human Resources Security (HRS) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with HRS domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with HRS domain capabilities are well-documented and kept current by process owners.\n▪ A Human Resources (HR) team, or similar function, is appropriately staffed and supported to implement and maintain HRS domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of human resources security operations (e.g., personnel management software solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with HRS domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to define cybersecurity roles & responsibilities for all personnel.",
+    "4": "Human Resources Security (HRS) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [
+    "SCRMS",
+    "CORE ESP Level 1 Foundational",
+    "CORE ESP Level 2 Critical Infrastructure",
+    "CORE ESP Level 3 Advanced Threats",
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ NIST NICE cybersecurity workforce framework alignment\n∙ Responsible, Accountable, Supporting, Consulted and Informed (RASCI) matrix",
+    "small": "∙ NIST NICE cybersecurity workforce framework alignment\n∙ Responsible, Accountable, Supporting, Consulted and Informed (RASCI) matrix",
+    "medium": "∙ NIST NICE cybersecurity workforce framework alignment\n∙ Responsible, Accountable, Supporting, Consulted and Informed (RASCI) matrix",
+    "large": "∙ NIST NICE cybersecurity workforce framework alignment\n∙ Responsible, Accountable, Supporting, Consulted and Informed (RASCI) matrix",
+    "enterprise": "∙ NIST NICE cybersecurity workforce framework alignment\n∙ Responsible, Accountable, Supporting, Consulted and Informed (RASCI) matrix"
+  },
+  "risks": [
+    "R-AC-2",
+    "R-AC-4",
+    "R-AM-1",
+    "R-AM-2",
+    "R-BC-1",
+    "R-BC-2",
+    "R-BC-3",
+    "R-BC-4",
+    "R-BC-5",
+    "R-EX-1",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-EX-5",
+    "R-EX-6",
+    "R-EX-7",
+    "R-GV-1",
+    "R-GV-2",
+    "R-GV-3",
+    "R-GV-4",
+    "R-GV-5",
+    "R-GV-6",
+    "R-GV-7",
+    "R-GV-8",
+    "R-IR-1",
+    "R-IR-2",
+    "R-IR-3",
+    "R-IR-4",
+    "R-SA-2",
+    "R-SC-1",
+    "R-SC-2",
+    "R-SC-3",
+    "R-SC-4",
+    "R-SC-5",
+    "R-SC-6"
+  ],
+  "threats": [
+    "NT-7",
+    "MT-1",
+    "MT-2",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Human Resources Security",
+  "crosswalks": {
+    "general-aicpa-pmf-2020": [
+      "M1.2-POF3"
+    ],
+    "general-aicpa-tsc-2017": [
+      "CC1.2",
+      "CC1.2-POF1",
+      "CC1.2-POF2",
+      "CC1.3",
+      "CC1.3-POF3",
+      "CC1.3-POF4",
+      "CC1.3-POF5",
+      "CC1.4-POF6",
+      "CC1.5-POF1",
+      "CC2.1-POF6",
+      "CC2.2",
+      "CC2.2-POF5",
+      "CC5.3-POF2",
+      "CC7.4-POF1"
+    ],
+    "general-apec-privacy-framework-2015": [
+      "9"
+    ],
+    "general-bsi-200-1-1-0": [
+      "7.2"
+    ],
+    "general-cobit-2019": [
+      "DSS06.03"
+    ],
+    "general-coso-2013": [
+      "2",
+      "3",
+      "14"
+    ],
+    "general-csa-cmm-4-1-0": [
+      "CEK-02",
+      "GRC-06",
+      "HRS-09"
+    ],
+    "general-csa-iot-2": [
+      "GVN-01"
+    ],
+    "general-iec-62443-2-1-2024": [
+      "ORG 1.3"
+    ],
+    "general-iec-62443-4-1-2018": [
+      "SM-2"
+    ],
+    "general-imo-maritime-cyber-risk-management-2025": [
+      "3.5.1"
+    ],
+    "general-iso-21434-2021": [
+      "RQ-05-07",
+      "RQ-06-01"
+    ],
+    "general-iso-22301-2019": [
+      "5.3",
+      "8.4.2.2",
+      "8.4.2.4(a)",
+      "8.4.2.4(b)"
+    ],
+    "general-iso-27001-2022": [
+      "5.3",
+      "7.3",
+      "7.3(b)"
+    ],
+    "general-iso-27002-2022": [
+      "5.2"
+    ],
+    "general-iso-27017-2015": [
+      "6.1.1"
+    ],
+    "general-iso-27018-2025": [
+      "5.2"
+    ],
+    "general-iso-27701-2025": [
+      "4.2",
+      "5.3",
+      "7.3"
+    ],
+    "general-iso-31000-2018": [
+      "5.4.3"
+    ],
+    "general-iso-42001-2023": [
+      "5.3",
+      "7.2",
+      "A.3.2"
+    ],
+    "general-mpa-csbp-5-3-1": [
+      "OR-3.1"
+    ],
+    "general-nist-100-1-ai-rmf": [
+      "GOVERN 2.0",
+      "GOVERN 2.1"
+    ],
+    "general-nist-600-1-gen-ai-profile": [
+      "GOVERN 1.5",
+      "GV-1.5-001"
+    ],
+    "general-nist-privacy-framework-1-0": [
+      "GV.PO-P2",
+      "GV.PO-P3",
+      "CM.PO-P2"
+    ],
+    "general-nist-800-37-r2": [
+      "TASK P-1"
+    ],
+    "general-nist-800-53-r4": [
+      "PM-13"
+    ],
+    "general-nist-800-53-r5-2": [
+      "PM-13",
+      "PS-09"
+    ],
+    "general-nist-800-53-r5-2-privacy": [
+      "PM-13"
+    ],
+    "general-nist-800-53-r5-2-low": [
+      "PS-09"
+    ],
+    "general-nist-800-66-r2": [
+      "164.308(a)(3)",
+      "164.310(a)",
+      "164.312(a)"
+    ],
+    "general-nist-800-82-r3": [
+      "PM-13",
+      "PS-09"
+    ],
+    "general-nist-800-82-r3-low": [
+      "PM-13",
+      "PS-09"
+    ],
+    "general-nist-800-82-r3-mod": [
+      "PM-13",
+      "PS-09"
+    ],
+    "general-nist-800-82-r3-high": [
+      "PM-13",
+      "PS-09"
+    ],
+    "general-nist-800-161-r1": [
+      "PM-13"
+    ],
+    "general-nist-800-161-r1-level-1": [
+      "PM-13"
+    ],
+    "general-nist-800-161-r1-level-2": [
+      "PM-13"
+    ],
+    "general-nist-800-171-r3": [
+      "03.01.22.a",
+      "03.06.04.a",
+      "03.06.05.d",
+      "03.07.06.a",
+      "03.08.02",
+      "03.15.03.b",
+      "03.16.03.b"
+    ],
+    "general-nist-800-171a-r3": [
+      "A.03.06.05.d"
+    ],
+    "general-nist-800-172": [
+      "3.9.1e"
+    ],
+    "general-nist-800-218": [
+      "PO.2",
+      "PO.2.1"
+    ],
+    "general-nist-csf-2-0": [
+      "GV.RM-05",
+      "GV.RR",
+      "GV.RR-02",
+      "ID.AM"
+    ],
+    "general-pci-dss-4-0-1": [
+      "1.1.2",
+      "2.1.2",
+      "3.1.2",
+      "3.7.8",
+      "4.1.2",
+      "5.1.2",
+      "6.1.2",
+      "7.1.2",
+      "8.1.2",
+      "9.1.2",
+      "10.1.2",
+      "11.1.2",
+      "12.1.3",
+      "12.10.1",
+      "A3.1.3"
+    ],
+    "general-pci-dss-4-0-1-saq-a": [
+      "12.10.1"
+    ],
+    "general-pci-dss-4-0-1-saq-a-ep": [
+      "12.1.3",
+      "12.10.1"
+    ],
+    "general-pci-dss-4-0-1-saq-b": [
+      "12.1.3",
+      "12.10.1"
+    ],
+    "general-pci-dss-4-0-1-saq-b-ip": [
+      "12.1.3",
+      "12.10.1"
+    ],
+    "general-pci-dss-4-0-1-saq-c": [
+      "12.1.3",
+      "12.10.1"
+    ],
+    "general-pci-dss-4-0-1-saq-c-vt": [
+      "12.10.1"
+    ],
+    "general-pci-dss-4-0-1-saq-d-merchant": [
+      "1.1.2",
+      "2.1.2",
+      "3.1.2",
+      "3.7.8",
+      "4.1.2",
+      "5.1.2",
+      "6.1.2",
+      "7.1.2",
+      "8.1.2",
+      "9.1.2",
+      "10.1.2",
+      "11.1.2",
+      "12.1.3",
+      "12.10.1"
+    ],
+    "general-pci-dss-4-0-1-saq-d-service-provider": [
+      "1.1.2",
+      "2.1.2",
+      "3.1.2",
+      "3.7.8",
+      "5.1.2",
+      "6.1.2",
+      "7.1.2",
+      "8.1.2",
+      "9.1.2",
+      "10.1.2",
+      "11.1.2",
+      "12.1.3",
+      "12.10.1"
+    ],
+    "general-pci-dss-4-0-1-saq-p2pe": [
+      "12.1.3",
+      "12.10.1"
+    ],
+    "general-tisax-6-0-3": [
+      "1.2.2",
+      "1.2.4",
+      "2.1.1",
+      "9.7.2"
+    ],
+    "usa-federal-dow-cert-rmm-1-2": [
+      "ADM:GG2.GP4",
+      "ADM:GG2.GP6",
+      "AM:GG2.GP4",
+      "AM:GG2.GP6",
+      "COMM:GG2.GP4",
+      "COMM:GG2.GP6",
+      "COMP:GG2.GP4",
+      "COMP:GG2.GP6",
+      "CTRL:GG2.GP4",
+      "CTRL:GG2.GP6",
+      "EC:GG2.GP4",
+      "EC:GG2.GP6",
+      "EF:GG2.GP4",
+      "EF:GG2.GP6",
+      "EXD:GG2.GP4",
+      "EXD:GG2.GP6",
+      "FRM:GG2.GP4",
+      "FRM:GG2.GP6",
+      "HRM:SG3.SP1",
+      "HRM:GG2.GP4",
+      "HRM:GG2.GP6",
+      "ID:GG2.GP4",
+      "ID:GG2.GP6",
+      "IMC:GG2.GP4",
+      "IMC:GG2.GP6",
+      "KIM:GG2.GP4",
+      "KIM:GG2.GP6",
+      "MA:GG2.GP4",
+      "MA:GG2.GP6",
+      "MON:GG2.GP4",
+      "MON:GG2.GP6",
+      "OPD:GG2.GP4",
+      "OPD:GG2.GP6",
+      "OPF:GG2.GP4",
+      "OPF:GG2.GP6",
+      "OTA:GG2.GP4",
+      "OTA:GG2.GP6",
+      "PM:GG2.GP4",
+      "PM:GG2.GP6",
+      "RISK:GG2.GP4",
+      "RISK:GG2.GP6",
+      "RRD:GG2.GP4",
+      "RRD:GG2.GP6",
+      "RRM:GG2.GP4",
+      "RRM:GG2.GP6",
+      "RTSE:GG2.GP4",
+      "RTSE:GG2.GP6",
+      "SC:GG2.GP4",
+      "SC:GG2.GP6",
+      "TM:GG2.GP4",
+      "TM:GG2.GP6",
+      "VAR:GG2.GP4",
+      "VAR:GG2.GP6",
+      "GG2.GP4",
+      "GG2.GP6"
+    ],
+    "usa-federal-dhs-cisa-tic-3-0": [
+      "3.UNI.UATRA"
+    ],
+    "usa-federal-fbi-cjis-6-0": [
+      "PS-9"
+    ],
+    "usa-federal-doe-c2m2-2-1": [
+      "THREAT-2a",
+      "RESPONSE-3a",
+      "WORKFORCE-3a",
+      "WORKFORCE-3b",
+      "WORKFORCE-3c",
+      "WORKFORCE-3d"
+    ],
+    "usa-federal-sro-fca-crm-2023": [
+      "609.930(b)(3)",
+      "609.930(c)(4)"
+    ],
+    "usa-federal-fda-21-cfr-part-11-2025": [
+      "11.10(i)"
+    ],
+    "usa-federal-gsa-fedramp-5-low": [
+      "PM-13",
+      "PS-09"
+    ],
+    "usa-federal-gsa-fedramp-5-mod": [
+      "PM-13",
+      "PS-09"
+    ],
+    "usa-federal-gsa-fedramp-5-high": [
+      "PM-13",
+      "PS-09"
+    ],
+    "usa-federal-gsa-fedramp-5-li-saas": [
+      "PM-13",
+      "PS-09"
+    ],
+    "usa-federal-omb-fipps-1973": [
+      "2"
+    ],
+    "usa-federal-law-hipaa-simplification-2013": [
+      "164.308(a)(3)(ii)(B)",
+      "164.310(a)(2)(i)",
+      "164.312(a)(1)",
+      "164.530(a)(2)"
+    ],
+    "usa-federal-law-hipaa-security-rule-2013": [
+      "164.308(a)(3)(ii)(B)",
+      "164.310(a)(2)(i)",
+      "164.312(a)(1)"
+    ],
+    "usa-federal-irs-1075-2021": [
+      "PS-9"
+    ],
+    "usa-federal-cms-marse-2-0": [
+      "PM-13"
+    ],
+    "usa-federal-nerc-cip-2024": [
+      "CIP-008-6 1.3",
+      "CIP-009-6 1.2"
+    ],
+    "usa-federal-nispom-2020": [
+      "§117.18(c)(2)",
+      "§117.18(c)(2)(i)",
+      "§117.18(c)(2)(ii)",
+      "§117.18(c)(2)(iii)",
+      "§117.18(c)(2)(iv)",
+      "§117.18(c)(2)(v)",
+      "§117.18(c)(2)(vi)",
+      "§117.18(c)(2)(vii)",
+      "§117.18(c)(2)(vii)(A)",
+      "§117.18(c)(2)(vii)(B)",
+      "§117.18(c)(2)(vii)(C)",
+      "§117.18(c)(2)(vii)(D)",
+      "§117.18(c)(2)(vii)(E)",
+      "§117.18(c)(2)(vii)(F)",
+      "§117.18(c)(2)(vii)(G)",
+      "§117.18(c)(2)(vii)(H)",
+      "§117.18(c)(2)(vii)(I)",
+      "§117.18(c)(3)",
+      "§117.18(c)(3)(i)",
+      "§117.18(c)(3)(ii)",
+      "§117.18(c)(3)(iii)",
+      "§117.18(c)(4)",
+      "§117.18(c)(4)(i)",
+      "§117.18(c)(4)(ii)",
+      "§117.18(c)(4)(iii)",
+      "§117.18(c)(4)(iv)",
+      "§117.18(c)(4)(v)",
+      "§117.18(c)(4)(vi)"
+    ],
+    "usa-federal-dow-safeguarding-nnpi-2010": [
+      "9-2.e"
+    ],
+    "usa-state-il-ipa-2009": [
+      "35(a)(3)",
+      "37(a)(3)"
+    ],
+    "usa-state-ma-201-cmr-17-2008": [
+      "17.03(2)(b)2"
+    ],
+    "usa-state-ny-dfs-23-nycrr500-2023-amd2": [
+      "500.10(a)(1)",
+      "500.16(a)(2)(ii)"
+    ],
+    "usa-state-tx-dir-security-control-standards-catalog-2-2": [
+      "PS-09"
+    ],
+    "emea-eu-eba-ict-srm-2025": [
+      "3.3.1(12)",
+      "3.3.2(15)"
+    ],
+    "emea-eu-dora-2023": [
+      "Article 5.2(c)"
+    ],
+    "emea-eu-gdpr-2016": [
+      "Article 32.4"
+    ],
+    "emea-eu-nis2-annex-2024": [
+      "1.1.1(g)",
+      "1.2.1",
+      "1.2.4",
+      "1.2.6",
+      "2.1.2(i)",
+      "3.1.2(c)",
+      "3.1.3",
+      "4.2.4(c)",
+      "4.3.2(a)",
+      "10.1.1"
+    ],
+    "emea-deu-c5-2020": [
+      "PSS-08"
+    ],
+    "emea-isr-cmo-1-0": [
+      "4.13",
+      "18.10"
+    ],
+    "emea-sau-cgiot-2024": [
+      "1-3-1",
+      "1-3-2",
+      "1-8-1"
+    ],
+    "emea-sau-otcc-1-2022": [
+      "1-2",
+      "1-2-1",
+      "1-2-1-1"
+    ],
+    "emea-sau-pdpl-2023": [
+      "Article 30.2"
+    ],
+    "emea-sau-sacs-002-2022": [
+      "TPC-26"
+    ],
+    "emea-sau-sama-csf-1-2017": [
+      "3.1.4"
+    ],
+    "emea-esp-boe-a-2022-7191": [
+      "Article 11.1",
+      "Article 11.2",
+      "Article 11.3",
+      "Article 13.1",
+      "Article 13.2",
+      "Article 13.2(a)",
+      "Article 13.2(b)",
+      "Article 13.2(c)",
+      "Article 13.2(d)",
+      "Article 13.3",
+      "Article 13.4",
+      "Article 13.5"
+    ],
+    "emea-esp-decree-311-2022": [
+      "11.1",
+      "11.2",
+      "11.3",
+      "13.1",
+      "13.2",
+      "13.2(a)",
+      "13.2(b)",
+      "13.2(c)",
+      "13.2(d)",
+      "13.3",
+      "13.4",
+      "13.5"
+    ],
+    "emea-esp-ccn-stic-825-2023": [
+      "6.4 [ORG.4]",
+      "8.2.1 [MP.PER.1]",
+      "8.2.2 [MP.PER.2]"
+    ],
+    "emea-gbr-def-stan-05-138-2024": [
+      "1102",
+      "2321",
+      "3101",
+      "3102"
+    ],
+    "emea-gbr-def-stan-05-138-l1-2024": [
+      "1102",
+      "2321",
+      "3101"
+    ],
+    "emea-gbr-def-stan-05-138-l2-2024": [
+      "1102",
+      "2321",
+      "3101"
+    ],
+    "emea-gbr-def-stan-05-138-l3-2024": [
+      "1102",
+      "2321",
+      "3102"
+    ],
+    "apac-aus-ism-2024-june": [
+      "ISM-0717",
+      "ISM-0720",
+      "ISM-0724",
+      "ISM-0725",
+      "ISM-0726",
+      "ISM-0731",
+      "ISM-0732",
+      "ISM-0733",
+      "ISM-0734",
+      "ISM-0735"
+    ],
+    "apac-aus-ps-cps-234-2019": [
+      "14"
+    ],
+    "apac-chn-data-security-law-2021": [
+      "27"
+    ],
+    "apac-ind-dpdpa-2023": [
+      "6(9)",
+      "10(2)(a)(iv)"
+    ],
+    "apac-ind-sebi-2024": [
+      "DE.DP.S1",
+      "GV.RR.S2",
+      "PR.AT.S4",
+      "PR.AT.S5",
+      "RS.CO.S1"
+    ],
+    "apac-jpn-ppi-2020": [
+      "21"
+    ],
+    "apac-jpn-ismap": [
+      "4.5.2.2",
+      "6.1.1",
+      "6.1.1.1",
+      "6.1.1.2",
+      "6.1.1.3",
+      "6.1.1.4",
+      "6.1.1.5",
+      "6.1.1.6",
+      "6.1.1.7",
+      "6.1.1.13.PB"
+    ],
+    "apac-nzl-hisf-mlhsp-2023": [
+      "HHSP02",
+      "HHSP23",
+      "HML02",
+      "HML23"
+    ],
+    "apac-nzl-hisf-microsmall-2023": [
+      "HMS01"
+    ],
+    "apac-nzl-hisf-suppliers-2023": [
+      "HSUP02",
+      "HSUP21"
+    ],
+    "apac-nzl-ism-3-9": [
+      "3.3.4.C.01",
+      "3.3.4.C.02",
+      "3.3.4.C.03",
+      "3.3.4.C.04",
+      "3.3.4.C.05",
+      "3.3.5.C.01",
+      "3.3.5.C.02",
+      "3.3.6.C.01",
+      "3.3.6.C.02",
+      "3.3.6.C.03",
+      "3.3.6.C.04",
+      "3.3.6.C.05",
+      "3.3.6.C.06",
+      "3.3.7.C.01",
+      "3.3.8.C.01",
+      "3.3.8.C.02",
+      "3.3.8.C.03",
+      "3.3.8.C.04",
+      "3.3.8.C.05",
+      "3.3.9.C.01",
+      "3.3.10.C.01",
+      "3.3.10.C.02",
+      "3.3.10.C.03",
+      "3.3.10.C.04",
+      "3.3.11.C.01",
+      "3.3.12.C.01",
+      "3.3.13.C.01",
+      "3.3.13.C.02",
+      "3.3.14.C.01",
+      "3.3.14.C.02",
+      "3.3.14.C.03",
+      "3.3.15.C.01",
+      "3.4.10.C.01",
+      "3.4.10.C.02"
+    ],
+    "amaericas-can-osfi-self-assessment": [
+      "1.2"
+    ],
+    "americas-can-itsp-10-171-2025": [
+      "03.01.22.A",
+      "03.06.04.A",
+      "03.06.05.D",
+      "03.07.06.A",
+      "03.08.02",
+      "03.15.03.B",
+      "03.16.03.B"
+    ]
+  }
+}

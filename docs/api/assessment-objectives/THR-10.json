@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "THR-10",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "THR-10",
+      "ao_id": "THR-10_A01",
+      "objective": "on at least an annual basis, a threat assessment is performed to identify and assess applicable internal and external threats.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "THR-10",
+      "ao_id": "THR-10_A02",
+      "objective": "a threat catalog captures applicable internal and external threats from the threat assessment.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "THR-10",
+      "ao_id": "THR-10_A03",
+      "objective": "each item in the threat catalog is prioritized, based on the potential threat to the organization.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

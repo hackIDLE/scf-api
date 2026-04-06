@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-RSK-13",
+  "area": "Risk Management",
+  "artifact_name": "Risk Treatment Options",
+  "artifact_description": "Documented evidence of organization-approved risk treatment options.",
+  "scf_controls": [
+    "RSK-06.3"
+  ],
+  "cmmc_mapping": ""
+}

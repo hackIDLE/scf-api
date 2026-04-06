@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "VPM-05.2",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "VPM-05.2",
+      "ao_id": "VPM-05.2_A01",
+      "objective": "automated mechanisms to determine if applicable security-relevant software and firmware updates are installed on system components are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-02(02)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least monthly",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-05.2",
+      "ao_id": "VPM-05.2_A02",
+      "objective": "the frequency at which to determine if applicable security-relevant software and firmware updates are installed on system components is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-02(02)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least monthly",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-05.2",
+      "ao_id": "VPM-05.2_A03",
+      "objective": "system components have applicable security-relevant software and firmware updates installed frequency using automated mechanisms.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-02(02)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least monthly",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-05.2",
+      "ao_id": "VPM-05.2_A04",
+      "objective": "the system components requiring automated patch management tools to facilitate flaw remediation are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-02(04)_ODP",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-05.2",
+      "ao_id": "VPM-05.2_A05",
+      "objective": "automated patch management tools are employed to facilitate flaw remediation to components.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-02(04)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

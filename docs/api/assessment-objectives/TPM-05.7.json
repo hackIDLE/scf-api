@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "TPM-05.7",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TPM-05.7",
+      "ao_id": "TPM-05.7_A01",
+      "objective": "contracts with third-parties include \"break clauses\" to enable the organization to exit a contract due to a third-party's non-compliance with contract requirements for cybersecurity / data privacy controls.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

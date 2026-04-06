@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-IRO-03",
+  "area": "Incident Response",
+  "artifact_name": "Incident Tracking",
+  "artifact_description": "Documented evidence of a centralized repository to track cybersecurity & data privacy incidents.",
+  "scf_controls": [
+    "IRO-02",
+    "IRO-09"
+  ],
+  "cmmc_mapping": ""
+}

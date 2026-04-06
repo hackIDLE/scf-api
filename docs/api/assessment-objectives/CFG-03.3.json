@@ -1,0 +1,176 @@
+{
+  "scf_control_id": "CFG-03.3",
+  "total": 17,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CFG-03.3",
+      "ao_id": "CFG-03.3_A01",
+      "objective": "a policy and/or process specifying whether whitelisting or blacklisting is to be implemented is specified.",
+      "pptdf": "Process",
+      "origin": "171A_3.4.8[a]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03.3",
+      "ao_id": "CFG-03.3_A02",
+      "objective": "the software allowed to execute under whitelisting or denied use under blacklisting is specified.",
+      "pptdf": "Technology",
+      "origin": "171A_3.4.8[b]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03.3",
+      "ao_id": "CFG-03.3_A03",
+      "objective": "whitelisting to allow the execution of authorized software or blacklisting to prevent the use of unauthorized software is implemented as specified.",
+      "pptdf": "Technology",
+      "origin": "171A_3.4.8[c]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03.3",
+      "ao_id": "CFG-03.3_A04",
+      "objective": "registration requirements for functions, ports, protocols and services are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-07(03)_ODP",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03.3",
+      "ao_id": "CFG-03.3_A05",
+      "objective": "an allow-all, deny-by-exception policy is employed to prohibit the execution of unauthorized software programs on the system.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_CM-07(04)(b)",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03.3",
+      "ao_id": "CFG-03.3_A06",
+      "objective": "the list of unauthorized software programs is reviewed / updated organization-defined frequency.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-07(04)(c)",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "at least quarterly or when there is a change",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03.3",
+      "ao_id": "CFG-03.3_A07",
+      "objective": "organization-defined registration requirements are complied with.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_CM-07(03)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03.3",
+      "ao_id": "CFG-03.3_A08",
+      "objective": "software programs not authorized to execute on the system are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-07(04)_ODP[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03.3",
+      "ao_id": "CFG-03.3_A09",
+      "objective": "frequency at which to review / update the list of unauthorized software programs is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-07(04)_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least quarterly or when there is a change",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03.3",
+      "ao_id": "CFG-03.3_A10",
+      "objective": "organization-defined software programs are identified.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-07(04)(a)\n53A_R5_CM-07(05)(a)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03.3",
+      "ao_id": "CFG-03.3_A11",
+      "objective": "software programs authorized to execute on the system are identified.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-07(05)_ODP[01]\n171A_R3_A.03.04.08.a",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03.3",
+      "ao_id": "CFG-03.3_A12",
+      "objective": "the frequency at which to review and update the list of authorized software programs is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-07(05)_ODP[02]\n171A_R3_A.03.04.08.ODP[01]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "at least quarterly or when there is a change",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03.3",
+      "ao_id": "CFG-03.3_A13",
+      "objective": "a deny-all, allow-by-exception policy for the execution of authorized software programs on the system is implemented.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_CM-07(05)(b)\n171A_R3_A.03.04.08.b",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03.3",
+      "ao_id": "CFG-03.3_A14",
+      "objective": "the list of authorized software programs is reviewed / updated organization-defined frequency.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-07(05)(c)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least quarterly or when there is a change",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03.3",
+      "ao_id": "CFG-03.3_A15",
+      "objective": "the automatic execution of mobile code in organization-defined software applications is prevented.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-18(04)[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03.3",
+      "ao_id": "CFG-03.3_A16",
+      "objective": "organization-defined actions are enforced prior to executing mobile code.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-18(04)[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03.3",
+      "ao_id": "CFG-03.3_A17",
+      "objective": "the use of mobile code is controlled.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.13.13.b[03]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

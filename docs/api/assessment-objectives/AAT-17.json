@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-17",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-17",
+      "ao_id": "AAT-17_A01",
+      "objective": "the organization proactively identifies unanticipated and emergent Artificial Intelligence (AI) and Autonomous Technologies (AAT)-related risks.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-17",
+      "ao_id": "AAT-17_A02",
+      "objective": "the organization tracks existing, unanticipated and emergent Artificial Intelligence (AI) and Autonomous Technologies (AAT)-related risks in a Plan of Action & Milestones (POA&M), or similar risk register.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

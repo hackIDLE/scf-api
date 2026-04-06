@@ -1,0 +1,203 @@
+{
+  "control_id": "AST-16",
+  "title": "Bring Your Own Device (BYOD) Usage",
+  "family": "AST",
+  "description": "Mechanisms exist to implement and govern a Bring Your Own Device (BYOD) program to reduce risk associated with personally-owned devices in the workplace.",
+  "scf_question": "Does the organization implement and govern a Bring Your Own Device (BYOD) program to reduce risk associated with personally-owned devices in the workplace?",
+  "relative_weight": 10,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [],
+  "pptdf": "Process",
+  "nist_csf_function": "Identify",
+  "scrm_focus": {
+    "strategic": false,
+    "operational": true,
+    "tactical": true
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "2": "Asset Management (AST) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with AST domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with AST domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with AST  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Asset management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Asset management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ The IT department establishes, maintains and updates an inventory that contains a listing of all organizational-owned TAASD, at a minimum covering common devices (e.g., laptops, workstations and servers).\n▪ The use of personal devices (e.g., Bring Your Own Device (BYOD), as part of acceptable and unacceptable behaviors are primarily administrative and preventative in nature.",
+    "3": "Asset Management (AST) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with AST domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with AST domain capabilities are well-documented and kept current by process owners.\n▪ An IT Asset Management (ITAM) team, or similar function, is appropriately staffed and supported to implement and maintain AST domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of ITAM operations (e.g., ITAM platform, (e.g., Configuration Management Database (CMBD) Asset Management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with AST domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to implement and govern a Bring Your Own Device (BYOD) program to reduce risk associated with personally-owned devices in the workplace.",
+    "4": "Asset Management (AST) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [
+    "SCRMS",
+    "CORE ESP Level 1 Foundational",
+    "CORE ESP Level 2 Critical Infrastructure",
+    "CORE ESP Level 3 Advanced Threats",
+    "CORE Fundamentals",
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ Rules of Behavior (RoB) / Acceptable Use\n∙ Mobile Device Management (MDM) solution (e.g., Microsoft Intune with M365 Business Premium)",
+    "small": "∙ Rules of Behavior (RoB) / Acceptable Use\n∙ Mobile Device Management (MDM) solution (e.g., Microsoft Intune, Jamf Now)\n∙ BYOD-specific security policy with enrollment requirements",
+    "medium": "∙ Rules of Behavior (RoB) / Acceptable Use\n∙ Mobile Device Management (MDM) solution (e.g., Microsoft Intune, Jamf, Mosyle)\n∙ Containerization / MAM (Mobile Application Management) for BYOD data separation",
+    "large": "∙ Rules of Behavior (RoB) / Acceptable Use\n∙ Enterprise MDM solution (e.g., Microsoft Intune, VMware Workspace ONE)\n∙ Mobile Application Management (MAM) with corporate data containerization\n∙ Conditional access policies for BYOD (e.g., Microsoft Entra Conditional Access)",
+    "enterprise": "∙ Enterprise MDM/MAM solution (e.g., VMware Workspace ONE, Microsoft Intune, MobileIron)\n∙ Conditional Access policies enforcing compliance posture\n∙ BYOD security policy with attestation and enrollment controls\n∙ DLP policies applied to corporate data on personal devices"
+  },
+  "risks": [
+    "R-AC-1",
+    "R-AC-4",
+    "R-AM-3",
+    "R-BC-2",
+    "R-BC-3",
+    "R-BC-4",
+    "R-BC-5",
+    "R-EX-1",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-EX-5",
+    "R-EX-6",
+    "R-EX-7",
+    "R-GV-1",
+    "R-GV-2",
+    "R-GV-3",
+    "R-GV-4",
+    "R-GV-5",
+    "R-GV-6",
+    "R-GV-7",
+    "R-GV-8",
+    "R-IR-1",
+    "R-IR-2",
+    "R-IR-4",
+    "R-SA-1",
+    "R-SA-2",
+    "R-SC-1",
+    "R-SC-2",
+    "R-SC-3",
+    "R-SC-4",
+    "R-SC-5",
+    "R-SC-6"
+  ],
+  "threats": [
+    "NT-7",
+    "MT-1",
+    "MT-2",
+    "MT-5",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-10",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Asset Management",
+  "crosswalks": {
+    "general-cis-csc-8-1": [
+      "4.11"
+    ],
+    "general-cis-csc-8-1-ig2": [
+      "4.11"
+    ],
+    "general-cis-csc-8-1-ig3": [
+      "4.11"
+    ],
+    "general-nist-800-171-r3": [
+      "03.01.18.a"
+    ],
+    "usa-federal-dow-zt-roadmap-1-1": [
+      "2.4",
+      "2.4.2"
+    ],
+    "emea-sau-cscc-1-2019": [
+      "2-5"
+    ],
+    "emea-sau-ecc-1-2018": [
+      "2-6-1",
+      "2-6-2"
+    ],
+    "emea-sau-sama-csf-1-2017": [
+      "3.3.10"
+    ],
+    "emea-gbr-def-stan-05-138-2024": [
+      "2322"
+    ],
+    "emea-gbr-def-stan-05-138-l1-2024": [
+      "2322"
+    ],
+    "emea-gbr-def-stan-05-138-l2-2024": [
+      "2322"
+    ],
+    "emea-gbr-def-stan-05-138-l3-2024": [
+      "2322"
+    ],
+    "apac-aus-ism-2024-june": [
+      "ISM-1297"
+    ],
+    "apac-nzl-ism-3-9": [
+      "8.1.12.C.01",
+      "21.1.12.C.01",
+      "21.4.7.C.01",
+      "21.4.7.C.02",
+      "21.4.8.C.01",
+      "21.4.8.C.02",
+      "21.4.9.C.01",
+      "21.4.10.C.01",
+      "21.4.10.C.02",
+      "21.4.10.C.03",
+      "21.4.10.C.04",
+      "21.4.10.C.05",
+      "21.4.10.C.06",
+      "21.4.10.C.07",
+      "21.4.10.C.08",
+      "21.4.10.C.09",
+      "21.4.10.C.10",
+      "21.4.10.C.11",
+      "21.4.10.C.12",
+      "21.4.10.C.13",
+      "21.4.10.C.14",
+      "21.4.10.C.15",
+      "21.4.10.C.16",
+      "21.4.11.C.01",
+      "21.4.11.C.02",
+      "21.4.11.C.03",
+      "21.4.11.C.04",
+      "21.4.11.C.05",
+      "21.4.11.C.06",
+      "21.4.11.C.07",
+      "21.4.11.C.08",
+      "21.4.11.C.09",
+      "21.4.11.C.10",
+      "21.4.11.C.11",
+      "21.4.11.C.12",
+      "21.4.11.C.13",
+      "21.4.11.C.14",
+      "21.4.11.C.15",
+      "21.4.11.C.16",
+      "21.4.11.C.17",
+      "21.4.11.C.18",
+      "21.4.11.C.19",
+      "21.4.11.C.20",
+      "21.4.13.C.01",
+      "21.4.13.C.02",
+      "21.4.13.C.03",
+      "21.4.13.C.04",
+      "21.4.13.C.05",
+      "21.4.13.C.06",
+      "21.4.13.C.07",
+      "21.4.13.C.08",
+      "21.4.13.C.09",
+      "21.4.13.C.10",
+      "21.4.13.C.11",
+      "21.4.14.C.01",
+      "21.4.14.C.02",
+      "21.4.14.C.03",
+      "21.4.14.C.04"
+    ],
+    "apac-sgp-mas-trm-2021": [
+      "11.3.7"
+    ],
+    "americas-can-itsp-10-171-2025": [
+      "03.01.18.A"
+    ]
+  }
+}

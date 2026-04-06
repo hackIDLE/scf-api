@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "CPL-11",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CPL-11",
+      "ao_id": "CPL-11_A01",
+      "objective": "technologies and/or data that have potential \"dual-use” capabilities for civil and military are identified.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-11",
+      "ao_id": "CPL-11_A02",
+      "objective": "technologies and/or data that have potential use by terrorists are identified.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-11",
+      "ao_id": "CPL-11_A03",
+      "objective": "technologies and/or data that have potential Weapons of Mass Destruction (WMD) applications are identified.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

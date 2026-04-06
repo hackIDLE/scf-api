@@ -1,0 +1,226 @@
+{
+  "scf_control_id": "CFG-03.1",
+  "total": 22,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CFG-03.1",
+      "ao_id": "CFG-03.1_A01",
+      "objective": "the frequency at which to review the system to identify unnecessary or nonsecure functions, ports, protocols, connections, or services is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-07(01)(a)\n53A_R5_CM-07(01)_ODP[01]\n171A_R3_A.03.04.06.ODP[06]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least quarterly or when there is a change",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03.1",
+      "ao_id": "CFG-03.1_A02",
+      "objective": "organization-defined functions, ports, protocols, software and services deemed to be unnecessary and/or non-secure are disabled or removed.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_CM-07(01)(b)[01]\n53A_R5_CM-07(01)(b)[02]\n53A_R5_CM-07(01)(b)[03]\n53A_R5_CM-07(01)(b)[04]\n53A_R5_CM-07(01)(b)[05]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03.1",
+      "ao_id": "CFG-03.1_A03",
+      "objective": "essential programs are defined.",
+      "pptdf": "Process",
+      "origin": "171A_3.4.7[a]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03.1",
+      "ao_id": "CFG-03.1_A04",
+      "objective": "essential functions are defined.",
+      "pptdf": "Process",
+      "origin": "171A_3.4.7[d]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03.1",
+      "ao_id": "CFG-03.1_A05",
+      "objective": "essential ports are defined.",
+      "pptdf": "Process",
+      "origin": "171A_3.4.7[g]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03.1",
+      "ao_id": "CFG-03.1_A06",
+      "objective": "essential protocols are defined.",
+      "pptdf": "Process",
+      "origin": "171A_3.4.7[j]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03.1",
+      "ao_id": "CFG-03.1_A07",
+      "objective": "essential services are defined.",
+      "pptdf": "Process",
+      "origin": "171A_3.4.7[m]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03.1",
+      "ao_id": "CFG-03.1_A08",
+      "objective": "the use of nonessential programs is defined.",
+      "pptdf": "Process",
+      "origin": "171A_3.4.7[b]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03.1",
+      "ao_id": "CFG-03.1_A09",
+      "objective": "the use of nonessential programs is restricted, disabled or prevented as defined.",
+      "pptdf": "Technology",
+      "origin": "171A_3.4.7[c]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03.1",
+      "ao_id": "CFG-03.1_A10",
+      "objective": "the use of nonessential functions is defined.",
+      "pptdf": "Process",
+      "origin": "171A_3.4.7[e]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03.1",
+      "ao_id": "CFG-03.1_A11",
+      "objective": "the use of nonessential functions is restricted, disabled or prevented as defined.",
+      "pptdf": "Technology",
+      "origin": "171A_3.4.7[f]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03.1",
+      "ao_id": "CFG-03.1_A12",
+      "objective": "the use of nonessential ports is defined.",
+      "pptdf": "Process",
+      "origin": "171A_3.4.7[h]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03.1",
+      "ao_id": "CFG-03.1_A13",
+      "objective": "the use of nonessential protocols is defined.",
+      "pptdf": "Process",
+      "origin": "171A_3.4.7[k]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03.1",
+      "ao_id": "CFG-03.1_A14",
+      "objective": "the use of nonessential ports is restricted, disabled or prevented as defined.",
+      "pptdf": "Technology",
+      "origin": "171A_3.4.7[i]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03.1",
+      "ao_id": "CFG-03.1_A15",
+      "objective": "the use of nonessential protocols is restricted, disabled or prevented as defined.",
+      "pptdf": "Technology",
+      "origin": "171A_3.4.7[l]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03.1",
+      "ao_id": "CFG-03.1_A16",
+      "objective": "the use of nonessential services is defined.",
+      "pptdf": "Process",
+      "origin": "171A_3.4.7[n]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03.1",
+      "ao_id": "CFG-03.1_A17",
+      "objective": "the use of nonessential services is restricted, disabled or prevented as defined.",
+      "pptdf": "Technology",
+      "origin": "171A_3.4.7[o]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03.1",
+      "ao_id": "CFG-03.1_A18",
+      "objective": "functions to be disabled or removed when deemed unnecessary or non-secure are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-07(01)_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03.1",
+      "ao_id": "CFG-03.1_A19",
+      "objective": "ports to be disabled or removed when deemed unnecessary or non-secure are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-07(01)_ODP[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03.1",
+      "ao_id": "CFG-03.1_A20",
+      "objective": "protocols to be disabled or removed when deemed unnecessary or non-secure are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-07(01)_ODP[04]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03.1",
+      "ao_id": "CFG-03.1_A21",
+      "objective": "software to be disabled or removed when deemed unnecessary or non-secure is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-07(01)_ODP[05]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03.1",
+      "ao_id": "CFG-03.1_A22",
+      "objective": "services to be disabled or removed when deemed unnecessary or non-secure are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-07(01)_ODP[06]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

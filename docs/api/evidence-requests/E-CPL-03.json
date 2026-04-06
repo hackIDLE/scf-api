@@ -1,0 +1,13 @@
+{
+  "erl_id": "E-CPL-03",
+  "area": "Compliance",
+  "artifact_name": "Shared Responsibility Matrix (SRM) / Controls Responsibility Matrix (CRM)",
+  "artifact_description": "Documented evidence of a Controls Responsibility Matrix (CRM), or similar documentation, that identifies the stakeholder involved in executing assigned controls (e.g., Responsible, Accountable, Supportive, Consulted & Informed (RASCI) matrix).",
+  "scf_controls": [
+    "AST-01.2",
+    "AST-03",
+    "CLD-06.1",
+    "TPM-05.4"
+  ],
+  "cmmc_mapping": ""
+}

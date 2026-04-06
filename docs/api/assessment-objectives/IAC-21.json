@@ -1,0 +1,86 @@
+{
+  "scf_control_id": "IAC-21",
+  "total": 8,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-21",
+      "ao_id": "IAC-21_A01",
+      "objective": "organization-defined systems or system components implement the security design principle of least privilege.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SA-08(14)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-21",
+      "ao_id": "IAC-21_A02",
+      "objective": "privileged accounts are identified.",
+      "pptdf": "Process",
+      "origin": "171A_3.1.5[a]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-21",
+      "ao_id": "IAC-21_A03",
+      "objective": "access to privileged accounts is authorized in accordance with the principle of least privilege.",
+      "pptdf": "Technology",
+      "origin": "171A_3.1.5[b]\n53A_R5_AC-06",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-21",
+      "ao_id": "IAC-21_A04",
+      "objective": "systems or system components that implement the security design principle of least privilege are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-08(14)_ODP",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-21",
+      "ao_id": "IAC-21_A05",
+      "objective": "approved authorizations for logical access to system resources are enforced in accordance with applicable access control policies.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.01.02[02]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-21",
+      "ao_id": "IAC-21_A06",
+      "objective": "system access for users (or processes acting on behalf of users) is authorized only when necessary to accomplish assigned organizational tasks.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.01.05.a",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-21",
+      "ao_id": "IAC-21.1_A01",
+      "objective": "security functions are identified.",
+      "pptdf": "Process",
+      "origin": "171A_3.1.5[c]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-21",
+      "ao_id": "IAC-21.1_A02",
+      "objective": "access to security functions is authorized in accordance with the principle of least privilege.",
+      "pptdf": "Technology",
+      "origin": "171A_3.1.5[d]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

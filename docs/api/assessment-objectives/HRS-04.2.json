@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "HRS-04.2",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "HRS-04.2",
+      "ao_id": "HRS-04.2_A01",
+      "objective": "individuals accessing a system, application or service processing, storing or transmitting types of sensitive / regulated data that require formal indoctrination are formally indoctrinated for all of the relevant types of information to which they have access on the system.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PS-03(02)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

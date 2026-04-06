@@ -1,0 +1,86 @@
+{
+  "scf_control_id": "MON-12",
+  "total": 8,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MON-12",
+      "ao_id": "MON-12_A01",
+      "objective": "user session auditing practices are defined (e.g., record, view, hear or log).",
+      "pptdf": "Process",
+      "origin": "53A_R5_AU-14_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-12",
+      "ao_id": "MON-12_A02",
+      "objective": "users or roles who can audit the content of a user session are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AU-14_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-12",
+      "ao_id": "MON-12_A03",
+      "objective": "circumstances under which the content of a user session can be audited are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AU-14_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-12",
+      "ao_id": "MON-12_A04",
+      "objective": "designated users or roles are provided with the capability to audit the content of a user session under organization-defined circumstances.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AU-14a.[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-12",
+      "ao_id": "MON-12_A05",
+      "objective": "the capability for organization's the content of a user session under organization-defined circumstances is implemented.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AU-14a.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-12",
+      "ao_id": "MON-12_A06",
+      "objective": "session auditing activities are developed in consultation with legal counsel and in accordance with applicable laws, executive orders, directives, regulations, policies, standards and guidelines.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AU-14b.[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-12",
+      "ao_id": "MON-12_A07",
+      "objective": "session auditing activities are integrated in consultation with legal counsel and in accordance with applicable laws, executive orders, directives, regulations, policies, standards and guidelines.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AU-14b.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-12",
+      "ao_id": "MON-12_A08",
+      "objective": "session auditing activities are used in consultation with legal counsel and in accordance with applicable laws, executive orders, directives, regulations, policies, standards and guidelines.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AU-14b.[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

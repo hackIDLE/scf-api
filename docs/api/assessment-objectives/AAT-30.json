@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-30",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-30",
+      "ao_id": "AAT-30_A01",
+      "objective": "AI agent actions include non-repudiation to determine accountability.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-30",
+      "ao_id": "AAT-30_A02",
+      "objective": "AI agent actions are able to be forensically examined to determine accountability.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

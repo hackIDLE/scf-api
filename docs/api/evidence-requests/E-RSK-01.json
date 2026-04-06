@@ -1,0 +1,13 @@
+{
+  "erl_id": "E-RSK-01",
+  "area": "Risk Management",
+  "artifact_name": "Risk Management Program (RMP)",
+  "artifact_description": "Documented evidence of a Risk Management Program (RMP). This is program-level documentation in the form of a runbook, playbook or a similar format provides guidance on organizational practices that support existing policies and standards.",
+  "scf_controls": [
+    "RSK-01",
+    "RSK-01.1",
+    "RSK-02",
+    "RSK-12"
+  ],
+  "cmmc_mapping": ""
+}

@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "IAC-05.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-05.1",
+      "ao_id": "IAC-05.1_A01",
+      "objective": "third-party service providers provide the organization with current and accurate information for any third-party user with access to the organization's data or assets.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

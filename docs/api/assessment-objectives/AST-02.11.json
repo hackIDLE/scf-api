@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "AST-02.11",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AST-02.11",
+      "ao_id": "AST-02.11_A01",
+      "objective": "personnel or roles from which to receive an acknowledgement is/are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-08(09)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-02.11",
+      "ao_id": "AST-02.11_A02",
+      "objective": "system components are assigned to a system.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-08(09)(a)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-02.11",
+      "ao_id": "AST-02.11_A03",
+      "objective": "an acknowledgement of the component assignment is received from organization-defined personnel or roles.",
+      "pptdf": "People",
+      "origin": "53A_R5_CM-08(09)(b)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

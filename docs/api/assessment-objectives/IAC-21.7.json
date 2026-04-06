@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "IAC-21.7",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-21.7",
+      "ao_id": "IAC-21.7_A01",
+      "objective": "software to be prevented from executing at higher privilege levels than users executing the software is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-06(08)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "any software except software explicitly documented",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-21.7",
+      "ao_id": "IAC-21.7_A02",
+      "objective": "organization-defined software is prevented from executing at higher privilege levels than users executing the software.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-06(08)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "any software except software explicitly documented",
+      "org_defined_parameters": ""
+    }
+  ]
+}

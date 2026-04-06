@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "TDA-02.7",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-02.7",
+      "ao_id": "TDA-02.7_A01",
+      "objective": "cybersecurity / data privacy representatives to be included in the configuration change management and control process are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-10(07)_ODP[01]\n53A_R5_SA-10(07)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-02.7",
+      "ao_id": "TDA-02.7_A02",
+      "objective": "configuration change management and control processes in which cybersecurity / data privacy representatives are required to be included are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-10(07)_ODP[03]\n53A_R5_SA-10(07)_ODP[04]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-02.7",
+      "ao_id": "TDA-02.7_A03",
+      "objective": "organization-defined cybersecurity / data privacy representatives are required to be included in the organization-defined configuration change management and control processes.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-10(07)[01]\n53A_R5_SA-10(07)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

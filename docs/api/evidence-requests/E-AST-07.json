@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-AST-07",
+  "area": "Asset Management",
+  "artifact_name": "Cyber-Physical Systems (CPS)",
+  "artifact_description": "Documented evidence of an inventory of the organization's physical assets that process functions based on software and networks.",
+  "scf_controls": [
+    "AST-02",
+    "EMB-01"
+  ],
+  "cmmc_mapping": "PE.L1-3.10.3\nPE.L1-3.10.4\nPE.L1-3.10.5"
+}

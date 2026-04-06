@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-IRO-07",
+  "area": "Incident Response",
+  "artifact_name": "IRP Updates",
+  "artifact_description": "Documented evidence of a periodic review process for the organization's Incident Response Plan (IRP) to identify necessary updates.",
+  "scf_controls": [
+    "IRO-04.2"
+  ],
+  "cmmc_mapping": ""
+}

@@ -1,0 +1,126 @@
+{
+  "scf_control_id": "SEA-08.1",
+  "total": 12,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "SEA-08.1",
+      "ao_id": "SEA-08.1_A01",
+      "objective": "a technology refresh schedule is planned for the system throughout the system development life cycle.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-03(03)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-08.1",
+      "ao_id": "SEA-08.1_A02",
+      "objective": "a technology refresh schedule is implemented for the system throughout the system development life cycle.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-03(03)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-08.1",
+      "ao_id": "SEA-08.1_A03",
+      "objective": "trusted sources to obtain software and data for system component and service refreshes are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-14(01)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-08.1",
+      "ao_id": "SEA-08.1_A04",
+      "objective": "the software and data employed during system component and service refreshes are obtained from organization-defined trusted sources.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-14(01)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-08.1",
+      "ao_id": "SEA-08.1_A05",
+      "objective": "approved systems and system components are identified.",
+      "pptdf": "Process",
+      "origin": "172A_3.4.1e[a]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-08.1",
+      "ao_id": "SEA-08.1_A06",
+      "objective": "implemented system components are identified.",
+      "pptdf": "Process",
+      "origin": "172A_3.4.1e[b]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-08.1",
+      "ao_id": "SEA-08.1_A07",
+      "objective": "an authoritative source and repository are established to provide a trusted source and accountability for approved and implemented system components.",
+      "pptdf": "Technology",
+      "origin": "172A_3.4.1e[c]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-08.1",
+      "ao_id": "SEA-08.1_A08",
+      "objective": "an authoritative source and repository are maintained to provide a trusted source and accountability for approved and implemented system components.",
+      "pptdf": "Technology",
+      "origin": "172A_3.4.1e[d]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-08.1",
+      "ao_id": "SEA-08.1_A09",
+      "objective": "systems and system components to refresh from a known, trusted state are defined.",
+      "pptdf": "Process",
+      "origin": "172A_3.14.4e_ODP[1]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-08.1",
+      "ao_id": "SEA-08.1_A10",
+      "objective": "the frequency to refresh systems and systems components is defined.",
+      "pptdf": "Process",
+      "origin": "172A_3.14.4e_ODP[2]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-08.1",
+      "ao_id": "SEA-08.1_A11",
+      "objective": "a known, trusted state is identified for systems and system components.",
+      "pptdf": "Process",
+      "origin": "172A_3.14.4e[a]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-08.1",
+      "ao_id": "SEA-08.1_A12",
+      "objective": "systems and system components are refreshed from a known, trusted state per an organization-defined frequency.",
+      "pptdf": "Process",
+      "origin": "172A_3.14.4e[b]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

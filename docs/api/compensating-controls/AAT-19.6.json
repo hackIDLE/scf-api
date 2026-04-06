@@ -1,0 +1,16 @@
+{
+  "control_id": "AAT-19.6",
+  "risk_if_not_implemented": "Without Populating Facial Recognition Databases, residual security, compliance, or resilience risk may accumulate, potentially leading to control failures or non-compliance.",
+  "compensating_control_1": {
+    "control_id": "IAO-02",
+    "name": "Assessments",
+    "description": "Mechanisms exist to formally assess the security, compliance and resilience controls in Technology Assets, Applications and/or Services (TAAS) through Information Assurance Program (IAP) activities to determine the extent to which the controls are implemented correctly, operating as intended and producing the desired outcome with respect to meeting expected requirements.",
+    "justification": "Assessments (IAO-02) provides periodic assessment and assurance that compensates for the absence of Populating Facial Recognition Databases (AAT-19.6) by providing structured evaluation of the environment to surface gaps and verify residual control effectiveness. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  },
+  "compensating_control_2": {
+    "control_id": "CPL-01",
+    "name": "Statutory, Regulatory & Contractual Compliance",
+    "description": "Mechanisms exist to facilitate the identification and implementation of relevant statutory, regulatory and contractual controls.",
+    "justification": "Statutory, Regulatory & Contractual Compliance (CPL-01) provides overlapping security capability that compensates for the absence of Populating Facial Recognition Databases (AAT-19.6) by addressing related risk objectives through an alternative control mechanism aligned with Process applicability. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  }
+}

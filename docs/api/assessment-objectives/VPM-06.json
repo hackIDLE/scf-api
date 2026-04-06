@@ -1,0 +1,246 @@
+{
+  "scf_control_id": "VPM-06",
+  "total": 24,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "VPM-06",
+      "ao_id": "VPM-06_A01",
+      "objective": "the frequency at which the system is scanned for vulnerabilities is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_RA-05_ODP[01]\n53A_R5_RA-05_ODP[02]\n171A_3.11.2[a]\n171A_R3_A.03.11.02.ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least monthly",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-06",
+      "ao_id": "VPM-06_A02",
+      "objective": "response times to remediate legitimate vulnerabilities in accordance with an organizational assessment of risk are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_RA-05_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-06",
+      "ao_id": "VPM-06_A03",
+      "objective": "personnel or roles with whom information obtained from the vulnerability scanning process and control assessments are to be shared.",
+      "pptdf": "Process",
+      "origin": "53A_R5_RA-05_ODP[04]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-06",
+      "ao_id": "VPM-06_A04",
+      "objective": "vulnerability scan reports and results from vulnerability monitoring are analyzed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_RA-05c.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-06",
+      "ao_id": "VPM-06_A05",
+      "objective": "systems and hosted applications are scanned for vulnerabilities frequently and/or randomly in accordance with organization-defined process and when new vulnerabilities potentially affecting the system are identified and reported.",
+      "pptdf": "Process",
+      "origin": "53A_R5_RA-05a.[01]\n53A_R5_RA-05a.[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "monthly operating system/infrastructure; monthly web applications (including APIs) and databases",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-06",
+      "ao_id": "VPM-06_A06",
+      "objective": "vulnerability monitoring tools and techniques are employed to facilitate interoperability among tools.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_RA-05b.",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-06",
+      "ao_id": "VPM-06_A07",
+      "objective": "vulnerability monitoring tools and techniques are employed to automate parts of the vulnerability management process by using standards for enumerating platforms, software flaws and improper configurations.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_RA-05b.01",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-06",
+      "ao_id": "VPM-06_A08",
+      "objective": "vulnerability monitoring tools and techniques are employed to facilitate interoperability among tools and to automate parts of the vulnerability management process by using standards for formatting checklists and test procedures.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_RA-05b.02",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-06",
+      "ao_id": "VPM-06_A09",
+      "objective": "vulnerability monitoring tools and techniques are employed to facilitate interoperability among tools and to automate parts of the vulnerability management process by using standards for measuring vulnerability impact.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_RA-05b.03",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-06",
+      "ao_id": "VPM-06_A10",
+      "objective": "the system is scanned for vulnerabilities per an organization-defined frequency.",
+      "pptdf": "Process",
+      "origin": "171A_3.11.2[b]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "at least monthly",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-06",
+      "ao_id": "VPM-06_A11",
+      "objective": "vulnerability scans are performed on applications with the defined frequency.",
+      "pptdf": "Process",
+      "origin": "171A_3.11.2[c]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "at least monthly",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-06",
+      "ao_id": "VPM-06_A12",
+      "objective": "the system is monitored for vulnerabilities when new vulnerabilities that affect the system are identified.",
+      "pptdf": "Process",
+      "origin": "171A_3.11.2[d]\n171A_R3_A.03.11.02.a[03]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-06",
+      "ao_id": "VPM-06_A13",
+      "objective": "the system is scanned for vulnerabilities when new vulnerabilities that affect the system are identified.",
+      "pptdf": "Process",
+      "origin": "171A_3.11.2[e]\n171A_R3_A.03.11.02.a[04]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-06",
+      "ao_id": "VPM-06_A14",
+      "objective": "legitimate vulnerabilities are remediated response times in accordance with an organizational assessment of risk.",
+      "pptdf": "Process",
+      "origin": "53A_R5_RA-05d.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "high-risk vulnerabilities mitigated within thirty (30) days from date of discovery; moderate-risk vulnerabilities mitigated within ninety (90) days from date of discovery; low risk vulnerabilities mitigated within one hundred and eighty (180) days from date of discovery",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-06",
+      "ao_id": "VPM-06_A15",
+      "objective": "information obtained from the vulnerability monitoring process and control assessments is shared with personnel or roles to help eliminate similar vulnerabilities in other systems.",
+      "pptdf": "Process",
+      "origin": "53A_R5_RA-05e.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-06",
+      "ao_id": "VPM-06_A16",
+      "objective": "vulnerability monitoring tools that include the capability to readily update the vulnerabilities to be scanned are employed.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_RA-05f.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-06",
+      "ao_id": "VPM-06_A17",
+      "objective": "the frequency at which to update system vulnerabilities to be scanned is defined.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.11.02.ODP[04]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "at least monthly",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-06",
+      "ao_id": "VPM-06_A18",
+      "objective": "the system is monitored for vulnerabilities per an organization-defined frequency.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least monthly",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-06",
+      "ao_id": "VPM-06_A19",
+      "objective": "system vulnerabilities to be scanned are updated per an organization-defined frequency.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least monthly",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-06",
+      "ao_id": "VPM-06_A20",
+      "objective": "system vulnerabilities to be scanned are updated when new vulnerabilities are identified and reported.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-06",
+      "ao_id": "VPM-06_A21",
+      "objective": "the frequency at which the system is monitored for vulnerabilities is defined.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.11.02.ODP[01]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "at least monthly",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-06",
+      "ao_id": "VPM-06_A22",
+      "objective": "the system is monitored for vulnerabilities <A.03.11.02.ODP[01]: frequency>.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.11.02.a[01]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "at least monthly, or when there are significant incidents or significant changes to risks",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-06",
+      "ao_id": "VPM-06_A23",
+      "objective": "the system is scanned for vulnerabilities <A.03.11.02.ODP[02]: frequency>.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.11.02.a[02]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "at least monthly, or when there are significant incidents or significant changes to risks",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-06",
+      "ao_id": "VPM-06_A24",
+      "objective": "system vulnerabilities to be scanned are updated <A.03.11.02.ODP[04]: frequency>.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.11.02.c[01]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "no more than 24 hours prior to running the scans",
+      "org_defined_parameters": ""
+    }
+  ]
+}

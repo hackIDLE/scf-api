@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "CLD-06.4",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CLD-06.4",
+      "ao_id": "CLD-06.4_A01",
+      "objective": "for Multi-Tenant Service Providers (MTSP), there is a capability to conduct prompt response to suspected or confirmed security incidents and vulnerabilities, including timely notification to affected customers.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

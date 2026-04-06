@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "GOV-12",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "GOV-12",
+      "ao_id": "GOV-12_A01",
+      "objective": "an executive steering committee, or advisory board, evaluates business practices for possible forced exfiltration of sensitive / regulated information (e.g., Intellectual Property (IP)) to a host government for purposes of market access or market management practices.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-12",
+      "ao_id": "GOV-12_A02",
+      "objective": "measures exist for the executive steering committee, or advisory board, to proactively identify and evaluate host nation business practices to identify potential instances that exist for forced exfiltration of sensitive / regulated information (e.g., Intellectual Property (IP)) to the host government for purposes of market access or market management practices.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-12",
+      "ao_id": "GOV-12_A03",
+      "objective": "actions are taken to prevent and/or block potential instances that enable the forced exfiltration of sensitive / regulated information (e.g., Intellectual Property (IP)) to the host government for purposes of market access or market management practices.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

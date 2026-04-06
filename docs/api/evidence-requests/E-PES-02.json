@@ -1,0 +1,12 @@
+{
+  "erl_id": "E-PES-02",
+  "area": "Physical Security",
+  "artifact_name": "Visitor Logbook",
+  "artifact_description": "Documented evidence of a visitor management and logging visitor activities.",
+  "scf_controls": [
+    "PES-03.3",
+    "PES-06",
+    "PES-06.4"
+  ],
+  "cmmc_mapping": ""
+}

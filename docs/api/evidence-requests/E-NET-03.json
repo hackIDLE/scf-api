@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-NET-03",
+  "area": "Network Security",
+  "artifact_name": "Work From Anywhere (WFA) Guidance (remote workers)",
+  "artifact_description": "Documented evidence of administrative and technical measures that are enforced at \"alternate work sites\" which includes working from home or working while traveling on business.",
+  "scf_controls": [
+    "NET-14",
+    "NET-14.5"
+  ],
+  "cmmc_mapping": ""
+}

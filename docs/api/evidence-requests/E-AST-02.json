@@ -1,0 +1,14 @@
+{
+  "erl_id": "E-AST-02",
+  "area": "Asset Management",
+  "artifact_name": "Asset Scoping Guidance",
+  "artifact_description": "Documented evidence of an asset scoping guidance. This is program-level documentation in the form of a runbook, playbook or a similar format provides guidance on defining in-scope Technology Assets, Applications, Services and/or Data (TAASD) (including third-parties).",
+  "scf_controls": [
+    "AST-04.1",
+    "AST-04.2",
+    "AST-04.3",
+    "CPL-01.2",
+    "IAO-01.1"
+  ],
+  "cmmc_mapping": ""
+}

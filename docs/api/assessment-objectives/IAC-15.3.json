@@ -1,0 +1,66 @@
+{
+  "scf_control_id": "IAC-15.3",
+  "total": 6,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-15.3",
+      "ao_id": "IAC-15.3_A01",
+      "objective": "a period of inactivity after which an account / identifier is disabled is defined.",
+      "pptdf": "Process",
+      "origin": "171A_3.5.6[a]\n53A_R5_AC-02(03)_ODP[01]\n53A_R5_AC-02(03)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "thirty-five (35) days",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-15.3",
+      "ao_id": "IAC-15.3_A02",
+      "objective": "accounts / identifiers are disabled after the defined period of inactivity.",
+      "pptdf": "Technology",
+      "origin": "171A_3.5.6[b]\n53A_R5_AC-02(03)(d)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "thirty-five (35) days",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-15.3",
+      "ao_id": "IAC-15.3_A03",
+      "objective": "accounts / identifiers are disabled within an organization-defined time period when the accounts have expired.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-02(03)(a)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "thirty-five (35) days",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-15.3",
+      "ao_id": "IAC-15.3_A04",
+      "objective": "accounts / identifiers are disabled within an organization-defined time period when the accounts are no longer associated with a user or individual.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-02(03)(b)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "24 hours for user accounts",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-15.3",
+      "ao_id": "IAC-15.3_A05",
+      "objective": "accounts / identifiers are disabled within an organization-defined time period when the accounts are in violation of organizational policy.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-02(03)(c)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "24 hours for user accounts",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-15.3",
+      "ao_id": "IAC-15.3_A06",
+      "objective": "system accounts are disabled when the accounts have been inactive for <A.03.01.01.ODP[01]: time period>.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.01.01.f.02",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "at most 90 days",
+      "org_defined_parameters": ""
+    }
+  ]
+}

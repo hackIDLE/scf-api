@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-IAO-05",
+  "area": "Information Assurance",
+  "artifact_name": "Security Assessment Report",
+  "artifact_description": "Documented evidence of a report on security assessments.",
+  "scf_controls": [
+    "IAO-02.4"
+  ],
+  "cmmc_mapping": "RA.L2-3.11.2"
+}

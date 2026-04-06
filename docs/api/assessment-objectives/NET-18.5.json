@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "NET-18.5",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-18.5",
+      "ao_id": "NET-18.5_A01",
+      "objective": "internal domain name lookups are validated according to Domain Name System Security Extensions (DNSSEC).",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-18.5",
+      "ao_id": "NET-18.5_A02",
+      "objective": "external domain name lookups are validated according to Domain Name System Security Extensions (DNSSEC).",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

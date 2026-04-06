@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "IAC-20.4",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-20.4",
+      "ao_id": "IAC-20.4_A01",
+      "objective": "executing administrative tasks or tasks requiring elevated access is restricted to a dedicated machine.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

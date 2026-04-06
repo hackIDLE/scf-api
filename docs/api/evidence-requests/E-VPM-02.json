@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-VPM-02",
+  "area": "Vulnerability Management",
+  "artifact_name": "Penetration Testing - Application",
+  "artifact_description": "Documented evidence of Application Security Testing (AST) activities:\n• Abuse case, malformed, and unexpected inputs (e.g., Robustness or Fuzz testing);\n• Attack surface analysis;\n• Vulnerability chaining;\n• Closed box testing of known vulnerability scanning;\n• Software composition analysis of binary executable files; and/or\n• Static and dynamic code analysis, including testing for credentials that are “hardcoded,” default, easily guessed, and easily compromised.",
+  "scf_controls": [
+    "VPM-07"
+  ],
+  "cmmc_mapping": ""
+}

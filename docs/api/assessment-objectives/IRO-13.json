@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "IRO-13",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IRO-13",
+      "ao_id": "IRO-13_A01",
+      "objective": "an After Action Reviews (AARs), or a similar process, is conducted following incidents that require escalation to an Integrated Security Incident Response Team (ISIRT), or similar integrated team of cybersecurity, IT and business function representatives, are established to address a cybersecurity and/or data privacy incident response operations.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-13",
+      "ao_id": "IRO-13_A02",
+      "objective": "events that would require the current incident response policy / procedures to be reviewed / updated are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-01_ODP[06]\n53A_R5_IR-01_ODP[08]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-13",
+      "ao_id": "IRO-13_A03",
+      "objective": "incident response documentation is updated to address necessary changes to enable the timely and effective response to incidents.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-13",
+      "ao_id": "IRO-13_A04",
+      "objective": "events that initiate a review of the incident response training content are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-02_ODP[04]\n171A_R3_A.03.06.04.ODP[04]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

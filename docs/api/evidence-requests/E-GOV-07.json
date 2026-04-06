@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-GOV-07",
+  "area": "Cybersecurity & Data Protection Management",
+  "artifact_name": "Charter - Data Management Board (DMB)",
+  "artifact_description": "Documented evidence of the organization's Data Management Board (DMB) charter and mission.",
+  "scf_controls": [
+    "GOV-01.2"
+  ],
+  "cmmc_mapping": ""
+}

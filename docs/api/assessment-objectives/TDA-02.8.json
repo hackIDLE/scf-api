@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "TDA-02.8",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-02.8",
+      "ao_id": "TDA-02.8_A01",
+      "objective": "the attack surface of products and/or services is minimized by reasonably mitigating known exploitable vulnerabilities.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

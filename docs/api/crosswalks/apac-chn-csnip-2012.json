@@ -1,0 +1,64 @@
+{
+  "framework_id": "apac-chn-csnip-2012",
+  "display_name": "China - Decision on Strengthening Network Information Protection (2012)",
+  "scf_to_framework": {
+    "total_mappings": 10,
+    "mappings": {
+      "GOV-01": [
+        "4"
+      ],
+      "CPL-01": [
+        "4"
+      ],
+      "CPL-02": [
+        "4"
+      ],
+      "DCH-01": [
+        "4"
+      ],
+      "DCH-22.1": [
+        "8"
+      ],
+      "PRI-01": [
+        "Inferred",
+        "Expectation"
+      ],
+      "PRI-06.1": [
+        "8"
+      ],
+      "SEA-01": [
+        "4"
+      ],
+      "SEA-02": [
+        "4"
+      ],
+      "SEA-03": [
+        "4"
+      ]
+    }
+  },
+  "framework_to_scf": {
+    "total_mappings": 4,
+    "mappings": {
+      "4": [
+        "GOV-01",
+        "CPL-01",
+        "CPL-02",
+        "DCH-01",
+        "SEA-01",
+        "SEA-02",
+        "SEA-03"
+      ],
+      "8": [
+        "DCH-22.1",
+        "PRI-06.1"
+      ],
+      "Inferred": [
+        "PRI-01"
+      ],
+      "Expectation": [
+        "PRI-01"
+      ]
+    }
+  }
+}

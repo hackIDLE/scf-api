@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "MON-10",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MON-10",
+      "ao_id": "MON-10_A01",
+      "objective": "a time period to retain audit records that is consistent with the records retention policy is defined.",
+      "pptdf": "Process",
+      "origin": "171A_3.3.1[e]\n53A_R5_AU-11_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-10",
+      "ao_id": "MON-10_A02",
+      "objective": "audit records are retained for a time period consistent with the records retention policy.",
+      "pptdf": "Data",
+      "origin": "171A_3.3.1[f]\n171A_R3_A.03.03.03.b\n53A_R5_AU-11",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

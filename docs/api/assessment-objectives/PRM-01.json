@@ -1,0 +1,296 @@
+{
+  "scf_control_id": "PRM-01",
+  "total": 29,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRM-01",
+      "ao_id": "PRM-01_A01",
+      "objective": "the organization-defined official is designated to manage the development, documentation, and dissemination of the planning policy and procedures.",
+      "pptdf": "People",
+      "origin": "53A_R5_PL-01b.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRM-01",
+      "ao_id": "PRM-01_A02",
+      "objective": "planning procedures facilitate the implementation of the planning policy and associated planning controls are developed and documented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-01a.[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRM-01",
+      "ao_id": "PRM-01_A03",
+      "objective": "personnel or roles to whom the planning policy is to be disseminated is/are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-01_ODP[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRM-01",
+      "ao_id": "PRM-01_A04",
+      "objective": "personnel or roles to whom the planning procedures are to be disseminated is/are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-01_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRM-01",
+      "ao_id": "PRM-01_A05",
+      "objective": "one or more of the following organization-defined criteria is/are selected: mission/business process-level /system-level.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-01_ODP[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRM-01",
+      "ao_id": "PRM-01_A06",
+      "objective": "an official to manage the planning policy and procedures is defined.",
+      "pptdf": "People",
+      "origin": "53A_R5_PL-01_ODP[04]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRM-01",
+      "ao_id": "PRM-01_A07",
+      "objective": "the frequency with which the current planning policy is reviewed / updated is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-01_ODP[05]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRM-01",
+      "ao_id": "PRM-01_A08",
+      "objective": "events that would require the current planning policy to be reviewed / updated are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-01_ODP[06]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRM-01",
+      "ao_id": "PRM-01_A09",
+      "objective": "the frequency with which the current planning procedures are reviewed / updated is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-01_ODP[07]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRM-01",
+      "ao_id": "PRM-01_A10",
+      "objective": "events that would require procedures to be reviewed / updated are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-01_ODP[08]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRM-01",
+      "ao_id": "PRM-01_A11",
+      "objective": "a planning policy is developed and documented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-01a.[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRM-01",
+      "ao_id": "PRM-01_A12",
+      "objective": "the planning policy is disseminated to organization-defined personnel or roles.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-01a.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRM-01",
+      "ao_id": "PRM-01_A13",
+      "objective": "the planning procedures are disseminated to organization-defined personnel or roles.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-01a.[04]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRM-01",
+      "ao_id": "PRM-01_A14",
+      "objective": "the organization's planning policy addresses purpose.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-01a.01(a)[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRM-01",
+      "ao_id": "PRM-01_A15",
+      "objective": "the organization's planning policy addresses scope.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-01a.01(a)[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRM-01",
+      "ao_id": "PRM-01_A16",
+      "objective": "the organization's planning policy addresses roles.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-01a.01(a)[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRM-01",
+      "ao_id": "PRM-01_A17",
+      "objective": "the organization's planning policy addresses responsibilities.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-01a.01(a)[04]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRM-01",
+      "ao_id": "PRM-01_A18",
+      "objective": "the organization's planning policy addresses management commitment.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-01a.01(a)[05]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRM-01",
+      "ao_id": "PRM-01_A19",
+      "objective": "the organization's planning policy addresses coordination among organizational entities.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-01a.01(a)[06]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRM-01",
+      "ao_id": "PRM-01_A20",
+      "objective": "the organization's planning policy addresses compliance.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-01a.01(a)[07]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRM-01",
+      "ao_id": "PRM-01_A21",
+      "objective": "the organization's planning policy is consistent with applicable laws, Executive Orders, directives, regulations, policies, standards, and guidelines.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-01a.01(b)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRM-01",
+      "ao_id": "PRM-01_A22",
+      "objective": "the current planning policy is reviewed / updated organization-defined frequency.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-01c.01[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRM-01",
+      "ao_id": "PRM-01_A23",
+      "objective": "the current planning policy is reviewed / updated following organization-defined events.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-01c.01[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRM-01",
+      "ao_id": "PRM-01_A24",
+      "objective": "the current planning procedures are reviewed / updated organization-defined frequency.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-01c.02[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRM-01",
+      "ao_id": "PRM-01_A25",
+      "objective": "the current planning procedures are reviewed / updated following organization-defined events.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-01c.02[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRM-01",
+      "ao_id": "PRM-01_A26",
+      "objective": "Project & Resource Management (PRM) operations are conducted according to documented policies, standards, procedures and/or other organizational directives.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRM-01",
+      "ao_id": "PRM-01_A27",
+      "objective": "adequate resources (e.g., people, processes, technologies, data and/or facilities) are provided to support Project & Resource Management (PRM) operations.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRM-01",
+      "ao_id": "PRM-01_A28",
+      "objective": "responsibility and authority for the performance of Project & Resource Management (PRM)-related activities are assigned to designated personnel.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRM-01",
+      "ao_id": "PRM-01_A29",
+      "objective": "personnel performing Project & Resource Management (PRM)-related activities have the skills and knowledge needed to perform their assigned duties.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

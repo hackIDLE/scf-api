@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "NET-12.2",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-12.2",
+      "ao_id": "NET-12.2_A01",
+      "objective": "the transmission of unprotected sensitive / regulated data by end-user messaging technologies is prohibited through administrative and/or technical means.",
+      "pptdf": "Data",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

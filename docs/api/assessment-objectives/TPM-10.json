@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "TPM-10",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TPM-10",
+      "ao_id": "TPM-10_A01",
+      "objective": "affected third-parties are identified through change control practices.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-10",
+      "ao_id": "TPM-10_A02",
+      "objective": "provided services are assessed for impact from proposed changes.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-10",
+      "ao_id": "TPM-10_A03",
+      "objective": "recurring reviews are performed of third-party provided services against existing contract requirements.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-10",
+      "ao_id": "TPM-10_A04",
+      "objective": "discrepancies in services provided and/or geolocation of provided services are evaluated for impact to the organization's operations.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

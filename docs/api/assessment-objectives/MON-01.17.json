@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "MON-01.17",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MON-01.17",
+      "ao_id": "MON-01.17_A01",
+      "objective": "the capability for authorized users to remotely view and hear content related to an established user session in real time is provided.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AU-14(03)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-01.17",
+      "ao_id": "MON-01.17_A02",
+      "objective": "the capability for authorized users to remotely view and hear content related to an established user session in real time is implemented.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AU-14(03)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

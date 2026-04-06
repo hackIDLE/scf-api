@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "NET-18.7",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-18.7",
+      "ao_id": "NET-18.7_A01",
+      "objective": "bandwidth-intensive Internet categories are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-18.7",
+      "ao_id": "NET-18.7_A02",
+      "objective": "bandwidth control technologies limit the amount of bandwidth used by categories of domains that are bandwidth-intensive.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

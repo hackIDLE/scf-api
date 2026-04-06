@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-GOV-18",
+  "area": "Cybersecurity & Data Protection Management",
+  "artifact_name": "Exception Management",
+  "artifact_description": "Documented evidence of authorized exceptions to standards (e.g., configurations, practices, etc.)",
+  "scf_controls": [
+    "CRY-01.1",
+    "GOV-02.1"
+  ],
+  "cmmc_mapping": ""
+}

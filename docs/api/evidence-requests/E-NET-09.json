@@ -1,0 +1,12 @@
+{
+  "erl_id": "E-NET-09",
+  "area": "Network Security",
+  "artifact_name": "Network Access Control Points",
+  "artifact_description": "Documented evidence of network access control points.",
+  "scf_controls": [
+    "NET-03",
+    "NET-05.1",
+    "NET-14.3"
+  ],
+  "cmmc_mapping": "AC.L2-3.1.14"
+}

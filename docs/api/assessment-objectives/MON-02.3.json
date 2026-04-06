@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "MON-02.3",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MON-02.3",
+      "ao_id": "MON-02.3_A01",
+      "objective": "data/information collected from other sources to be analyzed is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AU-06(05)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-02.3",
+      "ao_id": "MON-02.3_A02",
+      "objective": "information from monitoring physical, cyber and supply chain activities are correlated to achieve integrated, organization-wide situational awareness.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-04(17)\n53A_R5_AU-06(05)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-02.3",
+      "ao_id": "MON-02.3_A03",
+      "objective": "analysis of audit records is integrated with analysis of organization-specific criteria to further enhance the ability to identify inappropriate or unusual activity.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AU-06(05)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

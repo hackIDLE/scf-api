@@ -1,0 +1,16 @@
+{
+  "control_id": "MNT-05.2",
+  "risk_if_not_implemented": "Without Remote Maintenance Notifications, AI and autonomous technology risks may go ungoverned, leading to unintended outcomes or exploitation.",
+  "compensating_control_1": {
+    "control_id": "IAC-06",
+    "name": "Multi-Factor Authentication (MFA)",
+    "description": "Automated mechanisms exist to enforce Multi-Factor Authentication (MFA) for:\n(1) Remote network access; \n(2) Third-party Technology Assets, Applications and/or Services (TAAS); and/ or\n(3) Non-console access to critical TAAS that store, transmit and/or process sensitive/regulated data.",
+    "justification": "Multi-Factor Authentication (MFA) (IAC-06) provides access control enforcement that compensates for the absence of Remote Maintenance Notifications (MNT-05.2) by restricting system and data access to authorized users through alternative identity and access mechanisms. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  },
+  "compensating_control_2": {
+    "control_id": "MNT-05",
+    "name": "Remote Maintenance",
+    "description": "Mechanisms exist to authorize, monitor and control remote, non-local maintenance and diagnostic activities.",
+    "justification": "Remote Maintenance (MNT-05) provides overlapping security capability that compensates for the absence of Remote Maintenance Notifications (MNT-05.2) by addressing related risk objectives through an alternative control mechanism aligned with Process applicability. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  }
+}

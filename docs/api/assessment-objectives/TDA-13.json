@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "TDA-13",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-13",
+      "ao_id": "TDA-13_A01",
+      "objective": "the system, systems component or system service that the developer has access to is/are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-21_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-13",
+      "ao_id": "TDA-13_A02",
+      "objective": "official duties assigned to the developer are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-21_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-13",
+      "ao_id": "TDA-13_A03",
+      "objective": "additional personnel screening criteria for the developer are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-21_ODP[03]\n172A_3.9.1e_ODP[1]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

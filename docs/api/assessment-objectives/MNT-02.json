@@ -1,0 +1,146 @@
+{
+  "scf_control_id": "MNT-02",
+  "total": 14,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MNT-02",
+      "ao_id": "MNT-02_A01",
+      "objective": "maintenance, repair and replacement of systems, applications and/or services are scheduled in accordance with manufacturer or vendor specifications and/or organizational requirements.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-02a.[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-02",
+      "ao_id": "MNT-02_A02",
+      "objective": "approved configuration-controlled changes to the system are implemented.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.04.03.c[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-02",
+      "ao_id": "MNT-02_A03",
+      "objective": "system maintenance is performed.",
+      "pptdf": "Process",
+      "origin": "171A_3.7.1",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-02",
+      "ao_id": "MNT-02_A04",
+      "objective": "personnel or roles required to explicitly approve the removal of the system or system components from organizational facilities for off-site maintenance or repairs is/are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-02_ODP[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-02",
+      "ao_id": "MNT-02_A05",
+      "objective": "information to be removed from associated media prior to removal from organizational facilities for off-site maintenance, repair or replacement is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-02_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-02",
+      "ao_id": "MNT-02_A06",
+      "objective": "information to be included in organizational maintenance records is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-02_ODP[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-02",
+      "ao_id": "MNT-02_A07",
+      "objective": "maintenance, repair and replacement of system components are documented in accordance with manufacturer or vendor specifications and/or organizational requirements.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-02a.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-02",
+      "ao_id": "MNT-02_A08",
+      "objective": "records of maintenance, repair and replacement of system components are reviewed in accordance with manufacturer or vendor specifications and/or organizational requirements.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-02a.[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-02",
+      "ao_id": "MNT-02_A09",
+      "objective": "all maintenance activities, whether performed on site or remotely and whether the system or system components are serviced on site or removed to another location, are approved.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-02b.[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-02",
+      "ao_id": "MNT-02_A10",
+      "objective": "all maintenance activities, whether performed on site or remotely and whether the system or system components are serviced on site or removed to another location, are monitored.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-02b.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-02",
+      "ao_id": "MNT-02_A11",
+      "objective": "personnel or roles is/are required to explicitly approve the removal of the system or system components from organizational facilities for off-site maintenance, repair or replacement.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-02c.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-02",
+      "ao_id": "MNT-02_A12",
+      "objective": "equipment is sanitized to remove information from associated media prior to removal from organizational facilities for off-site maintenance, repair or replacement.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-02d.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-02",
+      "ao_id": "MNT-02_A13",
+      "objective": "all potentially impacted controls are checked to verify that the controls are still functioning properly following maintenance, repair or replacement actions.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-02e.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-02",
+      "ao_id": "MNT-02_A14",
+      "objective": "information is included in organizational maintenance records.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-02f.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

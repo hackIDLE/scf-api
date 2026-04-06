@@ -1,0 +1,16 @@
+{
+  "control_id": "CRY-09.7",
+  "risk_if_not_implemented": "Without External System Cryptographic Key Control, sensitive data may be exposed to interception or unauthorized disclosure, resulting in confidentiality breaches.",
+  "compensating_control_1": {
+    "control_id": "IAC-10",
+    "name": "Authenticator Management",
+    "description": "Mechanisms exist to:\n(1) Securely manage authenticators for users and devices; and\n(2) Ensure the strength of authentication is appropriate to the classification of the data being accessed.",
+    "justification": "Authenticator Management (IAC-10) provides access control enforcement that compensates for the absence of External System Cryptographic Key Control (CRY-09.7) by restricting system and data access to authorized users through alternative identity and access mechanisms. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  },
+  "compensating_control_2": {
+    "control_id": "CFG-01",
+    "name": "Configuration Management Program",
+    "description": "Mechanisms exist to facilitate the implementation of configuration management controls.",
+    "justification": "Configuration Management Program (CFG-01) provides policy-level governance that compensates for the absence of External System Cryptographic Key Control (CRY-09.7) by establishing documented expectations, accountability structures, and organizational guardrails. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  }
+}

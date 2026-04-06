@@ -1,0 +1,13 @@
+{
+  "erl_id": "E-PRI-05",
+  "area": "Privacy",
+  "artifact_name": "Data Sharing Agreement",
+  "artifact_description": "Documented evidence of formal data sharing practices that address, at a minimum:\n• The business justification for the data sharing;\n• The type / category of data being shared;\n• The third-parties the data is being shared with;\n• Lawful bases for data sharing; and\n• Data subject rights.",
+  "scf_controls": [
+    "PRI-01.5",
+    "PRI-07",
+    "PRI-07.1",
+    "PRI-07.2"
+  ],
+  "cmmc_mapping": ""
+}

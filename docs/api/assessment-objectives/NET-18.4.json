@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "NET-18.4",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-18.4",
+      "ao_id": "NET-18.4_A01",
+      "objective": "technologies are configured block/drop network traffic that does not comply with Internet Engineering Task Force (IETF) protocol specifications.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

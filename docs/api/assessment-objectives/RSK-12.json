@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "RSK-12",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "RSK-12",
+      "ao_id": "RSK-12_A01",
+      "objective": "an executive steering committee, or advisory board, defines the organization's risk culture.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-12",
+      "ao_id": "RSK-12_A02",
+      "objective": "a Chief Risk Officer (CRO), or similar position, is tasked with operationalizing the defined risk culture criteria throughout the organization's Business As Usual (BAU) activities.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

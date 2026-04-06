@@ -1,0 +1,107 @@
+{
+  "control_id": "AAT-04.1",
+  "title": "AI & Autonomous Technologies Potential Benefits Analysis",
+  "family": "AAT",
+  "description": "Mechanisms exist to assess the potential benefits of proposed Artificial Intelligence (AI) and Autonomous Technologies (AAT).",
+  "scf_question": "Does the organization assess the potential benefits of proposed Artificial Intelligence (AI) and Autonomous Technologies (AAT)?",
+  "relative_weight": 2,
+  "conformity_cadence": "Semi-Annual",
+  "evidence_requests": [],
+  "pptdf": "Process",
+  "nist_csf_function": "Identify",
+  "scrm_focus": {
+    "strategic": true,
+    "operational": true,
+    "tactical": false
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "Artificial Intelligence and Autonomous Technology (AAT) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with AAT domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ AAT-related processes are expected to follow the organization's existing processes (e.g., incident response, asset management, change control, risk assessments, etc.).\n▪ No formal Governance, Risk & Compliance (GRC) team exists to provide AAT oversight, where the Chief Information Officer (CIO), or similar function, governs technology decisions what is acceptable for AAT within the organization.",
+    "2": "Artificial Intelligence and Autonomous Technology (AAT) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with AAT domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with AAT domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with AAT  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Artificial Intelligence (AI)-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Asset management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
+    "3": "Artificial Intelligence and Autonomous Technology (AAT) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with AAT domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with AAT domain capabilities are well-documented and kept current by process owners.\n▪ An Artificial Intelligence Governance (AIG) team, or similar function, is appropriately staffed and supported to implement and maintain AAT domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of AI governance, risk management and compliance operations (e.g., dedicated AI governance platform).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with AAT domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to assess the potential benefits of proposed AAT.",
+    "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [
+    "CORE AI Model Deployment"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ AI benefits documentation (accuracy improvements, efficiency gains, cost savings)\n∙ AI governance program",
+    "small": "∙ Formal AI benefits analysis for each deployed system\n∙ AI governance program\n∙ NIST AI RMF Map function",
+    "medium": "∙ Quantified AI benefits analysis (ROI, efficiency, accuracy)\n∙ AI governance program\n∙ NIST AI RMF Map function",
+    "large": "∙ Structured AI benefits analysis integrated with business case process\n∙ AI KPI tracking for benefits realization\n∙ NIST AI RMF Map function",
+    "enterprise": "∙ Enterprise AI benefits realization framework\n∙ AI ROI and value tracking integrated with GRC\n∙ Board-level AI value reporting\n∙ NIST AI RMF Map function at scale"
+  },
+  "risks": [
+    "R-AC-1",
+    "R-AC-2",
+    "R-AC-3",
+    "R-AC-4",
+    "R-AM-1",
+    "R-AM-2",
+    "R-BC-1",
+    "R-BC-2",
+    "R-BC-3",
+    "R-BC-4",
+    "R-BC-5",
+    "R-EX-1",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-EX-5",
+    "R-EX-6",
+    "R-EX-7",
+    "R-GV-1",
+    "R-GV-2",
+    "R-GV-3",
+    "R-GV-4",
+    "R-GV-5",
+    "R-GV-6",
+    "R-GV-7",
+    "R-GV-8",
+    "R-IR-1",
+    "R-IR-2",
+    "R-IR-3",
+    "R-IR-4",
+    "R-SC-1",
+    "R-SC-2",
+    "R-SC-3",
+    "R-SC-4",
+    "R-SC-5",
+    "R-SC-6"
+  ],
+  "threats": [
+    "NT-2",
+    "NT-3",
+    "NT-4",
+    "NT-5",
+    "NT-6",
+    "NT-7",
+    "NT-9",
+    "NT-10",
+    "NT-11",
+    "NT-12",
+    "NT-13",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-10",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-23",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Artificial Intelligence & Autonomous Technologies",
+  "crosswalks": {
+    "general-nist-100-1-ai-rmf": [
+      "MAP 3.1"
+    ],
+    "general-nist-600-1-gen-ai-profile": [
+      "MS-2.9-002"
+    ]
+  }
+}

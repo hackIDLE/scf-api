@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "IAC-23",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-23",
+      "ao_id": "IAC-23_A01",
+      "objective": "accounts and/or account types for which to limit the number of concurrent sessions is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-10_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "privileged and non-privileged",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-23",
+      "ao_id": "IAC-23_A02",
+      "objective": "the number of concurrent sessions to be allowed for each account and/or account type is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-10_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "three (3) sessions for privileged access and two (2) sessions for non-privileged access",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-23",
+      "ao_id": "IAC-23_A03",
+      "objective": "the number of concurrent sessions for each organization-defined account and/or account types is limited to organization-defined number.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-10",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "three (3) sessions for privileged access and two (2) sessions for non-privileged access",
+      "org_defined_parameters": ""
+    }
+  ]
+}

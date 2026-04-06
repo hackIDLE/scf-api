@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "HRS-07.3",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "HRS-07.3",
+      "ao_id": "HRS-07.3_A01",
+      "objective": "logical access is proactively restricted when an individual with access to sensitive/regulated data is under investigation for personnel sanctions that may lead to employment termination.",
+      "pptdf": "Data",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-07.3",
+      "ao_id": "HRS-07.3_A02",
+      "objective": "physical access is proactively restricted when an individual with access to sensitive/regulated data is under investigation for personnel sanctions that may lead to employment termination.",
+      "pptdf": "Data",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

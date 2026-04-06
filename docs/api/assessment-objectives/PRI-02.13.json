@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PRI-02.13",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-02.13",
+      "ao_id": "PRI-02.13_A01",
+      "objective": "data privacy notices alert data subjects to their right to limit the use and disclosure of their sensitive Personal Data (sPD).",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-02.13",
+      "ao_id": "PRI-02.13_A02",
+      "objective": "data privacy notices alert data subjects to methods available to exercise that right to limit the use and disclosure of their sensitive Personal Data (sPD).",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

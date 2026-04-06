@@ -1,0 +1,269 @@
+{
+  "control_id": "MON-01.1",
+  "title": "Intrusion Detection & Prevention Systems (IDS & IPS)",
+  "family": "MON",
+  "description": "Mechanisms exist to implement Intrusion Detection / Prevention Systems (IDS / IPS) technologies on critical systems, key network segments and network choke points.",
+  "scf_question": "Does the organization implement Intrusion Detection / Prevention Systems (IDS / IPS) technologies on critical systems, key network segments and network choke points?",
+  "relative_weight": 9,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [
+    "E-MON-01",
+    "E-MON-06",
+    "E-MON-07"
+  ],
+  "pptdf": "Technology",
+  "nist_csf_function": "Detect",
+  "scrm_focus": {
+    "strategic": false,
+    "operational": false,
+    "tactical": true
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "2": "Continuous Monitoring (MON) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MON domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with MON domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MON  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Continuous monitoring-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Continuous monitoring may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
+    "3": "Continuous Monitoring (MON) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MON domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Cybersecurity personnel use a structured process via Standardized Operating Procedures (SOP) to review and analyze logs.\n▪ A Security Operations Center (SOC) team, or similar function, is appropriately staffed and supported to implement and maintain MON domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of continuous monitoring operations (e.g., Security Incident Event Manager (SIEM), etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MON domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ Secure Baseline Configurations (SBC) enforce security event logging to contain sufficient information to establish necessary details of activity and allow for forensics analysis.\n▪ An implemented and operational capability exists to implement Intrusion Detection / Prevention Systems (IDS / IPS) technologies on critical systems, key network segments and network choke points.",
+    "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [
+    "CORE ESP Level 1 Foundational",
+    "CORE ESP Level 2 Critical Infrastructure",
+    "CORE ESP Level 3 Advanced Threats",
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ Intrusion Detection / Prevention Systems (IDS/IPS)\n∙ Next-Generation Firewall (NGFW) with IPS (e.g., Fortinet FortiGate, Palo Alto)",
+    "small": "∙ Intrusion Detection / Prevention Systems (IDS/IPS)\n∙ Next-Generation Firewall (NGFW) with built-in IPS (e.g., Fortinet, Palo Alto)",
+    "medium": "∙ Intrusion Detection / Prevention Systems (IDS/IPS)\n∙ Next-Generation Firewall (NGFW) with IPS\n∙ Extended Detection and Response (XDR) (e.g., CrowdStrike Falcon, SentinelOne, Microsoft Defender XDR)",
+    "large": "∙ Intrusion Detection / Prevention Systems (IDS/IPS)\n∙ Extended Detection and Response (XDR) (e.g., CrowdStrike Falcon, Palo Alto Cortex XDR)\n∙ Network Detection and Response (NDR) (e.g., Darktrace, ExtraHop)",
+    "enterprise": "∙ Enterprise IDS/IPS integrated with SIEM\n∙ Extended Detection and Response (XDR) (e.g., CrowdStrike Falcon, Palo Alto Cortex XDR)\n∙ Network Detection and Response (NDR) (e.g., Darktrace, ExtraHop, Vectra AI)\n∙ AI-driven anomaly detection"
+  },
+  "risks": [
+    "R-AC-4",
+    "R-AM-1",
+    "R-AM-2",
+    "R-AM-3",
+    "R-BC-1",
+    "R-BC-2",
+    "R-BC-3",
+    "R-BC-4",
+    "R-BC-5",
+    "R-EX-1",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-EX-5",
+    "R-EX-6",
+    "R-EX-7",
+    "R-GV-1",
+    "R-GV-2",
+    "R-GV-3",
+    "R-GV-4",
+    "R-GV-5",
+    "R-GV-6",
+    "R-GV-7",
+    "R-IR-1",
+    "R-IR-2",
+    "R-IR-3",
+    "R-IR-4",
+    "R-SA-1",
+    "R-SC-1",
+    "R-SC-2",
+    "R-SC-3",
+    "R-SC-4",
+    "R-SC-5",
+    "R-SC-6"
+  ],
+  "threats": [
+    "NT-7",
+    "MT-1",
+    "MT-2",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-10",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Continuous Monitoring",
+  "crosswalks": {
+    "general-aicpa-tsc-2017": [
+      "CC7.2",
+      "CC7.2-POF2",
+      "CC7.2-POF3"
+    ],
+    "general-cobit-2019": [
+      "DSS05.07"
+    ],
+    "general-csa-iot-2": [
+      "OPA-04"
+    ],
+    "general-govramp": [
+      "SI-04(01)"
+    ],
+    "general-govramp-mod": [
+      "SI-04(01)"
+    ],
+    "general-govramp-high": [
+      "SI-04(01)"
+    ],
+    "general-iso-27002-2022": [
+      "8.16"
+    ],
+    "general-iso-27018-2025": [
+      "8.16"
+    ],
+    "general-mpa-csbp-5-3-1": [
+      "TS-2.7"
+    ],
+    "general-nist-800-53-r4": [
+      "SI-4(1)"
+    ],
+    "general-nist-800-53-r5-2": [
+      "SI-04(01)",
+      "SI-04(25)"
+    ],
+    "general-nist-800-53-r5-2-privacy": [
+      "SI-04(25)"
+    ],
+    "general-nist-800-82-r3": [
+      "SI-04(01)",
+      "SI-04(25)"
+    ],
+    "general-nist-800-160-vol-2-r1": [
+      "SI-04(01)",
+      "SI-04(25)"
+    ],
+    "general-nist-800-171-r3": [
+      "03.13.01.a"
+    ],
+    "general-nist-800-172": [
+      "3.14.6e"
+    ],
+    "general-nist-csf-2-0": [
+      "DE.CM-01"
+    ],
+    "general-owasp-top-10-2025": [
+      "A01:2025",
+      "A09:2025"
+    ],
+    "general-pci-dss-4-0-1": [
+      "1.4.3",
+      "11.5",
+      "11.5.1",
+      "11.5.1.1"
+    ],
+    "general-pci-dss-4-0-1-saq-a-ep": [
+      "1.4.3",
+      "11.5.1"
+    ],
+    "general-pci-dss-4-0-1-saq-b-ip": [
+      "1.4.3"
+    ],
+    "general-pci-dss-4-0-1-saq-d-merchant": [
+      "1.4.3",
+      "11.5.1"
+    ],
+    "general-pci-dss-4-0-1-saq-d-service-provider": [
+      "1.4.3",
+      "11.5.1",
+      "11.5.1.1"
+    ],
+    "general-shared-assessments-sig-2025": [
+      "N.7"
+    ],
+    "general-sparta": [
+      "CM0032"
+    ],
+    "general-swift-cscf-2025": [
+      "6.5A"
+    ],
+    "usa-federal-dow-cmmc-2-level-3": [
+      "SI.L3-3.14.6E"
+    ],
+    "usa-federal-gsa-fedramp-5-low": [
+      "SI-04(25)"
+    ],
+    "usa-federal-gsa-fedramp-5-mod": [
+      "SI-04(01)",
+      "SI-04(25)"
+    ],
+    "usa-federal-gsa-fedramp-5-high": [
+      "SI-04(01)",
+      "SI-04(25)"
+    ],
+    "usa-federal-gsa-fedramp-5-li-saas": [
+      "SI-04(25)"
+    ],
+    "usa-federal-irs-1075-2021": [
+      "SI-4(CE-1)"
+    ],
+    "usa-federal-cms-marse-2-0": [
+      "SI-4(1)"
+    ],
+    "usa-federal-nispom-2020": [
+      "§117.15(d)(2)",
+      "§117.15(d)(2)(i)",
+      "§117.15(d)(2)(i)(A)",
+      "§117.15(d)(2)(i)(B)",
+      "§117.15(d)(2)(i)(C)",
+      "§117.15(d)(2)(i)(D)",
+      "§117.15(d)(2)(i)(E)",
+      "§117.15(d)(2)(ii)",
+      "§117.15(d)(2)(iii)",
+      "§117.15(d)(2)(iv)",
+      "§117.15(d)(2)(v)"
+    ],
+    "usa-state-ca-ccpa-cpra-2026": [
+      "7123(c)(8)(A)"
+    ],
+    "emea-isr-cmo-1-0": [
+      "7.4",
+      "11.11",
+      "12.18",
+      "23.6"
+    ],
+    "emea-sau-ecc-1-2018": [
+      "2-5-3-6"
+    ],
+    "emea-esp-ccn-stic-825-2023": [
+      "7.6.1 [OP.MON.1]"
+    ],
+    "apac-nzl-ism-3-9": [
+      "16.6.10.C.01",
+      "16.6.10.C.02",
+      "18.4.7.C.01",
+      "18.4.7.C.02",
+      "18.4.7.C.03",
+      "18.4.8.C.01",
+      "18.4.8.C.02",
+      "18.4.8.C.03",
+      "18.4.9.C.01",
+      "18.4.9.C.02",
+      "18.4.10.C.01",
+      "18.4.11.C.01",
+      "18.4.11.C.02",
+      "18.4.11.C.03",
+      "18.4.12.C.01",
+      "18.4.14.C.01"
+    ],
+    "amaericas-can-osfi-self-assessment": [
+      "3.3",
+      "4.3",
+      "4.4"
+    ],
+    "americas-can-osfi-b13-2022": [
+      "3.3.2"
+    ],
+    "americas-can-itsp-10-171-2025": [
+      "03.13.01.A"
+    ]
+  }
+}

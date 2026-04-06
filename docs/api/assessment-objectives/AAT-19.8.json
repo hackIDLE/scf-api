@@ -1,0 +1,66 @@
+{
+  "scf_control_id": "AAT-19.8",
+  "total": 6,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-19.8",
+      "ao_id": "AAT-19.8_A01",
+      "objective": "the organization prohibits the sale, deployment and/or use of Artificial Intelligence (AI) and Autonomous Technologies (AAT) that categorize an individual based on their biometric data to deduce, or infer, the individual's race.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-19.8",
+      "ao_id": "AAT-19.8_A02",
+      "objective": "the organization prohibits the sale, deployment and/or use of Artificial Intelligence (AI) and Autonomous Technologies (AAT) that categorize an individual based on their biometric data to deduce, or infer, the individual's political opinions.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-19.8",
+      "ao_id": "AAT-19.8_A03",
+      "objective": "the organization prohibits the sale, deployment and/or use of Artificial Intelligence (AI) and Autonomous Technologies (AAT) that categorize an individual based on their biometric data to deduce, or infer, the individual's trade union membership.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-19.8",
+      "ao_id": "AAT-19.8_A04",
+      "objective": "the organization prohibits the sale, deployment and/or use of Artificial Intelligence (AI) and Autonomous Technologies (AAT) that categorize an individual based on their biometric data to deduce, or infer, the individual's religious or philosophical beliefs.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-19.8",
+      "ao_id": "AAT-19.8_A05",
+      "objective": "the organization prohibits the sale, deployment and/or use of Artificial Intelligence (AI) and Autonomous Technologies (AAT) that categorize an individual based on their biometric data to deduce, or infer, the individual's sex life or sexual orientation.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-19.8",
+      "ao_id": "AAT-19.8_A06",
+      "objective": "the organization prohibits the sale, deployment and/or use of Artificial Intelligence (AI) and Autonomous Technologies (AAT) that categorize an individual based on their biometric data to deduce, or infer, the individual's age.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

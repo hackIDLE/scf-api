@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-10.15",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-10.15",
+      "ao_id": "AAT-10.15_A01",
+      "objective": "results from Artificial Intelligence Test, Evaluation, Validation & Verification (AI TEVV) are documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-10.15",
+      "ao_id": "AAT-10.15_A02",
+      "objective": "the status and results of Artificial Intelligence Test, Evaluation, Validation & Verification (AI TEVV) are reported to relevant stakeholders, including governing bodies, as required.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

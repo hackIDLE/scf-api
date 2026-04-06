@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AST-20",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AST-20",
+      "ao_id": "AST-20_A01",
+      "objective": "Video Teleconference (VTC) capabilities are secured in designated conference rooms to prevent potential eavesdropping.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-20",
+      "ao_id": "AST-20_A02",
+      "objective": "personnel are trained to use Video Teleconference (VTC) capabilities on endpoint devices outside of conference rooms in a secure manner that prevents eavesdropping.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

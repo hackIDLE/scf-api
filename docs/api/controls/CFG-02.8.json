@@ -1,0 +1,176 @@
+{
+  "control_id": "CFG-02.8",
+  "title": "Respond To Unauthorized Changes",
+  "family": "CFG",
+  "description": "Mechanisms exist to respond to unauthorized changes to configuration settings as security incidents.",
+  "scf_question": "Does the organization respond to unauthorized changes to configuration settings as security incidents?",
+  "relative_weight": 9,
+  "conformity_cadence": "Semi-Annual",
+  "evidence_requests": [],
+  "pptdf": "Process",
+  "nist_csf_function": "Respond",
+  "scrm_focus": {
+    "strategic": false,
+    "operational": false,
+    "tactical": true
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "Configuration Management (CFG) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with CFG domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Configuration management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ IT and/or cybersecurity personnel use an informal process to verify the functionality of security controls when anomalies or misconfigurations are discovered.",
+    "2": "Configuration Management (CFG) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CFG domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with CFG domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CFG  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Configuration management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Configuration management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Secure Baseline Configurations (SBC) are used to configure Technology Assets, Applications and/or Services (TAAS) according to the principles of least functionality and least privilege, mostly conforming to industry-recognized standards for hardening (e.g., DISA STIGs, CIS Benchmarks or OEM security guides).",
+    "3": "Configuration Management (CFG) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CFG domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CFG domain capabilities are well-documented and kept current by process owners.\n▪ A configuration management team, or similar function, is appropriately staffed and supported to implement and maintain CFG domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of configuration management operations (e.g., Configuration Management Database (CMBD) Asset Management solution).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CFG domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to respond to unauthorized changes to configuration settings as security incidents.",
+    "4": "Configuration Management (CFG) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+    "5": "Configuration Management (CFG) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions."
+  },
+  "profiles": [
+    "CORE ESP Level 3 Advanced Threats",
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ Incident Response Plan (IRP)",
+    "small": "∙ Incident Response Plan (IRP)",
+    "medium": "∙ Incident Response Plan (IRP)\n∙ CimTrak Integrity Suite (https://cimcor.com/cimtrak)",
+    "large": "∙ Incident Response Plan (IRP)\n∙ CimTrak Integrity Suite (https://cimcor.com/cimtrak)",
+    "enterprise": "∙ Incident Response Plan (IRP)\n∙ CimTrak Integrity Suite (https://cimcor.com/cimtrak)"
+  },
+  "risks": [
+    "R-AC-1",
+    "R-AC-2",
+    "R-AC-3",
+    "R-AC-4",
+    "R-AM-1",
+    "R-AM-2",
+    "R-AM-3",
+    "R-BC-1",
+    "R-BC-2",
+    "R-BC-3",
+    "R-BC-4",
+    "R-EX-1",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-EX-5",
+    "R-EX-6",
+    "R-EX-7",
+    "R-GV-1",
+    "R-GV-2",
+    "R-GV-3",
+    "R-GV-4",
+    "R-GV-5",
+    "R-GV-6",
+    "R-GV-7",
+    "R-IR-1",
+    "R-IR-2",
+    "R-IR-3",
+    "R-IR-4",
+    "R-SA-1",
+    "R-SC-1",
+    "R-SC-2",
+    "R-SC-3",
+    "R-SC-4",
+    "R-SC-5",
+    "R-SC-6"
+  ],
+  "threats": [
+    "NT-7",
+    "MT-1",
+    "MT-2",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-10",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Configuration Management",
+  "crosswalks": {
+    "general-cis-csc-8-1": [
+      "2.3"
+    ],
+    "general-cis-csc-8-1-ig1": [
+      "2.3"
+    ],
+    "general-cis-csc-8-1-ig2": [
+      "2.3"
+    ],
+    "general-cis-csc-8-1-ig3": [
+      "2.3"
+    ],
+    "general-csa-cmm-4-1-0": [
+      "CCC-09"
+    ],
+    "general-govramp": [
+      "CM-06(02)"
+    ],
+    "general-govramp-high": [
+      "CM-06(02)"
+    ],
+    "general-nist-800-53-r4": [
+      "CM-6(2)"
+    ],
+    "general-nist-800-53-r5-2": [
+      "CM-06(02)"
+    ],
+    "general-nist-800-53-r5-2-high": [
+      "CM-06(02)"
+    ],
+    "general-nist-800-82-r3": [
+      "CM-06(02)"
+    ],
+    "general-nist-800-82-r3-high": [
+      "CM-06(02)"
+    ],
+    "general-nist-800-161-r1": [
+      "CM-6(2)"
+    ],
+    "general-nist-800-161-r1-level-3": [
+      "CM-6(2)"
+    ],
+    "general-nist-800-172": [
+      "3.4.2e"
+    ],
+    "general-nist-800-207": [
+      "NIST Tenet 5"
+    ],
+    "general-pci-dss-4-0-1": [
+      "10.7",
+      "10.7.1",
+      "10.7.2",
+      "10.7.3"
+    ],
+    "general-pci-dss-4-0-1-saq-d-merchant": [
+      "10.7.2",
+      "10.7.3"
+    ],
+    "general-pci-dss-4-0-1-saq-d-service-provider": [
+      "10.7.1",
+      "10.7.2",
+      "10.7.3"
+    ],
+    "general-swift-cscf-2025": [
+      "2.3"
+    ],
+    "usa-federal-dow-cmmc-2-level-3": [
+      "CM.L3-3.4.2E"
+    ],
+    "usa-federal-gsa-fedramp-5-high": [
+      "CM-06(02)"
+    ],
+    "emea-deu-bsrit-2017": [
+      "8.6"
+    ],
+    "emea-sau-otcc-1-2022": [
+      "2-3-1-11"
+    ],
+    "amaericas-can-osfi-self-assessment": [
+      "4.19",
+      "4.20"
+    ]
+  }
+}

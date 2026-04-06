@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "CFG-03.4",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CFG-03.4",
+      "ao_id": "CFG-03.4_A01",
+      "objective": "safeguards to securely provision split tunneling are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-07(07)_ODP",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03.4",
+      "ao_id": "CFG-03.4_A02",
+      "objective": "remote devices are prevented from simultaneously establishing non-remote connections with the system and communicating via some other connection to resources in external networks (e.g., split tunneling).",
+      "pptdf": "Technology",
+      "origin": "171A_3.13.7\n53A_R5_SC-07(07)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-29.12",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-29.12",
+      "ao_id": "AAT-29.12_A01",
+      "objective": "prompt injection / input attacks that seek to manipulate AI agent instructions, bypass controls or result in unauthorized actions can be detected.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-29.12",
+      "ao_id": "AAT-29.12_A02",
+      "objective": "means to prevent or mitigate prompt injection / input attacks that seek to manipulate AI agent instructions, bypass controls or result in unauthorized actions are implemented.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

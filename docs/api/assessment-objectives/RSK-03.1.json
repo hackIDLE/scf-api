@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "RSK-03.1",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "RSK-03.1",
+      "ao_id": "RSK-03.1_A01",
+      "objective": "a risk catalog, or similar solution, exists that keeps current a catalog of applicable risks associated with the organization's business operations and technologies in use.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-03.1",
+      "ao_id": "RSK-03.1_A02",
+      "objective": "the risk (including supply chain risk) of unauthorized disclosure resulting from the processing, storage, or transmission of sensitive / regulated data is assessed.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-03.1",
+      "ao_id": "RSK-03.1_A03",
+      "objective": "the risk (including supply chain risk) of unauthorized disclosure resulting from the processing, storage, or transmission of CUI is assessed.",
+      "pptdf": "Data",
+      "origin": "171A_R3_A.03.11.01.a",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

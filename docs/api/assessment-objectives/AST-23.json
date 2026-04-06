@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "AST-23",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AST-23",
+      "ao_id": "AST-23_A01",
+      "objective": "Multi-Function Devices (MFD) are securely configured according to industry-recognized secure practices for the type of device.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

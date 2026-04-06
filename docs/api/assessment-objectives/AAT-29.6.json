@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "AAT-29.6",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-29.6",
+      "ao_id": "AAT-29.6_A01",
+      "objective": "instances of privilege escalation or unauthorized delegation by AI agents is monitored for.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-29.6",
+      "ao_id": "AAT-29.6_A02",
+      "objective": "privilege escalation or unauthorized delegation by AI agents is prevented dynamic role enforcement.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-29.6",
+      "ao_id": "AAT-29.6_A03",
+      "objective": "privilege escalation or unauthorized delegation by AI agents is prevented through establishing cross-agent delegation boundaries and privileged actions.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

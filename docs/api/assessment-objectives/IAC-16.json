@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "IAC-16",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-16",
+      "ao_id": "IAC-16_A01",
+      "objective": "privileged access rights for users and services are restricted based on roles.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-16",
+      "ao_id": "IAC-16_A02",
+      "objective": "privileged access rights for users and services are controlled.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "MON-08.1",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MON-08.1",
+      "ao_id": "MON-08.1_A01",
+      "objective": "the frequency of event logs transferred to a different system, system component or media other than the system or system component conducting the logging is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AU-04(01)_ODP\n53A_R5_AU-09(02)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-08.1",
+      "ao_id": "MON-08.1_A02",
+      "objective": "event logs are transferred per an organization-defined frequency to a different system, system component or media other than the system or system component conducting the logging.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AU-04(01)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-08.1",
+      "ao_id": "MON-08.1_A03",
+      "objective": "audit records are stored per an organization-defined frequency in a repository that is part of a physically different system or system component than the system or component being audited.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AU-09(02)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

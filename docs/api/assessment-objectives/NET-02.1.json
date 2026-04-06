@@ -1,0 +1,116 @@
+{
+  "scf_control_id": "NET-02.1",
+  "total": 11,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-02.1",
+      "ao_id": "NET-02.1_A01",
+      "objective": "types of denial-of-service events to be protected against or limited are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-05_ODP[01]\n53A_R5_SC-05(01)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-02.1",
+      "ao_id": "NET-02.1_A02",
+      "objective": "resource prioritization is designed to limit negative effects of denial-of-service events.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-05_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-02.1",
+      "ao_id": "NET-02.1_A03",
+      "objective": "controls to achieve the denial-of-service objective by type of denial-of-service event are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-05_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-02.1",
+      "ao_id": "NET-02.1_A04",
+      "objective": "controls by type of denial-of-service event are employed to achieve the denial-of-service protection objective.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-05b.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-02.1",
+      "ao_id": "NET-02.1_A05",
+      "objective": "the ability of individuals to launch denial-of-service attacks against other systems is restricted.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-05(01)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-02.1",
+      "ao_id": "NET-02.1_A06",
+      "objective": "the effects of types of denial-of-service events are organizationally-defined.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-05a.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-02.1",
+      "ao_id": "NET-02.1_A07",
+      "objective": "capacity, bandwidth or other redundancies to limit the effects of information flooding denial-of-service attacks are managed.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-05(02)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-02.1",
+      "ao_id": "NET-02.1_A08",
+      "objective": "monitoring tools for detecting indicators of denial-of-service attacks are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-05(03)_ODP[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-02.1",
+      "ao_id": "NET-02.1_A09",
+      "objective": "system resources to be monitored to determine if sufficient resources exist to prevent effective denial-of-service attacks are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-05(03)_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-02.1",
+      "ao_id": "NET-02.1_A10",
+      "objective": "monitoring tools are employed to detect indicators of denial-of-service attacks against or launched from the system.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-05(03)(a)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-02.1",
+      "ao_id": "NET-02.1_A11",
+      "objective": "system resources are monitored to determine if sufficient resources exist to prevent effective denial-of-service attacks.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-05(03)(b)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

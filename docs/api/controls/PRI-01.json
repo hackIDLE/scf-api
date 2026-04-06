@@ -1,0 +1,528 @@
+{
+  "control_id": "PRI-01",
+  "title": "Data Privacy Program",
+  "family": "PRI",
+  "description": "Mechanisms exist to facilitate the implementation and operation of data protection controls throughout the data lifecycle to ensure all forms of Personal Data (PD) are processed lawfully, fairly and transparently.",
+  "scf_question": "Does the organization facilitate the implementation and operation of data protection controls throughout the data lifecycle to ensure all forms of Personal Data (PD) are processed lawfully, fairly and transparently?",
+  "relative_weight": 10,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [
+    "E-GOV-02",
+    "E-GOV-08"
+  ],
+  "pptdf": "Process",
+  "nist_csf_function": "Govern",
+  "scrm_focus": {
+    "strategic": true,
+    "operational": true,
+    "tactical": true
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "Privacy (PRI) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with PRI domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Data privacy-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ No formal data privacy team exists. Privacy roles are assigned to existing IT / cybersecurity.\n▪ Data/process owners are expected to take the initiative to work with Data Protection Officers (DPOs) to ensure applicable statutory, regulatory and contractual obligations are properly addressed, including the storage, transmission and processing of sensitive/regulated data.\n▪ No formal data privacy principles are identified for the organization.\n▪ Data/process owners perform their own Data Protection Impact Assessment (DPIA).",
+    "2": "Privacy (PRI) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with PRI domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with PRI domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with PRI  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Data privacy management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Data privacy management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ A qualified individual is formally assigned as the Chief Privacy Officer (CPO), or similar role, to lead the organization's data privacy program. This individual may be assigned to multiple data privacy-related roles.\n▪ The data privacy program is developed to work with IT and cybersecurity staff to ensure that applicable statutory, regulatory and/or contractual data privacy obligations for Personal Data (PD) are properly identified and implemented.",
+    "3": "Privacy (PRI) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with PRI domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with PRI domain capabilities are well-documented and kept current by process owners.\n▪ A data privacy team, or similar function, is appropriately staffed and supported to implement and maintain PRI domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of data privacy operations (e.g., privacy notice management software, customer management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with PRI domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to facilitate the implementation and operation of data protection controls throughout the data lifecycle to ensure all forms of Personal Data (PD) are processed lawfully, fairly and transparently.",
+    "4": "Privacy (PRI) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [
+    "SCRMS",
+    "CORE AI Model Deployment",
+    "CORE ESP Level 1 Foundational",
+    "CORE ESP Level 2 Critical Infrastructure",
+    "CORE ESP Level 3 Advanced Threats",
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ Data privacy program",
+    "small": "∙ Data privacy program",
+    "medium": "∙ Data privacy program",
+    "large": "∙ Data privacy program",
+    "enterprise": "∙ Data privacy program"
+  },
+  "risks": [
+    "R-AC-1",
+    "R-AC-2",
+    "R-AC-4",
+    "R-AM-2",
+    "R-AM-3",
+    "R-BC-2",
+    "R-BC-4",
+    "R-BC-5",
+    "R-EX-1",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-EX-5",
+    "R-GV-1",
+    "R-GV-2",
+    "R-GV-3",
+    "R-GV-4",
+    "R-GV-5",
+    "R-GV-6",
+    "R-GV-7",
+    "R-IR-1",
+    "R-IR-3",
+    "R-IR-4",
+    "R-SA-1",
+    "R-SA-2",
+    "R-SC-1",
+    "R-SC-2",
+    "R-SC-3",
+    "R-SC-4",
+    "R-SC-5",
+    "R-SC-6"
+  ],
+  "threats": [
+    "NT-7",
+    "MT-1",
+    "MT-2",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-10",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-16",
+    "MT-17",
+    "MT-18",
+    "MT-19",
+    "MT-20",
+    "MT-21",
+    "MT-22",
+    "MT-23",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Data Privacy",
+  "crosswalks": {
+    "general-aicpa-pmf-2020": [
+      "M1.0",
+      "M1.2",
+      "N2.2-POF1",
+      "D6.1-POF1"
+    ],
+    "general-aicpa-tsc-2017": [
+      "CC1.3-POF6",
+      "CC2.3-POF7",
+      "CC8.1-POF17",
+      "CC8.1-POF18",
+      "P1.0"
+    ],
+    "general-apec-privacy-framework-2015": [
+      "1",
+      "9"
+    ],
+    "general-cobit-2019": [
+      "APO04.01"
+    ],
+    "general-csa-iot-2": [
+      "LGL-04"
+    ],
+    "general-iso-27002-2022": [
+      "5.1",
+      "5.34"
+    ],
+    "general-iso-27017-2015": [
+      "5.1",
+      "5.1.1",
+      "7.2.1",
+      "18.1.4"
+    ],
+    "general-iso-27018-2025": [
+      "5.1",
+      "5.4",
+      "5.34"
+    ],
+    "general-iso-27701-2025": [
+      "4.4",
+      "5.1",
+      "6.1.1",
+      "6.1.1(a)",
+      "6.1.1(b)",
+      "6.1.3(h)",
+      "6.2",
+      "6.2(a)",
+      "6.2(b)",
+      "6.2(c)",
+      "6.2(d)",
+      "6.2(e)",
+      "6.2(f)",
+      "6.2(g)",
+      "6.3",
+      "7.1",
+      "7.4",
+      "7.5.1",
+      "7.5.1(a)",
+      "7.5.1(b)",
+      "7.5.2",
+      "7.5.3"
+    ],
+    "general-iso-29100-2024": [
+      "6.1"
+    ],
+    "general-nist-100-1-ai-rmf": [
+      "MAP 1.6"
+    ],
+    "general-nist-privacy-framework-1-0": [
+      "GV.PO-P1",
+      "GV.PO-P5",
+      "GV.PO-P6",
+      "GV.MT-P",
+      "CT-P",
+      "CT.PO-P2",
+      "CT.DM-P",
+      "CT.DP-P",
+      "CM.PO-P1",
+      "CM.AW-P",
+      "PR.PO-P9"
+    ],
+    "general-nist-800-53-r5-2": [
+      "PM-18",
+      "PT-01"
+    ],
+    "general-nist-800-53-r5-2-privacy": [
+      "PM-18",
+      "PT-01"
+    ],
+    "general-nist-800-82-r3": [
+      "PM-18",
+      "PT-01"
+    ],
+    "general-nist-800-82-r3-low": [
+      "PM-18"
+    ],
+    "general-nist-800-82-r3-mod": [
+      "PM-18"
+    ],
+    "general-nist-800-82-r3-high": [
+      "PM-18"
+    ],
+    "general-nist-800-161-r1": [
+      "PM-18",
+      "PT-1"
+    ],
+    "general-nist-800-161-r1-flowdown": [
+      "PM-18",
+      "PT-1"
+    ],
+    "general-nist-800-161-r1-level-1": [
+      "PM-18",
+      "PT-1"
+    ],
+    "general-nist-800-161-r1-level-2": [
+      "PM-18",
+      "PT-1"
+    ],
+    "general-nist-800-161-r1-level-3": [
+      "PT-1"
+    ],
+    "general-nist-csf-2-0": [
+      "GV.OC-03"
+    ],
+    "general-oecd-privacy-principles-2010": [
+      "8"
+    ],
+    "general-scf-dpmp-2025": [
+      "1.0",
+      "1.1"
+    ],
+    "general-shared-assessments-sig-2025": [
+      "P.3"
+    ],
+    "general-tisax-6-0-3": [
+      "7.1.2"
+    ],
+    "usa-federal-doc-data-privacy-framework-2023": [
+      "III.15.a"
+    ],
+    "usa-federal-sro-fca-crm-2023": [
+      "609.930(d)"
+    ],
+    "usa-federal-gsa-fedramp-5-low": [
+      "PT-01"
+    ],
+    "usa-federal-gsa-fedramp-5-mod": [
+      "PT-01"
+    ],
+    "usa-federal-gsa-fedramp-5-high": [
+      "PT-01"
+    ],
+    "usa-federal-gsa-fedramp-5-li-saas": [
+      "PT-01"
+    ],
+    "usa-federal-omb-fipps-1973": [
+      "2"
+    ],
+    "usa-federal-hhs-45-cfr-155-260-2016": [
+      "155.260(a)(3)"
+    ],
+    "usa-federal-law-hipaa-simplification-2013": [
+      "164.502(a)",
+      "164.530(a)(1)(i)",
+      "164.530(i)(1)",
+      "164.530(i)(4)(i)(A)",
+      "164.530(i)(4)(i)(B)",
+      "164.530(i)(5)",
+      "164.530(i)(5)(i)",
+      "164.530(i)(5)(ii)"
+    ],
+    "usa-federal-irs-1075-2021": [
+      "PM-18",
+      "PT-1"
+    ],
+    "usa-federal-cms-marse-2-0": [
+      "AR-1",
+      "AR-1.b",
+      "AR-1.c",
+      "AR-1.d",
+      "AR-1.e",
+      "AR-1.f"
+    ],
+    "usa-state-ca-ccpa-cpra-2026": [
+      "7002(a)"
+    ],
+    "usa-state-nv-regulation-5-2024": [
+      "5.260.1"
+    ],
+    "usa-state-ny-dfs-23-nycrr500-2023-amd2": [
+      "500.3(k)"
+    ],
+    "usa-state-tx-cdpa-2025": [
+      "541.101(a)(2)",
+      "541.101(b)(2)",
+      "541.204(c)"
+    ],
+    "usa-state-va-cdpa-2023": [
+      "59.1-578.A.3"
+    ],
+    "emea-eu-ai-act-2024": [
+      "Article 10.5"
+    ],
+    "emea-eu-gdpr-2016": [
+      "Article 5.1(a)",
+      "Article 9.1",
+      "Article 12.2"
+    ],
+    "emea-aut-fappd-2000": [
+      "Sec 14",
+      "Sec 15"
+    ],
+    "emea-bel-act-8-1992": [
+      "4"
+    ],
+    "emea-deu-fdpa-2017": [
+      "Inferred",
+      "Expectation"
+    ],
+    "emea-grc-pirppd-1997": [
+      "Inferred",
+      "Expectation"
+    ],
+    "emea-hun-isdfi-2011": [
+      "Inferred",
+      "Expectation"
+    ],
+    "emea-irl-dpa-2003": [
+      "Inferred",
+      "Expectation"
+    ],
+    "emea-isr-ppl-5741-1981": [
+      "Inferred",
+      "Expectation"
+    ],
+    "emea-ita-pdpc-2003": [
+      "Inferred",
+      "Expectation"
+    ],
+    "emea-ken-pda-2019": [
+      "30(1)(a)",
+      "30(1)(b)(i)",
+      "30(1)(b)(ii)",
+      "30(1)(b)(iii)",
+      "30(1)(b)(iv)",
+      "30(1)(b)(v)",
+      "30(1)(b)(vi)",
+      "30(1)(b)(vii)",
+      "30(1)(b)(viii)",
+      "30(2)",
+      "30(3)"
+    ],
+    "emea-nga-dpr-2019": [
+      "4.1(3)"
+    ],
+    "emea-nor-pda-2018": [
+      "Inferred",
+      "Expectation"
+    ],
+    "emea-pol-act-29-1997": [
+      "Inferred",
+      "Expectation"
+    ],
+    "emea-qat-pdppl-2020": [
+      "2",
+      "3",
+      "8.1"
+    ],
+    "emea-rus-federal-law-27-2006": [
+      "Inferred",
+      "Expectation"
+    ],
+    "emea-sau-pdpl-2023": [
+      "Article 11.2"
+    ],
+    "emea-srb-act-9-2018": [
+      "5.1",
+      "59",
+      "59.1",
+      "59.2",
+      "59.3",
+      "59.4",
+      "59.5",
+      "59.6",
+      "59.7",
+      "59.8",
+      "59.9",
+      "59.10",
+      "59.11"
+    ],
+    "emea-zaf-popia-2013": [
+      "19",
+      "20",
+      "60"
+    ],
+    "emea-esp-decree-1720-2007": [
+      "Inferred",
+      "Expectation"
+    ],
+    "emea-esp-ccn-stic-825-2023": [
+      "8.7.1 [MP.INFO.1]"
+    ],
+    "emea-che-fadp-2025": [
+      "Inferred",
+      "Expectation"
+    ],
+    "emea-tur-lppd-2016": [
+      "Inferred",
+      "Expectation"
+    ],
+    "emea-gbr-dpa-1998": [
+      "Inferred",
+      "Expectation"
+    ],
+    "apac-aus-privacy-act-1998": [
+      "Inferred",
+      "Expectation"
+    ],
+    "apac-aus-privacy-principles-2026": [
+      "APP 1"
+    ],
+    "apac-chn-csnip-2012": [
+      "Inferred",
+      "Expectation"
+    ],
+    "apac-chn-pipl-2021": [
+      "7",
+      "16",
+      "51",
+      "51(1)",
+      "51(2)",
+      "51(3)",
+      "51(4)",
+      "51(5)",
+      "51(6)",
+      "58",
+      "58(1)",
+      "58(2)",
+      "58(3)",
+      "58(4)",
+      "59"
+    ],
+    "apac-hkg-pdo-2022": [
+      "Inferred",
+      "Expectation"
+    ],
+    "apac-ind-privacy-rules-2011": [
+      "Inferred",
+      "Expectation"
+    ],
+    "apac-jpn-ppi-2020": [
+      "24(3)",
+      "26(1)",
+      "26(1)(i)",
+      "26(1)(ii)",
+      "26(2)",
+      "26(3)",
+      "26(4)",
+      "26-2(1)",
+      "26-2(1)(i)",
+      "26-2(1)(ii)",
+      "26-2(2)",
+      "26-2(3)",
+      "36",
+      "37",
+      "38",
+      "39",
+      "51(1)",
+      "51(2)",
+      "52(1)",
+      "53(2)",
+      "53(3)",
+      "53(1)",
+      "53(4)",
+      "54",
+      "55"
+    ],
+    "apac-jpn-ismap": [
+      "5.1.1",
+      "5.1.1.19",
+      "18.1.4"
+    ],
+    "apac-mys-pdpa-2010": [
+      "23"
+    ],
+    "apac-phl-dpa-2012": [
+      "Inferred",
+      "Expectation"
+    ],
+    "apac-sgp-pdpa-2012": [
+      "12"
+    ],
+    "apac-kor-pipa-2011": [
+      "3",
+      "30"
+    ],
+    "apac-twn-pdpa-2025": [
+      "Inferred",
+      "Expectation"
+    ],
+    "americas-bhs-dpa-2003": [
+      "6"
+    ],
+    "americas-bra-lgpd-2018": [
+      "6.8",
+      "6.10",
+      "50"
+    ],
+    "americas-can-pipeda-2000": [
+      "Principle 1",
+      "Principle 8"
+    ],
+    "americas-chl-act-19628-1999": [
+      "Inferred",
+      "Expectation"
+    ],
+    "americas-col-law-1581-2012": [
+      "4"
+    ],
+    "americas-mex-fdpa-2010": [
+      "6",
+      "14",
+      "30"
+    ]
+  }
+}

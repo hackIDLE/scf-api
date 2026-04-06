@@ -1,0 +1,160 @@
+{
+  "control_id": "GOV-17",
+  "title": "Security, Compliance & Resilience Status Reporting",
+  "family": "GOV",
+  "description": "Mechanisms exist to submit status reporting of the organization's security, compliance and/or resilience program to applicable statutory and/or regulatory authorities, as required.",
+  "scf_question": "Does the organization submit status reporting of the organization's security, compliance and/or resilience program to applicable statutory and/or regulatory authorities, as required?",
+  "relative_weight": 8,
+  "conformity_cadence": "Semi-Annual",
+  "evidence_requests": [
+    "E-GOV-17"
+  ],
+  "pptdf": "Process",
+  "nist_csf_function": "Govern",
+  "scrm_focus": {
+    "strategic": true,
+    "operational": true,
+    "tactical": false
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "2": "SCR-CMM Level 2 criteria definitions are not available for this control:\n▪ A reasonable person would conclude a well-defined and standardized process is required.\n▪ At this level of maturity, the “requirements-driven” nature of performing the control is focused on a localized and/or regionalized implementation, not uniform and consistent across the organization.\n▪ Requirements are narrowly scoped for applicability and are primarily derived from compliance obligations (e.g., laws, regulations and contracts).",
+    "3": "Cybersecurity & Data Protection Governance (GOV) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with GOV domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with GOV domain capabilities are well-documented and kept current by process owners.\n▪ The entity's GRC team, or similar function, is appropriately staffed and supported to implement and maintain GOV domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ Technology is leveraged to enhance the efficiency and accuracy of governance, risk management and compliance operations (e.g., GRC platform).\n▪ An implemented and operational capability exists to  submit status reporting of the organization's security, compliance and/or resilience program to applicable statutory and/or regulatory authorities, as required.",
+    "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [],
+  "possible_solutions": {
+    "micro_small": "∙ Maintain records for any required compliance filings",
+    "small": "∙ Designate a compliance contact for required reporting\n∙ Track reporting deadlines",
+    "medium": "∙ Compliance calendar for required submissions\n∙ Documented reporting procedures",
+    "large": "∙ Compliance tracking platform\n∙ Dedicated compliance officer\n∙ Standardized reporting templates",
+    "enterprise": "∙ Enterprise GRC platform for compliance reporting\n∙ Dedicated compliance team\n∙ Automated regulatory submission tracking\n∙ Legal and compliance integration"
+  },
+  "risks": [
+    "R-EX-5"
+  ],
+  "threats": [
+    "NT-2",
+    "NT-3",
+    "NT-4",
+    "NT-5",
+    "NT-6",
+    "NT-7",
+    "NT-8",
+    "NT-9",
+    "NT-10",
+    "NT-11",
+    "NT-12",
+    "NT-13",
+    "NT-14",
+    "MT-1",
+    "MT-2",
+    "MT-3",
+    "MT-4",
+    "MT-5",
+    "MT-6",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-10",
+    "MT-12",
+    "MT-14",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "errata": "- renamed\n- wordsmithed",
+  "family_name": "Cybersecurity & Data Protection Governance",
+  "crosswalks": {
+    "general-aicpa-tsc-2017": [
+      "CC3.1-POF10",
+      "CC3.2-POF3"
+    ],
+    "usa-federal-dow-dfars-252-204-7012": [
+      "252.204-7012(b)(2)(ii)(B)"
+    ],
+    "usa-federal-far-52-204-25": [
+      "52.204-25(d)(2)(i)",
+      "52.204-25(d)(2)(ii)",
+      "52.204-25(d)"
+    ],
+    "usa-federal-sec-cybersecurity-rule-2023": [
+      "17 CFR 229.105(b)",
+      "17 CFR 229.106(d)"
+    ],
+    "usa-federal-tsa-security-directive-1580-82-2022-01": [
+      "II.B.1",
+      "III.F.3",
+      "V.A.1",
+      "VI.A",
+      "VI.B",
+      "VI.B.1",
+      "VI.B.2",
+      "VI.C",
+      "VI.D"
+    ],
+    "usa-state-ca-ccpa-cpra-2026": [
+      "7124(a)",
+      "7124(b)",
+      "7124(c)",
+      "7124(c)(1)",
+      "7124(c)(2)",
+      "7124(c)(3)",
+      "7124(d)",
+      "7124(d)(1)",
+      "7124(d)(2)",
+      "7124(d)(3)",
+      "7124(d)(4)",
+      "7124(d)(5)",
+      "7157(a)",
+      "7157(a)(1)",
+      "7157(a)(2)",
+      "7157(b)",
+      "7157(b)(1)",
+      "7157(b)(2)",
+      "7157(b)(3)",
+      "7157(b)(4)",
+      "7157(b)(5)",
+      "7157(b)(6)",
+      "7157(c)",
+      "7157(c)(1)",
+      "7157(c)(2)",
+      "7157(c)(3)",
+      "7157(d)",
+      "7157(e)"
+    ],
+    "usa-state-il-ipa-2009": [
+      "35(b)",
+      "37(b)"
+    ],
+    "usa-state-il-pipa-2006": [
+      "12(f)",
+      "25"
+    ],
+    "usa-state-ny-dfs-23-nycrr500-2023-amd2": [
+      "500.17(a)(1)",
+      "500.17(a)(2)"
+    ],
+    "usa-state-tx-dir-security-control-standards-catalog-2-2": [
+      "PL-01-SID"
+    ],
+    "usa-state-va-cdpa-2023": [
+      "59.1-580.C"
+    ],
+    "emea-eu-nis2-annex-2024": [
+      "1.2.3"
+    ],
+    "apac-aus-ism-2024-june": [
+      "ISM-1587"
+    ],
+    "apac-chn-cybersecurity-law-2017": [
+      "Article 38",
+      "Article 54(1)"
+    ],
+    "apac-jpn-ismap": [
+      "4.5.3.1"
+    ]
+  }
+}

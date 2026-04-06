@@ -1,0 +1,7 @@
+{
+  "risk_id": "R-IR-1",
+  "grouping": "Incident Response",
+  "name": "Inability to investigate / prosecute incidents",
+  "description": "Insufficient incident response practices that prevent the organization from investigating and/or prosecuting incidents (e.g., chain of custody corruption, available sources of evidence, etc.).",
+  "nist_csf_function": "Respond"
+}

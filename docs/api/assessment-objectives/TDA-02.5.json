@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "TDA-02.5",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-02.5",
+      "ao_id": "TDA-02.5_A01",
+      "objective": "process owners identify necessary ports, protocols and other services necessary to operate their technology solutions.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-02.5",
+      "ao_id": "TDA-02.5_A02",
+      "objective": "process owners document legitimate business justifications for the ports, protocols and other services necessary to operate their technology solutions.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

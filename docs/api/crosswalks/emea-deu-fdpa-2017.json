@@ -1,0 +1,190 @@
+{
+  "framework_id": "emea-deu-fdpa-2017",
+  "display_name": "Germany - Federal Data Protection Act (2017)",
+  "scf_to_framework": {
+    "total_mappings": 18,
+    "mappings": {
+      "GOV-01": [
+        "Sec 9",
+        "Sec 9a",
+        "Annex"
+      ],
+      "CPL-01": [
+        "Sec 9",
+        "Sec 9a",
+        "Annex"
+      ],
+      "CPL-02": [
+        "Sec 9",
+        "Sec 9a",
+        "Annex"
+      ],
+      "DCH-01": [
+        "Sec 4b",
+        "Sec 9",
+        "Sec 9a",
+        "Sec 16",
+        "Annex"
+      ],
+      "DCH-22.1": [
+        "Sec 20"
+      ],
+      "PRI-01": [
+        "Inferred",
+        "Expectation"
+      ],
+      "PRI-01.1": [
+        "Sec 4d",
+        "Sec 4f",
+        "Sec 4g"
+      ],
+      "PRI-02": [
+        "Sec 4",
+        "Sec 19"
+      ],
+      "PRI-03": [
+        "Sec 4a",
+        "Sec 11"
+      ],
+      "PRI-04": [
+        "Sec 4"
+      ],
+      "PRI-04.1": [
+        "Sec 4"
+      ],
+      "PRI-05": [
+        "Sec 3a",
+        "Sec 5",
+        "Sec 13",
+        "Sec 14",
+        "Sec 20"
+      ],
+      "PRI-06": [
+        "Sec 19"
+      ],
+      "PRI-06.1": [
+        "Sec 20"
+      ],
+      "PRI-15": [
+        "Sec 4d",
+        "Sec 4e"
+      ],
+      "SEA-01": [
+        "Sec 4b",
+        "Sec 9",
+        "Sec 9a",
+        "Sec 16",
+        "Annex"
+      ],
+      "SEA-02": [
+        "Sec 4b",
+        "Sec 9",
+        "Sec 9a",
+        "Sec 16",
+        "Annex"
+      ],
+      "SEA-03": [
+        "Sec 4b",
+        "Sec 9",
+        "Sec 9a",
+        "Sec 16",
+        "Annex"
+      ]
+    }
+  },
+  "framework_to_scf": {
+    "total_mappings": 20,
+    "mappings": {
+      "Sec 9": [
+        "GOV-01",
+        "CPL-01",
+        "CPL-02",
+        "DCH-01",
+        "SEA-01",
+        "SEA-02",
+        "SEA-03"
+      ],
+      "Sec 9a": [
+        "GOV-01",
+        "CPL-01",
+        "CPL-02",
+        "DCH-01",
+        "SEA-01",
+        "SEA-02",
+        "SEA-03"
+      ],
+      "Annex": [
+        "GOV-01",
+        "CPL-01",
+        "CPL-02",
+        "DCH-01",
+        "SEA-01",
+        "SEA-02",
+        "SEA-03"
+      ],
+      "Sec 4b": [
+        "DCH-01",
+        "SEA-01",
+        "SEA-02",
+        "SEA-03"
+      ],
+      "Sec 16": [
+        "DCH-01",
+        "SEA-01",
+        "SEA-02",
+        "SEA-03"
+      ],
+      "Sec 20": [
+        "DCH-22.1",
+        "PRI-05",
+        "PRI-06.1"
+      ],
+      "Inferred": [
+        "PRI-01"
+      ],
+      "Expectation": [
+        "PRI-01"
+      ],
+      "Sec 4d": [
+        "PRI-01.1",
+        "PRI-15"
+      ],
+      "Sec 4f": [
+        "PRI-01.1"
+      ],
+      "Sec 4g": [
+        "PRI-01.1"
+      ],
+      "Sec 4": [
+        "PRI-02",
+        "PRI-04",
+        "PRI-04.1"
+      ],
+      "Sec 19": [
+        "PRI-02",
+        "PRI-06"
+      ],
+      "Sec 4a": [
+        "PRI-03"
+      ],
+      "Sec 11": [
+        "PRI-03"
+      ],
+      "Sec 3a": [
+        "PRI-05"
+      ],
+      "Sec 5": [
+        "PRI-05"
+      ],
+      "Sec 13": [
+        "PRI-05"
+      ],
+      "Sec 14": [
+        "PRI-05"
+      ],
+      "Sec 4e": [
+        "PRI-15"
+      ]
+    }
+  }
+}

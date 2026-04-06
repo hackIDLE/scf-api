@@ -1,0 +1,66 @@
+{
+  "scf_control_id": "NET-02.2",
+  "total": 6,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-02.2",
+      "ao_id": "NET-02.2_A01",
+      "objective": "a secure guest network is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-02.2",
+      "ao_id": "NET-02.2_A02",
+      "objective": "a secure guest network is implemented",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-02.2",
+      "ao_id": "NET-02.2_A03",
+      "objective": "each type of wireless access to the system is defined.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.01.16.a[01]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-02.2",
+      "ao_id": "NET-02.2_A04",
+      "objective": "usage restrictions are established for each type of wireless access to the system.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.01.16.a[02]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-02.2",
+      "ao_id": "NET-02.2_A05",
+      "objective": "connection requirements are established for each type of wireless access to the system.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.01.16.a[04]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-02.2",
+      "ao_id": "NET-02.2_A06",
+      "objective": "each type of wireless access to the system is authorized prior to establishing such connections.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.01.16.b",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "SEA-06",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "SEA-06",
+      "ao_id": "SEA-06_A01",
+      "objective": "policies, rules of behavior, and/or access agreements regarding software program usage and restrictions are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-07(02)_ODP[01]\n53A_R5_CM-07(02)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-06",
+      "ao_id": "SEA-06_A02",
+      "objective": "program execution is prevented in accordance with organization-defined criteria.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_CM-07(02)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

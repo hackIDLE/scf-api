@@ -1,0 +1,14 @@
+{
+  "erl_id": "E-AST-08",
+  "area": "Asset Management",
+  "artifact_name": "Asset Inventories - Sensitive / Regulated Data",
+  "artifact_description": "Documented evidence of an inventory of the organization's sensitive/regulated data (including systems where sensitive/regulated data is stored, processed and/or transmitted) that contains sufficient information to determine the potential impact in the event of a data loss incident.",
+  "scf_controls": [
+    "CLD-10",
+    "DCH-01.3",
+    "DCH-06.2",
+    "BCD-11.2",
+    "PRI-05.5"
+  ],
+  "cmmc_mapping": ""
+}

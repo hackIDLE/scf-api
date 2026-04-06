@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "PRI-03.7",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-03.7",
+      "ao_id": "PRI-03.7_A01",
+      "objective": "data subjects are compelled to select the level of consent deemed appropriate by the data subject for the relevant business purpose (e.g., opt-in, opt-out, accept all cookies, etc.).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

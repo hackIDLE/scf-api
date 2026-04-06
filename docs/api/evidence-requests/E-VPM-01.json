@@ -1,0 +1,12 @@
+{
+  "erl_id": "E-VPM-01",
+  "area": "Vulnerability & Patch Management",
+  "artifact_name": "Vulnerability & Patch Management Program (VPMP)",
+  "artifact_description": "Documented evidence of a Vulnerability & Patch Management Program (VPMP). This is program-level documentation in the form of a runbook, playbook or a similar format provides guidance on organizational practices that support existing policies and standards.",
+  "scf_controls": [
+    "VPM-01",
+    "VPM-02",
+    "VPM-03"
+  ],
+  "cmmc_mapping": "RA.L2-3.11.2"
+}

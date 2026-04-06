@@ -1,0 +1,12 @@
+{
+  "erl_id": "E-IAO-03",
+  "area": "Information Assurance",
+  "artifact_name": "Pre-Production Controls Testing",
+  "artifact_description": "Documented evidence of pre-production cybersecurity & data protection controls testing to determine the extent to which the controls are implemented correctly, operating as intended and producing the desired outcome with respect to meeting expected requirements.",
+  "scf_controls": [
+    "IAO-02",
+    "IAO-02.4",
+    "IAO-03.2"
+  ],
+  "cmmc_mapping": ""
+}

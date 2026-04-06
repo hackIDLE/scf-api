@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "CLD-13.2",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CLD-13.2",
+      "ao_id": "CLD-13.2_A01",
+      "objective": "formal processes are defined to store, process and/or transmit sensitive / regulated data using External Service Providers (ESP) owned, operated and/or maintained external systems, applications and/or services , in accordance with all applicable statutory, regulatory and/or contractual obligations.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

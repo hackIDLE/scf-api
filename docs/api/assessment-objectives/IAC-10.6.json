@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "IAC-10.6",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-10.6",
+      "ao_id": "IAC-10.6_A01",
+      "objective": "unencrypted static authenticators are not embedded in applications or other forms of static storage.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-05(07)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

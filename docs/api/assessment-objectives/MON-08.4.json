@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "MON-08.4",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MON-08.4",
+      "ao_id": "MON-08.4_A01",
+      "objective": "critical or sensitive system and organizational operations for which dual authorization is to be enforced are identified.",
+      "pptdf": "Process",
+      "origin": "172A_3.1.1e[a]\n53A_R5_CM-05(04)_ODP[01]\n53A_R5_AU-09(05)_ODP[01]\n53A_R5_AU-09(05)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-08.4",
+      "ao_id": "MON-08.4_A02",
+      "objective": "dual authorization is employed to execute critical or sensitive system and organizational operations.",
+      "pptdf": "Technology",
+      "origin": "172A_3.1.1e[b]\n53A_R5_AU-09(05)\n53A_R5_CM-05(04)[01]\n53A_R5_CM-05(04)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

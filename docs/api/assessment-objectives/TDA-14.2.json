@@ -1,0 +1,66 @@
+{
+  "scf_control_id": "TDA-14.2",
+  "total": 6,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-14.2",
+      "ao_id": "TDA-14.2_A01",
+      "objective": "the developer of the system, system component or system service is required to enable integrity verification of hardware components.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-14.2",
+      "ao_id": "TDA-14.2_A02",
+      "objective": "the integrity of hardware components is verified.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-14.2",
+      "ao_id": "TDA-14.2_A03",
+      "objective": "independence criteria to be satisfied by an independent agent are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11(03)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-14.2",
+      "ao_id": "TDA-14.2_A04",
+      "objective": "an independent agent is required to satisfy organization-defined independence criteria to verify the correct implementation of the developer security assessment plan and the evidence produced during testing and evaluation.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11(03)(a)[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-14.2",
+      "ao_id": "TDA-14.2_A05",
+      "objective": "an independent agent is required to satisfy organization-defined independence criteria to verify the correct implementation of the developer privacy assessment plan and the evidence produced during testing and evaluation.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11(03)(a)[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-14.2",
+      "ao_id": "TDA-14.2_A06",
+      "objective": "the independent agent is provided with sufficient information to complete the verification process or granted the authority to obtain such information.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11(03)(b)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

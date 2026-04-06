@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "NET-13",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-13",
+      "ao_id": "NET-13_A01",
+      "objective": "cryptographic mechanisms are implemented to protect message externals unless otherwise protected by alternative physical controls.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-08(03)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-13",
+      "ao_id": "NET-13_A02",
+      "objective": "alternative physical controls to protect message externals are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-08(03)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-13",
+      "ao_id": "NET-13_A03",
+      "objective": "use of Voice over Internet Protocol (VoIP) technologies is controlled.",
+      "pptdf": "Technology",
+      "origin": "171A_3.13.14[a]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-13",
+      "ao_id": "NET-13_A04",
+      "objective": "use of Voice over Internet Protocol (VoIP) technologies is monitored.",
+      "pptdf": "Technology",
+      "origin": "171A_3.13.14[b]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

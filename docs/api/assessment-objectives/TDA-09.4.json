@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "TDA-09.4",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-09.4",
+      "ao_id": "TDA-09.4_A01",
+      "objective": "the developer of the system, system component, or system service is required to perform testing to ensure it continues to operate as intended when subject to invalid or unexpected inputs on its interfaces.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "CFG-02.9",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CFG-02.9",
+      "ao_id": "CFG-02.9_A01",
+      "objective": "the selected control baseline is tailored by applying specified tailoring actions.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_PL-11",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-02.9",
+      "ao_id": "CFG-02.9_A02",
+      "objective": "additional information for audit records is provided, as needed.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.03.02.b",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

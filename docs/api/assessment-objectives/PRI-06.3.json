@@ -1,0 +1,116 @@
+{
+  "scf_control_id": "PRI-06.3",
+  "total": 11,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-06.3",
+      "ao_id": "PRI-06.3_A01",
+      "objective": "a process for receiving & acknowledging complaints, concerns or questions from individuals about organizational cybersecurity / data privacy practices is implemented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-26[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-06.3",
+      "ao_id": "PRI-06.3_A02",
+      "objective": "a process for responding to complaints, concerns or questions from individuals about organizational cybersecurity / data privacy practices is implemented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-26[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-06.3",
+      "ao_id": "PRI-06.3_A03",
+      "objective": "the time period in which complaints (including concerns or questions) from individuals are to be reviewed and acknowledging is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-26_ODP[01]\n53A_R5_PM-26_ODP[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-06.3",
+      "ao_id": "PRI-06.3_A04",
+      "objective": "the time period in which complaints (including concerns or questions) from individuals are to be addressed is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-26_ODP[02]\n53A_R5_PM-26_ODP[04]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-06.3",
+      "ao_id": "PRI-06.3_A05",
+      "objective": "the complaint management process includes mechanisms that are easy to use by the public.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-26a.[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-06.3",
+      "ao_id": "PRI-06.3_A06",
+      "objective": "the complaint management process includes mechanisms that are readily accessible by the public.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-26a.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-06.3",
+      "ao_id": "PRI-06.3_A07",
+      "objective": "the complaint management process includes all information necessary for successfully filing complaints.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-26b.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-06.3",
+      "ao_id": "PRI-06.3_A08",
+      "objective": "the complaint management process includes tracking mechanisms to ensure that all complaints are reviewed within an organization-defined time period.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-26c.[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-06.3",
+      "ao_id": "PRI-06.3_A09",
+      "objective": "the complaint management process includes tracking mechanisms to ensure that all complaints are addressed within an organization-defined time period.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-26c.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-06.3",
+      "ao_id": "PRI-06.3_A10",
+      "objective": "the complaint management process includes acknowledging the receipt of complaints, concerns or questions from individuals within an organization-defined time period.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-26d.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-06.3",
+      "ao_id": "PRI-06.3_A11",
+      "objective": "the complaint management process includes responding to complaints, concerns or questions from individuals within an organization-defined time period.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-26e.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

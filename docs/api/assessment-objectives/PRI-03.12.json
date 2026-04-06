@@ -1,0 +1,76 @@
+{
+  "scf_control_id": "PRI-03.12",
+  "total": 7,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-03.12",
+      "ao_id": "PRI-03.12_A01",
+      "objective": "consent is obtained from data subject for collecting Personal Data (PD).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-03.12",
+      "ao_id": "PRI-03.12_A02",
+      "objective": "consent is obtained from data subject for receiving Personal Data (PD).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-03.12",
+      "ao_id": "PRI-03.12_A03",
+      "objective": "consent is obtained from data subject for processing Personal Data (PD).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-03.12",
+      "ao_id": "PRI-03.12_A04",
+      "objective": "consent is obtained from data subject for storing Personal Data (PD).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-03.12",
+      "ao_id": "PRI-03.12_A05",
+      "objective": "consent is obtained from data subject for transmitting Personal Data (PD).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-03.12",
+      "ao_id": "PRI-03.12_A06",
+      "objective": "consent is obtained from data subject for sharing Personal Data (PD).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-03.12",
+      "ao_id": "PRI-03.12_A07",
+      "objective": "consent is obtained from data subject for updating Personal Data (PD).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

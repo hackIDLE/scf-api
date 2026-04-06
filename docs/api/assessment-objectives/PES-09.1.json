@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "PES-09.1",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PES-09.1",
+      "ao_id": "PES-09.1_A01",
+      "objective": "personnel or roles to be notified by environmental control monitoring when environmental changes are potentially harmful to personnel or equipment is/are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PE-14(02)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-09.1",
+      "ao_id": "PES-09.1_A02",
+      "objective": "environmental control monitoring is employed.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-14(02)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-09.1",
+      "ao_id": "PES-09.1_A03",
+      "objective": "personnel or roles are notified when changes are potentially harmful to personnel or equipment.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-14(02)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

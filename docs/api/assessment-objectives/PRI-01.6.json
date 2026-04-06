@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "PRI-01.6",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-01.6",
+      "ao_id": "PRI-01.6_A01",
+      "objective": "Personal Data (PD) is protected by security safeguards that are sufficient and appropriately scoped to protect the confidentiality and integrity of the PD.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "MON-06.2",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MON-06.2",
+      "ao_id": "MON-06.2_A01",
+      "objective": "trend analysis is employed to determine if control implementations used in the continuous monitoring process need to be modified based on empirical data.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CA-07(03)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-06.2",
+      "ao_id": "MON-06.2_A02",
+      "objective": "trend analysis is employed to determine if the frequency of continuous monitoring activities used in the continuous monitoring process needs to be modified based on empirical data.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CA-07(03)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-06.2",
+      "ao_id": "MON-06.2_A03",
+      "objective": "trend analysis is employed to determine if the types of activities used in the continuous monitoring process need to be modified based on empirical data.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CA-07(03)[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

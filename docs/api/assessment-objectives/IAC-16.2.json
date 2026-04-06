@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "IAC-16.2",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-16.2",
+      "ao_id": "IAC-16.2_A01",
+      "objective": "separate privileged accounts exist between infrastructure environments to reduce the risk of a compromise in one infrastructure environment from laterally affecting other infrastructure environments.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

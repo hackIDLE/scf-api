@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "MNT-05.4",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MNT-05.4",
+      "ao_id": "MNT-05.4_A01",
+      "objective": "session connections are terminated when nonlocal maintenance is completed.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.07.05.c[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-05.4",
+      "ao_id": "MNT-05.4_A02",
+      "objective": "session connection termination is verified after the completion of nonlocal maintenance and diagnostic sessions.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_MA-04(07)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-05.4",
+      "ao_id": "MNT-05.4_A03",
+      "objective": "network connection termination is verified after the completion of nonlocal maintenance and diagnostic sessions.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_MA-04(07)[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

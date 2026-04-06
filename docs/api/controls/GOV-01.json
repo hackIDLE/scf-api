@@ -1,0 +1,775 @@
+{
+  "control_id": "GOV-01",
+  "title": "Security, Compliance & Resilience Program (SCRP)",
+  "family": "GOV",
+  "description": "Mechanisms exist to facilitate the implementation of security, compliance and resilience governance controls.",
+  "scf_question": "Does the organization facilitate the implementation of security, compliance and resilience governance controls?",
+  "relative_weight": 10,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [
+    "E-GOV-01",
+    "E-GOV-02"
+  ],
+  "pptdf": "Process",
+  "nist_csf_function": "Govern",
+  "scrm_focus": {
+    "strategic": true,
+    "operational": true,
+    "tactical": true
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "Cybersecurity & Data Protection Governance (GOV) capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with GOV domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Governance-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ No formal Governance, Risk & Compliance (GRC) team exists. GRC roles are assigned to existing IT/cybersecurity personnel.\n▪ Cybersecurity and data protection governance is informally assigned as an additional duty to existing IT/cybersecurity personnel.\n▪ Basic procedures are established for important tasks, but are ad hoc and not formally documented.\n▪ The responsibility for developing and operating cybersecurity and data privacy procedures are up to the business process owner(s) to determine, including the definition and enforcement of roles and responsibilities.\n▪ Governance documentation is made available to internal personnel (e.g., policies, standards, procedures, etc.).\n▪ IT /cyber engineering governance is decentralized, with the responsibility for implementing and testing cybersecurity and data protection controls being assigned to the business process owner(s), including the definition and enforcement of roles and responsibilities.",
+    "2": "Cybersecurity & Data Protection Governance (GOV) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with GOV domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with GOV domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with GOV  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Governance-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ No formal Governance, Risk & Compliance (GRC) team exists. GRC roles are assigned to existing IT and/or cybersecurity personnel.\n▪ IT and/or cybersecurity personnel ensure cybersecurity policies and standards are aligned with a leading cybersecurity framework (e.g., SCF, NIST 800-53, NIST 800-171, ISO 27002 or NIST Cybersecurity Framework).\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to implement and manage the organization's internal control system.\n▪ Legal representation is consulted on an as-needed basis.",
+    "3": "Cybersecurity & Data Protection Governance (GOV) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with GOV domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with GOV domain capabilities are well-documented and kept current by process owners.\n▪ The entity's GRC team, or similar function, is appropriately staffed and supported to implement and maintain GOV domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ Technology is leveraged to enhance the efficiency and accuracy of governance, risk management and compliance operations (e.g., GRC platform).\n▪ An implemented and operational capability exists to  facilitate the implementation of security, compliance and resilience governance controls.",
+    "4": "Cybersecurity & Data Protection Governance (GOV) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [
+    "SCRMS",
+    "CORE AI Model Deployment",
+    "CORE ESP Level 1 Foundational",
+    "CORE ESP Level 2 Critical Infrastructure",
+    "CORE ESP Level 3 Advanced Threats",
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ ComplianceForge - Cybersecurity & Data Protection Program (CDPP) (https://complianceforge.com)\n∙ SCFConnect (https://scfconnect.com)\n∙ NIST Cybersecurity Framework (CSF) 2.0 (https://www.nist.gov/cyberframework)",
+    "small": "∙ ComplianceForge - Cybersecurity & Data Protection Program (CDPP) (https://complianceforge.com)\n∙ SCFConnect (https://scfconnect.com)\n∙ NIST Cybersecurity Framework (CSF) 2.0 (https://www.nist.gov/cyberframework)",
+    "medium": "∙ Steering committee\n∙ ComplianceForge - Security, Compliance & Resilience Program (SCRP) (https://complianceforge.com)\n∙ ComplianceForge - Cybersecurity & Data Protection Program (CDPP) (https://complianceforge.com)\n∙ GRC platform (e.g., OneTrust, ServiceNow GRC, LogicGate)\n∙ Secure Controls Framework (SCF), NIST SP 800-53 Rev 5 and/or ISO 27001:2022 alignment",
+    "large": "∙ Steering committee\n∙ ComplianceForge - Security, Compliance & Resilience Program (SCRP) (https://complianceforge.com)\n∙  GRC solution (e.g., SCFConnect, Cyturus, SureCloud, SimpleRisk, Ignyte, ZenGRC, Galvanize, MetricStream, Archer, etc.)\n∙ Secure Controls Framework (SCF), NIST SP 800-53 Rev 5 and/or ISO 27001:2022 alignment",
+    "enterprise": "∙ Steering committee\n∙ ComplianceForge - Security, Compliance & Resilience Program (SCRP) (https://complianceforge.com)\n∙ Enterprise GRC platform (e.g., Cyturus, Archer, MetricStream, ServiceNow IRM)\n∙ Secure Controls Framework (SCF), NIST SP 800-53 Rev 5 and/or ISO 27001:2022 alignment"
+  },
+  "risks": [
+    "R-AC-1",
+    "R-AC-2",
+    "R-AC-3",
+    "R-AC-4",
+    "R-AM-1",
+    "R-AM-2",
+    "R-BC-1",
+    "R-BC-2",
+    "R-BC-3",
+    "R-BC-4",
+    "R-BC-5",
+    "R-EX-1",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-EX-5",
+    "R-EX-6",
+    "R-EX-7",
+    "R-GV-1",
+    "R-GV-2",
+    "R-GV-3",
+    "R-GV-4",
+    "R-GV-5",
+    "R-GV-6",
+    "R-GV-7",
+    "R-GV-8",
+    "R-IR-1",
+    "R-IR-2",
+    "R-IR-3",
+    "R-IR-4",
+    "R-SA-1",
+    "R-SA-2",
+    "R-SC-1",
+    "R-SC-2",
+    "R-SC-3",
+    "R-SC-4",
+    "R-SC-5",
+    "R-SC-6"
+  ],
+  "threats": [
+    "NT-7",
+    "MT-1",
+    "MT-2",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-16",
+    "MT-17",
+    "MT-18",
+    "MT-19",
+    "MT-20",
+    "MT-21",
+    "MT-22",
+    "MT-23",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "errata": "- renamed\n- wordsmithed",
+  "family_name": "Cybersecurity & Data Protection Governance",
+  "crosswalks": {
+    "general-aicpa-pmf-2020": [
+      "M1.2-POF6"
+    ],
+    "general-aicpa-tsc-2017": [
+      "CC1.1",
+      "CC1.1-POF1",
+      "CC1.2",
+      "CC2.3-POF5"
+    ],
+    "general-bsi-200-1-1-0": [
+      "4.1.2",
+      "4.1.3",
+      "7.1",
+      "8.1",
+      "8.2",
+      "8.3"
+    ],
+    "general-cobit-2019": [
+      "EDM01.02",
+      "APO01.09",
+      "APO04.01",
+      "APO13.01",
+      "APO13.03"
+    ],
+    "general-coso-2013": [
+      "2",
+      "12"
+    ],
+    "general-csa-cmm-4-1-0": [
+      "GRC-01",
+      "GRC-05"
+    ],
+    "general-csa-iot-2": [
+      "GVN-01",
+      "GVN-02"
+    ],
+    "general-iec-62443-2-1-2024": [
+      "ORG 1.1"
+    ],
+    "general-imo-maritime-cyber-risk-management-2025": [
+      "3.5",
+      "3.5.3"
+    ],
+    "general-iso-27001-2022": [
+      "4.4",
+      "5.1",
+      "5.1(a)",
+      "5.1(b)",
+      "5.1(c)",
+      "5.1(d)",
+      "5.1(e)",
+      "5.1(f)",
+      "5.1(g)",
+      "5.1(h)",
+      "6.1.1",
+      "6.1.1(a)",
+      "6.1.1(b)",
+      "6.1.1(c)",
+      "6.1.1(d)",
+      "6.1.1(e)(1)",
+      "6.1.1(e)(2)",
+      "8.1",
+      "10.1"
+    ],
+    "general-iso-27002-2022": [
+      "5.1",
+      "5.4",
+      "5.37"
+    ],
+    "general-iso-27017-2015": [
+      "5.1",
+      "5.1.1",
+      "7.2.1",
+      "12.1.1"
+    ],
+    "general-iso-27018-2025": [
+      "5.1",
+      "5.4",
+      "5.37"
+    ],
+    "general-iso-27701-2025": [
+      "5.1",
+      "6.1.3(c)",
+      "7.5.1"
+    ],
+    "general-iso-31000-2018": [
+      "5.1",
+      "5.3"
+    ],
+    "general-iso-42001-2023": [
+      "7.5.1",
+      "7.5.1(a)",
+      "7.5.1(b)",
+      "7.5.2",
+      "7.5.3",
+      "7.5.3(a)",
+      "7.5.3(b)"
+    ],
+    "general-mpa-csbp-5-3-1": [
+      "OR-1.0"
+    ],
+    "general-naic-insurance-data-security-model-law-668-2017": [
+      "4.A",
+      "4.B",
+      "4.B(1)",
+      "4.B(2)",
+      "4.B(3)",
+      "4.B(4)",
+      "4.D(1)"
+    ],
+    "general-nist-600-1-gen-ai-profile": [
+      "GOVERN 1.1",
+      "GOVERN 1.2",
+      "GV-1.2-002",
+      "GV-1.4-001",
+      "GV-1.4-002",
+      "GOVERN 4.1"
+    ],
+    "general-nist-privacy-framework-1-0": [
+      "ID-P",
+      "ID.BE-P",
+      "GV-P",
+      "GV.PO-P1",
+      "GV.PO-P6",
+      "CM-P",
+      "CM.PO-P",
+      "PR-P",
+      "PR.PT-P"
+    ],
+    "general-nist-800-53-r4": [
+      "PM-1"
+    ],
+    "general-nist-800-53-r5-2": [
+      "PM-01"
+    ],
+    "general-nist-800-53-r5-2-privacy": [
+      "PM-01"
+    ],
+    "general-nist-800-66-r2": [
+      "164.316(a)"
+    ],
+    "general-nist-800-82-r3": [
+      "PM-01"
+    ],
+    "general-nist-800-82-r3-low": [
+      "PM-01"
+    ],
+    "general-nist-800-82-r3-mod": [
+      "PM-01"
+    ],
+    "general-nist-800-82-r3-high": [
+      "PM-01"
+    ],
+    "general-nist-800-171-r3": [
+      "03.15.01.a"
+    ],
+    "general-nist-csf-2-0": [
+      "GV",
+      "GV.RM-01",
+      "GV.RM-03",
+      "GV.RR-01",
+      "GV.SC",
+      "GV.SC-01",
+      "GV.SC-03",
+      "GV.SC-09",
+      "ID.RA",
+      "PR",
+      "PR.IR"
+    ],
+    "general-pci-dss-4-0-1": [
+      "12.4",
+      "A3.1.2"
+    ],
+    "general-scf-dpmp-2025": [
+      "1.0"
+    ],
+    "general-sparta": [
+      "CM0005"
+    ],
+    "general-tisax-6-0-3": [
+      "1.2.1"
+    ],
+    "general-un-155-2021": [
+      "7.2.2.2(a)"
+    ],
+    "general-un-ece-wp-29-2020": [
+      "7.2.2.2(a)"
+    ],
+    "usa-federal-dow-cert-rmm-1-2": [
+      "ADM:GG1",
+      "ADM:GG2.GP1",
+      "ADM:GG3",
+      "AM:GG1",
+      "AM:GG2.GP1",
+      "AM:GG3",
+      "COMM:GG1",
+      "COMM:GG2.GP1",
+      "COMM:GG3",
+      "COMP:GG2.GP1",
+      "COMP:GG3",
+      "CTRL:GG1",
+      "CTRL:GG1.GP1",
+      "CTRL:GG2",
+      "CTRL:GG2.GP1",
+      "CTRL:GG2.GP2",
+      "CTRL:GG3",
+      "EC:GG1",
+      "EC:GG2.GP1",
+      "EC:GG3",
+      "EF:GG1",
+      "EF:GG2.GP1",
+      "EF:GG3",
+      "EXD:GG1",
+      "EXD:GG2.GP1",
+      "EXD:GG3",
+      "FRM:GG1",
+      "FRM:GG2.GP1",
+      "FRM:GG3",
+      "HRM:GG1",
+      "HRM:GG2.GP1",
+      "HRM:GG3",
+      "ID:GG1",
+      "ID:GG2.GP1",
+      "ID:GG3",
+      "IMC:GG1",
+      "IMC:GG2.GP1",
+      "IMC:GG3",
+      "KIM:GG1",
+      "KIM:GG2.GP1",
+      "KIM:GG3",
+      "MA:GG1",
+      "MA:GG2.GP1",
+      "MA:GG3",
+      "MON:GG1",
+      "MON:GG2.GP1",
+      "MON:GG3",
+      "OPD:GG1",
+      "OPD:GG2.GP1",
+      "OPD:GG3",
+      "OPF:GG1",
+      "OPF:GG2.GP1",
+      "OPF:GG3",
+      "OTA:GG1",
+      "OTA:GG2.GP1",
+      "OTA:GG3",
+      "PM:GG1",
+      "PM:GG2.GP1",
+      "PM:GG3",
+      "RISK:GG1",
+      "RISK:GG2.GP1",
+      "RISK:GG3",
+      "RRD:GG1",
+      "RRD:GG2.GP1",
+      "RRD:GG3",
+      "RRM:GG1",
+      "RRM:GG2.GP1",
+      "RRM:GG3",
+      "RTSE:GG1",
+      "RTSE:GG2.GP1",
+      "RTSE:GG3",
+      "SC:GG1",
+      "SC:GG2.GP1",
+      "SC:GG3",
+      "TM:GG1",
+      "TM:GG2",
+      "TM:GG2.GP1",
+      "TM:GG3",
+      "VAR:GG1",
+      "VAR:GG2.GP1",
+      "VAR:GG3",
+      "GG1",
+      "GG1.GP1",
+      "GG2",
+      "GG2.GP1",
+      "GG2.GP2",
+      "GG3",
+      "GG3.GP1"
+    ],
+    "usa-federal-dhs-cisa-ssdaf-2024": [
+      "1.f"
+    ],
+    "usa-federal-dhs-cisa-tic-3-0": [
+      "3.UNI.PEPAR"
+    ],
+    "usa-federal-fbi-cjis-6-0": [
+      "5.1",
+      "5.1.1"
+    ],
+    "usa-federal-doe-c2m2-2-1": [
+      "PROGRAM-1f",
+      "PROGRAM-1g",
+      "PROGRAM-2b",
+      "PROGRAM-2i"
+    ],
+    "usa-federal-dow-dfars-252-204-7012": [
+      "252.204-7012(b)"
+    ],
+    "usa-federal-eo-14028": [
+      "4e(i)(F)"
+    ],
+    "usa-federal-far-52-204-21": [
+      "52.204-21(b)(1)"
+    ],
+    "usa-federal-sro-fca-crm-2023": [
+      "609.930(a)",
+      "609.930(d)"
+    ],
+    "usa-federal-gsa-fedramp-5-low": [
+      "PM-01"
+    ],
+    "usa-federal-gsa-fedramp-5-mod": [
+      "PM-01"
+    ],
+    "usa-federal-gsa-fedramp-5-high": [
+      "PM-01"
+    ],
+    "usa-federal-gsa-fedramp-5-li-saas": [
+      "PM-01"
+    ],
+    "usa-federal-sro-finra": [
+      "248.30(a)(2)(ii)",
+      "248.201(e)"
+    ],
+    "usa-federal-law-ftc-act": [
+      "45(a)(1)"
+    ],
+    "usa-federal-law-glba-cfr-314-2023": [
+      "314.3(a)",
+      "314.3(b)(1)",
+      "314.3(b)(2)",
+      "314.3(b)(3)",
+      "314.4(a)",
+      "314.4(b)",
+      "314.4(c)"
+    ],
+    "usa-federal-hhs-45-cfr-155-260-2016": [
+      "155.260(a)(3)"
+    ],
+    "usa-federal-law-hipaa-simplification-2013": [
+      "164.306(a)(1)",
+      "164.306(a)(2)",
+      "164.306(a)(3)",
+      "164.316(a)",
+      "164.530(c)(1)",
+      "164.530(i)(1)"
+    ],
+    "usa-federal-law-hipaa-security-rule-2013": [
+      "164.306(a)(1)",
+      "164.306(a)(2)",
+      "164.306(a)(3)",
+      "164.316(a)"
+    ],
+    "usa-federal-irs-1075-2021": [
+      "PM-1"
+    ],
+    "usa-federal-cms-marse-2-0": [
+      "PM-1",
+      "PM-1.a",
+      "PM-1.a.1",
+      "PM-1.a.2",
+      "PM-1.a.3",
+      "PM-1.a.4",
+      "PM-1.b",
+      "PM-1.c",
+      "PM-1.d"
+    ],
+    "usa-federal-nerc-cip-2024": [
+      "CIP-003-8 1.1.4"
+    ],
+    "usa-federal-nispom-2020": [
+      "§117.18(b)"
+    ],
+    "usa-federal-law-sox-2002": [
+      "404(a)(1)"
+    ],
+    "usa-state-ca-ccpa-cpra-2026": [
+      "7123(b)(1)"
+    ],
+    "usa-state-ma-201-cmr-17-2008": [
+      "17.03(1)",
+      "17.03(1)(a)",
+      "17.03(1)(b)",
+      "17.03(1)(c)",
+      "17.03(1)(d)",
+      "17.03(2)"
+    ],
+    "usa-state-nv-regulation-5-2024": [
+      "5.260.1"
+    ],
+    "usa-state-ny-dfs-23-nycrr500-2023-amd2": [
+      "500.2(a)",
+      "500.2(b)",
+      "500.2(b)(1)",
+      "500.2(b)(2)",
+      "500.2(b)(3)",
+      "500.2(b)(4)",
+      "500.2(b)(5)",
+      "500.2(b)(6)",
+      "500.2(d)",
+      "500.2(e)",
+      "500.3(a)"
+    ],
+    "usa-state-ny-shield-act-2019": [
+      "899-bb.2(b)(ii)",
+      "899-bb.2(c)"
+    ],
+    "usa-state-tx-dir-security-control-standards-catalog-2-2": [
+      "PM-01"
+    ],
+    "usa-state-tx-sb2610-2025": [
+      "542.004(a)(1)"
+    ],
+    "usa-state-vt-act-171-2018": [
+      "2447(a)(1)",
+      "2447(a)(1)(A)",
+      "2447(a)(1)(B)",
+      "2447(a)(1)(C)",
+      "2447(a)(1)(D)",
+      "2447(b)",
+      "2447(c)"
+    ],
+    "emea-eu-ai-act-2024": [
+      "Article 17.2"
+    ],
+    "emea-eu-dora-2023": [
+      "Article 5.1",
+      "Article 9.4",
+      "Article 16.1(a)",
+      "Article 16.1(b)",
+      "Article 16.1(c)",
+      "Article 16.1(d)",
+      "Article 16.1(e)",
+      "Article 16.1(f)",
+      "Article 16.1(g)",
+      "Article 16.1(h)",
+      "Article 16.2"
+    ],
+    "emea-eu-nis2-2022": [
+      "Article 21.1",
+      "Article 21.2",
+      "Article 21.2(a)",
+      "Article 21.2(b)",
+      "Article 21.2(c)",
+      "Article 21.2(d)",
+      "Article 21.2(e)",
+      "Article 21.2(f)",
+      "Article 21.2(g)",
+      "Article 21.2(h)",
+      "Article 21.2(i)",
+      "Article 21.2(j)"
+    ],
+    "emea-eu-nis2-annex-2024": [
+      "1.1.1(a)",
+      "1.1.1(b)",
+      "6.7.1"
+    ],
+    "emea-us-psd2-2015": [
+      "3"
+    ],
+    "emea-aut-fappd-2000": [
+      "Sec 14",
+      "Sec 15"
+    ],
+    "emea-bel-act-8-1992": [
+      "16"
+    ],
+    "emea-deu-fdpa-2017": [
+      "Sec 9",
+      "Sec 9a",
+      "Annex"
+    ],
+    "emea-deu-bsrit-2017": [
+      "4.1"
+    ],
+    "emea-deu-c5-2020": [
+      "OIS-01"
+    ],
+    "emea-grc-pirppd-1997": [
+      "10"
+    ],
+    "emea-hun-isdfi-2011": [
+      "7"
+    ],
+    "emea-irl-dpa-2003": [
+      "2"
+    ],
+    "emea-isr-cmo-1-0": [
+      "3.2",
+      "4.25"
+    ],
+    "emea-isr-ppl-5741-1981": [
+      "16",
+      "17"
+    ],
+    "emea-ita-pdpc-2003": [
+      "31",
+      "33",
+      "34",
+      "35"
+    ],
+    "emea-nor-pda-2018": [
+      "13",
+      "14"
+    ],
+    "emea-pol-act-29-1997": [
+      "1",
+      "36"
+    ],
+    "emea-rus-federal-law-27-2006": [
+      "7",
+      "19"
+    ],
+    "emea-sau-cgiot-2024": [
+      "1-1-2"
+    ],
+    "emea-sau-ecc-1-2018": [
+      "1-2-1",
+      "1-3-2"
+    ],
+    "emea-sau-otcc-1-2022": [
+      "1-1"
+    ],
+    "emea-sau-sacs-002-2022": [
+      "TPC-25"
+    ],
+    "emea-sau-sama-csf-1-2017": [
+      "3.1.1"
+    ],
+    "emea-zaf-popia-2013": [
+      "19",
+      "21"
+    ],
+    "emea-esp-boe-a-2022-7191": [
+      "Article 5",
+      "Article 6.1",
+      "Article 6.2",
+      "Article 13.1",
+      "Article 35.1"
+    ],
+    "emea-esp-decree-311-2022": [
+      "13.1",
+      "35.1",
+      "5",
+      "6.1",
+      "6.2"
+    ],
+    "emea-esp-ccn-stic-825-2023": [
+      "6.1 [ORG.1]"
+    ],
+    "emea-che-fadp-2025": [
+      "7"
+    ],
+    "emea-tur-lppd-2016": [
+      "12"
+    ],
+    "emea-gbr-cap-1850-2020": [
+      "A1"
+    ],
+    "apac-aus-privacy-act-1998": [
+      "APP Part 1",
+      "APP Part 11"
+    ],
+    "apac-aus-ism-2024-june": [
+      "ISM-0888"
+    ],
+    "apac-aus-ps-cps-234-2019": [
+      "13",
+      "18",
+      "19"
+    ],
+    "apac-chn-csnip-2012": [
+      "4"
+    ],
+    "apac-chn-pipl-2021": [
+      "58",
+      "58(1)",
+      "58(2)",
+      "58(3)",
+      "58(4)"
+    ],
+    "apac-hkg-pdo-2022": [
+      "Principle 4"
+    ],
+    "apac-ind-privacy-rules-2011": [
+      "8"
+    ],
+    "apac-ind-sebi-2024": [
+      "GV.OC.S1",
+      "GV.OC.S2",
+      "PR.IP.S17"
+    ],
+    "apac-jpn-ppi-2020": [
+      "20"
+    ],
+    "apac-jpn-ismap": [
+      "4.4.1.1",
+      "4.4.1.2",
+      "4.4.2.1",
+      "4.5.4.1",
+      "4.5.4.2",
+      "4.8.1.1",
+      "4.8.2.2",
+      "5.1",
+      "5.1.1",
+      "6.1"
+    ],
+    "apac-mys-pdpa-2010": [
+      "9"
+    ],
+    "apac-nzl-ism-3-9": [
+      "5.1.14.C.01"
+    ],
+    "apac-phl-dpa-2012": [
+      "25",
+      "27",
+      "28"
+    ],
+    "apac-sgp-pdpa-2012": [
+      "12",
+      "24"
+    ],
+    "apac-kor-pipa-2011": [
+      "3",
+      "29",
+      "30"
+    ],
+    "apac-twn-pdpa-2025": [
+      "27"
+    ],
+    "americas-bhs-dpa-2003": [
+      "6"
+    ],
+    "americas-bmu-mba-coc-2020": [
+      "4",
+      "5.4"
+    ],
+    "amaericas-can-osfi-self-assessment": [
+      "6.5",
+      "6.6",
+      "6.7",
+      "6.23"
+    ],
+    "americas-can-osfi-b13-2022": [
+      "1",
+      "1.1.2",
+      "1.3.1",
+      "2.1.1",
+      "3"
+    ],
+    "americas-can-itsp-10-171-2025": [
+      "03.15.01.A"
+    ],
+    "americas-can-pipeda-2000": [
+      "Principle 7"
+    ],
+    "americas-chl-act-19628-1999": [
+      "7"
+    ],
+    "americas-col-law-1581-2012": [
+      "4"
+    ],
+    "americas-mex-fdpa-2010": [
+      "19"
+    ]
+  }
+}

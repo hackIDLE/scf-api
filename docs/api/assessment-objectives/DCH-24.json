@@ -1,0 +1,96 @@
+{
+  "scf_control_id": "DCH-24",
+  "total": 9,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-24",
+      "ao_id": "DCH-24_A01",
+      "objective": "information for which the location is to be identified and documented is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-12_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-24",
+      "ao_id": "DCH-24_A02",
+      "objective": "the location of sensitive / regulated data is identified and documented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-12a.[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-24",
+      "ao_id": "DCH-24_A03",
+      "objective": "the specific system components on which organization-defined information is processed are identified and documented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-12a.[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-24",
+      "ao_id": "DCH-24_A04",
+      "objective": "the specific system components on which organization-defined information is stored are identified and documented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-12a.[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-24",
+      "ao_id": "DCH-24_A05",
+      "objective": "changes to the location (e.g., system or system components) where organization-defined information is processed are documented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-12c.[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-24",
+      "ao_id": "DCH-24_A06",
+      "objective": "changes to the location (e.g., system or system components) where organization-defined information is stored are documented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-12c.[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-24",
+      "ao_id": "DCH-24_A07",
+      "objective": "the users who have access to the system and system components where organization-defined information is processed are identified and documented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-12b.[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-24",
+      "ao_id": "DCH-24_A08",
+      "objective": "the users who have access to the system and system components where organization-defined information is stored are identified and documented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-12b.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-24",
+      "ao_id": "DCH-24_A09",
+      "objective": "the location of CUI is identified and documented.",
+      "pptdf": "Data",
+      "origin": "171A_R3_A.03.04.11.a[01]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

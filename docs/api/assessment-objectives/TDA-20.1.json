@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "TDA-20.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-20.1",
+      "ao_id": "TDA-20.1_A01",
+      "objective": "integrity verification information is published for software releases.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

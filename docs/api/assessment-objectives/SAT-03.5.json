@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "SAT-03.5",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "SAT-03.5",
+      "ao_id": "SAT-03.5_A01",
+      "objective": "specific training for privileged users is provided to ensure privileged users understand their unique roles and responsibilities",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

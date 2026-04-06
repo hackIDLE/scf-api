@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "SAT-03.4",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "SAT-03.4",
+      "ao_id": "SAT-03.4_A01",
+      "objective": "vendor-specific security training is provided to support new technology initiatives.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

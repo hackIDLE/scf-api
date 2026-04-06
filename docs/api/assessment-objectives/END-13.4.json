@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "END-13.4",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "END-13.4",
+      "ao_id": "END-13.4_A01",
+      "objective": "sensors to be used to collect data or information are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-42(01)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-13.4",
+      "ao_id": "END-13.4_A02",
+      "objective": "systems are configured so that data or information collected by the sensors is only reported to authorized individuals or roles.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-42(01)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

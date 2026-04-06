@@ -1,0 +1,714 @@
+{
+  "control_id": "END-04",
+  "title": "Malicious Code Protection (Anti-Malware)",
+  "family": "END",
+  "description": "Mechanisms exist to utilize antimalware technologies to detect and eradicate malicious code.",
+  "scf_question": "Does the organization utilize antimalware technologies to detect and eradicate malicious code?",
+  "relative_weight": 10,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [
+    "E-END-01",
+    "E-MON-02"
+  ],
+  "pptdf": "Technology",
+  "nist_csf_function": "Detect",
+  "scrm_focus": {
+    "strategic": false,
+    "operational": true,
+    "tactical": true
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "Endpoint Security (END) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with END domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Endpoint security management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ Anti-malware technologies are decentralized but are deployed on all technology assets that can run anti-malware software.",
+    "2": "Endpoint Security (END) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Endpoint security-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Endpoint security management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Anti-malware technologies are centralized, deployed on all technology assets that can run anti-malware software.\n▪ Anti-malware technologies are configured to generate event logs that can be centrally-reviewed (e.g., forwarded to a SIEM).\n▪ Anti-malware detection tools are configured to provide real-time protection (e.g., always on).\n▪ Anti-malware detection tools are configured to automatically update.",
+    "3": "Endpoint Security (END) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are well-documented and kept current by process owners.\n▪ An endpoint technology management team, or similar function, is appropriately staffed and supported to implement and maintain END domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of endpoint security operations (e.g., unified endpoint management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to utilize antimalware technologies to detect and eradicate malicious code.",
+    "4": "Endpoint Security (END) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [
+    "SCRMS",
+    "CORE ESP Level 1 Foundational",
+    "CORE ESP Level 2 Critical Infrastructure",
+    "CORE ESP Level 3 Advanced Threats",
+    "CORE Fundamentals",
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ Antimalware software",
+    "small": "∙ Antimalware software",
+    "medium": "∙ Antimalware software",
+    "large": "∙ Antimalware software",
+    "enterprise": "∙ Antimalware software"
+  },
+  "risks": [
+    "R-AC-1",
+    "R-AC-2",
+    "R-AC-3",
+    "R-AC-4",
+    "R-AM-1",
+    "R-AM-2",
+    "R-AM-3",
+    "R-BC-1",
+    "R-BC-2",
+    "R-BC-3",
+    "R-BC-4",
+    "R-BC-5",
+    "R-EX-1",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-EX-5",
+    "R-EX-6",
+    "R-EX-7",
+    "R-GV-1",
+    "R-GV-2",
+    "R-GV-3",
+    "R-GV-4",
+    "R-GV-5",
+    "R-GV-6",
+    "R-GV-7",
+    "R-GV-8",
+    "R-IR-1",
+    "R-IR-2",
+    "R-IR-3",
+    "R-IR-4",
+    "R-SA-2",
+    "R-SC-1",
+    "R-SC-2",
+    "R-SC-3",
+    "R-SC-4",
+    "R-SC-5",
+    "R-SC-6"
+  ],
+  "threats": [
+    "NT-7",
+    "MT-1",
+    "MT-2",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-10",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Endpoint Security",
+  "crosswalks": {
+    "general-aicpa-pmf-2020": [
+      "S7.1-POF11"
+    ],
+    "general-aicpa-tsc-2017": [
+      "CC6.8",
+      "CC6.8-POF4"
+    ],
+    "general-cis-csc-8-1": [
+      "10.0",
+      "10.1",
+      "10.4"
+    ],
+    "general-cis-csc-8-1-ig1": [
+      "10.1"
+    ],
+    "general-cis-csc-8-1-ig2": [
+      "10.1",
+      "10.4"
+    ],
+    "general-cis-csc-8-1-ig3": [
+      "10.1",
+      "10.4"
+    ],
+    "general-cobit-2019": [
+      "DSS05.01"
+    ],
+    "general-csa-cmm-4-1-0": [
+      "UEM-09"
+    ],
+    "general-csa-iot-2": [
+      "CLS-14"
+    ],
+    "general-govramp": [
+      "SI-03"
+    ],
+    "general-govramp-core": [
+      "SI-03"
+    ],
+    "general-govramp-low": [
+      "SI-03"
+    ],
+    "general-govramp-low-plus": [
+      "SI-03"
+    ],
+    "general-govramp-mod": [
+      "SI-03"
+    ],
+    "general-govramp-high": [
+      "SI-03"
+    ],
+    "general-iec-62443-2-1-2024": [
+      "COMP 2.2"
+    ],
+    "general-iec-62443-3-3-2013": [
+      "SR 3.2",
+      "SR 3.2 RE 1"
+    ],
+    "general-iec-62443-4-2-2019": [
+      "SAR 3.2",
+      "HDR 3.2",
+      "NDR 3.2"
+    ],
+    "general-iso-27002-2022": [
+      "8.7"
+    ],
+    "general-iso-27017-2015": [
+      "12.2.1"
+    ],
+    "general-iso-27018-2025": [
+      "8.7"
+    ],
+    "general-mitre-att&ck-16-1": [
+      "T1001",
+      "T1001.001",
+      "T1001.002",
+      "T1001.003",
+      "T1003",
+      "T1003.001",
+      "T1003.002",
+      "T1003.003",
+      "T1003.004",
+      "T1003.005",
+      "T1003.006",
+      "T1003.007",
+      "T1003.008",
+      "T1005",
+      "T1008",
+      "T1011.001",
+      "T1021.003",
+      "T1021.005",
+      "T1025",
+      "T1027",
+      "T1027.002",
+      "T1027.007",
+      "T1027.008",
+      "T1027.009",
+      "T1027.010",
+      "T1027.012",
+      "T1027.013",
+      "T1027.014",
+      "T1029",
+      "T1030",
+      "T1036",
+      "T1036.003",
+      "T1036.005",
+      "T1036.008",
+      "T1037",
+      "T1037.002",
+      "T1037.003",
+      "T1037.004",
+      "T1037.005",
+      "T1041",
+      "T1046",
+      "T1047",
+      "T1048",
+      "T1048.001",
+      "T1048.002",
+      "T1048.003",
+      "T1052",
+      "T1052.001",
+      "T1055",
+      "T1055.001",
+      "T1055.002",
+      "T1055.003",
+      "T1055.004",
+      "T1055.005",
+      "T1055.008",
+      "T1055.009",
+      "T1055.011",
+      "T1055.012",
+      "T1055.013",
+      "T1055.014",
+      "T1055.015",
+      "T1056.002",
+      "T1059",
+      "T1059.001",
+      "T1059.002",
+      "T1059.003",
+      "T1059.004",
+      "T1059.005",
+      "T1059.006",
+      "T1059.007",
+      "T1059.008",
+      "T1059.010",
+      "T1059.011",
+      "T1068",
+      "T1070",
+      "T1070.001",
+      "T1070.002",
+      "T1070.003",
+      "T1070.007",
+      "T1070.008",
+      "T1070.009",
+      "T1070.010",
+      "T1071",
+      "T1071.001",
+      "T1071.002",
+      "T1071.003",
+      "T1071.004",
+      "T1072",
+      "T1080",
+      "T1090",
+      "T1090.001",
+      "T1090.002",
+      "T1091",
+      "T1092",
+      "T1095",
+      "T1098.004",
+      "T1102",
+      "T1102.001",
+      "T1102.002",
+      "T1102.003",
+      "T1104",
+      "T1105",
+      "T1106",
+      "T1111",
+      "T1129",
+      "T1132",
+      "T1132.001",
+      "T1132.002",
+      "T1137",
+      "T1137.001",
+      "T1176",
+      "T1185",
+      "T1189",
+      "T1190",
+      "T1195",
+      "T1201",
+      "T1203",
+      "T1204",
+      "T1204.001",
+      "T1204.002",
+      "T1204.003",
+      "T1210",
+      "T1211",
+      "T1212",
+      "T1218",
+      "T1218.001",
+      "T1218.002",
+      "T1218.003",
+      "T1218.004",
+      "T1218.005",
+      "T1218.008",
+      "T1218.009",
+      "T1218.012",
+      "T1218.013",
+      "T1218.014",
+      "T1218.015",
+      "T1219",
+      "T1221",
+      "T1485",
+      "T1486",
+      "T1490",
+      "T1491",
+      "T1491.001",
+      "T1491.002",
+      "T1505.004",
+      "T1525",
+      "T1539",
+      "T1543",
+      "T1543.002",
+      "T1546.002",
+      "T1546.003",
+      "T1546.004",
+      "T1546.006",
+      "T1546.013",
+      "T1546.014",
+      "T1546.016",
+      "T1547.002",
+      "T1547.005",
+      "T1547.006",
+      "T1547.007",
+      "T1547.008",
+      "T1547.009",
+      "T1547.013",
+      "T1548",
+      "T1548.004",
+      "T1548.006",
+      "T1553.003",
+      "T1554",
+      "T1557",
+      "T1557.001",
+      "T1557.002",
+      "T1557.003",
+      "T1558",
+      "T1558.002",
+      "T1558.003",
+      "T1558.004",
+      "T1559",
+      "T1559.001",
+      "T1559.002",
+      "T1560",
+      "T1560.001",
+      "T1561",
+      "T1561.001",
+      "T1561.002",
+      "T1562",
+      "T1562.001",
+      "T1562.002",
+      "T1562.004",
+      "T1562.006",
+      "T1562.011",
+      "T1564.004",
+      "T1564.008",
+      "T1564.009",
+      "T1564.012",
+      "T1566",
+      "T1566.001",
+      "T1566.002",
+      "T1566.003",
+      "T1567",
+      "T1568",
+      "T1568.002",
+      "T1569",
+      "T1569.002",
+      "T1570",
+      "T1571",
+      "T1572",
+      "T1573",
+      "T1573.001",
+      "T1573.002",
+      "T1574",
+      "T1574.001",
+      "T1574.004",
+      "T1574.007",
+      "T1574.008",
+      "T1574.009",
+      "T1574.013",
+      "T1574.014",
+      "T1598",
+      "T1598.001",
+      "T1598.002",
+      "T1598.003",
+      "T1602",
+      "T1602.001",
+      "T1602.002",
+      "T1611",
+      "T1622"
+    ],
+    "general-mpa-csbp-5-3-1": [
+      "TS-1.0",
+      "TS-1.3",
+      "TS-1.4"
+    ],
+    "general-nist-800-53-r4": [
+      "SI-3"
+    ],
+    "general-nist-800-53-r5-2": [
+      "SI-03"
+    ],
+    "general-nist-800-53-r5-2-privacy": [
+      "SI-03"
+    ],
+    "general-nist-800-53-r5-2-low": [
+      "SI-03"
+    ],
+    "general-nist-800-82-r3": [
+      "SI-03"
+    ],
+    "general-nist-800-82-r3-low": [
+      "SI-03"
+    ],
+    "general-nist-800-82-r3-mod": [
+      "SI-03"
+    ],
+    "general-nist-800-82-r3-high": [
+      "SI-03"
+    ],
+    "general-nist-800-161-r1": [
+      "SI-3"
+    ],
+    "general-nist-800-161-r1-cscrm": [
+      "SI-3"
+    ],
+    "general-nist-800-161-r1-flowdown": [
+      "SI-3"
+    ],
+    "general-nist-800-161-r1-level-2": [
+      "SI-3"
+    ],
+    "general-nist-800-161-r1-level-3": [
+      "SI-3"
+    ],
+    "general-nist-800-171-r2": [
+      "3.14.2"
+    ],
+    "general-nist-800-171-r3": [
+      "03.14.02.c",
+      "03.14.02.c.01",
+      "03.14.02.c.02"
+    ],
+    "general-nist-800-171a": [
+      "3.14.2[a]",
+      "3.14.2[b]",
+      "3.14.5[a]",
+      "3.14.5[b]",
+      "3.14.5[c]"
+    ],
+    "general-nist-800-171a-r3": [
+      "A.03.14.02.ODP[01]",
+      "A.03.14.02.a[01]",
+      "A.03.14.02.a[02]",
+      "A.03.14.02.c.02"
+    ],
+    "general-nist-csf-2-0": [
+      "DE.CM-09"
+    ],
+    "general-pci-dss-4-0-1": [
+      "5.2",
+      "5.2.1",
+      "5.2.2",
+      "5.3",
+      "5.3.1",
+      "5.3.2",
+      "5.3.2.1",
+      "5.3.3",
+      "5.3.4",
+      "5.3.5"
+    ],
+    "general-pci-dss-4-0-1-saq-a-ep": [
+      "5.2.1",
+      "5.2.2",
+      "5.3.1",
+      "5.3.2",
+      "5.3.2.1",
+      "5.3.3",
+      "5.3.4",
+      "5.3.5"
+    ],
+    "general-pci-dss-4-0-1-saq-c": [
+      "5.2.1",
+      "5.2.2",
+      "5.3.1",
+      "5.3.2",
+      "5.3.2.1",
+      "5.3.3",
+      "5.3.4",
+      "5.3.5"
+    ],
+    "general-pci-dss-4-0-1-saq-c-vt": [
+      "5.2.1",
+      "5.2.2",
+      "5.3.1",
+      "5.3.2",
+      "5.3.3",
+      "5.3.4",
+      "5.3.5"
+    ],
+    "general-pci-dss-4-0-1-saq-d-merchant": [
+      "5.2.1",
+      "5.2.2",
+      "5.3.1",
+      "5.3.2",
+      "5.3.2.1",
+      "5.3.3",
+      "5.3.4",
+      "5.3.5"
+    ],
+    "general-pci-dss-4-0-1-saq-d-service-provider": [
+      "5.2.1",
+      "5.2.2",
+      "5.3.1",
+      "5.3.2",
+      "5.3.2.1",
+      "5.3.3",
+      "5.3.4",
+      "5.3.5"
+    ],
+    "general-shared-assessments-sig-2025": [
+      "U.1.5.1"
+    ],
+    "general-swift-cscf-2025": [
+      "6.1"
+    ],
+    "general-tisax-6-0-3": [
+      "5.2.3"
+    ],
+    "usa-federal-dhs-cisa-tic-3-0": [
+      "3.PEP.EM.PDPRO",
+      "3.PEP.FI.AMALW",
+      "3.PEP.IN.EDRES"
+    ],
+    "usa-federal-fbi-cjis-6-0": [
+      "SI-3"
+    ],
+    "usa-federal-dow-cmmc-2-level-1": [
+      "SI.L1-B.1.XIII",
+      "SI.L1-B.1.XV"
+    ],
+    "usa-federal-dow-cmmc-2-level-1-aos": [
+      "SI.L1-B.1.XIII[a]",
+      "SI.L1-B.1.XIII[b]",
+      "SI.L1-B.1.XV[a]",
+      "SI.L1-B.1.XV[b]"
+    ],
+    "usa-federal-dow-cmmc-2-level-2": [
+      "SIL2.-3.14.2"
+    ],
+    "usa-federal-far-52-204-21": [
+      "52.204-21(b)(1)(xiii)",
+      "52.204-21(b)(1)(xv)"
+    ],
+    "usa-federal-gsa-fedramp-5-low": [
+      "SI-03"
+    ],
+    "usa-federal-gsa-fedramp-5-mod": [
+      "SI-03"
+    ],
+    "usa-federal-gsa-fedramp-5-high": [
+      "SI-03"
+    ],
+    "usa-federal-gsa-fedramp-5-li-saas": [
+      "SI-03"
+    ],
+    "usa-federal-irs-1075-2021": [
+      "SI-3"
+    ],
+    "usa-federal-cms-marse-2-0": [
+      "SI-3",
+      "SI-3.a",
+      "SI-3.b",
+      "SI-3.c",
+      "SI-3.c.1",
+      "SI-3.c.2",
+      "SI-3.d"
+    ],
+    "usa-federal-nerc-cip-2024": [
+      "CIP-007-6 3.1",
+      "CIP-007-6 3.2",
+      "CIP-007-6 3.3",
+      "CIP-007-6 4.2.1"
+    ],
+    "usa-state-ca-ccpa-cpra-2026": [
+      "7123(c)(9)"
+    ],
+    "usa-state-ny-dfs-23-nycrr500-2023-amd2": [
+      "500.14(a)(2)"
+    ],
+    "usa-state-tx-dir-security-control-standards-catalog-2-2": [
+      "SI-03"
+    ],
+    "usa-state-tx-txramp-2-0-level-1": [
+      "SI-03"
+    ],
+    "usa-state-tx-txramp-2-0-level-2": [
+      "SI-03"
+    ],
+    "emea-eu-nis2-annex-2024": [
+      "6.9.1",
+      "6.9.2"
+    ],
+    "emea-deu-c5-2020": [
+      "OPS-04",
+      "OPS-05"
+    ],
+    "emea-isr-cmo-1-0": [
+      "7.1",
+      "7.3",
+      "12.20",
+      "15.5"
+    ],
+    "emea-sau-ecc-1-2018": [
+      "2-3-3-1",
+      "2-4-3-4",
+      "5-1-3-10"
+    ],
+    "emea-sau-otcc-1-2022": [
+      "2-3-1-8"
+    ],
+    "emea-sau-sacs-002-2022": [
+      "TPC-12"
+    ],
+    "emea-esp-ccn-stic-825-2023": [
+      "7.3.6 [OP.EXP.6]"
+    ],
+    "emea-gbr-cyber-essentials-requirements-3-3": [
+      "4"
+    ],
+    "emea-gbr-def-stan-05-138-2024": [
+      "2411",
+      "2426"
+    ],
+    "emea-gbr-def-stan-05-138-l1-2024": [
+      "2411",
+      "2426"
+    ],
+    "emea-gbr-def-stan-05-138-l2-2024": [
+      "2411",
+      "2426"
+    ],
+    "emea-gbr-def-stan-05-138-l3-2024": [
+      "2411",
+      "2426"
+    ],
+    "apac-aus-ism-2024-june": [
+      "ISM-1284",
+      "ISM-1286",
+      "ISM-1288",
+      "ISM-1289",
+      "ISM-1290",
+      "ISM-1293",
+      "ISM-1417",
+      "ISM-1608"
+    ],
+    "apac-ind-sebi-2024": [
+      "PR.IP.S4"
+    ],
+    "apac-jpn-ismap": [
+      "12.2",
+      "12.2.1",
+      "12.2.1.1",
+      "12.2.1.3",
+      "12.2.1.4",
+      "12.2.1.5",
+      "12.2.1.6",
+      "12.2.1.7",
+      "12.2.1.8",
+      "12.2.1.9",
+      "12.2.1.15"
+    ],
+    "apac-nzl-hisf-mlhsp-2023": [
+      "HHSP62",
+      "HML62"
+    ],
+    "apac-nzl-hisf-microsmall-2023": [
+      "HMS10"
+    ],
+    "apac-nzl-hisf-suppliers-2023": [
+      "HSUP54"
+    ],
+    "apac-nzl-ism-3-9": [
+      "14.1.9.C.02"
+    ],
+    "apac-sgp-cyber-hygiene-practice-2019": [
+      "4.5"
+    ],
+    "apac-sgp-mas-trm-2021": [
+      "11.3.3"
+    ],
+    "americas-bmu-mba-coc-2020": [
+      "6.12"
+    ],
+    "amaericas-can-osfi-self-assessment": [
+      "4.3",
+      "4.4"
+    ],
+    "americas-can-itsp-10-171-2025": [
+      "03.14.02.C",
+      "03.14.02.C.01",
+      "03.14.02.C.02"
+    ]
+  }
+}

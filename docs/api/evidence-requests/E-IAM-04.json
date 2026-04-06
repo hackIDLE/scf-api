@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-IAM-04",
+  "area": "Identity & Access Management",
+  "artifact_name": "User & Service Inventory",
+  "artifact_description": "Documented evidence of an inventory of authorized users and services.",
+  "scf_controls": [
+    "IAC-01.3"
+  ],
+  "cmmc_mapping": "AC.L2-3.1.5\nAC.L2-3.1.6\nIA.L2-3.5.6\nPS.L2-3.9.2"
+}

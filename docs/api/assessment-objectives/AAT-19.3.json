@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-19.3",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-19.3",
+      "ao_id": "AAT-19.3_A01",
+      "objective": "the organization prohibits the sale, deployment and/or use of Artificial Intelligence (AI) and Autonomous Technologies (AAT) that evaluate human subjects over a certain period of time based on their social behavior or known, inferred or predicted personal or personality characteristics.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-19.3",
+      "ao_id": "AAT-19.3_A02",
+      "objective": "the organization prohibits the sale, deployment and/or use of Artificial Intelligence (AI) and Autonomous Technologies (AAT) that assign a \"social score\" branding or equivalent classification.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-PRI-07",
+  "area": "Privacy",
+  "artifact_name": "Personal Data Categories",
+  "artifact_description": "Documented evidence of formal personal data categories.",
+  "scf_controls": [
+    "PRI-05.7"
+  ],
+  "cmmc_mapping": ""
+}

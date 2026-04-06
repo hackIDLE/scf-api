@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "END-14.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "END-14.2",
+      "ao_id": "END-14.2_A01",
+      "objective": "online meetings and teleconferences for which an explicit indication of current participants is to be provided are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-15(04)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-14.2",
+      "ao_id": "END-14.2_A02",
+      "objective": "an explicit indication of current participants in online meetings and teleconferences is provided.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-15(04)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "AAT-32",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-32",
+      "ao_id": "AAT-32_A01",
+      "objective": "Robotic Process Automation (RPA) is implemented to improve efficiency, accuracy and speed in instances of high-volume, repetitive and rules-based business processes.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

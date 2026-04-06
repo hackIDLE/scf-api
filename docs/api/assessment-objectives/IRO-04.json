@@ -1,0 +1,266 @@
+{
+  "scf_control_id": "IRO-04",
+  "total": 26,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IRO-04",
+      "ao_id": "IRO-04_A01",
+      "objective": "personnel or roles that review and approve the incident response plan is/are identified.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-08_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04",
+      "ao_id": "IRO-04_A02",
+      "objective": "entities, personnel or roles with designated responsibility for incident response are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-08_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04",
+      "ao_id": "IRO-04_A03",
+      "objective": "an incident response plan is developed that provides the organization with a roadmap for implementing its incident response capability.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-08a.01\n171A_R3_A.03.06.05.a.01",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04",
+      "ao_id": "IRO-04_A04",
+      "objective": "an incident response plan is developed that describes the structure and organization of the incident response capability.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-08a.02\n171A_R3_A.03.06.05.a.02",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04",
+      "ao_id": "IRO-04_A05",
+      "objective": "an incident response plan is developed that provides a high-level approach for how the incident response capability fits into the overall organization.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-08a.03\n171A_R3_A.03.06.05.a.03",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04",
+      "ao_id": "IRO-04_A06",
+      "objective": "an incident response plan is developed that meets the unique requirements of the organization with regard to mission, size, structure and functions.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-08a.04",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04",
+      "ao_id": "IRO-04_A07",
+      "objective": "an incident response plan is developed that defines reportable incidents.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-08a.05\n171A_R3_A.03.06.05.a.04",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04",
+      "ao_id": "IRO-04_A08",
+      "objective": "an incident response plan is developed that provides metrics for measuring the incident response capability within the organization.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-08a.06",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04",
+      "ao_id": "IRO-04_A09",
+      "objective": "an incident response plan is developed that defines the resources and management support needed to effectively maintain and mature an incident response capability.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-08a.07",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04",
+      "ao_id": "IRO-04_A10",
+      "objective": "an incident response plan is developed that addresses the sharing of incident information.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-08a.08\n171A_R3_A.03.06.05.a.05",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04",
+      "ao_id": "IRO-04_A11",
+      "objective": "an incident response plan is developed that is reviewed and approved by personnel or roles frequency.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-08a.09",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04",
+      "ao_id": "IRO-04_A12",
+      "objective": "an incident response plan is developed that designates responsibilities to organizational entities, personnel, or roles.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-08a.10\n171A_R3_A.03.06.05.a.06",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04",
+      "ao_id": "IRO-04_A13",
+      "objective": "copies of the incident response plan are distributed to designated incident response personnel (identified by name or by role).",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-08b.[01]\n171A_R3_A.03.06.05.b[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04",
+      "ao_id": "IRO-04_A14",
+      "objective": "incident response personnel (identified by name and/or by role) to whom copies of the incident response plan are to be distributed is/are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-08_ODP[04]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04",
+      "ao_id": "IRO-04_A15",
+      "objective": "organizational elements to which copies of the incident response plan are to be distributed are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-08_ODP[05]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04",
+      "ao_id": "IRO-04_A16",
+      "objective": "incident response personnel (identified by name and/or by role) to whom changes to the incident response plan is/are communicated are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-08_ODP[06]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04",
+      "ao_id": "IRO-04_A17",
+      "objective": "organizational elements to which changes to the incident response plan are communicated are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-08_ODP[07]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04",
+      "ao_id": "IRO-04_A18",
+      "objective": "copies of the incident response plan are distributed to organizational elements.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-08b.[02]\n171A_R3_A.03.06.05.b[02]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04",
+      "ao_id": "IRO-04_A19",
+      "objective": "the frequency at which to review and approve the incident response plan is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-08_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04",
+      "ao_id": "IRO-04_A20",
+      "objective": "the incident response plan is updated to address system and organizational changes or problems encountered during plan implementation, execution or testing.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-08c.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04",
+      "ao_id": "IRO-04_A21",
+      "objective": "incident response plan changes are communicated to incident response personnel.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-08d.[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04",
+      "ao_id": "IRO-04_A22",
+      "objective": "incident response plan changes are communicated to organizational elements.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-08d.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04",
+      "ao_id": "IRO-04_A23",
+      "objective": "the incident response plan is protected from unauthorized disclosure.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IR-08e.[01]\n171A_R3_A.03.06.05.d",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04",
+      "ao_id": "IRO-04_A24",
+      "objective": "the incident response plan is protected from unauthorized modification.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IR-08e.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04",
+      "ao_id": "IRO-04_A25",
+      "objective": "the time period to report suspected incidents to the organizational incident response capability is defined.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.06.02.ODP[01]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04",
+      "ao_id": "IRO-04_A26",
+      "objective": "authorities to whom incident information is to be reported are defined.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.06.02.ODP[02]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

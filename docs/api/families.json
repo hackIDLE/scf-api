@@ -1,0 +1,171 @@
+{
+  "total_families": 33,
+  "total_controls": 1468,
+  "families": [
+    {
+      "family_code": "AAT",
+      "family_name": "Artificial Intelligence & Autonomous Technologies",
+      "control_count": 156
+    },
+    {
+      "family_code": "AST",
+      "family_name": "Asset Management",
+      "control_count": 63
+    },
+    {
+      "family_code": "BCD",
+      "family_name": "Business Continuity & Disaster Recovery",
+      "control_count": 59
+    },
+    {
+      "family_code": "CAP",
+      "family_name": "Capacity & Performance Planning",
+      "control_count": 6
+    },
+    {
+      "family_code": "CFG",
+      "family_name": "Configuration Management",
+      "control_count": 28
+    },
+    {
+      "family_code": "CHG",
+      "family_name": "Change Management",
+      "control_count": 20
+    },
+    {
+      "family_code": "CLD",
+      "family_name": "Cloud Security",
+      "control_count": 24
+    },
+    {
+      "family_code": "CPL",
+      "family_name": "Compliance",
+      "control_count": 40
+    },
+    {
+      "family_code": "CRY",
+      "family_name": "Cryptographic Protections",
+      "control_count": 29
+    },
+    {
+      "family_code": "DCH",
+      "family_name": "Data Classification & Handling",
+      "control_count": 85
+    },
+    {
+      "family_code": "EMB",
+      "family_name": "Embedded Technology",
+      "control_count": 19
+    },
+    {
+      "family_code": "END",
+      "family_name": "Endpoint Security",
+      "control_count": 47
+    },
+    {
+      "family_code": "GOV",
+      "family_name": "Cybersecurity & Data Protection Governance",
+      "control_count": 38
+    },
+    {
+      "family_code": "HRS",
+      "family_name": "Human Resources Security",
+      "control_count": 46
+    },
+    {
+      "family_code": "IAC",
+      "family_name": "Identification & Authentication",
+      "control_count": 114
+    },
+    {
+      "family_code": "IAO",
+      "family_name": "Information Assurance",
+      "control_count": 15
+    },
+    {
+      "family_code": "IRO",
+      "family_name": "Incident Response",
+      "control_count": 44
+    },
+    {
+      "family_code": "MDM",
+      "family_name": "Mobile Device Management",
+      "control_count": 11
+    },
+    {
+      "family_code": "MNT",
+      "family_name": "Maintenance",
+      "control_count": 28
+    },
+    {
+      "family_code": "MON",
+      "family_name": "Continuous Monitoring",
+      "control_count": 71
+    },
+    {
+      "family_code": "NET",
+      "family_name": "Network Security",
+      "control_count": 98
+    },
+    {
+      "family_code": "OPS",
+      "family_name": "Security Operations",
+      "control_count": 8
+    },
+    {
+      "family_code": "PES",
+      "family_name": "Physical & Environmental Security",
+      "control_count": 51
+    },
+    {
+      "family_code": "PRI",
+      "family_name": "Data Privacy",
+      "control_count": 102
+    },
+    {
+      "family_code": "PRM",
+      "family_name": "Project & Resource Management",
+      "control_count": 11
+    },
+    {
+      "family_code": "RSK",
+      "family_name": "Risk Management",
+      "control_count": 32
+    },
+    {
+      "family_code": "SAT",
+      "family_name": "Security Awareness & Training",
+      "control_count": 17
+    },
+    {
+      "family_code": "SEA",
+      "family_name": "Secure Engineering & Architecture",
+      "control_count": 44
+    },
+    {
+      "family_code": "TDA",
+      "family_name": "Technology Development & Acquisition",
+      "control_count": 70
+    },
+    {
+      "family_code": "THR",
+      "family_name": "Threat Management",
+      "control_count": 13
+    },
+    {
+      "family_code": "TPM",
+      "family_name": "Third-Party Management",
+      "control_count": 31
+    },
+    {
+      "family_code": "VPM",
+      "family_name": "Vulnerability & Patch Management",
+      "control_count": 33
+    },
+    {
+      "family_code": "WEB",
+      "family_name": "Web Security",
+      "control_count": 15
+    }
+  ]
+}

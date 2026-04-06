@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "IAC-15.6",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-15.6",
+      "ao_id": "IAC-15.6_A01",
+      "objective": "time period within which to disable accounts of individuals who are discovered to pose significant risk is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-02(13)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "one (1) hour",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-15.6",
+      "ao_id": "IAC-15.6_A02",
+      "objective": "significant risks leading to disabling accounts are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-02(13)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-15.6",
+      "ao_id": "IAC-15.6_A03",
+      "objective": "accounts of individuals are disabled within an organization-defined time period of discovery of significant risks.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-02(13)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "one (1) hour",
+      "org_defined_parameters": ""
+    }
+  ]
+}

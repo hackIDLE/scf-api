@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-GOV-01",
+  "area": "Cybersecurity & Data Protection Management",
+  "artifact_name": "Charter - Cybersecurity Program",
+  "artifact_description": "Documented evidence of a charter to establish and resource the organization's cybersecurity program.",
+  "scf_controls": [
+    "GOV-01"
+  ],
+  "cmmc_mapping": ""
+}

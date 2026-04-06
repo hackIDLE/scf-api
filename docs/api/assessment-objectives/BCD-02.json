@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "BCD-02",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "BCD-02",
+      "ao_id": "BCD-02_A01",
+      "objective": "systems, applications and services that support essential missions and business functions are identified.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-02(03)_ODP[01]\n53A_R5_CP-02(05)_ODP\n53A_R5_CP-02(06)_ODP\n53A_R5_CP-02(08)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-02",
+      "ao_id": "BCD-02_A02",
+      "objective": "critical system assets supporting organization-defined criteria mission and business functions are identified.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-02(08)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

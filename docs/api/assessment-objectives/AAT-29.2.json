@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-29.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-29.2",
+      "ao_id": "AAT-29.2_A01",
+      "objective": "AI agents implement limitations according to least privileges, where the AI agent operates with the minimal permissions necessary to perform designated tasks.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-29.2",
+      "ao_id": "AAT-29.2_A02",
+      "objective": "AI agents implement limitations according to least functionality, where the AI agent is restricted to communicate with the minimal Assets, Applications & Services (AAS) and networks necessary to perform designated tasks.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

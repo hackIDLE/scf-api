@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-10.12",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-10.12",
+      "ao_id": "AAT-10.12_A01",
+      "objective": "results from Artificial Intelligence Test, Evaluation, Validation & Verification (AI TEVV) findings are evaluated against Artificial Intelligence (AI) and Autonomous Technologies (AAT)-related performance demonstrated for conditions similar to deployment settings.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-10.12",
+      "ao_id": "AAT-10.12_A02",
+      "objective": "results from Artificial Intelligence Test, Evaluation, Validation & Verification (AI TEVV) findings are evaluated against Artificial Intelligence (AI) and Autonomous Technologies (AAT)-related assurance criteria demonstrated for conditions similar to deployment settings.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

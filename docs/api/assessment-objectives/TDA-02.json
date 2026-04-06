@@ -1,0 +1,106 @@
+{
+  "scf_control_id": "TDA-02",
+  "total": 10,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-02",
+      "ao_id": "TDA-02_A01",
+      "objective": "cybersecurity / data privacy functional requirements, descriptions and criteria are included explicitly or by reference using in the acquisition contract for the system, system component or system service.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-04a.[01]\n53A_R5_SA-04a.[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-02",
+      "ao_id": "TDA-02_A02",
+      "objective": "strength of mechanism requirements, descriptions and criteria are included explicitly or by reference using in the acquisition contract for the system, system component or system service.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-04b.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-02",
+      "ao_id": "TDA-02_A03",
+      "objective": "cybersecurity / data privacy assurance requirements, descriptions and criteria are included explicitly or by reference using in the acquisition contract for the system, system component or system service.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-04c.[01]\n53A_R5_SA-04c.[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-02",
+      "ao_id": "TDA-02_A04",
+      "objective": "controls needed to satisfy the cybersecurity / data requirements, descriptions and criteria are included explicitly or by reference using in the acquisition contract for the system, system component or system service.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-04d.[01]\n53A_R5_SA-04d.[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-02",
+      "ao_id": "TDA-02_A05",
+      "objective": "cybersecurity / data privacy documentation requirements, descriptions and criteria are included explicitly or by reference using in the acquisition contract for the system, system component or system service.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-04e.[01]\n53A_R5_SA-04e.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-02",
+      "ao_id": "TDA-02_A06",
+      "objective": "requirements for protecting cybersecurity / data privacy documentation, descriptions and criteria are included explicitly or by reference using in the acquisition contract for the system, system component or system service.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-04f.[01]\n53A_R5_SA-04f.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-02",
+      "ao_id": "TDA-02_A07",
+      "objective": "the description of the system development environment and environment in which the system is intended to operate, requirements and criteria are included explicitly or by reference using in the acquisition contract for the system, system component or system service.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-04g.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-02",
+      "ao_id": "TDA-02_A08",
+      "objective": "the allocation of responsibility or identification of parties responsible for cybersecurity / data privacy requirements, descriptions and criteria are included explicitly or by reference using in the acquisition contract for the system, system component or system service.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-04h.[01]\n53A_R5_SA-04h.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-02",
+      "ao_id": "TDA-02_A09",
+      "objective": "the allocation of responsibility or identification of parties responsible for supply chain risk management requirements, descriptions and criteria are included explicitly or by reference using organization-defined criteria.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-04h.[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-02",
+      "ao_id": "TDA-02_A10",
+      "objective": "acceptance criteria requirements and descriptions are included explicitly or by reference using in the acquisition contract for the system, system component or system service.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-04i.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

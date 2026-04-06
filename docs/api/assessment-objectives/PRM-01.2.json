@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PRM-01.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRM-01.2",
+      "ao_id": "PRM-01.2_A01",
+      "objective": "the organization defines a Capability Maturity Model (CMM) it will use to benchmark maturity.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRM-01.2",
+      "ao_id": "PRM-01.2_A02",
+      "objective": "targeted capability maturity levels are defined at the domain and/or control level.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "VPM-06.4",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "VPM-06.4",
+      "ao_id": "VPM-06.4_A01",
+      "objective": "automated mechanisms to compare the results of multiple vulnerability scans are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_RA-05(06)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-06.4",
+      "ao_id": "VPM-06.4_A02",
+      "objective": "the results of multiple vulnerability scans are compared using automated mechanisms.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_RA-05(06)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

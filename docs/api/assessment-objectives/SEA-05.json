@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "SEA-05",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "SEA-05",
+      "ao_id": "SEA-05_A01",
+      "objective": "unauthorized information transfer via shared system resources is prevented.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-04[01]\n171A_3.13.4\n171A_R3_A.03.13.04[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-05",
+      "ao_id": "SEA-05_A02",
+      "objective": "unintended information transfer via shared system resources is prevented.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-04[02]\n171A_R3_A.03.13.04[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

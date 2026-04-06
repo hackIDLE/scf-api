@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "CFG-04.2",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CFG-04.2",
+      "ao_id": "CFG-04.2_A01",
+      "objective": "security configuration settings for authorized Internet browsers are established.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-04.2",
+      "ao_id": "CFG-04.2_A02",
+      "objective": "security configuration settings for authorized email clients are established.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-04.2",
+      "ao_id": "CFG-04.2_A03",
+      "objective": "users are prevented from installing unauthorized Internet browsers and/or email clients through technical and/or administrative mechanisms.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-04.2",
+      "ao_id": "CFG-04.2_A04",
+      "objective": "unauthorized Internet browsers and/or email clients are responded to a security incident, per established incident response procedures.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

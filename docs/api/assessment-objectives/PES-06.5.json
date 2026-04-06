@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "PES-06.5",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PES-06.5",
+      "ao_id": "PES-06.5_A01",
+      "objective": "elements identified in the privacy risk assessment to limit Personal Data (PD) contained in visitor access logs are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PE-08(03)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-06.5",
+      "ao_id": "PES-06.5_A02",
+      "objective": "Personal Data (PD) contained in visitor access records is limited to elements identified in the privacy risk assessment.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PE-08(03)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-06.5",
+      "ao_id": "PES-06.5_A03",
+      "objective": "processes that implement the privacy principle of minimization are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-08(33)_ODP",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-06.5",
+      "ao_id": "PES-06.5_A04",
+      "objective": "the privacy principle of minimization is implemented using organization-defined processes.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-08(33)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

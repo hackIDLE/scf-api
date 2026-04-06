@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "AAT-27.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-27.1",
+      "ao_id": "AAT-27.1_A01",
+      "objective": "competent personnel are assigned the task to review Artificial Intelligence (AI) and Autonomous Technologies (AAT)-generated content for alignment with culturally accepted norms.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

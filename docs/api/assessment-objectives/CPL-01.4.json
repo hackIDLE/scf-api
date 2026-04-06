@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "CPL-01.4",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CPL-01.4",
+      "ao_id": "CPL-01.4_A01",
+      "objective": "assessments are conducted to demonstrate conformity with applicable cybersecurity and data protection laws, regulations and/or contractual obligations.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

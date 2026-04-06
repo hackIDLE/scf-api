@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PES-01.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PES-01.2",
+      "ao_id": "PES-01.2_A01",
+      "objective": "a zone-based approach to physical security is developed.",
+      "pptdf": "Facility",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-01.2",
+      "ao_id": "PES-01.2_A02",
+      "objective": "a zone-based approach to physical security is implemented.",
+      "pptdf": "Facility",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

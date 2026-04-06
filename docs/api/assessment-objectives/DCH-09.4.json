@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "DCH-09.4",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-09.4",
+      "ao_id": "DCH-09.4_A01",
+      "objective": "circumstances requiring sanitization of portable storage devices are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MP-06(03)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-09.4",
+      "ao_id": "DCH-09.4_A02",
+      "objective": "non-destructive sanitization techniques are applied to portable storage devices prior to connecting such devices to the system under circumstances.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MP-06(03)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

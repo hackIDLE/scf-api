@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "END-04.3",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "END-04.3",
+      "ao_id": "END-04.3_A01",
+      "objective": "antimalware controls and related processes to be centrally managed are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created\n53A_R5_PL-09_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-04.3",
+      "ao_id": "END-04.3_A02",
+      "objective": "antimalware controls and related processes are centrally managed.",
+      "pptdf": "Technology",
+      "origin": "SCF Created\n53A_R5_PL-09",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

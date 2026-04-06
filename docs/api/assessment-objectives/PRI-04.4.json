@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "PRI-04.4",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-04.4",
+      "ao_id": "PRI-04.4_A01",
+      "objective": "data subjects are promptly informed of the utilization purpose when their Personal Data (PD) is acquired and not received directly from the data subject, except where that utilization purpose was disclosed in advance to the data subject.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

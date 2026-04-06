@@ -1,0 +1,6 @@
+{
+  "threat_id": "MT-16",
+  "grouping": "Man-Made Threat",
+  "name": "Macroeconomics",
+  "description": "Macroeconomic factors that can negatively affect the global supply chain. Macroeconomic factors directly impact unemployment rates, interest rates, exchange rates and commodity prices. Due to how fiscal and monetary policies can negatively affect the global supply chain, this can disrupt or degrade an organization's business operations.\n\nEconomic instability can lead to reduced investment and weakened consumer confidence. Multiple factors may cause instability and may include recession, sanctions, demand shocks, price volatility, inflation and unemployment. An out-of-balance economy can lead to unpredictable fluctuations in growth, inflation, employment and financial health. This instability can be episodic, meaning discrete events such as job loss, or it can be chronic, meaning sustained events such as variations to employee compensation."
+}

@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "AAT-12.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-12.1",
+      "ao_id": "AAT-12.1_A01",
+      "objective": "data sources utilized in the training and/or operation of Artificial Intelligence and Autonomous Technologies (AAT) are documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

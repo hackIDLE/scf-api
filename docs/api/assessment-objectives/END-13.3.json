@@ -1,0 +1,136 @@
+{
+  "scf_control_id": "END-13.3",
+  "total": 13,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "END-13.3",
+      "ao_id": "END-13.3_A01",
+      "objective": "processes that implement the privacy principle of minimization are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-08(33)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-13.3",
+      "ao_id": "END-13.3_A02",
+      "objective": "the privacy principle of minimization is implemented using organization-defined processes.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-08(33)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-13.3",
+      "ao_id": "END-13.3_A03",
+      "objective": "the sensors that are configured to minimize the collection of unneeded information about individuals are defined.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-42(05)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-13.3",
+      "ao_id": "END-13.3_A04",
+      "objective": "sensors configured to minimize the collection of information about individuals that is not needed are employed.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-42(05)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-13.3",
+      "ao_id": "END-13.3_A05",
+      "objective": "the frequency for reviewing / updating policies that address the use of Personal Data (PD) for internal testing, training and research is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-25_ODP[01]\n53A_R5_PM-25_ODP[02]\n53A_R5_PM-25_ODP[03]\n53A_R5_PM-25_ODP[04]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-13.3",
+      "ao_id": "END-13.3_A06",
+      "objective": "policies that address the use of Personal Data (PD) for internal testing, training and research are developed and documented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-25a.[01]\n53A_R5_PM-25a.[02]\n53A_R5_PM-25a.[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-13.3",
+      "ao_id": "END-13.3_A07",
+      "objective": "procedures that address the use of Personal Data (PD) for internal testing, training and research are developed and documented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-25a.[04]\n53A_R5_PM-25a.[05]\n53A_R5_PM-25a.[06]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-13.3",
+      "ao_id": "END-13.3_A08",
+      "objective": "policies that address the use of Personal Data (PD) for internal testing, training and research are implemented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-25a.[07]\n53A_R5_PM-25a.[08]\n53A_R5_PM-25a.[09]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-13.3",
+      "ao_id": "END-13.3_A09",
+      "objective": "procedures that address the use of Personal Data (PD) for internal testing, training and research are implemented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-25a.[10]\n53A_R5_PM-25a.[11]\n53A_R5_PM-25a.[12]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-13.3",
+      "ao_id": "END-13.3_A10",
+      "objective": "the amount of Personal Data (PD) used for internal testing, training and research purposes is limited or minimized.",
+      "pptdf": "Data",
+      "origin": "53A_R5_PM-25b.[01]\n53A_R5_PM-25b.[02]\n53A_R5_PM-25b.[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-13.3",
+      "ao_id": "END-13.3_A11",
+      "objective": "the required use of Personal Data (PD) for internal testing, training and research is authorized.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-25c.[01]\n53A_R5_PM-25c.[02]\n53A_R5_PM-25c.[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-13.3",
+      "ao_id": "END-13.3_A12",
+      "objective": "policies are reviewed / updated frequently.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-25d.[01]\n53A_R5_PM-25d.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-13.3",
+      "ao_id": "END-13.3_A13",
+      "objective": "procedures are reviewed / updated frequently.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-25d.[03]\n53A_R5_PM-25d.[04]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

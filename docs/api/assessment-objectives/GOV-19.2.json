@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "GOV-19.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "GOV-19.2",
+      "ao_id": "GOV-19.2_A01",
+      "objective": "defined Assessment Objectives (AO) are identified.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-19.2",
+      "ao_id": "GOV-19.2_A02",
+      "objective": "AOs are used to assess the implementation of requirements, when available.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

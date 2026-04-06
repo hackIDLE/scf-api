@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "OPS-06",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "OPS-06",
+      "ao_id": "OPS-06_A01",
+      "objective": "Security Orchestration, Automation and Response (SOAR) tools are used to define, prioritize and automate responses to security incidents.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

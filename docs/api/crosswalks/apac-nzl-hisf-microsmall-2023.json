@@ -1,0 +1,186 @@
+{
+  "framework_id": "apac-nzl-hisf-microsmall-2023",
+  "display_name": "New Zealand - HISF MicroSmall (2023)",
+  "scf_to_framework": {
+    "total_mappings": 32,
+    "mappings": {
+      "GOV-02": [
+        "HMS02"
+      ],
+      "AST-01": [
+        "HMS12",
+        "HMS14"
+      ],
+      "AST-01.4": [
+        "HMS12"
+      ],
+      "AST-02": [
+        "HMS03"
+      ],
+      "AST-02.7": [
+        "HMS14"
+      ],
+      "BCD-01": [
+        "HMS21"
+      ],
+      "BCD-11": [
+        "HMS11"
+      ],
+      "BCD-11.1": [
+        "HMS11"
+      ],
+      "BCD-11.4": [
+        "HMS11"
+      ],
+      "CFG-02": [
+        "HMS09"
+      ],
+      "MON-01": [
+        "HMS18"
+      ],
+      "MON-01.2": [
+        "HMS19"
+      ],
+      "MON-10": [
+        "HMS18"
+      ],
+      "MON-16": [
+        "HMS19"
+      ],
+      "DCH-06.2": [
+        "HMS03"
+      ],
+      "DCH-12": [
+        "HMS09"
+      ],
+      "END-02": [
+        "HMS09"
+      ],
+      "END-04": [
+        "HMS10"
+      ],
+      "HRS-03": [
+        "HMS01"
+      ],
+      "IAC-08": [
+        "HMS07"
+      ],
+      "IAC-20": [
+        "HMS07"
+      ],
+      "IRO-04": [
+        "HMS20"
+      ],
+      "NET-02.1": [
+        "HMS17"
+      ],
+      "NET-03.7": [
+        "HMS16"
+      ],
+      "NET-06.3": [
+        "HMS15"
+      ],
+      "NET-12": [
+        "HMS17"
+      ],
+      "NET-14": [
+        "HMS13"
+      ],
+      "NET-14.5": [
+        "HMS13"
+      ],
+      "RSK-07": [
+        "HMS05"
+      ],
+      "TPM-05": [
+        "HMS06"
+      ],
+      "TPM-08": [
+        "HMS04"
+      ],
+      "VPM-04.1": [
+        "HMS08"
+      ]
+    }
+  },
+  "framework_to_scf": {
+    "total_mappings": 21,
+    "mappings": {
+      "HMS02": [
+        "GOV-02"
+      ],
+      "HMS12": [
+        "AST-01",
+        "AST-01.4"
+      ],
+      "HMS14": [
+        "AST-01",
+        "AST-02.7"
+      ],
+      "HMS03": [
+        "AST-02",
+        "DCH-06.2"
+      ],
+      "HMS21": [
+        "BCD-01"
+      ],
+      "HMS11": [
+        "BCD-11",
+        "BCD-11.1",
+        "BCD-11.4"
+      ],
+      "HMS09": [
+        "CFG-02",
+        "DCH-12",
+        "END-02"
+      ],
+      "HMS18": [
+        "MON-01",
+        "MON-10"
+      ],
+      "HMS19": [
+        "MON-01.2",
+        "MON-16"
+      ],
+      "HMS10": [
+        "END-04"
+      ],
+      "HMS01": [
+        "HRS-03"
+      ],
+      "HMS07": [
+        "IAC-08",
+        "IAC-20"
+      ],
+      "HMS20": [
+        "IRO-04"
+      ],
+      "HMS17": [
+        "NET-02.1",
+        "NET-12"
+      ],
+      "HMS16": [
+        "NET-03.7"
+      ],
+      "HMS15": [
+        "NET-06.3"
+      ],
+      "HMS13": [
+        "NET-14",
+        "NET-14.5"
+      ],
+      "HMS05": [
+        "RSK-07"
+      ],
+      "HMS06": [
+        "TPM-05"
+      ],
+      "HMS04": [
+        "TPM-08"
+      ],
+      "HMS08": [
+        "VPM-04.1"
+      ]
+    }
+  }
+}

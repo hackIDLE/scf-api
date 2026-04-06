@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "SEA-22",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "SEA-22",
+      "ao_id": "SEA-22_A01",
+      "objective": "unprivileged operating environments are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-22",
+      "ao_id": "SEA-22_A02",
+      "objective": "privileged operating environments are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-22",
+      "ao_id": "SEA-22_A03",
+      "objective": "privileged operating environments are prohibited from existing within unprivileged operating environments, including physical or virtual deployments of Assets, Applications & Services (AAS).",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

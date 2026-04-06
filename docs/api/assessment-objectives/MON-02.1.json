@@ -1,0 +1,66 @@
+{
+  "scf_control_id": "MON-02.1",
+  "total": 6,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MON-02.1",
+      "ao_id": "MON-02.1_A01",
+      "objective": "authorized use of the system is defined.",
+      "pptdf": "Process",
+      "origin": "171A_3.14.7[a]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-02.1",
+      "ao_id": "MON-02.1_A02",
+      "objective": "unauthorized use of the system is identified.",
+      "pptdf": "Process",
+      "origin": "171A_3.14.7[b]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-02.1",
+      "ao_id": "MON-02.1_A03",
+      "objective": "incident information and individual incident responses are correlated to achieve an organization-wide perspective on incident awareness and response.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IR-04(04)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-02.1",
+      "ao_id": "MON-02.1_A04",
+      "objective": "audit records across different repositories are correlated to gain organization-wide situational awareness.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AU-06(03)\n53A_R5_IR-04(04)\n53A_R5_SI-04(16)\n171A_R3_A.03.03.05.c[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-02.1",
+      "ao_id": "MON-02.1_A05",
+      "objective": "audit record review, analysis and reporting processes for investigation and response to indications of unlawful, unauthorized, suspicious or unusual activity are defined.",
+      "pptdf": "Process",
+      "origin": "171A_3.3.5[a]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-02.1",
+      "ao_id": "MON-02.1_A06",
+      "objective": "defined audit record review, analysis and reporting processes are correlated.",
+      "pptdf": "Process",
+      "origin": "171A_3.3.5[b]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

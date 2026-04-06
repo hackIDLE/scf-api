@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "IAC-24.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-24.1",
+      "ao_id": "IAC-24.1_A01",
+      "objective": "information previously visible on the display is concealed via device lock with a publicly viewable image.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-11(01)\n171A_R3_A.03.01.10.c",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "requiring the user to initiate a device lock before leaving the system unattended.",
+      "org_defined_parameters": ""
+    }
+  ]
+}

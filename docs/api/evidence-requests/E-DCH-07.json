@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-DCH-07",
+  "area": "Data Protection",
+  "artifact_name": "Media Sanitization Documentation",
+  "artifact_description": "Documented evidence of media sanitization actions.",
+  "scf_controls": [
+    "DCH-09",
+    "DCH-09.1"
+  ],
+  "cmmc_mapping": "MP.L1-3.8.3"
+}

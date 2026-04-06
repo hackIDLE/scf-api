@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-MNT-02",
+  "area": "Maintenance",
+  "artifact_name": "Maintenance Plan",
+  "artifact_description": "Documented evidence of a Maintenance Plan. This is program-level documentation in the form of a runbook, playbook or a similar format provides guidance on organizational practices that support existing policies and standards.",
+  "scf_controls": [
+    "MNT-01"
+  ],
+  "cmmc_mapping": "MA.L2-3.7.2\nMA.L2-3.7.4"
+}

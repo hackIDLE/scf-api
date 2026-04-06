@@ -1,0 +1,66 @@
+{
+  "scf_control_id": "PRM-06",
+  "total": 6,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRM-06",
+      "ao_id": "PRM-06_A01",
+      "objective": "organizational mission and business processes are defined with consideration for cybersecurity / data privacy.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-11a.[01]\n53A_R5_PM-11a.[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRM-06",
+      "ao_id": "PRM-06_A02",
+      "objective": "organizational mission and business processes are defined with consideration for the resulting risk to organizational operations, organizational assets, individuals, other organizations and the Nation.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-11a.[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRM-06",
+      "ao_id": "PRM-06_A03",
+      "objective": "the frequency at which to review and revise the mission and business processes is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-11_ODP",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRM-06",
+      "ao_id": "PRM-06_A04",
+      "objective": "information protection needs arising from the defined mission and business processes are determined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-11b.[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRM-06",
+      "ao_id": "PRM-06_A05",
+      "objective": "Personal Data (PD) processing needs arising from the defined mission and business processes are determined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-11b.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRM-06",
+      "ao_id": "PRM-06_A06",
+      "objective": "the mission and business processes are reviewed and revised per an organization-defined frequency.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-11c.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    }
+  ]
+}

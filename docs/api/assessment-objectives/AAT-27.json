@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "AAT-27",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-27",
+      "ao_id": "AAT-27_A01",
+      "objective": "Artificial Intelligence (AI) and Autonomous Technologies (AAT) are prevented from generating content that is inappropriate.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-27",
+      "ao_id": "AAT-27_A02",
+      "objective": "Artificial Intelligence (AI) and Autonomous Technologies (AAT) are prevented from generating content that is harmful.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-27",
+      "ao_id": "AAT-27_A03",
+      "objective": "Artificial Intelligence (AI) and Autonomous Technologies (AAT) are prevented from generating content that is false.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-27",
+      "ao_id": "AAT-27_A04",
+      "objective": "Artificial Intelligence (AI) and Autonomous Technologies (AAT) are prevented from generating content that is illegal.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-27",
+      "ao_id": "AAT-27_A05",
+      "objective": "Artificial Intelligence (AI) and Autonomous Technologies (AAT) are prevented from generating content that is violent.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

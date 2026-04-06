@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "HRS-03.2",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "HRS-03.2",
+      "ao_id": "HRS-03.2_A01",
+      "objective": "defined competency requirements ensure that all cybersecurity / data privacy-related positions are staffed by qualified individuals who have the necessary skill set.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-03.2",
+      "ao_id": "HRS-03.2_A02",
+      "objective": "a risk designation is assigned to all organizational positions.",
+      "pptdf": "People",
+      "origin": "53A_R5_PS-02a.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-03.2",
+      "ao_id": "HRS-03.2_A03",
+      "objective": "the frequency at which to review / update position risk designations is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PS-02_ODP",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least every three years",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-03.2",
+      "ao_id": "HRS-03.2_A04",
+      "objective": "screening criteria are established for individuals filling organizational positions.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PS-02b.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-03.2",
+      "ao_id": "HRS-03.2_A05",
+      "objective": "position risk designations are reviewed / updated per an organization-defined frequency.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PS-02c.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least every three years",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "RSK-08",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "RSK-08",
+      "ao_id": "RSK-08_A01",
+      "objective": "a Business Impact Analysis (BIA) is conducted to identify and evaluate the impacts of possible disruptions.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

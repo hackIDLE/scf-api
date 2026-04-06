@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "RSK-01.2",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "RSK-01.2",
+      "ao_id": "RSK-01.2_A01",
+      "objective": "an executive steering committee, or advisory board, identifies necessary resourcing for the capability required to manage technology-related risks.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-01.2",
+      "ao_id": "RSK-01.2_A02",
+      "objective": "the organization's incident response capability is resourced accordingly so it can reduce the magnitude or likelihood of potential impacts from technology-related risks.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-01.2",
+      "ao_id": "RSK-01.2_A03",
+      "objective": "recurring reviews of incident response operations are used to benchmark resourcing requirements for incident response operations.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

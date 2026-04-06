@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "AAT-22",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-22",
+      "ao_id": "AAT-22_A01",
+      "objective": "Artificial Intelligence (AI) and Autonomous Technologies (AAT) includes appropriate technical and organizational measures so that AAT are used in accordance with the AAT developer-provided instructions for use.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

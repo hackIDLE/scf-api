@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "CPL-02.1",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CPL-02.1",
+      "ao_id": "CPL-02.1_A01",
+      "objective": "an internal audit function exists that is comprised of stakeholders who have the subject matter expertise to serve in an advisory capability on audit-related matters.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-02.1",
+      "ao_id": "CPL-02.1_A02",
+      "objective": "an internal audit function formally defines audit-related priorities for the organization.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-02.1",
+      "ao_id": "CPL-02.1_A03",
+      "objective": "an internal audit function tracks audit findings that require remediation efforts.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-02.1",
+      "ao_id": "CPL-02.1_A04",
+      "objective": "an internal audit function provides the organization's executive leadership with insights into the appropriateness of the organization's technology and information governance processes.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-02.1",
+      "ao_id": "CPL-02.1_A05",
+      "objective": "the frequency at which to assess the security requirements for the system and its environment of operation is defined.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.12.01.ODP[01]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "at least every 12 months and after any significant incidents or significant changes occur",
+      "org_defined_parameters": ""
+    }
+  ]
+}

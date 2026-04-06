@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "END-16.1",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "END-16.1",
+      "ao_id": "END-16.1_A01",
+      "objective": "host-based boundary protection mechanisms to be implemented are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-07(12)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "Host Intrusion Prevention System(hIPS), Host Intrusion Detection System(hIDS), or minimally a host-based firewall",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-16.1",
+      "ao_id": "END-16.1_A02",
+      "objective": "system components where host-based boundary protection mechanisms are to be implemented are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-07(12)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-16.1",
+      "ao_id": "END-16.1_A03",
+      "objective": "host-based boundary protection mechanisms are implemented at system components.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-07(12)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

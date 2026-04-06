@@ -1,0 +1,14 @@
+{
+  "erl_id": "E-HRS-15",
+  "area": "Human Resources",
+  "artifact_name": "Organization Chart",
+  "artifact_description": "Current and accurate organization chart that depicts logical staff hierarchies.",
+  "scf_controls": [
+    "GOV-04",
+    "GOV-04.1",
+    "GOV-04.2",
+    "HRS-01",
+    "OPS-01"
+  ],
+  "cmmc_mapping": ""
+}

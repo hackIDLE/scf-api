@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "DCH-18.2",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-18.2",
+      "ao_id": "DCH-18.2_A01",
+      "objective": "the developer of the system or system component is required to minimize the use of Personal Data (PD) in development and test environments.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-15(12)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-18.2",
+      "ao_id": "DCH-18.2_A02",
+      "objective": "techniques used to minimize the use of Personal Data (PD) for research, testing and training are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-12(02)_ODP[01]\n53A_R5_SI-12(02)_ODP[02]\n53A_R5_SI-12(02)_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-18.2",
+      "ao_id": "DCH-18.2_A03",
+      "objective": "organization-defined techniques are used to minimize the use of Personal Data (PD) for research, testing and training.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-12(02)[01]\n53A_R5_SI-12(02)[02]\n53A_R5_SI-12(02)[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-18.2",
+      "ao_id": "DCH-18.2_A04",
+      "objective": "processes that implement the privacy principle of minimization are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-08(33)_ODP",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-18.2",
+      "ao_id": "DCH-18.2_A05",
+      "objective": "the privacy principle of minimization is implemented using organization-defined processes.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-08(33)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

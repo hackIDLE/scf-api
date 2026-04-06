@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "CFG-07",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CFG-07",
+      "ao_id": "CFG-07_A01",
+      "objective": "automated mechanisms used to perform Zero-Touch Provisioning (ZTP) are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-07",
+      "ao_id": "CFG-07_A02",
+      "objective": "an automated mechanism performs Zero-Touch Provisioning (ZTP) to deploy secure baseline configurations upon devices being added to a network.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

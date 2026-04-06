@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "TPM-05",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TPM-05",
+      "ao_id": "TPM-05_A01",
+      "objective": "legally-binding contracts are executed to enforce cybersecurity / data privacy requirements by third-parties.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-05",
+      "ao_id": "TPM-05_A02",
+      "objective": "before sharing sensitive / regulated data, Non-Disclosure Agreements (NDAs) are executed with third parties.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-05",
+      "ao_id": "TPM-05_A03",
+      "objective": "security requirements to be satisfied by external system service providers are defined.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.16.03.ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-05",
+      "ao_id": "TPM-05_A04",
+      "objective": "the providers of external system services used for the processing, storage, or transmission of sensitive / regulated data comply with organization-defined security requirements.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-05",
+      "ao_id": "TPM-05_A05",
+      "objective": "the providers of external system services used for the processing, storage, or transmission of CUI comply with the following security requirements: <A.03.16.03.ODP[01]: security requirements>.",
+      "pptdf": "Data",
+      "origin": "171A_R3_A.03.16.03.a",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "SDP values: \n(1) For cloud service providers:\n  (i) FedRAMP Authorized at the FedRAMP Moderate (or higher) baseline in accordance with the FedRAMP Marketplace; or\n  (ii) meets security requirements established by the government equivalent to the FedRAMP Moderate (or higher) baseline.\n(2) All other external service providers must meet NIST SP 800-171 R2.",
+      "org_defined_parameters": ""
+    }
+  ]
+}

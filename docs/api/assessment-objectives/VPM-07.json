@@ -1,0 +1,86 @@
+{
+  "scf_control_id": "VPM-07",
+  "total": 8,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "VPM-07",
+      "ao_id": "VPM-07_A01",
+      "objective": "the breadth of penetration testing is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11(05)_ODP[01]\n53A_R5_CA-08_ODP[02]\n53A_R5_SA-11(05)(a)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-07",
+      "ao_id": "VPM-07_A02",
+      "objective": "the depth of penetration testing is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11(05)_ODP[02]\n53A_R5_SA-11(05)(a)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-07",
+      "ao_id": "VPM-07_A03",
+      "objective": "constraints of penetration testing are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11(05)_ODP[03]\n53A_R5_SA-11(05)(b)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-07",
+      "ao_id": "VPM-07_A04",
+      "objective": "automated scanning tools are identified.",
+      "pptdf": "Process",
+      "origin": "172A_3.12.1e[a]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-07",
+      "ao_id": "VPM-07_A05",
+      "objective": "ad hoc tests using subject matter experts are identified.",
+      "pptdf": "Process",
+      "origin": "172A_3.12.1e[b]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-07",
+      "ao_id": "VPM-07_A06",
+      "objective": "penetration testing is conducted frequently leveraging automated scanning tools and ad hoc tests using subject matter experts.",
+      "pptdf": "Process",
+      "origin": "172A_3.12.1e[c]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-07",
+      "ao_id": "VPM-07_A07",
+      "objective": "frequency at which to conduct penetration testing on systems or system components is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CA-08_ODP[01]\n172A_3.12.1e_ODP[1]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-07",
+      "ao_id": "VPM-07_A08",
+      "objective": "penetration testing is conducted organization-defined frequency on organization-defined system(s) or system components.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CA-08",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    }
+  ]
+}

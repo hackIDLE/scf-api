@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "RSK-02",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "RSK-02",
+      "ao_id": "RSK-02_A01",
+      "objective": "systems, applications, services and the information processed, stored and/or transmitted are categorized.",
+      "pptdf": "Process",
+      "origin": "53A_R5_RA-02a.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-02",
+      "ao_id": "RSK-02_A02",
+      "objective": "the security categorization results, including supporting rationale, are documented in the security plan for the system.",
+      "pptdf": "Process",
+      "origin": "53A_R5_RA-02b.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-02",
+      "ao_id": "RSK-02_A03",
+      "objective": "the authorizing official or authorizing official designated representative reviews and approves the security categorization decision.",
+      "pptdf": "People",
+      "origin": "53A_R5_RA-02c.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

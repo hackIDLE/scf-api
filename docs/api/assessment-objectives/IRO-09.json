@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "IRO-09",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IRO-09",
+      "ao_id": "IRO-09_A01",
+      "objective": "suspected incidents are reported to the organizational incident response capability within an organization-defined time period.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-09",
+      "ao_id": "IRO-09_A02",
+      "objective": "system security incidents are tracked / reported to internal stakeholders.",
+      "pptdf": "Process",
+      "origin": "SCF Created\n53A_R5_IR-05[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-09",
+      "ao_id": "IRO-09_A03",
+      "objective": "system security incidents are documented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-05[02]\n171A_R3_A.03.06.02.a[02]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-09",
+      "ao_id": "IRO-09_A04",
+      "objective": "system security incidents are tracked.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.06.02.a[01]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

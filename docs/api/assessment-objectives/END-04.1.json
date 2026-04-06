@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "END-04.1",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "END-04.1",
+      "ao_id": "END-04.1_A01",
+      "objective": "malicious code protection mechanisms are updated as new releases are available.",
+      "pptdf": "Technology",
+      "origin": "171A_3.14.4",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-04.1",
+      "ao_id": "END-04.1_A02",
+      "objective": "malicious code protection mechanisms are updated as new releases are available in accordance with configuration management policy and procedures.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.14.02.b",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-04.1",
+      "ao_id": "END-04.1_A03",
+      "objective": "malicious code protection mechanisms are updated when new releases are available.",
+      "pptdf": "Technology",
+      "origin": "CMMC L1 Assessment Guide",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

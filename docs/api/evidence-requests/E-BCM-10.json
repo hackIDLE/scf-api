@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-BCM-10",
+  "area": "Business Continuity",
+  "artifact_name": "Backups",
+  "artifact_description": "Documented evidence of a Continuity of Operations Plan (COOP)-related data backup scheme that demonstrates the methods of data backup (including protection measures) for all data types to ensure business continuity requirements.",
+  "scf_controls": [
+    "BCD-11",
+    "BCD-11.1"
+  ],
+  "cmmc_mapping": ""
+}

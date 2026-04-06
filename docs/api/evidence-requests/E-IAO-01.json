@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-IAO-01",
+  "area": "Information Assurance",
+  "artifact_name": "Information Assurance Program (IAP)",
+  "artifact_description": "Documented evidence of a Information Assurance Program (IAP). This is program-level documentation in the form of a runbook, playbook or a similar format provides guidance on organizational practices that support existing policies and standards.",
+  "scf_controls": [
+    "IAO-01",
+    "IAO-02.4"
+  ],
+  "cmmc_mapping": ""
+}

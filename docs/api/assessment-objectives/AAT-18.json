@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "AAT-18",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-18",
+      "ao_id": "AAT-18_A01",
+      "objective": "an executive steering committee, or advisory board, tracks Artificial Intelligence (AI) and Autonomous Technologies (AAT)-related risks are difficult to assess using currently available measurement techniques or where metrics are not yet available.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

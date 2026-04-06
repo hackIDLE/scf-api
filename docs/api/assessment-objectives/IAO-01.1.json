@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "IAO-01.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAO-01.1",
+      "ao_id": "IAO-01.1_A01",
+      "objective": "assessments are defined as (1) organization-level, (2) mission/business process-level, or (3) system/application/service-level.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-01_ODP[03]\n53A_R5_AT-01_ODP[03]\n53A_R5_AU-01_ODP[03]\n53A_R5_CA-01_ODP[03]\n53A_R5_CM-01_ODP[03]\n53A_R5_CP-01_ODP[03]\n53A_R5_IA-01_ODP[03]\n53A_R5_IR-01_ODP[03]\n53A_R5_MA-01_ODP[03]\n53A_R5_MP-01_ODP[03]\n53A_R5_PE-01_ODP[03]\n53A_R5_PL-01_ODP[03]\n53A_R5_PS-01_ODP[03]\n53A_R5_PT-01_ODP[03]\n53A_R5_RA-01_ODP[03]\n53A_R5_SA-01_ODP[03]\n53A_R5_SC-01_ODP[03]\n53A_R5_SI-01_ODP[03]\n53A_R5_SR-01_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-01.1",
+      "ao_id": "IAO-01.1_A02",
+      "objective": "the scope of assessments is established by defining the assessment boundary, according to people, processes and technology that directly or indirectly impact the confidentiality, integrity, availability and safety of the data and systems under review.",
+      "pptdf": "Process",
+      "origin": "172A_3.14.3e_ODP[1]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

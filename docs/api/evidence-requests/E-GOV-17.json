@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-GOV-17",
+  "area": "Cybersecurity & Data Protection Management",
+  "artifact_name": "Cybersecurity & Data Privacy Status Reports",
+  "artifact_description": "Documented evidence of status reports of the organization's security, compliance and/or resilience program that were submitted to applicable statutory and/or regulatory authorities.",
+  "scf_controls": [
+    "GOV-17"
+  ],
+  "cmmc_mapping": ""
+}

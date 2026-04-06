@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "CPL-11.3",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CPL-11.3",
+      "ao_id": "CPL-11.3_A01",
+      "objective": "detailed logs of export-controlled data are generated to document logical and physical access.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-11.3",
+      "ao_id": "CPL-11.3_A02",
+      "objective": "detailed logs of export-controlled data are generated to document export activities.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

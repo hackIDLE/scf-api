@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "WEB-03",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "WEB-03",
+      "ao_id": "WEB-03_A01",
+      "objective": "a Web Application Firewalls (WAFs) is utilized for Internet-facing technologies to protect against application-specific threats.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

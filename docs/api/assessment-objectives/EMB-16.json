@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "EMB-16",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "EMB-16",
+      "ao_id": "EMB-16_A01",
+      "objective": "certificate-based authentication is enforced for embedded technologies (e.g., IoT, OT, etc.) and their supporting services.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

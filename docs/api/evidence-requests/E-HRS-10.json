@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-HRS-10",
+  "area": "Human Resources",
+  "artifact_name": "Role Assignment - DPO",
+  "artifact_description": "Documented evidence of a formal role assignment to Data Protection Officer (DPO) positions.",
+  "scf_controls": [
+    "GOV-04",
+    "PRI-01.4"
+  ],
+  "cmmc_mapping": ""
+}

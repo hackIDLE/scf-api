@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "MON-02.4",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MON-02.4",
+      "ao_id": "MON-02.4_A01",
+      "objective": "information from audit records is correlated with information obtained from monitoring physical access to further enhance the ability to identify suspicious, inappropriate, unusual or malevolent activity.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AU-06(06)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

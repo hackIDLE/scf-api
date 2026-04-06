@@ -1,0 +1,366 @@
+{
+  "scf_control_id": "PRI-05.4",
+  "total": 36,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-05.4",
+      "ao_id": "PRI-05.4_A01",
+      "objective": "the authority to permit the processing of Personal Data (PD) is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PT-02_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05.4",
+      "ao_id": "PRI-05.4_A02",
+      "objective": "the type of processing of Personal Data (PD) is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PT-02_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05.4",
+      "ao_id": "PRI-05.4_A03",
+      "objective": "the type of processing of Personal Data (PD) to be restricted is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PT-02_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05.4",
+      "ao_id": "PRI-05.4_A04",
+      "objective": "the authority that permits the processing of Personal Data (PD) is determined and documented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PT-02a.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05.4",
+      "ao_id": "PRI-05.4_A05",
+      "objective": "the processing of Personal Data (PD) is restricted to only that which is authorized.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PT-02b.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05.4",
+      "ao_id": "PRI-05.4_A06",
+      "objective": "processing conditions to be applied for specific categories of Personal Data (PD) are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PT-07_ODP",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05.4",
+      "ao_id": "PRI-05.4_A07",
+      "objective": "processing conditions are applied for specific categories of Personal Data (PD).",
+      "pptdf": "Process",
+      "origin": "53A_R5_PT-07",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05.4",
+      "ao_id": "PRI-05.4_A08",
+      "objective": "data mining prevention and detection techniques are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-23_ODP[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05.4",
+      "ao_id": "PRI-05.4_A09",
+      "objective": "data storage objects to be protected against unauthorized data mining are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-23_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05.4",
+      "ao_id": "PRI-05.4_A10",
+      "objective": "organization-defined techniques are employed for organization-defined data storage objects to detect and protect against unauthorized data mining.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-23",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05.4",
+      "ao_id": "PRI-05.4_A11",
+      "objective": "the frequency for reviewing policies that address the use of Personal Data (PD) for internal testing, training and research is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-25_ODP[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05.4",
+      "ao_id": "PRI-05.4_A12",
+      "objective": "the frequency for updating policies that address the use of Personal Data (PD) for internal testing, training and research is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-25_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05.4",
+      "ao_id": "PRI-05.4_A13",
+      "objective": "the frequency for reviewing procedures that address the use of Personal Data (PD) for internal testing, training and research is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-25_ODP[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05.4",
+      "ao_id": "PRI-05.4_A14",
+      "objective": "the frequency for updating procedures that address the use of Personal Data (PD) for internal testing, training and research is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-25_ODP[04]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05.4",
+      "ao_id": "PRI-05.4_A15",
+      "objective": "policies that address the use of Personal Data (PD) for internal testing are developed and documented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-25a.[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05.4",
+      "ao_id": "PRI-05.4_A16",
+      "objective": "policies that address the use of Personal Data (PD) for internal training are developed and documented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-25a.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05.4",
+      "ao_id": "PRI-05.4_A17",
+      "objective": "policies that address the use of Personal Data (PD) for internal research are developed and documented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-25a.[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05.4",
+      "ao_id": "PRI-05.4_A18",
+      "objective": "procedures that address the use of Personal Data (PD) for internal testing are developed and documented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-25a.[04]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05.4",
+      "ao_id": "PRI-05.4_A19",
+      "objective": "procedures that address the use of Personal Data (PD) for internal training are developed and documented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-25a.[05]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05.4",
+      "ao_id": "PRI-05.4_A20",
+      "objective": "procedures that address the use of Personal Data (PD) for internal research are developed and documented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-25a.[06]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05.4",
+      "ao_id": "PRI-05.4_A21",
+      "objective": "policies that address the use of Personal Data (PD) for internal testing are implemented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-25a.[07]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05.4",
+      "ao_id": "PRI-05.4_A22",
+      "objective": "policies that address the use of Personal Data (PD) for training are implemented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-25a.[08]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05.4",
+      "ao_id": "PRI-05.4_A23",
+      "objective": "policies that address the use of Personal Data (PD) for research are implemented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-25a.[09]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05.4",
+      "ao_id": "PRI-05.4_A24",
+      "objective": "procedures that address the use of Personal Data (PD) for internal testing are implemented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-25a.[10]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05.4",
+      "ao_id": "PRI-05.4_A25",
+      "objective": "procedures that address the use of Personal Data (PD) for training are implemented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-25a.[11]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05.4",
+      "ao_id": "PRI-05.4_A26",
+      "objective": "procedures that address the use of Personal Data (PD) for research are implemented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-25a.[12]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05.4",
+      "ao_id": "PRI-05.4_A27",
+      "objective": "the amount of Personal Data (PD) used for internal testing purposes is limited or minimized.",
+      "pptdf": "Data",
+      "origin": "53A_R5_PM-25b.[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05.4",
+      "ao_id": "PRI-05.4_A28",
+      "objective": "the amount of Personal Data (PD) used for internal training purposes is limited or minimized.",
+      "pptdf": "Data",
+      "origin": "53A_R5_PM-25b.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05.4",
+      "ao_id": "PRI-05.4_A29",
+      "objective": "the amount of Personal Data (PD) used for internal research purposes is limited or minimized.",
+      "pptdf": "Data",
+      "origin": "53A_R5_PM-25b.[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05.4",
+      "ao_id": "PRI-05.4_A30",
+      "objective": "the required use of Personal Data (PD) for internal testing is authorized.",
+      "pptdf": "Data",
+      "origin": "53A_R5_PM-25c.[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05.4",
+      "ao_id": "PRI-05.4_A31",
+      "objective": "the required use of Personal Data (PD) for internal training is authorized.",
+      "pptdf": "Data",
+      "origin": "53A_R5_PM-25c.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05.4",
+      "ao_id": "PRI-05.4_A32",
+      "objective": "the required use of Personal Data (PD) for internal research is authorized.",
+      "pptdf": "Data",
+      "origin": "53A_R5_PM-25c.[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05.4",
+      "ao_id": "PRI-05.4_A33",
+      "objective": "policies are reviewed frequently.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-25d.[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05.4",
+      "ao_id": "PRI-05.4_A34",
+      "objective": "policies are updated frequently.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-25d.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05.4",
+      "ao_id": "PRI-05.4_A35",
+      "objective": "procedures are reviewed frequently.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-25d.[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05.4",
+      "ao_id": "PRI-05.4_A36",
+      "objective": "procedures are updated frequently.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-25d.[04]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

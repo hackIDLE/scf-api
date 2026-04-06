@@ -1,0 +1,332 @@
+{
+  "control_id": "END-02",
+  "title": "Endpoint Protection Measures",
+  "family": "END",
+  "description": "Mechanisms exist to protect the confidentiality, integrity, availability and safety of endpoint devices.",
+  "scf_question": "Does the organization protect the confidentiality, integrity, availability and safety of endpoint devices?",
+  "relative_weight": 9,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [],
+  "pptdf": "Technology",
+  "nist_csf_function": "Protect",
+  "scrm_focus": {
+    "strategic": false,
+    "operational": true,
+    "tactical": true
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "Endpoint Security (END) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with END domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Endpoint security management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ Endpoint devices containing sensitive/regulated data use a cryptographic mechanism to prevent the unauthorized disclosure of information at rest (e.g., full drive encryption).",
+    "2": "Endpoint Security (END) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Endpoint security-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Endpoint security management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
+    "3": "Endpoint Security (END) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with END domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with END domain capabilities are well-documented and kept current by process owners.\n▪ An endpoint technology management team, or similar function, is appropriately staffed and supported to implement and maintain END domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of endpoint security operations (e.g., unified endpoint management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with END domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to protect the confidentiality, integrity, availability and safety of endpoint devices.",
+    "4": "Endpoint Security (END) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+    "5": "Endpoint Security (END) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions."
+  },
+  "profiles": [
+    "SCRMS",
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ Secure Baseline Configurations (SBC)\n∙ IT Asset Management (ITAM) program\n∙ Configuration Management (CM) program\n∙ Change control program",
+    "small": "∙ Secure Baseline Configurations (SBC)\n∙ IT Asset Management (ITAM) program\n∙ Configuration Management (CM) program\n∙ Change control program",
+    "medium": "∙ Secure Baseline Configurations (SBC)\n∙ IT Asset Management (ITAM) program\n∙ Configuration Management (CM) program\n∙ Change control program",
+    "large": "∙ Secure Baseline Configurations (SBC)\n∙ IT Asset Management (ITAM) program\n∙ Configuration Management (CM) program\n∙ Change control program",
+    "enterprise": "∙ Secure Baseline Configurations (SBC)\n∙ IT Asset Management (ITAM) program\n∙ Configuration Management (CM) program\n∙ Change control program"
+  },
+  "risks": [
+    "R-AC-1",
+    "R-AC-2",
+    "R-AC-3",
+    "R-AC-4",
+    "R-AM-1",
+    "R-AM-2",
+    "R-AM-3",
+    "R-BC-1",
+    "R-BC-2",
+    "R-BC-3",
+    "R-BC-4",
+    "R-BC-5",
+    "R-EX-1",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-EX-5",
+    "R-EX-6",
+    "R-EX-7",
+    "R-GV-1",
+    "R-GV-2",
+    "R-GV-3",
+    "R-GV-4",
+    "R-GV-5",
+    "R-GV-6",
+    "R-GV-7",
+    "R-GV-8",
+    "R-IR-1",
+    "R-IR-2",
+    "R-IR-3",
+    "R-IR-4",
+    "R-SA-2",
+    "R-SC-1",
+    "R-SC-2",
+    "R-SC-3",
+    "R-SC-4",
+    "R-SC-5",
+    "R-SC-6"
+  ],
+  "threats": [
+    "NT-2",
+    "NT-3",
+    "NT-4",
+    "NT-5",
+    "NT-6",
+    "NT-7",
+    "NT-8",
+    "NT-9",
+    "NT-10",
+    "NT-11",
+    "NT-12",
+    "NT-13",
+    "NT-14",
+    "MT-1",
+    "MT-2",
+    "MT-3",
+    "MT-4",
+    "MT-5",
+    "MT-6",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-10",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Endpoint Security",
+  "crosswalks": {
+    "general-cis-csc-8-1": [
+      "10.0",
+      "10.3",
+      "10.4",
+      "10.5",
+      "11.0"
+    ],
+    "general-cis-csc-8-1-ig1": [
+      "10.3"
+    ],
+    "general-cis-csc-8-1-ig2": [
+      "10.3",
+      "10.4",
+      "10.5"
+    ],
+    "general-cis-csc-8-1-ig3": [
+      "10.3",
+      "10.4",
+      "10.5"
+    ],
+    "general-cobit-2019": [
+      "DSS05.03"
+    ],
+    "general-govramp": [
+      "SC-28"
+    ],
+    "general-govramp-core": [
+      "SC-28"
+    ],
+    "general-govramp-low-plus": [
+      "SC-28"
+    ],
+    "general-govramp-mod": [
+      "SC-28"
+    ],
+    "general-govramp-high": [
+      "SC-28"
+    ],
+    "general-iso-27002-2022": [
+      "8.1",
+      "8.5"
+    ],
+    "general-iso-27017-2015": [
+      "9.4.2"
+    ],
+    "general-iso-27018-2025": [
+      "8.1",
+      "8.5"
+    ],
+    "general-mpa-csbp-5-3-1": [
+      "TS-1.0",
+      "TS-1.3"
+    ],
+    "general-nist-800-53-r4": [
+      "SC-28"
+    ],
+    "general-nist-800-53-r5-2": [
+      "SC-28"
+    ],
+    "general-nist-800-53-r5-2-privacy": [
+      "SC-28"
+    ],
+    "general-nist-800-53-r5-2-mod": [
+      "SC-28"
+    ],
+    "general-nist-800-66-r2": [
+      "164.310(c)"
+    ],
+    "general-nist-800-82-r3": [
+      "SC-28"
+    ],
+    "general-nist-800-82-r3-mod": [
+      "SC-28"
+    ],
+    "general-nist-800-82-r3-high": [
+      "SC-28"
+    ],
+    "general-nist-800-161-r1": [
+      "SC-28"
+    ],
+    "general-nist-800-161-r1-flowdown": [
+      "SC-28"
+    ],
+    "general-nist-800-161-r1-level-2": [
+      "SC-28"
+    ],
+    "general-nist-800-161-r1-level-3": [
+      "SC-28"
+    ],
+    "general-nist-800-171-r2": [
+      "3.13.16"
+    ],
+    "general-nist-800-171a": [
+      "3.13.16"
+    ],
+    "general-pci-dss-4-0-1": [
+      "1.5",
+      "1.5.1"
+    ],
+    "general-pci-dss-4-0-1-saq-a-ep": [
+      "1.5.1"
+    ],
+    "general-pci-dss-4-0-1-saq-c-vt": [
+      "1.5.1"
+    ],
+    "general-pci-dss-4-0-1-saq-d-merchant": [
+      "1.5.1"
+    ],
+    "general-pci-dss-4-0-1-saq-d-service-provider": [
+      "1.5.1"
+    ],
+    "general-tisax-6-0-3": [
+      "5.2.3"
+    ],
+    "usa-federal-fbi-cjis-6-0": [
+      "5.20.4.3",
+      "SC-28"
+    ],
+    "usa-federal-doe-c2m2-2-1": [
+      "ARCHITECTURE-3f",
+      "ARCHITECTURE-3h"
+    ],
+    "usa-federal-dow-cmmc-2-level-2": [
+      "SCL2.-3.13.16"
+    ],
+    "usa-federal-gsa-fedramp-5-low": [
+      "SC-28"
+    ],
+    "usa-federal-gsa-fedramp-5-mod": [
+      "SC-28"
+    ],
+    "usa-federal-gsa-fedramp-5-high": [
+      "SC-28"
+    ],
+    "usa-federal-gsa-fedramp-5-li-saas": [
+      "SC-28"
+    ],
+    "usa-federal-law-hipaa-simplification-2013": [
+      "164.310(c)"
+    ],
+    "usa-federal-law-hipaa-security-rule-2013": [
+      "164.310(c)"
+    ],
+    "usa-federal-irs-1075-2021": [
+      "SC-28"
+    ],
+    "usa-federal-cms-marse-2-0": [
+      "SC-28"
+    ],
+    "usa-state-ma-201-cmr-17-2008": [
+      "17.04(6)"
+    ],
+    "usa-state-ny-dfs-23-nycrr500-2023-amd2": [
+      "500.14(a)(2)",
+      "500.14(b)(1)"
+    ],
+    "usa-state-tx-txramp-2-0-level-2": [
+      "SC-28"
+    ],
+    "usa-state-vt-act-171-2018": [
+      "2447(c)(6)"
+    ],
+    "emea-isr-cmo-1-0": [
+      "7.1",
+      "7.3",
+      "15.5"
+    ],
+    "emea-sau-cscc-1-2019": [
+      "2-3-1-2"
+    ],
+    "emea-sau-sacs-002-2022": [
+      "TPC-22"
+    ],
+    "emea-gbr-cyber-essentials-requirements-3-3": [
+      "4"
+    ],
+    "emea-gbr-def-stan-05-138-2024": [
+      "2411"
+    ],
+    "emea-gbr-def-stan-05-138-l1-2024": [
+      "2411"
+    ],
+    "emea-gbr-def-stan-05-138-l2-2024": [
+      "2411"
+    ],
+    "emea-gbr-def-stan-05-138-l3-2024": [
+      "2411"
+    ],
+    "apac-jpn-ismap": [
+      "6.2.1",
+      "6.2.1.1",
+      "6.2.1.2",
+      "6.2.1.3",
+      "6.2.1.4",
+      "6.2.1.5",
+      "6.2.1.6",
+      "6.2.1.7",
+      "6.2.1.8",
+      "6.2.1.9",
+      "6.2.1.10",
+      "6.2.1.11",
+      "6.2.1.12",
+      "6.2.1.13",
+      "6.2.1.14",
+      "6.2.1.15",
+      "6.2.1.16",
+      "6.2.1.17",
+      "6.2.1.21",
+      "6.2.1.22"
+    ],
+    "apac-nzl-hisf-microsmall-2023": [
+      "HMS09"
+    ],
+    "apac-sgp-cyber-hygiene-practice-2019": [
+      "4.5"
+    ],
+    "amaericas-can-osfi-self-assessment": [
+      "4.3",
+      "4.4"
+    ]
+  }
+}

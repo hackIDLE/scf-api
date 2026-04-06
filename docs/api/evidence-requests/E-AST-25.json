@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-AST-25",
+  "area": "Asset Management",
+  "artifact_name": "Logical Tamper Detection Tool",
+  "artifact_description": "Documented evidence of software that is implemented and configured to detect logical tampering (e.g., configurations).",
+  "scf_controls": [
+    "AST-15"
+  ],
+  "cmmc_mapping": ""
+}

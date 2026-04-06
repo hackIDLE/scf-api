@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "RSK-06.4",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "RSK-06.4",
+      "ao_id": "RSK-06.4_A01",
+      "objective": "a Risk Treatment Plan (RTP) format is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-06.4",
+      "ao_id": "RSK-06.4_A02",
+      "objective": "a Risk Treatment Plan (RTP) is utilized for applicable stakeholders to remediate identified risks according to a defined timeline.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

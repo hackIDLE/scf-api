@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "IAC-04.2",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-04.2",
+      "ao_id": "IAC-04.2_A01",
+      "objective": "unique device cryptographic communications keys are used to prevent one key from being used to access multiple devices.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "CPL-12",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CPL-12",
+      "ao_id": "CPL-12_A01",
+      "objective": "applicable controls for an audit/assessment are identified.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-12",
+      "ao_id": "CPL-12_A02",
+      "objective": "a Statement of Applicability (SOA), or similar document, is generated to formalize audit/assessment control scoping.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

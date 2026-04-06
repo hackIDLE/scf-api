@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "PRI-02.7",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-02.7",
+      "ao_id": "PRI-02.7_A01",
+      "objective": "real-time and/or layered notices are generated to provide data subjects with a summary of key points or more detailed information that is specific to the organization's privacy notice.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

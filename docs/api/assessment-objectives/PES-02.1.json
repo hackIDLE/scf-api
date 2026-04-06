@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "PES-02.1",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PES-02.1",
+      "ao_id": "PES-02.1_A01",
+      "objective": "physical access to the facility where the system resides is authorized based on position or role.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-02(01)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-02.1",
+      "ao_id": "PES-02.1_A02",
+      "objective": "physical access restrictions associated with changes to the system are defined and documented.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.04.05[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-02.1",
+      "ao_id": "PES-02.1_A03",
+      "objective": "the frequency at which to review the access list detailing authorized facility access by individuals is defined.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.10.01.ODP[01]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "at least annually or earlier as required by a security relevant event",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-02.1",
+      "ao_id": "PES-02.1_A04",
+      "objective": "authorization credentials for facility access are issued.",
+      "pptdf": "Facility",
+      "origin": "171A_R3_A.03.10.01.b",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

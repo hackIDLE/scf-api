@@ -1,0 +1,13 @@
+{
+  "erl_id": "E-TDA-09",
+  "area": "Technology Design & Acquisition",
+  "artifact_name": "Security Architecture View",
+  "artifact_description": "Documented evidence that identifies security-relevant system elements and their interfaces:\n• Define security context, domains, boundaries, and external interfaces of the system;\n• Align the architecture with (a) the system security objectives and requirements, (b) security design characteristics; and\n• Establish traceability of architecture elements to user and system security requirements.",
+  "scf_controls": [
+    "CLD-02",
+    "SEA-01",
+    "SEA-02",
+    "SEA-03"
+  ],
+  "cmmc_mapping": ""
+}

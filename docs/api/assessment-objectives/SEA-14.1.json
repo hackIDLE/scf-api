@@ -1,0 +1,66 @@
+{
+  "scf_control_id": "SEA-14.1",
+  "total": 6,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "SEA-14.1",
+      "ao_id": "SEA-14.1_A01",
+      "objective": "changes to organizational systems and system components to introduce a degree of unpredictability into operations are defined.",
+      "pptdf": "Process",
+      "origin": "172A_3.13.2e_ODP[1]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-14.1",
+      "ao_id": "SEA-14.1_A02",
+      "objective": "the frequency of changes by system and system components is defined.",
+      "pptdf": "Process",
+      "origin": "172A_3.13.2e_ODP[2]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-14.1",
+      "ao_id": "SEA-14.1_A03",
+      "objective": "organizational systems and system components necessitating unpredictability are identified.",
+      "pptdf": "Process",
+      "origin": "172A_3.13.2e[a]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-14.1",
+      "ao_id": "SEA-14.1_A04",
+      "objective": "changes to organizational systems and system components are implemented frequently to introduce a degree of unpredictability into operations.",
+      "pptdf": "Process",
+      "origin": "172A_3.13.2e[b]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-14.1",
+      "ao_id": "SEA-14.1_A05",
+      "objective": "technical and procedural means to confuse and mislead adversaries are defined.",
+      "pptdf": "Process",
+      "origin": "172A_3.13.3e_ODP[1]\n53A_R5_SC-30(02)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-14.1",
+      "ao_id": "SEA-14.1_A06",
+      "objective": "technical and procedural means are employed to confuse and mislead adversaries.",
+      "pptdf": "Process",
+      "origin": "172A_3.13.3e[a]\n53A_R5_SC-30(02)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

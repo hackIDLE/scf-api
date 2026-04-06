@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "IRO-10.4",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IRO-10.4",
+      "ao_id": "IRO-10.4_A01",
+      "objective": "incident handling activities involving supply chain events are coordinated with other organizations involved in the supply chain.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-04(10)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-10.4",
+      "ao_id": "IRO-10.4_A02",
+      "objective": "incident information is provided to the provider of the product or service and other organizations involved in the supply chain or supply chain governance for systems or system components related to the incident.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-06(03)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

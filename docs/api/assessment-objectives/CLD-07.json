@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "CLD-07",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CLD-07",
+      "ao_id": "CLD-07_A01",
+      "objective": "cloud providers use secure protocols for information/data exchange to support secure data portability.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

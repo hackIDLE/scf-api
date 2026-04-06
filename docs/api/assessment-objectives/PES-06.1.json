@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "PES-06.1",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PES-06.1",
+      "ao_id": "PES-06.1_A01",
+      "objective": "physical access control mechanisms distinguish between onsite personnel and visitors, especially in areas where sensitive / regulated data is accessible.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-06.1",
+      "ao_id": "PES-06.1_A02",
+      "objective": "visitors are escorted.",
+      "pptdf": "Facility",
+      "origin": "171A_3.10.3[a]\n171A_R3_A.03.10.07.c[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-06.1",
+      "ao_id": "PES-06.1_A03",
+      "objective": "visitor activity is controlled.",
+      "pptdf": "Facility",
+      "origin": "171A_3.10.3[b]\n171A_R3_A.03.10.07.c[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

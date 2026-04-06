@@ -1,0 +1,216 @@
+{
+  "scf_control_id": "END-10",
+  "total": 21,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "END-10",
+      "ao_id": "END-10_A01",
+      "objective": "acceptable mobile code technologies are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-18a.[01]\n53A_R5_SC-18a.[03]\n171A_R3_A.03.13.13.a[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-10",
+      "ao_id": "END-10_A02",
+      "objective": "unacceptable mobile code technologies are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-18a.[02]\n53A_R5_SC-18a.[04]\n53A_R5_SC-18(01)[01]\n53A_R5_SC-18(01)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-10",
+      "ao_id": "END-10_A03",
+      "objective": "the use of mobile code is authorized, monitored and controlled.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-18b.[01]\n53A_R5_SC-18b.[02]\n53A_R5_SC-18b.[03]\n171A_3.13.13[a]\n171A_3.13.13[b]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-10",
+      "ao_id": "END-10_A04",
+      "objective": "the download of unacceptable mobile code is prevented.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-18(03)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-10",
+      "ao_id": "END-10_A05",
+      "objective": "the execution of unacceptable mobile code is prevented.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-18(03)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-10",
+      "ao_id": "END-10_A06",
+      "objective": "corrective actions to be taken when unacceptable mobile code is identified are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-18(01)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-10",
+      "ao_id": "END-10_A07",
+      "objective": "corrective actions are taken if unacceptable mobile code is identified.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-18(01)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-10",
+      "ao_id": "END-10_A08",
+      "objective": "mobile code requirements for the acquisition, development and use of mobile code to be deployed in the system are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-18(02)_ODP",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-10",
+      "ao_id": "END-10_A09",
+      "objective": "the acquisition of mobile code to be deployed in the system meets mobile code requirements.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-18(02)[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-10",
+      "ao_id": "END-10_A10",
+      "objective": "the development of mobile code to be deployed in the system meets mobile code requirements.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-18(02)[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-10",
+      "ao_id": "END-10_A11",
+      "objective": "the use of mobile code to be deployed in the system meets mobile code requirements.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-18(02)[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-10",
+      "ao_id": "END-10_A12",
+      "objective": "unacceptable mobile code to be prevented from downloading and executing is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-18(03)_ODP",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-10",
+      "ao_id": "END-10_A13",
+      "objective": "software applications in which the automatic execution of mobile code is to be prevented are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-18(04)_ODP[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-10",
+      "ao_id": "END-10_A14",
+      "objective": "actions to be enforced by the system prior to executing mobile code are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-18(04)_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-10",
+      "ao_id": "END-10_A15",
+      "objective": "the automatic execution of mobile code in software applications is prevented.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-18(04)[01]\n53A_R5_SC-18(04)[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-10",
+      "ao_id": "END-10_A16",
+      "objective": "platform-independent applications to be included within organizational systems are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-27_ODP",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-10",
+      "ao_id": "END-10_A17",
+      "objective": "platform-independent applications are included within organizational systems.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-27",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-10",
+      "ao_id": "END-10_A18",
+      "objective": "acceptable mobile code is defined.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.13.13.a[01]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-10",
+      "ao_id": "END-10_A19",
+      "objective": "the use of mobile code is authorized.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.13.13.b[01]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-10",
+      "ao_id": "END-10_A20",
+      "objective": "the use of mobile code is monitored.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.13.13.b[02]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-10",
+      "ao_id": "END-10_A21",
+      "objective": "the use of mobile code is controlled.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.13.13.b[03]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

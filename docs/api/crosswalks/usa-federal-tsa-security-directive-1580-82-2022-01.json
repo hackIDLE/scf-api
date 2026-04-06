@@ -1,0 +1,522 @@
+{
+  "framework_id": "usa-federal-tsa-security-directive-1580-82-2022-01",
+  "display_name": "TSA Security Directive 1580/82-2022-01",
+  "scf_to_framework": {
+    "total_mappings": 60,
+    "mappings": {
+      "GOV-02": [
+        "III.B",
+        "III.B.1.d",
+        "III.C.1",
+        "III.C.1.a",
+        "III.C.1.b",
+        "III.C.3",
+        "III.D"
+      ],
+      "GOV-02.1": [
+        "III.C.1",
+        "III.C.1.b",
+        "III.C.3"
+      ],
+      "GOV-15": [
+        "III.B",
+        "III.C.1",
+        "III.C.3",
+        "III.D",
+        "III.D.1"
+      ],
+      "GOV-15.1": [
+        "III.B",
+        "III.C.1",
+        "III.C.3",
+        "III.D"
+      ],
+      "GOV-15.2": [
+        "III.B",
+        "III.C.1",
+        "III.C.3",
+        "III.D"
+      ],
+      "GOV-17": [
+        "II.B.1",
+        "III.F.3",
+        "V.A.1",
+        "VI.A",
+        "VI.B",
+        "VI.B.1",
+        "VI.B.2",
+        "VI.C",
+        "VI.D"
+      ],
+      "AST-01.1": [
+        "III.B.1.a"
+      ],
+      "AST-01.2": [
+        "III.A"
+      ],
+      "AST-03": [
+        "III.A"
+      ],
+      "AST-04": [
+        "III.B.1.a",
+        "III.B.1.b",
+        "III.B.1.c"
+      ],
+      "AST-04.1": [
+        "III.B.1.c"
+      ],
+      "AST-04.2": [
+        "III.B.1.c"
+      ],
+      "CPL-01": [
+        "II.B.2",
+        "II.B.3"
+      ],
+      "CPL-01.3": [
+        "IV.C.1"
+      ],
+      "CPL-03.3": [
+        "IV.C.2",
+        "IV.C.2.a",
+        "IV.C.2.b",
+        "IV.C.2.c",
+        "IV.C.2.d",
+        "IV.C.2.e",
+        "IV.C.2.e.i",
+        "IV.C.2.e.ii",
+        "IV.C.2.e.iii",
+        "IV.C.2.e.iv",
+        "IV.C.2.f"
+      ],
+      "CFG-01": [
+        "III.C"
+      ],
+      "CFG-02.2": [
+        "III.D.2.c"
+      ],
+      "CFG-05.1": [
+        "III.D.2.c"
+      ],
+      "MON-01": [
+        "III.D.3",
+        "III.D.3.a",
+        "III.D.3.b"
+      ],
+      "MON-01.3": [
+        "III.D.2.a",
+        "III.D.2.b"
+      ],
+      "MON-01.4": [
+        "III.D.3.a"
+      ],
+      "MON-01.8": [
+        "III.D.3.a"
+      ],
+      "MON-01.16": [
+        "III.D.3.a",
+        "III.D.3.b"
+      ],
+      "MON-03": [
+        "III.D.3.a"
+      ],
+      "MON-03.2": [
+        "III.D.3.b"
+      ],
+      "MON-10": [
+        "III.D.3.b"
+      ],
+      "MON-16": [
+        "III.D.2.b"
+      ],
+      "EMB-10": [
+        "III.C.5"
+      ],
+      "END-03": [
+        "III.D.1.d"
+      ],
+      "END-08": [
+        "III.D.1.a"
+      ],
+      "END-10": [
+        "III.D.1.d"
+      ],
+      "IAC-01": [
+        "III.C"
+      ],
+      "IAC-06": [
+        "III.C.2"
+      ],
+      "IAC-15.5": [
+        "III.C.4",
+        "III.C.4.a",
+        "III.C.4.b"
+      ],
+      "IAC-19": [
+        "III.C.4",
+        "III.C.4.a",
+        "III.C.4.b"
+      ],
+      "IRO-01": [
+        "III.D.2.d"
+      ],
+      "IRO-02": [
+        "III.D.2.d"
+      ],
+      "IAO-01": [
+        "III.F",
+        "III.F.1",
+        "III.F.2.b"
+      ],
+      "IAO-01.1": [
+        "III.F.2.b"
+      ],
+      "IAO-02": [
+        "III.F.2.a",
+        "III.F.2.b",
+        "III.F.2.c"
+      ],
+      "IAO-03": [
+        "III.B.2",
+        "III.B.2.a",
+        "III.B.2.b"
+      ],
+      "IAO-05": [
+        "III.C.2",
+        "III.E.3"
+      ],
+      "NET-01": [
+        "III.C.5"
+      ],
+      "NET-02.3": [
+        "III.C.5"
+      ],
+      "NET-03": [
+        "III.B.1.c"
+      ],
+      "NET-04": [
+        "III.B.1.d"
+      ],
+      "NET-05": [
+        "III.B.1.b"
+      ],
+      "NET-06.3": [
+        "III.B.1.c"
+      ],
+      "NET-18": [
+        "III.D.1.b",
+        "III.D.1.c",
+        "III.D.1.e",
+        "III.D.2.a"
+      ],
+      "NET-18.1": [
+        "III.D.1.b"
+      ],
+      "PES-01": [
+        "III.C"
+      ],
+      "RSK-06": [
+        "III.D.4"
+      ],
+      "RSK-06.2": [
+        "III.C.1.b",
+        "III.C.2",
+        "III.C.3",
+        "III.D",
+        "III.D.4",
+        "III.E.3"
+      ],
+      "OPS-01.1": [
+        "III.D.2"
+      ],
+      "OPS-06": [
+        "III.D.2.d"
+      ],
+      "VPM-01": [
+        "III.E",
+        "III.E.1",
+        "III.E.2.a",
+        "III.E.2.b"
+      ],
+      "VPM-02": [
+        "III.E.2.a",
+        "III.E.2.b"
+      ],
+      "VPM-03": [
+        "III.E.2.b"
+      ],
+      "VPM-05": [
+        "III.E.1"
+      ],
+      "VPM-05.3": [
+        "III.E.2.a"
+      ]
+    }
+  },
+  "framework_to_scf": {
+    "total_mappings": 68,
+    "mappings": {
+      "III.B": [
+        "GOV-02",
+        "GOV-15",
+        "GOV-15.1",
+        "GOV-15.2"
+      ],
+      "III.B.1.d": [
+        "GOV-02",
+        "NET-04"
+      ],
+      "III.C.1": [
+        "GOV-02",
+        "GOV-02.1",
+        "GOV-15",
+        "GOV-15.1",
+        "GOV-15.2"
+      ],
+      "III.C.1.a": [
+        "GOV-02"
+      ],
+      "III.C.1.b": [
+        "GOV-02",
+        "GOV-02.1",
+        "RSK-06.2"
+      ],
+      "III.C.3": [
+        "GOV-02",
+        "GOV-02.1",
+        "GOV-15",
+        "GOV-15.1",
+        "GOV-15.2",
+        "RSK-06.2"
+      ],
+      "III.D": [
+        "GOV-02",
+        "GOV-15",
+        "GOV-15.1",
+        "GOV-15.2",
+        "RSK-06.2"
+      ],
+      "III.D.1": [
+        "GOV-15"
+      ],
+      "II.B.1": [
+        "GOV-17"
+      ],
+      "III.F.3": [
+        "GOV-17"
+      ],
+      "V.A.1": [
+        "GOV-17"
+      ],
+      "VI.A": [
+        "GOV-17"
+      ],
+      "VI.B": [
+        "GOV-17"
+      ],
+      "VI.B.1": [
+        "GOV-17"
+      ],
+      "VI.B.2": [
+        "GOV-17"
+      ],
+      "VI.C": [
+        "GOV-17"
+      ],
+      "VI.D": [
+        "GOV-17"
+      ],
+      "III.B.1.a": [
+        "AST-01.1",
+        "AST-04"
+      ],
+      "III.A": [
+        "AST-01.2",
+        "AST-03"
+      ],
+      "III.B.1.b": [
+        "AST-04",
+        "NET-05"
+      ],
+      "III.B.1.c": [
+        "AST-04",
+        "AST-04.1",
+        "AST-04.2",
+        "NET-03",
+        "NET-06.3"
+      ],
+      "II.B.2": [
+        "CPL-01"
+      ],
+      "II.B.3": [
+        "CPL-01"
+      ],
+      "IV.C.1": [
+        "CPL-01.3"
+      ],
+      "IV.C.2": [
+        "CPL-03.3"
+      ],
+      "IV.C.2.a": [
+        "CPL-03.3"
+      ],
+      "IV.C.2.b": [
+        "CPL-03.3"
+      ],
+      "IV.C.2.c": [
+        "CPL-03.3"
+      ],
+      "IV.C.2.d": [
+        "CPL-03.3"
+      ],
+      "IV.C.2.e": [
+        "CPL-03.3"
+      ],
+      "IV.C.2.e.i": [
+        "CPL-03.3"
+      ],
+      "IV.C.2.e.ii": [
+        "CPL-03.3"
+      ],
+      "IV.C.2.e.iii": [
+        "CPL-03.3"
+      ],
+      "IV.C.2.e.iv": [
+        "CPL-03.3"
+      ],
+      "IV.C.2.f": [
+        "CPL-03.3"
+      ],
+      "III.C": [
+        "CFG-01",
+        "IAC-01",
+        "PES-01"
+      ],
+      "III.D.2.c": [
+        "CFG-02.2",
+        "CFG-05.1"
+      ],
+      "III.D.3": [
+        "MON-01"
+      ],
+      "III.D.3.a": [
+        "MON-01",
+        "MON-01.4",
+        "MON-01.8",
+        "MON-01.16",
+        "MON-03"
+      ],
+      "III.D.3.b": [
+        "MON-01",
+        "MON-01.16",
+        "MON-03.2",
+        "MON-10"
+      ],
+      "III.D.2.a": [
+        "MON-01.3",
+        "NET-18"
+      ],
+      "III.D.2.b": [
+        "MON-01.3",
+        "MON-16"
+      ],
+      "III.C.5": [
+        "EMB-10",
+        "NET-01",
+        "NET-02.3"
+      ],
+      "III.D.1.d": [
+        "END-03",
+        "END-10"
+      ],
+      "III.D.1.a": [
+        "END-08"
+      ],
+      "III.C.2": [
+        "IAC-06",
+        "IAO-05",
+        "RSK-06.2"
+      ],
+      "III.C.4": [
+        "IAC-15.5",
+        "IAC-19"
+      ],
+      "III.C.4.a": [
+        "IAC-15.5",
+        "IAC-19"
+      ],
+      "III.C.4.b": [
+        "IAC-15.5",
+        "IAC-19"
+      ],
+      "III.D.2.d": [
+        "IRO-01",
+        "IRO-02",
+        "OPS-06"
+      ],
+      "III.F": [
+        "IAO-01"
+      ],
+      "III.F.1": [
+        "IAO-01"
+      ],
+      "III.F.2.b": [
+        "IAO-01",
+        "IAO-01.1",
+        "IAO-02"
+      ],
+      "III.F.2.a": [
+        "IAO-02"
+      ],
+      "III.F.2.c": [
+        "IAO-02"
+      ],
+      "III.B.2": [
+        "IAO-03"
+      ],
+      "III.B.2.a": [
+        "IAO-03"
+      ],
+      "III.B.2.b": [
+        "IAO-03"
+      ],
+      "III.E.3": [
+        "IAO-05",
+        "RSK-06.2"
+      ],
+      "III.D.1.b": [
+        "NET-18",
+        "NET-18.1"
+      ],
+      "III.D.1.c": [
+        "NET-18"
+      ],
+      "III.D.1.e": [
+        "NET-18"
+      ],
+      "III.D.4": [
+        "RSK-06",
+        "RSK-06.2"
+      ],
+      "III.D.2": [
+        "OPS-01.1"
+      ],
+      "III.E": [
+        "VPM-01"
+      ],
+      "III.E.1": [
+        "VPM-01",
+        "VPM-05"
+      ],
+      "III.E.2.a": [
+        "VPM-01",
+        "VPM-02",
+        "VPM-05.3"
+      ],
+      "III.E.2.b": [
+        "VPM-01",
+        "VPM-02",
+        "VPM-03"
+      ]
+    }
+  }
+}

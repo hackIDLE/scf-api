@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "BCD-13",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "BCD-13",
+      "ao_id": "BCD-13_A01",
+      "objective": "system components used for recovery and reconstitution are protected.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_CP-10(06)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

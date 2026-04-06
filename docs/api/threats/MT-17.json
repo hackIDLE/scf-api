@@ -1,0 +1,6 @@
+{
+  "threat_id": "MT-17",
+  "grouping": "Man-Made Threat",
+  "name": "Foreign Ownership, Control, or Influence (FOCI)",
+  "description": "Foreign Ownership, Control, or Influence (FOCI) is a Supply Chain Risk Management (SCRM) threat category that pertains to the ownership of, control of, or influence over an organization. Primarily, the concern is if a foreign interest (e.g., foreign government or parties owned or controlled by a foreign government) has the direct or indirect ability to influence decisions that affect the management or operations of the organization.\n\nThe ability exercise the power to influence management or operations may result in unauthorized access to sensitive / regulated data  or may adversely affect the performance of contracts and/or programs. FOCI may have national security implications, in addition to corporate espionage / maleficence."
+}

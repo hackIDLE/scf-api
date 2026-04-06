@@ -1,0 +1,136 @@
+{
+  "scf_control_id": "DCH-15",
+  "total": 13,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-15",
+      "ao_id": "DCH-15_A01",
+      "objective": "individuals authorized to post or process information on publicly accessible systems are identified.",
+      "pptdf": "Process",
+      "origin": "171A_3.1.22[a]\n53A_R5_AC-22a.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-15",
+      "ao_id": "DCH-15_A02",
+      "objective": "procedures to ensure sensitive / regulated data is not posted or processed on publicly accessible systems are identified.",
+      "pptdf": "Process",
+      "origin": "171A_3.1.22[b]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-15",
+      "ao_id": "DCH-15_A03",
+      "objective": "the proposed content of information is reviewed prior to posting onto the publicly accessible system to ensure that non-public information is not included.",
+      "pptdf": "Process",
+      "origin": "171A_3.1.22[c]\n53A_R5_AC-22c.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-15",
+      "ao_id": "DCH-15_A04",
+      "objective": "the content on publicly accessible systems is reviewed for sensitive / regulated data.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-15",
+      "ao_id": "DCH-15_A05",
+      "objective": "mechanisms are in place to remove and address improper posting of sensitive / regulated data.",
+      "pptdf": "Process",
+      "origin": "171A_3.1.22[e]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-15",
+      "ao_id": "DCH-15_A06",
+      "objective": "the frequency at which to review the content on the publicly accessible system for non-public information is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-22_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least quarterly",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-15",
+      "ao_id": "DCH-15_A07",
+      "objective": "authorized individuals are trained to ensure that publicly accessible information does not contain non-public information.",
+      "pptdf": "People",
+      "origin": "53A_R5_AC-22b.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-15",
+      "ao_id": "DCH-15_A08",
+      "objective": "authorized individuals are trained to ensure that publicly accessible information does not contain CUI.",
+      "pptdf": "Data",
+      "origin": "171A_R3_A.03.01.22.a",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-15",
+      "ao_id": "DCH-15_A09",
+      "objective": "CUI is removed from publicly accessible systems, if discovered.",
+      "pptdf": "Data",
+      "origin": "171A_R3_A.03.01.22.b[02]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-15",
+      "ao_id": "DCH-15_A10",
+      "objective": "content on publicly accessible systems is reviewed to ensure that it does not include CUI.",
+      "pptdf": "Data",
+      "origin": "171A_3.1.22[d]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-15",
+      "ao_id": "DCH-15_A11",
+      "objective": "the content on publicly accessible systems is reviewed for CUI.",
+      "pptdf": "Data",
+      "origin": "171A_R3_A.03.01.22.b[01]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-15",
+      "ao_id": "DCH-15_A12",
+      "objective": "a review process is in place prior to posting of any content to publicly accessible systems.",
+      "pptdf": "Process",
+      "origin": "CMMC L1 Assessment Guide",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-15",
+      "ao_id": "DCH-15_A13",
+      "objective": "content on publicly accessible systems is reviewed to ensure that it does not include sensitive/regulated data.",
+      "pptdf": "Data",
+      "origin": "CMMC L1 Assessment Guide",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

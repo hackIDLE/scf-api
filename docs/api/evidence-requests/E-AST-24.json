@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-AST-24",
+  "area": "Asset Management",
+  "artifact_name": "Technology Assets, Applications, and/or Services (TAAS) Categorization",
+  "artifact_description": "Documented evidence of a methodology to categorize Technology Assets, Applications, and/or Services (TAAS) (e.g., criticality and data classification considerations)",
+  "scf_controls": [
+    "AST-31",
+    "AST-31.1"
+  ],
+  "cmmc_mapping": ""
+}

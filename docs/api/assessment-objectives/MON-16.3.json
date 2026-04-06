@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "MON-16.3",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MON-16.3",
+      "ao_id": "MON-16.3_A01",
+      "objective": "unauthorized activities are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-16.3",
+      "ao_id": "MON-16.3_A02",
+      "objective": "personnel or roles to be notified when unauthorized activities are detected is/are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-16.3",
+      "ao_id": "MON-16.3_A03",
+      "objective": "methods to detect unauthorized activities are identified.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-16.3",
+      "ao_id": "MON-16.3_A04",
+      "objective": "monitoring mechanisms are configured to detect unauthorized activities.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-16.3",
+      "ao_id": "MON-16.3_A05",
+      "objective": "personnel or roles are notified when unauthorized activities are detected.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

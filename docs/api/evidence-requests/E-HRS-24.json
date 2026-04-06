@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-HRS-24",
+  "area": "Human Resources",
+  "artifact_name": "Critical Cybersecurity & Data Privacy Skill Gaps",
+  "artifact_description": "Documented evidence of personnel management practices to formally identify critical cybersecurity & data privacy skill gaps.",
+  "scf_controls": [
+    "HRS-13",
+    "HRS-13.1"
+  ],
+  "cmmc_mapping": ""
+}

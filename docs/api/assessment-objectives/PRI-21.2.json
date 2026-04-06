@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PRI-21.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-21.2",
+      "ao_id": "PRI-21.2_A01",
+      "objective": "a single, clearly-labeled link is published that allows data subjects to efficiently exercise their opt-out rights to limit the collection and/or use of Personal Data (PD).",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-21.2",
+      "ao_id": "PRI-21.2_A02",
+      "objective": "a single, clearly-labeled link is published that allows data subjects to efficiently exercise their opt-out rights for their Personal Data (PD) to not be sold and/or shared.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "CAP-04",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CAP-04",
+      "ao_id": "CAP-04_A01",
+      "objective": "the operating state and health status of critical systems, applications and services is centrally-monitored.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

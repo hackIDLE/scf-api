@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "AAT-10.19",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-10.19",
+      "ao_id": "AAT-10.19_A01",
+      "objective": "Third-party Artificial Intelligence (AI) and Autonomous Technologies (AAT)-related components are assessed, approved and continuously monitored.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-10.19",
+      "ao_id": "AAT-10.19_A02",
+      "objective": "Third-party Artificial Intelligence (AI) and Autonomous Technologies (AAT)-related Application Programming Interfaces (APIs) are assessed, approved and continuously monitored.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-10.19",
+      "ao_id": "AAT-10.19_A03",
+      "objective": "Third-party Artificial Intelligence (AI) and Autonomous Technologies (AAT)-related services used by AI agents for security, privacy and compliance are assessed, approved and continuously monitored.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

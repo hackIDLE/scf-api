@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "TDA-06.3",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-06.3",
+      "ao_id": "TDA-06.3_A01",
+      "objective": "a Software Assurance Maturity Model (SAMM) governs a secure development lifecycle for the development of systems, applications and services.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

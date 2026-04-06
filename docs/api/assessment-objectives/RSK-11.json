@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "RSK-11",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "RSK-11",
+      "ao_id": "RSK-11_A01",
+      "objective": "risk monitoring is an integral part of the continuous monitoring strategy.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CA-07(04)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-11",
+      "ao_id": "RSK-11_A02",
+      "objective": "effectiveness monitoring is included in risk monitoring.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CA-07(04)(a)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-11",
+      "ao_id": "RSK-11_A03",
+      "objective": "compliance monitoring is included in risk monitoring.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CA-07(04)(b)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-11",
+      "ao_id": "RSK-11_A04",
+      "objective": "change monitoring is included in risk monitoring.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CA-07(04)(c)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-HRS-14",
+  "area": "Human Resources",
+  "artifact_name": "Responsibilities Review",
+  "artifact_description": "Documented evidence of a formal review process to ensure assigned responsibilities currently reflect business needs for the assigned role.",
+  "scf_controls": [
+    "IAC-17"
+  ],
+  "cmmc_mapping": ""
+}

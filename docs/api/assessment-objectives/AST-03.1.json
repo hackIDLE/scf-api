@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "AST-03.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AST-03.1",
+      "ao_id": "AST-03.1_A01",
+      "objective": "individuals responsible and accountable for administering system components are identified by organization-defined criteria in the system component inventory.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-08(04)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "BCD-09.3",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "BCD-09.3",
+      "ao_id": "BCD-09.3_A01",
+      "objective": "alternate processing site agreements that contain priority-of-service provisions in accordance with availability requirements (including recovery time objectives) are developed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-07(03)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "scf_control_id": "NET-14",
+  "total": 12,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-14",
+      "ao_id": "NET-14_A01",
+      "objective": "usage restrictions are established for each type of allowable remote system access.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-17a.[01]\n171A_R3_A.03.01.12.a[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-14",
+      "ao_id": "NET-14_A02",
+      "objective": "types of allowable remote system access are defined.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.01.12.a[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-14",
+      "ao_id": "NET-14_A03",
+      "objective": "connection requirements are established for each type of allowable remote system access.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.01.12.a[04]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-14",
+      "ao_id": "NET-14_A04",
+      "objective": "each type of remote system access is authorized prior to establishing such connections.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.01.12.b",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-14",
+      "ao_id": "NET-14_A05",
+      "objective": "configuration requirements are established for each type of allowable remote system access.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-17a.[02]\n171A_R3_A.03.01.12.a[03]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-14",
+      "ao_id": "NET-14_A06",
+      "objective": "implementation guidance is established and documented for each type of remote access allowed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-17a.[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-14",
+      "ao_id": "NET-14_A07",
+      "objective": "each type of remote access to the system is authorized prior to allowing such connections.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-17b.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-14",
+      "ao_id": "NET-14_A08",
+      "objective": "information about remote access mechanisms is protected from unauthorized use and disclosure.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-17(06)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-14",
+      "ao_id": "NET-14_A09",
+      "objective": "remote access to the system is routed through authorized access control points.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.01.12.c[01]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-14",
+      "ao_id": "NET-14_A10",
+      "objective": "remote access to the system is routed through managed access control points.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.01.12.c[02]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-14",
+      "ao_id": "NET-14_A11",
+      "objective": "remote execution of privileged commands is authorized.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.01.12.d[1]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-14",
+      "ao_id": "NET-14_A12",
+      "objective": "remote access to security-relevant information is authorized.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.01.12.d[2]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

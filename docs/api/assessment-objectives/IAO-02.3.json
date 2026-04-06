@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "IAO-02.3",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAO-02.3",
+      "ao_id": "IAO-02.3_A01",
+      "objective": "external organizations from which the results of control assessments are leveraged are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CA-02(03)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-02.3",
+      "ao_id": "IAO-02.3_A02",
+      "objective": "systems, applications and/or services on which a control assessment to be performed by an external organization are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CA-02(03)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-02.3",
+      "ao_id": "IAO-02.3_A03",
+      "objective": "requirements to be met by the control assessment performed by an external organization on systems, applications and/or services are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CA-02(03)_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-02.3",
+      "ao_id": "IAO-02.3_A04",
+      "objective": "the results of control assessments performed by organization-defined external organizations on systems, applications and/or services are leveraged when the assessment meets organization-defined requirements.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CA-02(03)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AST-01.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AST-01.1",
+      "ao_id": "AST-01.1_A01",
+      "objective": "asset-service dependencies are identified and documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-01.1",
+      "ao_id": "AST-01.1_A02",
+      "objective": "asset-service dependencies are assessed to evaluate cybersecurity / data privacy concerns for technology assets that support more than one critical business function.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "END-06.3",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "END-06.3",
+      "ao_id": "END-06.3_A01",
+      "objective": "personnel or roles to whom notification is to be provided upon discovering discrepancies during integrity verification is/are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-07(02)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-06.3",
+      "ao_id": "END-06.3_A02",
+      "objective": "automated tools that provide notification to personnel or roles upon discovering discrepancies during integrity verification are employed.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-07(02)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

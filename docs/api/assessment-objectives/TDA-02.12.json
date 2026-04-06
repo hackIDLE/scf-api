@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "TDA-02.12",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-02.12",
+      "ao_id": "TDA-02.12_A01",
+      "objective": "a categorization scheme for products and/or services with digital elements is developed to define security and resiliency requirements.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-02.12",
+      "ao_id": "TDA-02.12_A02",
+      "objective": "products and/or services with digital elements are categorized according to applicable security and resiliency requirements.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

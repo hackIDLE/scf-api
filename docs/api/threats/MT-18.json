@@ -1,0 +1,6 @@
+{
+  "threat_id": "MT-18",
+  "grouping": "Man-Made Threat",
+  "name": "Geopolitical",
+  "description": "Geopolitical is a Supply Chain Risk Management (SCRM) threat category that pertains to a specific geographic location, or region of relevance, that affects the supply chain. Primarily, the concern is if a foreign state can affect the supply chain through political intervention within the host nation.\n\nInternal or geopolitical instability can lead to disrupted supply chain operations, increased business operating costs, reduced attractiveness of investment and/or altered competitive landscapes."
+}

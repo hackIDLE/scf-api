@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "AAT-16.5",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-16.5",
+      "ao_id": "AAT-16.5_A01",
+      "objective": "input from domain experts and relevant stakeholders is utilized to validate whether the Artificial Intelligence (AI) and Autonomous Technologies (AAT) perform consistently, as intended.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

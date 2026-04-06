@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "EMB-13",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "EMB-13",
+      "ao_id": "EMB-13_A01",
+      "objective": "configurations for embedded technologies restrict communications to authorized peers and service endpoints.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

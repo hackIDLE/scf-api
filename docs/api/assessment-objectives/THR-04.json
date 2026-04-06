@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "THR-04",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "THR-04",
+      "ao_id": "THR-04_A01",
+      "objective": "an insider threat program that includes a cross-discipline insider threat incident handling team is implemented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-12",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "THR-04",
+      "ao_id": "THR-04_A02",
+      "objective": "threat indicator information and effective mitigations obtained from external organizations are used to guide and inform intrusion detection and threat hunting.",
+      "pptdf": "Process",
+      "origin": "172A_3.14.6e[e]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

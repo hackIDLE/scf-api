@@ -1,0 +1,136 @@
+{
+  "scf_control_id": "IAC-10.1",
+  "total": 13,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-10.1",
+      "ao_id": "IAC-10.1_A01",
+      "objective": "for password-based authentication, a list of commonly used, expected or compromised passwords is maintained and updated frequently and when organizational passwords are suspected to have been compromised directly or indirectly.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-05(01)(a)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10.1",
+      "ao_id": "IAC-10.1_A02",
+      "objective": "for password-based authentication when passwords are created or updated by users, the passwords are verified not to be found on the list of commonly used, expected or compromised passwords.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-05(01)(b)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10.1",
+      "ao_id": "IAC-10.1_A03",
+      "objective": "for password-based authentication, passwords are only transmitted over cryptographically protected channels.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-05(01)(c)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10.1",
+      "ao_id": "IAC-10.1_A04",
+      "objective": "for password-based authentication, passwords are stored using an approved salted key derivation function, preferably using a keyed hash.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-05(01)(d)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10.1",
+      "ao_id": "IAC-10.1_A05",
+      "objective": "for password-based authentication, immediate selection of a new password is required upon account recovery.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-05(01)(e)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10.1",
+      "ao_id": "IAC-10.1_A06",
+      "objective": "for password-based authentication, user selection of long passwords and passphrases is allowed, including spaces and all printable characters.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-05(01)(f)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10.1",
+      "ao_id": "IAC-10.1_A07",
+      "objective": "for password-based authentication, automated tools are employed to assist the user in selecting strong password authenticators.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-05(01)(g)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10.1",
+      "ao_id": "IAC-10.1_A08",
+      "objective": "organization-defined composition and complexity rules for passwords are enforced.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-05(01)(h)\n171A_3.5.7[c]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10.1",
+      "ao_id": "IAC-10.1_A09",
+      "objective": "password composition and complexity rules are defined.",
+      "pptdf": "Process",
+      "origin": "171A_3.5.7[a]\n171A_R3_A.03.05.07.ODP[02]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10.1",
+      "ao_id": "IAC-10.1_A10",
+      "objective": "password change of character requirements are defined.",
+      "pptdf": "Process",
+      "origin": "171A_3.5.7[b]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10.1",
+      "ao_id": "IAC-10.1_A11",
+      "objective": "minimum password complexity requirements, as defined, are enforced when new passwords are created.",
+      "pptdf": "Technology",
+      "origin": "171A_3.5.7[c]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10.1",
+      "ao_id": "IAC-10.1_A12",
+      "objective": "minimum password change of character requirements as defined are enforced when new passwords are created.",
+      "pptdf": "Technology",
+      "origin": "171A_3.5.7[d]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10.1",
+      "ao_id": "IAC-10.1_A13",
+      "objective": "the following composition and complexity rules for passwords are enforced: <A.03.05.07.ODP[02]: rules>.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.05.07.f",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "SDP values:\n(1) Must have a minimum length of 16 characters.\n(2) Contains a string of characters that does not include the user’s account name or full name.",
+      "org_defined_parameters": ""
+    }
+  ]
+}

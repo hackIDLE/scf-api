@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "DCH-09.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-09.2",
+      "ao_id": "DCH-09.2_A01",
+      "objective": "the frequency with which to test sanitization equipment / procedures is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MP-06(02)_ODP[01]\n53A_R5_MP-06(02)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-09.2",
+      "ao_id": "DCH-09.2_A02",
+      "objective": "sanitization equipment / procedures are tested frequently to ensure that the intended sanitization is achieved.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_MP-06(02)[01]\n53A_R5_MP-06(02)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

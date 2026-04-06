@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "TPM-12.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TPM-12.2",
+      "ao_id": "TPM-12.2_A01",
+      "objective": "contracts with third-parties contractually impose safeguards (e.g., additional controls, access modification, contract termination, etc.) from Foreign Ownership, Control or Influence (FOCI) concerns to ensure that unauthorized access to sensitive and/or regulated data is prevented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-12.2",
+      "ao_id": "TPM-12.2_A02",
+      "objective": "contracts with third-parties contractually impose safeguards (e.g., additional controls, access modification, contract termination, etc.) from FOCI concerns to ensure that performance of contracts is not adversely affected.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

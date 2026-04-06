@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "PRI-07.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-07.1",
+      "ao_id": "PRI-07.1_A01",
+      "objective": "includes privacy requirements in contracts and other acquisition-related documents that establish privacy roles and responsibilities for contractors and service providers.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

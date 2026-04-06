@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "MON-01.16",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MON-01.16",
+      "ao_id": "MON-01.16_A01",
+      "objective": "the organization formally identifies its needs for monitoring.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-01.16",
+      "ao_id": "MON-01.16_A02",
+      "objective": "monitoring needs are prioritized by asset, based on (1) asset criticality and (2) the sensitivity of the data it stores, transmits and processes.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "NET-20.6",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-20.6",
+      "ao_id": "NET-20.6_A01",
+      "objective": "email systems are configured to enable the encryption of outgoing emails.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

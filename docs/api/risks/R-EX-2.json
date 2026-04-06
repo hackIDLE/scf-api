@@ -1,0 +1,7 @@
+{
+  "risk_id": "R-EX-2",
+  "grouping": "Exposure",
+  "name": "Cancelled contract",
+  "description": "A cancelled contract with a client or other entity for cause (e.g., failure to fulfill obligations for secure practices).",
+  "nist_csf_function": "Recover"
+}

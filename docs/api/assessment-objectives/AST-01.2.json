@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AST-01.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AST-01.2",
+      "ao_id": "AST-01.2_A01",
+      "objective": "pertinent stakeholders of critical systems, applications and services are identified and documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-01.2",
+      "ao_id": "AST-01.2_A02",
+      "objective": "pertinent stakeholders of critical systems, applications and services are involved in supporting the ongoing secure management of those assets.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

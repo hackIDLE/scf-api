@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "PES-02.2",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PES-02.2",
+      "ao_id": "PES-02.2_A01",
+      "objective": "a \"two-person rule\" is enforced for physical access by requiring two authorized individuals with separate access cards, keys or PINs, to access highly-sensitive areas (e.g., safe, high-security cage, etc.).",
+      "pptdf": "Facility",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

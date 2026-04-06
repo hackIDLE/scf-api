@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "AAT-10.4",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-10.4",
+      "ao_id": "AAT-10.4_A01",
+      "objective": "the organization's Artificial Intelligence Test, Evaluation, Validation & Verification (AI TEVV) capability demonstrates the Artificial Intelligence (AI) and Autonomous Technologies (AAT) to be deployed is safe",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-10.4",
+      "ao_id": "AAT-10.4_A02",
+      "objective": "the organization's Artificial Intelligence Test, Evaluation, Validation & Verification (AI TEVV) capability demonstrates residual, negative risk from Artificial Intelligence (AI) and Autonomous Technologies (AAT) does not exceed the organization's risk tolerance and can fail safely, particularly if made to operate beyond its knowledge limits.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-10.4",
+      "ao_id": "AAT-10.4_A03",
+      "objective": "the organization's Artificial Intelligence Test, Evaluation, Validation & Verification (AI TEVV) capability demonstrates Artificial Intelligence (AI) and Autonomous Technologies (AAT) can fail safely, particularly if made to operate beyond its knowledge limits.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

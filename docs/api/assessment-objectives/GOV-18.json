@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "GOV-18",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "GOV-18",
+      "ao_id": "GOV-18_A01",
+      "objective": "a Quality Management System (QMS) is implemented to ensure cybersecurity and data protection processes conform with applicable statutory, regulatory and/or contractual obligations.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-SAT-07",
+  "area": "Education",
+  "artifact_name": "Training Records",
+  "artifact_description": "Documented evidence of security awareness training records",
+  "scf_controls": [
+    "SAT-04"
+  ],
+  "cmmc_mapping": "AC.L1-3.1.22\nAT.L2-3.2.1\nAT.L2-3.2.2\nCM.L2-3.4.9\nIR.L2-3.6.1\nSI.L2-3.14.6\nSI.L2-3.14.7"
+}

@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "AAT-22.4",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-22.4",
+      "ao_id": "AAT-22.4_A01",
+      "objective": "human oversight of Artificial Intelligence (AI) and Autonomous Technologies (AAT) is assigned to individuals who have the necessary competence.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-22.4",
+      "ao_id": "AAT-22.4_A02",
+      "objective": "human oversight of Artificial Intelligence (AI) and Autonomous Technologies (AAT) is assigned to individuals who have the necessary training.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-22.4",
+      "ao_id": "AAT-22.4_A03",
+      "objective": "human oversight of Artificial Intelligence (AI) and Autonomous Technologies (AAT) is assigned to individuals who have the necessary authority.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-22.4",
+      "ao_id": "AAT-22.4_A04",
+      "objective": "human oversight of Artificial Intelligence (AI) and Autonomous Technologies (AAT) is assigned to individuals who have the necessary resources.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

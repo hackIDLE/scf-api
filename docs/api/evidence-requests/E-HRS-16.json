@@ -1,0 +1,13 @@
+{
+  "erl_id": "E-HRS-16",
+  "area": "Human Resources",
+  "artifact_name": "Access Agreements",
+  "artifact_description": "Documented evidence of personnel management practices protecting sensitive/regulated data through formal access agreements.",
+  "scf_controls": [
+    "HRS-03.1",
+    "HRS-05",
+    "HRS-06",
+    "HRS-10"
+  ],
+  "cmmc_mapping": ""
+}

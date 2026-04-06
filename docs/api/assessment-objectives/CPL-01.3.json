@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "CPL-01.3",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CPL-01.3",
+      "ao_id": "CPL-01.3_A01",
+      "objective": "a capability exists to demonstrate conformity with applicable cybersecurity and data protection laws, regulations and/or contractual obligations.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-01.3",
+      "ao_id": "CPL-01.3_A02",
+      "objective": "personnel or roles to whom the assignment of being able to demonstrate conformity is assigned.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "AAT-03.2",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-03.2",
+      "ao_id": "AAT-03.2_A01",
+      "objective": "AI model and agent-related documentation artifacts for data lineage is created, maintained and accessible.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-03.2",
+      "ao_id": "AAT-03.2_A02",
+      "objective": "AI model and agent-related documentation artifacts for intended use is created, maintained and accessible.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-03.2",
+      "ao_id": "AAT-03.2_A03",
+      "objective": "AI model and agent-related documentation artifacts for limitations is created, maintained and accessible.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

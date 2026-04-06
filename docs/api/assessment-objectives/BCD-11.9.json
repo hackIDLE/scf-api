@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "BCD-11.9",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "BCD-11.9",
+      "ao_id": "BCD-11.9_A01",
+      "objective": "Role Based Access Controls (RBAC) are utilized to logically restrict access to backups to privileged users with assigned roles for data backup and recovery operations.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-11.9",
+      "ao_id": "BCD-11.9_A02",
+      "objective": "Physical Access Controls (PAC) are utilized to physically restrict access to backups to privileged users with assigned roles for data backup and recovery operations.",
+      "pptdf": "Facility",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

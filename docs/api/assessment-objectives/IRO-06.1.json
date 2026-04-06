@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "IRO-06.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IRO-06.1",
+      "ao_id": "IRO-06.1_A01",
+      "objective": "incident response testing is coordinated with organizational elements responsible for related plans.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-03(02)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

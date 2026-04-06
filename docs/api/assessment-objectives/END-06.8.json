@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "END-06.8",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "END-06.8",
+      "ao_id": "END-06.8_A01",
+      "objective": "Extended Detection & Response (XDR) technologies are used to correlate data and respond to threats across multiple security layers.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

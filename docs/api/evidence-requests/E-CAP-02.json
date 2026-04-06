@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-CAP-02",
+  "area": "Capacity Management",
+  "artifact_name": "Resource Prioritization",
+  "artifact_description": "Documented evidence of resource prioritization to maintain business performance requirements for critical Technology Assets, Applications, Services and/or Data (TAASD) (including facilities and third-parties).",
+  "scf_controls": [
+    "CAP-02"
+  ],
+  "cmmc_mapping": ""
+}

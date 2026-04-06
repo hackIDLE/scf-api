@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-PRI-08",
+  "area": "Privacy",
+  "artifact_name": "Data Privacy Notice",
+  "artifact_description": "Documented evidence of a publicly-accessible data privacy notice.",
+  "scf_controls": [
+    "PRI-02"
+  ],
+  "cmmc_mapping": ""
+}

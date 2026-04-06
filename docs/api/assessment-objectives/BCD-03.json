@@ -1,0 +1,96 @@
+{
+  "scf_control_id": "BCD-03",
+  "total": 9,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "BCD-03",
+      "ao_id": "BCD-03_A01",
+      "objective": "the time period within which to provide contingency training after assuming a contingency role or responsibility is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-03_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-03",
+      "ao_id": "BCD-03_A02",
+      "objective": "the frequency at which to provide training to system users with a contingency role or responsibility is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-03_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-03",
+      "ao_id": "BCD-03_A03",
+      "objective": "the frequency at which to review / update contingency training content is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-03_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-03",
+      "ao_id": "BCD-03_A04",
+      "objective": "events necessitating review / update of contingency training are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-03_ODP[04]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-03",
+      "ao_id": "BCD-03_A05",
+      "objective": "contingency training is provided to system users consistent with assigned roles and responsibilities within an organization-defined time period of assuming a contingency role or responsibility.",
+      "pptdf": "People",
+      "origin": "53A_R5_CP-03a.01",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-03",
+      "ao_id": "BCD-03_A06",
+      "objective": "contingency training is provided to system users consistent with assigned roles and responsibilities when required by system changes.",
+      "pptdf": "People",
+      "origin": "53A_R5_CP-03a.02",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-03",
+      "ao_id": "BCD-03_A07",
+      "objective": "contingency training is provided to system users consistent with assigned roles and responsibilities and frequency thereafter.",
+      "pptdf": "People",
+      "origin": "53A_R5_CP-03a.03",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-03",
+      "ao_id": "BCD-03_A08",
+      "objective": "the contingency plan training content is reviewed / updated frequently.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-03b.[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-03",
+      "ao_id": "BCD-03_A09",
+      "objective": "the contingency plan training content is reviewed / updated following events.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-03b.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    }
+  ]
+}

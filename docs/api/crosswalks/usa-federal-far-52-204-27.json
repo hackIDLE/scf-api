@@ -1,0 +1,30 @@
+{
+  "framework_id": "usa-federal-far-52-204-27",
+  "display_name": "FAR 52.204-27",
+  "scf_to_framework": {
+    "total_mappings": 3,
+    "mappings": {
+      "AST-17": [
+        "52.204-27(b)"
+      ],
+      "TPM-05": [
+        "52.204-27(c)"
+      ],
+      "TPM-05.2": [
+        "52.204-27(c)"
+      ]
+    }
+  },
+  "framework_to_scf": {
+    "total_mappings": 2,
+    "mappings": {
+      "52.204-27(b)": [
+        "AST-17"
+      ],
+      "52.204-27(c)": [
+        "TPM-05",
+        "TPM-05.2"
+      ]
+    }
+  }
+}

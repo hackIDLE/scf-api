@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-AAT-05",
+  "area": "Artificial Intelligence (AI) & Autonomous Technologies Governance",
+  "artifact_name": "Risk Management Decision Makers for Artificial Intelligence and Autonomous Technologies (AAT)",
+  "artifact_description": "Documented evidence of diversity of demographics, disciplines, experience, expertise and backgrounds for mapping, measuring and managing Artificial Intelligence (AI) and Autonomous Technologies (AAT)-related risks.",
+  "scf_controls": [
+    "AAT-07"
+  ],
+  "cmmc_mapping": ""
+}

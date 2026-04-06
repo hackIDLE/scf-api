@@ -1,0 +1,78 @@
+name: Release
+
+on:
+  push:
+    branches: [main]
+    paths: [".scf-version"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Read version
+        id: version
+        run: |
+          VERSION=$(cat .scf-version)
+          echo "tag=$VERSION" >> "$GITHUB_OUTPUT"
+          echo "Version: $VERSION"
+
+      - name: Check if tag exists
+        id: check
+        env:
+          TAG: ${{ steps.version.outputs.tag }}
+        run: |
+          if git rev-parse "refs/tags/$TAG" >/dev/null 2>&1; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "Tag $TAG already exists, skipping."
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Get stats
+        if: steps.check.outputs.skip != 'true'
+        id: stats
+        run: |
+          node -e "
+            const s = require('./docs/api/summary.json');
+            const lines = [
+              'controls=' + s.total_controls,
+              'families=' + s.total_families,
+              'frameworks=' + s.crosswalk_frameworks.length,
+              'threats=' + (s.total_threats || 0),
+              'risks=' + (s.total_risks || 0),
+              'aos=' + (s.total_assessment_objectives || 0),
+              'erls=' + (s.total_evidence_requests || 0),
+              'ccs=' + (s.total_compensating_controls || 0),
+              'privacy=' + (s.total_privacy_principles || 0),
+            ];
+            lines.forEach(l => console.log(l));
+          " >> "$GITHUB_OUTPUT"
+
+      - name: Create tag and release
+        if: steps.check.outputs.skip != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ steps.version.outputs.tag }}
+          CONTROLS: ${{ steps.stats.outputs.controls }}
+          FAMILIES: ${{ steps.stats.outputs.families }}
+          FRAMEWORKS: ${{ steps.stats.outputs.frameworks }}
+          AOS: ${{ steps.stats.outputs.aos }}
+          CCS: ${{ steps.stats.outputs.ccs }}
+          ERLS: ${{ steps.stats.outputs.erls }}
+          THREATS: ${{ steps.stats.outputs.threats }}
+          RISKS: ${{ steps.stats.outputs.risks }}
+          PRIVACY: ${{ steps.stats.outputs.privacy }}
+        run: |
+          # Delete existing release if present (idempotent reruns)
+          gh release delete "$TAG" --yes 2>/dev/null || true
+          git tag -f "$TAG"
+          git push --force origin "$TAG"
+          gh release create "$TAG" \
+            --title "SCF $TAG" \
+            --notes "Mirrors [SCF $TAG](https://github.com/securecontrolsframework/securecontrolsframework/releases/tag/$TAG). $CONTROLS controls, $FAMILIES families, $FRAMEWORKS crosswalks, $AOS assessment objectives, $CCS compensating controls, $ERLS evidence requests, $THREATS threats, $RISKS risks, $PRIVACY privacy principles."

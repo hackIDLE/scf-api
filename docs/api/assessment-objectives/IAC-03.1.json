@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "IAC-03.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-03.1",
+      "ao_id": "IAC-03.1_A01",
+      "objective": "Personal Identity Verification (PIV)-compliant credentials from other federal agencies are accepted.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-08(01)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-03.1",
+      "ao_id": "IAC-03.1_A02",
+      "objective": "Personal Identity Verification (PIV)-compliant credentials from other federal agencies are electronically verified.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-08(01)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

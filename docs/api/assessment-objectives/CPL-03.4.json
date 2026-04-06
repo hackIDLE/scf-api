@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "CPL-03.4",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CPL-03.4",
+      "ao_id": "CPL-03.4_A01",
+      "objective": "acceptable methods to conduct a cybersecurity and/or data protection assessment are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

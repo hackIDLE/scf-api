@@ -1,0 +1,384 @@
+{
+  "control_id": "PES-12.1",
+  "title": "Transmission Medium Security",
+  "family": "PES",
+  "description": "Physical security mechanisms exist to protect power and telecommunications cabling carrying data or supporting information services from interception, interference or damage.",
+  "scf_question": "Does the organization protect power and telecommunications cabling carrying data or supporting information services from interception, interference or damage?",
+  "relative_weight": 9,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [],
+  "pptdf": "Facility",
+  "nist_csf_function": "Protect",
+  "scrm_focus": {
+    "strategic": false,
+    "operational": true,
+    "tactical": true
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality. \nPhysical & Environmental Security (PES) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with PES domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Physical security-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ Physical security controls are primarily administrative in nature (e.g., policies & standards), focusing on protecting High Value Assets (HVAs).\n▪ IT and/or cybersecurity personnel implement appropriate physical security practices to protect the confidentiality, integrity, availability and safety of the organization's technology assets and data.",
+    "2": "Physical & Environmental Security (PES) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with PES domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with PES domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with PES  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Physical security / facilities management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Physical security / facilities management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Physical security controls and technologies primarily focus on protecting High Value Assets (HVAs), including environments where sensitive/regulated data is stored, transmitted and processed.\n▪ Physical security controls address system component location within the facility to minimize potential damage from physical and environmental hazards and to minimize the opportunity for unauthorized access.\n▪ Physical security controls isolate information processing facilities from points such as delivery and loading areas and other points to avoid unauthorized access.",
+    "3": "Physical & Environmental Security (PES) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with PES domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with PES domain capabilities are well-documented and kept current by process owners.\n▪ A facilities management team, or similar function, is appropriately staffed and supported to implement and maintain NET domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of physical and environmental security operations (e.g., facility management solution, visitor log management automation, proximity badge access, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with PES domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational physical security capability exists to protect power and telecommunications cabling carrying data or supporting information services from interception, interference or damage.",
+    "4": "Physical & Environmental Security (PES) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [
+    "CORE ESP Level 2 Critical Infrastructure",
+    "CORE ESP Level 3 Advanced Threats",
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ Lock screens and log off when stepping away",
+    "small": "∙ Clean screen policy\n∙ Auto-lock configured on all systems",
+    "medium": "∙ Formal clean screen/clear desk policy\n∙ Auto-lock enforcement via GPO",
+    "large": "∙ Enterprise screen lock policy enforcement\n∙ Automated compliance monitoring",
+    "enterprise": "∙ Enterprise endpoint management with enforced screen lock (e.g., Microsoft Intune, JAMF)\n∙ Compliance reporting"
+  },
+  "risks": [
+    "R-AC-1",
+    "R-AC-2",
+    "R-AC-3",
+    "R-AC-4",
+    "R-AM-1",
+    "R-AM-2",
+    "R-BC-1",
+    "R-BC-2",
+    "R-BC-3",
+    "R-BC-4",
+    "R-BC-5",
+    "R-EX-1",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-EX-5",
+    "R-EX-6",
+    "R-EX-7",
+    "R-GV-1",
+    "R-GV-2",
+    "R-GV-3",
+    "R-GV-4",
+    "R-GV-5",
+    "R-GV-6",
+    "R-GV-7",
+    "R-GV-8",
+    "R-IR-1",
+    "R-IR-2",
+    "R-IR-3",
+    "R-IR-4",
+    "R-SA-1",
+    "R-SC-1",
+    "R-SC-2",
+    "R-SC-3",
+    "R-SC-4",
+    "R-SC-5",
+    "R-SC-6"
+  ],
+  "threats": [
+    "NT-2",
+    "NT-3",
+    "NT-4",
+    "NT-5",
+    "NT-6",
+    "NT-7",
+    "NT-8",
+    "NT-9",
+    "NT-10",
+    "NT-11",
+    "NT-12",
+    "NT-13",
+    "NT-14",
+    "MT-1",
+    "MT-2",
+    "MT-3",
+    "MT-4",
+    "MT-5",
+    "MT-6",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-10",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Physical & Environmental Security",
+  "crosswalks": {
+    "general-csa-cmm-4-1-0": [
+      "DCS-13"
+    ],
+    "general-govramp": [
+      "PE-04"
+    ],
+    "general-govramp-low-plus": [
+      "PE-04"
+    ],
+    "general-govramp-mod": [
+      "PE-04"
+    ],
+    "general-govramp-high": [
+      "PE-04"
+    ],
+    "general-iso-27002-2022": [
+      "7.12"
+    ],
+    "general-iso-27017-2015": [
+      "11.2.3"
+    ],
+    "general-iso-27018-2025": [
+      "7.12"
+    ],
+    "general-nist-800-53-r4": [
+      "PE-4",
+      "SC-7(14)"
+    ],
+    "general-nist-800-53-r5-2": [
+      "PE-04",
+      "SC-07(14)"
+    ],
+    "general-nist-800-53-r5-2-privacy": [
+      "SC-07(14)"
+    ],
+    "general-nist-800-53-r5-2-mod": [
+      "PE-04"
+    ],
+    "general-nist-800-82-r3": [
+      "PE-04",
+      "SC-07(14)"
+    ],
+    "general-nist-800-82-r3-mod": [
+      "PE-04"
+    ],
+    "general-nist-800-82-r3-high": [
+      "PE-04"
+    ],
+    "general-nist-800-161-r1": [
+      "SC-7(14)"
+    ],
+    "general-nist-800-161-r1-level-2": [
+      "SC-7(14)"
+    ],
+    "general-nist-800-161-r1-level-3": [
+      "SC-7(14)"
+    ],
+    "general-nist-800-171-r2": [
+      "3.10.1"
+    ],
+    "general-nist-800-171-r3": [
+      "03.10.08"
+    ],
+    "general-nist-800-171a-r3": [
+      "A.03.10.08"
+    ],
+    "general-pci-dss-4-0-1": [
+      "9.2.2",
+      "9.2.3"
+    ],
+    "general-pci-dss-4-0-1-saq-b-ip": [
+      "9.2.2"
+    ],
+    "general-pci-dss-4-0-1-saq-c": [
+      "9.2.2"
+    ],
+    "general-pci-dss-4-0-1-saq-d-merchant": [
+      "9.2.2",
+      "9.2.3"
+    ],
+    "general-pci-dss-4-0-1-saq-d-service-provider": [
+      "9.2.2",
+      "9.2.3"
+    ],
+    "usa-federal-fbi-cjis-6-0": [
+      "PE-4"
+    ],
+    "usa-federal-dow-cmmc-2-level-1": [
+      "PE.L1-B.1.VIII"
+    ],
+    "usa-federal-dow-cmmc-2-level-2": [
+      "PEL2.-3.10.1"
+    ],
+    "usa-federal-far-52-204-21": [
+      "52.204-21(b)(1)(viii)"
+    ],
+    "usa-federal-gsa-fedramp-5-low": [
+      "SC-07(14)"
+    ],
+    "usa-federal-gsa-fedramp-5-mod": [
+      "PE-04",
+      "SC-07(14)"
+    ],
+    "usa-federal-gsa-fedramp-5-high": [
+      "PE-04",
+      "SC-07(14)"
+    ],
+    "usa-federal-gsa-fedramp-5-li-saas": [
+      "SC-07(14)"
+    ],
+    "usa-federal-irs-1075-2021": [
+      "PE-4"
+    ],
+    "usa-federal-cms-marse-2-0": [
+      "PE-4"
+    ],
+    "usa-federal-nerc-cip-2024": [
+      "CIP-006-6 1.10"
+    ],
+    "usa-state-tx-txramp-2-0-level-2": [
+      "PE-04"
+    ],
+    "emea-isr-cmo-1-0": [
+      "9.15",
+      "18.13"
+    ],
+    "apac-aus-ism-2024-june": [
+      "ISM-0181",
+      "ISM-0187",
+      "ISM-0194",
+      "ISM-0195",
+      "ISM-0198",
+      "ISM-0201",
+      "ISM-0206",
+      "ISM-0208",
+      "ISM-0211",
+      "ISM-0213",
+      "ISM-0216",
+      "ISM-0217",
+      "ISM-0218",
+      "ISM-0926",
+      "ISM-1095",
+      "ISM-1096",
+      "ISM-1098",
+      "ISM-1100",
+      "ISM-1101",
+      "ISM-1102",
+      "ISM-1103",
+      "ISM-1105",
+      "ISM-1107",
+      "ISM-1109",
+      "ISM-1111",
+      "ISM-1112",
+      "ISM-1114",
+      "ISM-1115",
+      "ISM-1116",
+      "ISM-1119",
+      "ISM-1122",
+      "ISM-1130",
+      "ISM-1133",
+      "ISM-1164",
+      "ISM-1216",
+      "ISM-1639",
+      "ISM-1640",
+      "ISM-1718",
+      "ISM-1719",
+      "ISM-1720",
+      "ISM-1721"
+    ],
+    "apac-jpn-ismap": [
+      "11.2.3",
+      "11.2.3.1",
+      "11.2.3.2",
+      "11.2.3.3"
+    ],
+    "apac-nzl-ism-3-9": [
+      "8.3.3.C.01",
+      "8.3.3.C.02",
+      "8.3.4.C.01",
+      "8.3.4.C.02",
+      "8.3.5.C.01",
+      "10.1.42.C.01",
+      "10.1.42.C.02",
+      "10.1.43.C.01",
+      "10.1.43.C.02",
+      "10.1.43.C.03",
+      "10.1.43.C.04",
+      "10.1.44.C.01",
+      "10.1.45.C.01",
+      "10.1.45.C.02",
+      "10.1.46.C.01",
+      "10.1.46.C.02",
+      "10.1.46.C.03",
+      "10.1.46.C.04",
+      "10.1.47.C.01",
+      "10.1.47.C.02",
+      "10.1.48.C.01",
+      "10.1.48.C.02",
+      "10.1.48.C.03",
+      "10.1.49.C.01",
+      "10.1.50.C.01",
+      "10.1.50.C.02",
+      "10.1.50.C.03",
+      "10.1.50.C.04",
+      "10.1.51.C.01",
+      "10.2.6.C.01",
+      "10.2.6.C.02",
+      "10.2.7.C.01",
+      "10.2.8.C.01",
+      "10.2.9.C.01",
+      "10.2.10.C.01",
+      "10.3.5.C.01",
+      "10.3.6.C.01",
+      "10.3.6.C.02",
+      "10.3.7.C.01",
+      "10.3.8.C.01",
+      "10.3.9.C.01",
+      "10.3.10.C.01",
+      "10.3.11.C.01",
+      "10.3.12.C.01",
+      "10.3.13.C.01",
+      "10.4.4.C.01",
+      "10.4.4.C.02",
+      "10.4.5.C.01",
+      "10.4.5.C.02",
+      "10.4.6.C.01",
+      "10.4.6.C.02",
+      "10.4.6.C.03",
+      "10.4.7.C.01",
+      "10.4.7.C.02",
+      "10.4.8.C.01",
+      "10.4.9.C.01",
+      "10.4.9.C.02",
+      "10.4.9.C.03",
+      "10.4.9.C.04",
+      "10.4.10.C.01",
+      "10.4.11.C.01",
+      "10.4.12.C.01",
+      "10.4.13.C.01",
+      "10.4.13.C.02",
+      "10.5.4.C.01",
+      "10.5.5.C.01",
+      "10.5.6.C.01",
+      "10.5.6.C.02",
+      "10.5.7.C.01",
+      "10.5.8.C.01",
+      "10.5.8.C.02",
+      "10.5.9.C.01",
+      "10.5.9.C.02",
+      "10.5.10.C.01",
+      "10.5.10.C.02",
+      "10.5.11.C.01",
+      "10.6.22.C.01",
+      "10.6.22.C.02",
+      "10.6.23.C.01",
+      "10.6.23.C.02",
+      "10.6.23.C.03",
+      "10.6.23.C.04",
+      "10.6.24.C.01",
+      "10.6.24.C.02",
+      "10.6.25.C.01",
+      "10.6.26.C.01",
+      "10.6.27.C.01",
+      "10.6.28.C.01",
+      "10.6.28.C.02",
+      "10.6.29.C.01",
+      "10.6.30.C.01",
+      "10.6.31.C.01"
+    ],
+    "americas-can-itsp-10-171-2025": [
+      "03.10.08"
+    ]
+  }
+}

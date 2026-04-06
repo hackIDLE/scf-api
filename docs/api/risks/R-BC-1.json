@@ -1,0 +1,7 @@
+{
+  "risk_id": "R-BC-1",
+  "grouping": "Business Continuity",
+  "name": "Business interruption",
+  "description": "Increased latency, or a service outage, that negatively impact business operations.",
+  "nist_csf_function": "Recover"
+}

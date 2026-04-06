@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PRI-17.3",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-17.3",
+      "ao_id": "PRI-17.3_A01",
+      "objective": "the timeline to maintain records of data subject requests and responses adhere to applicable statutory, regulatory and/or contractual obligations is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-17.3",
+      "ao_id": "PRI-17.3_A02",
+      "objective": "records of data subject requests and responses are retained in accordance with an established documentation retention schedule that adheres to applicable statutory, regulatory and/or contractual obligations.",
+      "pptdf": "Data",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

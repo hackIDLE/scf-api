@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "IAC-04.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-04.1",
+      "ao_id": "IAC-04.1_A01",
+      "objective": "configuration management process to be employed to handle device identification and authentication based on attestation is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IA-03(04)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "erl_id": "E-IAM-14",
+  "area": "Asset Management",
+  "artifact_name": "Remote Access Authorizations",
+  "artifact_description": "Documented evidence of authorization for users to connect via remote access methods.",
+  "scf_controls": [
+    "NET-14",
+    "NET-14.5",
+    "NET-14.6"
+  ],
+  "cmmc_mapping": "AC.L2-3.1.12"
+}

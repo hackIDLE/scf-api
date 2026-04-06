@@ -1,0 +1,116 @@
+{
+  "scf_control_id": "THR-07",
+  "total": 11,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "THR-07",
+      "ao_id": "THR-07_A01",
+      "objective": "a cyber threat capability is established and maintained to search for Indicators of Compromise (IOC) in organizational systems.",
+      "pptdf": "Process",
+      "origin": "53A_R5_RA-10a.01",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "THR-07",
+      "ao_id": "THR-07_A02",
+      "objective": "a cyber threat capability is established and maintained to detect, track and disrupt threats that evade existing controls.",
+      "pptdf": "Process",
+      "origin": "53A_R5_RA-10a.02",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "THR-07",
+      "ao_id": "THR-07_A03",
+      "objective": "cyber threat hunting activities are conducted according to an organization-defined frequency and/or organization-defined event to detect, track and disrupt threats that evade existing controls.",
+      "pptdf": "Process",
+      "origin": "172A_3.11.2e[b]\n172A_3.11.2e[c]\n53A_R5_RA-10b.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "THR-07",
+      "ao_id": "THR-07_A04",
+      "objective": "sensors and monitoring capabilities to be relocated are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-48_ODP[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "THR-07",
+      "ao_id": "THR-07_A05",
+      "objective": "locations to where sensors and monitoring capabilities are to be relocated are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-48_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "THR-07",
+      "ao_id": "THR-07_A06",
+      "objective": "conditions or circumstances for relocating sensors and monitoring capabilities are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-48_ODP[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "THR-07",
+      "ao_id": "THR-07_A07",
+      "objective": "sensors and monitoring capabilities are relocated to locations under organization-defined conditions or circumstances.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-48",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "THR-07",
+      "ao_id": "THR-07_A08",
+      "objective": "Indicators of Compromise (IOC) are defined.",
+      "pptdf": "Process",
+      "origin": "172A_3.11.2e[a]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "THR-07",
+      "ao_id": "THR-07_A09",
+      "objective": "organizational systems to search for Indicators of Compromise (IOC) are defined.",
+      "pptdf": "Process",
+      "origin": "172A_3.11.2e_ODP[4]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "THR-07",
+      "ao_id": "THR-07_A10",
+      "objective": "the frequency with which to conduct cyber threat hunting activities is defined.",
+      "pptdf": "Process",
+      "origin": "172A_3.11.2e_ODP[1]\n172A_3.11.2e_ODP[2]\n53A_R5_RA-10_ODP",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "THR-07",
+      "ao_id": "THR-07_A11",
+      "objective": "the event triggering cyber threat hunting activities is defined.",
+      "pptdf": "Process",
+      "origin": "172A_3.11.2e_ODP[3]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

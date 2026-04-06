@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "DCH-01.4",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-01.4",
+      "ao_id": "DCH-01.4_A01",
+      "objective": "specific individuals and/or roles for logical and /or physical access to sensitive / regulated data are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-01.4",
+      "ao_id": "DCH-01.4_A02",
+      "objective": "only authorized individuals are provided logical and /or physical access to sensitive / regulated data.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-01.4",
+      "ao_id": "DCH-01.4_A03",
+      "objective": "the system security plan is protected from unauthorized disclosure.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.15.02.c",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-01.4",
+      "ao_id": "DCH-01.4_A04",
+      "objective": "the SCRM plan is protected from unauthorized disclosure.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SR-02c.[01]\n171A_R3_A.03.17.01.c",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

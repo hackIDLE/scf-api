@@ -1,0 +1,66 @@
+{
+  "scf_control_id": "PES-12",
+  "total": 6,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PES-12",
+      "ao_id": "PES-12_A01",
+      "objective": "the location or site of the facility where the system resides is planned considering physical and environmental hazards.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-23a.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-12",
+      "ao_id": "PES-12_A02",
+      "objective": "for existing facilities, physical and environmental hazards are considered in the organizational risk management strategy.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-23b.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-12",
+      "ao_id": "PES-12_A03",
+      "objective": "physical and environmental hazards that could result in potential damage to system components within the facility are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PE-18_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-12",
+      "ao_id": "PES-12_A04",
+      "objective": "system components are positioned within the facility to minimize potential damage from physical and environmental hazards and to minimize the opportunity for unauthorized access.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-18",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-12",
+      "ao_id": "PES-12_A05",
+      "objective": "managed interfaces to be protected against unauthorized physical connections are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-07(14)_ODP",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-12",
+      "ao_id": "PES-12_A06",
+      "objective": "managed interfaces are protected against unauthorized physical connections.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_SC-07(14)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

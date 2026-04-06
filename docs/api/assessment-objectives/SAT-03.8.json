@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "SAT-03.8",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "SAT-03.8",
+      "ao_id": "SAT-03.8_A01",
+      "objective": "application development and operations (DevOps) personnel receive Continuing Professional Education (CPE) training on Secure Software Development Practices (SSDP) to appropriately address evolving threats.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

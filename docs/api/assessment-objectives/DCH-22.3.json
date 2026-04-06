@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "DCH-22.3",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-22.3",
+      "ao_id": "DCH-22.3_A01",
+      "objective": "Personal Data (PD) is collected directly from the individual.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-18(03)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "IAC-17",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-17",
+      "ao_id": "IAC-17_A01",
+      "objective": "the frequency at which to review the privileges assigned to roles or classes of users is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-06(07)_ODP[01]\n171A_R3_A.03.01.05.ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at a minimum, annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-17",
+      "ao_id": "IAC-17_A02",
+      "objective": "roles or classes of users to which privileges are assigned are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-06(07)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "all users with privileges",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-17",
+      "ao_id": "IAC-17_A03",
+      "objective": "the privileges assigned to roles or classes of users are reviewed <A.03.01.05.ODP[03]: frequency> to validate the need for such privileges.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-06(07)(a)\n171A_R3_A.03.01.05.c",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "at least every 12 months",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-17",
+      "ao_id": "IAC-17_A04",
+      "objective": "privileges are reassigned or removed, as necessary.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-06(07)(b)\n171A_R3_A.03.01.05.d",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at a minimum, annually",
+      "org_defined_parameters": ""
+    }
+  ]
+}

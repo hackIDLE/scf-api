@@ -1,0 +1,119 @@
+{
+  "control_id": "CRY-05.1",
+  "title": "Storage Media",
+  "family": "CRY",
+  "description": "Cryptographic mechanisms exist to protect the confidentiality and integrity of sensitive/regulated data residing on storage media.",
+  "scf_question": "Are cryptographic mechanisms utilized to protect the confidentiality and integrity of sensitive/regulated data residing on storage media?",
+  "relative_weight": 8,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [],
+  "pptdf": "Data",
+  "nist_csf_function": "Protect",
+  "scrm_focus": {
+    "strategic": false,
+    "operational": true,
+    "tactical": true
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "2": "Cryptographic Protections (CRY) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Cryptographic management controls-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Cryptographic management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Technology Assets, Applications and/or Services (TAAS) that store, process or transmit sensitive/regulated data use cryptographic mechanisms to prevent unauthorized disclosure of information as an alternate to physical safeguards.",
+    "3": "Cryptographic Protections (CRY) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are well-documented and kept current by process owners.\n▪ A security engineering team, or similar function, is appropriately staffed and supported to implement and maintain CRY domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cryptographic protections operations (e.g., PKI management tool, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational cryptographic capability exists to protect the confidentiality and integrity of sensitive/regulated data residing on storage media.",
+    "4": "Cryptographic Protections (CRY) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [
+    "CORE ESP Level 2 Critical Infrastructure",
+    "CORE ESP Level 3 Advanced Threats",
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ NIST Cryptographic Module Validation Program (CMVP) (https://csrc.nist.gov)\n∙ Microsoft BitLocker (https://microsoft.com)",
+    "small": "∙ NIST Cryptographic Module Validation Program (CMVP) (https://csrc.nist.gov)\n∙ Microsoft BitLocker (https://microsoft.com)",
+    "medium": "∙ NIST Cryptographic Module Validation Program (CMVP) (https://csrc.nist.gov)\n∙ Microsoft BitLocker (https://microsoft.com)",
+    "large": "∙ NIST Cryptographic Module Validation Program (CMVP) (https://csrc.nist.gov)\n∙ Microsoft BitLocker (https://microsoft.com)",
+    "enterprise": "∙ NIST Cryptographic Module Validation Program (CMVP) (https://csrc.nist.gov)\n∙ Microsoft BitLocker (https://microsoft.com)"
+  },
+  "risks": [
+    "R-AC-4",
+    "R-AM-2",
+    "R-AM-3",
+    "R-BC-2",
+    "R-BC-4",
+    "R-BC-5",
+    "R-EX-1",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-EX-5",
+    "R-EX-6",
+    "R-EX-7",
+    "R-GV-1",
+    "R-GV-2",
+    "R-GV-3",
+    "R-GV-4",
+    "R-GV-5",
+    "R-IR-1",
+    "R-IR-3",
+    "R-IR-4"
+  ],
+  "threats": [
+    "NT-7",
+    "MT-1",
+    "MT-2",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-10",
+    "MT-11",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Cryptographic Protections",
+  "crosswalks": {
+    "general-aicpa-tsc-2017": [
+      "CC6.7-POF3"
+    ],
+    "general-cis-csc-8-1": [
+      "3.9"
+    ],
+    "general-cis-csc-8-1-ig2": [
+      "3.9"
+    ],
+    "general-cis-csc-8-1-ig3": [
+      "3.9"
+    ],
+    "general-csa-cmm-4-1-0": [
+      "UEM-08"
+    ],
+    "general-nist-800-171-r3": [
+      "03.13.08"
+    ],
+    "general-pci-dss-4-0-1": [
+      "9.4"
+    ],
+    "general-swift-cscf-2025": [
+      "2.5A"
+    ],
+    "emea-deu-c5-2020": [
+      "CRY-03"
+    ],
+    "emea-isr-cmo-1-0": [
+      "15.7"
+    ],
+    "emea-sau-otcc-1-2022": [
+      "2-3-1-8",
+      "2-3-1-9"
+    ],
+    "apac-nzl-ism-3-9": [
+      "8.4.13.C.01"
+    ],
+    "americas-can-itsp-10-171-2025": [
+      "03.13.08"
+    ]
+  }
+}

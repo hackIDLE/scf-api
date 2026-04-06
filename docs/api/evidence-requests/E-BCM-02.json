@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-BCM-02",
+  "area": "Business Continuity",
+  "artifact_name": "Recovery Time Objectives (RTOs)",
+  "artifact_description": "Documented evidence of Recovery Time Objectives (RTOs) that guide Continuity of Operations Plan (COOP)-related operations.",
+  "scf_controls": [
+    "BCD-01.4"
+  ],
+  "cmmc_mapping": ""
+}

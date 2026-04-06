@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-PRI-04",
+  "area": "Privacy",
+  "artifact_name": "Data Protection Impact Assessment (DPIA)",
+  "artifact_description": "Documented evidence of Data Protection Impact Assessment (DPIA).",
+  "scf_controls": [
+    "RSK-10"
+  ],
+  "cmmc_mapping": ""
+}

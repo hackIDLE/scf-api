@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "IRO-08.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IRO-08.1",
+      "ao_id": "IRO-08.1_A01",
+      "objective": "requirements for utilizing a licensed forensic investigator to perform data analysis for evidentiary purposes that may be used in legal proceedings or to prove wrongdoing are identified.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-08.1",
+      "ao_id": "IRO-08.1_A02",
+      "objective": "where required, only licensed forensic investigators are to perform data analysis for evidentiary purposes that may be used in legal proceedings or to prove wrongdoing.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

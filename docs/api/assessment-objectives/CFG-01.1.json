@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "CFG-01.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CFG-01.1",
+      "ao_id": "CFG-01.1_A01",
+      "objective": "the responsibility for developing the configuration management process is assigned to organizational personnel who are not directly involved in system development.",
+      "pptdf": "People",
+      "origin": "53A_R5_CM-09(01)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "DCH-23.8",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-23.8",
+      "ao_id": "DCH-23.8_A01",
+      "objective": "a motivated intruder test is performed on the de-identified dataset to determine if the identified data remains or if the de-identified data can be re-identified.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-19(08)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

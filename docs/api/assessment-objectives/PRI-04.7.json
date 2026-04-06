@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PRI-04.7",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-04.7",
+      "ao_id": "PRI-04.7_A01",
+      "objective": "Personal Data (PD) collection methods are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-04.7",
+      "ao_id": "PRI-04.7_A02",
+      "objective": "a process exists to ensure that Personal Data (PD) collection methods are:\n (1) Appropriate for the circumstances of the data subject;\n (2) Unambiguous; and\n (3) Secure.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

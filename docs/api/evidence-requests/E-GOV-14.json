@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-GOV-14",
+  "area": "Cybersecurity & Data Protection Management",
+  "artifact_name": "Materiality Threshold Definition",
+  "artifact_description": "Documented evidence of criteria to define the organization's materiality threshold.",
+  "scf_controls": [
+    "GOV-16"
+  ],
+  "cmmc_mapping": ""
+}

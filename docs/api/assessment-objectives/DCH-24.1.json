@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "DCH-24.1",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-24.1",
+      "ao_id": "DCH-24.1_A01",
+      "objective": "information to be protected is defined by information type.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-12(01)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-24.1",
+      "ao_id": "DCH-24.1_A02",
+      "objective": "system components where the information is located are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-12(01)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-24.1",
+      "ao_id": "DCH-24.1_A03",
+      "objective": "automated tools are used to identify information by information type on system components to ensure that controls are in place to protect organizational information and individual privacy.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_CM-12(01)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

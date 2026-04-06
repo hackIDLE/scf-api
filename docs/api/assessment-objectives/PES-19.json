@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PES-19",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PES-19",
+      "ao_id": "PES-19_A01",
+      "objective": "the organization's physical access devices (e.g., RFID cards, access fobs and door keys) are identified.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-19",
+      "ao_id": "PES-19_A02",
+      "objective": "an accurate inventory of all physical access devices (e.g., RFID cards, access fobs and door keys) is established and maintained.",
+      "pptdf": "Facility",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

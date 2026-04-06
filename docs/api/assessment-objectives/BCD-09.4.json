@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "BCD-09.4",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "BCD-09.4",
+      "ao_id": "BCD-09.4_A01",
+      "objective": "the alternate processing site is prepared so that the site can serve as the operational site supporting essential mission and business functions.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-07(04)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

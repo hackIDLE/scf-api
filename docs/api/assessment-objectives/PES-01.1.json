@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "PES-01.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PES-01.1",
+      "ao_id": "PES-01.1_A01",
+      "objective": "a Site Security Plan (SitePlan) is documented for each server and communications room to summarize the implemented security controls to protect physical access to technology assets, as well as applicable risks and threats.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

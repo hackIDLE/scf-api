@@ -1,0 +1,12 @@
+{
+  "erl_id": "E-MNT-03",
+  "area": "Maintenance",
+  "artifact_name": "Patch Management",
+  "artifact_description": "Documented evidence of maintenance activities for Technology Assets, Applications and/or Services (TAAS) (e.g., patch management).",
+  "scf_controls": [
+    "VPM-01",
+    "VPM-04",
+    "VPM-05"
+  ],
+  "cmmc_mapping": ""
+}

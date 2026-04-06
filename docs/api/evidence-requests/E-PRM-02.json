@@ -1,0 +1,12 @@
+{
+  "erl_id": "E-PRM-02",
+  "area": "Resource Management",
+  "artifact_name": "Portfolio Roadmap",
+  "artifact_description": "Documented evidence of the organization's roadmap for implementing cybersecurity-related initiatives and technologies.",
+  "scf_controls": [
+    "PRM-01",
+    "PRM-02",
+    "PRM-03"
+  ],
+  "cmmc_mapping": ""
+}

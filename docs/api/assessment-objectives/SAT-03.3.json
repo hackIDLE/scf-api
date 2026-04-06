@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "SAT-03.3",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "SAT-03.3",
+      "ao_id": "SAT-03.3_A01",
+      "objective": "personnel or roles to be provided with initial and refresher training in the employment and operation of sensitive / regulated data processing and transparency controls is/are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AT-03(05)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-03.3",
+      "ao_id": "SAT-03.3_A02",
+      "objective": "the frequency at which to provide refresher training in the employment and operation of sensitive / regulated data processing and transparency controls is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AT-03(05)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-03.3",
+      "ao_id": "SAT-03.3_A03",
+      "objective": "organization-defined personnel or roles are provided with initial and refresher training organization-defined frequency in the employment and operation of sensitive / regulated data processing and transparency controls.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AT-03(05)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    }
+  ]
+}

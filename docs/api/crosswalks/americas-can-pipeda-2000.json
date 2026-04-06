@@ -1,0 +1,188 @@
+{
+  "framework_id": "americas-can-pipeda-2000",
+  "display_name": "Canada - Personal Information Protection and Electronic Documents Act (PIPEDA) (2000)",
+  "scf_to_framework": {
+    "total_mappings": 28,
+    "mappings": {
+      "GOV-01": [
+        "Principle 7"
+      ],
+      "CPL-01": [
+        "Principle 7"
+      ],
+      "CPL-02": [
+        "Principle 7"
+      ],
+      "DCH-01": [
+        "Principle 7"
+      ],
+      "DCH-22.1": [
+        "Principle 10"
+      ],
+      "DCH-24": [
+        "Sec 20"
+      ],
+      "DCH-24.1": [
+        "Sec 20"
+      ],
+      "DCH-25": [
+        "Sec 20"
+      ],
+      "PRI-01": [
+        "Principle 1",
+        "Principle 8"
+      ],
+      "PRI-01.4": [
+        "Sec 6"
+      ],
+      "PRI-02": [
+        "Principle 2"
+      ],
+      "PRI-02.1": [
+        "Sec 5",
+        "Principle 2"
+      ],
+      "PRI-03": [
+        "Sec 6",
+        "Sec 7",
+        "Principle 3"
+      ],
+      "PRI-03.2": [
+        "Sec 6",
+        "Sec 7",
+        "Principle 3"
+      ],
+      "PRI-04": [
+        "Sec 5",
+        "Principle 4"
+      ],
+      "PRI-04.1": [
+        "Sec 5",
+        "Principle 4"
+      ],
+      "PRI-05": [
+        "Sec 7",
+        "Sec 8",
+        "Principle 5",
+        "Principle 6"
+      ],
+      "PRI-05.2": [
+        "Principle 6"
+      ],
+      "PRI-06": [
+        "Principle 8",
+        "Principle 9"
+      ],
+      "PRI-06.1": [
+        "Principle 10"
+      ],
+      "PRI-06.3": [
+        "Sec 11"
+      ],
+      "PRI-07": [
+        "Sec 20",
+        "Sec 23"
+      ],
+      "PRI-07.1": [
+        "Sec 20",
+        "Sec 23"
+      ],
+      "SEA-01": [
+        "Principle 7"
+      ],
+      "SEA-02": [
+        "Principle 7"
+      ],
+      "SEA-03": [
+        "Principle 7"
+      ],
+      "SEA-15": [
+        "Sec 20"
+      ],
+      "TPM-04.4": [
+        "Sec 20"
+      ]
+    }
+  },
+  "framework_to_scf": {
+    "total_mappings": 17,
+    "mappings": {
+      "Principle 7": [
+        "GOV-01",
+        "CPL-01",
+        "CPL-02",
+        "DCH-01",
+        "SEA-01",
+        "SEA-02",
+        "SEA-03"
+      ],
+      "Principle 10": [
+        "DCH-22.1",
+        "PRI-06.1"
+      ],
+      "Sec 20": [
+        "DCH-24",
+        "DCH-24.1",
+        "DCH-25",
+        "PRI-07",
+        "PRI-07.1",
+        "SEA-15",
+        "TPM-04.4"
+      ],
+      "Principle 1": [
+        "PRI-01"
+      ],
+      "Principle 8": [
+        "PRI-01",
+        "PRI-06"
+      ],
+      "Sec 6": [
+        "PRI-01.4",
+        "PRI-03",
+        "PRI-03.2"
+      ],
+      "Principle 2": [
+        "PRI-02",
+        "PRI-02.1"
+      ],
+      "Sec 5": [
+        "PRI-02.1",
+        "PRI-04",
+        "PRI-04.1"
+      ],
+      "Sec 7": [
+        "PRI-03",
+        "PRI-03.2",
+        "PRI-05"
+      ],
+      "Principle 3": [
+        "PRI-03",
+        "PRI-03.2"
+      ],
+      "Principle 4": [
+        "PRI-04",
+        "PRI-04.1"
+      ],
+      "Sec 8": [
+        "PRI-05"
+      ],
+      "Principle 5": [
+        "PRI-05"
+      ],
+      "Principle 6": [
+        "PRI-05",
+        "PRI-05.2"
+      ],
+      "Principle 9": [
+        "PRI-06"
+      ],
+      "Sec 11": [
+        "PRI-06.3"
+      ],
+      "Sec 23": [
+        "PRI-07",
+        "PRI-07.1"
+      ]
+    }
+  }
+}

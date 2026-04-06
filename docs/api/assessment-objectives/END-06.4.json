@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "END-06.4",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "END-06.4",
+      "ao_id": "END-06.4_A01",
+      "objective": "controls to be implemented automatically when integrity violations are discovered are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-07(05)_ODP[01]\n53A_R5_SI-07(05)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-06.4",
+      "ao_id": "END-06.4_A02",
+      "objective": "organization-defined actions are automatically performed when integrity violations are discovered.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-07(05)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

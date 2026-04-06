@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "IAC-27",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-27",
+      "ao_id": "IAC-27_A01",
+      "objective": "access control policies for which a reference monitor is implemented are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-25_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-27",
+      "ao_id": "IAC-27_A02",
+      "objective": "a reference monitor is implemented for organization-defined access control policies that is tamper-proof, always invoked and small enough to be subject to analysis and testing, the completeness of which can be assured.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-25",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

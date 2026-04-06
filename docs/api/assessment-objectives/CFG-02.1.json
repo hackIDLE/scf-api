@@ -1,0 +1,106 @@
+{
+  "scf_control_id": "CFG-02.1",
+  "total": 10,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CFG-02.1",
+      "ao_id": "CFG-02.1_A01",
+      "objective": "the circumstances requiring baseline configuration review / update are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-02_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-02.1",
+      "ao_id": "CFG-02.1_A02",
+      "objective": "the baseline configuration of the system is reviewed / updated when required due to organization-defined circumstances.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_CM-02b.02",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually and when a significant change occurs",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-02.1",
+      "ao_id": "CFG-02.1_A03",
+      "objective": "the frequency of baseline configuration review / update is defined.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.04.01.ODP[01]\n53A_R5_CM-02_ODP[01]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-02.1",
+      "ao_id": "CFG-02.1_A04",
+      "objective": "the baseline configuration of the system is reviewed per an organization-defined frequency.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-02b.01",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually and when a significant change occurs",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-02.1",
+      "ao_id": "CFG-02.1_A05",
+      "objective": "the baseline configuration of the system is updated per an organization-defined frequency.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "when a significant change occurs",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-02.1",
+      "ao_id": "CFG-02.1_A06",
+      "objective": "the baseline configuration of the system is reviewed when system components are installed or modified.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.04.01.b[03]\n53A_R5_CM-02b.03",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-02.1",
+      "ao_id": "CFG-02.1_A07",
+      "objective": "the baseline configuration of the system is updated when system components are installed or modified.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.04.01.b[04]\n53A_R5_CM-02b.03",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-02.1",
+      "ao_id": "CFG-02.1_A08",
+      "objective": "the system is reviewed <A.03.04.06.ODP[06]: frequency> to identify unnecessary or nonsecure functions, ports, protocols, connections, and services.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.04.06.c",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "at least every 12 months, when any system functions, ports, protocols, or services changes are made, and after any significant incidents or significant changes to risks",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-02.1",
+      "ao_id": "CFG-02.1_A09",
+      "objective": "the baseline configuration of the system is reviewed <A.03.04.01.ODP[01]: frequency>.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.04.01.b[01]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "at least every 12 months and after any significant incidents or significant changes occur",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-02.1",
+      "ao_id": "CFG-02.1_A10",
+      "objective": "the baseline configuration of the system is updated <A.03.04.01.ODP[01]: frequency>.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.04.01.b[02]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "at least every 12 months and after any significant incidents or significant changes occur",
+      "org_defined_parameters": ""
+    }
+  ]
+}

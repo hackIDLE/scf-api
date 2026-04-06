@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "NET-15.3",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-15.3",
+      "ao_id": "NET-15.3_A01",
+      "objective": "users allowed to independently configure wireless networking capabilities are identified.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-18(04)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-15.3",
+      "ao_id": "NET-15.3_A02",
+      "objective": "users allowed to independently configure wireless networking capabilities are explicitly authorized.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-18(04)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-15.3",
+      "ao_id": "NET-15.3_A03",
+      "objective": "radio antennas are selected to reduce the probability that signals from wireless access points can be received outside of organization-controlled boundaries.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-18(05)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

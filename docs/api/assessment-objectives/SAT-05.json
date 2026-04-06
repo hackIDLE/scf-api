@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "SAT-05",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "SAT-05",
+      "ao_id": "SAT-05_A01",
+      "objective": "a process to improve cybersecurity and data protection knowledge sharing across security personnel is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-05",
+      "ao_id": "SAT-05_A02",
+      "objective": "cybersecurity and data protection knowledge sharing is implemented across security personnel allowing for more rapid and effective response to incidents.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

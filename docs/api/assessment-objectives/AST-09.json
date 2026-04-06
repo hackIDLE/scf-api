@@ -1,0 +1,76 @@
+{
+  "scf_control_id": "AST-09",
+  "total": 7,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AST-09",
+      "ao_id": "AST-09_A01",
+      "objective": "data, documentation, tools or system components to be disposed of are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-12_ODP[01]\n53A_R5_MP-06_ODP[01]\n53A_R5_MP-06_ODP[02]\n53A_R5_MP-06_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-09",
+      "ao_id": "AST-09_A02",
+      "objective": "techniques and methods for disposing of data, documentation, tools or system components are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-12_ODP[02]\n53A_R5_MP-06_ODP[04]\n53A_R5_MP-06_ODP[05]\n53A_R5_MP-06_ODP[06]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-09",
+      "ao_id": "AST-09_A03",
+      "objective": "data, documentation, tools or system components are disposed of using techniques and methods.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-12",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-09",
+      "ao_id": "AST-09_A04",
+      "objective": "system media is sanitized using sanitization techniques and procedures prior to disposal.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MP-06a.[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "techniques and procedures IAW NIST SP 800-088 Section 4: Reuse and Disposal of Storage Media and Hardware",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-09",
+      "ao_id": "AST-09_A05",
+      "objective": "system media is sanitized using sanitization techniques and procedures prior to release from organizational control.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MP-06a.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "techniques and procedures IAW NIST SP 800-088 Section 4: Reuse and Disposal of Storage Media and Hardware",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-09",
+      "ao_id": "AST-09_A06",
+      "objective": "system media is sanitized using sanitization techniques and procedures prior to release for reuse.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MP-06a.[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "techniques and procedures IAW NIST SP 800-088 Section 4: Reuse and Disposal of Storage Media and Hardware",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-09",
+      "ao_id": "AST-09_A07",
+      "objective": "sanitization mechanisms with strength and integrity commensurate with the security category or classification of the information are employed.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_MP-06b.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

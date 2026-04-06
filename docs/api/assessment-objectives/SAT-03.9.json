@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "SAT-03.9",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "SAT-03.9",
+      "ao_id": "SAT-03.9_A01",
+      "objective": "specialized counterintelligence awareness training is provided to personnel to collect, interpret and act upon a range of data sources that may signal the presence of a hostile actor.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

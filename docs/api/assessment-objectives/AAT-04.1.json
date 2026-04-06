@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "AAT-04.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-04.1",
+      "ao_id": "AAT-04.1_A01",
+      "objective": "documented methods exist to viably assess the potential benefits of Artificial Intelligence (AI) and Autonomous Technologies (AAT).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

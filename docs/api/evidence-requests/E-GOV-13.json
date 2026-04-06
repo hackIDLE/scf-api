@@ -1,0 +1,13 @@
+{
+  "erl_id": "E-GOV-13",
+  "area": "Cybersecurity & Data Protection Management",
+  "artifact_name": "Measures of Performance (Metrics)",
+  "artifact_description": "Documented evidence of formal measure of performance that are used to track the health of the cybersecurity & data protection program (e.g., metrics, KPIs, KRIs).",
+  "scf_controls": [
+    "GOV-01.2",
+    "GOV-05",
+    "GOV-05.2",
+    "CPL-02"
+  ],
+  "cmmc_mapping": ""
+}

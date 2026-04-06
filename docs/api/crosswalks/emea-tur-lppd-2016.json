@@ -1,0 +1,114 @@
+{
+  "framework_id": "emea-tur-lppd-2016",
+  "display_name": "Turkey - Law on the Protection of Personal Data (LPPD) (2016)",
+  "scf_to_framework": {
+    "total_mappings": 17,
+    "mappings": {
+      "GOV-01": [
+        "12"
+      ],
+      "CPL-01": [
+        "12"
+      ],
+      "CPL-02": [
+        "12"
+      ],
+      "DCH-01": [
+        "8",
+        "12"
+      ],
+      "PRI-01": [
+        "Inferred",
+        "Expectation"
+      ],
+      "PRI-02": [
+        "10"
+      ],
+      "PRI-02.1": [
+        "10"
+      ],
+      "PRI-03": [
+        "10"
+      ],
+      "PRI-04": [
+        "10"
+      ],
+      "PRI-04.1": [
+        "10"
+      ],
+      "PRI-05": [
+        "5",
+        "7"
+      ],
+      "PRI-05.4": [
+        "6"
+      ],
+      "PRI-06": [
+        "11"
+      ],
+      "PRI-15": [
+        "16"
+      ],
+      "SEA-01": [
+        "8",
+        "12"
+      ],
+      "SEA-02": [
+        "8",
+        "12"
+      ],
+      "SEA-03": [
+        "8",
+        "12"
+      ]
+    }
+  },
+  "framework_to_scf": {
+    "total_mappings": 10,
+    "mappings": {
+      "5": [
+        "PRI-05"
+      ],
+      "6": [
+        "PRI-05.4"
+      ],
+      "7": [
+        "PRI-05"
+      ],
+      "8": [
+        "DCH-01",
+        "SEA-01",
+        "SEA-02",
+        "SEA-03"
+      ],
+      "10": [
+        "PRI-02",
+        "PRI-02.1",
+        "PRI-03",
+        "PRI-04",
+        "PRI-04.1"
+      ],
+      "11": [
+        "PRI-06"
+      ],
+      "12": [
+        "GOV-01",
+        "CPL-01",
+        "CPL-02",
+        "DCH-01",
+        "SEA-01",
+        "SEA-02",
+        "SEA-03"
+      ],
+      "16": [
+        "PRI-15"
+      ],
+      "Inferred": [
+        "PRI-01"
+      ],
+      "Expectation": [
+        "PRI-01"
+      ]
+    }
+  }
+}

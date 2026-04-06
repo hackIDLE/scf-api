@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "CLD-06.2",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CLD-06.2",
+      "ao_id": "CLD-06.2_A01",
+      "objective": "for Multi-Tenant Service Providers (MTSP), established security event logging capabilities for its customers are consistent with the customer's applicable statutory, regulatory and/or contractual obligations.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

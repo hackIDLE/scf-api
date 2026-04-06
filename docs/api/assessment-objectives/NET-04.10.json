@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "NET-04.10",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-04.10",
+      "ao_id": "NET-04.10_A01",
+      "objective": "unsanctioned information to be detected is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-04(15)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-04.10",
+      "ao_id": "NET-04.10_A02",
+      "objective": "cybersecurity / data privacy policy that requires the transfer of unsanctioned information between different security domains to be prohibited is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-04(15)_ODP[02]\n53A_R5_AC-04(15)_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-04.10",
+      "ao_id": "NET-04.10_A03",
+      "objective": "when transferring information between different security domains, information is examined for the presence of organization-defined unsanctioned information.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-04(15)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-04.10",
+      "ao_id": "NET-04.10_A04",
+      "objective": "when transferring information between different security domains, transfer of organization-defined unsanctioned information is prohibited in accordance with the organization-defined cybersecurity / data privacy policy.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-04(15)[02]\n53A_R5_AC-04(15)[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

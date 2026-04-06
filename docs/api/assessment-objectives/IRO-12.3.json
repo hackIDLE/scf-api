@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "IRO-12.3",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IRO-12.3",
+      "ao_id": "IRO-12.3_A01",
+      "objective": "procedures to be implemented to ensure that organizational personnel impacted by information spills can continue to carry out assigned tasks while contaminated systems undergo corrective actions are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-09(03)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-12.3",
+      "ao_id": "IRO-12.3_A02",
+      "objective": "procedures are implemented to ensure that organizational personnel impacted by information spills can continue to carry out assigned tasks while contaminated systems are undergoing corrective actions.",
+      "pptdf": "People",
+      "origin": "53A_R5_IR-09(03)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

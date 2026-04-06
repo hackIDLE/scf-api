@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-PES-03",
+  "area": "Physical Security",
+  "artifact_name": "Defined Physical Security Roles",
+  "artifact_description": "Documented evidence of defined physical access control-specific roles that limit physical access to rooms and/or facilities.",
+  "scf_controls": [
+    "PES-02",
+    "PES-02.1"
+  ],
+  "cmmc_mapping": ""
+}

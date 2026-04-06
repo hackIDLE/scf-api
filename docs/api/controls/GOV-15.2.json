@@ -1,0 +1,286 @@
+{
+  "control_id": "GOV-15.2",
+  "title": "Implement Controls",
+  "family": "GOV",
+  "description": "Mechanisms exist to compel data and/or process owners to implement required security, compliance and resilience controls for each Technology Asset, Application and/or Service (TAAS) under their control.",
+  "scf_question": "Does the organization compel data and/or process owners to implement required security, compliance and resilience controls for each Technology Asset, Application and/or Service (TAAS) under their control?",
+  "relative_weight": 9,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [],
+  "pptdf": "Process",
+  "nist_csf_function": "Govern",
+  "scrm_focus": {
+    "strategic": false,
+    "operational": true,
+    "tactical": true
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "2": "SCR-CMM Level 2 criteria definitions are not available for this control:\n▪ A reasonable person would conclude a well-defined and standardized process is required.\n▪ At this level of maturity, the “requirements-driven” nature of performing the control is focused on a localized and/or regionalized implementation, not uniform and consistent across the organization.\n▪ Requirements are narrowly scoped for applicability and are primarily derived from compliance obligations (e.g., laws, regulations and contracts).",
+    "3": "Cybersecurity & Data Protection Governance (GOV) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with GOV domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with GOV domain capabilities are well-documented and kept current by process owners.\n▪ The entity's GRC team, or similar function, is appropriately staffed and supported to implement and maintain GOV domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ Technology is leveraged to enhance the efficiency and accuracy of governance, risk management and compliance operations (e.g., GRC platform).\n▪ An implemented and operational capability exists to  compel data and/or process owners to implement required security, compliance and resilience controls for each Technology Asset, Application and/or Service (TAAS) under their control.",
+    "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [
+    "SCRMS",
+    "CORE AI Model Deployment",
+    "CORE ESP Level 2 Critical Infrastructure",
+    "CORE ESP Level 3 Advanced Threats",
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ SCF Security, Compliance & Resilience Management System (SCRMS)",
+    "small": "∙ SCF Security, Compliance & Resilience Management System (SCRMS)",
+    "medium": "∙ SCF Security, Compliance & Resilience Management System (SCRMS)",
+    "large": "∙ SCF Security, Compliance & Resilience Management System (SCRMS)",
+    "enterprise": "∙ SCF Security, Compliance & Resilience Management System (SCRMS)"
+  },
+  "risks": [
+    "R-AC-1",
+    "R-AC-2",
+    "R-AC-3",
+    "R-AC-4",
+    "R-AM-1",
+    "R-AM-2",
+    "R-AM-3",
+    "R-BC-1",
+    "R-BC-2",
+    "R-BC-3",
+    "R-BC-4",
+    "R-BC-5",
+    "R-EX-1",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-EX-5",
+    "R-EX-6",
+    "R-EX-7",
+    "R-GV-1",
+    "R-GV-2",
+    "R-GV-3",
+    "R-GV-4",
+    "R-GV-5",
+    "R-GV-6",
+    "R-GV-7",
+    "R-GV-8",
+    "R-IR-1",
+    "R-IR-2",
+    "R-IR-3",
+    "R-IR-4",
+    "R-SA-1",
+    "R-SA-2",
+    "R-SC-1",
+    "R-SC-2",
+    "R-SC-3",
+    "R-SC-4",
+    "R-SC-5",
+    "R-SC-6"
+  ],
+  "threats": [
+    "NT-1",
+    "NT-2",
+    "NT-3",
+    "NT-4",
+    "NT-5",
+    "NT-6",
+    "NT-7",
+    "NT-8",
+    "NT-9",
+    "NT-10",
+    "NT-11",
+    "NT-12",
+    "NT-13",
+    "NT-14",
+    "MT-1",
+    "MT-2",
+    "MT-3",
+    "MT-4",
+    "MT-5",
+    "MT-6",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-10",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "errata": "- wordsmithed",
+  "family_name": "Cybersecurity & Data Protection Governance",
+  "crosswalks": {
+    "general-aicpa-tsc-2017": [
+      "CC5.1"
+    ],
+    "general-iec-tr-60601-4-5-2021": [
+      "4.1",
+      "4.6.1",
+      "5.1"
+    ],
+    "general-iso-22301-2019": [
+      "8.1"
+    ],
+    "general-iso-29100-2024": [
+      "6.12"
+    ],
+    "general-iso-31000-2018": [
+      "5.2"
+    ],
+    "general-iso-42001-2023": [
+      "8.1"
+    ],
+    "general-nist-800-37-r2": [
+      "TASK P-17",
+      "TASK S-3",
+      "TASK I-1"
+    ],
+    "general-nist-800-66-r2": [
+      "164.308(a)(1)"
+    ],
+    "general-nist-800-171-r3": [
+      "03.15.01.a",
+      "03.17.01.a"
+    ],
+    "general-scf-dpmp-2025": [
+      "7.0",
+      "7.1"
+    ],
+    "general-tisax-6-0-3": [
+      "5.3.1",
+      "5.3.2"
+    ],
+    "usa-federal-dow-cert-rmm-1-2": [
+      "CTRL:SG2"
+    ],
+    "usa-federal-dow-dfars-252-204-7012": [
+      "252.204-7012(b)"
+    ],
+    "usa-federal-sro-fca-crm-2023": [
+      "609.930(a)"
+    ],
+    "usa-federal-omb-fipps-1973": [
+      "2"
+    ],
+    "usa-federal-law-ftc-act": [
+      "45(a)(1)"
+    ],
+    "usa-federal-hhs-45-cfr-155-260-2016": [
+      "155.260(a)(4)"
+    ],
+    "usa-federal-law-hipaa-simplification-2013": [
+      "164.306(a)(1)",
+      "164.306(d)(3)(ii)(A)",
+      "164.308(a)(1)(ii)(B)"
+    ],
+    "usa-federal-law-hipaa-security-rule-2013": [
+      "164.306(a)(1)",
+      "164.306(d)(3)(ii)(A)",
+      "164.308(a)(1)(ii)(B)"
+    ],
+    "usa-federal-nispom-2020": [
+      "§117.18(a)(1)",
+      "§117.18(e)(4)"
+    ],
+    "usa-federal-dow-safeguarding-nnpi-2010": [
+      "9-2.b"
+    ],
+    "usa-federal-tsa-security-directive-1580-82-2022-01": [
+      "III.B",
+      "III.C.1",
+      "III.C.3",
+      "III.D"
+    ],
+    "usa-state-ma-201-cmr-17-2008": [
+      "17.03(2)(b)"
+    ],
+    "usa-state-ny-shield-act-2019": [
+      "899-bb.2(b)(ii)(B)"
+    ],
+    "emea-eu-ai-act-2024": [
+      "Article 17.1(e)"
+    ],
+    "emea-eu-eba-ict-srm-2025": [
+      "3.4.1(30)(a)",
+      "3.4.1(30)(b)",
+      "3.4.1(30)(c)",
+      "3.4.1(30)(d)",
+      "3.4.1(30)(e)",
+      "3.4.1(30)(f)",
+      "3.4.1(30)(g)"
+    ],
+    "emea-eu-dora-2023": [
+      "Article 7(a)",
+      "Article 7(b)",
+      "Article 7(c)",
+      "Article 7(d)"
+    ],
+    "emea-eu-nis2-2022": [
+      "Article 21.1",
+      "Article 21.2(a)",
+      "Article 21.2(b)",
+      "Article 21.2(c)",
+      "Article 21.2(d)",
+      "Article 21.2(e)",
+      "Article 21.2(f)",
+      "Article 21.2(g)",
+      "Article 21.2(h)",
+      "Article 21.2(i)",
+      "Article 21.2(j)"
+    ],
+    "emea-deu-bsrit-2017": [
+      "5.2"
+    ],
+    "emea-qat-pdppl-2020": [
+      "8.3",
+      "11.3",
+      "11.5",
+      "11.6"
+    ],
+    "emea-sau-cgiot-2024": [
+      "1-6-1"
+    ],
+    "emea-sau-otcc-1-2022": [
+      "2-3",
+      "2-3-2"
+    ],
+    "emea-srb-act-9-2018": [
+      "50",
+      "51"
+    ],
+    "emea-esp-boe-a-2022-7191": [
+      "Article 3.3",
+      "Article 37"
+    ],
+    "emea-esp-decree-311-2022": [
+      "3.3",
+      "37"
+    ],
+    "emea-gbr-caf-4-0": [
+      "B4.a"
+    ],
+    "emea-gbr-cap-1850-2020": [
+      "A5",
+      "A6",
+      "B4"
+    ],
+    "apac-aus-ism-2024-june": [
+      "ISM-1635"
+    ],
+    "apac-nzl-ism-3-9": [
+      "3.4.11.C.01"
+    ],
+    "americas-can-osfi-b13-2022": [
+      "1.1.1",
+      "2.1.1"
+    ],
+    "americas-can-itsp-10-171-2025": [
+      "03.15.01.A",
+      "03.17.01.A"
+    ]
+  }
+}

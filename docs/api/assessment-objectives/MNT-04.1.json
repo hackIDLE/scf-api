@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "MNT-04.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MNT-04.1",
+      "ao_id": "MNT-04.1_A01",
+      "objective": "maintenance tools used by maintenance personnel are inspected for improper or unauthorized modifications.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-03(01)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

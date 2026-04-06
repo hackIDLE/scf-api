@@ -1,0 +1,186 @@
+{
+  "scf_control_id": "CHG-01",
+  "total": 18,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CHG-01",
+      "ao_id": "CHG-01_A01",
+      "objective": "configuration change control activities are coordinated and overseen by organization-defined configuration change control element.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_CM-03g.[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-01",
+      "ao_id": "CHG-01_A02",
+      "objective": "configuration change decisions associated with the system are documented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-03c.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-01",
+      "ao_id": "CHG-01_A03",
+      "objective": "approved configuration-controlled changes to the system are implemented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-03d.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-01",
+      "ao_id": "CHG-01_A04",
+      "objective": "the time period to retain records of configuration-controlled changes is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-03_ODP[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-01",
+      "ao_id": "CHG-01_A05",
+      "objective": "proposed configuration-controlled changes to the system are reviewed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-03b.[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-01",
+      "ao_id": "CHG-01_A06",
+      "objective": "the configuration change control element responsible for coordinating and overseeing change control activities is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-03_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-01",
+      "ao_id": "CHG-01_A07",
+      "objective": "the frequency at which the configuration control element convenes is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-03_ODP[03]\n53A_R5_CM-03_ODP[04]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-01",
+      "ao_id": "CHG-01_A08",
+      "objective": "configuration change conditions that prompt the configuration control element to convene are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-03_ODP[05]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-01",
+      "ao_id": "CHG-01_A09",
+      "objective": "the types of changes to the system that are configuration-controlled are determined and documented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-03a.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-01",
+      "ao_id": "CHG-01_A10",
+      "objective": "proposed configuration-controlled changes to the system are approved or disapproved with explicit consideration for cybersecurity / data privacy impact analyses.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-03b.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-01",
+      "ao_id": "CHG-01_A11",
+      "objective": "records of configuration-controlled changes to the system are retained for an organization-defined time period.",
+      "pptdf": "Data",
+      "origin": "53A_R5_CM-03e.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-01",
+      "ao_id": "CHG-01_A12",
+      "objective": "activities associated with configuration-controlled changes to the system are monitored.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-03f.[01]\n171A_R3_A.03.04.03.d[01]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-01",
+      "ao_id": "CHG-01_A13",
+      "objective": "activities associated with configuration-controlled changes to the system are reviewed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-03f.[02]\n171A_R3_A.03.04.03.d[02]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-01",
+      "ao_id": "CHG-01_A14",
+      "objective": "the configuration control element convenes organization-defined criteria.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_CM-03g.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-01",
+      "ao_id": "CHG-01_A15",
+      "objective": "change management operations are conducted according to documented policies, standards, procedures and/or other organizational directives.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-01",
+      "ao_id": "CHG-01_A16",
+      "objective": "adequate resources (e.g., people, processes, technologies, data and/or facilities) are provided to support change management operations.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-01",
+      "ao_id": "CHG-01_A17",
+      "objective": "responsibility and authority for the performance of change management-related activities are assigned to designated personnel.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-01",
+      "ao_id": "CHG-01_A18",
+      "objective": "personnel performing change management-related activities have the skills and knowledge needed to perform their assigned duties.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

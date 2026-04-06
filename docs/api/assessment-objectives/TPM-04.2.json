@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "TPM-04.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TPM-04.2",
+      "ao_id": "TPM-04.2_A01",
+      "objective": "external system services that require the identification of functions, ports, protocols and other services are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-09(02)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-04.2",
+      "ao_id": "TPM-04.2_A02",
+      "objective": "providers of external system services are required to identify the functions, ports, protocols and other services required for the use of such services.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-09(02)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

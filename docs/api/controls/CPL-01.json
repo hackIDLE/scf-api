@@ -1,0 +1,921 @@
+{
+  "control_id": "CPL-01",
+  "title": "Statutory, Regulatory & Contractual Compliance",
+  "family": "CPL",
+  "description": "Mechanisms exist to facilitate the identification and implementation of relevant statutory, regulatory and contractual controls.",
+  "scf_question": "Does the organization facilitate the identification and implementation of relevant statutory, regulatory and contractual controls?",
+  "relative_weight": 10,
+  "conformity_cadence": "Semi-Annual",
+  "evidence_requests": [
+    "E-CPL-01",
+    "E-GOV-10"
+  ],
+  "pptdf": "Process",
+  "nist_csf_function": "Govern",
+  "scrm_focus": {
+    "strategic": true,
+    "operational": true,
+    "tactical": false
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "Compliance (CPL) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with CPL domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Compliance management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ Compliance efforts are  narrowly-limited to certain compliance requirements.\n▪ IT and/or cybersecurity personnel use an informal process to govern statutory, regulatory and contractual compliance obligations.",
+    "2": "Compliance (CPL) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CPL domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with CPL domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CPL  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Compliance management controls-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Compliance management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ External compliance requirements for cybersecurity and data privacy are identified and documented, based on applicable laws, regulations and contractual obligations.\n▪ IT and/or cybersecurity perform an informal annual review of existing compliance requirements and research evolving or new requirements.",
+    "3": "Compliance (CPL) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CPL domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CPL domain capabilities are well-documented and kept current by process owners.\n▪ A Governance, Risk & Compliance (GRC) team, or similar function, is appropriately staffed and supported to implement and maintain CPL domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of governance, risk management and compliance operations (e.g., GRC platform).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CPL domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to facilitate the identification and implementation of relevant statutory, regulatory and contractual controls.",
+    "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [
+    "SCRMS",
+    "CORE AI Model Deployment",
+    "CORE ESP Level 1 Foundational",
+    "CORE ESP Level 2 Critical Infrastructure",
+    "CORE ESP Level 3 Advanced Threats",
+    "CORE Fundamentals",
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ SCF Security, Compliance & Resilience Management System (SCRMS)\n∙ Governance, Risk and Compliance (GRC) solution (e.g., SCFConnect, SureCloud, Ostendio, SimpleRisk, Ignyte, ZenGRC, Galvanize, MetricStream, Archer, etc.)",
+    "small": "∙ SCF Security, Compliance & Resilience Management System (SCRMS)\n∙ Governance, Risk and Compliance (GRC) solution (e.g., SCFConnect, SureCloud, Ostendio, SimpleRisk, Ignyte, ZenGRC, Galvanize, MetricStream, Archer, etc.)",
+    "medium": "∙ SCF Security, Compliance & Resilience Management System (SCRMS)\n∙ Governance, Risk and Compliance (GRC) solution (e.g., SCFConnect, SureCloud, Ostendio, SimpleRisk, Ignyte, ZenGRC, Galvanize, MetricStream, Archer, etc.)\n∙ Steering committee",
+    "large": "∙ SCF Security, Compliance & Resilience Management System (SCRMS)\n∙  GRC solution (e.g., SCFConnect, Cyturus, SureCloud, SimpleRisk, Ignyte, ZenGRC, Galvanize, MetricStream, Archer, etc.)\n∙ Steering committee",
+    "enterprise": "∙ SCF Security, Compliance & Resilience Management System (SCRMS)\n∙  GRC solution (e.g., SCFConnect, Cyturus, SureCloud, SimpleRisk, Ignyte, ZenGRC, Galvanize, MetricStream, Archer, etc.)\n∙ Steering committee"
+  },
+  "risks": [
+    "R-AC-1",
+    "R-AC-2",
+    "R-AC-3",
+    "R-AC-4",
+    "R-AM-1",
+    "R-AM-2",
+    "R-AM-3",
+    "R-BC-1",
+    "R-BC-2",
+    "R-BC-3",
+    "R-BC-4",
+    "R-BC-5",
+    "R-EX-1",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-EX-5",
+    "R-EX-6",
+    "R-EX-7",
+    "R-GV-1",
+    "R-GV-2",
+    "R-GV-3",
+    "R-GV-4",
+    "R-GV-5",
+    "R-GV-6",
+    "R-GV-7",
+    "R-GV-8",
+    "R-IR-1",
+    "R-IR-2",
+    "R-IR-3",
+    "R-IR-4",
+    "R-SA-1",
+    "R-SA-2",
+    "R-SC-1",
+    "R-SC-2",
+    "R-SC-3",
+    "R-SC-4",
+    "R-SC-5",
+    "R-SC-6"
+  ],
+  "threats": [
+    "NT-1",
+    "NT-2",
+    "NT-3",
+    "NT-4",
+    "NT-5",
+    "NT-6",
+    "NT-7",
+    "NT-8",
+    "NT-9",
+    "NT-10",
+    "NT-11",
+    "NT-12",
+    "NT-13",
+    "NT-14",
+    "MT-1",
+    "MT-2",
+    "MT-3",
+    "MT-4",
+    "MT-5",
+    "MT-6",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-10",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-16",
+    "MT-17",
+    "MT-18",
+    "MT-19",
+    "MT-20",
+    "MT-21",
+    "MT-22",
+    "MT-23",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Compliance",
+  "crosswalks": {
+    "general-aicpa-pmf-2020": [
+      "M1.2-POF9"
+    ],
+    "general-aicpa-tsc-2017": [
+      "CC1.5",
+      "CC2.2",
+      "CC2.3",
+      "CC2.3-POF5",
+      "CC3.1-POF5",
+      "CC3.1-POF8",
+      "CC3.1-POF9",
+      "CC3.1-POF14"
+    ],
+    "general-cobit-2019": [
+      "MEA03.01"
+    ],
+    "general-coso-2013": [
+      "14",
+      "15"
+    ],
+    "general-csa-cmm-4-1-0": [
+      "A&A-04",
+      "GRC-07"
+    ],
+    "general-csa-iot-2": [
+      "CLS-04",
+      "GVN-02",
+      "GVN-04",
+      "LGL-01",
+      "LGL-03",
+      "LGL-04",
+      "LGL-05",
+      "LGL-06",
+      "LGL-07",
+      "LGL-08",
+      "OPA-05"
+    ],
+    "general-govramp": [
+      "PL-01"
+    ],
+    "general-govramp-low": [
+      "PL-01"
+    ],
+    "general-govramp-low-plus": [
+      "PL-01"
+    ],
+    "general-govramp-mod": [
+      "PL-01"
+    ],
+    "general-govramp-high": [
+      "PL-01"
+    ],
+    "general-imo-maritime-cyber-risk-management-2025": [
+      "3.5.3.9"
+    ],
+    "general-iso-22301-2019": [
+      "4.2.2(a)",
+      "4.2.2(b)",
+      "4.2.2(c)"
+    ],
+    "general-iso-27001-2022": [
+      "4.1",
+      "9.1",
+      "9.2.1",
+      "9.2.2"
+    ],
+    "general-iso-27002-2022": [
+      "5.31",
+      "8.34"
+    ],
+    "general-iso-27017-2015": [
+      "18.1.1"
+    ],
+    "general-iso-27018-2025": [
+      "5.1(b)",
+      "5.31",
+      "6.3(b)",
+      "8.34"
+    ],
+    "general-iso-27701-2025": [
+      "4.1",
+      "4.2(a)",
+      "4.2(b)",
+      "4.2(c)"
+    ],
+    "general-iso-29100-2024": [
+      "6.12"
+    ],
+    "general-iso-42001-2023": [
+      "4.1"
+    ],
+    "general-mpa-csbp-5-3-1": [
+      "OR-5.0"
+    ],
+    "general-nist-100-1-ai-rmf": [
+      "GOVERN 1.1"
+    ],
+    "general-nist-600-1-gen-ai-profile": [
+      "GOVERN 1.1",
+      "GV-1.1-001",
+      "MG-4.3-003"
+    ],
+    "general-nist-privacy-framework-1-0": [
+      "GV.PO-P5"
+    ],
+    "general-nist-800-53-r4": [
+      "PL-1",
+      "PM-8"
+    ],
+    "general-nist-800-53-r5-2": [
+      "PL-01",
+      "PM-08"
+    ],
+    "general-nist-800-53-r5-2-privacy": [
+      "PL-01",
+      "PM-08"
+    ],
+    "general-nist-800-53-r5-2-low": [
+      "PL-01"
+    ],
+    "general-nist-800-66-r2": [
+      "164.314(a)"
+    ],
+    "general-nist-800-82-r3": [
+      "PL-01",
+      "PM-08"
+    ],
+    "general-nist-800-82-r3-low": [
+      "PL-01",
+      "PM-08"
+    ],
+    "general-nist-800-82-r3-mod": [
+      "PL-01",
+      "PM-08"
+    ],
+    "general-nist-800-82-r3-high": [
+      "PL-01",
+      "PM-08"
+    ],
+    "general-nist-800-161-r1": [
+      "PL-1",
+      "PM-8"
+    ],
+    "general-nist-800-161-r1-cscrm": [
+      "PL-1"
+    ],
+    "general-nist-800-161-r1-level-1": [
+      "PM-8"
+    ],
+    "general-nist-800-161-r1-level-2": [
+      "PL-1"
+    ],
+    "general-nist-800-171-r2": [
+      "NFO - PL-1"
+    ],
+    "general-nist-800-171-r3": [
+      "03.04.11.a",
+      "03.12.01"
+    ],
+    "general-nist-800-218": [
+      "PO.1",
+      "PO.1.2"
+    ],
+    "general-nist-csf-2-0": [
+      "GV.OC",
+      "GV.OC-03",
+      "GV.SC-05",
+      "PR"
+    ],
+    "general-pci-dss-4-0-1": [
+      "12.4",
+      "12.4.2",
+      "A3.1",
+      "A3.1.1"
+    ],
+    "general-pci-dss-4-0-1-saq-d-service-provider": [
+      "12.4.2"
+    ],
+    "general-scf-dpmp-2025": [
+      "2.4",
+      "11.6"
+    ],
+    "general-shared-assessments-sig-2025": [
+      "L.1"
+    ],
+    "general-tisax-6-0-3": [
+      "1.1.1",
+      "1.2.1",
+      "7.1.1",
+      "7.1.2"
+    ],
+    "general-un-155-2021": [
+      "7.1.1"
+    ],
+    "general-un-ece-wp-29-2020": [
+      "7.1.1"
+    ],
+    "usa-federal-dow-cert-rmm-1-2": [
+      "COMP:SG1",
+      "COMP:SG1.SP1",
+      "COMP:SG1.SP2",
+      "COMP:SG1.SP3",
+      "COMP:SG2",
+      "COMP:SG2.SP1",
+      "COMP:SG2.SP2",
+      "COMP:SG2.SP3",
+      "COMP:GG1",
+      "COMP:GG1.GP1",
+      "COMP:GG2",
+      "COMP:GG2.GP2"
+    ],
+    "usa-federal-law-coppa-2024": [
+      "Sec. 6502.(a)(1)"
+    ],
+    "usa-federal-dhs-cisa-tic-3-0": [
+      "3.UNL.GPAUD"
+    ],
+    "usa-federal-fbi-cjis-6-0": [
+      "4.1.1",
+      "4.2.1",
+      "4.2.2",
+      "4.3",
+      "PL-1"
+    ],
+    "usa-federal-doe-c2m2-2-1": [
+      "PROGRAM-1g"
+    ],
+    "usa-federal-doc-data-privacy-framework-2023": [
+      "II.7.c",
+      "III.5.a",
+      "III.5.b.i"
+    ],
+    "usa-federal-dow-zt-roadmap-1-1": [
+      "6.6.1"
+    ],
+    "usa-federal-dow-dfars-252-204-7012": [
+      "252.204-7012(b)(1)(i)",
+      "252.204-7012(b)(1)(ii)",
+      "252.204-7012(k)"
+    ],
+    "usa-federal-sro-fca-crm-2023": [
+      "609.930(c)(1)(ii)",
+      "609.930(d)"
+    ],
+    "usa-federal-fda-21-cfr-part-11-2025": [
+      "11.10",
+      "11.10(b)",
+      "11.10(c)"
+    ],
+    "usa-federal-gsa-fedramp-5-low": [
+      "PL-01",
+      "PM-08"
+    ],
+    "usa-federal-gsa-fedramp-5-mod": [
+      "PL-01",
+      "PM-08"
+    ],
+    "usa-federal-gsa-fedramp-5-high": [
+      "PL-01",
+      "PM-08"
+    ],
+    "usa-federal-gsa-fedramp-5-li-saas": [
+      "PL-01",
+      "PM-08"
+    ],
+    "usa-federal-law-ferpa-2010": [
+      "1232h(c)(1)(C)(i)"
+    ],
+    "usa-federal-law-glba-cfr-314-2023": [
+      "314.4(c)"
+    ],
+    "usa-federal-hhs-45-cfr-155-260-2016": [
+      "155.260(a)(4)",
+      "155.260(b)(3)(i)",
+      "155.260(b)(3)(ii)",
+      "155.260(b)(3)(iii)",
+      "155.260(b)(3)(iii)(A)",
+      "155.260(b)(3)(iii)(B)",
+      "155.260(b)(3)(iii)(C)",
+      "155.260(e)(1)",
+      "155.260(e)(2)",
+      "155.260(e)(3)",
+      "155.260(e)(4)"
+    ],
+    "usa-federal-law-hipaa-simplification-2013": [
+      "164.306(c)",
+      "164.306(d)(1)",
+      "164.306(d)(2)",
+      "164.314(a)(1)",
+      "164.314(a)(2)(ii)",
+      "164.504(g)(1)",
+      "164.530(i)(1)"
+    ],
+    "usa-federal-law-hipaa-security-rule-2013": [
+      "164.306(c)",
+      "164.306(d)(1)",
+      "164.306(d)(2)",
+      "164.314(a)(1)",
+      "164.314(a)(2)(ii)"
+    ],
+    "usa-federal-irs-1075-2021": [
+      "2.E.6.1",
+      "PL-1"
+    ],
+    "usa-federal-cms-marse-2-0": [
+      "PL-1",
+      "PM-8"
+    ],
+    "usa-federal-nerc-cip-2024": [
+      "CIP-003-8 1.1.9",
+      "CIP-003-8 1.2.6"
+    ],
+    "usa-federal-nispom-2020": [
+      "§117.18(f)"
+    ],
+    "usa-federal-dow-safeguarding-nnpi-2010": [
+      "9-2.d",
+      "9-5",
+      "11-2",
+      "11-3.b(2)",
+      "11-6",
+      "13-3",
+      "13-3.a",
+      "13-4"
+    ],
+    "usa-federal-tsa-security-directive-1580-82-2022-01": [
+      "II.B.2",
+      "II.B.3"
+    ],
+    "usa-state-ca-ccpa-cpra-2026": [
+      "7013(h)",
+      "7022(d)",
+      "7023(e)",
+      "7050(b)",
+      "7072(b)",
+      "7123(b)(3)",
+      "7200(a)",
+      "7200(b)"
+    ],
+    "usa-state-co-privacy-act-2021": [
+      "6-1-1305(1)",
+      "6-1-1305(2)",
+      "6-1-1305(2)(b)",
+      "6-1-1305(2)(c)",
+      "6-1-1308(6)"
+    ],
+    "usa-state-il-ipa-2009": [
+      "15",
+      "25",
+      "35(a)(1)",
+      "37(a)(1)"
+    ],
+    "usa-state-ny-dfs-23-nycrr500-2023-amd2": [
+      "500.2(b)(6)",
+      "500.2(d)",
+      "500.2(e)",
+      "500.17(a)(2)",
+      "500.17(b)(1)",
+      "500.17(b)(1)(i)",
+      "500.17(b)(1)(i)(a)",
+      "500.17(b)(1)(i)(b)",
+      "500.17(b)(1)(ii)",
+      "500.17(b)(1)(ii)(a)",
+      "500.17(b)(1)(ii)(b)",
+      "500.17(b)(1)(ii)(c)",
+      "500.17(b)(2)",
+      "500.17(b)(3)",
+      "500.17(c)"
+    ],
+    "usa-state-or-cpa-2023": [
+      "Section 7(1)(b)"
+    ],
+    "usa-state-tx-cdpa-2025": [
+      "541.101(b)(2)"
+    ],
+    "usa-state-tx-dir-security-control-standards-catalog-2-2": [
+      "AT-02-SID",
+      "AT-03-SID",
+      "PL-01"
+    ],
+    "usa-state-tx-sb820-2019": [
+      "11.175(c)"
+    ],
+    "usa-state-tx-sb2610-2025": [
+      "542.004(a)(4)(A)",
+      "542.004(a)(4)(B)",
+      "542.004(a)(4)(C)",
+      "542.004(b)",
+      "542.004(b)(2)",
+      "542.004(b)(2)(A)",
+      "542.004(b)(2)(B)",
+      "542.004(b)(2)(C)",
+      "542.004(b)(2)(D)",
+      "542.004(b)(3)",
+      "542.004(c)"
+    ],
+    "usa-state-tx-txramp-2-0-level-1": [
+      "PL-01"
+    ],
+    "usa-state-tx-txramp-2-0-level-2": [
+      "PL-01"
+    ],
+    "usa-state-va-cdpa-2023": [
+      "59.1-581.E"
+    ],
+    "usa-state-vt-act-171-2018": [
+      "2446(a)(2)",
+      "2446(a)(3)",
+      "2446(a)(3)(A)",
+      "2446(a)(3)(B)",
+      "2446(a)(3)(B)(i)",
+      "2446(a)(3)(B)(ii)",
+      "2446(a)(3)(B)(iii)",
+      "2446(a)(3)(C)",
+      "2446(a)(3)(D)",
+      "2446(a)(3)(E)",
+      "2446(a)(3)(F)",
+      "2446(a)(3)(G)"
+    ],
+    "emea-eu-ai-act-2024": [
+      "Article 16(l)",
+      "Article 17.1(a)",
+      "Article 21.3",
+      "Article 40.1"
+    ],
+    "emea-eu-eba-ict-srm-2025": [
+      "3.1(1)",
+      "3.8(92)",
+      "3.8(93)",
+      "3.8(94)",
+      "3.8(95)",
+      "3.8(96)",
+      "3.8(97)",
+      "3.8(98)"
+    ],
+    "emea-eu-dora-2023": [
+      "Article 4.1",
+      "Article 4.2",
+      "Article 4.3",
+      "Article 5.4"
+    ],
+    "emea-eu-nis2-2022": [
+      "Article 21.1"
+    ],
+    "emea-us-psd2-2015": [
+      "3",
+      "29"
+    ],
+    "emea-aut-fappd-2000": [
+      "Sec 14",
+      "Sec 15"
+    ],
+    "emea-bel-act-8-1992": [
+      "16"
+    ],
+    "emea-deu-fdpa-2017": [
+      "Sec 9",
+      "Sec 9a",
+      "Annex"
+    ],
+    "emea-deu-bsrit-2017": [
+      "12.5"
+    ],
+    "emea-deu-c5-2020": [
+      "SP-01",
+      "PI-02",
+      "COM-01"
+    ],
+    "emea-grc-pirppd-1997": [
+      "10"
+    ],
+    "emea-hun-isdfi-2011": [
+      "7"
+    ],
+    "emea-irl-dpa-2003": [
+      "2"
+    ],
+    "emea-isr-cmo-1-0": [
+      "1.3"
+    ],
+    "emea-isr-ppl-5741-1981": [
+      "16",
+      "17"
+    ],
+    "emea-ita-pdpc-2003": [
+      "26",
+      "31",
+      "33",
+      "34",
+      "35"
+    ],
+    "emea-ken-pda-2019": [
+      "4(a)",
+      "4(b)(i)",
+      "4(b)(ii)",
+      "51(1)",
+      "51(2)(a)",
+      "51(2)(b)",
+      "51(2)(c)",
+      "52(1)(a)",
+      "52(1)(b)",
+      "52(1)(c)",
+      "52(2)",
+      "52(3)",
+      "54",
+      "55(1)(a)",
+      "55(1)(b)",
+      "55(2)"
+    ],
+    "emea-nga-dpr-2019": [
+      "2.1(2)",
+      "2.1(3)",
+      "3.1(16)",
+      "4.1(1)",
+      "4.1(6)",
+      "4.1(7)"
+    ],
+    "emea-nor-pda-2018": [
+      "13",
+      "14"
+    ],
+    "emea-pol-act-29-1997": [
+      "1",
+      "36"
+    ],
+    "emea-qat-pdppl-2020": [
+      "2"
+    ],
+    "emea-rus-federal-law-27-2006": [
+      "7",
+      "19"
+    ],
+    "emea-sau-cscc-1-2019": [
+      "1-4"
+    ],
+    "emea-sau-cgiot-2024": [
+      "1-2-3",
+      "1-6-1",
+      "2-6-1",
+      "2-7-1"
+    ],
+    "emea-sau-ecc-1-2018": [
+      "1-7-1",
+      "1-7-2"
+    ],
+    "emea-sau-pdpl-2023": [
+      "Article 2.1",
+      "Article 30.3"
+    ],
+    "emea-sau-sacs-002-2022": [
+      "TPC-20",
+      "TPC-21",
+      "TPC-43"
+    ],
+    "emea-sau-sama-csf-1-2017": [
+      "3.2.2",
+      "3.2.3",
+      "3.3.13"
+    ],
+    "emea-srb-act-9-2018": [
+      "5.1",
+      "13",
+      "49",
+      "59"
+    ],
+    "emea-zaf-popia-2013": [
+      "2",
+      "3",
+      "9",
+      "19",
+      "21"
+    ],
+    "emea-esp-boe-a-2022-7191": [
+      "Article 3.1",
+      "Article 39"
+    ],
+    "emea-esp-decree-311-2022": [
+      "3.1",
+      "39"
+    ],
+    "emea-esp-ccn-stic-825-2023": [
+      "7.1.5 [OP.PL.5]"
+    ],
+    "emea-che-fadp-2025": [
+      "7"
+    ],
+    "emea-tur-lppd-2016": [
+      "12"
+    ],
+    "emea-gbr-def-stan-05-138-2024": [
+      "0001",
+      "0002",
+      "2314"
+    ],
+    "emea-gbr-def-stan-05-138-l0-2024": [
+      "0001",
+      "2314"
+    ],
+    "emea-gbr-def-stan-05-138-l1-2024": [
+      "0001",
+      "2314"
+    ],
+    "emea-gbr-def-stan-05-138-l2-2024": [
+      "0001",
+      "0002",
+      "2314"
+    ],
+    "emea-gbr-def-stan-05-138-l3-2024": [
+      "0001",
+      "0002",
+      "2314"
+    ],
+    "apac-aus-privacy-act-1998": [
+      "APP Part 11"
+    ],
+    "apac-aus-ism-2024-june": [
+      "ISM-0078",
+      "ISM-0854"
+    ],
+    "apac-aus-ps-cps-230-2023": [
+      "28"
+    ],
+    "apac-aus-ps-cps-234-2019": [
+      "31",
+      "35",
+      "35(a)",
+      "35(b)",
+      "36"
+    ],
+    "apac-chn-cybersecurity-law-2017": [
+      "Article 9",
+      "Article 10",
+      "Article 21",
+      "Article 23",
+      "Article 26",
+      "Article 27",
+      "Article 34",
+      "Article 34(5)",
+      "Article 41",
+      "Article 47"
+    ],
+    "apac-chn-data-security-law-2021": [
+      "46"
+    ],
+    "apac-chn-csnip-2012": [
+      "4"
+    ],
+    "apac-chn-pipl-2021": [
+      "32",
+      "37",
+      "38(4)",
+      "42"
+    ],
+    "apac-hkg-pdo-2022": [
+      "Principle 4"
+    ],
+    "apac-ind-dpdpa-2023": [
+      "7(c)",
+      "7(d)",
+      "7(e)",
+      "8(1)",
+      "8(4)"
+    ],
+    "apac-ind-privacy-rules-2011": [
+      "8"
+    ],
+    "apac-ind-sebi-2024": [
+      "GV.OC.S2",
+      "PR.IP.S13",
+      "RS.MA.S5"
+    ],
+    "apac-jpn-ppi-2020": [
+      "20",
+      "21",
+      "22",
+      "26(1)",
+      "26(1)(i)",
+      "26(1)(ii)",
+      "26(2)",
+      "26(3)",
+      "26(4)",
+      "26-2(1)",
+      "26-2(1)(i)",
+      "26-2(1)(ii)",
+      "26-2(2)",
+      "26-2(3)",
+      "36",
+      "37",
+      "38",
+      "39",
+      "51(1)",
+      "51(2)",
+      "52(1)",
+      "53(2)",
+      "53(3)",
+      "53(1)",
+      "53(4)",
+      "54",
+      "55"
+    ],
+    "apac-jpn-ismap": [
+      "4.4.2.1",
+      "5.1.1.3",
+      "18",
+      "18.1",
+      "18.1.1",
+      "18.1.1.1",
+      "18.1.1.2",
+      "18.1.1.3",
+      "18.1.1.4.P",
+      "18.1.1.5.P",
+      "18.1.1.6.P",
+      "18.1.1.7.P",
+      "18.1.5.7.PB"
+    ],
+    "apac-mys-pdpa-2010": [
+      "9"
+    ],
+    "apac-nzl-hisf-mlhsp-2023": [
+      "HHSP29",
+      "HML29"
+    ],
+    "apac-nzl-hisf-suppliers-2023": [
+      "HSUP25"
+    ],
+    "apac-nzl-ism-3-9": [
+      "1.1.64.C.01",
+      "1.1.65.C.01",
+      "1.1.66.C.01",
+      "1.1.66.C.02",
+      "1.1.67.C.01"
+    ],
+    "apac-phl-dpa-2012": [
+      "25"
+    ],
+    "apac-sgp-pdpa-2012": [
+      "24"
+    ],
+    "apac-sgp-cyber-hygiene-practice-2019": [
+      "3.1(a)",
+      "3.1(b)",
+      "3.1(c)"
+    ],
+    "apac-sgp-mas-trm-2021": [
+      "3.2.3"
+    ],
+    "apac-kor-pipa-2011": [
+      "3",
+      "29"
+    ],
+    "apac-twn-pdpa-2025": [
+      "27"
+    ],
+    "americas-arg-ppd-2018": [
+      "10.1",
+      "10.2"
+    ],
+    "americas-bhs-dpa-2003": [
+      "6"
+    ],
+    "americas-bra-lgpd-2018": [
+      "7.1",
+      "7.2",
+      "7.3",
+      "7.4",
+      "7.5",
+      "7.6",
+      "7.7",
+      "7.8",
+      "7.9",
+      "7.10"
+    ],
+    "americas-can-osfi-b13-2022": [
+      "1.3.1"
+    ],
+    "americas-can-itsp-10-171-2025": [
+      "03.04.11.A",
+      "03.12.01"
+    ],
+    "americas-can-pipeda-2000": [
+      "Principle 7"
+    ],
+    "americas-chl-act-19628-1999": [
+      "7"
+    ],
+    "americas-col-law-1581-2012": [
+      "4"
+    ],
+    "americas-mex-fdpa-2010": [
+      "19"
+    ]
+  }
+}

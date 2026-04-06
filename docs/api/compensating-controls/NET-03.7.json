@@ -1,0 +1,16 @@
+{
+  "control_id": "NET-03.7",
+  "risk_if_not_implemented": "Without Isolation of System Components, residual security, compliance, or resilience risk may accumulate, potentially leading to control failures or non-compliance.",
+  "compensating_control_1": {
+    "control_id": "END-05",
+    "name": "Software Firewall",
+    "description": "Mechanisms exist to utilize host-based firewall software, or a similar technology, on all endpoint devices, where technically feasible.",
+    "justification": "Software Firewall (END-05) provides network-level access restriction that compensates for the absence of Isolation of System Components (NET-03.7) by limiting attacker reach and lateral movement opportunities across the environment. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  },
+  "compensating_control_2": {
+    "control_id": "NET-06",
+    "name": "Network Segmentation (macrosegementation)",
+    "description": "Mechanisms exist to ensure network architecture utilizes network segmentation to isolate Technology Assets, Applications and/or Services (TAAS) to protect from other network resources.",
+    "justification": "Network Segmentation (macrosegementation) (NET-06) provides network-level access restriction that compensates for the absence of Isolation of System Components (NET-03.7) by limiting attacker reach and lateral movement opportunities across the environment. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  }
+}

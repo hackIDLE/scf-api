@@ -1,0 +1,14 @@
+{
+  "erl_id": "E-TDA-02",
+  "area": "Technology Design & Acquisition",
+  "artifact_name": "Secure Engineering & Data Privacy (SEDP)",
+  "artifact_description": "Documented evidence of a Secure Engineering & Data Privacy (SEDP) program. This is program-level documentation in the form of a runbook, playbook or a similar format provides guidance on organizational practices that support existing policies and standards.",
+  "scf_controls": [
+    "SEA-01",
+    "TDA-01",
+    "TDA-14",
+    "TDA-14.1",
+    "TDA-14.2"
+  ],
+  "cmmc_mapping": "CA.L2-3.12.3\nCA.L2-3.12.4\nCM.L2-3.4.1\nCM.L2-3.4.5\nSC.L2-3.13.2"
+}

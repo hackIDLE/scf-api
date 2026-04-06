@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-THR-01",
+  "area": "Threat Management",
+  "artifact_name": "Indicators of Exposure (IOE)",
+  "artifact_description": "Documented evidence of defined Indicators of Exposure (IOE).",
+  "scf_controls": [
+    "THR-02"
+  ],
+  "cmmc_mapping": ""
+}

@@ -1,0 +1,266 @@
+{
+  "scf_control_id": "PES-03",
+  "total": 26,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PES-03",
+      "ao_id": "PES-03_A01",
+      "objective": "physical access controls to control access to areas within the facility designated as publicly accessible are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PE-03_ODP[05]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-03",
+      "ao_id": "PES-03_A02",
+      "objective": "physical access authorizations are enforced at entry and exit points to the facility where the system resides by controlling ingress and egress with physical access control systems, devices, or guards.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-03a.01\n171A_R3_A.03.10.07.a.02",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-03",
+      "ao_id": "PES-03_A03",
+      "objective": "entry and exit points to the facility in which the system resides are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PE-03_ODP[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-03",
+      "ao_id": "PES-03_A04",
+      "objective": "entry or exit points for which physical access logs are maintained are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PE-03_ODP[04]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-03",
+      "ao_id": "PES-03_A05",
+      "objective": "physical access devices are identified.",
+      "pptdf": "Process",
+      "origin": "171A_3.10.5[a]\n53A_R5_PE-03_ODP[02]\n53A_R5_PE-03_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-03",
+      "ao_id": "PES-03_A06",
+      "objective": "physical access devices are controlled.",
+      "pptdf": "Facility",
+      "origin": "171A_3.10.5[b]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-03",
+      "ao_id": "PES-03_A07",
+      "objective": "physical access devices are managed.",
+      "pptdf": "Facility",
+      "origin": "171A_3.10.5[c]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-03",
+      "ao_id": "PES-03_A08",
+      "objective": "circumstances requiring visitor escorts and control of visitor activity are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PE-03_ODP[06]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-03",
+      "ao_id": "PES-03_A09",
+      "objective": "physical access devices to be inventoried are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PE-03_ODP[07]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-03",
+      "ao_id": "PES-03_A10",
+      "objective": "frequency at which to inventory physical access devices is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PE-03_ODP[08]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually or earlier as required by a security relevant event",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-03",
+      "ao_id": "PES-03_A11",
+      "objective": "frequency at which to change combinations is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PE-03_ODP[09]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "as required by a security relevant event",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-03",
+      "ao_id": "PES-03_A12",
+      "objective": "frequency at which to change keys is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PE-03_ODP[10]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "as required by a security relevant event",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-03",
+      "ao_id": "PES-03_A13",
+      "objective": "physical access authorizations are enforced at entry and exit points by controlling ingress and egress to the facility.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-03a.02",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-03",
+      "ao_id": "PES-03_A14",
+      "objective": "physical access event logs are maintained for entry or exit points.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-03b.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-03",
+      "ao_id": "PES-03_A15",
+      "objective": "access to areas within the facility designated as publicly accessible are maintained by implementing physical access controls.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-03c.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-03",
+      "ao_id": "PES-03_A16",
+      "objective": "visitors are escorted.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-03d.[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-03",
+      "ao_id": "PES-03_A17",
+      "objective": "visitor activity is controlled circumstances.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-03d.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-03",
+      "ao_id": "PES-03_A18",
+      "objective": "physical access devices are inventoried frequently.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PE-03f.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually or earlier as required by a security relevant event",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-03",
+      "ao_id": "PES-03_A19",
+      "objective": "combinations are changed frequently, when combinations are compromised or when individuals possessing the combinations are transferred or terminated.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PE-03g.[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "as required by a security relevant event",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-03",
+      "ao_id": "PES-03_A20",
+      "objective": "keys are changed frequency, when keys are lost or when individuals possessing the keys are transferred or terminated.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PE-03g.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "as required by a security relevant event",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-03",
+      "ao_id": "PES-03_A21",
+      "objective": "the frequency at which to perform security checks at the physical perimeter of the facility or system for exfiltration of information or removal of system components is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PE-03(02)_ODP",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-03",
+      "ao_id": "PES-03_A22",
+      "objective": "security checks are performed C at the physical perimeter of the facility or system for exfiltration of information or removal of system components.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PE-03(02)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-03",
+      "ao_id": "PES-03_A23",
+      "objective": "physical access points to the facility where the system resides are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PE-03(03)_ODP",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-03",
+      "ao_id": "PES-03_A24",
+      "objective": "guards are employed to control physical access points to the facility where the system resides 24 hours per day, 7 days per week.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-03(03)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-03",
+      "ao_id": "PES-03_A25",
+      "objective": "physical access restrictions associated with changes to the system are enforced.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.04.05[03]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-03",
+      "ao_id": "PES-03_A26",
+      "objective": "keys, combinations, and other physical access devices are secured.",
+      "pptdf": "Facility",
+      "origin": "171A_R3_A.03.10.07.d\n53A_R5_PE-03e.[01]\n53A_R5_PE-03e.[02]\n53A_R5_PE-03e.[03]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

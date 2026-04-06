@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "CPL-05",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CPL-05",
+      "ao_id": "CPL-05_A01",
+      "objective": "a formal process exists to intake requests, document the request and determine whether a government agency has an applicable and valid legal basis to request data from the organization.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-05",
+      "ao_id": "CPL-05_A02",
+      "objective": "based on an applicable and valid legal basis for a data request by a government agency, data request fulfillment actions are formally assigned to an individual or group with explicitly-specified criteria to minimize inappropriate data sharing.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

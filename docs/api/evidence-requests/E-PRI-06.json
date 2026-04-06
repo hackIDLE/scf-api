@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-PRI-06",
+  "area": "Privacy",
+  "artifact_name": "Data Subject Access",
+  "artifact_description": "Documented evidence of how data subject access requests are handled that includes intake through remediation.",
+  "scf_controls": [
+    "PRI-06"
+  ],
+  "cmmc_mapping": ""
+}

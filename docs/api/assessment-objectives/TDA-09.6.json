@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "TDA-09.6",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-09.6",
+      "ao_id": "TDA-09.6_A01",
+      "objective": "default secure configuration settings reduce the likelihood of software being deployed with weak security settings that would put the asset at a greater risk of compromise.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "PRI-01.1",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-01.1",
+      "ao_id": "PRI-01.1_A01",
+      "objective": "a senior organization official for privacy with authority, mission, accountability and resources is appointed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-19[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-01.1",
+      "ao_id": "PRI-01.1_A02",
+      "objective": "the senior organization official for privacy coordinates applicable privacy requirements.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-19[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-01.1",
+      "ao_id": "PRI-01.1_A03",
+      "objective": "the senior organization official for privacy develops applicable privacy requirements.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-19[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-01.1",
+      "ao_id": "PRI-01.1_A04",
+      "objective": "the senior organization official for privacy implements applicable privacy requirements.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-19[04]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-01.1",
+      "ao_id": "PRI-01.1_A05",
+      "objective": "the senior organization official for privacy manages privacy risks through the organization-wide privacy program.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-19[05]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

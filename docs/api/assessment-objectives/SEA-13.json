@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "SEA-13",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "SEA-13",
+      "ao_id": "SEA-13_A01",
+      "objective": "diversity in system components is created to reduce the extent of malicious code propagation.",
+      "pptdf": "Technology",
+      "origin": "172A_3.13.1e[a]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-13",
+      "ao_id": "SEA-13_A02",
+      "objective": "system components requiring a diverse set of information technologies to be employed in the implementation of the system are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-29_ODP\n172A_3.13.1e_ODP[1]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-13",
+      "ao_id": "SEA-13_A03",
+      "objective": "a diverse set of information technologies is employed for organization-defined system components in the implementation of the system.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-29",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

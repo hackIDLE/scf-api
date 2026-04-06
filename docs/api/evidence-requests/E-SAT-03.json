@@ -1,0 +1,12 @@
+{
+  "erl_id": "E-SAT-03",
+  "area": "Education",
+  "artifact_name": "Practical Exercises",
+  "artifact_description": "Documented evidence of practical user training exercises for security, compliance and/or resilience topics (e.g., phishing exercise).",
+  "scf_controls": [
+    "SAT-02.1",
+    "SAT-03.1",
+    "SAT-04"
+  ],
+  "cmmc_mapping": ""
+}

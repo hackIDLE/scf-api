@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "PRI-01.7",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-01.7",
+      "ao_id": "PRI-01.7_A01",
+      "objective": "the disclosure of Personal Data (PD) is restricted to authorized parties for the sole purpose for which the PD was obtained.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

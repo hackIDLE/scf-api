@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-HRS-20",
+  "area": "Human Resources",
+  "artifact_name": "Non-Disclosure Agreements (NDAs)",
+  "artifact_description": "Documented evidence of the use of Non-Disclosure Agreements (NDAs) that restricts unauthorized sharing of sensitive/regulated data.",
+  "scf_controls": [
+    "HRS-06.1"
+  ],
+  "cmmc_mapping": ""
+}

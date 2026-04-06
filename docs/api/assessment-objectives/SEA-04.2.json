@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "SEA-04.2",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "SEA-04.2",
+      "ao_id": "SEA-04.2_A01",
+      "objective": "hardware separation is implemented to facilitate process isolation.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-39(01)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "RSK-03",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "RSK-03",
+      "ao_id": "RSK-03_A01",
+      "objective": "a process exists to identify applicable internal and external risks.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-03",
+      "ao_id": "RSK-03_A02",
+      "objective": "applicable internal and external risks are documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-03",
+      "ao_id": "RSK-03_A03",
+      "objective": "the risk (including supply chain risk) of unauthorized disclosure resulting from the processing, storage, or transmission of sensitive / regulated data is assessed.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-03",
+      "ao_id": "RSK-03_A04",
+      "objective": "the risk (including supply chain risk) of unauthorized disclosure resulting from the processing, storage, or transmission of CUI is assessed.",
+      "pptdf": "Data",
+      "origin": "171A_R3_A.03.11.01.a",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

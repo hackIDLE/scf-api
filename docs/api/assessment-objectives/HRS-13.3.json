@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "HRS-13.3",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "HRS-13.3",
+      "ao_id": "HRS-13.3_A01",
+      "objective": "redundancy for vital cybersecurity / data privacy staff is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-13.3",
+      "ao_id": "HRS-13.3_A02",
+      "objective": "redundancy for vital cybersecurity / data privacy staff is implemented.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

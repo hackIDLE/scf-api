@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "IAO-02.4",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAO-02.4",
+      "ao_id": "IAO-02.4_A01",
+      "objective": "produce a Security Assessment Report (SAR) at the conclusion of a security assessment to certify the results of the assessment and assist with any remediation actions.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

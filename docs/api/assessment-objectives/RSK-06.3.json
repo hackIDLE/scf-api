@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "RSK-06.3",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "RSK-06.3",
+      "ao_id": "RSK-06.3_A01",
+      "objective": "risk treatment options are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-06.3",
+      "ao_id": "RSK-06.3_A02",
+      "objective": "appropriate risk treatment options, based on applicable risk assessment findings, are selected.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

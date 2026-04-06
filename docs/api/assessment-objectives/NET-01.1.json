@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "NET-01.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-01.1",
+      "ao_id": "NET-01.1_A01",
+      "objective": "all users are treated as potential threats and prevent access to data and resources until the user can be properly authenticated and their access authorized.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-01.1",
+      "ao_id": "NET-01.1_A02",
+      "objective": "all devices are treated as potential threats and prevent access to data and resources until the device can be properly authenticated and its access authorized.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

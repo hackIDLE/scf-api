@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "HRS-07.1",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "HRS-07.1",
+      "ao_id": "HRS-07.1_A01",
+      "objective": "individuals with access to sensitive / regulated data are identified.",
+      "pptdf": "Process",
+      "origin": "172A_3.9.2e[a]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-07.1",
+      "ao_id": "HRS-07.1_A02",
+      "objective": "adverse information about individuals with access to sensitive / regulated data is defined.",
+      "pptdf": "Process",
+      "origin": "172A_3.9.2e[b]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-07.1",
+      "ao_id": "HRS-07.1_A03",
+      "objective": "organizational systems to which individuals have access are identified.",
+      "pptdf": "Process",
+      "origin": "172A_3.9.2e[c]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-07.1",
+      "ao_id": "HRS-07.1_A04",
+      "objective": "mechanisms are in place to protect organizational systems if adverse information develops or is obtained about individuals with access to sensitive / regulated data.",
+      "pptdf": "Process",
+      "origin": "172A_3.9.2e[d]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

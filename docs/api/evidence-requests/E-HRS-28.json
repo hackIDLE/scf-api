@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-HRS-28",
+  "area": "Human Resources",
+  "artifact_name": "Authorized Personnel Access List",
+  "artifact_description": "Documented evidence of an authorized personnel access list.",
+  "scf_controls": [
+    "HRS-03",
+    "PES-02"
+  ],
+  "cmmc_mapping": "IA.L2-3.5.6\nPS.L2-3.9.2"
+}

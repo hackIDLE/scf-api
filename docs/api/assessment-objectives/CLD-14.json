@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "CLD-14",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CLD-14",
+      "ao_id": "CLD-14_A01",
+      "objective": "access to, or usage of, hosted systems, applications and/or services is prohibited until applicable cybersecurity & data protection control implementation is verified.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

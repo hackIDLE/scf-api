@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "CHG-02.3",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CHG-02.3",
+      "ao_id": "CHG-02.3_A01",
+      "objective": "the configuration change control element of which the cybersecurity / data privacy representatives are to be members is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-03(04)_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "Configuration Control Board (CCB) or similar function",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-02.3",
+      "ao_id": "CHG-02.3_A02",
+      "objective": "security representatives required to be members of the change control element are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-03(04)_ODP[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-02.3",
+      "ao_id": "CHG-02.3_A03",
+      "objective": "privacy representatives required to be members of the change control element are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-03(04)_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-02.3",
+      "ao_id": "CHG-02.3_A04",
+      "objective": "organization-defined security representatives are required to be members of the organization-defined configuration change control element.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-03(04)[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-02.3",
+      "ao_id": "CHG-02.3_A05",
+      "objective": "organization-defined privacy representatives are required to be members of the organization-defined configuration change control element.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-03(04)[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

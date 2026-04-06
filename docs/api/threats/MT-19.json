@@ -1,0 +1,6 @@
+{
+  "threat_id": "MT-19",
+  "grouping": "Man-Made Threat",
+  "name": "Sanctions",
+  "description": "Sanctions is a Supply Chain Risk Management (SCRM) threat category that pertains to past or present fraudulent activity or corruption. Primarily, the concern is if the third-party is subject to suspension, exclusion or other sanctions that can affect the supply chain."
+}

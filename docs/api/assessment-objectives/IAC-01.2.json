@@ -1,0 +1,86 @@
+{
+  "scf_control_id": "IAC-01.2",
+  "total": 8,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-01.2",
+      "ao_id": "IAC-01.2_A01",
+      "objective": "access to the system is authorized based on a valid access authorization.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.01.01.d.01",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-01.2",
+      "ao_id": "IAC-01.2_A02",
+      "objective": "system users are uniquely identified.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.05.01.a[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-01.2",
+      "ao_id": "IAC-01.2_A03",
+      "objective": "system users are authenticated.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.05.01.a[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-01.2",
+      "ao_id": "IAC-01.2_A04",
+      "objective": "an inventory of Authenticate, Authorize and Audit (AAA) solutions exists, including instances on-premises and hosted by an External Service Provider (ESP).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-01.2",
+      "ao_id": "IAC-01.2_A05",
+      "objective": "procedures exist to govern on-premises Authenticate, Authorize and Audit (AAA) solutions by assigned stakeholders.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-01.2",
+      "ao_id": "IAC-01.2_A06",
+      "objective": "contracts with External Service Providers (ESPs) contain explicit governance requirements for ESP-controlled Authenticate, Authorize and Audit (AAA) solutions.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-01.2",
+      "ao_id": "IAC-01.2_A07",
+      "objective": "access to the system is authorized based on intended system usage.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.01.01.d.02",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-01.2",
+      "ao_id": "IAC-01.2_A08",
+      "objective": "each type of wireless access to the system is authorized prior to establishing such connections.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.01.16.b",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "scf_control_id": "VPM-03.1",
+  "total": 6,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "VPM-03.1",
+      "ao_id": "VPM-03.1_A01",
+      "objective": "on at least an annual basis, a threat assessment is performed to identify and assess applicable internal and external threats.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-03.1",
+      "ao_id": "VPM-03.1_A02",
+      "objective": "a threat catalog captures applicable internal and external threats from the threat assessment.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-03.1",
+      "ao_id": "VPM-03.1_A03",
+      "objective": "the scope of Attack Surface Management (ASM) is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-03.1",
+      "ao_id": "VPM-03.1_A04",
+      "objective": "vulnerability scanning activities are performed against the scope of ASM to identify applicable vulnerabilities.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-03.1",
+      "ao_id": "VPM-03.1_A05",
+      "objective": "the organization documents the potential impact(s) and likelihood(s) of applicable internal and external threats exploiting known vulnerabilities.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-03.1",
+      "ao_id": "VPM-03.1_A06",
+      "objective": "each item in the threat catalog is prioritized, based on potential impact(s) and likelihood(s) of applicable internal and external threats exploiting identified vulnerabilities.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

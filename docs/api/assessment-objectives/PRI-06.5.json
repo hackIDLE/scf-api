@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PRI-06.5",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-06.5",
+      "ao_id": "PRI-06.5_A01",
+      "objective": "administrative processes exist to intake data subject requests to erase Personal Data (PD) erase Personal Data (PD).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-06.5",
+      "ao_id": "PRI-06.5_A02",
+      "objective": "technical processes exist to securely erase Personal Data (PD) without delay, once a legitimate data subject request for erasure is received.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

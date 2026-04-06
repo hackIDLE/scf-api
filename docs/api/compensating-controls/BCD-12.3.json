@@ -1,0 +1,16 @@
+{
+  "control_id": "BCD-12.3",
+  "risk_if_not_implemented": "Without Electronic Discovery (eDiscovery), residual security, compliance, or resilience risk may accumulate, potentially leading to control failures or non-compliance.",
+  "compensating_control_1": {
+    "control_id": "BCD-11",
+    "name": "Data Backups",
+    "description": "Mechanisms exist to create recurring backups of data, software and/or system images, as well as verify the integrity of these backups, to ensure the availability of the data to satisfy Recovery Time Objectives (RTOs) and Recovery Point Objectives (RPOs).",
+    "justification": "Data Backups (BCD-11) provides resilience and recovery capability that compensates for the absence of Electronic Discovery (eDiscovery) (BCD-12.3) by ensuring the organization can restore operations and data when the primary control is absent. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  },
+  "compensating_control_2": {
+    "control_id": "BCD-12",
+    "name": "Technology Assets, Applications and/or Services (TAAS) Recovery & Reconstitution",
+    "description": "Mechanisms exist to ensure the secure recovery and reconstitution of Technology Assets, Applications and/or Services (TAAS) to a known state after a disruption, compromise or failure.",
+    "justification": "Technology Assets, Applications and/or Services (TAAS) Recovery & Reconstitution (BCD-12) provides detective monitoring capability that compensates for the absence of Electronic Discovery (eDiscovery) (BCD-12.3) by identifying unauthorized, anomalous, or non-compliant activity that the primary control would have prevented. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  }
+}

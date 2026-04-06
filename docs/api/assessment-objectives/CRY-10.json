@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "CRY-10",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CRY-10",
+      "ao_id": "CRY-10_A01",
+      "objective": "cybersecurity / data privacy attributes associated with information exchanged are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-16_ODP[01]\n53A_R5_SC-16_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CRY-10",
+      "ao_id": "CRY-10_A02",
+      "objective": "cybersecurity / data privacy attributes are associated with information exchanged between systems.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-16[01]\n53A_R5_SC-16[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CRY-10",
+      "ao_id": "CRY-10_A03",
+      "objective": "security /privacy attributes are associated with information exchanged between system components.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-16[02]\n53A_R5_SC-16[04]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CRY-10",
+      "ao_id": "CRY-10_A04",
+      "objective": "the integrity of transmitted cybersecurity / data privacy attributes is verified.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-16(01)[01]\n53A_R5_SC-16(01)[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

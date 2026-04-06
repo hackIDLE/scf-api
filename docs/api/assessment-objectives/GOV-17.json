@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "GOV-17",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "GOV-17",
+      "ao_id": "GOV-17_A01",
+      "objective": "applicable statutory and/or regulatory authorities that require submissions of the organization's cybersecurity and/or data privacy program status are identified.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-17",
+      "ao_id": "GOV-17_A02",
+      "objective": "contact information and report formatting requirements for applicable statutory and/or regulatory authorities is identified.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-17",
+      "ao_id": "GOV-17_A03",
+      "objective": "a documented process exists to submit status reporting of the organization's cybersecurity and/or data privacy program to applicable statutory and/or regulatory authorities, as required.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-17",
+      "ao_id": "GOV-17_A04",
+      "objective": "evidence of historical submissions of the organization's cybersecurity and/or data privacy program status to applicable statutory and/or regulatory authorities is retained.",
+      "pptdf": "Data",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

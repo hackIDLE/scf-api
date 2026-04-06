@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "CLD-05",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CLD-05",
+      "ao_id": "CLD-05_A01",
+      "objective": "virtual machine images are protected to ensure continued integrity.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CLD-05",
+      "ao_id": "CLD-05_A02",
+      "objective": "virtual machine images are governed according to the organization's established change control processes.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

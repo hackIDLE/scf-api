@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "CPL-03.7",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CPL-03.7",
+      "ao_id": "CPL-03.7_A01",
+      "objective": "evidence sampling criteria for cybersecurity and/or data protection assessments are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

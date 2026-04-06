@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "CRY-12",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CRY-12",
+      "ao_id": "CRY-12_A01",
+      "objective": "processes exist to proactively discover when new certificates are issued for organization-controlled domains.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CRY-12",
+      "ao_id": "CRY-12_A02",
+      "objective": "incident response operations are initiated when new certificates are issued without authorization.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

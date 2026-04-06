@@ -1,0 +1,106 @@
+{
+  "scf_control_id": "DCH-09",
+  "total": 10,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-09",
+      "ao_id": "DCH-09_A01",
+      "objective": "system media to be sanitized prior to disposal, release and/or reuse is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MP-06_ODP[01]\n53A_R5_MP-06_ODP[02]\n53A_R5_MP-06_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-09",
+      "ao_id": "DCH-09_A02",
+      "objective": "sanitization techniques and procedures to be used for sanitization prior to disposal, release and/or reuse are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MP-06_ODP[04]\n53A_R5_MP-06_ODP[05]\n53A_R5_MP-06_ODP[06]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-09",
+      "ao_id": "DCH-09_A03",
+      "objective": "system media is sanitized using sanitization techniques and procedures prior to disposal, release and/or reuse.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_MP-06a.[01]\n53A_R5_MP-06a.[02]\n53A_R5_MP-06a.[03]\n171A_3.7.3",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "techniques and procedures IAW NIST SP 800-088 Section 4: Reuse and Disposal of Storage Media and Hardware",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-09",
+      "ao_id": "DCH-09_A04",
+      "objective": "sanitization mechanisms with strength and integrity commensurate with the security category or classification of the information are employed.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_MP-06b.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-09",
+      "ao_id": "DCH-09_A05",
+      "objective": "circumstances requiring sanitization of portable storage devices are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MP-06(03)_ODP",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-09",
+      "ao_id": "DCH-09_A06",
+      "objective": "non-destructive sanitization techniques are applied to portable storage devices prior to connecting such devices to the system under circumstances.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MP-06(03)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-09",
+      "ao_id": "DCH-09_A07",
+      "objective": "equipment containing sensitive / regulated data is sanitized prior to disposal, reuse, or release out of organizational control.",
+      "pptdf": "Technology",
+      "origin": "171A_3.8.3[a]\n171A_3.8.3[b]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-09",
+      "ao_id": "DCH-09_A08",
+      "objective": "system media that contain CUI are sanitized prior to disposal, release out of organizational control, or release for reuse.",
+      "pptdf": "Data",
+      "origin": "171A_R3_A.03.08.03",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-09",
+      "ao_id": "DCH-09_A09",
+      "objective": "system media containing sensitive/regulated data is sanitized or destroyed before disposal.",
+      "pptdf": "Data",
+      "origin": "CMMC L1 Assessment Guide",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-09",
+      "ao_id": "DCH-09_A10",
+      "objective": "system media containing sensitive/regulated data is sanitized before it is released for reuse.",
+      "pptdf": "Data",
+      "origin": "CMMC L1 Assessment Guide",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

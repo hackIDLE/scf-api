@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "MON-01.10",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MON-01.10",
+      "ao_id": "MON-01.10_A01",
+      "objective": "directory services are configured to generate a log for attempted usage of deactivated accounts.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-01.10",
+      "ao_id": "MON-01.10_A02",
+      "objective": "personnel or roles are alerted when system-generated alerts from attempted usage of deactivated accounts occur.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

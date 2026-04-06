@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "CLD-09",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CLD-09",
+      "ao_id": "CLD-09_A01",
+      "objective": "locations where information processing and data storage is/are to be restricted are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-09(05)_ODP[01]\n53A_R5_SA-09(05)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CLD-09",
+      "ao_id": "CLD-09_A02",
+      "objective": "requirements or conditions for restricting the location of information processing, information storage or information services are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-09(05)_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CLD-09",
+      "ao_id": "CLD-09_A03",
+      "objective": "based on requirements, information processing, information storage or information services is/are restricted to locations.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-09(05)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CLD-09",
+      "ao_id": "CLD-09_A04",
+      "objective": "the geographic location of information processing and data storage is restricted to facilities located within the legal jurisdictional boundary of the United States.",
+      "pptdf": "Data",
+      "origin": "53A_R5_SA-09(08)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

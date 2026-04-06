@@ -1,0 +1,96 @@
+{
+  "scf_control_id": "PRI-08",
+  "total": 9,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-08",
+      "ao_id": "PRI-08_A01",
+      "objective": "a process is implemented for ensuring that organizational plans for conducting cybersecurity / data privacy testing, training and monitoring activities associated with organizational systems are developed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-14a.01[01]\n53A_R5_PM-14a.01[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-08",
+      "ao_id": "PRI-08_A02",
+      "objective": "a process is implemented for ensuring that organizational plans for conducting cybersecurity / data privacy testing, training and monitoring activities associated with organizational systems are maintained.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-14a.01[02]\n53A_R5_PM-14a.01[04]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-08",
+      "ao_id": "PRI-08_A03",
+      "objective": "a process is implemented for ensuring that organizational plans for conducting cybersecurity / data privacy testing, training and monitoring activities associated with organizational systems continue to be executed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-14a.02[01]\n53A_R5_PM-14a.02[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-08",
+      "ao_id": "PRI-08_A04",
+      "objective": "testing plans are reviewed for consistency with the organizational risk management strategy.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-14b.[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-08",
+      "ao_id": "PRI-08_A05",
+      "objective": "training plans are reviewed for consistency with the organizational risk management strategy.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-14b.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-08",
+      "ao_id": "PRI-08_A06",
+      "objective": "monitoring plans are reviewed for consistency with the organizational risk management strategy.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-14b.[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-08",
+      "ao_id": "PRI-08_A07",
+      "objective": "testing plans are reviewed for consistency with organization-wide priorities for risk response actions.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-14b.[04]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-08",
+      "ao_id": "PRI-08_A08",
+      "objective": "training plans are reviewed for consistency with organization-wide priorities for risk response actions.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-14b.[05]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-08",
+      "ao_id": "PRI-08_A09",
+      "objective": "monitoring plans are reviewed for consistency with organization-wide priorities for risk response actions.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-14b.[06]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

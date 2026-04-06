@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "CRY-08.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CRY-08.1",
+      "ao_id": "CRY-08.1_A01",
+      "objective": "resiliency mechanisms ensure the availability of data in the event of the loss of cryptographic keys when utilizing a centrally-managed cryptographic key management solution.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

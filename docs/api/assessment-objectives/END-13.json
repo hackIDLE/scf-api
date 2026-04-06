@@ -1,0 +1,66 @@
+{
+  "scf_control_id": "END-13",
+  "total": 6,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "END-13",
+      "ao_id": "END-13_A01",
+      "objective": "environmental sensing capabilities in devices are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-42_ODP[01]\n53A_R5_SC-42_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-13",
+      "ao_id": "END-13_A02",
+      "objective": "facilities, areas or systems where the use of devices possessing environmental sensing capabilities is prohibited are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-42_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-13",
+      "ao_id": "END-13_A03",
+      "objective": "exceptions where remote activation of sensors is allowed are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-42_ODP[04]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-13",
+      "ao_id": "END-13_A04",
+      "objective": "group of users to whom an explicit indication of sensor use is to be provided is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-42_ODP[05]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-13",
+      "ao_id": "END-13_A05",
+      "objective": "organization-defined parameters are prohibited.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-42a.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-13",
+      "ao_id": "END-13_A06",
+      "objective": "an explicit indication of sensor use is provided to a group of users.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-42b.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

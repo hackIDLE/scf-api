@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "TDA-01.3",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-01.3",
+      "ao_id": "TDA-01.3_A01",
+      "objective": "at least one (1) malware detection tool is used to identify if any known malware exists in the final binaries of the product or security update.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

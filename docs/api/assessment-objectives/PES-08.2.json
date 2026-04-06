@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "PES-08.2",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PES-08.2",
+      "ao_id": "PES-08.2_A01",
+      "objective": "fire suppression systems that notify organization-defined personnel or roles automatically are employed.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-13(02)(a)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-08.2",
+      "ao_id": "PES-08.2_A02",
+      "objective": "fire suppression systems that notify organization-defined emergency responders automatically are employed.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-13(02)(a)[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-08.2",
+      "ao_id": "PES-08.2_A03",
+      "objective": "personnel or roles to be notified in the event of a fire is/are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PE-13(02)_ODP[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-08.2",
+      "ao_id": "PES-08.2_A04",
+      "objective": "emergency responders to be notified in the event of a fire are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PE-13(02)_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-08.2",
+      "ao_id": "PES-08.2_A05",
+      "objective": "fire suppression systems that activate automatically are employed.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-13(02)(a)[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "threat_id": "MT-10",
+  "grouping": "Man-Made Threat",
+  "name": "Technical / Mechanical Failure",
+  "description": "Technical /mechanical failure is a broad category that includes non-malicious failure due to a defect in the technology, materials or workmanship. Technical / mechanical failures are unexpected and unpredictable, even when routine and preventative maintenance is performed. These incidents can range from malfunctions, to reliability concerns to catastrophic damage (including loss of life)."
+}

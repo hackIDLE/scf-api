@@ -1,0 +1,463 @@
+# SCF API
+
+> Source-faithful static JSON API for the Secure Controls Framework (SCF) v2026.1. 1468 controls, 33 families, 249 framework crosswalks, 41 threats, 39 risks, 5776 assessment objectives, and 303 evidence requests. All static JSON, no auth required.
+
+## Endpoints
+
+### Controls
+
+`GET api/controls.json` — All 1468 controls with full metadata and crosswalks.
+
+`GET api/controls/{ID}.json` — Single control (e.g., GOV-01, CRY-05.3).
+
+Example response (truncated):
+
+```json
+{
+  "control_id": "GOV-01",
+  "title": "Security, Compliance & Resilience Program (SCRP)",
+  "family": "GOV",
+  "family_name": "Cybersecurity & Data Protection Governance",
+  "description": "Mechanisms exist to facilitate the implementation of security, compliance and resilience governance controls.",
+  "scf_question": "Does the organization facilitate the implementation of security, compliance and resilience governance controls?",
+  "relative_weight": 10,
+  "conformity_cadence": "Annual",
+  "pptdf": "Process",
+  "nist_csf_function": "Govern",
+  "scrm_focus": {
+    "strategic": true,
+    "operational": true,
+    "tactical": true
+  },
+  "risks": [
+    "R-AC-1",
+    "R-AC-2",
+    "R-AC-3"
+  ],
+  "threats": [
+    "NT-7",
+    "MT-1",
+    "MT-2"
+  ],
+  "profiles": [
+    "SCRMS",
+    "CORE AI Model Deployment",
+    "CORE ESP Level 1 Foundational",
+    "CORE ESP Level 2 Critical Infrastructure",
+    "CORE ESP Level 3 Advanced Threats",
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+  ],
+  "crosswalks": {
+    "general-aicpa-pmf-2020": [
+      "M1.2-POF6"
+    ],
+    "general-aicpa-tsc-2017": [
+      "CC1.1",
+      "CC1.1-POF1",
+      "CC1.2",
+      "CC2.3-POF5"
+    ]
+  }
+}
+```
+
+Each control includes: ID, title, family, description, assessment question, weight (0-10), conformity cadence, PPTDF applicability, NIST CSF function, SCRM focus tiers, SCR-CMM maturity levels (0-5), SCF profiles, possible solutions by org size, risk IDs, threat IDs, evidence request refs, and crosswalk mappings to all 249 frameworks.
+
+### Families
+
+`GET api/families.json` — All 33 families with control counts.
+
+`GET api/families/{CODE}.json` — Family detail with all controls. Codes: `AAT`, `AST`, `BCD`, `CAP`, `CFG`, `CHG`, `CLD`, `CPL`, `CRY`, `DCH`, `EMB`, `END`, `GOV`, `HRS`, `IAC`, `IAO`, `IRO`, `MDM`, `MNT`, `MON`, `NET`, `OPS`, `PES`, `PRI`, `PRM`, `RSK`, `SAT`, `SEA`, `TDA`, `THR`, `TPM`, `VPM`, `WEB`
+
+### Crosswalks
+
+`GET api/crosswalks.json` — Index of all 249 frameworks with coverage stats.
+
+`GET api/crosswalks/{FRAMEWORK_ID}.json` — Bidirectional crosswalk (truncated):
+
+```json
+{
+  "framework_id": "general-nist-800-53-r5-2",
+  "display_name": "NIST SP 800-53 R5",
+  "scf_to_framework": {
+    "total_mappings": 777,
+    "mappings": {
+      "GOV-01": [
+        "PM-01"
+      ],
+      "GOV-02": [
+        "AC-01",
+        "AT-01",
+        "AU-01",
+        "CA-01",
+        "CM-01",
+        "CP-01",
+        "IA-01",
+        "IR-01",
+        "MA-01",
+        "MP-01",
+        "PE-01",
+        "PL-01",
+        "PM-01",
+        "PS-01",
+        "PT-01",
+        "RA-01",
+        "SA-01",
+        "SC-01",
+        "SI-01",
+        "SR-01"
+      ]
+    }
+  },
+  "framework_to_scf": {
+    "total_mappings": 810,
+    "mappings": {
+      "PM-01": [
+        "GOV-01",
+        "GOV-02",
+        "GOV-03"
+      ],
+      "AC-01": [
+        "GOV-02",
+        "GOV-03",
+        "IAC-01"
+      ]
+    }
+  }
+}
+```
+
+### Threats
+
+`GET api/threats.json` — All 41 threats (natural + man-made).
+
+`GET api/threats/{ID}.json` — Single threat (e.g., NT-1, MT-1). Fields: threat_id, grouping, name, description.
+
+### Risks
+
+`GET api/risks.json` — All 39 risks with NIST CSF function mapping.
+
+`GET api/risks/{ID}.json` — Single risk (e.g., R-AC-1). Fields: risk_id, grouping, name, description, nist_csf_function.
+
+### Assessment Objectives
+
+`GET api/assessment-objectives.json` — All 5776 assessment objectives.
+
+`GET api/assessment-objectives/{SCF_ID}.json` — AOs for a specific control. Fields: ao_id, objective, pptdf, origin, assessment_rigor, scf/org defined parameters.
+
+### Evidence Requests
+
+`GET api/evidence-requests.json` — All 303 evidence request items.
+
+`GET api/evidence-requests/{ERL_ID}.json` — Single item (e.g., E-GOV-01). Fields: erl_id, area, artifact_name, artifact_description, scf_controls, cmmc_mapping.
+
+### Compensating Controls
+
+`GET api/compensating-controls.json` — All 1305 compensating control entries.
+
+`GET api/compensating-controls/{SCF_ID}.json` — Compensating controls for a specific control. Includes risk if not implemented and up to 2 compensating controls with justification.
+
+### Privacy Principles
+
+`GET api/privacy-principles.json` — All 258 SCF data privacy management principles with crosswalks to 32 privacy frameworks.
+
+### Summary
+
+`GET api/summary.json` — Version, counts for all resource types, weight distribution.
+
+## Workflows
+
+### Full assessment picture for a control
+
+```
+GET api/controls/GOV-01.json → control metadata, risks, threats, crosswalks
+GET api/assessment-objectives/GOV-01.json → assessment objectives
+GET api/compensating-controls/GOV-01.json → compensating controls if primary fails
+```
+
+### Map a framework control back to SCF
+
+```
+GET api/crosswalks/general-nist-800-53-r5-2.json → .framework_to_scf.mappings["PM-01"]
+```
+
+### Understand a risk and which controls address it
+
+```
+GET api/risks/R-AC-1.json → risk details
+GET api/controls.json → filter controls where .risks includes "R-AC-1"
+```
+
+### Evidence collection for an audit
+
+```
+GET api/controls/GOV-01.json → .evidence_requests → ["E-GOV-01", "E-GOV-02"]
+GET api/evidence-requests/E-GOV-01.json → artifact details
+```
+
+### Compare coverage across frameworks
+
+```
+GET api/crosswalks.json → compare scf_controls_mapped across frameworks
+```
+
+## Caveats
+
+- **Versioning:** SCF v2026.1. Check `api/summary.json`.
+- **Licensing:** CC BY-ND. Share and use freely, but no derivative works of the framework itself.
+- **Missing mappings:** No crosswalk entry = no established mapping, not irrelevance.
+- **Framework IDs:** Source-derived from the SCF workbook. Use exact IDs from `api/crosswalks.json`.
+- **Static data:** No server-side filtering. Download and filter client-side.
+- **404s:** Invalid IDs return GitHub Pages' default 404.
+
+## Frameworks (249)
+
+- [Canada - OSFI Cyber Security Self-Assessment Guidance](api/crosswalks/amaericas-can-osfi-self-assessment.json): 141 SCF controls mapped, 88 framework controls.
+- [Argentina - Protection of Personal Data (2018)](api/crosswalks/americas-arg-ppd-2018.json): 25 SCF controls mapped, 50 framework controls.
+- [Bahamas - DPA (2003)](api/crosswalks/americas-bhs-dpa-2003.json): 18 SCF controls mapped, 5 framework controls.
+- [Bermuda - Bermuda Monetary Authority Code of Conduct (2020)](api/crosswalks/americas-bmu-mba-coc-2020.json): 61 SCF controls mapped, 37 framework controls.
+- [Brazil - General Data Protection Law (LGPD) (2018)](api/crosswalks/americas-bra-lgpd-2018.json): 33 SCF controls mapped, 55 framework controls.
+- [Canada - ITSP.10.171 (2025)](api/crosswalks/americas-can-itsp-10-171-2025.json): 407 SCF controls mapped, 275 framework controls.
+- [Canada - OSFI B-13 (2022)](api/crosswalks/americas-can-osfi-b13-2022.json): 150 SCF controls mapped, 77 framework controls.
+- [Canada - Personal Information Protection and Electronic Documents Act (PIPEDA) (2000)](api/crosswalks/americas-can-pipeda-2000.json): 28 SCF controls mapped, 17 framework controls.
+- [Chile - Act 19628 (1999)](api/crosswalks/americas-chl-act-19628-1999.json): 22 SCF controls mapped, 10 framework controls.
+- [Colombia - Law 1581 (2012)](api/crosswalks/americas-col-law-1581-2012.json): 29 SCF controls mapped, 12 framework controls.
+- [Mexico - Federal Law on Protection of Personal Data held by Private Parties (2010)](api/crosswalks/americas-mex-fdpa-2010.json): 23 SCF controls mapped, 25 framework controls.
+- [Australia - Code of Practice - Securing the Internet of Things for Consumers (2020)](api/crosswalks/apac-aus-cop-sitc-2020.json): 15 SCF controls mapped, 13 framework controls.
+- [Australia - Essential Eight (2024)](api/crosswalks/apac-aus-essential-8-2024.json): 37 SCF controls mapped, 24 framework controls.
+- [Australia - Information Security Manual (ISM) (June 2024)](api/crosswalks/apac-aus-ism-2024-june.json): 336 SCF controls mapped, 802 framework controls.
+- [Australia - Privacy Act of 1998](api/crosswalks/apac-aus-privacy-act-1998.json): 23 SCF controls mapped, 12 framework controls.
+- [Australia - Privacy Principles (2026)](api/crosswalks/apac-aus-privacy-principles-2026.json): 26 SCF controls mapped, 13 framework controls.
+- [Australia - Prudential Standard CPS 230 (2023)](api/crosswalks/apac-aus-ps-cps-230-2023.json): 41 SCF controls mapped, 98 framework controls.
+- [Australia - Prudential Standard CPS 234 (2019)](api/crosswalks/apac-aus-ps-cps-234-2019.json): 52 SCF controls mapped, 38 framework controls.
+- [China - Decision on Strengthening Network Information Protection (2012)](api/crosswalks/apac-chn-csnip-2012.json): 10 SCF controls mapped, 4 framework controls.
+- [China - Cybersecurity Law (2017)](api/crosswalks/apac-chn-cybersecurity-law-2017.json): 27 SCF controls mapped, 34 framework controls.
+- [China - Data Security Law (2021)](api/crosswalks/apac-chn-data-security-law-2021.json): 15 SCF controls mapped, 24 framework controls.
+- [China - Personal Information Protection Law (2021)](api/crosswalks/apac-chn-pipl-2021.json): 79 SCF controls mapped, 100 framework controls.
+- [Hong Kong - Personal Data Ordinance (2022)](api/crosswalks/apac-hkg-pdo-2022.json): 14 SCF controls mapped, 14 framework controls.
+- [India - DPDPA (2023)](api/crosswalks/apac-ind-dpdpa-2023.json): 41 SCF controls mapped, 96 framework controls.
+- [India - Privacy Rules (2011)](api/crosswalks/apac-ind-privacy-rules-2011.json): 12 SCF controls mapped, 5 framework controls.
+- [India - SEBI CSCRF (2024)](api/crosswalks/apac-ind-sebi-2024.json): 170 SCF controls mapped, 129 framework controls.
+- [Japan - Information System Security Management and Assessment Program (ISMAP)](api/crosswalks/apac-jpn-ismap.json): 249 SCF controls mapped, 1312 framework controls.
+- [Japan - Act on the Protection of Personal Information (2020)](api/crosswalks/apac-jpn-ppi-2020.json): 58 SCF controls mapped, 134 framework controls.
+- [South Korea - Personal Information Protection Act (PIPA) (2011)](api/crosswalks/apac-kor-pipa-2011.json): 37 SCF controls mapped, 22 framework controls.
+- [Malaysia - Personal Data Protection Act (PDPA) (2010)](api/crosswalks/apac-mys-pdpa-2010.json): 25 SCF controls mapped, 12 framework controls.
+- [New Zealand - HISF MicroSmall (2023)](api/crosswalks/apac-nzl-hisf-microsmall-2023.json): 32 SCF controls mapped, 21 framework controls.
+- [New Zealand - HISF MLHSP (2023)](api/crosswalks/apac-nzl-hisf-mlhsp-2023.json): 102 SCF controls mapped, 150 framework controls.
+- [New Zealand - HISF Guidance for Suppliers (2023)](api/crosswalks/apac-nzl-hisf-suppliers-2023.json): 101 SCF controls mapped, 68 framework controls.
+- [New Zealand - Information Security Manual (ISM) (v3.9)](api/crosswalks/apac-nzl-ism-3-9.json): 291 SCF controls mapped, 1392 framework controls.
+- [New Zealand - Privacy Act (2020)](api/crosswalks/apac-nzl-privacy-act-2020.json): 20 SCF controls mapped, 121 framework controls.
+- [Philippines - Data Privacy Act (DPA) (2012)](api/crosswalks/apac-phl-dpa-2012.json): 30 SCF controls mapped, 16 framework controls.
+- [Singapore - Cyber Hygiene Practice (2019)](api/crosswalks/apac-sgp-cyber-hygiene-practice-2019.json): 21 SCF controls mapped, 13 framework controls.
+- [Singapore - Monitory Authority of Singapore (MAS) Technology Risk Management (TRM) Guidelines (2021)](api/crosswalks/apac-sgp-mas-trm-2021.json): 214 SCF controls mapped, 280 framework controls.
+- [Singapore - Personal Data Protection Ac (PDPA) (2012)](api/crosswalks/apac-sgp-pdpa-2012.json): 30 SCF controls mapped, 14 framework controls.
+- [Taiwan - Personal Data Protection Act (PDPA) (2025)](api/crosswalks/apac-twn-pdpa-2025.json): 23 SCF controls mapped, 8 framework controls.
+- [Austria - Federal Act concerning the Protection of Personal Data (2000)](api/crosswalks/emea-aut-fappd-2000.json): 63 SCF controls mapped, 12 framework controls.
+- [Belgium - Act of 8 December 1992](api/crosswalks/emea-bel-act-8-1992.json): 59 SCF controls mapped, 10 framework controls.
+- [Switzerland - FADP](api/crosswalks/emea-che-fadp-2025.json): 16 SCF controls mapped, 9 framework controls.
+- [Germany - Banking Supervisory Requirements for IT (2017)](api/crosswalks/emea-deu-bsrit-2017.json): 91 SCF controls mapped, 93 framework controls.
+- [Germany - Cloud Computing Compliance Controls Catalogue (C5) (2020)](api/crosswalks/emea-deu-c5-2020.json): 239 SCF controls mapped, 121 framework controls.
+- [Germany - Federal Data Protection Act (2017)](api/crosswalks/emea-deu-fdpa-2017.json): 18 SCF controls mapped, 20 framework controls.
+- [Spain - BOE-A-2022-7191](api/crosswalks/emea-esp-boe-a-2022-7191.json): 72 SCF controls mapped, 132 framework controls.
+- [Spain - ICT Security Guide CCN-STIC 825 (2023)](api/crosswalks/emea-esp-ccn-stic-825-2023.json): 99 SCF controls mapped, 75 framework controls.
+- [Spain - Royal Decree 1720/2007](api/crosswalks/emea-esp-decree-1720-2007.json): 17 SCF controls mapped, 16 framework controls.
+- [Spain - Royal Decree 311/2022](api/crosswalks/emea-esp-decree-311-2022.json): 73 SCF controls mapped, 128 framework controls.
+- [EU Artificial Intelligence Act (AI Act) (2024)](api/crosswalks/emea-eu-ai-act-2024.json): 119 SCF controls mapped, 279 framework controls.
+- [EU Cyber Resilience Act (CRA) (2022)](api/crosswalks/emea-eu-cyber-resilience-act-2022.json): 18 SCF controls mapped, 52 framework controls.
+- [EU Cyber Resilience Act Annexes (CRA Annexes) (2022)](api/crosswalks/emea-eu-cyber-resilience-act-annexes-2022.json): 23 SCF controls mapped, 117 framework controls.
+- [EU Digital Operational Resilience Act (DORA) (2023)](api/crosswalks/emea-eu-dora-2023.json): 102 SCF controls mapped, 241 framework controls.
+- [EU EBA Guidelines on ICT and Security Risk Management (2025)](api/crosswalks/emea-eu-eba-ict-srm-2025.json): 148 SCF controls mapped, 150 framework controls.
+- [EU General Data Protection Regulation (GDPR) (2016)](api/crosswalks/emea-eu-gdpr-2016.json): 42 SCF controls mapped, 227 framework controls.
+- [EU NIS2 Directive (2022)](api/crosswalks/emea-eu-nis2-2022.json): 68 SCF controls mapped, 30 framework controls.
+- [EU NIS2 Annex (2024)](api/crosswalks/emea-eu-nis2-annex-2024.json): 223 SCF controls mapped, 351 framework controls.
+- [UK - Cyber Assessment Framework (CAF) (v4.0)](api/crosswalks/emea-gbr-caf-4-0.json): 66 SCF controls mapped, 66 framework controls.
+- [UK - Cyber Assessment Framework for Aviation Guidance (CAP1850) (2020)](api/crosswalks/emea-gbr-cap-1850-2020.json): 43 SCF controls mapped, 14 framework controls.
+- [UK - Cyber Essentials (v3.3)](api/crosswalks/emea-gbr-cyber-essentials-requirements-3-3.json): 26 SCF controls mapped, 5 framework controls.
+- [UK - Defstan 05-138 (2024)](api/crosswalks/emea-gbr-def-stan-05-138-2024.json): 213 SCF controls mapped, 147 framework controls.
+- [UK - Defstan 05-138 (2024) - L0](api/crosswalks/emea-gbr-def-stan-05-138-l0-2024.json): 2 SCF controls mapped, 3 framework controls.
+- [UK - Defstan 05-138 (2024) - L1](api/crosswalks/emea-gbr-def-stan-05-138-l1-2024.json): 159 SCF controls mapped, 100 framework controls.
+- [UK - Defstan 05-138 (2024) - L2](api/crosswalks/emea-gbr-def-stan-05-138-l2-2024.json): 206 SCF controls mapped, 138 framework controls.
+- [UK - Defstan 05-138 (2024) - L3](api/crosswalks/emea-gbr-def-stan-05-138-l3-2024.json): 212 SCF controls mapped, 143 framework controls.
+- [UK - Data Protection Act (DPA) (1998)](api/crosswalks/emea-gbr-dpa-1998.json): 10 SCF controls mapped, 8 framework controls.
+- [Greece - Protection of Individuals with Regard to the Processing of Personal Data (1997)](api/crosswalks/emea-grc-pirppd-1997.json): 17 SCF controls mapped, 11 framework controls.
+- [Hungary - Informational Self-Determination and Freedom of Information (2011)](api/crosswalks/emea-hun-isdfi-2011.json): 27 SCF controls mapped, 15 framework controls.
+- [Ireland - Data Protection Act (DPA) (2003)](api/crosswalks/emea-irl-dpa-2003.json): 25 SCF controls mapped, 4 framework controls.
+- [Israel - Cybersecurity Methodology for an Organization v1.0](api/crosswalks/emea-isr-cmo-1-0.json): 393 SCF controls mapped, 323 framework controls.
+- [Israel - Protection of Privacy Law, 5741 (1981)](api/crosswalks/emea-isr-ppl-5741-1981.json): 22 SCF controls mapped, 8 framework controls.
+- [Italy - Personal Data Protection Code (2003)](api/crosswalks/emea-ita-pdpc-2003.json): 28 SCF controls mapped, 18 framework controls.
+- [Kenya - Data Protection Act (DPA) (2019)](api/crosswalks/emea-ken-pda-2019.json): 41 SCF controls mapped, 237 framework controls.
+- [Nigeria - Data Protection Regulation (DPR) (2019)](api/crosswalks/emea-nga-dpr-2019.json): 25 SCF controls mapped, 107 framework controls.
+- [Norway - Personal Data Act (PDA) (2018)](api/crosswalks/emea-nor-pda-2018.json): 23 SCF controls mapped, 15 framework controls.
+- [Poland - Act of 29 August 1997 on the Protection of Personal Data](api/crosswalks/emea-pol-act-29-1997.json): 29 SCF controls mapped, 12 framework controls.
+- [Qatar - Personal Data Privacy Protection Law (PDPPL) (2020)](api/crosswalks/emea-qat-pdppl-2020.json): 56 SCF controls mapped, 46 framework controls.
+- [Russia - Federal Law of 27 (2006)](api/crosswalks/emea-rus-federal-law-27-2006.json): 28 SCF controls mapped, 15 framework controls.
+- [Saudi Arabia - Cybersecurity Guidelines for Internet of Things (CGIoT-1:2024)](api/crosswalks/emea-sau-cgiot-2024.json): 118 SCF controls mapped, 81 framework controls.
+- [Saudi Arabia - Critical Systems Cybersecurity Controls (CSCC – 1: 2019)](api/crosswalks/emea-sau-cscc-1-2019.json): 152 SCF controls mapped, 107 framework controls.
+- [Saudi Arabia - Essential Cybersecurity Controls (ECC – 1 : 2018)](api/crosswalks/emea-sau-ecc-1-2018.json): 190 SCF controls mapped, 215 framework controls.
+- [Saudi Arabia - Operational Technology Cybersecurity Controls (OTCC -1: 2022)](api/crosswalks/emea-sau-otcc-1-2022.json): 198 SCF controls mapped, 189 framework controls.
+- [Saudi Arabia - Personal Data Protection Law (PDPL) (2023)](api/crosswalks/emea-sau-pdpl-2023.json): 36 SCF controls mapped, 70 framework controls.
+- [Saudi Arabia - SACS-002 Third Party Cybersecurity Standard (2022)](api/crosswalks/emea-sau-sacs-002-2022.json): 185 SCF controls mapped, 92 framework controls.
+- [Saudi Arabia - SAMA CSF Version 1.0 (2017)](api/crosswalks/emea-sau-sama-csf-1-2017.json): 50 SCF controls mapped, 36 framework controls.
+- [Serbia - Act of 9 November 2018 on Personal Data Protection](api/crosswalks/emea-srb-act-9-2018.json): 56 SCF controls mapped, 205 framework controls.
+- [Turkey - Law on the Protection of Personal Data (LPPD) (2016)](api/crosswalks/emea-tur-lppd-2016.json): 17 SCF controls mapped, 10 framework controls.
+- [UAE - National Information Assurance Framework (NIAF) (2023)](api/crosswalks/emea-uae-niaf-2023.json): 20 SCF controls mapped, 15 framework controls.
+- [EU Second Payment Services Directive (PSD2) (2015)](api/crosswalks/emea-us-psd2-2015.json): 30 SCF controls mapped, 10 framework controls.
+- [South Africa - Protection of Personal Information Act (POPIA) (2013)](api/crosswalks/emea-zaf-popia-2013.json): 101 SCF controls mapped, 41 framework controls.
+- [AICPA Privacy Management Framework (PMF) (2020)](api/crosswalks/general-aicpa-pmf-2020.json): 109 SCF controls mapped, 123 framework controls.
+- [Trust Services Criteria (TSC) (2017)](api/crosswalks/general-aicpa-tsc-2017.json): 412 SCF controls mapped, 399 framework controls.
+- [APEC Privacy Framework (2015)](api/crosswalks/general-apec-privacy-framework-2015.json): 14 SCF controls mapped, 25 framework controls.
+- [Standard 200-1 (v1.0)](api/crosswalks/general-bsi-200-1-1-0.json): 35 SCF controls mapped, 22 framework controls.
+- [Critical Security Controls (CSC) (v8.1)](api/crosswalks/general-cis-csc-8-1.json): 234 SCF controls mapped, 166 framework controls.
+- [Critical Security Controls (CSC) (v8.1) - IG1](api/crosswalks/general-cis-csc-8-1-ig1.json): 104 SCF controls mapped, 56 framework controls.
+- [Critical Security Controls (CSC) (v8.1) - IG2](api/crosswalks/general-cis-csc-8-1-ig2.json): 208 SCF controls mapped, 126 framework controls.
+- [Critical Security Controls (CSC) (v8.1) - IG3](api/crosswalks/general-cis-csc-8-1-ig3.json): 230 SCF controls mapped, 148 framework controls.
+- [Control Objectives for Information and Related Technologies (COBIT) (2019)](api/crosswalks/general-cobit-2019.json): 190 SCF controls mapped, 230 framework controls.
+- [Committee of Sponsoring Organizations (COSO) (2013)](api/crosswalks/general-coso-2013.json): 104 SCF controls mapped, 17 framework controls.
+- [Cyber Resilience Capability Maturity Model (CR-CMM) (2026)](api/crosswalks/general-cr-cmm-2026.json): 46 SCF controls mapped, 40 framework controls.
+- [Cloud Controls Matrix (CCM) (v4.1.0)](api/crosswalks/general-csa-cmm-4-1-0.json): 291 SCF controls mapped, 207 framework controls.
+- [IoT Security Controls Framework (v2)](api/crosswalks/general-csa-iot-2.json): 253 SCF controls mapped, 155 framework controls.
+- [GovRAMP](api/crosswalks/general-govramp.json): 441 SCF controls mapped, 383 framework controls.
+- [GovRAMP Core](api/crosswalks/general-govramp-core.json): 86 SCF controls mapped, 60 framework controls.
+- [GovRAMP High](api/crosswalks/general-govramp-high.json): 441 SCF controls mapped, 383 framework controls.
+- [GovRAMP Low](api/crosswalks/general-govramp-low.json): 166 SCF controls mapped, 114 framework controls.
+- [GovRAMP Low+](api/crosswalks/general-govramp-low-plus.json): 230 SCF controls mapped, 173 framework controls.
+- [GovRAMP Moderate](api/crosswalks/general-govramp-mod.json): 347 SCF controls mapped, 290 framework controls.
+- [IEC 62443-2-1 (2024)](api/crosswalks/general-iec-62443-2-1-2024.json): 112 SCF controls mapped, 119 framework controls.
+- [IEC 62443-3-3 (2013)](api/crosswalks/general-iec-62443-3-3-2013.json): 80 SCF controls mapped, 111 framework controls.
+- [IEC 62443-4-1 (2018)](api/crosswalks/general-iec-62443-4-1-2018.json): 25 SCF controls mapped, 186 framework controls.
+- [IEC 62443-4-2 (2019)](api/crosswalks/general-iec-62443-4-2-2019.json): 89 SCF controls mapped, 169 framework controls.
+- [IEC TR 60601-4-5 (2021)](api/crosswalks/general-iec-tr-60601-4-5-2021.json): 26 SCF controls mapped, 37 framework controls.
+- [International Maritime Organization (IMO) Guidelines on Maritime Cyber Risk Management (2025)](api/crosswalks/general-imo-maritime-cyber-risk-management-2025.json): 75 SCF controls mapped, 35 framework controls.
+- [ISO 21434 (2021)](api/crosswalks/general-iso-21434-2021.json): 51 SCF controls mapped, 232 framework controls.
+- [ISO 22301 (2019)](api/crosswalks/general-iso-22301-2019.json): 36 SCF controls mapped, 259 framework controls.
+- [ISO 27001 (2022)](api/crosswalks/general-iso-27001-2022.json): 51 SCF controls mapped, 148 framework controls.
+- [ISO 27002 (2022)](api/crosswalks/general-iso-27002-2022.json): 316 SCF controls mapped, 89 framework controls.
+- [ISO 27017 (2015)](api/crosswalks/general-iso-27017-2015.json): 224 SCF controls mapped, 118 framework controls.
+- [ISO 27018 (2025)](api/crosswalks/general-iso-27018-2025.json): 322 SCF controls mapped, 108 framework controls.
+- [ISO 27701 (2025)](api/crosswalks/general-iso-27701-2025.json): 59 SCF controls mapped, 90 framework controls.
+- [ISO 29100 (2024)](api/crosswalks/general-iso-29100-2024.json): 43 SCF controls mapped, 11 framework controls.
+- [ISO 31000 (2018)](api/crosswalks/general-iso-31000-2018.json): 53 SCF controls mapped, 27 framework controls.
+- [ISO 31010 (2009)](api/crosswalks/general-iso-31010-2009.json): 31 SCF controls mapped, 32 framework controls.
+- [ISO 42001 (2023)](api/crosswalks/general-iso-42001-2023.json): 149 SCF controls mapped, 140 framework controls.
+- [MITRE ATT&CK (v16.1)](api/crosswalks/general-mitre-att&ck-16-1.json): 108 SCF controls mapped, 511 framework controls.
+- [Content Security Best Practices Common Guidelines (v5.3.1)](api/crosswalks/general-mpa-csbp-5-3-1.json): 232 SCF controls mapped, 81 framework controls.
+- [Insurance Data Security Model Law 668 (2017)](api/crosswalks/general-naic-insurance-data-security-model-law-668-2017.json): 58 SCF controls mapped, 85 framework controls.
+- [NIST AI 100-1 (AI RMF 1.0)](api/crosswalks/general-nist-100-1-ai-rmf.json): 158 SCF controls mapped, 91 framework controls.
+- [NIST AI 600-1](api/crosswalks/general-nist-600-1-gen-ai-profile.json): 139 SCF controls mapped, 250 framework controls.
+- [NIST SP 800-160 (Vol 2, Rev 1)](api/crosswalks/general-nist-800-160-vol-2-r1.json): 204 SCF controls mapped, 196 framework controls.
+- [NIST SP 800-161 R1 UDP1](api/crosswalks/general-nist-800-161-r1.json): 341 SCF controls mapped, 308 framework controls.
+- [NIST SP 800-161 R1 UDP1 - C-SCRM Baseline](api/crosswalks/general-nist-800-161-r1-cscrm.json): 132 SCF controls mapped, 95 framework controls.
+- [NIST SP 800-161 R1 UDP1 - Flow Down Baseline](api/crosswalks/general-nist-800-161-r1-flowdown.json): 107 SCF controls mapped, 69 framework controls.
+- [NIST SP 800-161 R1 UDP1 - Level 1 Baseline](api/crosswalks/general-nist-800-161-r1-level-1.json): 95 SCF controls mapped, 76 framework controls.
+- [NIST SP 800-161 R1 UDP1 - Level 2 Baseline](api/crosswalks/general-nist-800-161-r1-level-2.json): 273 SCF controls mapped, 236 framework controls.
+- [NIST SP 800-161 R1 UDP1 - Level 3 Baseline](api/crosswalks/general-nist-800-161-r1-level-3.json): 284 SCF controls mapped, 251 framework controls.
+- [NIST SP 800-171 R2](api/crosswalks/general-nist-800-171-r2.json): 251 SCF controls mapped, 172 framework controls.
+- [NIST SP 800-171 R3](api/crosswalks/general-nist-800-171-r3.json): 407 SCF controls mapped, 275 framework controls.
+- [NIST SP 800-171A](api/crosswalks/general-nist-800-171a.json): 134 SCF controls mapped, 320 framework controls.
+- [NIST SP 800-171A R3](api/crosswalks/general-nist-800-171a-r3.json): 215 SCF controls mapped, 508 framework controls.
+- [NIST SP 800-172](api/crosswalks/general-nist-800-172.json): 74 SCF controls mapped, 35 framework controls.
+- [NIST SP 800-207](api/crosswalks/general-nist-800-207.json): 93 SCF controls mapped, 7 framework controls.
+- [NIST SP 800-218](api/crosswalks/general-nist-800-218.json): 59 SCF controls mapped, 60 framework controls.
+- [NIST SP 800-37 R2](api/crosswalks/general-nist-800-37-r2.json): 45 SCF controls mapped, 47 framework controls.
+- [NIST SP 800-39](api/crosswalks/general-nist-800-39.json): 17 SCF controls mapped, 16 framework controls.
+- [NIST SP 800-53 R4](api/crosswalks/general-nist-800-53-r4.json): 653 SCF controls mapped, 682 framework controls.
+- [NIST SP 800-53 R5](api/crosswalks/general-nist-800-53-r5-2.json): 777 SCF controls mapped, 810 framework controls.
+- [NIST SP 800-53 R5 - High Baseline](api/crosswalks/general-nist-800-53-r5-2-high.json): 89 SCF controls mapped, 83 framework controls.
+- [NIST SP 800-53 R5 - Low Baseline](api/crosswalks/general-nist-800-53-r5-2-low.json): 202 SCF controls mapped, 149 framework controls.
+- [NIST SP 800-53 R5 - Moderate Baseline](api/crosswalks/general-nist-800-53-r5-2-mod.json): 157 SCF controls mapped, 138 framework controls.
+- [NIST SP 800-53 R5 - Privacy Baseline](api/crosswalks/general-nist-800-53-r5-2-privacy.json): 346 SCF controls mapped, 236 framework controls.
+- [NIST SP 800-66 R2](api/crosswalks/general-nist-800-66-r2.json): 112 SCF controls mapped, 22 framework controls.
+- [NIST SP 800-82 R3](api/crosswalks/general-nist-800-82-r3.json): 777 SCF controls mapped, 810 framework controls.
+- [NIST SP 800-82 R3 - High OT Overlay](api/crosswalks/general-nist-800-82-r3-high.json): 467 SCF controls mapped, 418 framework controls.
+- [NIST SP 800-82 R3 - Low OT Overlay](api/crosswalks/general-nist-800-82-r3-low.json): 251 SCF controls mapped, 194 framework controls.
+- [NIST SP 800-82 R3 - Moderate OT Overlay](api/crosswalks/general-nist-800-82-r3-mod.json): 390 SCF controls mapped, 337 framework controls.
+- [NIST Cybersecurity Framework (v2.0)](api/crosswalks/general-nist-csf-2-0.json): 250 SCF controls mapped, 134 framework controls.
+- [NIST Privacy Framework (v1.0)](api/crosswalks/general-nist-privacy-framework-1-0.json): 152 SCF controls mapped, 122 framework controls.
+- [OECD Privacy Principles (2010)](api/crosswalks/general-oecd-privacy-principles-2010.json): 14 SCF controls mapped, 17 framework controls.
+- [OWASP Top 10 (2025)](api/crosswalks/general-owasp-top-10-2025.json): 139 SCF controls mapped, 10 framework controls.
+- [Payment Card Industry Data Security Standard (PCI DSS) (v4.01)](api/crosswalks/general-pci-dss-4-0-1.json): 371 SCF controls mapped, 351 framework controls.
+- [Payment Card Industry Data Security Standard (PCI DSS) - SAQ A (v4.0.1)](api/crosswalks/general-pci-dss-4-0-1-saq-a.json): 71 SCF controls mapped, 29 framework controls.
+- [Payment Card Industry Data Security Standard (PCI DSS) - SAQ A-EP (v4.0.1)](api/crosswalks/general-pci-dss-4-0-1-saq-a-ep.json): 239 SCF controls mapped, 139 framework controls.
+- [Payment Card Industry Data Security Standard (PCI DSS) - SAQ B (v4.0.1)](api/crosswalks/general-pci-dss-4-0-1-saq-b.json): 58 SCF controls mapped, 27 framework controls.
+- [Payment Card Industry Data Security Standard (PCI DSS) - SAQ B-IP (v4.0.1)](api/crosswalks/general-pci-dss-4-0-1-saq-b-ip.json): 121 SCF controls mapped, 50 framework controls.
+- [Payment Card Industry Data Security Standard (PCI DSS) - SAQ C (v4.0.1)](api/crosswalks/general-pci-dss-4-0-1-saq-c.json): 227 SCF controls mapped, 124 framework controls.
+- [Payment Card Industry Data Security Standard (PCI DSS) - SAQ C-VT (v4.0.1)](api/crosswalks/general-pci-dss-4-0-1-saq-c-vt.json): 115 SCF controls mapped, 54 framework controls.
+- [Payment Card Industry Data Security Standard (PCI DSS) - SAQ D Merchant (v4.0.1)](api/crosswalks/general-pci-dss-4-0-1-saq-d-merchant.json): 322 SCF controls mapped, 233 framework controls.
+- [Payment Card Industry Data Security Standard (PCI DSS) - SAQ D Service Provider (v4.0.1)](api/crosswalks/general-pci-dss-4-0-1-saq-d-service-provider.json): 339 SCF controls mapped, 257 framework controls.
+- [Payment Card Industry Data Security Standard (PCI DSS) - SAQ P2PE (v4.0.1)](api/crosswalks/general-pci-dss-4-0-1-saq-p2pe.json): 47 SCF controls mapped, 21 framework controls.
+- [Data Privacy Management Principle (DPMP) (2025)](api/crosswalks/general-scf-dpmp-2025.json): 218 SCF controls mapped, 83 framework controls.
+- [SIG (2025)](api/crosswalks/general-shared-assessments-sig-2025.json): 128 SCF controls mapped, 65 framework controls.
+- [SPARTA Countermeasures](api/crosswalks/general-sparta.json): 79 SCF controls mapped, 53 framework controls.
+- [SWIFT Customer Security Controls Framework (2025)](api/crosswalks/general-swift-cscf-2025.json): 164 SCF controls mapped, 32 framework controls.
+- [TISAX ISA (6.0.3)](api/crosswalks/general-tisax-6-0-3.json): 154 SCF controls mapped, 73 framework controls.
+- [UL 2900-1 (2017)](api/crosswalks/general-ul-2900-1-2017.json): 23 SCF controls mapped, 143 framework controls.
+- [UL 2900-2-2 (2016)](api/crosswalks/general-ul-2900-2-2-2016.json): 20 SCF controls mapped, 57 framework controls.
+- [UN Regulation No. 155 (2021)](api/crosswalks/general-un-155-2021.json): 57 SCF controls mapped, 55 framework controls.
+- [UNECE WP.29 (2020)](api/crosswalks/general-un-ece-wp-29-2020.json): 57 SCF controls mapped, 54 framework controls.
+- [MARS-E Document Suite (2.0)](api/crosswalks/usa-federal-cms-marse-2-0.json): 391 SCF controls mapped, 1286 framework controls.
+- [CISA Cross-Sector Cybersecurity Performance Goals (CPG) (2.0)](api/crosswalks/usa-federal-dhs-cisa-cpg-2-0.json): 126 SCF controls mapped, 38 framework controls.
+- [CISA Secure Software Development Attestation Form (SSDAF) (2024)](api/crosswalks/usa-federal-dhs-cisa-ssdaf-2024.json): 41 SCF controls mapped, 15 framework controls.
+- [CISA Trusted Internet Connections 3.0 Security Capabilities Catalog (TIC 3.0)](api/crosswalks/usa-federal-dhs-cisa-tic-3-0.json): 148 SCF controls mapped, 117 framework controls.
+- [Data Privacy Framework (2023)](api/crosswalks/usa-federal-doc-data-privacy-framework-2023.json): 31 SCF controls mapped, 74 framework controls.
+- [Cybersecurity Capability Maturity Model (C2M2) (v2.1)](api/crosswalks/usa-federal-doe-c2m2-2-1.json): 224 SCF controls mapped, 356 framework controls.
+- [CERT-RMM (v1.2)](api/crosswalks/usa-federal-dow-cert-rmm-1-2.json): 85 SCF controls mapped, 753 framework controls.
+- [Cybersecurity Maturity Model Certification (CMMC) 2.0 - Level 1](api/crosswalks/usa-federal-dow-cmmc-2-level-1.json): 52 SCF controls mapped, 15 framework controls.
+- [Cybersecurity Maturity Model Certification (CMMC) 2.0 - Level 1 Assessment Objectives](api/crosswalks/usa-federal-dow-cmmc-2-level-1-aos.json): 16 SCF controls mapped, 59 framework controls.
+- [Cybersecurity Maturity Model Certification (CMMC) 2.0 - Level 2](api/crosswalks/usa-federal-dow-cmmc-2-level-2.json): 198 SCF controls mapped, 110 framework controls.
+- [Cybersecurity Maturity Model Certification (CMMC) 2.0 - Level 3](api/crosswalks/usa-federal-dow-cmmc-2-level-3.json): 55 SCF controls mapped, 24 framework controls.
+- [DFARS 252.204-7012](api/crosswalks/usa-federal-dow-dfars-252-204-7012.json): 19 SCF controls mapped, 20 framework controls.
+- [Safeguarding of NNPI (2010)](api/crosswalks/usa-federal-dow-safeguarding-nnpi-2010.json): 32 SCF controls mapped, 68 framework controls.
+- [Department of War (DoW) - Zero Trust Execution Roadmap (v1.1)](api/crosswalks/usa-federal-dow-zt-roadmap-1-1.json): 117 SCF controls mapped, 190 framework controls.
+- [Department of War (DoW) - Zero Trust Reference Architecture (v2)](api/crosswalks/usa-federal-dow-zta-reference-architecture-2-0.json): 39 SCF controls mapped, 28 framework controls.
+- [Executive Order 14028 - Improving the Nation's Cybersecurity](api/crosswalks/usa-federal-eo-14028.json): 43 SCF controls mapped, 16 framework controls.
+- [FAR 52.204-21](api/crosswalks/usa-federal-far-52-204-21.json): 59 SCF controls mapped, 17 framework controls.
+- [FAR 52.204-25 (NDAA Section 889)](api/crosswalks/usa-federal-far-52-204-25.json): 2 SCF controls mapped, 5 framework controls.
+- [FAR 52.204-27](api/crosswalks/usa-federal-far-52-204-27.json): 3 SCF controls mapped, 2 framework controls.
+- [Criminal Justice Information Services (CJIS) Security Policy (v6.0)](api/crosswalks/usa-federal-fbi-cjis-6-0.json): 365 SCF controls mapped, 319 framework controls.
+- [Food & Drug Administration (FDA) 21 CFR Part 11 (2025)](api/crosswalks/usa-federal-fda-21-cfr-part-11-2025.json): 62 SCF controls mapped, 28 framework controls.
+- [FedRAMP R5 - High Baseline](api/crosswalks/usa-federal-gsa-fedramp-5-high.json): 561 SCF controls mapped, 490 framework controls.
+- [FedRAMP R5 - Li-SAAS Baseline](api/crosswalks/usa-federal-gsa-fedramp-5-li-saas.json): 383 SCF controls mapped, 269 framework controls.
+- [FedRAMP R5 - Low Baseline](api/crosswalks/usa-federal-gsa-fedramp-5-low.json): 383 SCF controls mapped, 269 framework controls.
+- [FedRAMP R5 - Moderate Baseline](api/crosswalks/usa-federal-gsa-fedramp-5-mod.json): 491 SCF controls mapped, 410 framework controls.
+- [HHS § 155.260 (2016)](api/crosswalks/usa-federal-hhs-45-cfr-155-260-2016.json): 36 SCF controls mapped, 44 framework controls.
+- [IRS 1075 (2021)](api/crosswalks/usa-federal-irs-1075-2021.json): 442 SCF controls mapped, 743 framework controls.
+- [Children's Online Privacy Protection Act (COPPA) (2024)](api/crosswalks/usa-federal-law-coppa-2024.json): 10 SCF controls mapped, 8 framework controls.
+- [Fair & Accurate Credit Transactions Act (FACTA) & Fair Credit Reporting Act (FCRA) (2023)](api/crosswalks/usa-federal-law-facta-fcra-2023.json): 3 SCF controls mapped, 6 framework controls.
+- [Family Educational Rights and Privacy Act (FERPA) (2010)](api/crosswalks/usa-federal-law-ferpa-2010.json): 5 SCF controls mapped, 27 framework controls.
+- [Federal Trade Commission (FTC) Act](api/crosswalks/usa-federal-law-ftc-act.json): 16 SCF controls mapped, 1 framework controls.
+- [Gramm Leach Bliley Act (GLBA) (2023)](api/crosswalks/usa-federal-law-glba-cfr-314-2023.json): 70 SCF controls mapped, 52 framework controls.
+- [HIPAA Security Rule (2013)](api/crosswalks/usa-federal-law-hipaa-security-rule-2013.json): 136 SCF controls mapped, 87 framework controls.
+- [HIPAA Administrative Simplification (2013)](api/crosswalks/usa-federal-law-hipaa-simplification-2013.json): 170 SCF controls mapped, 576 framework controls.
+- [SOX (2002)](api/crosswalks/usa-federal-law-sox-2002.json): 4 SCF controls mapped, 17 framework controls.
+- [NERC Critical Infrastructure Protection (CIP) (2024)](api/crosswalks/usa-federal-nerc-cip-2024.json): 122 SCF controls mapped, 204 framework controls.
+- [National Industrial Security Program Operating Manual (NISPOM) (2020)](api/crosswalks/usa-federal-nispom-2020.json): 35 SCF controls mapped, 226 framework controls.
+- [US Fair Information Practice Principles (FIPPs) (1973)](api/crosswalks/usa-federal-omb-fipps-1973.json): 30 SCF controls mapped, 8 framework controls.
+- [SEC Cybersecurity Rule (2023)](api/crosswalks/usa-federal-sec-cybersecurity-rule-2023.json): 40 SCF controls mapped, 15 framework controls.
+- [Farm Credit Administration (FCA) Cyber Risk Management (2023)](api/crosswalks/usa-federal-sro-fca-crm-2023.json): 81 SCF controls mapped, 34 framework controls.
+- [FINRA Cybersecurity Rules](api/crosswalks/usa-federal-sro-finra.json): 17 SCF controls mapped, 39 framework controls.
+- [TSA Security Directive 1580/82-2022-01](api/crosswalks/usa-federal-tsa-security-directive-1580-82-2022-01.json): 60 SCF controls mapped, 68 framework controls.
+- [Alaska Personal Information Protection Act (PIPA) (2009)](api/crosswalks/usa-state-ak-pipa-2009.json): 5 SCF controls mapped, 25 framework controls.
+- [California Consumer Privacy Act (CCPA) (2026)](api/crosswalks/usa-state-ca-ccpa-cpra-2026.json): 258 SCF controls mapped, 623 framework controls.
+- [California SB1386 (2002)](api/crosswalks/usa-state-ca-sb1386-2002.json): 4 SCF controls mapped, 6 framework controls.
+- [California SB327 (2018)](api/crosswalks/usa-state-ca-sb327-2018.json): 3 SCF controls mapped, 7 framework controls.
+- [Colorado Privacy Act (2021)](api/crosswalks/usa-state-co-privacy-act-2021.json): 23 SCF controls mapped, 52 framework controls.
+- [Illinois Biometric Information Privacy Act (BIPA) (2008)](api/crosswalks/usa-state-il-bipa-2008.json): 6 SCF controls mapped, 12 framework controls.
+- [Illinois Identity Protection Act (IPA) (2009)](api/crosswalks/usa-state-il-ipa-2009.json): 12 SCF controls mapped, 33 framework controls.
+- [Illinois Personal Information Protection Act (PIPA) (2006)](api/crosswalks/usa-state-il-pipa-2006.json): 10 SCF controls mapped, 53 framework controls.
+- [Massachusetts 201 CMR 17.00 (2008)](api/crosswalks/usa-state-ma-201-cmr-17-2008.json): 53 SCF controls mapped, 37 framework controls.
+- [Nevada Operation of Gaming Establishment (NOGE) Regulation 5.260 (2024)](api/crosswalks/usa-state-nv-regulation-5-2024.json): 20 SCF controls mapped, 11 framework controls.
+- [Nevada SB220 (2019)](api/crosswalks/usa-state-nv-sb220-2019.json): 3 SCF controls mapped, 4 framework controls.
+- [New York Department of Financial Services 23NYCRR Part 500 (2023 Amendment 2)](api/crosswalks/usa-state-ny-dfs-23-nycrr500-2023-amd2.json): 156 SCF controls mapped, 145 framework controls.
+- [New York SHIELD Act (SB S5575B) (2019)](api/crosswalks/usa-state-ny-shield-act-2019.json): 28 SCF controls mapped, 45 framework controls.
+- [Oregon Consumer Privacy Act (SB 619) (2023)](api/crosswalks/usa-state-or-cpa-2023.json): 34 SCF controls mapped, 75 framework controls.
+- [Oregon Consumer Information Protection Act (ORS 646A) (2025)](api/crosswalks/usa-state-or-ors-646a-2025.json): 24 SCF controls mapped, 97 framework controls.
+- [Tennessee Information Protection Act (TIPA) (2025)](api/crosswalks/usa-state-tn-tipa-2025.json): 29 SCF controls mapped, 76 framework controls.
+- [Texas Identity Theft Enforcement and Protection Act (BC521) (2009)](api/crosswalks/usa-state-tx-bc521-2009.json): 5 SCF controls mapped, 27 framework controls.
+- [Texas Consumer Data Protection Act (2025)](api/crosswalks/usa-state-tx-cdpa-2025.json): 28 SCF controls mapped, 89 framework controls.
+- [Texas DIR Security Control Standards Catalog (v2.2)](api/crosswalks/usa-state-tx-dir-security-control-standards-catalog-2-2.json): 238 SCF controls mapped, 228 framework controls.
+- [Texas Safe Harbor Law (SB2610) (2025)](api/crosswalks/usa-state-tx-sb2610-2025.json): 6 SCF controls mapped, 33 framework controls.
+- [Texas SB820 (2019)](api/crosswalks/usa-state-tx-sb820-2019.json): 4 SCF controls mapped, 7 framework controls.
+- [TX-RAMP 2.0 - Level 1](api/crosswalks/usa-state-tx-txramp-2-0-level-1.json): 173 SCF controls mapped, 117 framework controls.
+- [TX-RAMP 2.0 - Level 2](api/crosswalks/usa-state-tx-txramp-2-0-level-2.json): 285 SCF controls mapped, 223 framework controls.
+- [Virginia Consumer Data Protection Act (2023)](api/crosswalks/usa-state-va-cdpa-2023.json): 44 SCF controls mapped, 64 framework controls.
+- [Vermont Data Broker Registration Act (Act 171 of 2018)](api/crosswalks/usa-state-vt-act-171-2018.json): 35 SCF controls mapped, 61 framework controls.

@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-25.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-25.1",
+      "ao_id": "AAT-25.1_A01",
+      "objective": "over-reliance on third-party data with Artificial Intelligence (AI) and Autonomous Technologies (AAT) is identified.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-25.1",
+      "ao_id": "AAT-25.1_A02",
+      "objective": "fallback methods are identified to address the inability to access third-party data, as necessary.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

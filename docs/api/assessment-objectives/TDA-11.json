@@ -1,0 +1,206 @@
+{
+  "scf_control_id": "TDA-11",
+  "total": 20,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-11",
+      "ao_id": "TDA-11_A01",
+      "objective": "controls to validate that the system or system component received is genuine are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-04(03)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-11",
+      "ao_id": "TDA-11_A02",
+      "objective": "controls to validate that the system or system component received has not been altered are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-04(03)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-11",
+      "ao_id": "TDA-11_A03",
+      "objective": "controls are employed to validate that the system or system component received is genuine.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SR-04(03)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-11",
+      "ao_id": "TDA-11_A04",
+      "objective": "controls are employed to validate that the system or system component received has not been altered.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SR-04(03)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-11",
+      "ao_id": "TDA-11_A05",
+      "objective": "controls employed to ensure that the integrity of the system and system component are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-04(04)_ODP[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-11",
+      "ao_id": "TDA-11_A06",
+      "objective": "an analysis method to be conducted to validate the internal composition and provenance of critical or mission-essential technologies, products and services to ensure the integrity of the system and system component is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-04(04)_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-11",
+      "ao_id": "TDA-11_A07",
+      "objective": "controls are employed to ensure the integrity of the system and system components.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SR-04(04)[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-11",
+      "ao_id": "TDA-11_A08",
+      "objective": "analysis method is conducted to ensure the integrity of the system and system components.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-04(04)[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-11",
+      "ao_id": "TDA-11_A09",
+      "objective": "systems or system components that require inspection are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-10_ODP[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-11",
+      "ao_id": "TDA-11_A10",
+      "objective": "frequency at which to inspect systems or system components is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-10_ODP[02]\n53A_R5_SR-10_ODP[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least every 12 months, or when there are significant\nincidents or significant changes to risks",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-11",
+      "ao_id": "TDA-11_A11",
+      "objective": "indications of the need for an inspection of systems or system components are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-10_ODP[04]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-11",
+      "ao_id": "TDA-11_A12",
+      "objective": "systems or system components are inspected to detect tampering.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-10",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-11",
+      "ao_id": "TDA-11_A13",
+      "objective": "external reporting organizations to whom counterfeit system components are to be reported is/are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-11_ODP[01]\n53A_R5_SR-11_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-11",
+      "ao_id": "TDA-11_A14",
+      "objective": "personnel or roles to whom counterfeit system components are to be reported is/are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-11_ODP[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-11",
+      "ao_id": "TDA-11_A15",
+      "objective": "anti-counterfeit procedures are developed and implemented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-11a.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-11",
+      "ao_id": "TDA-11_A16",
+      "objective": "the anti-counterfeit procedures include the means to detect counterfeit components entering the system.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-11a.[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-11",
+      "ao_id": "TDA-11_A17",
+      "objective": "the anti-counterfeit procedures include the means to prevent counterfeit components from entering the system.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-11a.[04]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-11",
+      "ao_id": "TDA-11_A18",
+      "objective": "counterfeit system components are reported per organization-defined criteria.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-11b.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-11",
+      "ao_id": "TDA-11_A19",
+      "objective": "the frequency at which to scan for counterfeit system components is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-11(03)_ODP",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-11",
+      "ao_id": "TDA-11_A20",
+      "objective": "scanning for counterfeit system components is conducted per an organization-defined frequency.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-11(03)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "continuous",
+      "org_defined_parameters": ""
+    }
+  ]
+}

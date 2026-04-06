@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "DCH-05.11",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-05.11",
+      "ao_id": "DCH-05.11_A01",
+      "objective": "documented procedures exist to perform reviews of changes to cybersecurity / data privacy attributes.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-05.11",
+      "ao_id": "DCH-05.11_A02",
+      "objective": "actions taken to respond to unauthorized changes are per the organization's Incident Response Plan (IRP) or similar documented procedures.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

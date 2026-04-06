@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PRI-03.3",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-03.3",
+      "ao_id": "PRI-03.3_A01",
+      "objective": "Personal Data (PD) identified as \"do not sell\" by the data subject is identified.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-03.3",
+      "ao_id": "PRI-03.3_A02",
+      "objective": "the sale of Personal Data (PD) identified as \"do not sell\" is prevented anywhere the PD is stored and/or processed.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "CHG-05",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CHG-05",
+      "ao_id": "CHG-05_A01",
+      "objective": "as part of the organization's change management processes, stakeholders are alerted to spread awareness of the potential impact(s) from proposed changes.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-05",
+      "ao_id": "CHG-05_A02",
+      "objective": "changes to the system or system component location where sensitive / regulated data is processed are documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-05",
+      "ao_id": "CHG-05_A03",
+      "objective": "changes to the system or system component location where sensitive / regulated data is stored are documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-05",
+      "ao_id": "CHG-05_A04",
+      "objective": "changes to the system or system component location where CUI is processed are documented.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.04.11.b[01]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-05",
+      "ao_id": "CHG-05_A05",
+      "objective": "changes to the system or system component location where CUI is stored are documented.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.04.11.b[02]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

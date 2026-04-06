@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-12.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-12.2",
+      "ao_id": "AAT-12.2_A01",
+      "objective": "sources of data used by Artificial Intelligence and Autonomous Technologies (AAT) are evaluated for susceptibility to compromise.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-12.2",
+      "ao_id": "AAT-12.2_A02",
+      "objective": "methods to protect integrity of source data to prevent accidental contamination or malicious corruption (e.g., data poisoning) that could compromise the performance of Artificial Intelligence and Autonomous Technologies (AAT) are implemented.",
+      "pptdf": "Data",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

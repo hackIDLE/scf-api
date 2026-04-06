@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "TDA-17",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-17",
+      "ao_id": "TDA-17_A01",
+      "objective": "support from external providers is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-22_ODP[01]\n53A_R5_SA-22_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-17",
+      "ao_id": "TDA-17_A02",
+      "objective": "system components are replaced when support for the components is no longer available from the developer, vendor, or manufacturer.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-22a.\n171A_R3_A.03.16.02.a",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "END-06.5",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "END-06.5",
+      "ao_id": "END-06.5_A01",
+      "objective": "system components requiring integrity verification of the boot process are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-07(09)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-06.5",
+      "ao_id": "END-06.5_A02",
+      "objective": "the integrity of the boot process of system components is verified.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-07(09)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

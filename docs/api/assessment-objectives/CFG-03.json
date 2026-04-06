@@ -1,0 +1,146 @@
+{
+  "scf_control_id": "CFG-03",
+  "total": 14,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CFG-03",
+      "ao_id": "CFG-03_A01",
+      "objective": "configuration settings for the system that reflect the most restrictive mode consistent with operational requirements are defined (e.g., principle of least functionality).",
+      "pptdf": "Process",
+      "origin": "171A_3.4.6[a]\n53A_R5_CM-07_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03",
+      "ao_id": "CFG-03_A02",
+      "objective": "systems are configured to provide only the defined essential capabilities, where unnecessary or nonsecure functions, ports, protocols, connections, and services are disabled or removed.",
+      "pptdf": "Technology",
+      "origin": "171A_3.4.6[b]\n53A_R5_CM-07a.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03",
+      "ao_id": "CFG-03_A03",
+      "objective": "functions to be prohibited or restricted are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-07_ODP[02]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03",
+      "ao_id": "CFG-03_A04",
+      "objective": "ports to be prohibited or restricted are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-07_ODP[03]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03",
+      "ao_id": "CFG-03_A05",
+      "objective": "protocols to be prohibited or restricted are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-07_ODP[04]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03",
+      "ao_id": "CFG-03_A06",
+      "objective": "software to be prohibited or restricted is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-07_ODP[05]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03",
+      "ao_id": "CFG-03_A07",
+      "objective": "services to be prohibited or restricted are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-07_ODP[06]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03",
+      "ao_id": "CFG-03_A08",
+      "objective": "the use of organization-defined functions is prohibited or restricted.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_CM-07b.[01]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03",
+      "ao_id": "CFG-03_A09",
+      "objective": "the use of organization-defined ports is prohibited or restricted.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_CM-07b.[02]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03",
+      "ao_id": "CFG-03_A10",
+      "objective": "the use of organization-defined protocols is prohibited or restricted.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_CM-07b.[03]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03",
+      "ao_id": "CFG-03_A11",
+      "objective": "the use of organization-defined software is prohibited or restricted.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_CM-07b.[04]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03",
+      "ao_id": "CFG-03_A12",
+      "objective": "the use of organization-defined services is prohibited or restricted.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_CM-07b.[05]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03",
+      "ao_id": "CFG-03_A13",
+      "objective": "configuration settings for the system reflect the most restrictive mode consistent with operational requirements are defined.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.04.02.ODP[01]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-03",
+      "ao_id": "CFG-03_A14",
+      "objective": "unnecessary or nonsecure functions, ports, protocols, connections, and services are disabled or removed.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.04.06.d",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

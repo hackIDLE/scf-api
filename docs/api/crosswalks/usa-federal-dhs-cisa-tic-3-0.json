@@ -1,0 +1,948 @@
+{
+  "framework_id": "usa-federal-dhs-cisa-tic-3-0",
+  "display_name": "CISA Trusted Internet Connections 3.0 Security Capabilities Catalog (TIC 3.0)",
+  "scf_to_framework": {
+    "total_mappings": 148,
+    "mappings": {
+      "GOV-01": [
+        "3.UNI.PEPAR"
+      ],
+      "GOV-01.1": [
+        "3.UNI.PEPAR"
+      ],
+      "GOV-02": [
+        "3.PEP.WE.ACONT",
+        "3.UNI.IDMRP",
+        "3.UNI.PEPAR",
+        "3.UNL.GPAUD"
+      ],
+      "AST-02": [
+        "3.PEP.DA.DINVE",
+        "3.UNI.INVENT"
+      ],
+      "AST-02.5": [
+        "3.UNI.INVENT"
+      ],
+      "AST-02.8": [
+        "3.PEP.DA.DAUTE"
+      ],
+      "BCD-01": [
+        "3.UNI.IRPIH",
+        "3.UNI.RESIL"
+      ],
+      "BCD-04": [
+        "3.UNL.STEXE"
+      ],
+      "BCD-11": [
+        "3.UNI.BRECO"
+      ],
+      "BCD-12.3": [
+        "3.PEP.EM.MCQUE"
+      ],
+      "CAP-05": [
+        "3.PEP.RE.EEXPS"
+      ],
+      "CAP-06": [
+        "3.PEP.RE.RDELI"
+      ],
+      "CHG-01": [
+        "3.UNI.CMANA"
+      ],
+      "CHG-02": [
+        "3.UNI.CMANA"
+      ],
+      "CHG-04.1": [
+        "3.UNI.CMANA"
+      ],
+      "CLD-01": [
+        "3.UNI.EUSSE"
+      ],
+      "CLD-02": [
+        "3.UNI.EUSSE"
+      ],
+      "CLD-06": [
+        "3.UNI.EUSSE"
+      ],
+      "CPL-01": [
+        "3.UNL.GPAUD"
+      ],
+      "CPL-01.1": [
+        "3.UNI.PEPAR"
+      ],
+      "CPL-02": [
+        "3.UNI.PEPAR"
+      ],
+      "CFG-01": [
+        "3.UNI.CMANA"
+      ],
+      "CFG-02": [
+        "3.PEP.EM.LCTPR"
+      ],
+      "CFG-02.2": [
+        "3.UNI.CMANA"
+      ],
+      "CFG-02.3": [
+        "3.UNI.BRECO"
+      ],
+      "CFG-02.5": [
+        "3.PEP.EM.LCTPR"
+      ],
+      "MON-01": [
+        "3.UNI.AACCO",
+        "3.UNI.CLMAN",
+        "3.UNI.SAWAR",
+        "3.UNL.CMREP"
+      ],
+      "MON-01.2": [
+        "3.UNI.CLMAN"
+      ],
+      "MON-01.4": [
+        "3.UNI.AACCO"
+      ],
+      "MON-02": [
+        "3.UNI.CLMAN"
+      ],
+      "MON-02.1": [
+        "3.UNI.SAWAR",
+        "3.UNL.CMREP"
+      ],
+      "MON-02.2": [
+        "3.UNL.CMREP"
+      ],
+      "MON-02.7": [
+        "3.UNI.AACCO"
+      ],
+      "MON-03": [
+        "3.UNI.AACCO"
+      ],
+      "MON-03.2": [
+        "3.UNI.AACCO"
+      ],
+      "MON-06": [
+        "3.UNL.CMREP"
+      ],
+      "MON-07.1": [
+        "3.UNI.TSYNC"
+      ],
+      "MON-11.3": [
+        "3.UNI.DTDIS"
+      ],
+      "MON-16": [
+        "3.PEP.ID.BBASE",
+        "3.UNI.DTDIS"
+      ],
+      "CRY-03": [
+        "3.PEP.EM.EETRA",
+        "3.PEP.UN.ECOMM"
+      ],
+      "CRY-05": [
+        "3.PEP.DA.PDRES",
+        "3.PEP.DA.PDTRA"
+      ],
+      "CRY-12": [
+        "3.PEP.IN.CTLMO"
+      ],
+      "DCH-01": [
+        "3.PEP.DA.PDRES"
+      ],
+      "DCH-01.2": [
+        "3.PEP.DA.PDRES"
+      ],
+      "DCH-02": [
+        "3.PEP.DA.DLABE"
+      ],
+      "DCH-04": [
+        "3.PEP.DA.DLABE"
+      ],
+      "DCH-06.2": [
+        "3.PEP.DA.DINVE"
+      ],
+      "DCH-14.3": [
+        "3.PEP.DA.DAUTE"
+      ],
+      "DCH-22.2": [
+        "3.PEP.DA.DLABE"
+      ],
+      "END-01": [
+        "3.UNI.IDMRP"
+      ],
+      "END-04": [
+        "3.PEP.EM.PDPRO",
+        "3.PEP.FI.AMALW",
+        "3.PEP.IN.EDRES"
+      ],
+      "END-07": [
+        "3.PEP.IN.IDPSY",
+        "3.PEP.SE.ACMIT",
+        "3.PEP.WE.ACMIT"
+      ],
+      "END-08": [
+        "3.PEP.EM.APPRO",
+        "3.PEP.EM.ASPRO",
+        "3.PEP.UN.APPRO"
+      ],
+      "END-10": [
+        "3.PEP.SE.ACMIT",
+        "3.PEP.WE.ACMIT"
+      ],
+      "END-14.3": [
+        "3.PEP.UN.IVERI"
+      ],
+      "END-14.4": [
+        "3.PEP.UN.CTERM"
+      ],
+      "END-14.5": [
+        "3.PEP.UN.LCTPR",
+        "3.PEP.UN.MFPRO",
+        "3.PEP.UN.MLPRO"
+      ],
+      "END-14.6": [
+        "3.PEP.UN.MFPRO"
+      ],
+      "HRS-01": [
+        "3.UNI.UATRA"
+      ],
+      "HRS-02": [
+        "3.UNI.UATRA"
+      ],
+      "HRS-02.1": [
+        "3.UNI.UATRA"
+      ],
+      "HRS-03": [
+        "3.UNI.UATRA"
+      ],
+      "HRS-03.1": [
+        "3.UNI.UATRA"
+      ],
+      "IAC-01": [
+        "3.PEP.DA.ACONT",
+        "3.PEP.ID.EIAMA",
+        "3.PEP.NE.ACONT",
+        "3.PEP.SE.ACONT",
+        "3.PEP.WE.ACONT"
+      ],
+      "IAC-01.2": [
+        "3.PEP.ID.EINVE",
+        "3.UNI.SAUTH"
+      ],
+      "IAC-04": [
+        "3.PEP.ID.SIDEN"
+      ],
+      "IAC-05": [
+        "3.PEP.ID.SIDEN"
+      ],
+      "IAC-06": [
+        "3.PEP.ID.MAUTH",
+        "3.UNI.SAUTH"
+      ],
+      "IAC-10": [
+        "3.PEP.ID.SMANA"
+      ],
+      "IAC-10.5": [
+        "3.PEP.ID.SMANA"
+      ],
+      "IAC-10.11": [
+        "3.PEP.ID.SMANA"
+      ],
+      "IAC-13": [
+        "3.PEP.ID.AAUTH",
+        "3.PEP.IN.AACON"
+      ],
+      "IAC-13.3": [
+        "3.PEP.ID.CAUTH"
+      ],
+      "IAC-15.1": [
+        "3.PEP.ID.EINVE"
+      ],
+      "IAC-16.1": [
+        "3.PEP.ID.EINVE"
+      ],
+      "IAC-21": [
+        "3.UNI.LPRIV"
+      ],
+      "IRO-01": [
+        "3.UNI.IRPIH"
+      ],
+      "IRO-02": [
+        "3.UNI.IRPIH"
+      ],
+      "IRO-03": [
+        "3.UNI.DTDIS"
+      ],
+      "IRO-04": [
+        "3.UNI.IRPIH"
+      ],
+      "IRO-05.1": [
+        "3.UNL.STEXE"
+      ],
+      "IRO-06": [
+        "3.UNL.STEXE"
+      ],
+      "IRO-15": [
+        "3.PEP.EM.E3AEP",
+        "3.PEP.EM.MFPRO",
+        "3.PEP.EM.PDPRO",
+        "3.PEP.FI.DCHAM"
+      ],
+      "MNT-01": [
+        "3.UNI.SADMI"
+      ],
+      "MNT-05.3": [
+        "3.UNI.SADMI"
+      ],
+      "NET-01": [
+        "3.PEP.NE.ACONT"
+      ],
+      "NET-02.1": [
+        "3.PEP.RE.DDSPR"
+      ],
+      "NET-06": [
+        "3.PEP.NE.NSEGM"
+      ],
+      "NET-06.6": [
+        "3.PEP.NE.MICRO"
+      ],
+      "NET-08": [
+        "3.PEP.EM.E3AEP",
+        "3.PEP.IN.NDRES"
+      ],
+      "NET-08.3": [
+        "3.PEP.NE.HCONT"
+      ],
+      "NET-08.4": [
+        "3.PEP.NE.RCONT"
+      ],
+      "NET-10.2": [
+        "3.PEP.DO.DNVAC",
+        "3.PEP.DO.DNVAD"
+      ],
+      "NET-10.4": [
+        "3.PEP.DO.DNMON"
+      ],
+      "NET-14": [
+        "3.PEP.EN.RDACC",
+        "3.PEP.EN.VPNET"
+      ],
+      "NET-14.3": [
+        "3.PEP.EN.VPNET"
+      ],
+      "NET-14.5": [
+        "3.PEP.EN.VPNET"
+      ],
+      "NET-14.6": [
+        "3.PEP.EN.VPNET"
+      ],
+      "NET-17": [
+        "3.PEP.DA.DLPRE",
+        "3.PEP.EM.DLPRE",
+        "3.PEP.FI.DLPRE",
+        "3.PEP.SE.DLPRE",
+        "3.PEP.UN.DLPRE",
+        "3.PEP.WE.DLPRE"
+      ],
+      "NET-18": [
+        "3.PEP.DO.DNSIN",
+        "3.PEP.DO.PDSER",
+        "3.PEP.EM.CFILT",
+        "3.PEP.EM.LCTPR",
+        "3.PEP.EM.MLPRO",
+        "3.PEP.SE.MCFIL",
+        "3.PEP.WE.CFILT",
+        "3.PEP.WE.DCFIL",
+        "3.PEP.WE.DREPF",
+        "3.PEP.WE.DRESF",
+        "3.PEP.WE.MCFIL"
+      ],
+      "NET-18.2": [
+        "3.PEP.WE.BINSP"
+      ],
+      "NET-18.4": [
+        "3.PEP.SE.PCENF",
+        "3.PEP.WE.PCENF"
+      ],
+      "NET-18.5": [
+        "3.PEP.DO.DNVAC"
+      ],
+      "NET-18.6": [
+        "3.PEP.NE.IADEN"
+      ],
+      "NET-18.7": [
+        "3.PEP.WE.BCONT"
+      ],
+      "NET-18.8": [
+        "3.PEP.WE.APROX"
+      ],
+      "NET-18.9": [
+        "3.PEP.WE.CDENY"
+      ],
+      "NET-19": [
+        "3.PEP.FI.CDREC"
+      ],
+      "NET-20": [
+        "3.PEP.EM.MFPRO"
+      ],
+      "NET-20.1": [
+        "3.PE P.EM.EDRPR"
+      ],
+      "NET-20.2": [
+        "3.PEP.EM.SDENY"
+      ],
+      "NET-20.3": [
+        "3.PEP.EM.ARCHA"
+      ],
+      "NET-20.4": [
+        "3.PEP.EM.DSVIE"
+      ],
+      "NET-20.5": [
+        "3.PEP.EM.DSOEM",
+        "3.PEP.EM.UDSOE"
+      ],
+      "NET-20.6": [
+        "3.PEP.EM.EOEMA"
+      ],
+      "NET-20.7": [
+        "3.PEP.EM.AEPRO"
+      ],
+      "NET-20.8": [
+        "3.PEP.EM.ELABE"
+      ],
+      "NET-20.9": [
+        "3.PEP.EM.UTIPP"
+      ],
+      "PRM-01": [
+        "3.PEP.EN.CMONI"
+      ],
+      "PRM-03": [
+        "3.PEP.EN.CMONI"
+      ],
+      "PRM-07": [
+        "3.UNL.RLMAN"
+      ],
+      "RSK-09": [
+        "3 UNL.SCRMA"
+      ],
+      "SEA-01": [
+        "3.UNI.RESIL"
+      ],
+      "SEA-01.2": [
+        "3.UNI.RESIL"
+      ],
+      "SEA-05": [
+        "3.UNI.EUSSE"
+      ],
+      "SEA-07.1": [
+        "3.UNL.RLMAN"
+      ],
+      "SEA-11": [
+        "3.PEP.IN.DPLAT"
+      ],
+      "SEA-20": [
+        "3.UNI.TSYNC"
+      ],
+      "SEA-21": [
+        "3.PEP.EN.ACONT"
+      ],
+      "OPS-03": [
+        "3.UNI.SADMI"
+      ],
+      "OPS-06": [
+        "3.PEP.EN.SOARE"
+      ],
+      "OPS-07": [
+        "3.PEP.EN.SITDE"
+      ],
+      "SAT-01": [
+        "3.UNI.UATRA"
+      ],
+      "SAT-02": [
+        "3.UNI.UATRA"
+      ],
+      "SAT-03": [
+        "3.UNI.UATRA"
+      ],
+      "SAT-03.2": [
+        "3.PEP.ID.BBASE",
+        "3.UNI.DTDIS"
+      ],
+      "TDA-09.5": [
+        "3.UNL.STEXE"
+      ],
+      "THR-01": [
+        "3.UNI.ETINT"
+      ],
+      "THR-02": [
+        "3.UNI.DTDIS"
+      ],
+      "THR-03": [
+        "3.UNI.ETINT",
+        "3.UNI.VMANG"
+      ],
+      "THR-11": [
+        "3.PEP.ID.BBASE",
+        "3.UNI.DTDIS"
+      ],
+      "VPM-01": [
+        "3.UNI.VMANG"
+      ],
+      "VPM-04": [
+        "3.UNI.VMANG"
+      ],
+      "VPM-05": [
+        "3.UNI.PMANA"
+      ],
+      "VPM-06": [
+        "3.UNI.VMANG"
+      ],
+      "VPM-07": [
+        "3.UNL.STEXE"
+      ],
+      "VPM-10": [
+        "3.UNL.STEXE"
+      ],
+      "WEB-06": [
+        "3.UNI.SAUTH"
+      ]
+    }
+  },
+  "framework_to_scf": {
+    "total_mappings": 117,
+    "mappings": {
+      "3.UNI.PEPAR": [
+        "GOV-01",
+        "GOV-01.1",
+        "GOV-02",
+        "CPL-01.1",
+        "CPL-02"
+      ],
+      "3.PEP.WE.ACONT": [
+        "GOV-02",
+        "IAC-01"
+      ],
+      "3.UNI.IDMRP": [
+        "GOV-02",
+        "END-01"
+      ],
+      "3.UNL.GPAUD": [
+        "GOV-02",
+        "CPL-01"
+      ],
+      "3.PEP.DA.DINVE": [
+        "AST-02",
+        "DCH-06.2"
+      ],
+      "3.UNI.INVENT": [
+        "AST-02",
+        "AST-02.5"
+      ],
+      "3.PEP.DA.DAUTE": [
+        "AST-02.8",
+        "DCH-14.3"
+      ],
+      "3.UNI.IRPIH": [
+        "BCD-01",
+        "IRO-01",
+        "IRO-02",
+        "IRO-04"
+      ],
+      "3.UNI.RESIL": [
+        "BCD-01",
+        "SEA-01",
+        "SEA-01.2"
+      ],
+      "3.UNL.STEXE": [
+        "BCD-04",
+        "IRO-05.1",
+        "IRO-06",
+        "TDA-09.5",
+        "VPM-07",
+        "VPM-10"
+      ],
+      "3.UNI.BRECO": [
+        "BCD-11",
+        "CFG-02.3"
+      ],
+      "3.PEP.EM.MCQUE": [
+        "BCD-12.3"
+      ],
+      "3.PEP.RE.EEXPS": [
+        "CAP-05"
+      ],
+      "3.PEP.RE.RDELI": [
+        "CAP-06"
+      ],
+      "3.UNI.CMANA": [
+        "CHG-01",
+        "CHG-02",
+        "CHG-04.1",
+        "CFG-01",
+        "CFG-02.2"
+      ],
+      "3.UNI.EUSSE": [
+        "CLD-01",
+        "CLD-02",
+        "CLD-06",
+        "SEA-05"
+      ],
+      "3.PEP.EM.LCTPR": [
+        "CFG-02",
+        "CFG-02.5",
+        "NET-18"
+      ],
+      "3.UNI.AACCO": [
+        "MON-01",
+        "MON-01.4",
+        "MON-02.7",
+        "MON-03",
+        "MON-03.2"
+      ],
+      "3.UNI.CLMAN": [
+        "MON-01",
+        "MON-01.2",
+        "MON-02"
+      ],
+      "3.UNI.SAWAR": [
+        "MON-01",
+        "MON-02.1"
+      ],
+      "3.UNL.CMREP": [
+        "MON-01",
+        "MON-02.1",
+        "MON-02.2",
+        "MON-06"
+      ],
+      "3.UNI.TSYNC": [
+        "MON-07.1",
+        "SEA-20"
+      ],
+      "3.UNI.DTDIS": [
+        "MON-11.3",
+        "MON-16",
+        "IRO-03",
+        "SAT-03.2",
+        "THR-02",
+        "THR-11"
+      ],
+      "3.PEP.ID.BBASE": [
+        "MON-16",
+        "SAT-03.2",
+        "THR-11"
+      ],
+      "3.PEP.EM.EETRA": [
+        "CRY-03"
+      ],
+      "3.PEP.UN.ECOMM": [
+        "CRY-03"
+      ],
+      "3.PEP.DA.PDRES": [
+        "CRY-05",
+        "DCH-01",
+        "DCH-01.2"
+      ],
+      "3.PEP.DA.PDTRA": [
+        "CRY-05"
+      ],
+      "3.PEP.IN.CTLMO": [
+        "CRY-12"
+      ],
+      "3.PEP.DA.DLABE": [
+        "DCH-02",
+        "DCH-04",
+        "DCH-22.2"
+      ],
+      "3.PEP.EM.PDPRO": [
+        "END-04",
+        "IRO-15"
+      ],
+      "3.PEP.FI.AMALW": [
+        "END-04"
+      ],
+      "3.PEP.IN.EDRES": [
+        "END-04"
+      ],
+      "3.PEP.IN.IDPSY": [
+        "END-07"
+      ],
+      "3.PEP.SE.ACMIT": [
+        "END-07",
+        "END-10"
+      ],
+      "3.PEP.WE.ACMIT": [
+        "END-07",
+        "END-10"
+      ],
+      "3.PEP.EM.APPRO": [
+        "END-08"
+      ],
+      "3.PEP.EM.ASPRO": [
+        "END-08"
+      ],
+      "3.PEP.UN.APPRO": [
+        "END-08"
+      ],
+      "3.PEP.UN.IVERI": [
+        "END-14.3"
+      ],
+      "3.PEP.UN.CTERM": [
+        "END-14.4"
+      ],
+      "3.PEP.UN.LCTPR": [
+        "END-14.5"
+      ],
+      "3.PEP.UN.MFPRO": [
+        "END-14.5",
+        "END-14.6"
+      ],
+      "3.PEP.UN.MLPRO": [
+        "END-14.5"
+      ],
+      "3.UNI.UATRA": [
+        "HRS-01",
+        "HRS-02",
+        "HRS-02.1",
+        "HRS-03",
+        "HRS-03.1",
+        "SAT-01",
+        "SAT-02",
+        "SAT-03"
+      ],
+      "3.PEP.DA.ACONT": [
+        "IAC-01"
+      ],
+      "3.PEP.ID.EIAMA": [
+        "IAC-01"
+      ],
+      "3.PEP.NE.ACONT": [
+        "IAC-01",
+        "NET-01"
+      ],
+      "3.PEP.SE.ACONT": [
+        "IAC-01"
+      ],
+      "3.PEP.ID.EINVE": [
+        "IAC-01.2",
+        "IAC-15.1",
+        "IAC-16.1"
+      ],
+      "3.UNI.SAUTH": [
+        "IAC-01.2",
+        "IAC-06",
+        "WEB-06"
+      ],
+      "3.PEP.ID.SIDEN": [
+        "IAC-04",
+        "IAC-05"
+      ],
+      "3.PEP.ID.MAUTH": [
+        "IAC-06"
+      ],
+      "3.PEP.ID.SMANA": [
+        "IAC-10",
+        "IAC-10.5",
+        "IAC-10.11"
+      ],
+      "3.PEP.ID.AAUTH": [
+        "IAC-13"
+      ],
+      "3.PEP.IN.AACON": [
+        "IAC-13"
+      ],
+      "3.PEP.ID.CAUTH": [
+        "IAC-13.3"
+      ],
+      "3.UNI.LPRIV": [
+        "IAC-21"
+      ],
+      "3.PEP.EM.E3AEP": [
+        "IRO-15",
+        "NET-08"
+      ],
+      "3.PEP.EM.MFPRO": [
+        "IRO-15",
+        "NET-20"
+      ],
+      "3.PEP.FI.DCHAM": [
+        "IRO-15"
+      ],
+      "3.UNI.SADMI": [
+        "MNT-01",
+        "MNT-05.3",
+        "OPS-03"
+      ],
+      "3.PEP.RE.DDSPR": [
+        "NET-02.1"
+      ],
+      "3.PEP.NE.NSEGM": [
+        "NET-06"
+      ],
+      "3.PEP.NE.MICRO": [
+        "NET-06.6"
+      ],
+      "3.PEP.IN.NDRES": [
+        "NET-08"
+      ],
+      "3.PEP.NE.HCONT": [
+        "NET-08.3"
+      ],
+      "3.PEP.NE.RCONT": [
+        "NET-08.4"
+      ],
+      "3.PEP.DO.DNVAC": [
+        "NET-10.2",
+        "NET-18.5"
+      ],
+      "3.PEP.DO.DNVAD": [
+        "NET-10.2"
+      ],
+      "3.PEP.DO.DNMON": [
+        "NET-10.4"
+      ],
+      "3.PEP.EN.RDACC": [
+        "NET-14"
+      ],
+      "3.PEP.EN.VPNET": [
+        "NET-14",
+        "NET-14.3",
+        "NET-14.5",
+        "NET-14.6"
+      ],
+      "3.PEP.DA.DLPRE": [
+        "NET-17"
+      ],
+      "3.PEP.EM.DLPRE": [
+        "NET-17"
+      ],
+      "3.PEP.FI.DLPRE": [
+        "NET-17"
+      ],
+      "3.PEP.SE.DLPRE": [
+        "NET-17"
+      ],
+      "3.PEP.UN.DLPRE": [
+        "NET-17"
+      ],
+      "3.PEP.WE.DLPRE": [
+        "NET-17"
+      ],
+      "3.PEP.DO.DNSIN": [
+        "NET-18"
+      ],
+      "3.PEP.DO.PDSER": [
+        "NET-18"
+      ],
+      "3.PEP.EM.CFILT": [
+        "NET-18"
+      ],
+      "3.PEP.EM.MLPRO": [
+        "NET-18"
+      ],
+      "3.PEP.SE.MCFIL": [
+        "NET-18"
+      ],
+      "3.PEP.WE.CFILT": [
+        "NET-18"
+      ],
+      "3.PEP.WE.DCFIL": [
+        "NET-18"
+      ],
+      "3.PEP.WE.DREPF": [
+        "NET-18"
+      ],
+      "3.PEP.WE.DRESF": [
+        "NET-18"
+      ],
+      "3.PEP.WE.MCFIL": [
+        "NET-18"
+      ],
+      "3.PEP.WE.BINSP": [
+        "NET-18.2"
+      ],
+      "3.PEP.SE.PCENF": [
+        "NET-18.4"
+      ],
+      "3.PEP.WE.PCENF": [
+        "NET-18.4"
+      ],
+      "3.PEP.NE.IADEN": [
+        "NET-18.6"
+      ],
+      "3.PEP.WE.BCONT": [
+        "NET-18.7"
+      ],
+      "3.PEP.WE.APROX": [
+        "NET-18.8"
+      ],
+      "3.PEP.WE.CDENY": [
+        "NET-18.9"
+      ],
+      "3.PEP.FI.CDREC": [
+        "NET-19"
+      ],
+      "3.PE P.EM.EDRPR": [
+        "NET-20.1"
+      ],
+      "3.PEP.EM.SDENY": [
+        "NET-20.2"
+      ],
+      "3.PEP.EM.ARCHA": [
+        "NET-20.3"
+      ],
+      "3.PEP.EM.DSVIE": [
+        "NET-20.4"
+      ],
+      "3.PEP.EM.DSOEM": [
+        "NET-20.5"
+      ],
+      "3.PEP.EM.UDSOE": [
+        "NET-20.5"
+      ],
+      "3.PEP.EM.EOEMA": [
+        "NET-20.6"
+      ],
+      "3.PEP.EM.AEPRO": [
+        "NET-20.7"
+      ],
+      "3.PEP.EM.ELABE": [
+        "NET-20.8"
+      ],
+      "3.PEP.EM.UTIPP": [
+        "NET-20.9"
+      ],
+      "3.PEP.EN.CMONI": [
+        "PRM-01",
+        "PRM-03"
+      ],
+      "3.UNL.RLMAN": [
+        "PRM-07",
+        "SEA-07.1"
+      ],
+      "3 UNL.SCRMA": [
+        "RSK-09"
+      ],
+      "3.PEP.IN.DPLAT": [
+        "SEA-11"
+      ],
+      "3.PEP.EN.ACONT": [
+        "SEA-21"
+      ],
+      "3.PEP.EN.SOARE": [
+        "OPS-06"
+      ],
+      "3.PEP.EN.SITDE": [
+        "OPS-07"
+      ],
+      "3.UNI.ETINT": [
+        "THR-01",
+        "THR-03"
+      ],
+      "3.UNI.VMANG": [
+        "THR-03",
+        "VPM-01",
+        "VPM-04",
+        "VPM-06"
+      ],
+      "3.UNI.PMANA": [
+        "VPM-05"
+      ]
+    }
+  }
+}

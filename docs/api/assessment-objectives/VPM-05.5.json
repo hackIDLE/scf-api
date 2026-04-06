@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "VPM-05.5",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "VPM-05.5",
+      "ao_id": "VPM-05.5_A01",
+      "objective": "software and firmware components to be removed after updated versions have been installed are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-02(06)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-05.5",
+      "ao_id": "VPM-05.5_A02",
+      "objective": "previous versions of software and firmware components are removed after updated versions have been installed.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-02(06)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

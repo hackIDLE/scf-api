@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-22.8",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-22.8",
+      "ao_id": "AAT-22.8_A01",
+      "objective": "when Artificial Intelligence (AI) and Autonomous Technologies (AAT) are used to make decisions, or assist in making decisions, affected people are notified in a clear manner that they are utilizing an AAT solution.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-22.8",
+      "ao_id": "AAT-22.8_A02",
+      "objective": "when AAT are used to make decisions, or assist in making decisions, affected people are notified in a clear manner that they are expected to validate the output for relevance and accuracy.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

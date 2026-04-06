@@ -1,0 +1,110 @@
+{
+  "framework_id": "emea-grc-pirppd-1997",
+  "display_name": "Greece - Protection of Individuals with Regard to the Processing of Personal Data (1997)",
+  "scf_to_framework": {
+    "total_mappings": 17,
+    "mappings": {
+      "GOV-01": [
+        "10"
+      ],
+      "CPL-01": [
+        "10"
+      ],
+      "CPL-02": [
+        "10"
+      ],
+      "DCH-01": [
+        "9"
+      ],
+      "DCH-22.1": [
+        "13"
+      ],
+      "PRI-01": [
+        "Inferred",
+        "Expectation"
+      ],
+      "PRI-03": [
+        "5"
+      ],
+      "PRI-04": [
+        "4"
+      ],
+      "PRI-04.1": [
+        "4"
+      ],
+      "PRI-05": [
+        "4",
+        "7"
+      ],
+      "PRI-06": [
+        "11",
+        "12"
+      ],
+      "PRI-06.1": [
+        "13"
+      ],
+      "PRI-06.3": [
+        "13"
+      ],
+      "PRI-15": [
+        "6"
+      ],
+      "SEA-01": [
+        "9"
+      ],
+      "SEA-02": [
+        "9"
+      ],
+      "SEA-03": [
+        "9"
+      ]
+    }
+  },
+  "framework_to_scf": {
+    "total_mappings": 11,
+    "mappings": {
+      "4": [
+        "PRI-04",
+        "PRI-04.1",
+        "PRI-05"
+      ],
+      "5": [
+        "PRI-03"
+      ],
+      "6": [
+        "PRI-15"
+      ],
+      "7": [
+        "PRI-05"
+      ],
+      "9": [
+        "DCH-01",
+        "SEA-01",
+        "SEA-02",
+        "SEA-03"
+      ],
+      "10": [
+        "GOV-01",
+        "CPL-01",
+        "CPL-02"
+      ],
+      "11": [
+        "PRI-06"
+      ],
+      "12": [
+        "PRI-06"
+      ],
+      "13": [
+        "DCH-22.1",
+        "PRI-06.1",
+        "PRI-06.3"
+      ],
+      "Inferred": [
+        "PRI-01"
+      ],
+      "Expectation": [
+        "PRI-01"
+      ]
+    }
+  }
+}

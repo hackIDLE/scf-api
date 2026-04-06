@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-MNT-01",
+  "area": "Maintenance",
+  "artifact_name": "Maintenance - Authorized Maintenance Personnel",
+  "artifact_description": "Documented evidence of personnel who have designated maintenance roles.",
+  "scf_controls": [
+    "MNT-06.1"
+  ],
+  "cmmc_mapping": ""
+}

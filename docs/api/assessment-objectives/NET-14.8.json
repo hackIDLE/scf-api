@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "NET-14.8",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-14.8",
+      "ao_id": "NET-14.8_A01",
+      "objective": "the time period within which to disconnect or disable remote access to the system is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-17(09)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-14.8",
+      "ao_id": "NET-14.8_A02",
+      "objective": "the capability to disconnect or disable remote access to the system within an organization-defined time period is provided.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-17(09)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

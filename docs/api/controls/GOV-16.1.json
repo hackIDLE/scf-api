@@ -1,0 +1,93 @@
+{
+  "control_id": "GOV-16.1",
+  "title": "Material Risks",
+  "family": "GOV",
+  "description": "Mechanisms exist to define criteria necessary to designate a risk as a material risk.",
+  "scf_question": "Does the organization define criteria necessary to designate a risk as a material risk?",
+  "relative_weight": 7,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [
+    "E-GOV-15"
+  ],
+  "pptdf": "Process",
+  "nist_csf_function": "Govern",
+  "scrm_focus": {
+    "strategic": true,
+    "operational": true,
+    "tactical": false
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "2": "SCR-CMM Level 2 criteria definitions are not available for this control:\n▪ A reasonable person would conclude a well-defined and standardized process is required.\n▪ At this level of maturity, the “requirements-driven” nature of performing the control is focused on a localized and/or regionalized implementation, not uniform and consistent across the organization.\n▪ Requirements are narrowly scoped for applicability and are primarily derived from compliance obligations (e.g., laws, regulations and contracts).",
+    "3": "Cybersecurity & Data Protection Governance (GOV) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with GOV domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with GOV domain capabilities are well-documented and kept current by process owners.\n▪ The entity's GRC team, or similar function, is appropriately staffed and supported to implement and maintain GOV domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ Technology is leveraged to enhance the efficiency and accuracy of governance, risk management and compliance operations (e.g., GRC platform).\n▪ An implemented and operational capability exists to define criteria necessary to designate a risk as a material risk.",
+    "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [
+    "SCRMS",
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ SCF Secure, Compliant & Resilient (SCR) Risk Management Model (SCR-RMM) (https://securecontrolsframework.com/risk-management-model)\n∙ Basic risk register with materiality threshold criteria",
+    "small": "∙ SCF Secure, Compliant & Resilient (SCR) Risk Management Model (SCR-RMM) (https://securecontrolsframework.com/risk-management-model)\n∙ Risk register with documented materiality criteria\n∙ Defined risk scoring methodology",
+    "medium": "∙ SCF Secure, Compliant & Resilient (SCR) Risk Management Model (SCR-RMM) (https://securecontrolsframework.com/risk-management-model)\n∙ Formal risk register with quantitative/qualitative materiality thresholds\n∙ GRC platform risk management module",
+    "large": "∙ SCF Secure, Compliant & Resilient (SCR) Risk Management Model (SCR-RMM) (https://securecontrolsframework.com/risk-management-model)\n∙ Formal materiality criteria for risks aligned to risk appetite\n∙ Board-approved material risk thresholds\n∙ GRC platform with automated risk scoring and materiality flagging",
+    "enterprise": "∙ SCF Secure, Compliant & Resilient (SCR) Risk Management Model (SCR-RMM) (https://securecontrolsframework.com/risk-management-model)\n∙ Enterprise material risk framework aligned to SEC, SOX, and applicable regulators\n∙ Quantitative risk analysis (e.g., FAIR methodology)\n∙ Automated material risk identification and escalation"
+  },
+  "risks": [
+    "R-EX-5",
+    "R-GV-6",
+    "R-GV-7",
+    "R-IR-4",
+    "R-SC-1",
+    "R-SC-2",
+    "R-SC-3",
+    "R-SC-4",
+    "R-SC-5",
+    "R-SC-6"
+  ],
+  "threats": [
+    "MT-8",
+    "MT-9",
+    "MT-14",
+    "MT-15",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Cybersecurity & Data Protection Governance",
+  "crosswalks": {
+    "general-csa-iot-2": [
+      "RSM-01"
+    ],
+    "general-iso-31000-2018": [
+      "5.4.2"
+    ],
+    "general-iso-42001-2023": [
+      "6.1.2(c)",
+      "6.1.2(d)",
+      "6.1.2(d)(1)",
+      "6.1.2(d)(2)",
+      "6.1.2(d)(3)",
+      "6.1.2(e)",
+      "6.1.2(e)(1)",
+      "6.1.2(e)(2)"
+    ],
+    "general-naic-insurance-data-security-model-law-668-2017": [
+      "4.E(2)(b)"
+    ],
+    "usa-federal-sec-cybersecurity-rule-2023": [
+      "17 CFR 229.105(a)",
+      "17 CFR 229.105(b)",
+      "17 CFR 229.106(b)(2)"
+    ],
+    "usa-state-ny-dfs-23-nycrr500-2023-amd2": [
+      "500.4(b)",
+      "500.4(b)(3)",
+      "500.4(b)(5)",
+      "500.9(b)(1)",
+      "500.9(b)(2)"
+    ]
+  }
+}

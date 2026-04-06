@@ -1,0 +1,6 @@
+{
+  "threat_id": "MT-27",
+  "grouping": "Man-Made Threat",
+  "name": "Infrastructure",
+  "description": "Infrastructure is a threat category that pertains to the availability and functioning of fundamental facilities and systems necessary to support an industry and its supply chains within a country. This includes buildings, transportation networks, utilities and equipment. Additionally, this includes how well those facilities and systems are protected from both natural and man-made threats."
+}

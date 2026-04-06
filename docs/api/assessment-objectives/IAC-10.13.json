@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "IAC-10.13",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-10.13",
+      "ao_id": "IAC-10.13_A01",
+      "objective": "authentication credentials are changed at predefined intervals.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10.13",
+      "ao_id": "IAC-10.13_A02",
+      "objective": "authentication credentials are changed upon suspicion of credential compromise.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

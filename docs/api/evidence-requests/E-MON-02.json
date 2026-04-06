@@ -1,0 +1,12 @@
+{
+  "erl_id": "E-MON-02",
+  "area": "Event Log Monitoring",
+  "artifact_name": "Malware Activity",
+  "artifact_description": "Documented evidence of malware activity being logged and included as part of the centralized event log collection and review/analysis process.",
+  "scf_controls": [
+    "MON-01.8",
+    "MON-02.2",
+    "END-04.3"
+  ],
+  "cmmc_mapping": ""
+}

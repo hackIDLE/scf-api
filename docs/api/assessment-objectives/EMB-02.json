@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "EMB-02",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "EMB-02",
+      "ao_id": "EMB-02_A01",
+      "objective": "cybersecurity / data privacy risks associated with Internet of Things (IoT) are proactively managed.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

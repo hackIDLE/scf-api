@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-TDA-16",
+  "area": "Technology Design & Acquisition",
+  "artifact_name": "Vulnerability Disclosure Program (VDP)",
+  "artifact_description": "Documented evidence of a Vulnerability Disclosure Program (VDP) (e.g., bug bounty).",
+  "scf_controls": [
+    "THR-06"
+  ],
+  "cmmc_mapping": ""
+}

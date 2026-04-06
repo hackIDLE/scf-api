@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "TDA-02.14",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-02.14",
+      "ao_id": "TDA-02.14_A01",
+      "objective": "industry-defined secure logging formats are used to generate event logs.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

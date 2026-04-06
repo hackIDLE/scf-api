@@ -1,0 +1,126 @@
+{
+  "scf_control_id": "HRS-09",
+  "total": 12,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "HRS-09",
+      "ao_id": "HRS-09_A01",
+      "objective": "criteria and/or process for terminating system access authorization and any credentials coincide with personnel actions is established.",
+      "pptdf": "Process",
+      "origin": "171A_3.9.2[a]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-09",
+      "ao_id": "HRS-09_A02",
+      "objective": "system access and credentials are terminated consistent with personnel actions such as termination or transfer.",
+      "pptdf": "Technology",
+      "origin": "171A_3.9.2[b]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-09",
+      "ao_id": "HRS-09_A03",
+      "objective": "the system is protected during and after personnel transfer actions.",
+      "pptdf": "Technology",
+      "origin": "171A_3.9.2[c]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-09",
+      "ao_id": "HRS-09_A04",
+      "objective": "the time period within which to disable system access is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PS-04_ODP[01]\n171A_R3_A.03.09.02.ODP[01]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-09",
+      "ao_id": "HRS-09_A05",
+      "objective": "cybersecurity topics to be discussed when conducting exit interviews are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PS-04_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-09",
+      "ao_id": "HRS-09_A06",
+      "objective": "upon termination of individual employment, authenticators associated with the individual are terminated or revoked.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_PS-04a.\n171A_R3_A.03.09.02.a.02[01]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "four (4) hours",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-09",
+      "ao_id": "HRS-09_A07",
+      "objective": "upon termination of individual employment, credentials associated with the individual are terminated or revoked.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_PS-04b.\n171A_R3_A.03.09.02.a.02[02]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-09",
+      "ao_id": "HRS-09_A08",
+      "objective": "upon termination of individual employment, exit interviews that include a discussion of cybersecurity topics are conducted.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PS-04c.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-09",
+      "ao_id": "HRS-09_A09",
+      "objective": "upon termination of individual employment, security-related system property is retrieved.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PS-04d.\n171A_R3_A.03.09.02.a.03",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-09",
+      "ao_id": "HRS-09_A10",
+      "objective": "upon termination of individual employment, access to organizational information and systems formerly controlled by the terminated individual are retained.",
+      "pptdf": "Data",
+      "origin": "53A_R5_PS-04e.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-09",
+      "ao_id": "HRS-09_A11",
+      "objective": "upon termination of individual employment, system access is disabled within an organization-defined time period.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-09",
+      "ao_id": "HRS-09_A12",
+      "objective": "upon termination of individual employment, system access is disabled within <A.03.09.02.ODP[01]: time period>.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.09.02.a.01",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "four (4) hours",
+      "org_defined_parameters": ""
+    }
+  ]
+}

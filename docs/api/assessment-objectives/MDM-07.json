@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "MDM-07",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MDM-07",
+      "ao_id": "MDM-07_A01",
+      "objective": "the installation of non-approved applications or approved applications not obtained through the organization-approved application store is prohibited.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "TPM-03.1",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TPM-03.1",
+      "ao_id": "TPM-03.1_A01",
+      "objective": "acquisition strategies, contract tools and procurement methods to protect against, identify and mitigate supply chain risks are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-05_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-03.1",
+      "ao_id": "TPM-03.1_A02",
+      "objective": "acquisition strategies, contract tools, and procurement method protect against, identify and mitigate supply chain risks are developed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-05[01]\n53A_R5_SR-05[02]\n53A_R5_SR-05[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-03.1",
+      "ao_id": "TPM-03.1_A03",
+      "objective": "acquisition strategies, contract tools, and procurement methods are developed to identify supply chain risks.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.17.02[01]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-03.1",
+      "ao_id": "TPM-03.1_A04",
+      "objective": "acquisition strategies, contract tools, and procurement methods are developed to protect against supply chain risks.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.17.02[02]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-03.1",
+      "ao_id": "TPM-03.1_A05",
+      "objective": "acquisition strategies, contract tools, and procurement methods are developed to mitigate supply chain risks.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.17.02[03]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

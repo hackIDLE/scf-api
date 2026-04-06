@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "AST-25",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AST-25",
+      "ao_id": "AST-25_A01",
+      "objective": "upon return from travel to authoritarian counties, the issued temporary, loaner or \"travel-only\" end user technology (e.g., laptops and mobile devices) is wiped / re-imaged before being re-issued.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-25",
+      "ao_id": "AST-25_A02",
+      "objective": "organization-defined security requirements are applied to the system or system components when the individuals return from travel.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-25",
+      "ao_id": "AST-25_A03",
+      "objective": "the following security requirements are applied to the system or system components when the individuals return from travel: <A.03.04.12.ODP[02]: security requirements>.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.04.12.b",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "examine the system for signs of physical tampering and take the appropriate actions, and then either purge and reimage all storage media or destroy the system",
+      "org_defined_parameters": ""
+    }
+  ]
+}

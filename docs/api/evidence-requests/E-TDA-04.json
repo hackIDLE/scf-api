@@ -1,0 +1,18 @@
+{
+  "erl_id": "E-TDA-04",
+  "area": "Technology Design & Acquisition",
+  "artifact_name": "Design and Development Plan (DDP)",
+  "artifact_description": "Documented evidence of an engineering method to control the design process and govern the lifecycle of the product/service.",
+  "scf_controls": [
+    "SEA-01",
+    "SEA-02",
+    "SEA-03",
+    "TDA-02.3",
+    "TDA-05",
+    "TDA-06.3",
+    "TDA-14",
+    "TDA-14.1",
+    "TDA-14.2"
+  ],
+  "cmmc_mapping": ""
+}

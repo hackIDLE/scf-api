@@ -1,0 +1,156 @@
+{
+  "scf_control_id": "MON-03",
+  "total": 15,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MON-03",
+      "ao_id": "MON-03_A01",
+      "objective": "the content of audit records needed to support monitoring, analysis, investigation and reporting of unlawful or unauthorized system activity is defined.",
+      "pptdf": "Process",
+      "origin": "171A_3.3.1[b]\n171A_3.3.2[a]\n53A_R5_AU-02_ODP[01]\n53A_R5_AU-02_ODP[02]\n53A_R5_AU-02a.\n53A_R5_AU-02c.[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "successful and unsuccessful account logon events, account management events, object access, policy change, privilege functions, process tracking, and system events.\n\nFor Web applications: all administrator activity, authentication checks, authorization checks, data deletions, data access, data changes, and permission changes",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-03",
+      "ao_id": "MON-03_A02",
+      "objective": "audit records contain information that establishes what type of event occurred.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AU-03a.\n53A_R5_AU-02c.[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-03",
+      "ao_id": "MON-03_A03",
+      "objective": "audit records contain information that establishes when the event occurred.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AU-03b.\n53A_R5_AU-02c.[02]\n171A_R3_A.03.03.02.a.02",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-03",
+      "ao_id": "MON-03_A04",
+      "objective": "audit records contain information that establishes where the event occurred.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AU-03c.\n53A_R5_AU-02c.[02]\n171A_R3_A.03.03.02.a.03",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-03",
+      "ao_id": "MON-03_A05",
+      "objective": "audit records contain information that establishes the source of the event.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AU-03d.\n53A_R5_AU-02c.[02]\n171A_R3_A.03.03.02.a.04",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-03",
+      "ao_id": "MON-03_A06",
+      "objective": "audit records contain information that establishes the outcome of the event.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AU-03e.\n53A_R5_AU-02c.[02]\n171A_R3_A.03.03.02.a.05",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-03",
+      "ao_id": "MON-03_A07",
+      "objective": "audit records contain information that establishes the identity of the individuals, subjects, objects, or entities associated with the event.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AU-03f.\n171A_R3_A.03.03.02.a.06",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-03",
+      "ao_id": "MON-03_A08",
+      "objective": "event logs needed (e.g., event types to be logged) to enable the monitoring, analysis, investigation and reporting of unlawful or unauthorized system activity are specified.",
+      "pptdf": "Process",
+      "origin": "171A_3.3.1[a]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-03",
+      "ao_id": "MON-03_A09",
+      "objective": "a rationale is provided for why the event types selected for logging are deemed to be adequate to support after-the-fact investigations of incidents.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AU-02d.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-03",
+      "ao_id": "MON-03_A10",
+      "objective": "audit records, once created, contain the defined content.",
+      "pptdf": "Technology",
+      "origin": "171A_3.3.1[d]\n171A_3.3.2[b]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-03",
+      "ao_id": "MON-03_A11",
+      "objective": "the frequency of event types selected for logging are reviewed / updated.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AU-02_ODP[04]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least weekly",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-03",
+      "ao_id": "MON-03_A12",
+      "objective": "event types selected for logging within the system are defined.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.03.01.ODP[01]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-03",
+      "ao_id": "MON-03_A13",
+      "objective": "the following event types are specified for logging within the system: <A.03.03.01.ODP[01]: event types>.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.03.01.a",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "SDP values:\nat a minimum and where applicable:\n(1) Authentication events:\n  (a) Logons (Success/Failure)\n  (b) Logoffs (Success)\n(2) Security Relevant File and Objects events:\n  (a) Create (Success/Failure)\n  (b) Access (Success/Failure)\n  (c) Delete (Success/Failure)\n  (d) Modify (Success/Failure)\n  (e) Permission Modification (Success/Failure)\n  (f) Ownership Modification (Success/Failure)\n(3) Export/Writes/downloads to devices/digital media (e.g., CD/DVD, USB, SD) (Success/Failure)\n(4) Import/Uploads from devices/digital media (e.g., CD/DVD, USB, SD) (Success/Failure)\n(5) User and Group Management events:\n  (a) User add, delete, modify, disable, lock (Success/Failure)\n  (b) Group/Role add, delete, modify (Success/Failure)\n6) Use of Privileged/Special Rights events:\n  (a) Security or audit policy changes (Success/Failure)\n  (b) Configuration changes (Success/Failure)\n(7) Admin or root-level access (Success/Failure)\n(8) Privilege/Role escalation (Success/Failure)\n(9) Audit and security relevant log data accesses (Success/Failure)\n(10) System reboot, restart, and shutdown (Success/Failure)\n(11) Print to a device (Success/Failure)\n(12) Print to a file (e.g., pdf format) (Success/Failure)\n(13) Application (e.g., Adobe, Firefox, MS Office Suite) initialization (Success/Failure)\n\nFor additional guidance, see: OMB21-31 ML 1",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-03",
+      "ao_id": "MON-03_A14",
+      "objective": "the event types selected for logging are updated <A.03.03.01.ODP[02]: frequency>.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.03.01.b[02]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "at least every 12 months and after any significant incidents or significant changes to risks",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-03",
+      "ao_id": "MON-03_A15",
+      "objective": "additional information for audit records is provided, as needed.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.03.02.b",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

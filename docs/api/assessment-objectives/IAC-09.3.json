@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "IAC-09.3",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-09.3",
+      "ao_id": "IAC-09.3_A01",
+      "objective": "individual identifiers are dynamically managed in accordance with dynamic identifier policy.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-04(05)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-09.3",
+      "ao_id": "IAC-09.3_A02",
+      "objective": "rules for dynamically binding identities and authenticators are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IA-05(10)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-09.3",
+      "ao_id": "IAC-09.3_A03",
+      "objective": "identities and authenticators are dynamically bound using organization-defined binding rules.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-05(10)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

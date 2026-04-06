@@ -1,0 +1,13 @@
+{
+  "erl_id": "E-AST-03",
+  "area": "Asset Management",
+  "artifact_name": "Asset Disposal Evidence",
+  "artifact_description": "Documented evidence of asset disposal/destruction (e.g., asset tracking by serial # for shredding, degaussing, etc.).",
+  "scf_controls": [
+    "AST-09",
+    "DCH-08",
+    "DCH-09",
+    "DCH-09.1"
+  ],
+  "cmmc_mapping": ""
+}

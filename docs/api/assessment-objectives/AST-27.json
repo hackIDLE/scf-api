@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AST-27",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AST-27",
+      "ao_id": "AST-27_A01",
+      "objective": "a \"jump box\" or \"jump server\" is established in secure enclaves that are in a separate network zone to user workstations.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-27",
+      "ao_id": "AST-27_A02",
+      "objective": "non-console system administrative functions are restricted to connect to secure enclaves via a \"jump box\" or \"jump server\" that is located in a separate network zone to user workstations.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

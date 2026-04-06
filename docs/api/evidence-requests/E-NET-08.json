@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-NET-08",
+  "area": "Network Security",
+  "artifact_name": "Internal Boundaries",
+  "artifact_description": "Documented evidence of key internal boundaries.",
+  "scf_controls": [
+    "NET-03"
+  ],
+  "cmmc_mapping": "SC.L1-3.13.1\nSC.L1-3.13.5"
+}

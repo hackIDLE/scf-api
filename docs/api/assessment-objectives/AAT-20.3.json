@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "AAT-20.3",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-20.3",
+      "ao_id": "AAT-20.3_A01",
+      "objective": "documentation covering the extent to which human domain knowledge is employed to improve Artificial Intelligence (AI) and Autonomous Technologies (AAT) performance includes reinforcement Learning from Human Feedback (RLHF).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-20.3",
+      "ao_id": "AAT-20.3_A02",
+      "objective": "documentation covering the extent to which human domain knowledge is employed to improve Artificial Intelligence (AI) and Autonomous Technologies (AAT) performance includes fine-tuning.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-20.3",
+      "ao_id": "AAT-20.3_A03",
+      "objective": "documentation covering the extent to which human domain knowledge is employed to improve Artificial Intelligence (AI) and Autonomous Technologies (AAT) performance includes retrieval- augmented generation.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-20.3",
+      "ao_id": "AAT-20.3_A04",
+      "objective": "documentation covering the extent to which human domain knowledge is employed to improve Artificial Intelligence (AI) and Autonomous Technologies (AAT) performance includes content moderation.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-20.3",
+      "ao_id": "AAT-20.3_A05",
+      "objective": "documentation covering the extent to which human domain knowledge is employed to improve Artificial Intelligence (AI) and Autonomous Technologies (AAT) performance includes business rules.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

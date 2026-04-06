@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "HRS-06.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "HRS-06.2",
+      "ao_id": "HRS-06.2_A01",
+      "objective": "individuals are notified of applicable, legally binding post-employment requirements for the protection of organizational information.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PS-06(03)(a)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-06.2",
+      "ao_id": "HRS-06.2_A02",
+      "objective": "individuals are required to sign an acknowledgement of applicable, legally binding post-employment requirements as part of being granted initial access to covered information.",
+      "pptdf": "People",
+      "origin": "53A_R5_PS-06(03)(b)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

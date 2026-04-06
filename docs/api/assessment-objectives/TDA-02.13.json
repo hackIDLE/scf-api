@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "TDA-02.13",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-02.13",
+      "ao_id": "TDA-02.13_A01",
+      "objective": "applicable stakeholders are notified about potentially exploitable vulnerabilities in organization-developed products and/or services, as required by statutory, regulatory and/or contractual obligations.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

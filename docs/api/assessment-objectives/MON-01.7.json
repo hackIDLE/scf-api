@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "MON-01.7",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MON-01.7",
+      "ao_id": "MON-01.7_A01",
+      "objective": "integrity verification tools are employed to detect unauthorized changes to organization-defined software, firmware and/or information.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-07a.[01]\n53A_R5_SI-07a.[02]\n53A_R5_SI-07a.[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-01.7",
+      "ao_id": "MON-01.7_A02",
+      "objective": "organization-defined actions are taken when unauthorized changes to the software, firmware and/or information, are detected;",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-07b.[01]\n53A_R5_SI-07b.[02]\n53A_R5_SI-07b.[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

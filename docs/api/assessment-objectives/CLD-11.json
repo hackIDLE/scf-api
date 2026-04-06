@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "CLD-11",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CLD-11",
+      "ao_id": "CLD-11_A01",
+      "objective": "a Cloud Access Security Broker (CASB), or similar technology, is utilized to provide boundary protection and monitoring functions that both provide access to the cloud and protect the organization from the cloud.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

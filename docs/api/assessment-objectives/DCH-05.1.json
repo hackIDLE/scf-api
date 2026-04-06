@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "DCH-05.1",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-05.1",
+      "ao_id": "DCH-05.1_A01",
+      "objective": "subjects or objects with which cybersecurity / data privacy attributes are to be dynamically associated as information is created and combined are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-16(01)_ODP[01]\n53A_R5_AC-16(01)_ODP[02]\n53A_R5_AC-16(01)_ODP[03]\n53A_R5_AC-16(01)_ODP[04]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-05.1",
+      "ao_id": "DCH-05.1_A02",
+      "objective": "cybersecurity / data privacy policies requiring dynamic association of cybersecurity / data privacy attributes with subjects and objects are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-16(01)_ODP[05]\n53A_R5_AC-16(01)_ODP[06]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-05.1",
+      "ao_id": "DCH-05.1_A03",
+      "objective": "cybersecurity / data privacy attributes are dynamically associated with organization-defined subjects or objects as information is created or combined.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-16(01)[01]\n53A_R5_AC-16(01)[02]\n53A_R5_AC-16(01)[03]\n53A_R5_AC-16(01)[04]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

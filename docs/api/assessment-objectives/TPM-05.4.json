@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "TPM-05.4",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TPM-05.4",
+      "ao_id": "TPM-05.4_A01",
+      "objective": "a Responsible, Accountable, Supportive, Consulted & Informed (RASCI) matrix, or similar documentation, delineates assignment for cybersecurity / data privacy controls between internal stakeholders and Third-Party Service Providers (TSP).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-05.4",
+      "ao_id": "TPM-05.4_A02",
+      "objective": "user roles and responsibilities with regard to external system services, including shared responsibilities with external service providers, are defined and documented.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.16.03.b",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

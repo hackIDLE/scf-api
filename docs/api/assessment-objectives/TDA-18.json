@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "TDA-18",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-18",
+      "ao_id": "TDA-18_A01",
+      "objective": "information inputs to the system requiring validity checks are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-10_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-18",
+      "ao_id": "TDA-18_A02",
+      "objective": "the validity of the organization-defined information inputs is checked.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-10",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-18",
+      "ao_id": "TDA-18_A03",
+      "objective": "approved authorizations for logical access to information and system resources are enforced in accordance with applicable access control policies.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-03",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

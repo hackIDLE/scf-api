@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "TPM-03.4",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TPM-03.4",
+      "ao_id": "TPM-03.4_A01",
+      "objective": "controls to ensure an adequate supply of critical system components are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-05(01)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-03.4",
+      "ao_id": "TPM-03.4_A02",
+      "objective": "critical system components of which an adequate supply is required are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-05(01)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-03.4",
+      "ao_id": "TPM-03.4_A03",
+      "objective": "controls are employed to ensure an adequate supply of critical system components.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-05(01)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

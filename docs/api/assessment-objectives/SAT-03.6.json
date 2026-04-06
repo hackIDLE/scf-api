@@ -1,0 +1,76 @@
+{
+  "scf_control_id": "SAT-03.6",
+  "total": 7,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "SAT-03.6",
+      "ao_id": "SAT-03.6_A01",
+      "objective": "literacy training on the cyber threat environment is provided.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AT-02(06)(a)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-03.6",
+      "ao_id": "SAT-03.6_A02",
+      "objective": "system operations reflect current cyber threat information.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AT-02(06)(b)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-03.6",
+      "ao_id": "SAT-03.6_A03",
+      "objective": "the frequency of providing awareness training is defined.",
+      "pptdf": "Process",
+      "origin": "172A_3.2.1e_ODP[1]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least every 12 months, or when there are significant\nincidents or significant changes to risks",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-03.6",
+      "ao_id": "SAT-03.6_A04",
+      "objective": "the frequency of updating awareness training is defined.",
+      "pptdf": "Process",
+      "origin": "172A_3.2.1e_ODP[2]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least every 12 months, or when there are significant\nincidents or significant changes to risks",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-03.6",
+      "ao_id": "SAT-03.6_A05",
+      "objective": "security literacy training is provided to system users when required by system changes or following <A.03.02.01.ODP[02]: events>.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.02.01.a.02",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "significant, novel incidents, or significant changes to risks",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-03.6",
+      "ao_id": "SAT-03.6_A06",
+      "objective": "security literacy training content is updated <A.03.02.01.ODP[03]: frequency>.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.02.01.b[01]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "at least every 12 months",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-03.6",
+      "ao_id": "SAT-03.6_A07",
+      "objective": "security literacy training content is updated following <A.03.02.01.ODP[04]: events>.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.02.01.b[02]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "significant, novel incidents, or significant changes to risks",
+      "org_defined_parameters": ""
+    }
+  ]
+}

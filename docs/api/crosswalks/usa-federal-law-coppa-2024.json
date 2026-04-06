@@ -1,0 +1,74 @@
+{
+  "framework_id": "usa-federal-law-coppa-2024",
+  "display_name": "Children's Online Privacy Protection Act (COPPA) (2024)",
+  "scf_to_framework": {
+    "total_mappings": 10,
+    "mappings": {
+      "CPL-01": [
+        "Sec. 6502.(a)(1)"
+      ],
+      "PRI-01.6": [
+        "Sec. 6502.(b)(1)(D)"
+      ],
+      "PRI-01.11": [
+        "Sec. 6502.(b)(1)(D)"
+      ],
+      "PRI-02": [
+        "Sec. 6502.(b)(1)(A)(i)"
+      ],
+      "PRI-03.4": [
+        "Sec. 6502.(b)(1)(B)(ii)"
+      ],
+      "PRI-03.6": [
+        "Sec. 6502.(b)(1)(B)",
+        "Sec. 6502.(b)(1)(B)(ii)"
+      ],
+      "PRI-03.13": [
+        "Sec. 6502.(b)(1)(A)(ii)"
+      ],
+      "PRI-04": [
+        "Sec. 6502.(a)(1)"
+      ],
+      "PRI-05.7": [
+        "Sec. 6502.(b)(1)(B)(i)"
+      ],
+      "PRI-06": [
+        "Sec. 6502.(b)(1)(B)",
+        "Sec. 6502.(b)(1)(B)(iii)"
+      ]
+    }
+  },
+  "framework_to_scf": {
+    "total_mappings": 8,
+    "mappings": {
+      "Sec. 6502.(a)(1)": [
+        "CPL-01",
+        "PRI-04"
+      ],
+      "Sec. 6502.(b)(1)(D)": [
+        "PRI-01.6",
+        "PRI-01.11"
+      ],
+      "Sec. 6502.(b)(1)(A)(i)": [
+        "PRI-02"
+      ],
+      "Sec. 6502.(b)(1)(B)(ii)": [
+        "PRI-03.4",
+        "PRI-03.6"
+      ],
+      "Sec. 6502.(b)(1)(B)": [
+        "PRI-03.6",
+        "PRI-06"
+      ],
+      "Sec. 6502.(b)(1)(A)(ii)": [
+        "PRI-03.13"
+      ],
+      "Sec. 6502.(b)(1)(B)(i)": [
+        "PRI-05.7"
+      ],
+      "Sec. 6502.(b)(1)(B)(iii)": [
+        "PRI-06"
+      ]
+    }
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "scf_control_id": "TDA-06",
+  "total": 16,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-06",
+      "ao_id": "TDA-06_A01",
+      "objective": "software development techniques that promote effective cybersecurity / data privacy are identified.",
+      "pptdf": "Process",
+      "origin": "171A_3.13.2[b]\n53A_R5_SA-04(03)_ODP[01]\n53A_R5_SA-04(03)_ODP[02]\n53A_R5_SA-04(03)_ODP[03]\n53A_R5_SA-04(03)_ODP[04]\n53A_R5_SA-04(03)_ODP[05]\n53A_R5_SA-04(03)_ODP[06]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-06",
+      "ao_id": "TDA-06_A02",
+      "objective": "testing, evaluation, assessment, verification and validation methods are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-04(03)_ODP[07]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-06",
+      "ao_id": "TDA-06_A03",
+      "objective": "cybersecurity / data privacy requirements to be satisfied by the process, standards, tools, tool options and tool configurations are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-15_ODP[02]\n53A_R5_SA-15_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-06",
+      "ao_id": "TDA-06_A04",
+      "objective": "identified software development techniques that promote effective cybersecurity / data privacy are employed.",
+      "pptdf": "Process",
+      "origin": "171A_3.13.2[e]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-06",
+      "ao_id": "TDA-06_A05",
+      "objective": "quality control processes are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-04(03)_ODP[08]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-06",
+      "ao_id": "TDA-06_A06",
+      "objective": "frequency at which to review the development process, standards, tools, tool options and tool configurations is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-15_ODP[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least every 12 months, or when there are significant\nincidents or significant changes to risks",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-06",
+      "ao_id": "TDA-06_A07",
+      "objective": "the developer of the system, system component or system service is required to follow a documented development process that explicitly addresses security requirements.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-15a.01[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-06",
+      "ao_id": "TDA-06_A08",
+      "objective": "the developer of the system, system component or system service is required to follow a documented development process that explicitly addresses privacy requirements.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-15a.01[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-06",
+      "ao_id": "TDA-06_A09",
+      "objective": "the developer of the system, system component or system service is required to follow a documented development process that identifies the standards used in the development process.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-15a.02[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-06",
+      "ao_id": "TDA-06_A10",
+      "objective": "the developer of the system, system component or system service is required to follow a documented development process that identifies the tools used in the development process.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-15a.02[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-06",
+      "ao_id": "TDA-06_A11",
+      "objective": "the developer of the system, system component or system service is required to follow a documented development process that documents the specific tool used in the development process.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-15a.03[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-06",
+      "ao_id": "TDA-06_A12",
+      "objective": "the developer of the system, system component or system service is required to follow a documented development process that documents the specific tool configurations used in the development process.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-15a.03[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-06",
+      "ao_id": "TDA-06_A13",
+      "objective": "the developer of the system, system component or system service is required to follow a documented development process that documents, manages and ensures the integrity of changes to the process and/or tools used in development.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-15a.04",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-06",
+      "ao_id": "TDA-06_A14",
+      "objective": "the developer of the system, system component or system service is required to follow a documented development process in which the development process, standards, tools, tool options and tool configurations are reviewed frequently to determine that the process, standards, tools, tool options and tool configurations selected and employed satisfy security requirements.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-15b.[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-06",
+      "ao_id": "TDA-06_A15",
+      "objective": "the developer of the system, system component or system service is required to follow a documented development process in which the development process, standards, tools, tool options and tool configurations are reviewed frequently to determine that the process, standards, tools, tool options and tool configurations selected and employed satisfy privacy requirements.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-15b.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-06",
+      "ao_id": "TDA-06_A16",
+      "objective": "the developer of the system, system component or system service is required to demonstrate the use of a system development life cycle process that includes organization-defined system security engineering methods.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-04(03)(a)\n53A_R5_SA-04(03)(b)\n53A_R5_SA-04(03)(c)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

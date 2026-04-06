@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "SEA-21",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "SEA-21",
+      "ao_id": "SEA-21_A01",
+      "objective": "application containers (virtualization approach) are used to isolate to a known set of dependencies, access methods and interfaces.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

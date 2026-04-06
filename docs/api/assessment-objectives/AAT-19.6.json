@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-19.6",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-19.6",
+      "ao_id": "AAT-19.6_A01",
+      "objective": "the organization prohibits the sale, deployment and/or use of Artificial Intelligence (AI) and Autonomous Technologies (AAT) that create, or expand, facial recognition databases through scraping facial images from the Internet.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-19.6",
+      "ao_id": "AAT-19.6_A02",
+      "objective": "the organization prohibits the sale, deployment and/or use of Artificial Intelligence (AI) and Autonomous Technologies (AAT) that create, or expand, facial recognition databases through scraping facial images from the Internet or Closed-Circuit Television (CCTV) footage.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

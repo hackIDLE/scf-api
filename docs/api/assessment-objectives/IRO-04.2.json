@@ -1,0 +1,206 @@
+{
+  "scf_control_id": "IRO-04.2",
+  "total": 20,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IRO-04.2",
+      "ao_id": "IRO-04.2_A01",
+      "objective": "an official to manage the incident response policy / procedures is defined.",
+      "pptdf": "People",
+      "origin": "53A_R5_IR-01_ODP[03]\n53A_R5_IR-01_ODP[04]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04.2",
+      "ao_id": "IRO-04.2_A02",
+      "objective": "the frequency at which the current incident response policy / procedures is reviewed / updated is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-01_ODP[05]\n53A_R5_IR-01_ODP[07]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04.2",
+      "ao_id": "IRO-04.2_A03",
+      "objective": "events that would require the current incident response policy / procedures to be reviewed / updated are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-01_ODP[06]\n53A_R5_IR-01_ODP[08]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04.2",
+      "ao_id": "IRO-04.2_A04",
+      "objective": "the current incident response policy / procedures are reviewed / updated organization-defined frequency.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-01c.01[01]\n53A_R5_IR-01c.02[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04.2",
+      "ao_id": "IRO-04.2_A05",
+      "objective": "the current incident response policy / procedures are reviewed / updated following organization-defined events.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-01c.01[02]\n53A_R5_IR-01c.02[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04.2",
+      "ao_id": "IRO-04.2_A06",
+      "objective": "the incident response plan is updated to address system and organizational changes or problems encountered during plan implementation, execution, or testing.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.06.05.c",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04.2",
+      "ao_id": "IRO-04.2_A07",
+      "objective": "personnel or roles to whom the incident response policy / procedures is to be disseminated are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-01_ODP[01]\n53A_R5_IR-01_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04.2",
+      "ao_id": "IRO-04.2_A08",
+      "objective": "an incident response policy is developed and documented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-01a.[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04.2",
+      "ao_id": "IRO-04.2_A09",
+      "objective": "the incident response policy is disseminated to organization-defined personnel or roles.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-01a.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04.2",
+      "ao_id": "IRO-04.2_A10",
+      "objective": "incident response procedures to facilitate the implementation of the incident response policy and associated incident response controls are developed and documented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-01a.[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04.2",
+      "ao_id": "IRO-04.2_A11",
+      "objective": "the incident response procedures are disseminated to organization-defined personnel or roles.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-01a.[04]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04.2",
+      "ao_id": "IRO-04.2_A12",
+      "objective": "the organization's incident response policy addresses purpose.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-01a.01(a)[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04.2",
+      "ao_id": "IRO-04.2_A13",
+      "objective": "the organization's incident response policy addresses scope.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-01a.01(a)[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04.2",
+      "ao_id": "IRO-04.2_A14",
+      "objective": "the organization's incident response policy addresses roles.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-01a.01(a)[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04.2",
+      "ao_id": "IRO-04.2_A15",
+      "objective": "the organization's incident response policy addresses responsibilities.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-01a.01(a)[04]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04.2",
+      "ao_id": "IRO-04.2_A16",
+      "objective": "the organization's incident response policy addresses management commitment.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-01a.01(a)[05]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04.2",
+      "ao_id": "IRO-04.2_A17",
+      "objective": "the organization's incident response policy addresses coordination among organizational entities.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-01a.01(a)[06]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04.2",
+      "ao_id": "IRO-04.2_A18",
+      "objective": "the organization's incident response policy addresses compliance.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-01a.01(a)[07]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04.2",
+      "ao_id": "IRO-04.2_A19",
+      "objective": "the organization's incident response policy is consistent with applicable laws, Executive Orders, directives, regulations, policies, standards, and guidelines.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-01a.01(b)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04.2",
+      "ao_id": "IRO-04.2_A20",
+      "objective": "the organization-defined official is designated to manage the development, documentation, and dissemination of the incident response policy and procedures.",
+      "pptdf": "People",
+      "origin": "53A_R5_IR-01b.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

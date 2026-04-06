@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "PES-14",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PES-14",
+      "ao_id": "PES-14_A01",
+      "objective": "asset location technologies to be employed to track and monitor the location and movement of assets is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PE-20_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-14",
+      "ao_id": "PES-14_A02",
+      "objective": "assets whose location and movement are to be tracked and monitored are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PE-20_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-14",
+      "ao_id": "PES-14_A03",
+      "objective": "controlled areas within which asset location and movement are to be tracked and monitored are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PE-20_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-14",
+      "ao_id": "PES-14_A04",
+      "objective": "asset location technologies are employed to track and monitor the location and movement of assets within controlled areas.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-20",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

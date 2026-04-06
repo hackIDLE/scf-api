@@ -1,0 +1,86 @@
+{
+  "scf_control_id": "SAT-02.1",
+  "total": 8,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "SAT-02.1",
+      "ao_id": "SAT-02.1_A01",
+      "objective": "practical exercises are identified.",
+      "pptdf": "Process",
+      "origin": "172A_3.2.2e[a]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-02.1",
+      "ao_id": "SAT-02.1_A02",
+      "objective": "current threat scenarios are identified.",
+      "pptdf": "Process",
+      "origin": "172A_3.2.2e[b]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-02.1",
+      "ao_id": "SAT-02.1_A03",
+      "objective": "practical exercises in literacy training that simulate events and incidents are provided.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AT-02(01)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-02.1",
+      "ao_id": "SAT-02.1_A04",
+      "objective": "individuals involved in training and their supervisors are identified.",
+      "pptdf": "Process",
+      "origin": "172A_3.2.2e[c]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-02.1",
+      "ao_id": "SAT-02.1_A05",
+      "objective": "practical exercises that are aligned with current threat scenarios are included in awareness training for roles.",
+      "pptdf": "Process",
+      "origin": "172A_3.2.2e[d]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-02.1",
+      "ao_id": "SAT-02.1_A06",
+      "objective": "frequency at which to provide feedback on organizational training results is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AT-06_ODP[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-02.1",
+      "ao_id": "SAT-02.1_A07",
+      "objective": "personnel to whom feedback on organizational training results will be provided is/are assigned.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AT-06_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-02.1",
+      "ao_id": "SAT-02.1_A08",
+      "objective": "feedback on organizational training results is provided organization-defined frequency to organization-defined personnel.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AT-06\n172A_3.2.2e[e]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

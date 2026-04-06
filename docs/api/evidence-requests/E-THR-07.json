@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-THR-07",
+  "area": "Threat Management",
+  "artifact_name": "Threat Analysis",
+  "artifact_description": "Documented evidence of a completed threat analysis.",
+  "scf_controls": [
+    "THR-10"
+  ],
+  "cmmc_mapping": ""
+}

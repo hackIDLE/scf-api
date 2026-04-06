@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "PRI-02.4",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-02.4",
+      "ao_id": "PRI-02.4_A01",
+      "objective": "System of Records Notices (SORNs) are drafted in accordance with OMB guidance for systems that process information that will be maintained in a Privacy Act system of records.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PT-06a.[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-02.4",
+      "ao_id": "PRI-02.4_A02",
+      "objective": "new and significantly modified system of records notices are submitted to the OMB and appropriate congressional committees for advance review for systems that process information that will be maintained in a Privacy Act system of records.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PT-06a.[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-02.4",
+      "ao_id": "PRI-02.4_A03",
+      "objective": "System of Records Notices (SORNs) are published in the Federal Register for systems that process information that will be maintained in a Privacy Act system of records.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PT-06b.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-02.4",
+      "ao_id": "PRI-02.4_A04",
+      "objective": "System of Records Notices (SORNs) are kept accurate, up-to-date and scoped in accordance with policy for systems that process information that will be maintained in a Privacy Act system of records.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PT-06c.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

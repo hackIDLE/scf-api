@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "TDA-21",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-21",
+      "ao_id": "TDA-21_A01",
+      "objective": "developed products and/or services conform to applicable statutory and regulatory requirements, based on the product's and/or service's use case(s).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-21",
+      "ao_id": "TDA-21_A02",
+      "objective": "developed products and/or services conform to applicable statutory and regulatory requirements, based on the product's and/or service's geographic markets.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

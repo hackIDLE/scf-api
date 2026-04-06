@@ -1,0 +1,17 @@
+{
+  "erl_id": "E-HRS-19",
+  "area": "Human Resources",
+  "artifact_name": "Deprovisioning Checklist (Offboarding)",
+  "artifact_description": "Documented evidence of personnel management practices to formally offboard personnel from their assigned roles due to employment termination or role change.",
+  "scf_controls": [
+    "HRS-06.2",
+    "HRS-09",
+    "HRS-09.1",
+    "HRS-09.2",
+    "HRS-09.3",
+    "IAC-07",
+    "IAC-07.1",
+    "IAC-07.2"
+  ],
+  "cmmc_mapping": ""
+}

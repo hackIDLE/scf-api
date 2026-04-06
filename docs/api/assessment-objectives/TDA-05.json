@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "TDA-05",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-05",
+      "ao_id": "TDA-05_A01",
+      "objective": "the developer of the system, system component or system service is required to produce a design specification and cybersecurity / data privacy architecture that are consistent with the organization's security architecture, which is an integral part the organization's enterprise architecture.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-17(a)[01]\n53A_R5_SA-17(a)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-05",
+      "ao_id": "TDA-05_A02",
+      "objective": "the developer of the system, system component or system service is required to produce a design specification and cybersecurity / data privacy architecture that accurately and completely describe the required security functionality and the allocation of controls among physical and logical components.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-17(b)[01]\n53A_R5_SA-17(b)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-05",
+      "ao_id": "TDA-05_A03",
+      "objective": "the developer of the system, system component or system service is required to produce a design specification and cybersecurity / data privacy architecture that express how individual security functions, mechanisms and services work together to provide required security capabilities and a unified approach to protection.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-17(c)[01]\n53A_R5_SA-17(c)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

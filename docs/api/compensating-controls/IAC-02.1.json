@@ -1,0 +1,16 @@
+{
+  "control_id": "IAC-02.1",
+  "risk_if_not_implemented": "Without Group Authentication, unauthorized users may gain access to systems or data, increasing risk of data breaches and insider threats.",
+  "compensating_control_1": {
+    "control_id": "IAC-06",
+    "name": "Multi-Factor Authentication (MFA)",
+    "description": "Automated mechanisms exist to enforce Multi-Factor Authentication (MFA) for:\n(1) Remote network access; \n(2) Third-party Technology Assets, Applications and/or Services (TAAS); and/ or\n(3) Non-console access to critical TAAS that store, transmit and/or process sensitive/regulated data.",
+    "justification": "Multi-Factor Authentication (MFA) (IAC-06) provides access control enforcement that compensates for the absence of Group Authentication (IAC-02.1) by restricting system and data access to authorized users through alternative identity and access mechanisms. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  },
+  "compensating_control_2": {
+    "control_id": "IAC-22",
+    "name": "Account Lockout",
+    "description": "Mechanisms exist to enforce a limit for consecutive invalid login attempts by a user during an organization-defined time period and automatically locks the account when the maximum number of unsuccessful attempts is exceeded.",
+    "justification": "Account Lockout (IAC-22) provides access control enforcement that compensates for the absence of Group Authentication (IAC-02.1) by restricting system and data access to authorized users through alternative identity and access mechanisms. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  }
+}

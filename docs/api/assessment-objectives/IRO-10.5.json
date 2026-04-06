@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "IRO-10.5",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IRO-10.5",
+      "ao_id": "IRO-10.5_A01",
+      "objective": "serious incident involving the organization's systems, applications and/or services are reported to relevant authorities in the locality where the incident occurred, in accordance with legal requirements.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

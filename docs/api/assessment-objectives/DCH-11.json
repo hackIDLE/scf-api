@@ -1,0 +1,106 @@
+{
+  "scf_control_id": "DCH-11",
+  "total": 10,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-11",
+      "ao_id": "DCH-11_A01",
+      "objective": "a system media downgrading process is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MP-08_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-11",
+      "ao_id": "DCH-11_A02",
+      "objective": "system media requiring downgrading is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MP-08_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-11",
+      "ao_id": "DCH-11_A03",
+      "objective": "a system media downgrading process is established.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MP-08a.[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-11",
+      "ao_id": "DCH-11_A04",
+      "objective": "the system media downgrading process includes employing downgrading mechanisms with strength and integrity commensurate with the security category or classification of the information.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MP-08a.[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-11",
+      "ao_id": "DCH-11_A05",
+      "objective": "there is verification that the system media downgrading process is commensurate with the security category and/or classification level of the information to be removed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MP-08b.[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-11",
+      "ao_id": "DCH-11_A06",
+      "objective": "there is verification that the system media downgrading process is commensurate with the access authorizations of the potential recipients of the downgraded information.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MP-08b.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-11",
+      "ao_id": "DCH-11_A07",
+      "objective": "system media requiring downgrading is identified.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MP-08c.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-11",
+      "ao_id": "DCH-11_A08",
+      "objective": "the identified system media is downgraded using the system media downgrading process.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MP-08d.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-11",
+      "ao_id": "DCH-11_A09",
+      "objective": "system media containing sensitive and/or regulated information is identified.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MP-08(03)[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-11",
+      "ao_id": "DCH-11_A10",
+      "objective": "system media containing sensitive and/or regulated information is downgraded prior to public release.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_MP-08(03)[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

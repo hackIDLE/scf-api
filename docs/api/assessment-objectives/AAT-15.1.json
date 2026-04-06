@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-15.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-15.1",
+      "ao_id": "AAT-15.1_A01",
+      "objective": "residual risks (defined as the sum of all unmitigated risks) to both downstream acquirers and end users of Artificial Intelligence (AI) and Autonomous Technologies (AAT) are identified.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-15.1",
+      "ao_id": "AAT-15.1_A02",
+      "objective": "residual risks (defined as the sum of all unmitigated risks) to both downstream acquirers and end users of Artificial Intelligence (AI) and Autonomous Technologies (AAT) documented in a Plan of Action & Milestones (POA&M), or similar risk register.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

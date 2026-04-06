@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "IAC-29",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-29",
+      "ao_id": "IAC-29_A01",
+      "objective": "Attribute-Based Access Control (ABAC) is enforced for policy-driven, dynamic authorizations that supports the secure sharing of information.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

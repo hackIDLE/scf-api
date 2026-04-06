@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "MON-03.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MON-03.1",
+      "ao_id": "MON-03.1_A01",
+      "objective": "additional information to be included in audit records is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AU-03(01)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-03.1",
+      "ao_id": "MON-03.1_A02",
+      "objective": "generated audit records contain the following organization-defined additional information.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AU-03(01)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "session, connection, transaction, or activity duration; \n\nFor client-server transactions, the number of bytes received and bytes sent; additional informational messages to diagnose or identify the event; characteristics that describe or identify the object or resource being acted upon; individual identities of group account users; full-text of privileged commands",
+      "org_defined_parameters": ""
+    }
+  ]
+}

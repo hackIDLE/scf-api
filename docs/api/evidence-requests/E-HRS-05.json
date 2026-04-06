@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-HRS-05",
+  "area": "Human Resources",
+  "artifact_name": "Role Assignment - CISO",
+  "artifact_description": "Documented evidence of a formal role assignment to the Chief Information Security Officer (CISO) position.",
+  "scf_controls": [
+    "GOV-04"
+  ],
+  "cmmc_mapping": ""
+}

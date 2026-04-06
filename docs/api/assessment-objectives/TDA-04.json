@@ -1,0 +1,176 @@
+{
+  "scf_control_id": "TDA-04",
+  "total": 17,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-04",
+      "ao_id": "TDA-04_A01",
+      "objective": "administrator documentation for the system, system component or system service that describes the secure configuration of the system, component or service is obtained or developed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-05a.01[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-04",
+      "ao_id": "TDA-04_A02",
+      "objective": "administrator documentation for the system, system component or system service that describes the secure installation of the system, component or service is obtained or developed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-05a.01[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-04",
+      "ao_id": "TDA-04_A03",
+      "objective": "administrator documentation for the system, system component or system service that describes the secure operation of the system, component or service is obtained or developed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-05a.01[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-04",
+      "ao_id": "TDA-04_A04",
+      "objective": "administrator documentation for the system, system component or system service that describes the effective use of cybersecurity / data privacy functions and mechanisms is obtained or developed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-05a.02[01]\n53A_R5_SA-05a.02[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-04",
+      "ao_id": "TDA-04_A05",
+      "objective": "administrator documentation for the system, system component or system service that describes the effective maintenance of cybersecurity / data privacy functions and mechanisms is obtained or developed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-05a.02[02]\n53A_R5_SA-05a.02[04]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-04",
+      "ao_id": "TDA-04_A06",
+      "objective": "user documentation for the system, system component or system service that describes user-accessible cybersecurity / data privacy functions and mechanisms is obtained or developed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-05b.01[01]\n53A_R5_SA-05b.01[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-04",
+      "ao_id": "TDA-04_A07",
+      "objective": "user documentation for the system, system component or system service that describes how to effectively use those (user-accessible cybersecurity / data privacy) functions and mechanisms is obtained or developed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-05b.01[02]\n53A_R5_SA-05b.01[04]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-04",
+      "ao_id": "TDA-04_A08",
+      "objective": "user documentation for the system, system component or system service that describes methods for user interaction, which enable individuals to use the system, component or service in a more secure manner is obtained or developed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-05b.02[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-04",
+      "ao_id": "TDA-04_A09",
+      "objective": "user documentation for the system, system component or system service that describes methods for user interaction, which enable individuals to use the system, component or service to protect individual privacy is obtained or developed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-05b.02[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-04",
+      "ao_id": "TDA-04_A10",
+      "objective": "user documentation for the system, system component or system service that describes user responsibilities for maintaining the cybersecurity / data privacy of the system, component or service is obtained or developed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-05b.03[01]\n53A_R5_SA-05b.03[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-04",
+      "ao_id": "TDA-04_A11",
+      "objective": "actions to take when system, system component or system service documentation is either unavailable or nonexistent are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-05_ODP[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-04",
+      "ao_id": "TDA-04_A12",
+      "objective": "personnel or roles to distribute system documentation to is/are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-05_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-04",
+      "ao_id": "TDA-04_A13",
+      "objective": "administrator documentation for the system, system component or system service that describes known vulnerabilities regarding the configuration of administrative or privileged functions is obtained or developed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-05a.03[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-04",
+      "ao_id": "TDA-04_A14",
+      "objective": "administrator documentation for the system, system component or system service that describes known vulnerabilities regarding the use of administrative or privileged functions is obtained or developed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-05a.03[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-04",
+      "ao_id": "TDA-04_A15",
+      "objective": "attempts to obtain system, system component or system service documentation when such documentation is either unavailable or nonexistent is documented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-05c.[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-04",
+      "ao_id": "TDA-04_A16",
+      "objective": "after attempts to obtain system, system component or system service documentation when such documentation is either unavailable or nonexistent, actions are taken in response.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-05c.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-04",
+      "ao_id": "TDA-04_A17",
+      "objective": "documentation is distributed to personnel or roles.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-05d.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

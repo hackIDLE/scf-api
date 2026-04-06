@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "END-14.4",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "END-14.4",
+      "ao_id": "END-14.4_A01",
+      "objective": "technologies used to conduct virtual meetings allow the host to positively control an individual's participation.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

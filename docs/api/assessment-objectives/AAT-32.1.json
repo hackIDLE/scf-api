@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-32.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-32.1",
+      "ao_id": "AAT-32.1_A01",
+      "objective": "business process task activities that can be executed both manually and in an automated fashion are identified.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-32.1",
+      "ao_id": "AAT-32.1_A02",
+      "objective": "business process task activities that can be executed both manually and in an automated fashion are categorized.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

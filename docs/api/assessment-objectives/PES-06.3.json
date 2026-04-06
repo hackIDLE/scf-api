@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "PES-06.3",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PES-06.3",
+      "ao_id": "PES-06.3_A01",
+      "objective": "visitor activity is controlled.",
+      "pptdf": "Facility",
+      "origin": "171A_R3_A.03.10.07.c[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-06.3",
+      "ao_id": "PES-06.3_A02",
+      "objective": "unescorted access to the facility where the system resides is restricted.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-02(03)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-06.3",
+      "ao_id": "PES-06.3_A03",
+      "objective": "visitor activity is monitored.",
+      "pptdf": "Facility",
+      "origin": "171A_3.10.3[b]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-06.3",
+      "ao_id": "PES-06.3_A04",
+      "objective": "visitors are escorted.",
+      "pptdf": "Facility",
+      "origin": "171A_3.10.3[a]\n171A_R3_A.03.10.07.c[01]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-06.3",
+      "ao_id": "PES-06.3_A05",
+      "objective": "physical access authorizations for unescorted access to the facility where the system resides are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PE-02(03)_ODP[01]\n53A_R5_PE-02(03)_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

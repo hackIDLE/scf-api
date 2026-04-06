@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-TDA-12",
+  "area": "Technology Design & Acquisition",
+  "artifact_name": "Software Bill of Materials (SBOM)",
+  "artifact_description": "Documented evidence of a Software Bill of Materials (SBOM).",
+  "scf_controls": [
+    "TDA-04.2"
+  ],
+  "cmmc_mapping": ""
+}

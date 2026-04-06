@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-IRO-12",
+  "area": "Incident Response",
+  "artifact_name": "Sensitive / Regulated Data Spills",
+  "artifact_description": "Documented evidence of records of response to sensitive / regulated data spills.",
+  "scf_controls": [
+    "IRO-12"
+  ],
+  "cmmc_mapping": ""
+}

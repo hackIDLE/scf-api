@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "BCD-03.2",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "BCD-03.2",
+      "ao_id": "BCD-03.2_A01",
+      "objective": "mechanisms used in operations are employed to provide a more thorough and realistic contingency training environment.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-03(02)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

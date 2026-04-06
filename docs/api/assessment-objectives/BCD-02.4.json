@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "BCD-02.4",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "BCD-02.4",
+      "ao_id": "BCD-02.4_A01",
+      "objective": "periodic security reviews of storage locations that contain sensitive / regulated data are performed.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-02.4",
+      "ao_id": "BCD-02.4_A02",
+      "objective": "identified deficiencies identified during reviews of storage locations are tracked via a Plan of Action and Milestones (POA&M), or risk register, through remediation.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

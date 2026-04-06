@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-RSK-15",
+  "area": "Risk Management",
+  "artifact_name": "Instances Requiring A Risk Assessment",
+  "artifact_description": "Documented criteria that define instances requiring a risk assessment to be performed.",
+  "scf_controls": [
+    "RSK-04.3"
+  ],
+  "cmmc_mapping": ""
+}

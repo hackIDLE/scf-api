@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "DCH-21",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-21",
+      "ao_id": "DCH-21_A01",
+      "objective": "techniques used to dispose of, destroy and/or erase information following the retention period are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-12(03)_ODP[01]\n53A_R5_SI-12(03)_ODP[02]\n53A_R5_SI-12(03)_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-21",
+      "ao_id": "DCH-21_A02",
+      "objective": "organization-defined techniques are used to dispose of, destroy and/or erase following the retention period.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-12(03)[01]\n53A_R5_SI-12(03)[02]\n53A_R5_SI-12(03)[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

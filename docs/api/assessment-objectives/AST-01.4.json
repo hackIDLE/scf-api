@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AST-01.4",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AST-01.4",
+      "ao_id": "AST-01.4_A01",
+      "objective": "the list of authorized software programs is reviewed / updated per an organization-defined frequency.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-01.4",
+      "ao_id": "AST-01.4_A02",
+      "objective": "the list of authorized software programs is reviewed and updated <A.03.04.08.ODP[01]: frequency>.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.04.08.c",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "at least quarterly",
+      "org_defined_parameters": ""
+    }
+  ]
+}

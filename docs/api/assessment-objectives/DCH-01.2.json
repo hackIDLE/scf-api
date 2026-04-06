@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "DCH-01.2",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-01.2",
+      "ao_id": "DCH-01.2_A01",
+      "objective": "sensitive / regulated data inventories exist.",
+      "pptdf": "Data",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-01.2",
+      "ao_id": "DCH-01.2_A02",
+      "objective": "protection mechanisms are defined for each type of sensitive / regulated data.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-01.2",
+      "ao_id": "DCH-01.2_A03",
+      "objective": "organization-defined mechanisms protect sensitive / regulated data wherever it is stored.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

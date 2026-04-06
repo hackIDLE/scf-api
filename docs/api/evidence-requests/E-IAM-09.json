@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-IAM-09",
+  "area": "Identity & Access Management",
+  "artifact_name": "Access Authorization Records",
+  "artifact_description": "Documented evidence of access authorization records.",
+  "scf_controls": [
+    "IAC-21.3",
+    "IAC-28.1"
+  ],
+  "cmmc_mapping": "AC.L1-3.1.1\nAC.L1-3.1.5\nAC.L1-3.1.2\nSC.L2-3.13.13"
+}

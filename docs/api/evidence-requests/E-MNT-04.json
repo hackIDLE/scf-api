@@ -1,0 +1,13 @@
+{
+  "erl_id": "E-MNT-04",
+  "area": "Maintenance",
+  "artifact_name": "Maintenance Activities",
+  "artifact_description": "Documented evidence of maintenance activities for the organization's Technology Assets, Applications and/or Services (TAAS).",
+  "scf_controls": [
+    "MNT-01",
+    "MNT-02",
+    "MNT-03",
+    "MNT-03.1"
+  ],
+  "cmmc_mapping": ""
+}

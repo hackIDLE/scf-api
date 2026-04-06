@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "TPM-12",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TPM-12",
+      "ao_id": "TPM-12_A01",
+      "objective": "a process to minimize risk associate with Foreign Ownership, Control or Influence (FOCI) through Supply Chain Risk Management (SCRM) practices is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-12",
+      "ao_id": "TPM-12_A02",
+      "objective": "Supply Chain Risk Management (SCRM) practices exist to minimize risk associate with FOCI.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

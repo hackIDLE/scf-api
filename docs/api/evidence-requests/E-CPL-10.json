@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-CPL-10",
+  "area": "Compliance",
+  "artifact_name": "Statement of Applicability (SOA)",
+  "artifact_description": "Documented Statement of Applicability (SOA), or similar document, that scopes compliance-related activities.",
+  "scf_controls": [
+    "CPL-12"
+  ],
+  "cmmc_mapping": ""
+}

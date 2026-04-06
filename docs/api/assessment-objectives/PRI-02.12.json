@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PRI-02.12",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-02.12",
+      "ao_id": "PRI-02.12_A01",
+      "objective": "methods to perform testing of choice architecture to ensure it does not undermine a consumer’s ability to submit choice selections are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-02.12",
+      "ao_id": "PRI-02.12_A02",
+      "objective": "testing of choice architecture is performed to ensure it does not undermine a consumer’s ability to submit choice selections.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "erl_id": "E-RSK-02",
+  "area": "Risk Management",
+  "artifact_name": "Supply Chain Risk Management (SCRM) Plan",
+  "artifact_description": "Documented evidence of a Supply Chain Risk Management (SCRM) Plan. This is program-level documentation in the form of a playbook, concept of operations or a similar format provides guidance on organizational practices that support existing policies and standards.",
+  "scf_controls": [
+    "IRO-10.4",
+    "RSK-09",
+    "TPM-03",
+    "TPM-05",
+    "TPM-05.2"
+  ],
+  "cmmc_mapping": ""
+}

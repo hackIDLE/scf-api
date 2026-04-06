@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-15",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-15",
+      "ao_id": "AAT-15_A01",
+      "objective": "an executive steering committee, or advisory board, defines criteria as to whether Artificial Intelligence (AI) and Autonomous Technologies (AAT) achieved intended purposes and stated objectives.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-15",
+      "ao_id": "AAT-15_A02",
+      "objective": "measures exist for the executive steering committee, or advisory board, to determine whether Artificial Intelligence (AI) and Autonomous Technologies (AAT) development or deployment should proceed.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

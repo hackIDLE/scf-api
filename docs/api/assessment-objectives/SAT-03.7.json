@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "SAT-03.7",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "SAT-03.7",
+      "ao_id": "SAT-03.7_A01",
+      "objective": "cybersecurity / data privacy personnel receive Continuing Professional Education (CPE) training to maintain currency and proficiency with industry-recognized secure practices that are pertinent to their assigned roles and responsibilities.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

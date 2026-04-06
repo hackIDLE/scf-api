@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "NET-06.7",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-06.7",
+      "ao_id": "NET-06.7_A01",
+      "objective": "automated mechanisms implement dynamic, policy-driven network segmentation.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-06.7",
+      "ao_id": "NET-06.7_A02",
+      "objective": "automated mechanisms implement dynamic, policy-driven access controls.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-06.7",
+      "ao_id": "NET-06.7_A03",
+      "objective": "automated mechanisms implement dynamic, policy-driven network traffic management.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

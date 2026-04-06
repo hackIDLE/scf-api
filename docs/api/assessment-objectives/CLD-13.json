@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "CLD-13",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CLD-13",
+      "ao_id": "CLD-13_A01",
+      "objective": "applicable cybersecurity & data protection controls are specified that must be implemented on external systems, consistent with the contractual obligations established with the External Service Providers (ESP) owning, operating and/or maintaining external systems, applications and/or services.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

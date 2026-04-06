@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "SEA-04.3",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "SEA-04.3",
+      "ao_id": "SEA-04.3_A01",
+      "objective": "multi-thread processing for which a separate execution domain is to be maintained for each thread is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-39(02)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-04.3",
+      "ao_id": "SEA-04.3_A02",
+      "objective": "a separate execution domain is maintained for each thread in organization-defined multi-threaded processing.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-39(02)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

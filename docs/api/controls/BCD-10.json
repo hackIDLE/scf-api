@@ -1,0 +1,176 @@
+{
+  "control_id": "BCD-10",
+  "title": "Telecommunications Services Availability",
+  "family": "BCD",
+  "description": "Mechanisms exist to reduce the likelihood of a single point of failure with primary telecommunications services.",
+  "scf_question": "Does the organization reduce the likelihood of a single point of failure with primary telecommunications services?",
+  "relative_weight": 6,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [],
+  "pptdf": "Facility",
+  "nist_csf_function": "Recover",
+  "scrm_focus": {
+    "strategic": false,
+    "operational": true,
+    "tactical": true
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "2": "Business Continuity & Disaster Recovery (BCD) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with BCD domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with BCD domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with BCD  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Business Continuity / Disaster Recovery (BC/DR)-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ BC/DR may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
+    "3": "Business Continuity & Disaster Recovery (BCD) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with BCD domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with BCD domain capabilities are well-documented and kept current by process owners.\n▪ A Business Continuity & Disaster Recovery (BC/DR) team, or similar function, is appropriately staffed and supported to implement and maintain BCD domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of BC/DR operations (e.g., BC/DR planning software, Disaster Recovery as a Service (DRaaS), Orchestration and Automation Tools, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with BCD domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to reduce the likelihood of a single point of failure with primary telecommunications services.",
+    "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [],
+  "possible_solutions": {
+    "micro_small": "∙ Alternate / redundant telecommunications services are maintained with more than one telecom / Internet provider.",
+    "small": "∙ Alternate / redundant telecommunications services are maintained with more than one telecom / Internet provider.",
+    "medium": "∙ Alternate / redundant telecommunications services are maintained with more than one telecom / Internet provider.",
+    "large": "∙ Alternate / redundant telecommunications services are maintained with more than one telecom / Internet provider.",
+    "enterprise": "∙ Alternate / redundant telecommunications services are maintained with more than one telecom / Internet provider."
+  },
+  "risks": [
+    "R-AM-3",
+    "R-BC-1",
+    "R-BC-3",
+    "R-EX-1",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-GV-1"
+  ],
+  "threats": [
+    "NT-1",
+    "NT-2",
+    "NT-3",
+    "NT-4",
+    "NT-5",
+    "NT-6",
+    "NT-7",
+    "NT-8",
+    "NT-9",
+    "NT-10",
+    "NT-11",
+    "NT-12",
+    "NT-13",
+    "NT-14",
+    "MT-1",
+    "MT-2",
+    "MT-3",
+    "MT-4",
+    "MT-5",
+    "MT-6",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-10",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Business Continuity & Disaster Recovery",
+  "crosswalks": {
+    "general-aicpa-tsc-2017": [
+      "A1.2"
+    ],
+    "general-govramp": [
+      "CP-08",
+      "CP-08(02)"
+    ],
+    "general-govramp-core": [
+      "CP-08",
+      "CP-08(02)"
+    ],
+    "general-govramp-low-plus": [
+      "CP-08"
+    ],
+    "general-govramp-mod": [
+      "CP-08",
+      "CP-08(02)"
+    ],
+    "general-govramp-high": [
+      "CP-08",
+      "CP-08(02)"
+    ],
+    "general-nist-800-53-r4": [
+      "CP-8",
+      "CP-8(2)",
+      "CP-11"
+    ],
+    "general-nist-800-53-r5-2": [
+      "CP-08",
+      "CP-08(02)",
+      "CP-11"
+    ],
+    "general-nist-800-53-r5-2-mod": [
+      "CP-08",
+      "CP-08(02)"
+    ],
+    "general-nist-800-82-r3": [
+      "CP-08",
+      "CP-08(02)",
+      "CP-11"
+    ],
+    "general-nist-800-82-r3-mod": [
+      "CP-08",
+      "CP-08(02)"
+    ],
+    "general-nist-800-82-r3-high": [
+      "CP-08",
+      "CP-08(02)"
+    ],
+    "general-nist-800-160-vol-2-r1": [
+      "CP-11"
+    ],
+    "general-nist-800-161-r1": [
+      "CP-8",
+      "CP-11"
+    ],
+    "general-nist-800-161-r1-level-2": [
+      "CP-8",
+      "CP-11"
+    ],
+    "general-nist-800-161-r1-level-3": [
+      "CP-8",
+      "CP-11"
+    ],
+    "usa-federal-fbi-cjis-6-0": [
+      "CP-8",
+      "CP-8(2)"
+    ],
+    "usa-federal-gsa-fedramp-5-mod": [
+      "CP-08",
+      "CP-08(02)"
+    ],
+    "usa-federal-gsa-fedramp-5-high": [
+      "CP-08",
+      "CP-08(02)"
+    ],
+    "usa-federal-cms-marse-2-0": [
+      "CP-8",
+      "CP-8-IS.a",
+      "CP-8-IS.b",
+      "CP-8(2)"
+    ],
+    "usa-state-tx-dir-security-control-standards-catalog-2-2": [
+      "CP-08",
+      "CP-11"
+    ],
+    "usa-state-tx-txramp-2-0-level-2": [
+      "CP-08"
+    ],
+    "emea-eu-eba-ict-srm-2025": [
+      "3.7.5(91)"
+    ],
+    "emea-isr-cmo-1-0": [
+      "21.14",
+      "25.16"
+    ]
+  }
+}

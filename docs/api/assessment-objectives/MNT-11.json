@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "MNT-11",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MNT-11",
+      "ao_id": "MNT-11_A01",
+      "objective": "situational awareness is maintained of the quality and reliability of systems and components through tracking maintenance activities and component failure rates.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

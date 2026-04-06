@@ -1,0 +1,12 @@
+{
+  "erl_id": "E-TDA-15",
+  "area": "Technology Design & Acquisition",
+  "artifact_name": "Updateability / Patchability View",
+  "artifact_description": "Documented evidence of a description of the end-to-end process permitting software updates and patches to be deployed to the device/service.",
+  "scf_controls": [
+    "TDA-01.1",
+    "TDA-01.2",
+    "TDA-04.1"
+  ],
+  "cmmc_mapping": ""
+}

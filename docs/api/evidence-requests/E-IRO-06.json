@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-IRO-06",
+  "area": "Incident Response",
+  "artifact_name": "IRP Training",
+  "artifact_description": "Documented evidence of an Incident Response Plan (IRP)-related training activity.",
+  "scf_controls": [
+    "IRO-05"
+  ],
+  "cmmc_mapping": ""
+}

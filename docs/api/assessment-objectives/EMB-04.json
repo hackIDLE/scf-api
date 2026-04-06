@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "EMB-04",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "EMB-04",
+      "ao_id": "EMB-04_A01",
+      "objective": "embedded devices are protected against unauthorized use of the physical factory diagnostic and test interface(s).",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

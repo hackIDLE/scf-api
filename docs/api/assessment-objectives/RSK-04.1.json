@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "RSK-04.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "RSK-04.1",
+      "ao_id": "RSK-04.1_A01",
+      "objective": "a risk register is maintained to facilitate the monitoring and reporting of risks.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

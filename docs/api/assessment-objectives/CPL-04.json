@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "CPL-04",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CPL-04",
+      "ao_id": "CPL-04_A01",
+      "objective": "an internal audit function formally defines audit-related priorities for the organization.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-04",
+      "ao_id": "CPL-04_A02",
+      "objective": "audits are thoughtfully planned to minimize the impact of audit-related activities on business operations.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

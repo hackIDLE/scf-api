@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-GOV-06",
+  "area": "Cybersecurity & Data Protection Management",
+  "artifact_name": "Charter - Risk Committee",
+  "artifact_description": "Documented evidence of an executive steering committee, or advisory board, that is formed to perform oversight of risk management decisions and is comprised of key cybersecurity, technology, risk, privacy and business executives.",
+  "scf_controls": [
+    "GOV-01.2",
+    "CPL-02"
+  ],
+  "cmmc_mapping": ""
+}

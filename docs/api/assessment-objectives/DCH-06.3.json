@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "DCH-06.3",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-06.3",
+      "ao_id": "DCH-06.3_A01",
+      "objective": "periodic scans of unstructured data sources are used to identify sensitive / regulated data, or data requiring special protection measures, per statutory, regulatory or contractual obligations.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-06.3",
+      "ao_id": "DCH-06.3_A02",
+      "objective": "actions are taken to respond to the discovery of unauthorized sensitive / regulated data repositories are per the organization's Incident Response Plan (IRP), or similar documented procedures.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

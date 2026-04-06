@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "PRI-01.5",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-01.5",
+      "ao_id": "PRI-01.5_A01",
+      "objective": "Binding Corporate Rules (BCR) are used to legally-bind all parties engaged in a joint economic activity that contractually states enforceable rights on data subjects with regard to the processing of their Personal Data (PD).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

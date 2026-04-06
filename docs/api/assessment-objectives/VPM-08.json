@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "VPM-08",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "VPM-08",
+      "ao_id": "VPM-08_A01",
+      "objective": "locations to employ technical surveillance countermeasure surveys are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_RA-06_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-08",
+      "ao_id": "VPM-08_A02",
+      "objective": "the frequency at which to employ technical surveillance countermeasure surveys is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_RA-06_ODP[02]\n53A_R5_RA-06_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-08",
+      "ao_id": "VPM-08_A03",
+      "objective": "events or indicators which, if they occur, trigger a technical surveillance countermeasures survey are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_RA-06_ODP[04]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-08",
+      "ao_id": "VPM-08_A04",
+      "objective": "a technical surveillance countermeasures survey is employed at locations per organization-defined criteria.",
+      "pptdf": "Process",
+      "origin": "53A_R5_RA-06",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

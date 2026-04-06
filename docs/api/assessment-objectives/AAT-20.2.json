@@ -1,0 +1,86 @@
+{
+  "scf_control_id": "AAT-20.2",
+  "total": 8,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-20.2",
+      "ao_id": "AAT-20.2_A01",
+      "objective": "Artificial Intelligence (AI) and Autonomous Technologies (AAT) supporting documentation contains contact details of the provider.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-20.2",
+      "ao_id": "AAT-20.2_A02",
+      "objective": "Artificial Intelligence (AI) and Autonomous Technologies (AAT) supporting documentation contains characteristics, capabilities and limitations of performance of the AAT.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-20.2",
+      "ao_id": "AAT-20.2_A03",
+      "objective": "Artificial Intelligence (AI) and Autonomous Technologies (AAT) supporting documentation contains errata from the AAT's initial conformity assessment.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-20.2",
+      "ao_id": "AAT-20.2_A04",
+      "objective": "Artificial Intelligence (AI) and Autonomous Technologies (AAT) supporting documentation contains details necessary to interpret the outputs of the AAT.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-20.2",
+      "ao_id": "AAT-20.2_A05",
+      "objective": "Artificial Intelligence (AI) and Autonomous Technologies (AAT) supporting documentation contains human oversight measures necessary to facilitate the interpretation of the outputs of the AAT.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-20.2",
+      "ao_id": "AAT-20.2_A06",
+      "objective": "Artificial Intelligence (AI) and Autonomous Technologies (AAT) supporting documentation contains computational and hardware resources needed to operate the AAT.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-20.2",
+      "ao_id": "AAT-20.2_A07",
+      "objective": "Artificial Intelligence (AI) and Autonomous Technologies (AAT) supporting documentation contains projected useable lifetime of the AAT.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-20.2",
+      "ao_id": "AAT-20.2_A08",
+      "objective": "Artificial Intelligence (AI) and Autonomous Technologies (AAT) supporting documentation contains a description of the mechanisms included within the AAT system to properly collect, store and interpret event logs.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

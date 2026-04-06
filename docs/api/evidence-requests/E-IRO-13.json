@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-IRO-13",
+  "area": "Incident Response",
+  "artifact_name": "Incident Response Records",
+  "artifact_description": "Documented evidence of records of response to cybersecurity and/or data protection incidents.",
+  "scf_controls": [
+    "IRO-09"
+  ],
+  "cmmc_mapping": "AU.L2-3.3.1\nAU.L2-3.3.2\nAU.L2-3.3.4\nAC.L1-3.1.22\nIR.L2-3.6.2"
+}

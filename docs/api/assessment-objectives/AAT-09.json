@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-09",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-09",
+      "ao_id": "AAT-09_A01",
+      "objective": "a risk catalog of Artificial Intelligence (AI) and Autonomous Technologies (AAT)-specific risks is documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-09",
+      "ao_id": "AAT-09_A02",
+      "objective": "the organization maps its risk catalog, including potential impacts, to instances where Artificial Intelligence (AI) and Autonomous Technologies (AAT) are designed, developed, deployed, evaluated and used.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

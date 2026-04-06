@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "AAT-28.3",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-28.3",
+      "ao_id": "AAT-28.3_A01",
+      "objective": "Denial of Service (DoS) conditions are monitored.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-28.3",
+      "ao_id": "AAT-28.3_A02",
+      "objective": "Denial of Service (DoS) conditions are prevented through enforcement of quotas.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-28.3",
+      "ao_id": "AAT-28.3_A03",
+      "objective": "Denial of Service (DoS) conditions are prevented through workload controls.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-28.3",
+      "ao_id": "AAT-28.3_A04",
+      "objective": "Denial of Service (DoS) conditions are prevented through auto-suspension of runaway AI agent processes.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

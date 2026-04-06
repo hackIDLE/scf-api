@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "AST-02.1",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AST-02.1",
+      "ao_id": "AST-02.1_A01",
+      "objective": "the system component inventory is updated as part of component installations.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.04.10.c[01]\n53A_R5_CM-08(01)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-02.1",
+      "ao_id": "AST-02.1_A02",
+      "objective": "the system component inventory is updated as part of component removals.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.04.10.c[02]\n53A_R5_CM-08(01)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-02.1",
+      "ao_id": "AST-02.1_A03",
+      "objective": "the system component inventory is updated as part of system updates.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.04.10.c[03]\n53A_R5_CM-08(01)[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

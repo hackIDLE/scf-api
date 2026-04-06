@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-PES-10",
+  "area": "Physical Security",
+  "artifact_name": "Physical Access Authorizations",
+  "artifact_description": "Documented evidence of physical access authorization activities (e.g., list reviews, termination changes, etc.).",
+  "scf_controls": [
+    "PES-02",
+    "PES-02.1"
+  ],
+  "cmmc_mapping": ""
+}

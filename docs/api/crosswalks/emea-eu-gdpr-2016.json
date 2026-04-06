@@ -1,0 +1,1034 @@
+{
+  "framework_id": "emea-eu-gdpr-2016",
+  "display_name": "EU General Data Protection Regulation (GDPR) (2016)",
+  "scf_to_framework": {
+    "total_mappings": 42,
+    "mappings": {
+      "GOV-02": [
+        "Article 24.2"
+      ],
+      "BCD-01": [
+        "Article 32.1(c)"
+      ],
+      "CPL-01.2": [
+        "Article 3.1",
+        "Article 3.2",
+        "Article 3.2(a)",
+        "Article 3.2(b)",
+        "Article 3.3"
+      ],
+      "CPL-01.3": [
+        "Article 5.2",
+        "Article 12.1",
+        "Article 30.4",
+        "Article 31"
+      ],
+      "CPL-02": [
+        "Article 32.1(d)"
+      ],
+      "CPL-02.2": [
+        "Article 32.1(d)"
+      ],
+      "CRY-01": [
+        "Article 32.1(a)"
+      ],
+      "DCH-25": [
+        "Article 44",
+        "Article 45.1",
+        "Article 46.1",
+        "Article 46.2",
+        "Article 46.2(a)",
+        "Article 49.1",
+        "Article 49.1(a)",
+        "Article 49.1(b)",
+        "Article 49.1(c)",
+        "Article 49.1(d)",
+        "Article 49.1(e)",
+        "Article 49.1(f)",
+        "Article 49.1(g)",
+        "Article 49.2",
+        "Article 49.3",
+        "Article 49.4",
+        "Article 49.6"
+      ],
+      "HRS-02": [
+        "Article 32.4"
+      ],
+      "HRS-03": [
+        "Article 32.4"
+      ],
+      "IAC-08": [
+        "Article 32.4"
+      ],
+      "IRO-04.1": [
+        "Article 33.1"
+      ],
+      "IRO-09": [
+        "Article 33.5"
+      ],
+      "IRO-10": [
+        "Article 34.1",
+        "Article 34.2"
+      ],
+      "IRO-10.2": [
+        "Article 33.1",
+        "Article 33.2",
+        "Article 33.3(a)",
+        "Article 33.3(b)",
+        "Article 33.3(c)",
+        "Article 33.3(d)",
+        "Article 33.4"
+      ],
+      "PRI-01": [
+        "Article 5.1(a)",
+        "Article 9.1",
+        "Article 12.2"
+      ],
+      "PRI-01.4": [
+        "Article 27.1",
+        "Article 27.3",
+        "Article 27.4",
+        "Article 27.5",
+        "Article 35.2",
+        "Article 37.1",
+        "Article 37.1(a)",
+        "Article 37.1(b)",
+        "Article 37.1(c)",
+        "Article 37.2",
+        "Article 37.3",
+        "Article 37.4",
+        "Article 37.5",
+        "Article 37.6",
+        "Article 37.7",
+        "Article 38.1",
+        "Article 38.2",
+        "Article 38.3",
+        "Article 38.4",
+        "Article 38.5",
+        "Article 38.6",
+        "Article 39.1",
+        "Article 39.1(a)",
+        "Article 39.1(b)",
+        "Article 39.1(c)",
+        "Article 39.1(d)",
+        "Article 39.1(e)",
+        "Article 39.2"
+      ],
+      "PRI-01.5": [
+        "Article 45.1",
+        "Article 46.1",
+        "Article 46.2(b)"
+      ],
+      "PRI-01.6": [
+        "Article 5.1(f)",
+        "Article 24.1",
+        "Article 25.1",
+        "Article 25.2",
+        "Article 32.1",
+        "Article 32.1(a)",
+        "Article 32.1(b)"
+      ],
+      "PRI-02": [
+        "Article 12.7",
+        "Article 13.1(a)",
+        "Article 13.1(b)",
+        "Article 13.1(c)",
+        "Article 13.1(d)",
+        "Article 13.1(e)",
+        "Article 13.2",
+        "Article 13.2(a)",
+        "Article 13.2(b)",
+        "Article 13.2(c)",
+        "Article 13.2(d)",
+        "Article 13.2(e)",
+        "Article 13.2(f)",
+        "Article 13.3",
+        "Article 14.1(a)",
+        "Article 14.1(b)",
+        "Article 14.1(c)",
+        "Article 14.1(d)",
+        "Article 14.1(e)",
+        "Article 14.1(f)",
+        "Article 14.2",
+        "Article 14.2(a)",
+        "Article 14.2(b)",
+        "Article 14.2(c)",
+        "Article 14.2(d)",
+        "Article 14.2(e)",
+        "Article 14.2(f)",
+        "Article 14.2(g)",
+        "Article 14.3(a)",
+        "Article 14.3(b)",
+        "Article 14.3(c)",
+        "Article 14.4",
+        "Article 14.5(a)"
+      ],
+      "PRI-02.1": [
+        "Article 13.1(c)",
+        "Article 14.1(c)"
+      ],
+      "PRI-03": [
+        "Article 7.1",
+        "Article 7.2",
+        "Article 9.2(a)",
+        "Article 21.1",
+        "Article 21.2",
+        "Article 21.3",
+        "Article 21.4",
+        "Article 21.5",
+        "Article 21.6"
+      ],
+      "PRI-03.4": [
+        "Article 7.3"
+      ],
+      "PRI-03.6": [
+        "Article 8.1",
+        "Article 8.2"
+      ],
+      "PRI-03.9": [
+        "Article 18.2"
+      ],
+      "PRI-03.11": [
+        "Article 18.3",
+        "Article 19"
+      ],
+      "PRI-04": [
+        "Article 5.1(b)",
+        "Article 5.1(c)",
+        "Article 8.1"
+      ],
+      "PRI-04.1": [
+        "Article 9.2(b)",
+        "Article 9.2(c)",
+        "Article 9.2(d)",
+        "Article 9.2(e)",
+        "Article 9.2(f)",
+        "Article 9.2(g)",
+        "Article 9.2(h)",
+        "Article 9.2(i)",
+        "Article 9.2(j)",
+        "Article 9.3",
+        "Article 10"
+      ],
+      "PRI-05": [
+        "Article 5.1(e)"
+      ],
+      "PRI-05.2": [
+        "Article 5.1(d)"
+      ],
+      "PRI-05.7": [
+        "Article 13.1(e)",
+        "Article 14.1(d)"
+      ],
+      "PRI-05.8": [
+        "Article 5.1(e)"
+      ],
+      "PRI-06": [
+        "Article 12.3",
+        "Article 12.5(b)",
+        "Article 12.6",
+        "Article 15.1",
+        "Article 15.1(a)",
+        "Article 15.1(b)",
+        "Article 15.1(c)",
+        "Article 15.1(d)",
+        "Article 15.1(e)",
+        "Article 15.1(g)",
+        "Article 15.1(h)",
+        "Article 15.2",
+        "Article 15.3",
+        "Article 15.4",
+        "Article 16",
+        "Article 17.1",
+        "Article 18.1",
+        "Article 18.1(a)",
+        "Article 18.1(b)",
+        "Article 18.1(c)",
+        "Article 18.1(d)"
+      ],
+      "PRI-06.4": [
+        "Article 12.4"
+      ],
+      "PRI-06.5": [
+        "Article 17.1(a)",
+        "Article 17.1(b)",
+        "Article 17.1(c)",
+        "Article 17.1(d)",
+        "Article 17.1(e)",
+        "Article 17.1(f)",
+        "Article 17.2",
+        "Article 17.3",
+        "Article 17.3(a)",
+        "Article 17.3(b)",
+        "Article 17.3(c)",
+        "Article 17.3(d)",
+        "Article 17.3(e)"
+      ],
+      "PRI-06.6": [
+        "Article 20.1"
+      ],
+      "PRI-06.7": [
+        "Article 20.1",
+        "Article 20.1(b)"
+      ],
+      "PRI-07.1": [
+        "Article 28.1",
+        "Article 28.2",
+        "Article 28.3",
+        "Article 28.3(a)",
+        "Article 28.3(b)",
+        "Article 28.3(c)",
+        "Article 28.3(d)",
+        "Article 28.3(e)",
+        "Article 28.3(f)",
+        "Article 28.3(g)",
+        "Article 28.3(h)",
+        "Article 28.4",
+        "Article 28.5",
+        "Article 28.6",
+        "Article 28.7",
+        "Article 28.8",
+        "Article 28.9",
+        "Article 28.10",
+        "Article 29",
+        "Article 46.3(a)"
+      ],
+      "PRI-14": [
+        "Article 30.1",
+        "Article 30.1(a)",
+        "Article 30.1(b)",
+        "Article 30.1(c)",
+        "Article 30.1(d)",
+        "Article 30.1(e)",
+        "Article 30.1(f)",
+        "Article 30.1(g)",
+        "Article 30.2",
+        "Article 30.2(a)",
+        "Article 30.2(b)",
+        "Article 30.2(c)",
+        "Article 30.2(d)",
+        "Article 30.3"
+      ],
+      "RSK-01": [
+        "Article 32.2"
+      ],
+      "RSK-10": [
+        "Article 35.1",
+        "Article 35.3(a)",
+        "Article 35.3(b)",
+        "Article 35.3(c)",
+        "Article 35.7(a)",
+        "Article 35.7(b)",
+        "Article 35.7(c)",
+        "Article 35.7(d)",
+        "Article 35.8",
+        "Article 35.9",
+        "Article 35.11",
+        "Article 36.1"
+      ],
+      "SEA-02.1": [
+        "Article 4"
+      ]
+    }
+  },
+  "framework_to_scf": {
+    "total_mappings": 227,
+    "mappings": {
+      "Article 24.2": [
+        "GOV-02"
+      ],
+      "Article 32.1(c)": [
+        "BCD-01"
+      ],
+      "Article 3.1": [
+        "CPL-01.2"
+      ],
+      "Article 3.2": [
+        "CPL-01.2"
+      ],
+      "Article 3.2(a)": [
+        "CPL-01.2"
+      ],
+      "Article 3.2(b)": [
+        "CPL-01.2"
+      ],
+      "Article 3.3": [
+        "CPL-01.2"
+      ],
+      "Article 5.2": [
+        "CPL-01.3"
+      ],
+      "Article 12.1": [
+        "CPL-01.3"
+      ],
+      "Article 30.4": [
+        "CPL-01.3"
+      ],
+      "Article 31": [
+        "CPL-01.3"
+      ],
+      "Article 32.1(d)": [
+        "CPL-02",
+        "CPL-02.2"
+      ],
+      "Article 32.1(a)": [
+        "CRY-01",
+        "PRI-01.6"
+      ],
+      "Article 44": [
+        "DCH-25"
+      ],
+      "Article 45.1": [
+        "DCH-25",
+        "PRI-01.5"
+      ],
+      "Article 46.1": [
+        "DCH-25",
+        "PRI-01.5"
+      ],
+      "Article 46.2": [
+        "DCH-25"
+      ],
+      "Article 46.2(a)": [
+        "DCH-25"
+      ],
+      "Article 49.1": [
+        "DCH-25"
+      ],
+      "Article 49.1(a)": [
+        "DCH-25"
+      ],
+      "Article 49.1(b)": [
+        "DCH-25"
+      ],
+      "Article 49.1(c)": [
+        "DCH-25"
+      ],
+      "Article 49.1(d)": [
+        "DCH-25"
+      ],
+      "Article 49.1(e)": [
+        "DCH-25"
+      ],
+      "Article 49.1(f)": [
+        "DCH-25"
+      ],
+      "Article 49.1(g)": [
+        "DCH-25"
+      ],
+      "Article 49.2": [
+        "DCH-25"
+      ],
+      "Article 49.3": [
+        "DCH-25"
+      ],
+      "Article 49.4": [
+        "DCH-25"
+      ],
+      "Article 49.6": [
+        "DCH-25"
+      ],
+      "Article 32.4": [
+        "HRS-02",
+        "HRS-03",
+        "IAC-08"
+      ],
+      "Article 33.1": [
+        "IRO-04.1",
+        "IRO-10.2"
+      ],
+      "Article 33.5": [
+        "IRO-09"
+      ],
+      "Article 34.1": [
+        "IRO-10"
+      ],
+      "Article 34.2": [
+        "IRO-10"
+      ],
+      "Article 33.2": [
+        "IRO-10.2"
+      ],
+      "Article 33.3(a)": [
+        "IRO-10.2"
+      ],
+      "Article 33.3(b)": [
+        "IRO-10.2"
+      ],
+      "Article 33.3(c)": [
+        "IRO-10.2"
+      ],
+      "Article 33.3(d)": [
+        "IRO-10.2"
+      ],
+      "Article 33.4": [
+        "IRO-10.2"
+      ],
+      "Article 5.1(a)": [
+        "PRI-01"
+      ],
+      "Article 9.1": [
+        "PRI-01"
+      ],
+      "Article 12.2": [
+        "PRI-01"
+      ],
+      "Article 27.1": [
+        "PRI-01.4"
+      ],
+      "Article 27.3": [
+        "PRI-01.4"
+      ],
+      "Article 27.4": [
+        "PRI-01.4"
+      ],
+      "Article 27.5": [
+        "PRI-01.4"
+      ],
+      "Article 35.2": [
+        "PRI-01.4"
+      ],
+      "Article 37.1": [
+        "PRI-01.4"
+      ],
+      "Article 37.1(a)": [
+        "PRI-01.4"
+      ],
+      "Article 37.1(b)": [
+        "PRI-01.4"
+      ],
+      "Article 37.1(c)": [
+        "PRI-01.4"
+      ],
+      "Article 37.2": [
+        "PRI-01.4"
+      ],
+      "Article 37.3": [
+        "PRI-01.4"
+      ],
+      "Article 37.4": [
+        "PRI-01.4"
+      ],
+      "Article 37.5": [
+        "PRI-01.4"
+      ],
+      "Article 37.6": [
+        "PRI-01.4"
+      ],
+      "Article 37.7": [
+        "PRI-01.4"
+      ],
+      "Article 38.1": [
+        "PRI-01.4"
+      ],
+      "Article 38.2": [
+        "PRI-01.4"
+      ],
+      "Article 38.3": [
+        "PRI-01.4"
+      ],
+      "Article 38.4": [
+        "PRI-01.4"
+      ],
+      "Article 38.5": [
+        "PRI-01.4"
+      ],
+      "Article 38.6": [
+        "PRI-01.4"
+      ],
+      "Article 39.1": [
+        "PRI-01.4"
+      ],
+      "Article 39.1(a)": [
+        "PRI-01.4"
+      ],
+      "Article 39.1(b)": [
+        "PRI-01.4"
+      ],
+      "Article 39.1(c)": [
+        "PRI-01.4"
+      ],
+      "Article 39.1(d)": [
+        "PRI-01.4"
+      ],
+      "Article 39.1(e)": [
+        "PRI-01.4"
+      ],
+      "Article 39.2": [
+        "PRI-01.4"
+      ],
+      "Article 46.2(b)": [
+        "PRI-01.5"
+      ],
+      "Article 5.1(f)": [
+        "PRI-01.6"
+      ],
+      "Article 24.1": [
+        "PRI-01.6"
+      ],
+      "Article 25.1": [
+        "PRI-01.6"
+      ],
+      "Article 25.2": [
+        "PRI-01.6"
+      ],
+      "Article 32.1": [
+        "PRI-01.6"
+      ],
+      "Article 32.1(b)": [
+        "PRI-01.6"
+      ],
+      "Article 12.7": [
+        "PRI-02"
+      ],
+      "Article 13.1(a)": [
+        "PRI-02"
+      ],
+      "Article 13.1(b)": [
+        "PRI-02"
+      ],
+      "Article 13.1(c)": [
+        "PRI-02",
+        "PRI-02.1"
+      ],
+      "Article 13.1(d)": [
+        "PRI-02"
+      ],
+      "Article 13.1(e)": [
+        "PRI-02",
+        "PRI-05.7"
+      ],
+      "Article 13.2": [
+        "PRI-02"
+      ],
+      "Article 13.2(a)": [
+        "PRI-02"
+      ],
+      "Article 13.2(b)": [
+        "PRI-02"
+      ],
+      "Article 13.2(c)": [
+        "PRI-02"
+      ],
+      "Article 13.2(d)": [
+        "PRI-02"
+      ],
+      "Article 13.2(e)": [
+        "PRI-02"
+      ],
+      "Article 13.2(f)": [
+        "PRI-02"
+      ],
+      "Article 13.3": [
+        "PRI-02"
+      ],
+      "Article 14.1(a)": [
+        "PRI-02"
+      ],
+      "Article 14.1(b)": [
+        "PRI-02"
+      ],
+      "Article 14.1(c)": [
+        "PRI-02",
+        "PRI-02.1"
+      ],
+      "Article 14.1(d)": [
+        "PRI-02",
+        "PRI-05.7"
+      ],
+      "Article 14.1(e)": [
+        "PRI-02"
+      ],
+      "Article 14.1(f)": [
+        "PRI-02"
+      ],
+      "Article 14.2": [
+        "PRI-02"
+      ],
+      "Article 14.2(a)": [
+        "PRI-02"
+      ],
+      "Article 14.2(b)": [
+        "PRI-02"
+      ],
+      "Article 14.2(c)": [
+        "PRI-02"
+      ],
+      "Article 14.2(d)": [
+        "PRI-02"
+      ],
+      "Article 14.2(e)": [
+        "PRI-02"
+      ],
+      "Article 14.2(f)": [
+        "PRI-02"
+      ],
+      "Article 14.2(g)": [
+        "PRI-02"
+      ],
+      "Article 14.3(a)": [
+        "PRI-02"
+      ],
+      "Article 14.3(b)": [
+        "PRI-02"
+      ],
+      "Article 14.3(c)": [
+        "PRI-02"
+      ],
+      "Article 14.4": [
+        "PRI-02"
+      ],
+      "Article 14.5(a)": [
+        "PRI-02"
+      ],
+      "Article 7.1": [
+        "PRI-03"
+      ],
+      "Article 7.2": [
+        "PRI-03"
+      ],
+      "Article 9.2(a)": [
+        "PRI-03"
+      ],
+      "Article 21.1": [
+        "PRI-03"
+      ],
+      "Article 21.2": [
+        "PRI-03"
+      ],
+      "Article 21.3": [
+        "PRI-03"
+      ],
+      "Article 21.4": [
+        "PRI-03"
+      ],
+      "Article 21.5": [
+        "PRI-03"
+      ],
+      "Article 21.6": [
+        "PRI-03"
+      ],
+      "Article 7.3": [
+        "PRI-03.4"
+      ],
+      "Article 8.1": [
+        "PRI-03.6",
+        "PRI-04"
+      ],
+      "Article 8.2": [
+        "PRI-03.6"
+      ],
+      "Article 18.2": [
+        "PRI-03.9"
+      ],
+      "Article 18.3": [
+        "PRI-03.11"
+      ],
+      "Article 19": [
+        "PRI-03.11"
+      ],
+      "Article 5.1(b)": [
+        "PRI-04"
+      ],
+      "Article 5.1(c)": [
+        "PRI-04"
+      ],
+      "Article 9.2(b)": [
+        "PRI-04.1"
+      ],
+      "Article 9.2(c)": [
+        "PRI-04.1"
+      ],
+      "Article 9.2(d)": [
+        "PRI-04.1"
+      ],
+      "Article 9.2(e)": [
+        "PRI-04.1"
+      ],
+      "Article 9.2(f)": [
+        "PRI-04.1"
+      ],
+      "Article 9.2(g)": [
+        "PRI-04.1"
+      ],
+      "Article 9.2(h)": [
+        "PRI-04.1"
+      ],
+      "Article 9.2(i)": [
+        "PRI-04.1"
+      ],
+      "Article 9.2(j)": [
+        "PRI-04.1"
+      ],
+      "Article 9.3": [
+        "PRI-04.1"
+      ],
+      "Article 10": [
+        "PRI-04.1"
+      ],
+      "Article 5.1(e)": [
+        "PRI-05",
+        "PRI-05.8"
+      ],
+      "Article 5.1(d)": [
+        "PRI-05.2"
+      ],
+      "Article 12.3": [
+        "PRI-06"
+      ],
+      "Article 12.5(b)": [
+        "PRI-06"
+      ],
+      "Article 12.6": [
+        "PRI-06"
+      ],
+      "Article 15.1": [
+        "PRI-06"
+      ],
+      "Article 15.1(a)": [
+        "PRI-06"
+      ],
+      "Article 15.1(b)": [
+        "PRI-06"
+      ],
+      "Article 15.1(c)": [
+        "PRI-06"
+      ],
+      "Article 15.1(d)": [
+        "PRI-06"
+      ],
+      "Article 15.1(e)": [
+        "PRI-06"
+      ],
+      "Article 15.1(g)": [
+        "PRI-06"
+      ],
+      "Article 15.1(h)": [
+        "PRI-06"
+      ],
+      "Article 15.2": [
+        "PRI-06"
+      ],
+      "Article 15.3": [
+        "PRI-06"
+      ],
+      "Article 15.4": [
+        "PRI-06"
+      ],
+      "Article 16": [
+        "PRI-06"
+      ],
+      "Article 17.1": [
+        "PRI-06"
+      ],
+      "Article 18.1": [
+        "PRI-06"
+      ],
+      "Article 18.1(a)": [
+        "PRI-06"
+      ],
+      "Article 18.1(b)": [
+        "PRI-06"
+      ],
+      "Article 18.1(c)": [
+        "PRI-06"
+      ],
+      "Article 18.1(d)": [
+        "PRI-06"
+      ],
+      "Article 12.4": [
+        "PRI-06.4"
+      ],
+      "Article 17.1(a)": [
+        "PRI-06.5"
+      ],
+      "Article 17.1(b)": [
+        "PRI-06.5"
+      ],
+      "Article 17.1(c)": [
+        "PRI-06.5"
+      ],
+      "Article 17.1(d)": [
+        "PRI-06.5"
+      ],
+      "Article 17.1(e)": [
+        "PRI-06.5"
+      ],
+      "Article 17.1(f)": [
+        "PRI-06.5"
+      ],
+      "Article 17.2": [
+        "PRI-06.5"
+      ],
+      "Article 17.3": [
+        "PRI-06.5"
+      ],
+      "Article 17.3(a)": [
+        "PRI-06.5"
+      ],
+      "Article 17.3(b)": [
+        "PRI-06.5"
+      ],
+      "Article 17.3(c)": [
+        "PRI-06.5"
+      ],
+      "Article 17.3(d)": [
+        "PRI-06.5"
+      ],
+      "Article 17.3(e)": [
+        "PRI-06.5"
+      ],
+      "Article 20.1": [
+        "PRI-06.6",
+        "PRI-06.7"
+      ],
+      "Article 20.1(b)": [
+        "PRI-06.7"
+      ],
+      "Article 28.1": [
+        "PRI-07.1"
+      ],
+      "Article 28.2": [
+        "PRI-07.1"
+      ],
+      "Article 28.3": [
+        "PRI-07.1"
+      ],
+      "Article 28.3(a)": [
+        "PRI-07.1"
+      ],
+      "Article 28.3(b)": [
+        "PRI-07.1"
+      ],
+      "Article 28.3(c)": [
+        "PRI-07.1"
+      ],
+      "Article 28.3(d)": [
+        "PRI-07.1"
+      ],
+      "Article 28.3(e)": [
+        "PRI-07.1"
+      ],
+      "Article 28.3(f)": [
+        "PRI-07.1"
+      ],
+      "Article 28.3(g)": [
+        "PRI-07.1"
+      ],
+      "Article 28.3(h)": [
+        "PRI-07.1"
+      ],
+      "Article 28.4": [
+        "PRI-07.1"
+      ],
+      "Article 28.5": [
+        "PRI-07.1"
+      ],
+      "Article 28.6": [
+        "PRI-07.1"
+      ],
+      "Article 28.7": [
+        "PRI-07.1"
+      ],
+      "Article 28.8": [
+        "PRI-07.1"
+      ],
+      "Article 28.9": [
+        "PRI-07.1"
+      ],
+      "Article 28.10": [
+        "PRI-07.1"
+      ],
+      "Article 29": [
+        "PRI-07.1"
+      ],
+      "Article 46.3(a)": [
+        "PRI-07.1"
+      ],
+      "Article 30.1": [
+        "PRI-14"
+      ],
+      "Article 30.1(a)": [
+        "PRI-14"
+      ],
+      "Article 30.1(b)": [
+        "PRI-14"
+      ],
+      "Article 30.1(c)": [
+        "PRI-14"
+      ],
+      "Article 30.1(d)": [
+        "PRI-14"
+      ],
+      "Article 30.1(e)": [
+        "PRI-14"
+      ],
+      "Article 30.1(f)": [
+        "PRI-14"
+      ],
+      "Article 30.1(g)": [
+        "PRI-14"
+      ],
+      "Article 30.2": [
+        "PRI-14"
+      ],
+      "Article 30.2(a)": [
+        "PRI-14"
+      ],
+      "Article 30.2(b)": [
+        "PRI-14"
+      ],
+      "Article 30.2(c)": [
+        "PRI-14"
+      ],
+      "Article 30.2(d)": [
+        "PRI-14"
+      ],
+      "Article 30.3": [
+        "PRI-14"
+      ],
+      "Article 32.2": [
+        "RSK-01"
+      ],
+      "Article 35.1": [
+        "RSK-10"
+      ],
+      "Article 35.3(a)": [
+        "RSK-10"
+      ],
+      "Article 35.3(b)": [
+        "RSK-10"
+      ],
+      "Article 35.3(c)": [
+        "RSK-10"
+      ],
+      "Article 35.7(a)": [
+        "RSK-10"
+      ],
+      "Article 35.7(b)": [
+        "RSK-10"
+      ],
+      "Article 35.7(c)": [
+        "RSK-10"
+      ],
+      "Article 35.7(d)": [
+        "RSK-10"
+      ],
+      "Article 35.8": [
+        "RSK-10"
+      ],
+      "Article 35.9": [
+        "RSK-10"
+      ],
+      "Article 35.11": [
+        "RSK-10"
+      ],
+      "Article 36.1": [
+        "RSK-10"
+      ],
+      "Article 4": [
+        "SEA-02.1"
+      ]
+    }
+  }
+}

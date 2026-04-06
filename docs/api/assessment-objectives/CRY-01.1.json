@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "CRY-01.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CRY-01.1",
+      "ao_id": "CRY-01.1_A01",
+      "objective": "either cryptographic mechanisms or alternative physical safeguards are implemented to prevent unauthorized disclosure of sensitive / regulated data during transmission.",
+      "pptdf": "Technology",
+      "origin": "171A_3.13.8[c]\n53A_R5_SC-08(04)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CRY-01.1",
+      "ao_id": "CRY-01.1_A02",
+      "objective": "alternative physical safeguards intended to prevent unauthorized disclosure of sensitive / regulated are identified.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-08(04)_ODP\n171A_3.13.8[b]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

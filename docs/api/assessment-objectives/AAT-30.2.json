@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "AAT-30.2",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-30.2",
+      "ao_id": "AAT-30.2_A01",
+      "objective": "AI agent sessions are controlled by embedding session IDs into the requests to the AI model.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-30.2",
+      "ao_id": "AAT-30.2_A02",
+      "objective": "AI agent sessions are controlled by implementing capabilities to correlate sessions.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-30.2",
+      "ao_id": "AAT-30.2_A03",
+      "objective": "AI agent sessions are controlled by terminating sessions after a defined time period.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

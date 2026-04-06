@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-CRY-03",
+  "area": "Cryptographic Protections",
+  "artifact_name": "Certificate Monitoring",
+  "artifact_description": "Documented evidence of certificate monitoring activities.",
+  "scf_controls": [
+    "CRY-12"
+  ],
+  "cmmc_mapping": ""
+}

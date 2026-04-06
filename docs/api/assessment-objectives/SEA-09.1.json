@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "SEA-09.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "SEA-09.1",
+      "ao_id": "SEA-09.1_A01",
+      "objective": "the dissemination of Personal Data (PD) is restricted to organization-defined elements identified in the Data Protection Impact Assessment (DPIA) and consistent with authorized purposes.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

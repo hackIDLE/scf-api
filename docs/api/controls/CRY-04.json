@@ -1,0 +1,309 @@
+{
+  "control_id": "CRY-04",
+  "title": "Transmission Integrity",
+  "family": "CRY",
+  "description": "Cryptographic mechanisms exist to protect the integrity of data being transmitted.",
+  "scf_question": "Are cryptographic mechanisms utilized to protect the integrity of data being transmitted?",
+  "relative_weight": 10,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [
+    "E-CRY-01"
+  ],
+  "pptdf": "Data",
+  "nist_csf_function": "Protect",
+  "scrm_focus": {
+    "strategic": false,
+    "operational": true,
+    "tactical": true
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "Cryptographic Protections (CRY) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with CRY domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Cryptography management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ IT and/or cybersecurity personnel provide an encryption solution (software or hardware) for the storage of sensitive/regulated data.",
+    "2": "Cryptographic Protections (CRY) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Cryptographic management controls-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Cryptographic management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Technology Assets, Applications and/or Services (TAAS) that store, process or transmit sensitive/regulated data use cryptographic mechanisms to prevent unauthorized disclosure of information as an alternate to physical safeguards.\n▪ External compliance requirements for cryptography are identified and documented, based on applicable laws, regulations and contractual obligations.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to implement cryptographic mechanisms that are applicability for statutory, regulatory and/or contractual compliance obligations.\n▪ Sensitive/regulated data is encrypted at rest using cryptographic protections that are commensurate with the sensitivity of the data.",
+    "3": "Cryptographic Protections (CRY) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are well-documented and kept current by process owners.\n▪ A security engineering team, or similar function, is appropriately staffed and supported to implement and maintain CRY domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cryptographic protections operations (e.g., PKI management tool, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational cryptographic capability exists to protect the integrity of data being transmitted.",
+    "4": "Cryptographic Protections (CRY) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [
+    "CORE ESP Level 1 Foundational",
+    "CORE ESP Level 2 Critical Infrastructure",
+    "CORE ESP Level 3 Advanced Threats",
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ Enable encryption for sensitive files (e.g., VeraCrypt, BitLocker)",
+    "small": "∙ Full disk encryption\n∙ TLS for data in transit",
+    "medium": "∙ Enterprise encryption standards policy\n∙ PKI management",
+    "large": "∙ Enterprise PKI\n∙ HSM for key management\n∙ Certificate lifecycle management",
+    "enterprise": "∙ Enterprise HSM (e.g., Thales, AWS CloudHSM)\n∙ Enterprise PKI\n∙ Automated certificate management (e.g., Venafi)"
+  },
+  "risks": [
+    "R-AC-4",
+    "R-AM-2",
+    "R-AM-3",
+    "R-BC-2",
+    "R-BC-4",
+    "R-BC-5",
+    "R-EX-1",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-EX-5",
+    "R-EX-6",
+    "R-EX-7",
+    "R-GV-1",
+    "R-GV-2",
+    "R-GV-3",
+    "R-GV-4",
+    "R-GV-5",
+    "R-IR-1",
+    "R-IR-3",
+    "R-IR-4"
+  ],
+  "threats": [
+    "NT-7",
+    "MT-1",
+    "MT-2",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-10",
+    "MT-11",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Cryptographic Protections",
+  "crosswalks": {
+    "general-aicpa-tsc-2017": [
+      "CC6.1-POF10"
+    ],
+    "general-csa-iot-2": [
+      "SAP-07"
+    ],
+    "general-govramp": [
+      "SC-08",
+      "SC-28(01)"
+    ],
+    "general-govramp-low-plus": [
+      "SC-08"
+    ],
+    "general-govramp-mod": [
+      "SC-08",
+      "SC-28(01)"
+    ],
+    "general-govramp-high": [
+      "SC-08",
+      "SC-28(01)"
+    ],
+    "general-iec-62443-2-1-2024": [
+      "DATA 1.7"
+    ],
+    "general-iec-62443-3-3-2013": [
+      "SR 3.1",
+      "SR 3.1 RE 1"
+    ],
+    "general-iec-62443-4-2-2019": [
+      "CR 3.1",
+      "CR 3.1(1)"
+    ],
+    "general-iso-27002-2022": [
+      "8.24",
+      "8.26"
+    ],
+    "general-iso-27017-2015": [
+      "10.1.1",
+      "14.1.3"
+    ],
+    "general-iso-27018-2025": [
+      "8.24",
+      "8.26"
+    ],
+    "general-mitre-att&ck-16-1": [
+      "T1020.001",
+      "T1040",
+      "T1090",
+      "T1090.004",
+      "T1550.001",
+      "T1550.004",
+      "T1552.007",
+      "T1557",
+      "T1557.001",
+      "T1557.002",
+      "T1557.003",
+      "T1557.004",
+      "T1562",
+      "T1562.006",
+      "T1562.009",
+      "T1562.010",
+      "T1602",
+      "T1602.001",
+      "T1602.002",
+      "T1622"
+    ],
+    "general-nist-privacy-framework-1-0": [
+      "PR.AC-P5"
+    ],
+    "general-nist-800-53-r4": [
+      "SC-8",
+      "SC-16(1)",
+      "SC-28(1)"
+    ],
+    "general-nist-800-53-r5-2": [
+      "SC-08",
+      "SC-16(01)",
+      "SC-28(01)"
+    ],
+    "general-nist-800-53-r5-2-privacy": [
+      "SC-08",
+      "SC-16(01)",
+      "SC-28(01)"
+    ],
+    "general-nist-800-53-r5-2-mod": [
+      "SC-08",
+      "SC-28(01)"
+    ],
+    "general-nist-800-82-r3": [
+      "SC-08",
+      "SC-16(01)",
+      "SC-28(01)"
+    ],
+    "general-nist-800-82-r3-mod": [
+      "SC-08",
+      "SC-28(01)"
+    ],
+    "general-nist-800-82-r3-high": [
+      "SC-08",
+      "SC-28(01)"
+    ],
+    "general-nist-800-160-vol-2-r1": [
+      "SC-16(01)",
+      "SC-28(01)"
+    ],
+    "general-nist-800-161-r1": [
+      "SC-8"
+    ],
+    "general-nist-800-161-r1-flowdown": [
+      "SC-8"
+    ],
+    "general-nist-800-161-r1-level-2": [
+      "SC-8"
+    ],
+    "general-nist-800-161-r1-level-3": [
+      "SC-8"
+    ],
+    "general-nist-800-171-r2": [
+      "NFO - SI-1"
+    ],
+    "general-nist-800-207": [
+      "NIST Tenet 2"
+    ],
+    "general-nist-csf-2-0": [
+      "PR.DS-02"
+    ],
+    "general-owasp-top-10-2025": [
+      "A04:2025"
+    ],
+    "general-pci-dss-4-0-1": [
+      "3.7.5"
+    ],
+    "general-pci-dss-4-0-1-saq-d-merchant": [
+      "3.7.5"
+    ],
+    "general-pci-dss-4-0-1-saq-d-service-provider": [
+      "3.7.5"
+    ],
+    "general-swift-cscf-2025": [
+      "2.1",
+      "2.5A",
+      "2.6"
+    ],
+    "usa-federal-dhs-cisa-cpg-2-0": [
+      "2.K"
+    ],
+    "usa-federal-fbi-cjis-6-0": [
+      "SC-8",
+      "SC-28(1)"
+    ],
+    "usa-federal-fda-21-cfr-part-11-2025": [
+      "11.10",
+      "11.10(c)"
+    ],
+    "usa-federal-gsa-fedramp-5-low": [
+      "SC-08",
+      "SC-16(01)",
+      "SC-28(01)"
+    ],
+    "usa-federal-gsa-fedramp-5-mod": [
+      "SC-08",
+      "SC-16(01)",
+      "SC-28(01)"
+    ],
+    "usa-federal-gsa-fedramp-5-high": [
+      "SC-08",
+      "SC-16(01)",
+      "SC-28(01)"
+    ],
+    "usa-federal-gsa-fedramp-5-li-saas": [
+      "SC-08",
+      "SC-16(01)",
+      "SC-28(01)"
+    ],
+    "usa-federal-law-hipaa-simplification-2013": [
+      "164.312(e)(2)(i)"
+    ],
+    "usa-federal-law-hipaa-security-rule-2013": [
+      "164.312(e)(2)(i)"
+    ],
+    "usa-federal-irs-1075-2021": [
+      "SC-8",
+      "SC-8(IRS-Defined)",
+      "SC-28(CE-1)"
+    ],
+    "usa-federal-cms-marse-2-0": [
+      "SC-8",
+      "SC-8-IS.1"
+    ],
+    "usa-state-tx-dir-security-control-standards-catalog-2-2": [
+      "SC-08"
+    ],
+    "usa-state-tx-txramp-2-0-level-2": [
+      "SC-08",
+      "SC-28 (01)"
+    ],
+    "emea-us-psd2-2015": [
+      "20",
+      "30"
+    ],
+    "emea-deu-c5-2020": [
+      "OPS-09"
+    ],
+    "emea-isr-cmo-1-0": [
+      "4.22",
+      "9.8",
+      "9.20",
+      "12.10",
+      "13.6"
+    ],
+    "emea-sau-cgiot-2024": [
+      "2-4-1",
+      "2-4-2",
+      "2-4-3"
+    ],
+    "emea-sau-otcc-1-2022": [
+      "2-2-1-4"
+    ],
+    "emea-zaf-popia-2013": [
+      "14.1"
+    ],
+    "apac-aus-ism-2024-june": [
+      "ISM-0677"
+    ],
+    "apac-jpn-ismap": [
+      "14.2.5.8"
+    ]
+  }
+}

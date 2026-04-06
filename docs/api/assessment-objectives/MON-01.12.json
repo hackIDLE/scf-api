@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "MON-01.12",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MON-01.12",
+      "ao_id": "MON-01.12_A01",
+      "objective": "personnel or roles to be alerted when indications of inappropriate or unusual activity with cybersecurity / data privacy implications occur is/are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-04(12)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-01.12",
+      "ao_id": "MON-01.12_A02",
+      "objective": "automated mechanisms used to alert personnel or roles are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-04(12)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-01.12",
+      "ao_id": "MON-01.12_A03",
+      "objective": "activities that trigger alerts to personnel or are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-04(12)_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-01.12",
+      "ao_id": "MON-01.12_A04",
+      "objective": "personnel or roles is/are alerted using automated mechanisms when activities that trigger alerts indicate inappropriate or unusual activities with cybersecurity / data privacy implications.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-04(12)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-01.12",
+      "ao_id": "MON-01.12_A05",
+      "objective": "findings are reported to organizational personnel or roles.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.03.05.b",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

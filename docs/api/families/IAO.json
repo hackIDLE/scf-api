@@ -1,0 +1,3891 @@
+{
+  "family_code": "IAO",
+  "family_name": "Information Assurance",
+  "control_count": 15,
+  "controls": [
+    {
+      "control_id": "IAO-01",
+      "title": "Information Assurance (IA) Operations",
+      "family": "IAO",
+      "description": "Mechanisms exist to facilitate the implementation of security, compliance and resilience assessment and authorization controls.",
+      "scf_question": "Does the organization facilitate the implementation of security, compliance and resilience assessment and authorization controls?",
+      "relative_weight": 10,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [
+        "E-IAO-01"
+      ],
+      "pptdf": "Process",
+      "nist_csf_function": "Govern",
+      "scrm_focus": {
+        "strategic": true,
+        "operational": true,
+        "tactical": true
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "Information Assurance (IAO) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with IAO domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Pre-production security testing-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ IT and/or cybersecurity personnel implement and maintain an informal process to conduct limited control testing of High Value Assets (HVAs) to meet specific statutory, regulatory and/or contractual requirements for pre-production cybersecurity and data protection control testing.",
+        "2": "Information Assurance (IAO) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IAO domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with IAO domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IAO  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Information Assurance (IA)-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ IA management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Pre-production security testing is decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ IT and/or cybersecurity personnel implement and maintain a limited Information Assurance Program (IAP) capability to conduct limited control testing to meet specific statutory, regulatory and/or contractual requirements for pre-production cybersecurity and data protection control testing.\n▪ IAP operations focus on protecting High Value Assets (HVAs), including environments where sensitive/regulated data is stored, transmitted and processed.\n▪ IT and/or cybersecurity personnel coordinate IAP activities with affected stakeholders before conducting such activities in order to reduce the potential impact on operations.",
+        "3": "Information Assurance (IAO) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IAO domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with IAO domain capabilities are well-documented and kept current by process owners.\n▪ An information assurance team, or similar function, is appropriately staffed and supported to implement and maintain IAO domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of information assurance operations (e.g., assessment scheduling software, risk assessment software, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IAO domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to facilitate the implementation of security, compliance and resilience assessment and authorization controls.",
+        "4": "Information Assurance (IAO) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [
+        "SCRMS",
+        "CORE AI Model Deployment",
+        "CORE ESP Level 1 Foundational",
+        "CORE ESP Level 2 Critical Infrastructure",
+        "CORE ESP Level 3 Advanced Threats",
+        "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+      ],
+      "possible_solutions": {
+        "micro_small": "∙ Controls Validation Testing (CVT)",
+        "small": "∙ Controls Validation Testing (CVT)",
+        "medium": "∙ Controls Validation Testing (CVT)\n∙ Information Assurance (IA) program\n∙ VisibleOps security management",
+        "large": "∙ Controls Validation Testing (CVT)\n∙ Information Assurance (IA) program\n∙ VisibleOps security management",
+        "enterprise": "∙ Controls Validation Testing (CVT)\n∙ Information Assurance (IA) program\n∙ VisibleOps security management"
+      },
+      "risks": [
+        "R-AC-1",
+        "R-AC-2",
+        "R-AC-3",
+        "R-AC-4",
+        "R-AM-1",
+        "R-AM-2",
+        "R-BC-1",
+        "R-BC-2",
+        "R-BC-3",
+        "R-BC-4",
+        "R-BC-5",
+        "R-EX-1",
+        "R-EX-2",
+        "R-EX-3",
+        "R-EX-4",
+        "R-EX-5",
+        "R-EX-6",
+        "R-EX-7",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-3",
+        "R-GV-4",
+        "R-GV-5",
+        "R-GV-6",
+        "R-GV-7",
+        "R-GV-8",
+        "R-IR-1",
+        "R-IR-2",
+        "R-IR-3",
+        "R-IR-4",
+        "R-SA-1",
+        "R-SC-1",
+        "R-SC-2",
+        "R-SC-3",
+        "R-SC-4",
+        "R-SC-5",
+        "R-SC-6"
+      ],
+      "threats": [
+        "NT-2",
+        "NT-3",
+        "NT-4",
+        "NT-5",
+        "NT-6",
+        "NT-7",
+        "NT-8",
+        "NT-9",
+        "NT-10",
+        "NT-11",
+        "NT-12",
+        "NT-13",
+        "NT-14",
+        "MT-1",
+        "MT-2",
+        "MT-3",
+        "MT-4",
+        "MT-5",
+        "MT-6",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-16",
+        "MT-17",
+        "MT-18",
+        "MT-19",
+        "MT-20",
+        "MT-21",
+        "MT-22",
+        "MT-23",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "errata": "- wordsmithed",
+      "family_name": "Information Assurance",
+      "crosswalks": {
+        "general-aicpa-tsc-2017": [
+          "CC4.1",
+          "CC4.1-POF8",
+          "CC6.1-POF2",
+          "CC6.1-POF9"
+        ],
+        "general-cobit-2019": [
+          "MEA04.05",
+          "MEA04.06"
+        ],
+        "general-coso-2013": [
+          "16"
+        ],
+        "general-csa-iot-2": [
+          "IOT-01",
+          "SET-01"
+        ],
+        "general-govramp": [
+          "CA-01"
+        ],
+        "general-govramp-low": [
+          "CA-01"
+        ],
+        "general-govramp-low-plus": [
+          "CA-01"
+        ],
+        "general-govramp-mod": [
+          "CA-01"
+        ],
+        "general-govramp-high": [
+          "CA-01"
+        ],
+        "general-iec-62443-2-1-2024": [
+          "ORG 2.4"
+        ],
+        "general-iso-21434-2021": [
+          "PM-06-15",
+          "RQ-06-24",
+          "RQ-06-25",
+          "RQ-06-26",
+          "RQ-06-27",
+          "RQ-06-28",
+          "RQ-06-28(a)",
+          "RQ-06-28(b)",
+          "RQ-06-29"
+        ],
+        "general-iso-27002-2022": [
+          "5.21"
+        ],
+        "general-iso-27018-2025": [
+          "5.21"
+        ],
+        "general-iso-31000-2018": [
+          "5.5",
+          "5.6"
+        ],
+        "general-iso-31010-2009": [
+          "4.3.2"
+        ],
+        "general-iso-42001-2023": [
+          "A.6.2.5"
+        ],
+        "general-nist-100-1-ai-rmf": [
+          "GOVERN 4.3",
+          "MANAGE 1.1"
+        ],
+        "general-nist-800-53-r4": [
+          "CA-1",
+          "PM-10"
+        ],
+        "general-nist-800-53-r5-2": [
+          "CA-01",
+          "PM-10"
+        ],
+        "general-nist-800-53-r5-2-privacy": [
+          "CA-01",
+          "PM-10"
+        ],
+        "general-nist-800-53-r5-2-low": [
+          "CA-01"
+        ],
+        "general-nist-800-82-r3": [
+          "CA-01",
+          "PM-10"
+        ],
+        "general-nist-800-82-r3-low": [
+          "CA-01",
+          "PM-10"
+        ],
+        "general-nist-800-82-r3-mod": [
+          "CA-01",
+          "PM-10"
+        ],
+        "general-nist-800-82-r3-high": [
+          "CA-01",
+          "PM-10"
+        ],
+        "general-nist-800-161-r1": [
+          "CA-1",
+          "PM-10"
+        ],
+        "general-nist-800-161-r1-cscrm": [
+          "CA-1"
+        ],
+        "general-nist-800-161-r1-level-1": [
+          "CA-1",
+          "PM-10"
+        ],
+        "general-nist-800-161-r1-level-2": [
+          "CA-1",
+          "PM-10"
+        ],
+        "general-nist-800-161-r1-level-3": [
+          "CA-1"
+        ],
+        "general-nist-800-171-r2": [
+          "NFO - CA-1"
+        ],
+        "general-nist-800-171-r3": [
+          "03.12.01"
+        ],
+        "general-nist-csf-2-0": [
+          "ID.RA-01"
+        ],
+        "general-scf-dpmp-2025": [
+          "7.11"
+        ],
+        "general-sparta": [
+          "CM0089"
+        ],
+        "general-un-155-2021": [
+          "7.2.2.5"
+        ],
+        "general-un-ece-wp-29-2020": [
+          "7.2.2.2(e)",
+          "7.2.2.5"
+        ],
+        "usa-federal-dhs-cisa-cpg-2-0": [
+          "1.F",
+          "2.Q"
+        ],
+        "usa-federal-fbi-cjis-6-0": [
+          "CA-1"
+        ],
+        "usa-federal-doe-c2m2-2-1": [
+          "RISK-4c"
+        ],
+        "usa-federal-fda-21-cfr-part-11-2025": [
+          "11.10",
+          "11.10(a)",
+          "11.10(b)",
+          "11.10(c)"
+        ],
+        "usa-federal-gsa-fedramp-5-low": [
+          "CA-01"
+        ],
+        "usa-federal-gsa-fedramp-5-mod": [
+          "CA-01"
+        ],
+        "usa-federal-gsa-fedramp-5-high": [
+          "CA-01"
+        ],
+        "usa-federal-gsa-fedramp-5-li-saas": [
+          "CA-01"
+        ],
+        "usa-federal-irs-1075-2021": [
+          "CA-1",
+          "PM-10"
+        ],
+        "usa-federal-cms-marse-2-0": [
+          "CA-1",
+          "PM-10-1",
+          "PM-10-1a",
+          "PM-10-1b",
+          "PM-10-1c",
+          "PM-10-2",
+          "PM-10-2a",
+          "PM-10-2b",
+          "PM-10-2c",
+          "PM-10-2d"
+        ],
+        "usa-federal-dow-safeguarding-nnpi-2010": [
+          "11-3.a(4)(a)"
+        ],
+        "usa-federal-tsa-security-directive-1580-82-2022-01": [
+          "III.F",
+          "III.F.1",
+          "III.F.2.b"
+        ],
+        "usa-state-ca-ccpa-cpra-2026": [
+          "7123(c)(4)(C)"
+        ],
+        "usa-state-tx-dir-security-control-standards-catalog-2-2": [
+          "CA-01",
+          "PM-10"
+        ],
+        "usa-state-tx-txramp-2-0-level-1": [
+          "CA-01"
+        ],
+        "usa-state-tx-txramp-2-0-level-2": [
+          "CA-01"
+        ],
+        "emea-eu-ai-act-2024": [
+          "Article 9.8"
+        ],
+        "emea-eu-eba-ict-srm-2025": [
+          "3.4.6(41)",
+          "3.4.6(42)",
+          "3.4.6(43)",
+          "3.4.6(43)(a)",
+          "3.4.6(43)(b)",
+          "3.4.6(44)",
+          "3.4.6(45)",
+          "3.4.6(46)",
+          "3.4.6(47)",
+          "3.4.6(48)",
+          "3.6.2(70)"
+        ],
+        "emea-eu-nis2-annex-2024": [
+          "6.5.1",
+          "6.5.2(a)",
+          "6.5.3"
+        ],
+        "emea-aut-fappd-2000": [
+          "Sec 14",
+          "Sec 15"
+        ],
+        "emea-bel-act-8-1992": [
+          "16"
+        ],
+        "emea-deu-bsrit-2017": [
+          "7.11"
+        ],
+        "emea-isr-cmo-1-0": [
+          "10.6",
+          "16.5",
+          "17.1",
+          "17.16",
+          "17.18"
+        ],
+        "emea-qat-pdppl-2020": [
+          "11.1",
+          "11.2",
+          "11.3",
+          "11.4",
+          "11.5",
+          "11.6",
+          "11.7",
+          "11.8"
+        ],
+        "emea-sau-cgiot-2024": [
+          "1-5-2",
+          "2-15-2",
+          "4-1-5",
+          "4-2-3"
+        ],
+        "emea-sau-otcc-1-2022": [
+          "1-4-1-2"
+        ],
+        "emea-sau-sacs-002-2022": [
+          "TPC-51"
+        ],
+        "emea-zaf-popia-2013": [
+          "19",
+          "60"
+        ],
+        "emea-gbr-def-stan-05-138-2024": [
+          "1205"
+        ],
+        "emea-gbr-def-stan-05-138-l2-2024": [
+          "1205"
+        ],
+        "emea-gbr-def-stan-05-138-l3-2024": [
+          "1205"
+        ],
+        "apac-aus-ism-2024-june": [
+          "ISM-0027",
+          "ISM-0280",
+          "ISM-1525"
+        ],
+        "apac-ind-sebi-2024": [
+          "ID.AM.S4",
+          "PR.AA.S16"
+        ],
+        "apac-nzl-hisf-mlhsp-2023": [
+          "HHSP68",
+          "HML67"
+        ],
+        "apac-nzl-hisf-suppliers-2023": [
+          "HSUP59"
+        ],
+        "apac-nzl-ism-3-9": [
+          "2.2.5.C.01",
+          "4.4.4.C.01",
+          "4.4.5.C.01",
+          "4.4.5.C.02",
+          "4.4.5.C.03",
+          "4.4.5.C.04",
+          "4.4.6.C.01",
+          "4.4.7.C.01",
+          "4.4.7.C.02",
+          "4.4.8.C.01",
+          "4.4.8.C.02",
+          "4.4.8.C.03",
+          "4.4.8.C.04",
+          "4.4.9.C.01",
+          "4.4.10.C.01",
+          "4.4.11.C.01",
+          "4.4.12.C.01",
+          "4.4.12.C.02",
+          "4.4.12.C.03",
+          "4.4.12.C.04",
+          "4.4.12.C.05"
+        ],
+        "apac-sgp-mas-trm-2021": [
+          "5.1.2",
+          "5.4.1",
+          "5.4.2",
+          "5.4.3",
+          "5.4.4",
+          "5.6.1",
+          "5.6.2",
+          "5.6.3",
+          "5.7.1",
+          "5.7.2"
+        ],
+        "americas-bmu-mba-coc-2020": [
+          "5.14"
+        ],
+        "americas-can-osfi-b13-2022": [
+          "2.4.4"
+        ],
+        "americas-can-itsp-10-171-2025": [
+          "03.12.01"
+        ]
+      }
+    },
+    {
+      "control_id": "IAO-01.1",
+      "title": "Assessment Boundaries",
+      "family": "IAO",
+      "description": "Mechanisms exist to establish the scope of assessments by defining the assessment boundary, according to people, processes and technology that directly or indirectly impact the confidentiality, integrity, availability and safety of the Technology Assets, Applications, Services and/or Data (TAASD) under review.",
+      "scf_question": "Does the organization establish the scope of assessments by defining the assessment boundary, according to people, processes and technology that directly or indirectly impact the confidentiality, integrity, availability and safety of the Technology Assets, Applications, Services and/or Data (TAASD) under review?",
+      "relative_weight": 9,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [
+        "E-AST-02"
+      ],
+      "pptdf": "Process",
+      "nist_csf_function": "Identify",
+      "scrm_focus": {
+        "strategic": true,
+        "operational": true,
+        "tactical": false
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "Information Assurance (IAO) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with IAO domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Pre-production security testing-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ IT and/or cybersecurity personnel implement and maintain an informal process to conduct limited control testing of High Value Assets (HVAs) to meet specific statutory, regulatory and/or contractual requirements for pre-production cybersecurity and data protection control testing.",
+        "2": "Information Assurance (IAO) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IAO domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with IAO domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IAO  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Information Assurance (IA)-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ IA management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Pre-production security testing is decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ IT and/or cybersecurity personnel implement and maintain a limited Information Assurance Program (IAP) capability to conduct limited control testing to meet specific statutory, regulatory and/or contractual requirements for pre-production cybersecurity and data protection control testing.\n▪ IAP operations focus on protecting High Value Assets (HVAs), including environments where sensitive/regulated data is stored, transmitted and processed.",
+        "3": "Information Assurance (IAO) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IAO domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with IAO domain capabilities are well-documented and kept current by process owners.\n▪ An information assurance team, or similar function, is appropriately staffed and supported to implement and maintain IAO domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of information assurance operations (e.g., assessment scheduling software, risk assessment software, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IAO domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to establish the scope of assessments by defining the assessment boundary, according to people, processes and technology that directly or indirectly impact the confidentiality, integrity, availability and safety of the TAASD under review.",
+        "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [
+        "CORE ESP Level 2 Critical Infrastructure",
+        "CORE ESP Level 3 Advanced Threats",
+        "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+      ],
+      "possible_solutions": {
+        "micro_small": "∙ Document security assurance requirements for critical systems",
+        "small": "∙ Security assurance checklist for critical systems",
+        "medium": "∙ Formal information assurance program\n∙ Security testing and validation",
+        "large": "∙ Enterprise information assurance program\n∙ Independent security testing",
+        "enterprise": "∙ Enterprise IA program\n∙ Formal evaluation (e.g., Common Criteria, FedRAMP)\n∙ Continuous assurance monitoring"
+      },
+      "risks": [
+        "R-AC-1",
+        "R-AC-2",
+        "R-AC-3",
+        "R-AC-4",
+        "R-AM-1",
+        "R-AM-2",
+        "R-BC-1",
+        "R-BC-2",
+        "R-BC-3",
+        "R-BC-4",
+        "R-BC-5",
+        "R-EX-1",
+        "R-EX-2",
+        "R-EX-3",
+        "R-EX-4",
+        "R-EX-5",
+        "R-EX-6",
+        "R-EX-7",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-3",
+        "R-GV-4",
+        "R-GV-5",
+        "R-GV-6",
+        "R-GV-7",
+        "R-GV-8",
+        "R-IR-1",
+        "R-IR-2",
+        "R-IR-3",
+        "R-IR-4",
+        "R-SA-1",
+        "R-SC-1",
+        "R-SC-2",
+        "R-SC-3",
+        "R-SC-4",
+        "R-SC-5",
+        "R-SC-6"
+      ],
+      "threats": [
+        "NT-2",
+        "NT-3",
+        "NT-4",
+        "NT-5",
+        "NT-6",
+        "NT-7",
+        "NT-8",
+        "NT-9",
+        "NT-10",
+        "NT-11",
+        "NT-12",
+        "NT-13",
+        "NT-14",
+        "MT-1",
+        "MT-2",
+        "MT-3",
+        "MT-4",
+        "MT-5",
+        "MT-6",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Information Assurance",
+      "crosswalks": {
+        "general-aicpa-tsc-2017": [
+          "CC2.2-POF11"
+        ],
+        "general-cobit-2019": [
+          "MEA04.04"
+        ],
+        "general-csa-iot-2": [
+          "SET-01"
+        ],
+        "general-iso-21434-2021": [
+          "RQ-06-30",
+          "RQ-06-30(a)",
+          "RQ-06-30(b)",
+          "RQ-06-30(c)",
+          "RQ-06-30(d)"
+        ],
+        "general-nist-800-37-r2": [
+          "TASK P-11"
+        ],
+        "general-nist-800-66-r2": [
+          "164.308(a)(8)"
+        ],
+        "general-nist-800-171-r3": [
+          "03.12.01"
+        ],
+        "general-swift-cscf-2025": [
+          "7.3A"
+        ],
+        "general-ul-2900-1-2017": [
+          "4.1(g)"
+        ],
+        "general-un-155-2021": [
+          "7.2.2.2(e)"
+        ],
+        "general-un-ece-wp-29-2020": [
+          "7.2.2.2(e)"
+        ],
+        "usa-federal-dhs-cisa-cpg-2-0": [
+          "1.F"
+        ],
+        "usa-federal-fda-21-cfr-part-11-2025": [
+          "11.10(a)"
+        ],
+        "usa-federal-law-hipaa-simplification-2013": [
+          "164.308(a)(8)"
+        ],
+        "usa-federal-law-hipaa-security-rule-2013": [
+          "164.308(a)(8)"
+        ],
+        "usa-federal-tsa-security-directive-1580-82-2022-01": [
+          "III.F.2.b"
+        ],
+        "emea-eu-nis2-annex-2024": [
+          "6.5.2(c)"
+        ],
+        "apac-nzl-ism-3-9": [
+          "5.8.61.C.01",
+          "5.8.61.C.02",
+          "5.8.61.C.03"
+        ],
+        "apac-sgp-mas-trm-2021": [
+          "5.7.1",
+          "5.7.2"
+        ],
+        "americas-can-osfi-b13-2022": [
+          "2.4.4"
+        ],
+        "americas-can-itsp-10-171-2025": [
+          "03.12.01"
+        ]
+      }
+    },
+    {
+      "control_id": "IAO-02",
+      "title": "Assessments",
+      "family": "IAO",
+      "description": "Mechanisms exist to formally assess the security, compliance and resilience controls in Technology Assets, Applications and/or Services (TAAS) through Information Assurance Program (IAP) activities to determine the extent to which the controls are implemented correctly, operating as intended and producing the desired outcome with respect to meeting expected requirements.",
+      "scf_question": "Does the organization formally assess the security, compliance and resilience controls in Technology Assets, Applications and/or Services (TAAS) through Information Assurance Program (IAP) activities to determine the extent to which the controls are implemented correctly, operating as intended and producing the desired outcome with respect to meeting expected requirements?",
+      "relative_weight": 10,
+      "conformity_cadence": "Semi-Annual",
+      "evidence_requests": [
+        "E-IAO-03",
+        "E-IAO-04"
+      ],
+      "pptdf": "Process",
+      "nist_csf_function": "Protect",
+      "scrm_focus": {
+        "strategic": false,
+        "operational": true,
+        "tactical": true
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "Information Assurance (IAO) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with IAO domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Pre-production security testing-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ IT and/or cybersecurity personnel implement and maintain an informal process to conduct limited control testing of High Value Assets (HVAs) to meet specific statutory, regulatory and/or contractual requirements for pre-production cybersecurity and data protection control testing.",
+        "2": "Information Assurance (IAO) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IAO domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with IAO domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IAO  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Information Assurance (IA)-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ IA management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Pre-production security testing is decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ IT and/or cybersecurity personnel implement and maintain a limited Information Assurance Program (IAP) capability to conduct limited control testing to meet specific statutory, regulatory and/or contractual requirements for pre-production cybersecurity and data protection control testing.\n▪ IAP operations focus on protecting High Value Assets (HVAs), including environments where sensitive/regulated data is stored, transmitted and processed.\n▪ IT and/or cybersecurity personnel coordinate IAP activities with affected stakeholders before conducting such activities in order to reduce the potential impact on operations.\n▪ IAP testing results in a formal risk assessment where Business process owners (BPOs) are required to make a decision to (1) reduce, (2) avoid, (3) transfer and/or (4) accept risk(s) on behalf of the organization.",
+        "3": "Information Assurance (IAO) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IAO domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with IAO domain capabilities are well-documented and kept current by process owners.\n▪ An information assurance team, or similar function, is appropriately staffed and supported to implement and maintain IAO domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of information assurance operations (e.g., assessment scheduling software, risk assessment software, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IAO domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to formally assess the security, compliance and resilience controls in Technology Assets, Applications and/or Services (TAAS) through Information Assurance Program (IAP) activities to determine the extent to which the controls are implemented correctly, operating as intended and producing the desired outcome with respect to meeting expected requirements.",
+        "4": "Information Assurance (IAO) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [
+        "SCRMS",
+        "CORE AI Model Deployment",
+        "CORE ESP Level 1 Foundational",
+        "CORE ESP Level 2 Critical Infrastructure",
+        "CORE ESP Level 3 Advanced Threats",
+        "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+      ],
+      "possible_solutions": {
+        "micro_small": "∙ Controls Validation Testing (CVT)",
+        "small": "∙ Controls Validation Testing (CVT)",
+        "medium": "∙ Controls Validation Testing (CVT)\n∙ Information Assurance (IA) program\n∙ VisibleOps security management",
+        "large": "∙ Controls Validation Testing (CVT)\n∙ Information Assurance (IA) program\n∙ VisibleOps security management",
+        "enterprise": "∙ Controls Validation Testing (CVT)\n∙ Information Assurance (IA) program\n∙ VisibleOps security management"
+      },
+      "risks": [
+        "R-AC-1",
+        "R-AC-2",
+        "R-AC-3",
+        "R-AC-4",
+        "R-AM-1",
+        "R-AM-2",
+        "R-BC-1",
+        "R-BC-2",
+        "R-BC-3",
+        "R-BC-4",
+        "R-BC-5",
+        "R-EX-1",
+        "R-EX-2",
+        "R-EX-3",
+        "R-EX-4",
+        "R-EX-5",
+        "R-EX-6",
+        "R-EX-7",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-3",
+        "R-GV-4",
+        "R-GV-5",
+        "R-GV-6",
+        "R-GV-7",
+        "R-GV-8",
+        "R-IR-1",
+        "R-IR-2",
+        "R-IR-3",
+        "R-IR-4",
+        "R-SA-1",
+        "R-SC-1",
+        "R-SC-2",
+        "R-SC-3",
+        "R-SC-4",
+        "R-SC-5",
+        "R-SC-6"
+      ],
+      "threats": [
+        "NT-2",
+        "NT-3",
+        "NT-4",
+        "NT-5",
+        "NT-6",
+        "NT-7",
+        "NT-8",
+        "NT-9",
+        "NT-10",
+        "NT-11",
+        "NT-12",
+        "NT-13",
+        "NT-14",
+        "MT-1",
+        "MT-2",
+        "MT-3",
+        "MT-4",
+        "MT-5",
+        "MT-6",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-10",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "errata": "- wordsmithed",
+      "family_name": "Information Assurance",
+      "crosswalks": {
+        "general-aicpa-tsc-2017": [
+          "CC4.1",
+          "CC4.1-POF8",
+          "CC6.1-POF2"
+        ],
+        "general-cobit-2019": [
+          "BAI03.06",
+          "BAI03.08",
+          "MEA04.06",
+          "MEA04.07"
+        ],
+        "general-coso-2013": [
+          "16"
+        ],
+        "general-csa-iot-2": [
+          "SET-01"
+        ],
+        "general-govramp": [
+          "CA-02"
+        ],
+        "general-govramp-low": [
+          "CA-02"
+        ],
+        "general-govramp-low-plus": [
+          "CA-02"
+        ],
+        "general-govramp-mod": [
+          "CA-02"
+        ],
+        "general-govramp-high": [
+          "CA-02"
+        ],
+        "general-iec-62443-2-1-2024": [
+          "ORG 2.4(a)"
+        ],
+        "general-iso-21434-2021": [
+          "PM-06-15(a)",
+          "PM-06-15(b)",
+          "PM-06-15(c)",
+          "PM-06-16",
+          "PM-06-16(a)",
+          "PM-06-16(b)",
+          "PM-06-16(c)",
+          "PM-06-16(d)",
+          "PM-06-17",
+          "PM-06-17(a)",
+          "PM-06-17(b)",
+          "RQ-06-20",
+          "RQ-06-22",
+          "RQ-10-08",
+          "RQ-10-09",
+          "RQ-10-10",
+          "RQ-10-10(a)",
+          "RQ-10-10(b)",
+          "RQ-10-10(c)",
+          "RQ-10-10(d)",
+          "RQ-10-11",
+          "RQ-10-12",
+          "RQ-10-13",
+          "RQ-11-01",
+          "RQ-11-01(a)",
+          "RQ-11-01(b)",
+          "RQ-11-01(c)",
+          "RQ-11-01(d)",
+          "RQ-11-02"
+        ],
+        "general-iso-27002-2022": [
+          "5.21",
+          "5.23",
+          "8.29"
+        ],
+        "general-iso-27017-2015": [
+          "14.2.8"
+        ],
+        "general-iso-27018-2025": [
+          "5.21",
+          "5.23",
+          "8.29"
+        ],
+        "general-iso-31010-2009": [
+          "5.3.2"
+        ],
+        "general-iso-42001-2023": [
+          "A.6.2.5"
+        ],
+        "general-mitre-att&ck-16-1": [
+          "T1190",
+          "T1195",
+          "T1195.001",
+          "T1195.002",
+          "T1210"
+        ],
+        "general-nist-100-1-ai-rmf": [
+          "MEASURE 2.0"
+        ],
+        "general-nist-800-37-r2": [
+          "TASK C-3",
+          "TASK A-1",
+          "TASK A-2",
+          "TASK A-3"
+        ],
+        "general-nist-800-53-r4": [
+          "CA-2"
+        ],
+        "general-nist-800-53-r5-2": [
+          "CA-02"
+        ],
+        "general-nist-800-53-r5-2-privacy": [
+          "CA-02"
+        ],
+        "general-nist-800-53-r5-2-low": [
+          "CA-02"
+        ],
+        "general-nist-800-66-r2": [
+          "164.308(a)(8)"
+        ],
+        "general-nist-800-82-r3": [
+          "CA-02"
+        ],
+        "general-nist-800-82-r3-low": [
+          "CA-02"
+        ],
+        "general-nist-800-82-r3-mod": [
+          "CA-02"
+        ],
+        "general-nist-800-82-r3-high": [
+          "CA-02"
+        ],
+        "general-nist-800-161-r1": [
+          "CA-2"
+        ],
+        "general-nist-800-161-r1-cscrm": [
+          "CA-2"
+        ],
+        "general-nist-800-161-r1-level-2": [
+          "CA-2"
+        ],
+        "general-nist-800-161-r1-level-3": [
+          "CA-2"
+        ],
+        "general-nist-800-171-r2": [
+          "3.12.1"
+        ],
+        "general-nist-800-171-r3": [
+          "03.12.01"
+        ],
+        "general-nist-csf-2-0": [
+          "ID.RA-01",
+          "ID.IM-01",
+          "ID.IM-02"
+        ],
+        "general-tisax-6-0-3": [
+          "5.3.1"
+        ],
+        "general-un-155-2021": [
+          "7.2.2.2(e)"
+        ],
+        "general-un-ece-wp-29-2020": [
+          "7.2.2.2(e)"
+        ],
+        "usa-federal-dhs-cisa-cpg-2-0": [
+          "1.F",
+          "2.Q"
+        ],
+        "usa-federal-fbi-cjis-6-0": [
+          "CA-2"
+        ],
+        "usa-federal-doe-c2m2-2-1": [
+          "RISK-4d"
+        ],
+        "usa-federal-dow-cmmc-2-level-2": [
+          "CAL2.-3.12.1"
+        ],
+        "usa-federal-fda-21-cfr-part-11-2025": [
+          "11.10(a)"
+        ],
+        "usa-federal-gsa-fedramp-5-low": [
+          "CA-02"
+        ],
+        "usa-federal-gsa-fedramp-5-mod": [
+          "CA-02"
+        ],
+        "usa-federal-gsa-fedramp-5-high": [
+          "CA-02"
+        ],
+        "usa-federal-gsa-fedramp-5-li-saas": [
+          "CA-02"
+        ],
+        "usa-federal-law-hipaa-simplification-2013": [
+          "164.308(a)(8)"
+        ],
+        "usa-federal-law-hipaa-security-rule-2013": [
+          "164.308(a)(8)"
+        ],
+        "usa-federal-irs-1075-2021": [
+          "CA-2"
+        ],
+        "usa-federal-cms-marse-2-0": [
+          "CA-2",
+          "CA-2.a",
+          "CA-2.a.1",
+          "CA-2.a.2",
+          "CA-2.a.3",
+          "CA-2.b",
+          "CA-2.c",
+          "CA-2.d",
+          "CA-2-IS.1",
+          "CA-2-IS.2",
+          "CA-2-IS.3",
+          "CA-2-IS.4"
+        ],
+        "usa-federal-dow-safeguarding-nnpi-2010": [
+          "11-3.a(4)(b)",
+          "11-3.a(4)(c)"
+        ],
+        "usa-federal-tsa-security-directive-1580-82-2022-01": [
+          "III.F.2.a",
+          "III.F.2.b",
+          "III.F.2.c"
+        ],
+        "usa-state-tx-dir-security-control-standards-catalog-2-2": [
+          "CA-02"
+        ],
+        "usa-state-tx-txramp-2-0-level-1": [
+          "CA-02"
+        ],
+        "usa-state-tx-txramp-2-0-level-2": [
+          "CA-02"
+        ],
+        "emea-eu-ai-act-2024": [
+          "Article 9.8"
+        ],
+        "emea-eu-eba-ict-srm-2025": [
+          "3.4.6(41)",
+          "3.4.6(42)",
+          "3.4.6(43)",
+          "3.4.6(43)(a)",
+          "3.4.6(43)(b)",
+          "3.4.6(44)",
+          "3.4.6(45)",
+          "3.4.6(46)",
+          "3.4.6(47)",
+          "3.4.6(48)",
+          "3.6.2(70)",
+          "3.6.2(71)"
+        ],
+        "emea-eu-nis2-annex-2024": [
+          "6.5.2(a)",
+          "6.5.2(b)"
+        ],
+        "emea-deu-bsrit-2017": [
+          "7.11"
+        ],
+        "emea-isr-cmo-1-0": [
+          "10.6",
+          "16.5",
+          "17.2",
+          "17.16",
+          "17.18"
+        ],
+        "emea-qat-pdppl-2020": [
+          "11.1",
+          "11.2"
+        ],
+        "emea-sau-cgiot-2024": [
+          "2-15-2",
+          "4-1-5",
+          "4-2-3",
+          "4-2-4"
+        ],
+        "emea-gbr-def-stan-05-138-2024": [
+          "1205"
+        ],
+        "emea-gbr-def-stan-05-138-l2-2024": [
+          "1205"
+        ],
+        "emea-gbr-def-stan-05-138-l3-2024": [
+          "1205"
+        ],
+        "apac-aus-ism-2024-june": [
+          "ISM-0100"
+        ],
+        "apac-chn-cybersecurity-law-2017": [
+          "Article 35"
+        ],
+        "apac-ind-sebi-2024": [
+          "PR.AA.S16"
+        ],
+        "apac-jpn-ismap": [
+          "14.1.1.12",
+          "14.1.1.17",
+          "14.1.1.18",
+          "14.2.7.4",
+          "14.2.9",
+          "14.2.9.1",
+          "14.2.9.2",
+          "14.2.9.3",
+          "14.2.9.4"
+        ],
+        "apac-nzl-hisf-mlhsp-2023": [
+          "HHSP68",
+          "HML67"
+        ],
+        "apac-nzl-hisf-suppliers-2023": [
+          "HSUP59"
+        ],
+        "apac-nzl-ism-3-9": [
+          "4.2.10.C.01",
+          "4.3.20.C.01",
+          "4.3.20.C.02",
+          "4.3.20.C.03",
+          "6.3.8.C.01"
+        ],
+        "apac-sgp-mas-trm-2021": [
+          "5.7.1",
+          "5.7.2"
+        ],
+        "americas-bmu-mba-coc-2020": [
+          "5.14"
+        ],
+        "americas-can-osfi-b13-2022": [
+          "2.4.4"
+        ],
+        "americas-can-itsp-10-171-2025": [
+          "03.12.01"
+        ]
+      }
+    },
+    {
+      "control_id": "IAO-02.1",
+      "title": "Assessor Independence",
+      "family": "IAO",
+      "description": "Mechanisms exist to ensure assessors or assessment teams have the appropriate independence to conduct security, compliance and/or resilience control assessments.",
+      "scf_question": "Does the organization ensure assessors or assessment teams have the appropriate independence to conduct security, compliance and/or resilience control assessments?",
+      "relative_weight": 9,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [],
+      "pptdf": "Process",
+      "nist_csf_function": "Protect",
+      "scrm_focus": {
+        "strategic": true,
+        "operational": true,
+        "tactical": false
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "Information Assurance (IAO) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with IAO domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Pre-production security testing-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ IT and/or cybersecurity personnel implement and maintain an informal process to conduct limited control testing of High Value Assets (HVAs) to meet specific statutory, regulatory and/or contractual requirements for pre-production cybersecurity and data protection control testing.",
+        "2": "Information Assurance (IAO) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IAO domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with IAO domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IAO  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Information Assurance (IA)-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ IA management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Pre-production security testing is decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ IT and/or cybersecurity personnel implement and maintain a limited Information Assurance Program (IAP) capability to conduct limited control testing to meet specific statutory, regulatory and/or contractual requirements for pre-production cybersecurity and data protection control testing.",
+        "3": "Information Assurance (IAO) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IAO domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with IAO domain capabilities are well-documented and kept current by process owners.\n▪ An information assurance team, or similar function, is appropriately staffed and supported to implement and maintain IAO domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of information assurance operations (e.g., assessment scheduling software, risk assessment software, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IAO domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to ensure assessors or assessment teams have the appropriate independence to conduct security, compliance and/or resilience control assessments.",
+        "4": "Information Assurance (IAO) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [
+        "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+      ],
+      "possible_solutions": {
+        "micro_small": "∙ Document security assurance requirements for critical systems",
+        "small": "∙ Security assurance checklist for critical systems",
+        "medium": "∙ Formal information assurance program\n∙ Security testing and validation",
+        "large": "∙ Enterprise information assurance program\n∙ Independent security testing",
+        "enterprise": "∙ Enterprise IA program\n∙ Formal evaluation (e.g., Common Criteria, FedRAMP)\n∙ Continuous assurance monitoring"
+      },
+      "risks": [
+        "R-AC-1",
+        "R-AC-2",
+        "R-AC-3",
+        "R-AC-4",
+        "R-AM-1",
+        "R-AM-2",
+        "R-BC-1",
+        "R-BC-2",
+        "R-BC-3",
+        "R-BC-4",
+        "R-BC-5",
+        "R-EX-1",
+        "R-EX-2",
+        "R-EX-3",
+        "R-EX-4",
+        "R-EX-5",
+        "R-EX-6",
+        "R-EX-7",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-3",
+        "R-GV-4",
+        "R-GV-5",
+        "R-GV-6",
+        "R-GV-7",
+        "R-GV-8",
+        "R-IR-1",
+        "R-IR-2",
+        "R-IR-3",
+        "R-IR-4",
+        "R-SA-1",
+        "R-SC-1",
+        "R-SC-2",
+        "R-SC-3",
+        "R-SC-4",
+        "R-SC-5",
+        "R-SC-6"
+      ],
+      "threats": [
+        "NT-2",
+        "NT-3",
+        "NT-4",
+        "NT-5",
+        "NT-6",
+        "NT-7",
+        "NT-8",
+        "NT-9",
+        "NT-10",
+        "NT-11",
+        "NT-12",
+        "NT-13",
+        "NT-14",
+        "MT-1",
+        "MT-2",
+        "MT-3",
+        "MT-4",
+        "MT-5",
+        "MT-6",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "errata": "- wordsmithed",
+      "family_name": "Information Assurance",
+      "crosswalks": {
+        "general-aicpa-tsc-2017": [
+          "CC4.1"
+        ],
+        "general-govramp": [
+          "CA-02(01)"
+        ],
+        "general-govramp-low": [
+          "CA-02(01)"
+        ],
+        "general-govramp-low-plus": [
+          "CA-02(01)"
+        ],
+        "general-govramp-mod": [
+          "CA-02(01)"
+        ],
+        "general-govramp-high": [
+          "CA-02(01)"
+        ],
+        "general-nist-800-37-r2": [
+          "TASK A-1"
+        ],
+        "general-nist-800-53-r4": [
+          "CA-2(1)"
+        ],
+        "general-nist-800-53-r5-2": [
+          "CA-02(01)"
+        ],
+        "general-nist-800-53-r5-2-mod": [
+          "CA-02(01)"
+        ],
+        "general-nist-800-82-r3": [
+          "CA-02(01)"
+        ],
+        "general-nist-800-82-r3-mod": [
+          "CA-02(01)"
+        ],
+        "general-nist-800-82-r3-high": [
+          "CA-02(01)"
+        ],
+        "general-nist-800-171-r2": [
+          "NFO - CA-2(1)"
+        ],
+        "usa-federal-fbi-cjis-6-0": [
+          "CA-2(1)"
+        ],
+        "usa-federal-gsa-fedramp-5-low": [
+          "CA-02(01)"
+        ],
+        "usa-federal-gsa-fedramp-5-mod": [
+          "CA-02(01)"
+        ],
+        "usa-federal-gsa-fedramp-5-high": [
+          "CA-02(01)"
+        ],
+        "usa-federal-gsa-fedramp-5-li-saas": [
+          "CA-02(01)"
+        ],
+        "usa-federal-irs-1075-2021": [
+          "CA-2(CE-1)"
+        ],
+        "usa-federal-cms-marse-2-0": [
+          "CA-2(1)",
+          "CA-2(1)-IS"
+        ],
+        "emea-isr-cmo-1-0": [
+          "17.2",
+          "17.16"
+        ],
+        "apac-nzl-ism-3-9": [
+          "4.3.16.C.01"
+        ]
+      }
+    },
+    {
+      "control_id": "IAO-02.2",
+      "title": "Specialized Assessments",
+      "family": "IAO",
+      "description": "Mechanisms exist to conduct specialized assessments for: \n(1) Statutory, regulatory and contractual compliance obligations;\n(2) Monitoring capabilities; \n(3) Mobile devices;\n(4) Databases;\n(5) Application security;\n(6) Embedded technologies (e.g., IoT, OT, etc.);\n(7) Vulnerability management; \n(8) Malicious code; \n(9) Insider threats;\n(10) Performance/load testing; and/or\n(11) Artificial Intelligence and Autonomous Technologies (AAT).",
+      "scf_question": "Does the organization conduct specialized assessments for: \n (1) Statutory, regulatory and contractual compliance obligations;\n (2) Monitoring capabilities; \n (3) Mobile devices;\n (4) Databases;\n (5) Application security;\n (6) Embedded technologies (e.g., IoT, OT, etc.);\n (7) Vulnerability management; \n (8) Malicious code; \n (9) Insider threats;\n (10) Performance/load testing; and/or\n (11) Artificial Intelligence and Autonomous Technologies (AAT) testing?",
+      "relative_weight": 9,
+      "conformity_cadence": "Semi-Annual",
+      "evidence_requests": [],
+      "pptdf": "Process",
+      "nist_csf_function": "Protect",
+      "scrm_focus": {
+        "strategic": false,
+        "operational": false,
+        "tactical": true
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "Information Assurance (IAO) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with IAO domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Pre-production security testing-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ IT and/or cybersecurity personnel implement and maintain an informal process to conduct limited control testing of High Value Assets (HVAs) to meet specific statutory, regulatory and/or contractual requirements for pre-production cybersecurity and data protection control testing.",
+        "2": "Information Assurance (IAO) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IAO domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with IAO domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IAO  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Information Assurance (IA)-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ IA management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Pre-production security testing is decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ IT and/or cybersecurity personnel implement and maintain a limited Information Assurance Program (IAP) capability to conduct limited control testing to meet specific statutory, regulatory and/or contractual requirements for pre-production cybersecurity and data protection control testing.\n▪ IAP operations focus on protecting High Value Assets (HVAs), including environments where sensitive/regulated data is stored, transmitted and processed.",
+        "3": "Information Assurance (IAO) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IAO domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with IAO domain capabilities are well-documented and kept current by process owners.\n▪ An information assurance team, or similar function, is appropriately staffed and supported to implement and maintain IAO domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of information assurance operations (e.g., assessment scheduling software, risk assessment software, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IAO domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to conduct specialized assessments for: \n(1) Statutory, regulatory and contractual compliance obligations;\n(2) Monitoring capabilities; \n(3) Mobile devices;\n(4) Databases;\n(5) Application security;\n(6) Embedded technologies (e.g., IoT, OT, etc.);\n(7) Vulnerability management; \n(8) Malicious code; \n(9) Insider threats;\n(10) Performance/load testing; and/or\n(11) Artificial Intelligence and Autonomous Technologies (AAT).",
+        "4": "Information Assurance (IAO) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [
+        "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+      ],
+      "possible_solutions": {
+        "micro_small": "∙ Controls Validation Testing (CVT)",
+        "small": "∙ Controls Validation Testing (CVT)",
+        "medium": "∙ Controls Validation Testing (CVT)",
+        "large": "∙ Controls Validation Testing (CVT)",
+        "enterprise": "∙ Controls Validation Testing (CVT)"
+      },
+      "risks": [
+        "R-AC-1",
+        "R-AC-2",
+        "R-AC-3",
+        "R-AC-4",
+        "R-AM-1",
+        "R-AM-2",
+        "R-BC-1",
+        "R-BC-2",
+        "R-BC-3",
+        "R-BC-4",
+        "R-BC-5",
+        "R-EX-1",
+        "R-EX-2",
+        "R-EX-3",
+        "R-EX-4",
+        "R-EX-5",
+        "R-EX-6",
+        "R-EX-7",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-3",
+        "R-GV-4",
+        "R-GV-5",
+        "R-GV-6",
+        "R-GV-7",
+        "R-GV-8",
+        "R-IR-1",
+        "R-IR-2",
+        "R-IR-3",
+        "R-IR-4",
+        "R-SA-1",
+        "R-SC-1",
+        "R-SC-2",
+        "R-SC-3",
+        "R-SC-4",
+        "R-SC-5",
+        "R-SC-6"
+      ],
+      "threats": [
+        "NT-2",
+        "NT-3",
+        "NT-4",
+        "NT-5",
+        "NT-6",
+        "NT-7",
+        "NT-8",
+        "NT-9",
+        "NT-10",
+        "NT-11",
+        "NT-12",
+        "NT-13",
+        "NT-14",
+        "MT-1",
+        "MT-2",
+        "MT-3",
+        "MT-4",
+        "MT-5",
+        "MT-6",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-10",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Information Assurance",
+      "crosswalks": {
+        "general-aicpa-tsc-2017": [
+          "CC4.1",
+          "CC4.1-POF4"
+        ],
+        "general-coso-2013": [
+          "16"
+        ],
+        "general-csa-cmm-4-1-0": [
+          "AIS-05"
+        ],
+        "general-csa-iot-2": [
+          "IOT-01",
+          "SET-01"
+        ],
+        "general-govramp": [
+          "CA-02(02)"
+        ],
+        "general-govramp-mod": [
+          "CA-02(02)"
+        ],
+        "general-govramp-high": [
+          "CA-02(02)"
+        ],
+        "general-iso-27002-2022": [
+          "5.21",
+          "5.23",
+          "8.29"
+        ],
+        "general-iso-27018-2025": [
+          "5.21",
+          "5.23",
+          "8.29"
+        ],
+        "general-iso-42001-2023": [
+          "A.6.2.5"
+        ],
+        "general-nist-100-1-ai-rmf": [
+          "MAP 2.3",
+          "MEASURE 3.1",
+          "MEASURE 3.2"
+        ],
+        "general-nist-800-37-r2": [
+          "TASK A-1"
+        ],
+        "general-nist-800-53-r4": [
+          "CA-2(2)"
+        ],
+        "general-nist-800-53-r5-2": [
+          "CA-02(02)",
+          "SA-11(05)"
+        ],
+        "general-nist-800-53-r5-2-privacy": [
+          "SA-11(05)"
+        ],
+        "general-nist-800-53-r5-2-high": [
+          "CA-02(02)"
+        ],
+        "general-nist-800-82-r3": [
+          "CA-02(02)",
+          "SA-11(05)"
+        ],
+        "general-nist-800-82-r3-high": [
+          "CA-02(02)"
+        ],
+        "general-nist-800-160-vol-2-r1": [
+          "SA-11(05)"
+        ],
+        "general-nist-800-161-r1": [
+          "CA-2(2)"
+        ],
+        "general-nist-800-161-r1-level-3": [
+          "CA-2(2)"
+        ],
+        "general-owasp-top-10-2025": [
+          "A01:2025",
+          "A02:2025",
+          "A05:2025",
+          "A06:2025",
+          "A07:2025",
+          "A09:2025",
+          "A10:2025"
+        ],
+        "general-ul-2900-1-2017": [
+          "4.1(h)"
+        ],
+        "usa-federal-dhs-cisa-cpg-2-0": [
+          "1.F"
+        ],
+        "usa-federal-gsa-fedramp-5-low": [
+          "SA-11(05)"
+        ],
+        "usa-federal-gsa-fedramp-5-mod": [
+          "SA-11(05)"
+        ],
+        "usa-federal-gsa-fedramp-5-high": [
+          "CA-02(02)",
+          "SA-11(05)"
+        ],
+        "usa-federal-gsa-fedramp-5-li-saas": [
+          "SA-11(05)"
+        ],
+        "usa-federal-irs-1075-2021": [
+          "SA-11(CE-5)"
+        ],
+        "emea-eu-eba-ict-srm-2025": [
+          "3.6.2(70)",
+          "3.6.2(71)"
+        ],
+        "emea-deu-bsrit-2017": [
+          "7.11"
+        ],
+        "emea-isr-cmo-1-0": [
+          "17.2",
+          "17.16"
+        ],
+        "apac-aus-ism-2024-june": [
+          "ISM-0100",
+          "ISM-1137",
+          "ISM-1570"
+        ],
+        "apac-nzl-ism-3-9": [
+          "4.3.20.C.01",
+          "4.3.20.C.02",
+          "4.3.20.C.03"
+        ],
+        "apac-sgp-mas-trm-2021": [
+          "5.7.4"
+        ]
+      }
+    },
+    {
+      "control_id": "IAO-02.3",
+      "title": "Third-Party Assessment Reciprocity",
+      "family": "IAO",
+      "description": "Mechanisms exist to accept and respond to the results of external assessments that are performed by impartial, external organizations.",
+      "scf_question": "Does the organization accept and respond to the results of external assessments that are performed by impartial, external organizations?",
+      "relative_weight": 9,
+      "conformity_cadence": "Semi-Annual",
+      "evidence_requests": [],
+      "pptdf": "Process",
+      "nist_csf_function": "Protect",
+      "scrm_focus": {
+        "strategic": false,
+        "operational": false,
+        "tactical": true
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "2": "Information Assurance (IAO) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IAO domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with IAO domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IAO  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Information Assurance (IA)-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ IA management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Pre-production security testing is decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ IT and/or cybersecurity personnel implement and maintain a limited Information Assurance Program (IAP) capability to conduct limited control testing to meet specific statutory, regulatory and/or contractual requirements for pre-production cybersecurity and data protection control testing.\n▪ IAP operations focus on protecting High Value Assets (HVAs), including environments where sensitive/regulated data is stored, transmitted and processed.",
+        "3": "Information Assurance (IAO) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IAO domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with IAO domain capabilities are well-documented and kept current by process owners.\n▪ An information assurance team, or similar function, is appropriately staffed and supported to implement and maintain IAO domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of information assurance operations (e.g., assessment scheduling software, risk assessment software, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IAO domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to accept and respond to the results of external assessments that are performed by impartial, external organizations.",
+        "4": "Information Assurance (IAO) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [
+        "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+      ],
+      "possible_solutions": {
+        "micro_small": "∙ Controls Validation Testing (CVT)",
+        "small": "∙ Controls Validation Testing (CVT)",
+        "medium": "∙ Controls Validation Testing (CVT)\n∙ Audit steering committee\n∙ Information Assurance (IA) program",
+        "large": "∙ Controls Validation Testing (CVT)\n∙ Audit steering committee\n∙ Information Assurance (IA) program",
+        "enterprise": "∙ Controls Validation Testing (CVT)\n∙ Audit steering committee\n∙ Information Assurance (IA) program"
+      },
+      "risks": [
+        "R-AC-1",
+        "R-AC-2",
+        "R-AC-3",
+        "R-AC-4",
+        "R-AM-1",
+        "R-AM-2",
+        "R-BC-1",
+        "R-BC-2",
+        "R-BC-3",
+        "R-BC-4",
+        "R-BC-5",
+        "R-EX-1",
+        "R-EX-2",
+        "R-EX-3",
+        "R-EX-4",
+        "R-EX-5",
+        "R-EX-6",
+        "R-EX-7",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-3",
+        "R-GV-4",
+        "R-GV-5",
+        "R-GV-6",
+        "R-GV-7",
+        "R-GV-8",
+        "R-IR-1",
+        "R-IR-2",
+        "R-IR-3",
+        "R-IR-4",
+        "R-SA-1",
+        "R-SC-1",
+        "R-SC-2",
+        "R-SC-3",
+        "R-SC-4",
+        "R-SC-5",
+        "R-SC-6"
+      ],
+      "threats": [
+        "NT-2",
+        "NT-3",
+        "NT-4",
+        "NT-5",
+        "NT-6",
+        "NT-7",
+        "NT-8",
+        "NT-9",
+        "NT-10",
+        "NT-11",
+        "NT-12",
+        "NT-13",
+        "NT-14",
+        "MT-1",
+        "MT-2",
+        "MT-3",
+        "MT-4",
+        "MT-5",
+        "MT-6",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "errata": "- renamed",
+      "family_name": "Information Assurance",
+      "crosswalks": {
+        "general-govramp": [
+          "CA-02(03)"
+        ],
+        "general-govramp-mod": [
+          "CA-02(03)"
+        ],
+        "general-govramp-high": [
+          "CA-02(03)"
+        ],
+        "general-nist-800-53-r4": [
+          "CA-2(3)"
+        ],
+        "general-nist-800-53-r5-2": [
+          "CA-02(03)"
+        ],
+        "general-nist-800-82-r3": [
+          "CA-02(03)"
+        ],
+        "general-nist-800-161-r1": [
+          "CA-2(3)"
+        ],
+        "general-nist-800-161-r1-level-3": [
+          "CA-2(3)"
+        ],
+        "usa-federal-gsa-fedramp-5-mod": [
+          "CA-02(03)"
+        ],
+        "usa-federal-gsa-fedramp-5-high": [
+          "CA-02(03)"
+        ],
+        "emea-isr-cmo-1-0": [
+          "17.2",
+          "17.16"
+        ],
+        "apac-aus-ism-2024-june": [
+          "ISM-0100"
+        ],
+        "apac-nzl-ism-3-9": [
+          "4.3.16.C.01",
+          "4.3.20.C.01",
+          "4.3.20.C.02",
+          "4.3.20.C.03",
+          "5.8.62.C.01"
+        ]
+      }
+    },
+    {
+      "control_id": "IAO-02.4",
+      "title": "Security Assessment Report (SAR)",
+      "family": "IAO",
+      "description": "Mechanisms exist to produce a Security Assessment Report (SAR) at the conclusion of a security assessment to certify the results of the assessment and assist with any remediation actions.",
+      "scf_question": "Does the organization produce a Security Assessment Report (SAR) at the conclusion of a security assessment to certify the results of the assessment and assist with any remediation actions?",
+      "relative_weight": 7,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [
+        "E-IAO-01",
+        "E-IAO-03",
+        "E-IAO-05"
+      ],
+      "pptdf": "Process",
+      "nist_csf_function": "Identify",
+      "scrm_focus": {
+        "strategic": false,
+        "operational": true,
+        "tactical": false
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "2": "Information Assurance (IAO) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IAO domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with IAO domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IAO  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Information Assurance (IA)-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ IA management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Pre-production security testing is decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ IT and/or cybersecurity personnel implement and maintain a limited Information Assurance Program (IAP) capability to conduct limited control testing to meet specific statutory, regulatory and/or contractual requirements for pre-production cybersecurity and data protection control testing.\n▪ IAP testing results in a formal risk assessment where Business process owners (BPOs) are required to make a decision to (1) reduce, (2) avoid, (3) transfer and/or (4) accept risk(s) on behalf of the organization.",
+        "3": "Information Assurance (IAO) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IAO domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with IAO domain capabilities are well-documented and kept current by process owners.\n▪ An information assurance team, or similar function, is appropriately staffed and supported to implement and maintain IAO domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of information assurance operations (e.g., assessment scheduling software, risk assessment software, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IAO domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to produce a Security Assessment Report (SAR) at the conclusion of a security assessment to certify the results of the assessment and assist with any remediation actions.",
+        "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [
+        "SCRMS",
+        "CORE ESP Level 1 Foundational",
+        "CORE ESP Level 2 Critical Infrastructure",
+        "CORE ESP Level 3 Advanced Threats"
+      ],
+      "possible_solutions": {
+        "micro_small": "∙ Controls Validation Testing (CVT)\n∙ Security Assessment Report (SAR)",
+        "small": "∙ Controls Validation Testing (CVT)\n∙ Security Assessment Report (SAR)",
+        "medium": "∙ Controls Validation Testing (CVT)\n∙ Security Assessment Report (SAR)",
+        "large": "∙ Controls Validation Testing (CVT)\n∙ Security Assessment Report (SAR)",
+        "enterprise": "∙ Controls Validation Testing (CVT)\n∙ Security Assessment Report (SAR)"
+      },
+      "risks": [
+        "R-AC-1",
+        "R-AC-2",
+        "R-AC-3",
+        "R-AC-4",
+        "R-AM-1",
+        "R-AM-2",
+        "R-BC-1",
+        "R-BC-2",
+        "R-BC-3",
+        "R-BC-4",
+        "R-BC-5",
+        "R-EX-1",
+        "R-EX-2",
+        "R-EX-3",
+        "R-EX-4",
+        "R-EX-5",
+        "R-EX-6",
+        "R-EX-7",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-3",
+        "R-GV-4",
+        "R-GV-5",
+        "R-GV-6",
+        "R-GV-7",
+        "R-GV-8",
+        "R-IR-1",
+        "R-IR-2",
+        "R-IR-3",
+        "R-IR-4",
+        "R-SA-1",
+        "R-SC-1",
+        "R-SC-2",
+        "R-SC-3",
+        "R-SC-4",
+        "R-SC-5",
+        "R-SC-6"
+      ],
+      "threats": [
+        "NT-2",
+        "NT-3",
+        "NT-4",
+        "NT-5",
+        "NT-6",
+        "NT-7",
+        "NT-8",
+        "NT-9",
+        "NT-10",
+        "NT-11",
+        "NT-12",
+        "NT-13",
+        "NT-14",
+        "MT-1",
+        "MT-2",
+        "MT-3",
+        "MT-4",
+        "MT-5",
+        "MT-6",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Information Assurance",
+      "crosswalks": {
+        "general-cobit-2019": [
+          "MEA04.08"
+        ],
+        "general-iec-62443-2-1-2024": [
+          "ORG 2.4(d)"
+        ],
+        "general-iso-21434-2021": [
+          "RQ-06-31",
+          "RQ-06-32",
+          "RQ-06-33(b)"
+        ],
+        "general-nist-800-37-r2": [
+          "TASK A-4",
+          "TASK M-5"
+        ],
+        "general-nist-csf-2-0": [
+          "ID.IM-01",
+          "ID.IM-02"
+        ],
+        "emea-eu-nis2-annex-2024": [
+          "6.5.2(c)"
+        ],
+        "apac-aus-ism-2024-june": [
+          "ISM-1563"
+        ],
+        "apac-nzl-ism-3-9": [
+          "4.2.11.C.01",
+          "4.2.12.C.01",
+          "4.3.21.C.01",
+          "4.5.17.C.01",
+          "6.3.8.C.01"
+        ],
+        "apac-sgp-mas-trm-2021": [
+          "5.7.6"
+        ]
+      }
+    },
+    {
+      "control_id": "IAO-03",
+      "title": "Applied Security, Compliance and Resilience Controls Documentation",
+      "family": "IAO",
+      "description": "Mechanisms exist to generate authoritative documentation (e.g., System Security Plan (SSP)) that:\n(1) Identifies key architectural and implementation information on in-scope Technology Assets, Applications and/or Services (TAAS);\n(2) Reflects the current state of applied security, compliance and resilience controls on applicable People, Processes, Technologies, Data and/or Facilities (PPTDF) that are contained within the system boundary; and\n(3) Provides a historical record of applied security controls, including changes.",
+      "scf_question": "Does the organization generate authoritative documentation (e.g., System Security Plan (SSP)) that:\n(1) Identifies key architectural and implementation information on in-scope Technology Assets, Applications and/or Services (TAAS);\n(2) Reflects the current state of applied security, compliance and resilience controls on applicable People, Processes, Technologies, Data and/or Facilities (PPTDF) that are contained within the system boundary; and\n(3) Provides a historical record of applied security controls, including changes?",
+      "relative_weight": 7,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [
+        "E-TDA-14"
+      ],
+      "pptdf": "Process",
+      "nist_csf_function": "Identify",
+      "scrm_focus": {
+        "strategic": false,
+        "operational": false,
+        "tactical": true
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "2": "Information Assurance (IAO) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IAO domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with IAO domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IAO  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Information Assurance (IA)-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ IA management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Pre-production security testing is decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ IT and/or cybersecurity personnel implement and maintain a limited Information Assurance Program (IAP) capability to conduct limited control testing to meet specific statutory, regulatory and/or contractual requirements for pre-production cybersecurity and data protection control testing.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to develop and maintain System Security Plans (SSPs) or similar documentation, to identify and maintain key architectural information for each business-critical Technology Assets, Applications and/or Services (TAAS).",
+        "3": "Information Assurance (IAO) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IAO domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with IAO domain capabilities are well-documented and kept current by process owners.\n▪ An information assurance team, or similar function, is appropriately staffed and supported to implement and maintain IAO domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of information assurance operations (e.g., assessment scheduling software, risk assessment software, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IAO domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to generate authoritative documentation (e.g., System Security Plan (SSP)) that:\n(1) Identifies key architectural and implementation information on in-scope Technology Assets, Applications and/or Services (TAAS);\n(2) Reflects the current state of applied security, compliance and resilience controls on applicable People, Processes, Technologies, Data and/or Facilities (PPTDF) that are contained within the system boundary; and\n(3) Provides a historical record of applied security controls, including changes.",
+        "4": "Information Assurance (IAO) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [
+        "SCRMS",
+        "CORE AI Model Deployment",
+        "CORE ESP Level 1 Foundational",
+        "CORE ESP Level 2 Critical Infrastructure",
+        "CORE ESP Level 3 Advanced Threats",
+        "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+      ],
+      "possible_solutions": {
+        "micro_small": "∙ System Security Plan (SSP)\n∙ System Security & Privacy Plan (SSPP)",
+        "small": "∙ System Security Plan (SSP)\n∙ System Security & Privacy Plan (SSPP)",
+        "medium": "∙ System Security Plan (SSP)\n∙ System Security & Privacy Plan (SSPP)",
+        "large": "∙ System Security Plan (SSP)\n∙ System Security & Privacy Plan (SSPP)",
+        "enterprise": "∙ System Security Plan (SSP)\n∙ System Security & Privacy Plan (SSPP)"
+      },
+      "risks": [
+        "R-AC-1",
+        "R-AC-2",
+        "R-AC-3",
+        "R-AC-4",
+        "R-AM-1",
+        "R-AM-2",
+        "R-BC-1",
+        "R-BC-2",
+        "R-BC-3",
+        "R-BC-4",
+        "R-BC-5",
+        "R-EX-1",
+        "R-EX-2",
+        "R-EX-3",
+        "R-EX-4",
+        "R-EX-5",
+        "R-EX-6",
+        "R-EX-7",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-3",
+        "R-GV-4",
+        "R-GV-5",
+        "R-GV-6",
+        "R-GV-7",
+        "R-IR-1",
+        "R-IR-2",
+        "R-IR-3",
+        "R-IR-4",
+        "R-SA-1",
+        "R-SC-1",
+        "R-SC-2",
+        "R-SC-3",
+        "R-SC-4",
+        "R-SC-5",
+        "R-SC-6"
+      ],
+      "threats": [
+        "NT-7",
+        "MT-1",
+        "MT-2",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "errata": "- renamed\n- wordsmithed",
+      "family_name": "Information Assurance",
+      "crosswalks": {
+        "general-aicpa-tsc-2017": [
+          "CC2.2-POF11",
+          "CC2.3-POF9",
+          "CC2.3-POF10",
+          "CC2.3-POF11"
+        ],
+        "general-govramp": [
+          "PL-02"
+        ],
+        "general-govramp-low": [
+          "PL-02"
+        ],
+        "general-govramp-low-plus": [
+          "PL-02"
+        ],
+        "general-govramp-mod": [
+          "PL-02"
+        ],
+        "general-govramp-high": [
+          "PL-02"
+        ],
+        "general-iso-21434-2021": [
+          "RQ-06-05",
+          "RQ-06-05(a)",
+          "RQ-06-05(b)",
+          "RQ-06-06",
+          "RQ-06-07",
+          "RQ-06-08",
+          "RQ-06-10",
+          "RQ-06-11",
+          "RQ-06-18",
+          "RQ-06-23",
+          "RQ-09-01(a)",
+          "RQ-09-01(b)",
+          "RQ-09-01(c)",
+          "RQ-09-02",
+          "RQ-09-08",
+          "RQ-09-08(a)",
+          "RQ-09-08(b)",
+          "RQ-09-09",
+          "RQ-09-10",
+          "RQ-09-11",
+          "RQ-09-11(a)",
+          "RQ-09-11(b)",
+          "RQ-12-01",
+          "RQ-12-02",
+          "RQ-12-02(a)",
+          "RQ-12-02(b)",
+          "RQ-12-02(c)",
+          "RQ-12-02(d)",
+          "RQ-12-03"
+        ],
+        "general-nist-100-1-ai-rmf": [
+          "MANAGE 4.0"
+        ],
+        "general-nist-privacy-framework-1-0": [
+          "ID.IM-P7",
+          "ID.BE-P3"
+        ],
+        "general-nist-800-37-r2": [
+          "TASK C-1",
+          "TASK S-4",
+          "TASK S-5",
+          "TASK S-6"
+        ],
+        "general-nist-800-53-r4": [
+          "PL-2"
+        ],
+        "general-nist-800-53-r5-2": [
+          "PL-02"
+        ],
+        "general-nist-800-53-r5-2-privacy": [
+          "PL-02"
+        ],
+        "general-nist-800-53-r5-2-low": [
+          "PL-02"
+        ],
+        "general-nist-800-82-r3": [
+          "PL-02"
+        ],
+        "general-nist-800-82-r3-low": [
+          "PL-02"
+        ],
+        "general-nist-800-82-r3-mod": [
+          "PL-02"
+        ],
+        "general-nist-800-82-r3-high": [
+          "PL-02"
+        ],
+        "general-nist-800-161-r1": [
+          "PL-2"
+        ],
+        "general-nist-800-161-r1-cscrm": [
+          "PL-2"
+        ],
+        "general-nist-800-161-r1-flowdown": [
+          "PL-2"
+        ],
+        "general-nist-800-161-r1-level-3": [
+          "PL-2"
+        ],
+        "general-nist-800-171-r2": [
+          "3.12.4"
+        ],
+        "general-nist-800-171-r3": [
+          "03.04.11.b",
+          "03.15.02.a",
+          "03.15.02.a.01",
+          "03.15.02.a.02",
+          "03.15.02.a.03",
+          "03.15.02.a.04",
+          "03.15.02.a.05",
+          "03.15.02.a.06",
+          "03.15.02.a.07",
+          "03.15.02.a.08",
+          "03.15.02.b"
+        ],
+        "general-nist-800-171a": [
+          "3.12.4[a]",
+          "3.12.4[b]",
+          "3.12.4[c]",
+          "3.12.4[d]",
+          "3.12.4[e]",
+          "3.12.4[f]",
+          "3.12.4[g]",
+          "3.12.4[h]"
+        ],
+        "general-nist-800-171a-r3": [
+          "A.03.04.11.a[02]",
+          "A.03.04.11.a[03]",
+          "A.03.04.11.b[01]",
+          "A.03.04.11.b[02]",
+          "A.03.15.02.ODP[01]",
+          "A.03.15.02.a.01",
+          "A.03.15.02.a.02",
+          "A.03.15.02.a.03",
+          "A.03.15.02.a.04",
+          "A.03.15.02.a.05",
+          "A.03.15.02.a.06",
+          "A.03.15.02.a.07",
+          "A.03.15.02.a.08",
+          "A.03.15.02.b[01]",
+          "A.03.15.02.b[02]",
+          "A.03.15.02.c"
+        ],
+        "general-nist-800-172": [
+          "3.11.4e"
+        ],
+        "general-scf-dpmp-2025": [
+          "5.13"
+        ],
+        "usa-federal-fbi-cjis-6-0": [
+          "PL-2"
+        ],
+        "usa-federal-dow-cmmc-2-level-2": [
+          "CAL2.-3.12.4"
+        ],
+        "usa-federal-dow-cmmc-2-level-3": [
+          "RA.L3-3.11.4E"
+        ],
+        "usa-federal-fda-21-cfr-part-11-2025": [
+          "11.30"
+        ],
+        "usa-federal-gsa-fedramp-5-low": [
+          "PL-02"
+        ],
+        "usa-federal-gsa-fedramp-5-mod": [
+          "PL-02"
+        ],
+        "usa-federal-gsa-fedramp-5-high": [
+          "PL-02"
+        ],
+        "usa-federal-gsa-fedramp-5-li-saas": [
+          "PL-02"
+        ],
+        "usa-federal-irs-1075-2021": [
+          "2.E.4.3",
+          "2.E.4.3-1.1",
+          "2.E.4.3-1.2",
+          "2.E.4.3-1.3",
+          "2.E.4.3-1.4",
+          "2.E.4.3-1.5",
+          "2.E.4.3-2.1",
+          "2.E.4.3-2.2",
+          "2.E.4.3-2.3",
+          "2.E.4.3-2.4",
+          "2.E.6.1-1",
+          "2.E.6.1-2",
+          "2.E.6.1-3",
+          "2.E.6.1-4",
+          "PL-2",
+          "PL-2(IRS-Defined)"
+        ],
+        "usa-federal-cms-marse-2-0": [
+          "PL-2",
+          "PL-2.a",
+          "PL-2.a.1",
+          "PL-2.a.2",
+          "PL-2.a.3",
+          "PL-2.a.4",
+          "PL-2.a.5",
+          "PL-2.a.6",
+          "PL-2.a.7",
+          "PL-2.a.8",
+          "PL-2.a.9",
+          "PL-2.b",
+          "PL-2.c",
+          "PL-2.d",
+          "PL-2.d.1",
+          "PL-2.d.2",
+          "PL-2.d.3",
+          "PL-2.d.4",
+          "PL-2.d.5",
+          "PL-2.e",
+          "PL-2-IS",
+          "PL-2(3)"
+        ],
+        "usa-federal-dow-safeguarding-nnpi-2010": [
+          "11-3.a(2)(b)3",
+          "11-3.b(3)"
+        ],
+        "usa-federal-tsa-security-directive-1580-82-2022-01": [
+          "III.B.2",
+          "III.B.2.a",
+          "III.B.2.b"
+        ],
+        "usa-state-tx-dir-security-control-standards-catalog-2-2": [
+          "PL-02"
+        ],
+        "usa-state-tx-txramp-2-0-level-1": [
+          "PL-02"
+        ],
+        "usa-state-tx-txramp-2-0-level-2": [
+          "PL-02"
+        ],
+        "emea-eu-ai-act-2024": [
+          "Article 11.1"
+        ],
+        "emea-qat-pdppl-2020": [
+          "11.1"
+        ],
+        "emea-gbr-def-stan-05-138-2024": [
+          "2301"
+        ],
+        "emea-gbr-def-stan-05-138-l2-2024": [
+          "2301"
+        ],
+        "emea-gbr-def-stan-05-138-l3-2024": [
+          "2301"
+        ],
+        "apac-aus-ism-2024-june": [
+          "ISM-0041",
+          "ISM-0432"
+        ],
+        "apac-jpn-ismap": [
+          "4.4.4",
+          "4.4.5.2"
+        ],
+        "apac-nzl-ism-3-9": [
+          "3.4.12.C.01",
+          "3.4.12.C.02",
+          "4.3.17.C.01",
+          "4.3.18.C.01",
+          "4.3.18.C.02",
+          "4.3.18.C.03",
+          "4.3.18.C.04",
+          "4.3.18.C.05",
+          "5.1.8.C.01",
+          "5.1.9.C.01",
+          "5.1.10.C.01",
+          "5.4.5.C.01",
+          "5.4.5.C.02",
+          "5.4.5.C.03"
+        ],
+        "americas-can-itsp-10-171-2025": [
+          "03.04.11.B",
+          "03.15.02.A",
+          "03.15.02.A.01",
+          "03.15.02.A.02",
+          "03.15.02.A.03",
+          "03.15.02.A.04",
+          "03.15.02.A.05",
+          "03.15.02.A.06",
+          "03.15.02.A.07",
+          "03.15.02.A.08",
+          "03.15.02.B"
+        ]
+      }
+    },
+    {
+      "control_id": "IAO-03.1",
+      "title": "Plan / Coordinate with Other Organizational Entities",
+      "family": "IAO",
+      "description": "Mechanisms exist to plan and coordinate Information Assurance Program (IAP) activities with affected stakeholders before conducting such activities in order to reduce the potential impact on operations.",
+      "scf_question": "Does the organization plan and coordinate Information Assurance Program (IAP) activities with affected stakeholders before conducting such activities in order to reduce the potential impact on operations?",
+      "relative_weight": 5,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [],
+      "pptdf": "Process",
+      "nist_csf_function": "Protect",
+      "scrm_focus": {
+        "strategic": false,
+        "operational": true,
+        "tactical": true
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "2": "Information Assurance (IAO) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IAO domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with IAO domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IAO  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Information Assurance (IA)-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ IA management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Pre-production security testing is decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ IT and/or cybersecurity personnel implement and maintain a limited Information Assurance Program (IAP) capability to conduct limited control testing to meet specific statutory, regulatory and/or contractual requirements for pre-production cybersecurity and data protection control testing.",
+        "3": "Information Assurance (IAO) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IAO domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with IAO domain capabilities are well-documented and kept current by process owners.\n▪ An information assurance team, or similar function, is appropriately staffed and supported to implement and maintain IAO domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of information assurance operations (e.g., assessment scheduling software, risk assessment software, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IAO domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to plan and coordinate Information Assurance Program (IAP) activities with affected stakeholders before conducting such activities in order to reduce the potential impact on operations.",
+        "4": "Information Assurance (IAO) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [
+        "CORE ESP Level 1 Foundational",
+        "CORE ESP Level 2 Critical Infrastructure",
+        "CORE ESP Level 3 Advanced Threats"
+      ],
+      "possible_solutions": {
+        "micro_small": "∙ Document security assurance requirements for critical systems",
+        "small": "∙ Security assurance checklist for critical systems",
+        "medium": "∙ Audit steering committee\n∙ Information Assurance (IA) program\n∙ VisibleOps security management",
+        "large": "∙ Audit steering committee\n∙ Information Assurance (IA) program\n∙ VisibleOps security management",
+        "enterprise": "∙ Audit steering committee\n∙ Information Assurance (IA) program\n∙ VisibleOps security management"
+      },
+      "risks": [
+        "R-AC-1",
+        "R-AC-2",
+        "R-AC-3",
+        "R-AC-4",
+        "R-AM-1",
+        "R-AM-2",
+        "R-BC-1",
+        "R-BC-2",
+        "R-BC-3",
+        "R-BC-4",
+        "R-BC-5",
+        "R-EX-1",
+        "R-EX-2",
+        "R-EX-3",
+        "R-EX-4",
+        "R-EX-5",
+        "R-EX-6",
+        "R-EX-7",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-3",
+        "R-GV-4",
+        "R-GV-5",
+        "R-GV-6",
+        "R-GV-7",
+        "R-IR-1",
+        "R-IR-2",
+        "R-IR-3",
+        "R-IR-4",
+        "R-SA-1",
+        "R-SC-1",
+        "R-SC-2",
+        "R-SC-3",
+        "R-SC-4",
+        "R-SC-5",
+        "R-SC-6"
+      ],
+      "threats": [
+        "NT-2",
+        "NT-3",
+        "NT-4",
+        "NT-5",
+        "NT-6",
+        "NT-7",
+        "NT-8",
+        "NT-9",
+        "NT-10",
+        "NT-11",
+        "NT-12",
+        "NT-13",
+        "NT-14",
+        "MT-1",
+        "MT-2",
+        "MT-3",
+        "MT-4",
+        "MT-5",
+        "MT-6",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Information Assurance",
+      "crosswalks": {
+        "general-aicpa-tsc-2017": [
+          "CC4.1"
+        ],
+        "general-govramp": [
+          "PL-02"
+        ],
+        "general-govramp-low": [
+          "PL-02"
+        ],
+        "general-govramp-low-plus": [
+          "PL-02"
+        ],
+        "general-govramp-mod": [
+          "PL-02"
+        ],
+        "general-govramp-high": [
+          "PL-02"
+        ],
+        "general-nist-800-37-r2": [
+          "TASK P-9"
+        ],
+        "general-nist-800-53-r4": [
+          "PL-2(3)"
+        ],
+        "general-nist-800-53-r5-2": [
+          "PL-02"
+        ],
+        "general-nist-800-53-r5-2-privacy": [
+          "PL-02"
+        ],
+        "general-nist-800-53-r5-2-low": [
+          "PL-02"
+        ],
+        "general-nist-800-82-r3": [
+          "PL-02"
+        ],
+        "general-nist-800-82-r3-low": [
+          "PL-02"
+        ],
+        "general-nist-800-82-r3-mod": [
+          "PL-02"
+        ],
+        "general-nist-800-82-r3-high": [
+          "PL-02"
+        ],
+        "general-nist-800-161-r1": [
+          "PL-2"
+        ],
+        "general-nist-800-161-r1-cscrm": [
+          "PL-2"
+        ],
+        "general-nist-800-161-r1-flowdown": [
+          "PL-2"
+        ],
+        "general-nist-800-161-r1-level-3": [
+          "PL-2"
+        ],
+        "general-nist-800-171-r2": [
+          "NFO - PL-2(3)"
+        ],
+        "usa-federal-fbi-cjis-6-0": [
+          "PL-2"
+        ],
+        "usa-federal-gsa-fedramp-5-low": [
+          "PL-02"
+        ],
+        "usa-federal-gsa-fedramp-5-mod": [
+          "PL-02"
+        ],
+        "usa-federal-gsa-fedramp-5-high": [
+          "PL-02"
+        ],
+        "usa-federal-gsa-fedramp-5-li-saas": [
+          "PL-02"
+        ],
+        "usa-federal-irs-1075-2021": [
+          "PL-2"
+        ],
+        "usa-federal-cms-marse-2-0": [
+          "PL-2"
+        ],
+        "usa-state-tx-dir-security-control-standards-catalog-2-2": [
+          "PL-02"
+        ],
+        "usa-state-tx-txramp-2-0-level-1": [
+          "PL-02"
+        ],
+        "usa-state-tx-txramp-2-0-level-2": [
+          "PL-02"
+        ]
+      }
+    },
+    {
+      "control_id": "IAO-03.2",
+      "title": "Adequate Security for Sensitive / Regulated Data In Support of Contracts",
+      "family": "IAO",
+      "description": "Mechanisms exist to protect sensitive/regulated data that is collected, developed, received, transmitted, used or stored in support of the performance of a contract.",
+      "scf_question": "Does the organization protect sensitive/regulated data that is collected, developed, received, transmitted, used or stored in support of the performance of a contract?",
+      "relative_weight": 7,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [
+        "E-IAO-03"
+      ],
+      "pptdf": "Process",
+      "nist_csf_function": "Protect",
+      "scrm_focus": {
+        "strategic": true,
+        "operational": true,
+        "tactical": true
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "2": "Information Assurance (IAO) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IAO domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with IAO domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IAO  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Information Assurance (IA)-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ IA management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Pre-production security testing is decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ IT and/or cybersecurity personnel implement and maintain a limited Information Assurance Program (IAP) capability to conduct limited control testing to meet specific statutory, regulatory and/or contractual requirements for pre-production cybersecurity and data protection control testing.",
+        "3": "Information Assurance (IAO) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IAO domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with IAO domain capabilities are well-documented and kept current by process owners.\n▪ An information assurance team, or similar function, is appropriately staffed and supported to implement and maintain IAO domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of information assurance operations (e.g., assessment scheduling software, risk assessment software, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IAO domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to protect sensitive/regulated data that is collected, developed, received, transmitted, used or stored in support of the performance of a contract.",
+        "4": "Information Assurance (IAO) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [
+        "CORE ESP Level 1 Foundational",
+        "CORE ESP Level 2 Critical Infrastructure",
+        "CORE ESP Level 3 Advanced Threats"
+      ],
+      "possible_solutions": {
+        "micro_small": "∙ Cybersecurity Supply Chain Risk Management (C-SCRM) program\n∙ Contract flow-down requirements",
+        "small": "∙ Cybersecurity Supply Chain Risk Management (C-SCRM) program\n∙ Contract flow-down requirements",
+        "medium": "∙ Cybersecurity Supply Chain Risk Management (C-SCRM) program\n∙ Contract flow-down requirements",
+        "large": "∙ Cybersecurity Supply Chain Risk Management (C-SCRM) program\n∙ Contract flow-down requirements",
+        "enterprise": "∙ Cybersecurity Supply Chain Risk Management (C-SCRM) program\n∙ Contract flow-down requirements"
+      },
+      "risks": [
+        "R-AC-1",
+        "R-AC-2",
+        "R-AC-3",
+        "R-AC-4",
+        "R-AM-1",
+        "R-AM-2",
+        "R-BC-1",
+        "R-BC-2",
+        "R-BC-3",
+        "R-BC-4",
+        "R-BC-5",
+        "R-EX-1",
+        "R-EX-2",
+        "R-EX-3",
+        "R-EX-4",
+        "R-EX-5",
+        "R-EX-6",
+        "R-EX-7",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-3",
+        "R-GV-4",
+        "R-GV-5",
+        "R-GV-6",
+        "R-GV-7",
+        "R-IR-1",
+        "R-IR-2",
+        "R-IR-3",
+        "R-IR-4",
+        "R-SA-1",
+        "R-SC-1",
+        "R-SC-2",
+        "R-SC-3",
+        "R-SC-4",
+        "R-SC-5",
+        "R-SC-6"
+      ],
+      "threats": [
+        "NT-2",
+        "NT-3",
+        "NT-4",
+        "NT-5",
+        "NT-6",
+        "NT-7",
+        "NT-8",
+        "NT-9",
+        "NT-10",
+        "NT-11",
+        "NT-12",
+        "NT-13",
+        "NT-14",
+        "MT-1",
+        "MT-2",
+        "MT-3",
+        "MT-4",
+        "MT-5",
+        "MT-6",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Information Assurance",
+      "crosswalks": {
+        "general-cis-csc-8-1": [
+          "15.4"
+        ],
+        "general-cis-csc-8-1-ig2": [
+          "15.4"
+        ],
+        "general-cis-csc-8-1-ig3": [
+          "15.4"
+        ],
+        "general-csa-cmm-4-1-0": [
+          "DSP-17",
+          "IPY-04"
+        ],
+        "general-csa-iot-2": [
+          "CLS-04"
+        ],
+        "general-nist-600-1-gen-ai-profile": [
+          "GV-6.1-004"
+        ],
+        "general-nist-privacy-framework-1-0": [
+          "ID.DE-P3"
+        ],
+        "general-nist-800-171-r2": [
+          "3.12.4"
+        ],
+        "general-nist-csf-2-0": [
+          "GV.SC-05"
+        ],
+        "usa-federal-dow-cmmc-2-level-2": [
+          "CAL2.-3.12.4"
+        ],
+        "usa-federal-law-hipaa-simplification-2013": [
+          "164.308(b)(3)"
+        ],
+        "usa-federal-law-hipaa-security-rule-2013": [
+          "164.308(b)(3)"
+        ],
+        "usa-state-co-privacy-act-2021": [
+          "6-1-1305(3)(b)"
+        ],
+        "usa-state-il-pipa-2006": [
+          "45(b)"
+        ],
+        "usa-state-tx-dir-security-control-standards-catalog-2-2": [
+          "AC-20-SID",
+          "SA-04-SID",
+          "SA-09-SID"
+        ],
+        "emea-deu-c5-2020": [
+          "HR-06",
+          "PI-02"
+        ],
+        "emea-isr-cmo-1-0": [
+          "16.5"
+        ],
+        "emea-sau-sacs-002-2022": [
+          "TPC-25"
+        ],
+        "emea-srb-act-9-2018": [
+          "5",
+          "11"
+        ],
+        "apac-aus-ism-2024-june": [
+          "ISM-0072",
+          "ISM-1451",
+          "ISM-1571",
+          "ISM-1572",
+          "ISM-1573",
+          "ISM-1574",
+          "ISM-1575"
+        ],
+        "apac-jpn-ppi-2020": [
+          "22"
+        ],
+        "apac-jpn-ismap": [
+          "13.2.2",
+          "13.2.2.2",
+          "13.2.2.3",
+          "13.2.2.4",
+          "13.2.2.6",
+          "13.2.2.7",
+          "13.2.2.8",
+          "13.2.2.9",
+          "13.2.2.10",
+          "13.2.2.11"
+        ],
+        "apac-nzl-ism-3-9": [
+          "2.2.5.C.02"
+        ],
+        "apac-nzl-privacy-act-2020": [
+          "Principle 5",
+          "P5-(a)",
+          "P5-(a)(i)",
+          "P5-(a)(ii)",
+          "P5-(a)(iii)",
+          "P5-(b)"
+        ],
+        "apac-sgp-mas-trm-2021": [
+          "5.4.3"
+        ],
+        "amaericas-can-osfi-self-assessment": [
+          "4.26",
+          "4.28"
+        ]
+      }
+    },
+    {
+      "control_id": "IAO-04",
+      "title": "Threat Analysis & Flaw Remediation During Development",
+      "family": "IAO",
+      "description": "Mechanisms exist to require system developers and integrators to create and execute a Security Testing and Evaluation (ST&E) plan, or similar process, to identify and remediate flaws during development.",
+      "scf_question": "Does the organization require system developers and integrators to create and execute a Security Testing and Evaluation (ST&E) plan to identify and remediate flaws during development?",
+      "relative_weight": 10,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [],
+      "pptdf": "Process",
+      "nist_csf_function": "Protect",
+      "scrm_focus": {
+        "strategic": true,
+        "operational": true,
+        "tactical": true
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "2": "Information Assurance (IAO) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IAO domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with IAO domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IAO  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Information Assurance (IA)-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ IA management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Pre-production security testing is decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ IT and/or cybersecurity personnel implement and maintain a limited Information Assurance Program (IAP) capability to conduct limited control testing to meet specific statutory, regulatory and/or contractual requirements for pre-production cybersecurity and data protection control testing.",
+        "3": "Information Assurance (IAO) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IAO domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with IAO domain capabilities are well-documented and kept current by process owners.\n▪ An information assurance team, or similar function, is appropriately staffed and supported to implement and maintain IAO domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of information assurance operations (e.g., assessment scheduling software, risk assessment software, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IAO domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to require system developers and integrators to create and execute a Security Testing and Evaluation (ST&E) plan, or similar process, to identify and remediate flaws during development.",
+        "4": "Information Assurance (IAO) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [
+        "SCRMS",
+        "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+      ],
+      "possible_solutions": {
+        "micro_small": "∙ Pre-production Control Validation Testing (CVT)",
+        "small": "∙ Pre-production Control Validation Testing (CVT)",
+        "medium": "∙ Pre-production Control Validation Testing (CVT)",
+        "large": "∙ Pre-production Control Validation Testing (CVT)",
+        "enterprise": "∙ Pre-production Control Validation Testing (CVT)"
+      },
+      "risks": [
+        "R-AC-1",
+        "R-AC-2",
+        "R-AC-3",
+        "R-AC-4",
+        "R-AM-1",
+        "R-AM-2",
+        "R-BC-1",
+        "R-BC-2",
+        "R-BC-3",
+        "R-BC-4",
+        "R-BC-5",
+        "R-EX-1",
+        "R-EX-2",
+        "R-EX-3",
+        "R-EX-4",
+        "R-EX-5",
+        "R-EX-6",
+        "R-EX-7",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-3",
+        "R-GV-4",
+        "R-GV-5",
+        "R-GV-6",
+        "R-GV-7",
+        "R-IR-1",
+        "R-IR-2",
+        "R-IR-3",
+        "R-IR-4",
+        "R-SA-1",
+        "R-SC-1",
+        "R-SC-2",
+        "R-SC-3",
+        "R-SC-4",
+        "R-SC-5",
+        "R-SC-6"
+      ],
+      "threats": [
+        "NT-2",
+        "NT-3",
+        "NT-4",
+        "NT-5",
+        "NT-6",
+        "NT-7",
+        "NT-8",
+        "NT-9",
+        "NT-10",
+        "NT-11",
+        "NT-12",
+        "NT-13",
+        "NT-14",
+        "MT-1",
+        "MT-2",
+        "MT-3",
+        "MT-4",
+        "MT-5",
+        "MT-6",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Information Assurance",
+      "crosswalks": {
+        "general-aicpa-tsc-2017": [
+          "CC4.1",
+          "CC4.2"
+        ],
+        "general-cobit-2019": [
+          "DSS06.04"
+        ],
+        "general-coso-2013": [
+          "16",
+          "17"
+        ],
+        "general-iec-62443-2-1-2024": [
+          "ORG 2.4(c)"
+        ],
+        "general-iso-21434-2021": [
+          "RQ-09-03",
+          "RQ-09-03(a)",
+          "RQ-09-03(b)",
+          "RQ-09-03(c)",
+          "RQ-09-03(d)",
+          "RQ-09-03(e)",
+          "RQ-09-03(f)"
+        ],
+        "general-iso-27002-2022": [
+          "8.25"
+        ],
+        "general-iso-27018-2025": [
+          "8.25"
+        ],
+        "general-iso-42001-2023": [
+          "10.2",
+          "10.2(a)",
+          "10.2(a)(1)",
+          "10.2(a)(2)",
+          "10.2(b)",
+          "10.2(b)(1)",
+          "10.2(b)(2)",
+          "10.2(b)(3)",
+          "10.2(c)",
+          "10.2(d)",
+          "10.2(e)"
+        ],
+        "general-nist-800-37-r2": [
+          "TASK A-5",
+          "TASK M-3"
+        ],
+        "general-nist-800-53-r5-2": [
+          "SA-11(05)"
+        ],
+        "general-nist-800-53-r5-2-privacy": [
+          "SA-11(05)"
+        ],
+        "general-nist-800-82-r3": [
+          "SA-11(05)"
+        ],
+        "general-nist-800-160-vol-2-r1": [
+          "SA-11(05)"
+        ],
+        "general-owasp-top-10-2025": [
+          "A01:2025",
+          "A02:2025",
+          "A05:2025",
+          "A06:2025",
+          "A07:2025",
+          "A09:2025",
+          "A10:2025"
+        ],
+        "general-pci-dss-4-0-1": [
+          "6.2.1",
+          "6.2.2",
+          "6.2.3",
+          "6.2.3.1",
+          "6.2.4",
+          "6.3.1",
+          "6.4.1",
+          "6.4.2",
+          "11.4.1",
+          "11.4.4",
+          "12.4.2.1",
+          "A1.2.3"
+        ],
+        "general-pci-dss-4-0-1-saq-a": [
+          "6.3.1"
+        ],
+        "general-pci-dss-4-0-1-saq-a-ep": [
+          "6.2.1",
+          "6.2.2",
+          "6.2.4",
+          "6.3.1",
+          "6.4.1",
+          "6.4.2",
+          "11.4.1",
+          "11.4.4"
+        ],
+        "general-pci-dss-4-0-1-saq-b-ip": [
+          "6.3.1"
+        ],
+        "general-pci-dss-4-0-1-saq-c": [
+          "6.2.1",
+          "6.2.2",
+          "6.2.3.1",
+          "6.2.4",
+          "6.3.1"
+        ],
+        "general-pci-dss-4-0-1-saq-c-vt": [
+          "6.3.1"
+        ],
+        "general-pci-dss-4-0-1-saq-d-merchant": [
+          "6.2.1",
+          "6.2.2",
+          "6.2.3",
+          "6.2.3.1",
+          "6.2.4",
+          "6.3.1",
+          "6.4.1",
+          "6.4.2",
+          "11.4.1",
+          "11.4.4"
+        ],
+        "general-pci-dss-4-0-1-saq-d-service-provider": [
+          "6.2.1",
+          "6.2.2",
+          "6.2.3",
+          "6.2.3.1",
+          "6.2.4",
+          "6.3.1",
+          "6.4.1",
+          "6.4.2",
+          "11.4.1",
+          "11.4.4",
+          "12.4.2.1",
+          "A1.2.3"
+        ],
+        "usa-federal-gsa-fedramp-5-low": [
+          "SA-11(05)"
+        ],
+        "usa-federal-gsa-fedramp-5-mod": [
+          "SA-11(05)"
+        ],
+        "usa-federal-gsa-fedramp-5-high": [
+          "SA-11(05)"
+        ],
+        "usa-federal-gsa-fedramp-5-li-saas": [
+          "SA-11(05)"
+        ],
+        "usa-federal-irs-1075-2021": [
+          "SA-11(CE-5)",
+          "SA-11(CE-5).a",
+          "SA-11(CE-5).b"
+        ],
+        "emea-eu-nis2-2022": [
+          "Article 21.4"
+        ],
+        "apac-nzl-ism-3-9": [
+          "6.2.5.C.01",
+          "6.2.6.C.01"
+        ],
+        "apac-sgp-mas-trm-2021": [
+          "5.7.5"
+        ],
+        "amaericas-can-osfi-self-assessment": [
+          "2.7"
+        ]
+      }
+    },
+    {
+      "control_id": "IAO-05",
+      "title": "Capabilities Deficiency Tracking",
+      "family": "IAO",
+      "description": "Mechanisms exist to govern identified deficiencies (e.g., Plan of Action and Milestones (POA&M) or similar methodology) that formally documents, at a minimum:\n(1) Deficiency tracking number;\n(2) Applicable security, compliance and/or resilience control;\n(3) Description of the deficiency(ies);\n(4) Risk associated with the deficiency(ies);\n(5) Source deficiency identification/detection;\n(6) Temporary compensating controls, if applicable;\n(7) Point of Contact (POC) (e.g., asset/process owner);\n(8) Resources required to conduct remediation actions;\n(9) Planned remedial actions to the deficiency(ies);\n(10) Proposed remediation timeline; and\n(11) Disposition statement (e.g., closeout summary).",
+      "scf_question": "Does the organization govern identified deficiencies (e.g., Plan of Action and Milestones (POA&M) or similar methodology) that formally documents, at a minimum:\n(1) Deficiency tracking number;\n(2) Applicable security, compliance and/or resilience control;\n(3) Description of the deficiency(ies);\n(4) Risk associated with the deficiency(ies);\n(5) Source deficiency identification/detection;\n(6) Temporary compensating controls, if applicable;\n(7) Point of Contact (POC) (e.g., asset/process owner);\n(8) Resources required to conduct remediation actions;\n(9) Planned remedial actions to the deficiency(ies);\n(10) Proposed remediation timeline; and\n(11) Disposition statement (e.g., closeout summary)?",
+      "relative_weight": 9,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [
+        "E-RSK-03"
+      ],
+      "pptdf": "Process",
+      "nist_csf_function": "Detect",
+      "scrm_focus": {
+        "strategic": false,
+        "operational": true,
+        "tactical": true
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "2": "Information Assurance (IAO) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IAO domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with IAO domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IAO  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Information Assurance (IA)-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ IA management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Pre-production security testing is decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ IT and/or cybersecurity personnel implement and maintain a limited Information Assurance Program (IAP) capability to conduct limited control testing to meet specific statutory, regulatory and/or contractual requirements for pre-production cybersecurity and data protection control testing.",
+        "3": "Information Assurance (IAO) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IAO domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with IAO domain capabilities are well-documented and kept current by process owners.\n▪ An information assurance team, or similar function, is appropriately staffed and supported to implement and maintain IAO domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of information assurance operations (e.g., assessment scheduling software, risk assessment software, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IAO domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to govern identified deficiencies (e.g., Plan of Action and Milestones (POA&M) or similar methodology) that formally documents, at a minimum:\n(1) Deficiency tracking number;\n(2) Applicable security, compliance and/or resilience control;\n(3) Description of the deficiency(ies);\n(4) Risk associated with the deficiency(ies);\n(5) Source deficiency identification/detection;\n(6) Temporary compensating controls, if applicable;\n(7) Point of Contact (POC) (e.g., asset/process owner);\n(8) Resources required to conduct remediation actions;\n(9) Planned remedial actions to the deficiency(ies);\n(10) Proposed remediation timeline; and\n(11) Disposition statement (e.g., closeout summary).",
+        "4": "Information Assurance (IAO) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [
+        "SCRMS",
+        "CORE ESP Level 1 Foundational",
+        "CORE ESP Level 2 Critical Infrastructure",
+        "CORE ESP Level 3 Advanced Threats",
+        "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+      ],
+      "possible_solutions": {
+        "micro_small": "∙ Plan of Action and Milestones (POA&M)\n∙ Risk register",
+        "small": "∙ Plan of Action and Milestones (POA&M)\n∙ Risk register",
+        "medium": "∙ Plan of Action and Milestones (POA&M)\n∙ Risk register",
+        "large": "∙ Plan of Action and Milestones (POA&M)\n∙ Risk register",
+        "enterprise": "∙ Plan of Action and Milestones (POA&M)\n∙ Risk register"
+      },
+      "risks": [
+        "R-AC-1",
+        "R-AC-2",
+        "R-AC-3",
+        "R-AC-4",
+        "R-AM-1",
+        "R-AM-2",
+        "R-BC-1",
+        "R-BC-2",
+        "R-BC-3",
+        "R-BC-4",
+        "R-BC-5",
+        "R-EX-1",
+        "R-EX-2",
+        "R-EX-3",
+        "R-EX-4",
+        "R-EX-5",
+        "R-EX-6",
+        "R-EX-7",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-3",
+        "R-GV-4",
+        "R-GV-5",
+        "R-GV-6",
+        "R-GV-7",
+        "R-IR-1",
+        "R-IR-2",
+        "R-IR-3",
+        "R-IR-4",
+        "R-SA-1",
+        "R-SC-1",
+        "R-SC-2",
+        "R-SC-3",
+        "R-SC-4",
+        "R-SC-5",
+        "R-SC-6"
+      ],
+      "threats": [
+        "NT-7",
+        "MT-1",
+        "MT-2",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "errata": "- renamed\n- wordsmithed",
+      "family_name": "Information Assurance",
+      "crosswalks": {
+        "general-aicpa-tsc-2017": [
+          "CC4.2",
+          "CC4.2-POF3"
+        ],
+        "general-cobit-2019": [
+          "APO12.05",
+          "MEA03.04",
+          "MEA04.09"
+        ],
+        "general-coso-2013": [
+          "17"
+        ],
+        "general-csa-cmm-4-1-0": [
+          "A&A-06"
+        ],
+        "general-govramp": [
+          "CA-05"
+        ],
+        "general-govramp-low": [
+          "CA-05"
+        ],
+        "general-govramp-low-plus": [
+          "CA-05"
+        ],
+        "general-govramp-mod": [
+          "CA-05"
+        ],
+        "general-govramp-high": [
+          "CA-05"
+        ],
+        "general-iso-21434-2021": [
+          "RQ-09-07(a)",
+          "RQ-09-07(b)",
+          "RQ-09-07(c)",
+          "RQ-09-07(d)"
+        ],
+        "general-iso-31010-2009": [
+          "4.3.6",
+          "5.6"
+        ],
+        "general-iso-42001-2023": [
+          "9.3.2(a)",
+          "9.3.2(b)",
+          "10.2",
+          "10.2(a)",
+          "10.2(a)(1)",
+          "10.2(a)(2)",
+          "10.2(b)",
+          "10.2(b)(1)",
+          "10.2(b)(2)",
+          "10.2(b)(3)",
+          "10.2(c)",
+          "10.2(d)",
+          "10.2(e)"
+        ],
+        "general-mpa-csbp-5-3-1": [
+          "OR-2.0"
+        ],
+        "general-nist-100-1-ai-rmf": [
+          "MEASURE 3.0",
+          "MEASURE 3.1",
+          "MEASURE 3.2",
+          "MANAGE 1.1",
+          "MANAGE 1.2",
+          "MANAGE 1.3",
+          "MANAGE 1.4",
+          "MANAGE 3.1",
+          "MANAGE 4.0"
+        ],
+        "general-nist-privacy-framework-1-0": [
+          "GV.MT-P4"
+        ],
+        "general-nist-800-37-r2": [
+          "TASK I-2",
+          "TASK A-5",
+          "TASK A-6",
+          "TASK R-3"
+        ],
+        "general-nist-800-39": [
+          "3.4"
+        ],
+        "general-nist-800-53-r4": [
+          "CA-5",
+          "PM-4"
+        ],
+        "general-nist-800-53-r5-2": [
+          "CA-05",
+          "PM-04",
+          "SA-15(02)"
+        ],
+        "general-nist-800-53-r5-2-privacy": [
+          "CA-05",
+          "PM-04"
+        ],
+        "general-nist-800-53-r5-2-low": [
+          "CA-05"
+        ],
+        "general-nist-800-82-r3": [
+          "CA-05",
+          "PM-04",
+          "SA-15(02)"
+        ],
+        "general-nist-800-82-r3-low": [
+          "CA-05",
+          "PM-04"
+        ],
+        "general-nist-800-82-r3-mod": [
+          "CA-05",
+          "PM-04"
+        ],
+        "general-nist-800-82-r3-high": [
+          "CA-05",
+          "PM-04"
+        ],
+        "general-nist-800-161-r1": [
+          "CA-5",
+          "PM-4"
+        ],
+        "general-nist-800-161-r1-cscrm": [
+          "CA-5"
+        ],
+        "general-nist-800-161-r1-level-2": [
+          "CA-5",
+          "PM-4"
+        ],
+        "general-nist-800-161-r1-level-3": [
+          "CA-5",
+          "PM-4"
+        ],
+        "general-nist-800-171-r2": [
+          "3.12.2"
+        ],
+        "general-nist-800-171-r3": [
+          "03.04.11.b",
+          "03.12.02.a",
+          "03.12.02.a.01",
+          "03.12.02.a.02",
+          "03.12.02.b",
+          "03.12.02.b.01",
+          "03.12.02.b.02",
+          "03.12.02.b.03",
+          "03.14.01.a"
+        ],
+        "general-nist-800-171a": [
+          "3.12.2[a]",
+          "3.12.2[b]",
+          "3.12.2[c]"
+        ],
+        "general-nist-800-171a-r3": [
+          "A.03.12.02.a.01",
+          "A.03.12.02.a.02",
+          "A.03.12.02.b.01",
+          "A.03.12.02.b.02",
+          "A.03.12.02.b.03"
+        ],
+        "general-nist-csf-2-0": [
+          "ID.RA-01",
+          "ID.IM-01",
+          "ID.IM-02"
+        ],
+        "general-scf-dpmp-2025": [
+          "9.3"
+        ],
+        "general-tisax-6-0-3": [
+          "1.5.2"
+        ],
+        "general-ul-2900-1-2017": [
+          "12.1(g)",
+          "12.1(h)"
+        ],
+        "general-un-155-2021": [
+          "7.2.2.2(d)"
+        ],
+        "general-un-ece-wp-29-2020": [
+          "7.2.2.2(d)"
+        ],
+        "usa-federal-fbi-cjis-6-0": [
+          "CA-5"
+        ],
+        "usa-federal-doe-c2m2-2-1": [
+          "RISK-3f",
+          "RISK-3g"
+        ],
+        "usa-federal-dow-cmmc-2-level-2": [
+          "CAL2.-3.12.2"
+        ],
+        "usa-federal-dow-dfars-252-204-7012": [
+          "252.204-7012(b)(2)(ii)(B)"
+        ],
+        "usa-federal-gsa-fedramp-5-low": [
+          "CA-05",
+          "PM-04"
+        ],
+        "usa-federal-gsa-fedramp-5-mod": [
+          "CA-05",
+          "PM-04"
+        ],
+        "usa-federal-gsa-fedramp-5-high": [
+          "CA-05",
+          "PM-04"
+        ],
+        "usa-federal-gsa-fedramp-5-li-saas": [
+          "CA-05",
+          "PM-04"
+        ],
+        "usa-federal-irs-1075-2021": [
+          "2.E.5",
+          "2.E.5-1",
+          "2.E.5-2",
+          "2.E.5-3",
+          "CA-5",
+          "CA-5(IRS-Defined)-1",
+          "CA-5(IRS-Defined)-2",
+          "PM-4"
+        ],
+        "usa-federal-cms-marse-2-0": [
+          "CA-5",
+          "CA-5.a",
+          "CA-5.b",
+          "CA-5.c",
+          "CA-5-IS.1",
+          "PM-4",
+          "PM-4.a",
+          "PM-4.a.1",
+          "PM-4.a.2",
+          "PM-4.a.3",
+          "PM-4.b",
+          "PM-4-IS.1"
+        ],
+        "usa-federal-nerc-cip-2024": [
+          "CIP-007-6 2.4"
+        ],
+        "usa-federal-tsa-security-directive-1580-82-2022-01": [
+          "III.C.2",
+          "III.E.3"
+        ],
+        "usa-state-tx-dir-security-control-standards-catalog-2-2": [
+          "CA-05",
+          "PM-04"
+        ],
+        "usa-state-tx-txramp-2-0-level-1": [
+          "CA-05"
+        ],
+        "usa-state-tx-txramp-2-0-level-2": [
+          "CA-05"
+        ],
+        "emea-eu-eba-ict-srm-2025": [
+          "3.3.1(13)(d)"
+        ],
+        "emea-eu-nis2-2022": [
+          "Article 21.4"
+        ],
+        "emea-eu-nis2-annex-2024": [
+          "6.5.2(d)"
+        ],
+        "emea-sau-otcc-1-2022": [
+          "1-3-1-6"
+        ],
+        "emea-uae-niaf-2023": [
+          "3.2"
+        ],
+        "apac-aus-ism-2024-june": [
+          "ISM-1564"
+        ],
+        "apac-jpn-ismap": [
+          "4.4.6.1",
+          "4.7.1.4",
+          "4.7.1.7"
+        ],
+        "apac-nzl-ism-3-9": [
+          "4.2.12.C.01",
+          "6.3.8.C.01"
+        ],
+        "apac-sgp-mas-trm-2021": [
+          "4.5.2"
+        ],
+        "amaericas-can-osfi-self-assessment": [
+          "5.9"
+        ],
+        "americas-can-itsp-10-171-2025": [
+          "03.04.11.B",
+          "03.12.02.A",
+          "03.12.02.A.01",
+          "03.12.02.A.02",
+          "03.12.02.B",
+          "03.12.02.B.01",
+          "03.12.02.B.02",
+          "03.12.02.B.03",
+          "03.14.01.A"
+        ]
+      }
+    },
+    {
+      "control_id": "IAO-05.1",
+      "title": "Deficiency Tracking Automation",
+      "family": "IAO",
+      "description": "Automated mechanisms exist to help ensure tracked deficiencies are: \n(1) Accurate;\n(2) Up-to-date; and \n(3) Readily-available.",
+      "scf_question": "Does the organization use automated mechanisms to help ensure tracked deficiencies are: \n(1) Accurate;\n(2) Up-to-date; and \n(3) Readily-available?",
+      "relative_weight": 2,
+      "conformity_cadence": "Quarterly",
+      "evidence_requests": [],
+      "pptdf": "Technology",
+      "nist_csf_function": "Detect",
+      "scrm_focus": {
+        "strategic": false,
+        "operational": false,
+        "tactical": true
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "Information Assurance (IAO) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with IAO domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Pre-production security testing-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ IT and/or cybersecurity personnel implement and maintain an informal process to conduct limited control testing of High Value Assets (HVAs) to meet specific statutory, regulatory and/or contractual requirements for pre-production cybersecurity and data protection control testing.",
+        "2": "SCR-CMM Level 2 criteria definitions are not available for this control:\n▪ A reasonable person would conclude a well-defined and standardized process is required.\n▪ At this level of maturity, the “requirements-driven” nature of performing the control is focused on a localized and/or regionalized implementation, not uniform and consistent across the organization.\n▪ Requirements are narrowly scoped for applicability and are primarily derived from compliance obligations (e.g., laws, regulations and contracts).",
+        "3": "Information Assurance (IAO) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IAO domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with IAO domain capabilities are well-documented and kept current by process owners.\n▪ An information assurance team, or similar function, is appropriately staffed and supported to implement and maintain IAO domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of information assurance operations (e.g., assessment scheduling software, risk assessment software, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IAO domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to automate deficiency tracking to ensure records are: \n(1) Accurate;\n(2) Up-to-date; and \n(3) Readily-available.",
+        "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [],
+      "possible_solutions": {
+        "micro_small": "∙ Document security assurance requirements for critical systems",
+        "small": "∙ Security assurance checklist for critical systems",
+        "medium": "∙ Formal information assurance program\n∙ Security testing and validation",
+        "large": "∙ Enterprise information assurance program\n∙ Independent security testing",
+        "enterprise": "∙ Enterprise IA program\n∙ Formal evaluation (e.g., Common Criteria, FedRAMP)\n∙ Continuous assurance monitoring"
+      },
+      "risks": [
+        "R-GV-1",
+        "R-GV-4",
+        "R-GV-5",
+        "R-SA-1"
+      ],
+      "threats": [
+        "NT-2",
+        "NT-3",
+        "NT-4",
+        "NT-5",
+        "NT-6",
+        "NT-7",
+        "NT-8",
+        "NT-9",
+        "NT-10",
+        "NT-11",
+        "NT-12",
+        "NT-13",
+        "NT-14",
+        "MT-1",
+        "MT-2",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "errata": "- renamed\n- wordsmithed",
+      "family_name": "Information Assurance",
+      "crosswalks": {
+        "general-nist-800-53-r4": [
+          "CA-5(1)"
+        ],
+        "general-nist-800-53-r5-2": [
+          "CA-05(01)"
+        ],
+        "general-nist-800-82-r3": [
+          "CA-05(01)"
+        ],
+        "usa-federal-cms-marse-2-0": [
+          "CA-5(1)"
+        ]
+      }
+    },
+    {
+      "control_id": "IAO-06",
+      "title": "Technical Verification",
+      "family": "IAO",
+      "description": "Mechanisms exist to perform Information Assurance Program (IAP) activities to evaluate the design, implementation and effectiveness of technical security, compliance and resilience controls.",
+      "scf_question": "Does the organization perform Information Assurance Program (IAP) activities to evaluate the design, implementation and effectiveness of technical security, compliance and resilience controls?",
+      "relative_weight": 8,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [],
+      "pptdf": "Process",
+      "nist_csf_function": "Protect",
+      "scrm_focus": {
+        "strategic": false,
+        "operational": true,
+        "tactical": true
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "2": "Information Assurance (IAO) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IAO domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with IAO domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IAO  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Information Assurance (IA)-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ IA management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Pre-production security testing is decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ IT and/or cybersecurity personnel implement and maintain a limited Information Assurance Program (IAP) capability to conduct limited control testing to meet specific statutory, regulatory and/or contractual requirements for pre-production cybersecurity and data protection control testing.\n▪ IAP operations focus on protecting High Value Assets (HVAs), including environments where sensitive/regulated data is stored, transmitted and processed.",
+        "3": "Information Assurance (IAO) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IAO domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with IAO domain capabilities are well-documented and kept current by process owners.\n▪ An information assurance team, or similar function, is appropriately staffed and supported to implement and maintain IAO domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of information assurance operations (e.g., assessment scheduling software, risk assessment software, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IAO domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to perform Information Assurance Program (IAP) activities to evaluate the design, implementation and effectiveness of technical security, compliance and resilience controls.",
+        "4": "Information Assurance (IAO) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [
+        "SCRMS",
+        "CORE ESP Level 1 Foundational",
+        "CORE ESP Level 2 Critical Infrastructure",
+        "CORE ESP Level 3 Advanced Threats",
+        "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+      ],
+      "possible_solutions": {
+        "micro_small": "∙ Controls Validation Testing (CVT)",
+        "small": "∙ Controls Validation Testing (CVT)",
+        "medium": "∙ Controls Validation Testing (CVT)",
+        "large": "∙ Controls Validation Testing (CVT)",
+        "enterprise": "∙ Controls Validation Testing (CVT)"
+      },
+      "risks": [
+        "R-AC-1",
+        "R-AC-2",
+        "R-AC-3",
+        "R-AC-4",
+        "R-AM-1",
+        "R-AM-2",
+        "R-BC-1",
+        "R-BC-2",
+        "R-BC-3",
+        "R-BC-4",
+        "R-BC-5",
+        "R-EX-1",
+        "R-EX-2",
+        "R-EX-3",
+        "R-EX-4",
+        "R-EX-5",
+        "R-EX-6",
+        "R-EX-7",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-3",
+        "R-GV-4",
+        "R-GV-5",
+        "R-GV-6",
+        "R-GV-7",
+        "R-IR-1",
+        "R-IR-2",
+        "R-IR-3",
+        "R-IR-4",
+        "R-SA-1",
+        "R-SC-1",
+        "R-SC-2",
+        "R-SC-3",
+        "R-SC-4",
+        "R-SC-5",
+        "R-SC-6"
+      ],
+      "threats": [
+        "NT-2",
+        "NT-3",
+        "NT-4",
+        "NT-5",
+        "NT-6",
+        "NT-7",
+        "NT-8",
+        "NT-9",
+        "NT-10",
+        "NT-11",
+        "NT-12",
+        "NT-13",
+        "NT-14",
+        "MT-1",
+        "MT-2",
+        "MT-3",
+        "MT-4",
+        "MT-5",
+        "MT-6",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-10",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "errata": "- wordsmithed",
+      "family_name": "Information Assurance",
+      "crosswalks": {
+        "general-aicpa-tsc-2017": [
+          "CC4.1"
+        ],
+        "general-coso-2013": [
+          "16"
+        ],
+        "general-csa-iot-2": [
+          "IOT-01"
+        ],
+        "general-govramp": [
+          "CA-02"
+        ],
+        "general-govramp-low": [
+          "CA-02"
+        ],
+        "general-govramp-low-plus": [
+          "CA-02"
+        ],
+        "general-govramp-mod": [
+          "CA-02"
+        ],
+        "general-govramp-high": [
+          "CA-02"
+        ],
+        "general-iec-62443-2-1-2024": [
+          "ORG 2.4(b)"
+        ],
+        "general-imo-maritime-cyber-risk-management-2025": [
+          "3.5.3.3"
+        ],
+        "general-iso-42001-2023": [
+          "A.6.2.5"
+        ],
+        "general-nist-100-1-ai-rmf": [
+          "MEASURE 2.0"
+        ],
+        "general-nist-800-53-r4": [
+          "CA-2",
+          "CM-4(2)"
+        ],
+        "general-nist-800-53-r5-2": [
+          "CA-02",
+          "CM-04(02)"
+        ],
+        "general-nist-800-53-r5-2-privacy": [
+          "CA-02"
+        ],
+        "general-nist-800-53-r5-2-low": [
+          "CA-02"
+        ],
+        "general-nist-800-53-r5-2-mod": [
+          "CM-04(02)"
+        ],
+        "general-nist-800-82-r3": [
+          "CA-02",
+          "CM-04(02)"
+        ],
+        "general-nist-800-82-r3-low": [
+          "CA-02"
+        ],
+        "general-nist-800-82-r3-mod": [
+          "CA-02",
+          "CM-04(02)"
+        ],
+        "general-nist-800-82-r3-high": [
+          "CA-02",
+          "CM-04(02)"
+        ],
+        "general-nist-800-161-r1": [
+          "CA-2"
+        ],
+        "general-nist-800-161-r1-cscrm": [
+          "CA-2"
+        ],
+        "general-nist-800-161-r1-level-2": [
+          "CA-2"
+        ],
+        "general-nist-800-161-r1-level-3": [
+          "CA-2"
+        ],
+        "usa-federal-dhs-cisa-cpg-2-0": [
+          "2.Q"
+        ],
+        "usa-federal-fbi-cjis-6-0": [
+          "CA-2",
+          "CM-4(2)"
+        ],
+        "usa-federal-gsa-fedramp-5-low": [
+          "CA-02"
+        ],
+        "usa-federal-gsa-fedramp-5-mod": [
+          "CA-02",
+          "CM-04(02)"
+        ],
+        "usa-federal-gsa-fedramp-5-high": [
+          "CA-02",
+          "CM-04(02)"
+        ],
+        "usa-federal-gsa-fedramp-5-li-saas": [
+          "CA-02"
+        ],
+        "usa-federal-irs-1075-2021": [
+          "CA-2",
+          "CM-4(CE-2)"
+        ],
+        "usa-federal-cms-marse-2-0": [
+          "CA-2",
+          "CM-4(2)"
+        ],
+        "usa-state-ca-ccpa-cpra-2026": [
+          "7123(c)(4)(C)"
+        ],
+        "usa-state-tx-dir-security-control-standards-catalog-2-2": [
+          "CA-02"
+        ],
+        "usa-state-tx-txramp-2-0-level-1": [
+          "CA-02"
+        ],
+        "usa-state-tx-txramp-2-0-level-2": [
+          "CA-02",
+          "CM-04 (02)"
+        ],
+        "emea-eu-eba-ict-srm-2025": [
+          "3.6.2(70)",
+          "3.6.2(71)"
+        ],
+        "emea-isr-cmo-1-0": [
+          "10.6",
+          "16.5"
+        ],
+        "emea-gbr-def-stan-05-138-2024": [
+          "1205"
+        ],
+        "emea-gbr-def-stan-05-138-l2-2024": [
+          "1205"
+        ],
+        "emea-gbr-def-stan-05-138-l3-2024": [
+          "1205"
+        ]
+      }
+    },
+    {
+      "control_id": "IAO-07",
+      "title": "Security Authorization",
+      "family": "IAO",
+      "description": "Mechanisms exist to ensure Technology Assets, Applications and/or Services (TAAS) are officially authorized prior to \"go live\" in a production environment.",
+      "scf_question": "Does the organization ensure Technology Assets, Applications and/or Services (TAAS) are officially authorized prior to \"go live\" in a production environment?",
+      "relative_weight": 10,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [],
+      "pptdf": "Process",
+      "nist_csf_function": "Protect",
+      "scrm_focus": {
+        "strategic": true,
+        "operational": true,
+        "tactical": true
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "Information Assurance (IAO) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with IAO domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Pre-production security testing-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ IT and/or cybersecurity personnel implement and maintain an informal process to conduct limited control testing of High Value Assets (HVAs) to meet specific statutory, regulatory and/or contractual requirements for pre-production cybersecurity and data protection control testing.",
+        "2": "Information Assurance (IAO) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IAO domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with IAO domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IAO  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Information Assurance (IA)-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ IA management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Pre-production security testing is decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ IT and/or cybersecurity personnel implement and maintain a limited Information Assurance Program (IAP) capability to conduct limited control testing to meet specific statutory, regulatory and/or contractual requirements for pre-production cybersecurity and data protection control testing.\n▪ IAP testing results in a formal risk assessment where Business process owners (BPOs) are required to make a decision to (1) reduce, (2) avoid, (3) transfer and/or (4) accept risk(s) on behalf of the organization.",
+        "3": "Information Assurance (IAO) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IAO domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with IAO domain capabilities are well-documented and kept current by process owners.\n▪ An information assurance team, or similar function, is appropriately staffed and supported to implement and maintain IAO domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of information assurance operations (e.g., assessment scheduling software, risk assessment software, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IAO domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to ensure Technology Assets, Applications and/or Services (TAAS) are officially authorized prior to \"go live\" in a production environment.",
+        "4": "Information Assurance (IAO) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [
+        "CORE ESP Level 1 Foundational",
+        "CORE ESP Level 2 Critical Infrastructure",
+        "CORE ESP Level 3 Advanced Threats",
+        "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+      ],
+      "possible_solutions": {
+        "micro_small": "∙ Document security assurance requirements for critical systems",
+        "small": "∙ Security assurance checklist for critical systems",
+        "medium": "∙ Formal information assurance program\n∙ Security testing and validation",
+        "large": "∙ Enterprise information assurance program\n∙ Independent security testing",
+        "enterprise": "∙ Enterprise IA program\n∙ Formal evaluation (e.g., Common Criteria, FedRAMP)\n∙ Continuous assurance monitoring"
+      },
+      "risks": [
+        "R-AC-1",
+        "R-AC-2",
+        "R-AC-3",
+        "R-AC-4",
+        "R-AM-1",
+        "R-AM-2",
+        "R-BC-1",
+        "R-BC-2",
+        "R-BC-3",
+        "R-BC-4",
+        "R-BC-5",
+        "R-EX-1",
+        "R-EX-2",
+        "R-EX-3",
+        "R-EX-4",
+        "R-EX-5",
+        "R-EX-6",
+        "R-EX-7",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-3",
+        "R-GV-4",
+        "R-GV-5",
+        "R-GV-6",
+        "R-GV-7",
+        "R-IR-1",
+        "R-IR-2",
+        "R-IR-3",
+        "R-IR-4",
+        "R-SA-1",
+        "R-SC-1",
+        "R-SC-2",
+        "R-SC-3",
+        "R-SC-4",
+        "R-SC-5",
+        "R-SC-6"
+      ],
+      "threats": [
+        "NT-2",
+        "NT-3",
+        "NT-4",
+        "NT-5",
+        "NT-6",
+        "NT-7",
+        "NT-8",
+        "NT-9",
+        "NT-10",
+        "NT-11",
+        "NT-12",
+        "NT-13",
+        "NT-14",
+        "MT-1",
+        "MT-2",
+        "MT-3",
+        "MT-4",
+        "MT-5",
+        "MT-6",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-10",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Information Assurance",
+      "crosswalks": {
+        "general-aicpa-tsc-2017": [
+          "CC6.1-POF9"
+        ],
+        "general-csa-iot-2": [
+          "IOT-01"
+        ],
+        "general-govramp": [
+          "CA-06"
+        ],
+        "general-govramp-low": [
+          "CA-06"
+        ],
+        "general-govramp-low-plus": [
+          "CA-06"
+        ],
+        "general-govramp-mod": [
+          "CA-06"
+        ],
+        "general-govramp-high": [
+          "CA-06"
+        ],
+        "general-imo-maritime-cyber-risk-management-2025": [
+          "3.5.3.3"
+        ],
+        "general-iso-42001-2023": [
+          "A.6.2.5"
+        ],
+        "general-nist-100-1-ai-rmf": [
+          "MANAGE 1.1"
+        ],
+        "general-nist-800-37-r2": [
+          "TASK P-18",
+          "TASK R-1",
+          "TASK R-2",
+          "TASK R-4",
+          "TASK R-5",
+          "TASK M-4",
+          "TASK M-6"
+        ],
+        "general-nist-800-53-r4": [
+          "CA-6"
+        ],
+        "general-nist-800-53-r5-2": [
+          "CA-06"
+        ],
+        "general-nist-800-53-r5-2-privacy": [
+          "CA-06"
+        ],
+        "general-nist-800-53-r5-2-low": [
+          "CA-06"
+        ],
+        "general-nist-800-82-r3": [
+          "CA-06"
+        ],
+        "general-nist-800-82-r3-low": [
+          "CA-06"
+        ],
+        "general-nist-800-82-r3-mod": [
+          "CA-06"
+        ],
+        "general-nist-800-82-r3-high": [
+          "CA-06"
+        ],
+        "general-nist-800-161-r1": [
+          "CA-6"
+        ],
+        "general-nist-800-161-r1-cscrm": [
+          "CA-6"
+        ],
+        "general-nist-800-161-r1-level-1": [
+          "CA-6"
+        ],
+        "general-nist-800-161-r1-level-2": [
+          "CA-6"
+        ],
+        "general-nist-800-161-r1-level-3": [
+          "CA-6"
+        ],
+        "general-scf-dpmp-2025": [
+          "7.11"
+        ],
+        "usa-federal-dhs-cisa-cpg-2-0": [
+          "2.Q"
+        ],
+        "usa-federal-fbi-cjis-6-0": [
+          "CA-6"
+        ],
+        "usa-federal-gsa-fedramp-5-low": [
+          "CA-06"
+        ],
+        "usa-federal-gsa-fedramp-5-mod": [
+          "CA-06"
+        ],
+        "usa-federal-gsa-fedramp-5-high": [
+          "CA-06"
+        ],
+        "usa-federal-gsa-fedramp-5-li-saas": [
+          "CA-06"
+        ],
+        "usa-federal-irs-1075-2021": [
+          "CA-6"
+        ],
+        "usa-federal-cms-marse-2-0": [
+          "CA-6",
+          "CA-6.a",
+          "CA-6.b",
+          "CA-6.b.1",
+          "CA-6.b.2",
+          "CA-6.b.3",
+          "CA-6.b.4",
+          "CA-6.b.5",
+          "CA-6.b.6",
+          "CA-6.c",
+          "CA-6.c.1",
+          "CA-6.c.2",
+          "CA-6.c.3",
+          "CA-6.c.4",
+          "CA-6.c.5",
+          "CA-6.c.6"
+        ],
+        "usa-federal-dow-safeguarding-nnpi-2010": [
+          "11-3.a(3)(c)"
+        ],
+        "usa-state-ca-ccpa-cpra-2026": [
+          "7123(c)(4)(C)"
+        ],
+        "usa-state-tx-dir-security-control-standards-catalog-2-2": [
+          "CA-06",
+          "CA-06-SID"
+        ],
+        "usa-state-tx-txramp-2-0-level-1": [
+          "CA-06"
+        ],
+        "usa-state-tx-txramp-2-0-level-2": [
+          "CA-06"
+        ],
+        "emea-eu-eba-ict-srm-2025": [
+          "3.6.2(70)",
+          "3.6.2(71)"
+        ],
+        "emea-isr-cmo-1-0": [
+          "10.6",
+          "16.5"
+        ],
+        "emea-sau-sacs-002-2022": [
+          "TPC-51"
+        ],
+        "apac-aus-ism-2024-june": [
+          "ISM-0027",
+          "ISM-0293",
+          "ISM-1525"
+        ],
+        "apac-nzl-ism-3-9": [
+          "2.2.5.C.01",
+          "4.2.11.C.01",
+          "4.5.18.C.01",
+          "4.5.18.C.02",
+          "4.5.18.C.03",
+          "23.2.16.C.03",
+          "23.2.16.C.04"
+        ]
+      }
+    }
+  ]
+}

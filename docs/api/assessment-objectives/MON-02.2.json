@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "MON-02.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MON-02.2",
+      "ao_id": "MON-02.2_A01",
+      "objective": "the capability to centrally review and analyze audit records from multiple components within the system is provided.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AU-06(04)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-02.2",
+      "ao_id": "MON-02.2_A02",
+      "objective": "the capability to centrally review and analyze audit records from multiple components within the system is implemented.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AU-06(04)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

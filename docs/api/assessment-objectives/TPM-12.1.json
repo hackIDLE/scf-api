@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "TPM-12.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TPM-12.1",
+      "ao_id": "TPM-12.1_A01",
+      "objective": "External Service Providers (ESP) are periodically reviewed for changes that affect Foreign Ownership, Control or Influence (FOCI).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "erl_id": "E-TPM-02",
+  "area": "Third-Party Management",
+  "artifact_name": "Third-Party Criticality Assessment",
+  "artifact_description": "Documented evidence of third-party criticality assessment that evaluates the critical nature of each third-party the organization works with.",
+  "scf_controls": [
+    "RSK-02",
+    "RSK-02.1",
+    "TDA-06.1",
+    "TPM-02",
+    "TPM-03.2",
+    "TPM-03.3",
+    "TPM-04.1"
+  ],
+  "cmmc_mapping": ""
+}

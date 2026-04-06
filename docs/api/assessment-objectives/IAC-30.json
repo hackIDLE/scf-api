@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "IAC-30",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-30",
+      "ao_id": "IAC-30_A01",
+      "objective": "instances that require Mutual Authentication (MA) are identified, where both sides of a communications channel verify the identity of the other party through certificate exchange.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-30",
+      "ao_id": "IAC-30_A02",
+      "objective": "technologies to implement MA are identified.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-30",
+      "ao_id": "IAC-30_A03",
+      "objective": "technologies enforce MA, where required.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "TDA-11.2",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-11.2",
+      "ao_id": "TDA-11.2_A01",
+      "objective": "N/A [deprecated – incorporated into AST-09]",
+      "pptdf": "N/A",
+      "origin": "N/A",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

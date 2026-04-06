@@ -1,0 +1,7 @@
+{
+  "risk_id": "R-GV-3",
+  "grouping": "Governance",
+  "name": "Lack of roles & responsibilities",
+  "description": "Insufficient cybersecurity and/or privacy roles & responsibilities that cannot securely support the organization's technologies & processes.",
+  "nist_csf_function": "Identify"
+}

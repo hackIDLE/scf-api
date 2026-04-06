@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "IAC-06.5",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-06.5",
+      "ao_id": "IAC-06.5_A01",
+      "objective": "alternative Multi-Factor Authentication (MFA) tokens can be used when the primary MFA solution is inoperable.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

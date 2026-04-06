@@ -1,0 +1,686 @@
+{
+  "control_id": "TPM-01",
+  "title": "Third-Party Management",
+  "family": "TPM",
+  "description": "Mechanisms exist to facilitate the implementation of third-party management controls.",
+  "scf_question": "Does the organization facilitate the implementation of third-party management controls?",
+  "relative_weight": 10,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [
+    "E-TPM-03",
+    "E-TPM-06"
+  ],
+  "pptdf": "Process",
+  "nist_csf_function": "Govern",
+  "scrm_focus": {
+    "strategic": true,
+    "operational": true,
+    "tactical": true
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "Third-Party Management (TPM) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with TPM domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Third-party management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ No centralized inventory of External Service Providers (ESP) is maintained.\n▪ ESP are not formally managed according to criticality.",
+    "2": "Third-Party Management (TPM) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with TPM domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with TPM domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with TPM  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Third-party management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Asset management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
+    "3": "Third-Party Management (TPM) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with TPM domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with TPM domain capabilities are well-documented and kept current by process owners.\n▪ A procurement team, or similar function, is appropriately staffed and supported to implement and maintain TPM domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of third-party management operations (e.g., TPRM risk management solution, vendor management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with TPM domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to facilitate the implementation of third-party management controls.",
+    "4": "Third-Party Management (TPM) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [
+    "SCRMS",
+    "CORE ESP Level 1 Foundational",
+    "CORE ESP Level 2 Critical Infrastructure",
+    "CORE ESP Level 3 Advanced Threats",
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ Cybersecurity Supply Chain Risk Management (C-SCRM) program\n∙ Product / project management",
+    "small": "∙ Cybersecurity Supply Chain Risk Management (C-SCRM) program\n∙ Product / project management",
+    "medium": "∙ Cybersecurity Supply Chain Risk Management (C-SCRM) program\n∙ Product / project management",
+    "large": "∙ Cybersecurity Supply Chain Risk Management (C-SCRM) program\n∙ Product / project management",
+    "enterprise": "∙ Cybersecurity Supply Chain Risk Management (C-SCRM) program\n∙ Product / project management"
+  },
+  "risks": [
+    "R-AC-1",
+    "R-AC-2",
+    "R-AC-3",
+    "R-AC-4",
+    "R-AM-1",
+    "R-AM-2",
+    "R-AM-3",
+    "R-BC-1",
+    "R-BC-2",
+    "R-BC-3",
+    "R-BC-4",
+    "R-BC-5",
+    "R-EX-1",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-EX-5",
+    "R-EX-6",
+    "R-EX-7",
+    "R-GV-1",
+    "R-GV-2",
+    "R-GV-3",
+    "R-GV-4",
+    "R-GV-5",
+    "R-GV-6",
+    "R-GV-7",
+    "R-GV-8",
+    "R-IR-1",
+    "R-IR-2",
+    "R-IR-3",
+    "R-IR-4",
+    "R-SA-1",
+    "R-SA-2",
+    "R-SC-1",
+    "R-SC-2",
+    "R-SC-3",
+    "R-SC-4",
+    "R-SC-5",
+    "R-SC-6"
+  ],
+  "threats": [
+    "NT-1",
+    "NT-2",
+    "NT-3",
+    "NT-4",
+    "NT-5",
+    "NT-6",
+    "NT-7",
+    "NT-8",
+    "NT-9",
+    "NT-10",
+    "NT-11",
+    "NT-12",
+    "NT-13",
+    "NT-14",
+    "MT-1",
+    "MT-2",
+    "MT-3",
+    "MT-4",
+    "MT-5",
+    "MT-6",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-16",
+    "MT-17",
+    "MT-18",
+    "MT-19",
+    "MT-20",
+    "MT-21",
+    "MT-22",
+    "MT-23",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Third-Party Management",
+  "crosswalks": {
+    "general-aicpa-tsc-2017": [
+      "CC1.1-POF5",
+      "CC1.4-POF2",
+      "CC1.4-POF3",
+      "CC2.3-POF9",
+      "CC2.3-POF10",
+      "CC2.3-POF12",
+      "CC3.3",
+      "CC3.4-POF5",
+      "CC9.1",
+      "CC9.2",
+      "CC9.2-POF1",
+      "CC9.2-POF2",
+      "CC9.2-POF3",
+      "CC9.2-POF4",
+      "CC9.2-POF5",
+      "CC9.2-POF6",
+      "CC9.2-POF7",
+      "CC9.2-POF8",
+      "CC9.2-POF9",
+      "CC9.2-POF10",
+      "CC9.2-POF11",
+      "CC9.2-POF12"
+    ],
+    "general-cis-csc-8-1": [
+      "15.0",
+      "15.2"
+    ],
+    "general-cis-csc-8-1-ig2": [
+      "15.2"
+    ],
+    "general-cis-csc-8-1-ig3": [
+      "15.2"
+    ],
+    "general-cobit-2019": [
+      "APO10.01",
+      "APO10.02",
+      "APO10.03",
+      "APO10.04",
+      "APO10.05",
+      "DSS01.02"
+    ],
+    "general-coso-2013": [
+      "8"
+    ],
+    "general-csa-cmm-4-1-0": [
+      "IAM-11",
+      "SEF-02",
+      "STA-01"
+    ],
+    "general-csa-iot-2": [
+      "POL-01",
+      "POL-02"
+    ],
+    "general-govramp": [
+      "SA-04"
+    ],
+    "general-govramp-mod": [
+      "SA-04"
+    ],
+    "general-govramp-high": [
+      "SA-04"
+    ],
+    "general-iec-62443-2-1-2024": [
+      "ORG 1.6"
+    ],
+    "general-imo-maritime-cyber-risk-management-2025": [
+      "3.5.3.8"
+    ],
+    "general-iso-27002-2022": [
+      "5.19",
+      "5.2",
+      "8.3"
+    ],
+    "general-iso-27017-2015": [
+      "4.2",
+      "4.3",
+      "15.1.1"
+    ],
+    "general-iso-27018-2025": [
+      "5.19",
+      "5.20",
+      "8.30"
+    ],
+    "general-iso-27701-2025": [
+      "6.1.3(h)"
+    ],
+    "general-iso-31000-2018": [
+      "5.5"
+    ],
+    "general-iso-42001-2023": [
+      "A.10",
+      "A.10.2",
+      "A.10.3"
+    ],
+    "general-mpa-csbp-5-3-1": [
+      "OR-3.4",
+      "PS-3.2"
+    ],
+    "general-naic-insurance-data-security-model-law-668-2017": [
+      "4.F(1)"
+    ],
+    "general-nist-100-1-ai-rmf": [
+      "MANAGE 3.0"
+    ],
+    "general-nist-600-1-gen-ai-profile": [
+      "GV-6.1-009",
+      "GV-6.2-007"
+    ],
+    "general-nist-privacy-framework-1-0": [
+      "GV.PO-P4"
+    ],
+    "general-nist-800-53-r4": [
+      "SA-4"
+    ],
+    "general-nist-800-53-r5-2": [
+      "SA-04",
+      "SR-01"
+    ],
+    "general-nist-800-53-r5-2-privacy": [
+      "SA-04",
+      "SR-01"
+    ],
+    "general-nist-800-53-r5-2-low": [
+      "SA-04",
+      "SR-01"
+    ],
+    "general-nist-800-66-r2": [
+      "164.308(b)(1)",
+      "164.312(d)"
+    ],
+    "general-nist-800-82-r3": [
+      "SA-04",
+      "SR-01"
+    ],
+    "general-nist-800-82-r3-low": [
+      "SA-04",
+      "SR-01"
+    ],
+    "general-nist-800-82-r3-mod": [
+      "SA-04",
+      "SR-01"
+    ],
+    "general-nist-800-82-r3-high": [
+      "SA-04",
+      "SR-01"
+    ],
+    "general-nist-800-161-r1": [
+      "SA-4",
+      "SR-1"
+    ],
+    "general-nist-800-161-r1-cscrm": [
+      "SA-4",
+      "SR-1"
+    ],
+    "general-nist-800-161-r1-level-1": [
+      "SA-4",
+      "SR-1"
+    ],
+    "general-nist-800-161-r1-level-2": [
+      "SA-4",
+      "SR-1"
+    ],
+    "general-nist-800-161-r1-level-3": [
+      "SA-4",
+      "SR-1"
+    ],
+    "general-nist-800-171-r2": [
+      "3.1.1",
+      "NFO - SA-4"
+    ],
+    "general-nist-800-171-r3": [
+      "03.01.20.a",
+      "03.01.20.b",
+      "03.01.20.c.01",
+      "03.07.06.a",
+      "03.16.01",
+      "03.16.03.a"
+    ],
+    "general-nist-800-171a-r3": [
+      "A.03.17.03.ODP[01]"
+    ],
+    "general-nist-csf-2-0": [
+      "GV.SC-04",
+      "GV.SC-06",
+      "GV.SC-07",
+      "GV.SC-08",
+      "GV.SC-10",
+      "ID.AM"
+    ],
+    "general-owasp-top-10-2025": [
+      "A02:2025",
+      "A03:2025",
+      "A05:2025"
+    ],
+    "general-pci-dss-4-0-1": [
+      "8.2.3",
+      "12.8",
+      "12.8.1",
+      "12.9",
+      "12.9.1",
+      "12.9.2",
+      "A2.1.3"
+    ],
+    "general-pci-dss-4-0-1-saq-a": [
+      "12.8.1"
+    ],
+    "general-pci-dss-4-0-1-saq-a-ep": [
+      "12.8.1"
+    ],
+    "general-pci-dss-4-0-1-saq-b": [
+      "12.8.1"
+    ],
+    "general-pci-dss-4-0-1-saq-b-ip": [
+      "12.8.1"
+    ],
+    "general-pci-dss-4-0-1-saq-c": [
+      "12.8.1"
+    ],
+    "general-pci-dss-4-0-1-saq-c-vt": [
+      "12.8.1"
+    ],
+    "general-pci-dss-4-0-1-saq-d-merchant": [
+      "12.8.1"
+    ],
+    "general-pci-dss-4-0-1-saq-d-service-provider": [
+      "8.2.3",
+      "12.8.1",
+      "12.9.1",
+      "12.9.2",
+      "A2.1.3"
+    ],
+    "general-pci-dss-4-0-1-saq-p2pe": [
+      "12.8.1"
+    ],
+    "general-scf-dpmp-2025": [
+      "10.0",
+      "11.0"
+    ],
+    "general-sparta": [
+      "CM0025"
+    ],
+    "general-swift-cscf-2025": [
+      "2.8"
+    ],
+    "general-tisax-6-0-3": [
+      "1.3.3"
+    ],
+    "general-un-155-2021": [
+      "7.2.2.5"
+    ],
+    "general-un-ece-wp-29-2020": [
+      "7.2.2.5"
+    ],
+    "usa-federal-dow-cert-rmm-1-2": [
+      "EXD:GG1.GP1",
+      "EXD:GG2",
+      "EXD:GG2.GP2"
+    ],
+    "usa-federal-dhs-cisa-cpg-2-0": [
+      "1.G",
+      "1.H"
+    ],
+    "usa-federal-fbi-cjis-6-0": [
+      "SA-4",
+      "SR-1"
+    ],
+    "usa-federal-dow-cmmc-2-level-1": [
+      "AC.L1-B.1.I"
+    ],
+    "usa-federal-dow-cmmc-2-level-2": [
+      "ACL2.-3.1.1"
+    ],
+    "usa-federal-dow-dfars-252-204-7012": [
+      "252.204-7012(b)(2)(ii)(D)"
+    ],
+    "usa-federal-far-52-204-21": [
+      "52.204-21(b)(1)(i)"
+    ],
+    "usa-federal-sro-fca-crm-2023": [
+      "609.930(c)(4)",
+      "609.930(c)(5)"
+    ],
+    "usa-federal-gsa-fedramp-5-low": [
+      "SA-04",
+      "SR-01"
+    ],
+    "usa-federal-gsa-fedramp-5-mod": [
+      "SA-04",
+      "SR-01"
+    ],
+    "usa-federal-gsa-fedramp-5-high": [
+      "SA-04",
+      "SR-01"
+    ],
+    "usa-federal-gsa-fedramp-5-li-saas": [
+      "SA-04",
+      "SR-01"
+    ],
+    "usa-federal-sro-finra": [
+      "248.30(a)(5)(i)",
+      "248.30(a)(5)(i)(A)",
+      "248.201(e)(4)"
+    ],
+    "usa-federal-law-glba-cfr-314-2023": [
+      "314.4(a)",
+      "314.4(a)(1)",
+      "314.4(a)(2)",
+      "314.4(a)(3)",
+      "314.4(f)"
+    ],
+    "usa-federal-law-hipaa-simplification-2013": [
+      "164.308(b)(1)",
+      "164.312(d)"
+    ],
+    "usa-federal-law-hipaa-security-rule-2013": [
+      "164.308(b)(1)",
+      "164.312(d)"
+    ],
+    "usa-federal-irs-1075-2021": [
+      "1.9.3",
+      "SA-4",
+      "SR-1"
+    ],
+    "usa-federal-cms-marse-2-0": [
+      "SA-4"
+    ],
+    "usa-federal-sec-cybersecurity-rule-2023": [
+      "17 CFR 229.106(b)(1)(iii)"
+    ],
+    "usa-state-ca-ccpa-cpra-2026": [
+      "7024(l)",
+      "7052(a)",
+      "7123(c)(15)"
+    ],
+    "usa-state-ma-201-cmr-17-2008": [
+      "17.03(2)(f)"
+    ],
+    "usa-state-ny-dfs-23-nycrr500-2023-amd2": [
+      "500.3(l)",
+      "500.4(a)(1)",
+      "500.4(a)(2)",
+      "500.4(a)(3)",
+      "500.11(a)",
+      "500.11(a)(1)",
+      "500.11(b)"
+    ],
+    "usa-state-tx-dir-security-control-standards-catalog-2-2": [
+      "SA-04",
+      "SR-01"
+    ],
+    "usa-state-tx-txramp-2-0-level-1": [
+      "SA-04"
+    ],
+    "usa-state-tx-txramp-2-0-level-2": [
+      "SA-04"
+    ],
+    "usa-state-vt-act-171-2018": [
+      "2447(b)(6)"
+    ],
+    "emea-eu-eba-ict-srm-2025": [
+      "3.2.3(7)",
+      "3.6.2(74)"
+    ],
+    "emea-eu-dora-2023": [
+      "Article 30.3 (end)",
+      "Article 31.12"
+    ],
+    "emea-eu-nis2-2022": [
+      "Article 21.2(d)",
+      "Article 21.2(e)",
+      "Article 21.3"
+    ],
+    "emea-eu-nis2-annex-2024": [
+      "6.2.3"
+    ],
+    "emea-aut-fappd-2000": [
+      "Sec 14",
+      "Sec 15"
+    ],
+    "emea-bel-act-8-1992": [
+      "16"
+    ],
+    "emea-deu-bsrit-2017": [
+      "9.1"
+    ],
+    "emea-deu-c5-2020": [
+      "SSO-01",
+      "SSO-03"
+    ],
+    "emea-isr-cmo-1-0": [
+      "11.3",
+      "11.10",
+      "16.1",
+      "17.3"
+    ],
+    "emea-sau-cscc-1-2019": [
+      "4-1"
+    ],
+    "emea-sau-ecc-1-2018": [
+      "1-5-3-3",
+      "4-1-1",
+      "4-1-2",
+      "4-1-3",
+      "4-1-4"
+    ],
+    "emea-sau-otcc-1-2022": [
+      "4-1",
+      "4-1-1",
+      "4-1-1-1",
+      "4-1-1-2",
+      "4-1-1-3",
+      "4-1-1-4",
+      "4-1-2"
+    ],
+    "emea-sau-sama-csf-1-2017": [
+      "3.4.1",
+      "3.4.2"
+    ],
+    "emea-zaf-popia-2013": [
+      "20",
+      "21"
+    ],
+    "emea-esp-ccn-stic-825-2023": [
+      "7.4.1 [OP.EXT.1]"
+    ],
+    "emea-gbr-caf-4-0": [
+      "A4"
+    ],
+    "emea-gbr-cap-1850-2020": [
+      "A4"
+    ],
+    "emea-gbr-def-stan-05-138-2024": [
+      "1400"
+    ],
+    "emea-gbr-def-stan-05-138-l1-2024": [
+      "1400"
+    ],
+    "emea-gbr-def-stan-05-138-l2-2024": [
+      "1400"
+    ],
+    "emea-gbr-def-stan-05-138-l3-2024": [
+      "1400"
+    ],
+    "apac-aus-ism-2024-june": [
+      "ISM-1073",
+      "ISM-1785"
+    ],
+    "apac-aus-ps-cps-230-2023": [
+      "15",
+      "47",
+      "48(a)",
+      "48(b)",
+      "48(c)",
+      "57"
+    ],
+    "apac-aus-ps-cps-234-2019": [
+      "16",
+      "20",
+      "22",
+      "28"
+    ],
+    "apac-chn-pipl-2021": [
+      "20",
+      "21",
+      "38(3)",
+      "42",
+      "51",
+      "51(1)",
+      "51(2)",
+      "51(3)",
+      "51(4)",
+      "51(5)",
+      "51(6)"
+    ],
+    "apac-ind-sebi-2024": [
+      "GV.OC.S3",
+      "GV.SC.S1",
+      "PR.IP.S15"
+    ],
+    "apac-jpn-ppi-2020": [
+      "22",
+      "23(1)(i)",
+      "23(1)(ii)",
+      "23(1)(iii)",
+      "23(1)(iv)",
+      "23(2)",
+      "23(2)(i)",
+      "23(2)(ii)",
+      "23(2)(iii)",
+      "23(2)(iv)",
+      "23(2)(v)",
+      "23(2)(vi)",
+      "23(2)(vii)",
+      "23(2)(viii)",
+      "23(3)",
+      "23(4)",
+      "23(5)(i)",
+      "23(5)(ii)",
+      "23(5)(iii)",
+      "23(6)",
+      "23(1)",
+      "24(3)"
+    ],
+    "apac-jpn-ismap": [
+      "4.5.3.1",
+      "5.1.1.20",
+      "5.1.1.31.P",
+      "15",
+      "15.1",
+      "15.1.1",
+      "15.1.1.1",
+      "15.1.1.2",
+      "15.1.1.3",
+      "15.1.1.4",
+      "15.1.1.5",
+      "15.1.1.6",
+      "15.1.1.7",
+      "15.1.1.8",
+      "15.1.1.9",
+      "15.1.1.10",
+      "15.1.1.11",
+      "15.1.1.12",
+      "15.1.1.13",
+      "15.1.1.14.B"
+    ],
+    "apac-nzl-hisf-mlhsp-2023": [
+      "HHSP25",
+      "HML25"
+    ],
+    "apac-nzl-hisf-suppliers-2023": [
+      "HSUP67"
+    ],
+    "apac-nzl-ism-3-9": [
+      "2.2.6.C.01",
+      "2.2.6.C.02",
+      "23.2.19.C.01"
+    ],
+    "apac-sgp-mas-trm-2021": [
+      "3.4.1",
+      "3.4.2",
+      "3.4.3",
+      "9.1.8"
+    ],
+    "americas-bmu-mba-coc-2020": [
+      "5.10"
+    ],
+    "amaericas-can-osfi-self-assessment": [
+      "2.3",
+      "4.25"
+    ],
+    "americas-can-itsp-10-171-2025": [
+      "03.01.20.A",
+      "03.01.20.B",
+      "03.01.20.C.01",
+      "03.07.06.A",
+      "03.16.01",
+      "03.16.03.A"
+    ]
+  }
+}

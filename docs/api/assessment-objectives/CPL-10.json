@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "CPL-10",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CPL-10",
+      "ao_id": "CPL-10_A01",
+      "objective": "instances of control inheritance within assessment boundaries are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

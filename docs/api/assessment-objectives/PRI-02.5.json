@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PRI-02.5",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-02.5",
+      "ao_id": "PRI-02.5_A01",
+      "objective": "the frequency at which to review all routine uses published in the System of Records Notice (SORN) is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PT-06(01)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-02.5",
+      "ao_id": "PRI-02.5_A02",
+      "objective": "all routine uses published in the system of records notice are reviewed frequently to ensure continued accuracy and to ensure that routine uses continue to be compatible with the purpose for which the information was collected.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PT-06(01)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

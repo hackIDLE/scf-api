@@ -1,0 +1,13 @@
+{
+  "erl_id": "E-CPL-07",
+  "area": "Compliance",
+  "artifact_name": "Control Assessments",
+  "artifact_description": "Documented evidence of internal or third-party control assessments to provide governance oversight of cybersecurity & data privacy controls.",
+  "scf_controls": [
+    "CPL-02",
+    "CPL-02.1",
+    "CPL-03",
+    "CPL-03.1"
+  ],
+  "cmmc_mapping": ""
+}

@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-17.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-17.1",
+      "ao_id": "AAT-17.1_A01",
+      "objective": "an executive steering committee, or advisory board, evaluates business practices that could pose harm to human subjects from Artificial Intelligence (AI) and Autonomous Technologies (AAT).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-17.1",
+      "ao_id": "AAT-17.1_A02",
+      "objective": "measures exist for the executive steering committee, or advisory board, to implement safeguards to protect human subjects from harm due to Artificial Intelligence (AI) and Autonomous Technologies (AAT).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

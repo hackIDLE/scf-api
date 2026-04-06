@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-RSK-08",
+  "area": "Risk Management",
+  "artifact_name": "Risk Appetite",
+  "artifact_description": "Documented evidence the organization has a defined risk appetite.",
+  "scf_controls": [
+    "RSK-01.1",
+    "RSK-01.5"
+  ],
+  "cmmc_mapping": ""
+}

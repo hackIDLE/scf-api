@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "MON-19",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MON-19",
+      "ao_id": "MON-19_A01",
+      "objective": "Technology Assets, Applications and/or Services (TAAS) that require hardware-enforced, write-once media (e.g., Write Once Read Many (WORM) technologies) are identified.",
+      "pptdf": "Process",
+      "origin": "",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-19",
+      "ao_id": "MON-19_A02",
+      "objective": "hardware-enforced, write-once media technologies are identified.",
+      "pptdf": "Process",
+      "origin": "",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-19",
+      "ao_id": "MON-19_A03",
+      "objective": "hardware-enforced, write-once media technologies are implemented, where required.",
+      "pptdf": "Technology",
+      "origin": "",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "THR-08",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "THR-08",
+      "ao_id": "THR-08_A01",
+      "objective": "the systems or system components with data or capabilities to be embedded are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-20_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "THR-08",
+      "ao_id": "THR-08_A02",
+      "objective": "data or capabilities are embedded in systems or system components to determine if organizational data has been exfiltrated or improperly removed from the organization.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-20",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

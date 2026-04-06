@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PRI-12",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-12",
+      "ao_id": "PRI-12_A01",
+      "objective": "processes to identify and record the method under which Personal Data (PD) is updated and the frequency that such updates occur are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-12",
+      "ao_id": "PRI-12_A02",
+      "objective": "processes to identify and record the method under which Personal Data (PD) is updated and the frequency that such updates occur are implemented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "erl_id": "E-TPM-05",
+  "area": "Third-Party Management",
+  "artifact_name": "Break Clauses",
+  "artifact_description": "Documented evidence of \"break clauses\" in third-party contracts.",
+  "scf_controls": [
+    "TPM-03.2",
+    "TPM-03.3",
+    "TPM-05.7"
+  ],
+  "cmmc_mapping": ""
+}

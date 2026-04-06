@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "AAT-22.7",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-22.7",
+      "ao_id": "AAT-22.7_A01",
+      "objective": "methods to identify employees, including workers' representatives, are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-22.7",
+      "ao_id": "AAT-22.7_A02",
+      "objective": "employees, including workers' representatives, are identified.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-22.7",
+      "ao_id": "AAT-22.7_A03",
+      "objective": "ensure employees, including workers' representatives, are informed about Artificial Intelligence (AI) and Autonomous Technologies (AAT) deployments, prior to the use of the AAT in a production environment.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

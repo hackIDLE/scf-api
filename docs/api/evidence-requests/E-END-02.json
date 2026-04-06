@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-END-02",
+  "area": "Endpoint Security",
+  "artifact_name": "Malware Tool Updates",
+  "artifact_description": "Documented evidence of malicious code protection updates.",
+  "scf_controls": [
+    "END-04.1"
+  ],
+  "cmmc_mapping": "SI.L1-3.14.4\nSI.L1-3.14.5"
+}

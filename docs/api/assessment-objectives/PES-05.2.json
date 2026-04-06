@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PES-05.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PES-05.2",
+      "ao_id": "PES-05.2_A01",
+      "objective": "physical spaces containing one or more components of the system are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PE-06(04)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-05.2",
+      "ao_id": "PES-05.2_A02",
+      "objective": "physical access to the system is monitored in addition to the physical access monitoring of the facility at physical spaces.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-06(04)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

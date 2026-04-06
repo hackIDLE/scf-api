@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "DCH-10.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-10.2",
+      "ao_id": "DCH-10.2_A01",
+      "objective": "the use of portable storage devices is prohibited when such devices have no identifiable owner.",
+      "pptdf": "Technology",
+      "origin": "171A_3.8.8",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-10.2",
+      "ao_id": "DCH-10.2_A02",
+      "objective": "the use of removable system media without an identifiable owner is prohibited.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.08.07.b",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

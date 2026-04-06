@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "MON-01.6",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MON-01.6",
+      "ao_id": "MON-01.6_A01",
+      "objective": "host-based monitoring mechanisms to be implemented on system components are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-04(23)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-01.6",
+      "ao_id": "MON-01.6_A02",
+      "objective": "system components where host-based monitoring is to be implemented are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-04(23)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-01.6",
+      "ao_id": "MON-01.6_A03",
+      "objective": "host-based monitoring mechanisms are implemented on system components.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-04(23)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

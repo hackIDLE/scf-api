@@ -1,0 +1,76 @@
+{
+  "scf_control_id": "HRS-09.2",
+  "total": 7,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "HRS-09.2",
+      "ao_id": "HRS-09.2_A01",
+      "objective": "time period within which to disable accounts of individuals who are discovered to pose significant risk is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-02(13)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "one (1) hour",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-09.2",
+      "ao_id": "HRS-09.2_A02",
+      "objective": "significant risks leading to disabling accounts are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-02(13)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-09.2",
+      "ao_id": "HRS-09.2_A03",
+      "objective": "accounts of individuals are disabled within an organization-defined time period of discovery of organization-defined significant risks.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-02(13)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "one (1) hour",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-09.2",
+      "ao_id": "HRS-09.2_A04",
+      "objective": "individuals with access to sensitive / regulated data are identified.",
+      "pptdf": "Process",
+      "origin": "172A_3.9.2e[a]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-09.2",
+      "ao_id": "HRS-09.2_A05",
+      "objective": "adverse information about individuals with access to sensitive / regulated data is defined.",
+      "pptdf": "Process",
+      "origin": "172A_3.9.2e[b]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-09.2",
+      "ao_id": "HRS-09.2_A06",
+      "objective": "organizational systems to which individuals have access are identified.",
+      "pptdf": "Process",
+      "origin": "172A_3.9.2e[c]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-09.2",
+      "ao_id": "HRS-09.2_A07",
+      "objective": "mechanisms are in place to protect organizational systems if adverse information develops or is obtained about individuals with access to sensitive / regulated data.",
+      "pptdf": "Process",
+      "origin": "172A_3.9.2e[d]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

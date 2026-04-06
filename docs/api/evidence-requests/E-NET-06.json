@@ -1,0 +1,13 @@
+{
+  "erl_id": "E-NET-06",
+  "area": "Network Security",
+  "artifact_name": "Authorized Network Connections",
+  "artifact_description": "Documented evidence of third-party Technology Assets, Applications and/or Services (TAAS) authorized to connect to organizational TAAS, including remote access authorizations.",
+  "scf_controls": [
+    "NET-04",
+    "NET-05",
+    "NET-05.1",
+    "MDM-11"
+  ],
+  "cmmc_mapping": "AC.L2-3.1.16\nAC.L2-3.1.18\nSC.L2-3.13.14"
+}

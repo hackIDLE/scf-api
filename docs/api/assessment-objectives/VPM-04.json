@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "VPM-04",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "VPM-04",
+      "ao_id": "VPM-04_A01",
+      "objective": "sources of new threats and vulnerabilities are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-04",
+      "ao_id": "VPM-04_A02",
+      "objective": "a time period is defined to seek out new, applicable threats and vulnerabilities.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-04",
+      "ao_id": "VPM-04_A03",
+      "objective": "a capability exists to respond to new threats and vulnerabilities on an ongoing basis.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-04",
+      "ao_id": "VPM-04_A04",
+      "objective": "system vulnerabilities are remediated within organization-defined response times.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-04",
+      "ao_id": "VPM-04_A05",
+      "objective": "system vulnerabilities are remediated within <A.03.11.02.ODP[03]: response times>.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.11.02.b",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "thirty (30) days from date of discovery for high-risk vulnerabilities (including both critical and high); 90 days from date of discovery for moderate-risk vulnerabilities; and 180 days from date of discovery for low-risk vulnerabilities",
+      "org_defined_parameters": ""
+    }
+  ]
+}

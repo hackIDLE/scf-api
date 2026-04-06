@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "PRI-01.11",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-01.11",
+      "ao_id": "PRI-01.11_A01",
+      "objective": "reasonable consumer expectations are defined for what is necessary and proportionate for collecting, receiving, processing, storage, transmission, sharing, updating and/or disposal of Personal Data (PD).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-01.11",
+      "ao_id": "PRI-01.11_A02",
+      "objective": "organization-specific practices are defined to limit the collection, receiving, processing, storage, transmission, sharing, updating and/or disposal of Personal Data (PD) according to reasonable consumer expectations for what is necessary and proportionate.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-01.11",
+      "ao_id": "PRI-01.11_A03",
+      "objective": "the collection, receiving, processing, storage, transmission, sharing, updating and/or disposal of Personal Data (PD) is limited to reasonable consumer expectations for what is necessary and proportionate.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

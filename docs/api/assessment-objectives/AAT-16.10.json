@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "AAT-16.10",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-16.10",
+      "ao_id": "AAT-16.10_A01",
+      "objective": "investigations for a \"serious incident\" of operational Artificial Intelligence (AI) and Autonomous Technologies (AAT) documents a Root Cause Analysis (RCA).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-16.10",
+      "ao_id": "AAT-16.10_A02",
+      "objective": "investigations for a \"serious incident\" of operational Artificial Intelligence (AI) and Autonomous Technologies (AAT) documents a risk assessment of the incident.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-16.10",
+      "ao_id": "AAT-16.10_A03",
+      "objective": "investigations for a \"serious incident\" of operational Artificial Intelligence (AI) and Autonomous Technologies (AAT) documents a description of corrective actions taken, including measures implemented to prevent a recurrence of the incident.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

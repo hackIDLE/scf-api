@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "NET-04.9",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-04.9",
+      "ao_id": "NET-04.9_A01",
+      "objective": "policy-relevant subcomponents into which to decompose information for submission to policy enforcement mechanisms are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-04(13)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-04.9",
+      "ao_id": "NET-04.9_A02",
+      "objective": "when transferring information between different security domains, information is decomposed into organization-defined policy-relevant subcomponents for submission to policy enforcement mechanisms.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-04(13)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

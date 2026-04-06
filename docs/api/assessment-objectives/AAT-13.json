@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "AAT-13",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-13",
+      "ao_id": "AAT-13_A01",
+      "objective": "stakeholder competencies, skills and capacities incorporate demographic diversity.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-13",
+      "ao_id": "AAT-13_A02",
+      "objective": "stakeholder competencies, skills and capacities incorporate broad domain expertise.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-13",
+      "ao_id": "AAT-13_A03",
+      "objective": "stakeholder competencies, skills and capacities incorporate broad user experience expertise.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

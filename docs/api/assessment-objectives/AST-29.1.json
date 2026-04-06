@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AST-29.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AST-29.1",
+      "ao_id": "AST-29.1_A01",
+      "objective": "secure baseline configurations exist for contactless access control systems to protect the confidentiality and integrity of data being stored, processed and/or transmitted.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-29.1",
+      "ao_id": "AST-29.1_A02",
+      "objective": "contactless access control systems that are secured according to defined secure baseline configurations.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

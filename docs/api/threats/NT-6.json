@@ -1,0 +1,6 @@
+{
+  "threat_id": "NT-6",
+  "grouping": "Natural Threat",
+  "name": "Landslides & Debris Flow",
+  "description": "Landslides occur throughout the world and can be caused by a variety of factors including earthquakes, storms, volcanic eruptions, fire and by human modification of land. Landslides can occur quickly, often with little notice. Location of critical technologies should be considered (e.g., server room is in the basement or first floor of the facility)."
+}

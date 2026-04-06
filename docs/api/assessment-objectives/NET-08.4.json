@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "NET-08.4",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-08.4",
+      "ao_id": "NET-08.4_A01",
+      "objective": "resource containment protections exist that remove or quarantine a resource’s access to other resources.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

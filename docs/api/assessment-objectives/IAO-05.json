@@ -1,0 +1,296 @@
+{
+  "scf_control_id": "IAO-05",
+  "total": 29,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAO-05",
+      "ao_id": "IAO-05_A01",
+      "objective": "deficiencies and vulnerabilities to be addressed by the plan of action are identified.",
+      "pptdf": "Process",
+      "origin": "171A_3.12.2[a]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-05",
+      "ao_id": "IAO-05_A02",
+      "objective": "a plan of action is developed to document the planned remediation actions of the organization to correct weaknesses or deficiencies noted during the assessment of the controls and to reduce or eliminate known vulnerabilities in the system.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CA-05a.\n171A_3.12.2[b]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-05",
+      "ao_id": "IAO-05_A03",
+      "objective": "the frequency at which to update an existing plan of action based on the findings from control assessments, independent audits or reviews and continuous monitoring activities is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CA-05_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-05",
+      "ao_id": "IAO-05_A04",
+      "objective": "existing plan of action is updated organization-defined frequency based on the findings from control assessments, independent audits or reviews and continuous monitoring activities.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CA-05b.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least monthly",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-05",
+      "ao_id": "IAO-05_A05",
+      "objective": "a process to ensure the plan of action for the cybersecurity program and associated organizational systems is developed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-04a.01[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-05",
+      "ao_id": "IAO-05_A06",
+      "objective": "a process to ensure the plan of action for the cybersecurity program and associated organizational systems is maintained.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-04a.01[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-05",
+      "ao_id": "IAO-05_A07",
+      "objective": "a process to ensure the plan of action for the privacy program and associated organizational systems is developed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-04a.01[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-05",
+      "ao_id": "IAO-05_A08",
+      "objective": "a process to ensure the plan of action for the privacy program and associated organizational systems is maintained.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-04a.01[04]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-05",
+      "ao_id": "IAO-05_A09",
+      "objective": "a process to ensure the plan of action for the supply chain risk management program and associated organizational systems is developed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-04a.01[05]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-05",
+      "ao_id": "IAO-05_A10",
+      "objective": "a process to ensure the plan of action for the supply chain risk management program and associated organizational systems is maintained.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-04a.01[06]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-05",
+      "ao_id": "IAO-05_A11",
+      "objective": "a process to ensure the plan of action for the cybersecurity program and associated organizational systems documents remedial cybersecurity risk management actions to adequately respond to risks to organizational operations and assets, individuals, other organizations and the Nation.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-04a.02[01]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-05",
+      "ao_id": "IAO-05_A12",
+      "objective": "a process to ensure the plan of action for the privacy program and associated organizational systems documents remedial privacy risk management actions to adequately respond to risks to organizational operations and assets, individuals, other organizations and the Nation.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-04a.02[02]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-05",
+      "ao_id": "IAO-05_A13",
+      "objective": "a process to ensure the plan of action for the supply chain risk management program and associated organizational systems documents remedial supply chain risk management actions to adequately respond to risks to organizational operations and assets, individuals, other organizations and the Nation.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-04a.02[03]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-05",
+      "ao_id": "IAO-05_A14",
+      "objective": "a process to ensure the plan of action for the cybersecurity risk management programs and associated organizational systems is reported in accordance with established reporting requirements.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-04a.03[01]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-05",
+      "ao_id": "IAO-05_A15",
+      "objective": "a process to ensure the plan of action for the privacy risk management programs and associated organizational systems is reported in accordance with established reporting requirements.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-04a.03[02]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-05",
+      "ao_id": "IAO-05_A16",
+      "objective": "a process to ensure the plan of action for the supply chain risk management programs and associated organizational systems is reported in accordance with established reporting requirements.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-04a.03[03]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-05",
+      "ao_id": "IAO-05_A17",
+      "objective": "plan of action is reviewed for consistency with the organizational risk management strategy.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-04b.[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-05",
+      "ao_id": "IAO-05_A18",
+      "objective": "plan of action is reviewed for consistency with organization-wide priorities for risk response actions.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-04b.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-05",
+      "ao_id": "IAO-05_A19",
+      "objective": "the developer of the system, system component or system service is required to select and employ security tracking tools for use during the development process.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-15(02)[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-05",
+      "ao_id": "IAO-05_A20",
+      "objective": "the developer of the system, system component or system service is required to select and employ privacy tracking tools for use during the development process.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-15(02)[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-05",
+      "ao_id": "IAO-05_A21",
+      "objective": "the frequency at which to update an existing plan of action based on the findings from control assessments, independent audits or reviews and continuous monitoring activities is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CA-05_ODP",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-05",
+      "ao_id": "IAO-05_A22",
+      "objective": "a plan of action is developed to document the planned remediation actions of the organization to correct weaknesses or deficiencies noted during the assessment of the controls and to reduce or eliminate known vulnerabilities in the system.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CA-05a.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-05",
+      "ao_id": "IAO-05_A23",
+      "objective": "existing plan of action is updated per an organization-defined frequency based on the findings from control assessments, independent audits or reviews and continuous monitoring activities.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CA-05b.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least monthly",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-05",
+      "ao_id": "IAO-05_A24",
+      "objective": "a plan of action is developed to document the planned remediation actions for correcting weaknesses or deficiencies noted during security assessments.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.12.02.a.01",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-05",
+      "ao_id": "IAO-05_A25",
+      "objective": "a plan of action is developed to reduce or eliminate known system vulnerabilities.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.12.02.a.02",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-05",
+      "ao_id": "IAO-05_A26",
+      "objective": "the existing plan of action is updated based on the findings from security assessments.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.12.02.b.01",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-05",
+      "ao_id": "IAO-05_A27",
+      "objective": "the existing plan of action is updated based on the findings from audits or reviews.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.12.02.b.02",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-05",
+      "ao_id": "IAO-05_A28",
+      "objective": "the existing plan of action is updated based on the findings from continuous monitoring activities.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.12.02.b.03",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-05",
+      "ao_id": "IAO-05_A29",
+      "objective": "the plan of action is implemented to correct identified deficiencies and reduce or eliminate identified vulnerabilities.",
+      "pptdf": "Process",
+      "origin": "171A_3.12.2[c]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

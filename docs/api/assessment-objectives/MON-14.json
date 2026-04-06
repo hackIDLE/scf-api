@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "MON-14",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MON-14",
+      "ao_id": "MON-14_A01",
+      "objective": "methods for coordinating audit information among external organizations when audit information is transmitted across organizational boundaries are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AU-16_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-14",
+      "ao_id": "MON-14_A02",
+      "objective": "audit information to be coordinated among external organizations when audit information is transmitted across organizational boundaries is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AU-16_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-14",
+      "ao_id": "MON-14_A03",
+      "objective": "organization-defined methods for coordinating audit information among external organizations when audit information is transmitted across organizational boundaries are employed.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AU-16",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

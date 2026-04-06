@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "NET-03.3",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-03.3",
+      "ao_id": "NET-03.3_A01",
+      "objective": "the discovery of specific system components that represent a managed interface is prevented.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-07(16)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

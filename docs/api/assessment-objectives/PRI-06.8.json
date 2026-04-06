@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PRI-06.8",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-06.8",
+      "ao_id": "PRI-06.8_A01",
+      "objective": "reasonable consumer expectations to verify a data subject's identity, prior to taking action to disclose, share, correct, amend and/or delete Personal Data (PD), are identified.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-06.8",
+      "ao_id": "PRI-06.8_A02",
+      "objective": "reasonable consumer expectations are utilized to verify a data subject's identity, prior to taking action to disclose, share, correct, amend and/or delete Personal Data (PD).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

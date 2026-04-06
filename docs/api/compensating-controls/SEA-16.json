@@ -1,0 +1,16 @@
+{
+  "control_id": "SEA-16",
+  "risk_if_not_implemented": "Without Non-Modifiable Executable Programs, security risks may go unmanaged, resulting in uncontrolled exposures and misaligned security investments.",
+  "compensating_control_1": {
+    "control_id": "CFG-06",
+    "name": "Configuration Enforcement",
+    "description": "Automated mechanisms exist to monitor, enforce and report on configurations for endpoint devices.",
+    "justification": "Configuration Enforcement (CFG-06) provides configuration hardening that compensates for the absence of Non-Modifiable Executable Programs (SEA-16) by eliminating unnecessary services and enforcing secure settings to reduce inherent exposure. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  },
+  "compensating_control_2": {
+    "control_id": "MON-18",
+    "name": "File Activity Monitoring (FAM)",
+    "description": "Automated mechanisms exist to monitor sensitive/regulated data in Technology Assets, Applications and/or Services (TAAS) and data repositories.",
+    "justification": "File Activity Monitoring (FAM) (MON-18) provides detective monitoring capability that compensates for the absence of Non-Modifiable Executable Programs (SEA-16) by identifying unauthorized, anomalous, or non-compliant activity that the primary control would have prevented. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  }
+}

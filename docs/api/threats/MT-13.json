@@ -1,0 +1,6 @@
+{
+  "threat_id": "MT-13",
+  "grouping": "Man-Made Threat",
+  "name": "Artificial Intelligence & Autonomous Technologies (AAT)",
+  "description": "Artificial Intelligence & Autonomous Technologies (AAT) is a broad category that ranges from non-malicious failure due to a defect in the algorithm to emergent properties or unintended consequences. AAT failures can be due to hardware failures, inherent biases or other flaws in the underlying algorithm. These incidents can range from malfunctions, to reliability concerns to catastrophic damage (including loss of life)."
+}

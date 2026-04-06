@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "CPL-13",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CPL-13",
+      "ao_id": "CPL-13_A01",
+      "objective": "work products (e.g., process artifacts) necessary to demonstrate conformity with applicable requirements are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-13",
+      "ao_id": "CPL-13_A02",
+      "objective": "work products (e.g., process artifacts) necessary to generated and retained to demonstrate conformity with applicable requirements.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

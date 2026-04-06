@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "BCD-11.4",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "BCD-11.4",
+      "ao_id": "BCD-11.4_A01",
+      "objective": "the confidentiality of backup information is protected.",
+      "pptdf": "Technology",
+      "origin": "171A_3.8.9\n171A_R3_A.03.08.09.a",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-11.4",
+      "ao_id": "BCD-11.4_A02",
+      "objective": "backup information to protect against unauthorized disclosure and modification is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-09(08)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-11.4",
+      "ao_id": "BCD-11.4_A03",
+      "objective": "cryptographic mechanisms are implemented to prevent the unauthorized disclosure of sensitive / regulated data at backup storage locations.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_CP-09(08)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "all backup files",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-11.4",
+      "ao_id": "BCD-11.4_A04",
+      "objective": "cryptographic mechanisms are implemented to prevent the unauthorized disclosure of CUI at backup storage locations.",
+      "pptdf": "Data",
+      "origin": "171A_R3_A.03.08.09.b",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

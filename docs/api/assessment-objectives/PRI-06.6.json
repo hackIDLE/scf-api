@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "PRI-06.6",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-06.6",
+      "ao_id": "PRI-06.6_A01",
+      "objective": "export Personal Data (PD) in a structured, commonly used and machine-readable format that allows the data subject to transmit the data to another controller without hindrance.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

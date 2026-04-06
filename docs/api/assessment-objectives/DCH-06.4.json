@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "DCH-06.4",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-06.4",
+      "ao_id": "DCH-06.4_A01",
+      "objective": "the organization only uses current and supported technologies that are capable of implementing secure configurations.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-06.4",
+      "ao_id": "DCH-06.4_A02",
+      "objective": "secure baseline configurations ensure sensitive / regulated data is rendered human unreadable anywhere that data is stored.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

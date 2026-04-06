@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "IAC-03.3",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-03.3",
+      "ao_id": "IAC-03.3_A01",
+      "objective": "identity management profiles are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IA-08(04)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-03.3",
+      "ao_id": "IAC-03.3_A02",
+      "objective": "there is conformance with identity management profiles for identity management.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-08(04)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

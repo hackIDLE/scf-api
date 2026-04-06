@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-16.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-16.1",
+      "ao_id": "AAT-16.1_A01",
+      "objective": "a risk catalog of Artificial Intelligence (AI) and Autonomous Technologies (AAT)-specific risks is documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-16.1",
+      "ao_id": "AAT-16.1_A02",
+      "objective": "Artificial Intelligence (AI) and Autonomous Technologies (AAT)-related risks are identified through consultation with domain experts and other end users.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

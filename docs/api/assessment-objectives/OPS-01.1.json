@@ -1,0 +1,146 @@
+{
+  "scf_control_id": "OPS-01.1",
+  "total": 14,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "OPS-01.1",
+      "ao_id": "OPS-01.1_A01",
+      "objective": "procedures needed to satisfy the security requirements for the protection of sensitive / regulated data are developed and documented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-01a.[03]\n53A_R5_AT-01a.[03]\n53A_R5_AU-01a.[03]\n53A_R5_CA-01a.[03]\n53A_R5_CM-01a.[03]\n53A_R5_CP-01a.[03]\n53A_R5_IA-01a.[03]\n53A_R5_IR-01a.[03]\n53A_R5_MA-01a.[03]\n53A_R5_MP-01a.[03]\n53A_R5_PE-01a.[03]\n53A_R5_PL-01a.[03]\n53A_R5_PS-01a.[03]\n53A_R5_PT-01a.[03]\n53A_R5_RA-01a.[03]\n53A_R5_SA-01a.[03]\n53A_R5_SC-01a.[03]\n53A_R5_SI-01a.[03]\n53A_R5_SR-01a.[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "OPS-01.1",
+      "ao_id": "OPS-01.1_A02",
+      "objective": "procedures needed to satisfy the security requirements for the protection of sensitive / regulated data are disseminated to organizational personnel or roles.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-01a.[04]\n53A_R5_AT-01a.[04]\n53A_R5_AU-01a.[04]\n53A_R5_CA-01a.[04]\n53A_R5_CM-01a.[04]\n53A_R5_CP-01a.[04]\n53A_R5_IA-01a.[04]\n53A_R5_IR-01a.[04]\n53A_R5_MA-01a.[04]\n53A_R5_MP-01a.[04]\n53A_R5_PE-01a.[04]\n53A_R5_PL-01a.[04]\n53A_R5_PS-01a.[04]\n53A_R5_PT-01a.[04]\n53A_R5_RA-01a.[04]\n53A_R5_SA-01a.[04]\n53A_R5_SC-01a.[04]\n53A_R5_SI-01a.[04]\n53A_R5_SR-01a.[04]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "OPS-01.1",
+      "ao_id": "OPS-01.1_A03",
+      "objective": "the current cybersecurity / data privacy procedures are reviewed / updated frequently.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-01c.02[01]\n53A_R5_AT-01c.02[01]\n53A_R5_AU-01c.02[01]\n53A_R5_CA-01c.02[01]\n53A_R5_CM-01c.02[01]\n53A_R5_CP-01c.02[01]\n53A_R5_IA-01c.02[01]\n53A_R5_IR-01c.02[01]\n53A_R5_MA-01c.02[01]\n53A_R5_MP-01c.02[01]\n53A_R5_PE-01c.02[01]\n53A_R5_PL-01c.02[01]\n53A_R5_PS-01c.02[01]\n53A_R5_PT-01c.02[01]\n53A_R5_RA-01c.02[01]\n53A_R5_SA-01c.02[01]\n53A_R5_SC-01c.02[01]\n53A_R5_SI-01c.02[01]\n53A_R5_SR-01c.02[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "Review policies, standards and procedures at least annual and following significant changes",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "OPS-01.1",
+      "ao_id": "OPS-01.1_A04",
+      "objective": "the current cybersecurity / data privacy procedures are reviewed / updated following events.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-01c.02[02]\n53A_R5_AT-01c.02[02]\n53A_R5_AU-01c.02[02]\n53A_R5_CA-01c.02[02]\n53A_R5_CM-01c.02[02]\n53A_R5_CP-01c.02[02]\n53A_R5_IA-01c.02[02]\n53A_R5_IR-01c.02[02]\n53A_R5_MA-01c.02[02]\n53A_R5_MP-01c.02[02]\n53A_R5_PE-01c.02[02]\n53A_R5_PL-01c.02[02]\n53A_R5_PS-01c.02[02]\n53A_R5_PT-01c.02[02]\n53A_R5_RA-01c.02[02]\n53A_R5_SA-01c.02[02]\n53A_R5_SC-01c.02[02]\n53A_R5_SI-01c.02[02]\n53A_R5_SR-01c.02[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "Review policies, standards and procedures at least annual and following significant changes",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "OPS-01.1",
+      "ao_id": "OPS-01.1_A05",
+      "objective": "personnel or roles to whom cybersecurity / data privacy procedures are to be disseminated is/are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-01_ODP[02]\n53A_R5_AT-01_ODP[02]\n53A_R5_AU-01_ODP[02]\n53A_R5_CA-01_ODP[02]\n53A_R5_CM-01_ODP[02]\n53A_R5_CP-01_ODP[02]\n53A_R5_IA-01_ODP[02]\n53A_R5_IR-01_ODP[02]\n53A_R5_MA-01_ODP[02]\n53A_R5_MP-01_ODP[02]\n53A_R5_PE-01_ODP[02]\n53A_R5_PL-01_ODP[02]\n53A_R5_PS-01_ODP[02]\n53A_R5_PT-01_ODP[02]\n53A_R5_RA-01_ODP[02]\n53A_R5_SA-01_ODP[02]\n53A_R5_SC-01_ODP[02]\n53A_R5_SI-01_ODP[02]\n53A_R5_SR-01_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "OPS-01.1",
+      "ao_id": "OPS-01.1_A06",
+      "objective": "events that would require procedures to be reviewed / updated are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-01_ODP[08]\n53A_R5_AT-01_ODP[08]\n53A_R5_AU-01_ODP[08]\n53A_R5_CA-01_ODP[08]\n53A_R5_CM-01_ODP[08]\n53A_R5_CP-01_ODP[08]\n53A_R5_IA-01_ODP[08]\n53A_R5_IR-01_ODP[08]\n53A_R5_MA-01_ODP[08]\n53A_R5_MP-01_ODP[08]\n53A_R5_PE-01_ODP[08]\n53A_R5_PL-01_ODP[08]\n53A_R5_PS-01_ODP[08]\n53A_R5_PT-01_ODP[08]\n53A_R5_RA-01_ODP[08]\n53A_R5_SA-01_ODP[08]\n53A_R5_SC-01_ODP[08]\n53A_R5_SI-01_ODP[08]\n53A_R5_SR-01_ODP[08]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "OPS-01.1",
+      "ao_id": "OPS-01.1_A07",
+      "objective": "systems or system components that implement the security design principle of sufficient documentation are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-08(32)_ODP",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "OPS-01.1",
+      "ao_id": "OPS-01.1_A08",
+      "objective": "systems or system components implement the security design principle of sufficient documentation.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-08(32)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "OPS-01.1",
+      "ao_id": "OPS-01.1_A09",
+      "objective": "policies and procedures are reviewed per an organization-defined frequency.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-01_ODP[07]\n53A_R5_AT-01_ODP[07]\n53A_R5_AU-01_ODP[07]\n53A_R5_CA-01_ODP[07]\n53A_R5_CM-01_ODP[07]\n53A_R5_CP-01_ODP[07]\n53A_R5_IA-01_ODP[07]\n53A_R5_IR-01_ODP[07]\n53A_R5_MA-01_ODP[07]\n53A_R5_MP-01_ODP[07]\n53A_R5_PE-01_ODP[07]\n53A_R5_PL-01_ODP[07]\n53A_R5_PS-01_ODP[07]\n53A_R5_PT-01_ODP[07]\n53A_R5_RA-01_ODP[07]\n53A_R5_SA-01_ODP[07]\n53A_R5_SC-01_ODP[07]\n53A_R5_SI-01_ODP[07]\n53A_R5_SR-01_ODP[07]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "OPS-01.1",
+      "ao_id": "OPS-01.1_A10",
+      "objective": "policies and procedures are updated per an organization-defined frequency.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-01_ODP[07]\n53A_R5_AT-01_ODP[07]\n53A_R5_AU-01_ODP[07]\n53A_R5_CA-01_ODP[07]\n53A_R5_CM-01_ODP[07]\n53A_R5_CP-01_ODP[07]\n53A_R5_IA-01_ODP[07]\n53A_R5_IR-01_ODP[07]\n53A_R5_MA-01_ODP[07]\n53A_R5_MP-01_ODP[07]\n53A_R5_PE-01_ODP[07]\n53A_R5_PL-01_ODP[07]\n53A_R5_PS-01_ODP[07]\n53A_R5_PT-01_ODP[07]\n53A_R5_RA-01_ODP[07]\n53A_R5_SA-01_ODP[07]\n53A_R5_SC-01_ODP[07]\n53A_R5_SI-01_ODP[07]\n53A_R5_SR-01_ODP[07]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "OPS-01.1",
+      "ao_id": "OPS-01.1_A11",
+      "objective": "procedures needed to satisfy the security requirements for the protection of CUI are developed and documented.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.15.01.a[03]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "OPS-01.1",
+      "ao_id": "OPS-01.1_A12",
+      "objective": "procedures needed to satisfy the security requirements for the protection of CUI are disseminated to organizational personnel or roles.",
+      "pptdf": "Data",
+      "origin": "171A_R3_A.03.15.01.a[04]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "OPS-01.1",
+      "ao_id": "OPS-01.1_A13",
+      "objective": "policies and procedures are reviewed <A.03.15.01.ODP[01]: frequency>.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.15.01.b[01]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "at least every 12 months, or when there are significant incidents or significant changes to risks",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "OPS-01.1",
+      "ao_id": "OPS-01.1_A14",
+      "objective": "policies and procedures are updated <A.03.15.01.ODP[01]: frequency>.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.15.01.b[02]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "at least every 12 months, or when there are significant incidents or significant changes to risks",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "MON-17",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MON-17",
+      "ao_id": "MON-17_A01",
+      "objective": "analysis and triage capabilities for event log review processes are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-17",
+      "ao_id": "MON-17_A02",
+      "objective": "analysis and triage capabilities are integrated into event log review processes that support the organization's governance and incident response functions.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-IRO-08",
+  "area": "Incident Response",
+  "artifact_name": "Root Cause Analysis (RCA)",
+  "artifact_description": "Documented evidence of a Root Cause Analysis (RCA) from any Incident Response Plan (IRP)-related training, testing or significant incident.",
+  "scf_controls": [
+    "IRO-13"
+  ],
+  "cmmc_mapping": ""
+}

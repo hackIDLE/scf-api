@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "NET-20.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-20.2",
+      "ao_id": "NET-20.2_A01",
+      "objective": "a set of denylisted senders, domains and/or email servers is documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-20.2",
+      "ao_id": "NET-20.2_A02",
+      "objective": "email systems are configured to prevent the reception of email from denylisted senders, domains and/or email servers.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "scf_control_id": "CHG-02.4",
+  "total": 7,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CHG-02.4",
+      "ao_id": "CHG-02.4_A01",
+      "objective": "security responses to be automatically implemented are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-03(05)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-02.4",
+      "ao_id": "CHG-02.4_A02",
+      "objective": "organization-defined security responses are automatically implemented if baseline configurations are changed in an unauthorized manner.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-03(05)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-02.4",
+      "ao_id": "CHG-02.4_A03",
+      "objective": "automated mechanisms place misconfigured or unauthorized system components in a quarantine or remediation network.",
+      "pptdf": "Technology",
+      "origin": "172A_3.4.2e_ODP[1]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-02.4",
+      "ao_id": "CHG-02.4_A04",
+      "objective": "automated mechanisms to detect misconfigured or unauthorized system components are identified.",
+      "pptdf": "Process",
+      "origin": "172A_3.4.2e[a]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-02.4",
+      "ao_id": "CHG-02.4_A05",
+      "objective": "automated mechanisms are employed to detect misconfigured or unauthorized system components.",
+      "pptdf": "Technology",
+      "origin": "172A_3.4.2e[b]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-02.4",
+      "ao_id": "CHG-02.4_A06",
+      "objective": "misconfigured or unauthorized system components are detected.",
+      "pptdf": "Technology",
+      "origin": "172A_3.4.2e[c]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-02.4",
+      "ao_id": "CHG-02.4_A07",
+      "objective": "after detection, system components are removed and/or placed in a quarantine or remediation network to facilitate patching, re-configuration or other mitigations.",
+      "pptdf": "Process",
+      "origin": "172A_3.4.2e[d]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

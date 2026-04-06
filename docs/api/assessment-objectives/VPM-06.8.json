@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "VPM-06.8",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "VPM-06.8",
+      "ao_id": "VPM-06.8_A01",
+      "objective": "corrective actions to be taken if information about the system is discoverable are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_RA-05(04)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-06.8",
+      "ao_id": "VPM-06.8_A02",
+      "objective": "corrective actions are taken when information about the system is confirmed as discoverable.",
+      "pptdf": "Process",
+      "origin": "53A_R5_RA-05(04)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-06.8",
+      "ao_id": "VPM-06.8_A03",
+      "objective": "information about the system is discoverable.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_RA-05(04)[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

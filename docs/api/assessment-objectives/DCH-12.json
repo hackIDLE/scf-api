@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "DCH-12",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-12",
+      "ao_id": "DCH-12_A01",
+      "objective": "removable media restrictions are in accordance with data handling and acceptable usage requirements.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

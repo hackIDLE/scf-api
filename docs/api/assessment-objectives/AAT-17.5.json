@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-17.5",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-17.5",
+      "ao_id": "AAT-17.5_A01",
+      "objective": "actions to fine-tune Artificial Intelligence (AI) and Autonomous Technologies (AAT) that do not compromise existing safety and/or security controls are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-17.5",
+      "ao_id": "AAT-17.5_A02",
+      "objective": "the organization ensures actions to fine-tune Artificial Intelligence (AI) and Autonomous Technologies (AAT) do not compromise existing safety and/or security controls.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

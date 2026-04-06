@@ -1,0 +1,1794 @@
+{
+  "family_code": "OPS",
+  "family_name": "Security Operations",
+  "control_count": 8,
+  "controls": [
+    {
+      "control_id": "OPS-01",
+      "title": "Operations Security",
+      "family": "OPS",
+      "description": "Mechanisms exist to facilitate the implementation of operational security controls.",
+      "scf_question": "Does the organization facilitate the implementation of operational security controls?",
+      "relative_weight": 8,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [
+        "E-HRS-01",
+        "E-HRS-03",
+        "E-HRS-04",
+        "E-HRS-13",
+        "E-HRS-15",
+        "E-HRS-27"
+      ],
+      "pptdf": "Process",
+      "nist_csf_function": "Govern",
+      "scrm_focus": {
+        "strategic": false,
+        "operational": true,
+        "tactical": true
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "Security Operations (OPS) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with OPS domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Cybersecurity operations-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ Cybersecurity operations are primarily viewed as additional duties for IT staff.\n▪ There is no Security Operations Center (SOC) with 24x7x365 operations coverage.",
+        "2": "Security Operations (OPS) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with OPS domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with OPS domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with OPS  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Security operations management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Security operations management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
+        "3": "Security Operations (OPS) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with OPS domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with OPS domain capabilities are well-documented and kept current by process owners.\n▪ A Security Operations Center (SOC), or similar function, is appropriately staffed and supported to implement and maintain OPS domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of security operations management (e.g., SIEM solution, EDR/XDR tools, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with OPS domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ Cybersecurity personnel create “run books,” or SOPs, to capture operational knowledge in documentation form for critical business functions and/or for sensitive/regulated obligations.\n▪ An implemented and operational capability exists to facilitate the implementation of operational security controls.",
+        "4": "Security Operations (OPS) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [
+        "SCRMS",
+        "CORE ESP Level 1 Foundational",
+        "CORE ESP Level 2 Critical Infrastructure",
+        "CORE ESP Level 3 Advanced Threats",
+        "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+      ],
+      "possible_solutions": {
+        "micro_small": "∙ Documented Standardized Operating Procedures (SOP)",
+        "small": "∙ Documented Standardized Operating Procedures (SOP)",
+        "medium": "∙ Documented Standardized Operating Procedures (SOP)\n∙ VisibleOps (https://itpi.org) \n∙ ITIL 4 (https://axelos.com)",
+        "large": "∙ Documented Standardized Operating Procedures (SOP)\n∙ VisibleOps (https://itpi.org) \n∙ ITIL 4 (https://axelos.com)\n∙ COBIT 2019 Framework (https://isaca.org)",
+        "enterprise": "∙ Documented Standardized Operating Procedures (SOP)\n∙ VisibleOps (https://itpi.org) \n∙ ITIL 4 (https://axelos.com)\n∙ COBIT 2019 Framework (https://isaca.org)"
+      },
+      "risks": [
+        "R-AC-1",
+        "R-AC-2",
+        "R-AC-3",
+        "R-AC-4",
+        "R-AM-1",
+        "R-AM-2",
+        "R-AM-3",
+        "R-BC-1",
+        "R-BC-2",
+        "R-BC-3",
+        "R-BC-4",
+        "R-BC-5",
+        "R-EX-1",
+        "R-EX-2",
+        "R-EX-3",
+        "R-EX-4",
+        "R-EX-5",
+        "R-EX-6",
+        "R-EX-7",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-3",
+        "R-GV-4",
+        "R-GV-5",
+        "R-GV-6",
+        "R-GV-7",
+        "R-GV-8",
+        "R-IR-1",
+        "R-IR-2",
+        "R-IR-3",
+        "R-IR-4",
+        "R-SA-1",
+        "R-SA-2",
+        "R-SC-1",
+        "R-SC-2",
+        "R-SC-3",
+        "R-SC-4",
+        "R-SC-5",
+        "R-SC-6"
+      ],
+      "threats": [
+        "NT-7",
+        "MT-1",
+        "MT-2",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-10",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-16",
+        "MT-17",
+        "MT-18",
+        "MT-19",
+        "MT-20",
+        "MT-21",
+        "MT-22",
+        "MT-23",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Security Operations",
+      "crosswalks": {
+        "general-aicpa-tsc-2017": [
+          "CC2.2"
+        ],
+        "general-coso-2013": [
+          "14"
+        ],
+        "general-iso-27001-2022": [
+          "8.1"
+        ],
+        "general-iso-27002-2022": [
+          "5.37"
+        ],
+        "general-iso-27017-2015": [
+          "12.1.1"
+        ],
+        "general-iso-27018-2025": [
+          "5.37"
+        ],
+        "general-iso-42001-2023": [
+          "7.5.3",
+          "7.5.3(a)",
+          "7.5.3(b)"
+        ],
+        "general-mitre-att&ck-16-1": [
+          "T1005",
+          "T1025"
+        ],
+        "general-nist-100-1-ai-rmf": [
+          "GOVERN 1.2",
+          "GOVERN 1.3",
+          "GOVERN 1.4",
+          "GOVERN 3.2",
+          "GOVERN 4.1",
+          "GOVERN 5.1",
+          "GOVERN 6.0",
+          "GOVERN 6.1",
+          "MAP 3.5"
+        ],
+        "general-nist-800-53-r4": [
+          "SC-38"
+        ],
+        "general-nist-800-53-r5-2": [
+          "SC-38",
+          "SR-07"
+        ],
+        "general-nist-800-53-r5-2-privacy": [
+          "SC-38",
+          "SR-07"
+        ],
+        "general-nist-800-82-r3": [
+          "SC-38",
+          "SR-07"
+        ],
+        "general-nist-800-160-vol-2-r1": [
+          "SR-07"
+        ],
+        "general-nist-800-161-r1": [
+          "SC-38",
+          "SR-7"
+        ],
+        "general-nist-800-161-r1-level-2": [
+          "SC-38",
+          "SR-7"
+        ],
+        "general-nist-800-161-r1-level-3": [
+          "SC-38",
+          "SR-7"
+        ],
+        "general-nist-800-171-r3": [
+          "03.15.01.a",
+          "03.15.01.b"
+        ],
+        "general-nist-csf-2-0": [
+          "ID.IM"
+        ],
+        "general-pci-dss-4-0-1": [
+          "1.1.1",
+          "2.1.1",
+          "3.1.1",
+          "4.1.1",
+          "5.1.1",
+          "6.1.1",
+          "7.1.1",
+          "8.1.1",
+          "8.3.8",
+          "9.1.1",
+          "9.3.2",
+          "10.1.1",
+          "11.1.1"
+        ],
+        "general-pci-dss-4-0-1-saq-a": [
+          "3.1.1"
+        ],
+        "general-pci-dss-4-0-1-saq-a-ep": [
+          "1.1.1",
+          "2.1.1",
+          "3.1.1",
+          "4.1.1",
+          "5.1.1",
+          "6.1.1",
+          "8.1.1",
+          "8.3.8"
+        ],
+        "general-pci-dss-4-0-1-saq-b": [
+          "3.1.1"
+        ],
+        "general-pci-dss-4-0-1-saq-b-ip": [
+          "3.1.1",
+          "8.1.1",
+          "9.1.1"
+        ],
+        "general-pci-dss-4-0-1-saq-c": [
+          "2.1.1",
+          "3.1.1",
+          "5.1.1",
+          "8.1.1",
+          "8.3.8",
+          "9.1.1",
+          "10.1.1"
+        ],
+        "general-pci-dss-4-0-1-saq-c-vt": [
+          "2.1.1",
+          "3.1.1",
+          "8.1.1",
+          "9.1.1"
+        ],
+        "general-pci-dss-4-0-1-saq-d-merchant": [
+          "1.1.1",
+          "2.1.1",
+          "3.1.1",
+          "4.1.1",
+          "5.1.1",
+          "6.1.1",
+          "7.1.1",
+          "8.1.1",
+          "8.3.8",
+          "9.1.1",
+          "9.3.2",
+          "10.1.1",
+          "11.1.1"
+        ],
+        "general-pci-dss-4-0-1-saq-d-service-provider": [
+          "1.1.1",
+          "2.1.1",
+          "3.1.1",
+          "4.1.1",
+          "5.1.1",
+          "6.1.1",
+          "7.1.1",
+          "8.1.1",
+          "8.3.8",
+          "9.1.1",
+          "9.3.2",
+          "10.1.1",
+          "11.1.1"
+        ],
+        "general-pci-dss-4-0-1-saq-p2pe": [
+          "3.1.1",
+          "9.1.1"
+        ],
+        "usa-federal-fda-21-cfr-part-11-2025": [
+          "11.10"
+        ],
+        "usa-federal-gsa-fedramp-5-low": [
+          "SC-38",
+          "SR-07"
+        ],
+        "usa-federal-gsa-fedramp-5-mod": [
+          "SC-38",
+          "SR-07"
+        ],
+        "usa-federal-gsa-fedramp-5-high": [
+          "SC-38",
+          "SR-07"
+        ],
+        "usa-federal-gsa-fedramp-5-li-saas": [
+          "SC-38",
+          "SR-07"
+        ],
+        "usa-federal-law-glba-cfr-314-2023": [
+          "314.4(c)(7)"
+        ],
+        "emea-eu-dora-2023": [
+          "Article 9.1",
+          "Article 9.2"
+        ],
+        "emea-aut-fappd-2000": [
+          "Sec 14",
+          "Sec 15"
+        ],
+        "emea-bel-act-8-1992": [
+          "16"
+        ],
+        "emea-deu-c5-2020": [
+          "SP-01"
+        ],
+        "emea-zaf-popia-2013": [
+          "19"
+        ],
+        "emea-esp-boe-a-2022-7191": [
+          "Article 8.1",
+          "Article 8.2",
+          "Article 8.3",
+          "Article 8.4",
+          "Article 8.5"
+        ],
+        "emea-esp-decree-311-2022": [
+          "8.1",
+          "8.2",
+          "8.3",
+          "8.4",
+          "8.5"
+        ],
+        "apac-chn-pipl-2021": [
+          "51",
+          "51(1)",
+          "51(2)",
+          "51(3)",
+          "51(4)",
+          "51(5)",
+          "51(6)"
+        ],
+        "apac-jpn-ismap": [
+          "12",
+          "12.1",
+          "12.1.3.9.PB"
+        ],
+        "apac-sgp-mas-trm-2021": [
+          "7.1.1"
+        ],
+        "amaericas-can-osfi-self-assessment": [
+          "1.3",
+          "1.5"
+        ],
+        "americas-can-osfi-b13-2022": [
+          "3"
+        ],
+        "americas-can-itsp-10-171-2025": [
+          "03.15.01.A",
+          "03.15.01.B"
+        ]
+      }
+    },
+    {
+      "control_id": "OPS-01.1",
+      "title": "Standardized Operating Procedures (SOP)",
+      "family": "OPS",
+      "description": "Mechanisms exist to identify and document Standardized Operating Procedures (SOP), or similar documentation, to enable the proper execution of day-to-day / assigned tasks.",
+      "scf_question": "Does the organization identify and document Standardized Operating Procedures (SOP), or similar documentation, to enable the proper execution of day-to-day / assigned tasks?",
+      "relative_weight": 9,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [
+        "E-GOV-11"
+      ],
+      "pptdf": "Process",
+      "nist_csf_function": "Protect",
+      "scrm_focus": {
+        "strategic": false,
+        "operational": true,
+        "tactical": false
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "2": "Security Operations (OPS) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with OPS domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with OPS domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with OPS  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Security operations management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Security operations management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT and/or cybersecurity personnel create “run books,” or SOPs, to capture operational knowledge in documentation form for critical business functions and/or for sensitive/regulated obligations  to protect the Confidentiality, Integrity, Availability and Safety (CIAS) of the organization's TAASD.",
+        "3": "Security Operations (OPS) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with OPS domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with OPS domain capabilities are well-documented and kept current by process owners.\n▪ A Security Operations Center (SOC), or similar function, is appropriately staffed and supported to implement and maintain OPS domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of security operations management (e.g., SIEM solution, EDR/XDR tools, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with OPS domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ Cybersecurity personnel create “run books,” or SOPs, to capture operational knowledge in documentation form for critical business functions and/or for sensitive/regulated obligations.\n▪ An implemented and operational capability exists to identify and document Standardized Operating Procedures (SOP), or similar documentation, to enable the proper execution of day-to-day / assigned tasks.",
+        "4": "Security Operations (OPS) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [
+        "SCRMS",
+        "CORE ESP Level 1 Foundational",
+        "CORE ESP Level 2 Critical Infrastructure",
+        "CORE ESP Level 3 Advanced Threats",
+        "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+      ],
+      "possible_solutions": {
+        "micro_small": "∙ Documented Standardized Operating Procedures (SOP)\n∙ ComplianceForge - Cybersecurity Standardized Operating Procedures (CSOP)",
+        "small": "∙ Documented Standardized Operating Procedures (SOP)\n∙ ComplianceForge - Cybersecurity Standardized Operating Procedures (CSOP)",
+        "medium": "∙ Documented Standardized Operating Procedures (SOP)\n∙ ComplianceForge - Cybersecurity Standardized Operating Procedures (CSOP)",
+        "large": "∙ Documented Standardized Operating Procedures (SOP)\n∙ ComplianceForge - Cybersecurity Standardized Operating Procedures (CSOP)",
+        "enterprise": "∙ Documented Standardized Operating Procedures (SOP)\n∙ ComplianceForge - Cybersecurity Standardized Operating Procedures (CSOP)"
+      },
+      "risks": [
+        "R-AC-1",
+        "R-AC-2",
+        "R-AC-3",
+        "R-AC-4",
+        "R-AM-1",
+        "R-AM-2",
+        "R-AM-3",
+        "R-BC-1",
+        "R-BC-2",
+        "R-BC-4",
+        "R-BC-5",
+        "R-EX-7",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-4",
+        "R-GV-5",
+        "R-IR-1",
+        "R-IR-4"
+      ],
+      "threats": [
+        "NT-1",
+        "NT-2",
+        "NT-3",
+        "NT-4",
+        "NT-5",
+        "NT-6",
+        "NT-7",
+        "NT-8",
+        "NT-9",
+        "NT-10",
+        "NT-11",
+        "NT-12",
+        "NT-13",
+        "NT-14",
+        "MT-1",
+        "MT-2",
+        "MT-3",
+        "MT-4",
+        "MT-5",
+        "MT-6",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Security Operations",
+      "crosswalks": {
+        "general-aicpa-tsc-2017": [
+          "CC2.2",
+          "CC5.1",
+          "CC5.3",
+          "CC5.3-POF3",
+          "CC7.2-POF1"
+        ],
+        "general-cobit-2019": [
+          "APO01.09",
+          "DSS01.01"
+        ],
+        "general-coso-2013": [
+          "10",
+          "12",
+          "14"
+        ],
+        "general-imo-maritime-cyber-risk-management-2025": [
+          "3.6"
+        ],
+        "general-iso-27001-2022": [
+          "8.1"
+        ],
+        "general-iso-27002-2022": [
+          "5.37"
+        ],
+        "general-iso-27017-2015": [
+          "12.1.1"
+        ],
+        "general-iso-27018-2025": [
+          "5.37"
+        ],
+        "general-iso-27701-2025": [
+          "8.1"
+        ],
+        "general-iso-42001-2023": [
+          "7.5.1",
+          "7.5.1(a)",
+          "7.5.1(b)",
+          "7.5.2",
+          "7.5.3",
+          "7.5.3(a)",
+          "7.5.3(b)",
+          "A.6.2.7",
+          "A.6.2.8"
+        ],
+        "general-mpa-csbp-5-3-1": [
+          "OR-1.0"
+        ],
+        "general-nist-100-1-ai-rmf": [
+          "GOVERN 1.0",
+          "GOVERN 1.2",
+          "GOVERN 1.3",
+          "GOVERN 1.4",
+          "GOVERN 3.2",
+          "GOVERN 4.1",
+          "GOVERN 5.1",
+          "GOVERN 6.0",
+          "GOVERN 6.1",
+          "MAP 3.5"
+        ],
+        "general-nist-600-1-gen-ai-profile": [
+          "GOVERN 1.2",
+          "GOVERN 1.3",
+          "GV-1.5-002"
+        ],
+        "general-nist-800-53-r5-2": [
+          "SA-08(32)"
+        ],
+        "general-nist-800-66-r2": [
+          "164.310(b)",
+          "164.316(b)"
+        ],
+        "general-nist-800-82-r3": [
+          "SA-08(32)"
+        ],
+        "general-nist-800-171-r3": [
+          "03.15.01.a"
+        ],
+        "general-nist-800-171a-r3": [
+          "A.03.15.01.a[03]",
+          "A.03.15.01.a[04]",
+          "A.03.15.01.b[01]",
+          "A.03.15.01.b[02]"
+        ],
+        "general-nist-800-218": [
+          "PO.3.2",
+          "PO.4.2"
+        ],
+        "general-nist-csf-2-0": [
+          "ID.IM"
+        ],
+        "general-pci-dss-4-0-1": [
+          "1.1.1",
+          "2.1.1",
+          "3.1.1",
+          "3.7",
+          "3.7.1",
+          "3.7.2",
+          "3.7.3",
+          "3.7.5",
+          "3.7.6",
+          "3.7.7",
+          "3.7.8",
+          "4.1.1",
+          "5.1.1",
+          "6.1.1",
+          "6.5.1",
+          "7.1.1",
+          "8.1.1",
+          "8.3.8",
+          "9.1.1",
+          "9.3.2",
+          "10.1.1",
+          "11.1.1"
+        ],
+        "general-pci-dss-4-0-1-saq-a": [
+          "3.1.1"
+        ],
+        "general-pci-dss-4-0-1-saq-a-ep": [
+          "1.1.1",
+          "2.1.1",
+          "3.1.1",
+          "4.1.1",
+          "5.1.1",
+          "6.1.1",
+          "6.5.1",
+          "8.1.1",
+          "8.3.8"
+        ],
+        "general-pci-dss-4-0-1-saq-b": [
+          "3.1.1"
+        ],
+        "general-pci-dss-4-0-1-saq-b-ip": [
+          "3.1.1",
+          "8.1.1",
+          "9.1.1"
+        ],
+        "general-pci-dss-4-0-1-saq-c": [
+          "2.1.1",
+          "3.1.1",
+          "5.1.1",
+          "6.5.1",
+          "8.1.1",
+          "8.3.8",
+          "9.1.1",
+          "10.1.1"
+        ],
+        "general-pci-dss-4-0-1-saq-c-vt": [
+          "2.1.1",
+          "3.1.1",
+          "8.1.1",
+          "9.1.1"
+        ],
+        "general-pci-dss-4-0-1-saq-d-merchant": [
+          "1.1.1",
+          "2.1.1",
+          "3.1.1",
+          "3.7.1",
+          "3.7.2",
+          "3.7.3",
+          "3.7.5",
+          "3.7.6",
+          "3.7.7",
+          "3.7.8",
+          "4.1.1",
+          "5.1.1",
+          "6.1.1",
+          "6.5.1",
+          "7.1.1",
+          "8.1.1",
+          "8.3.8",
+          "9.1.1",
+          "9.3.2",
+          "10.1.1",
+          "11.1.1"
+        ],
+        "general-pci-dss-4-0-1-saq-d-service-provider": [
+          "1.1.1",
+          "2.1.1",
+          "3.1.1",
+          "3.7.1",
+          "3.7.2",
+          "3.7.3",
+          "3.7.5",
+          "3.7.6",
+          "3.7.7",
+          "3.7.8",
+          "4.1.1",
+          "5.1.1",
+          "6.1.1",
+          "6.5.1",
+          "7.1.1",
+          "8.1.1",
+          "8.3.8",
+          "9.1.1",
+          "9.3.2",
+          "10.1.1",
+          "11.1.1"
+        ],
+        "general-pci-dss-4-0-1-saq-p2pe": [
+          "3.1.1",
+          "9.1.1"
+        ],
+        "general-tisax-6-0-3": [
+          "9.8.1"
+        ],
+        "usa-federal-dow-cert-rmm-1-2": [
+          "ADM:GG1.GP1",
+          "ADM:GG3.GP1",
+          "AM:GG1.GP1",
+          "AM:GG3.GP1",
+          "COMM:GG1.GP1",
+          "COMM:GG3.GP1",
+          "COMP:GG1.GP1",
+          "COMP:GG3.GP1",
+          "CTRL:GG1.GP1",
+          "CTRL:GG3.GP1",
+          "EC:GG1.GP1",
+          "EC:GG3.GP1",
+          "EF:GG1.GP1",
+          "EF:GG3.GP1",
+          "EXD:GG1.GP1",
+          "EXD:GG3.GP1",
+          "FRM:GG1.GP1",
+          "FRM:GG3.GP1",
+          "HRM:GG1.GP1",
+          "HRM:GG3.GP1",
+          "ID:GG1.GP1",
+          "ID:GG3.GP1",
+          "IMC:GG1.GP1",
+          "IMC:GG3.GP1",
+          "KIM:GG1.GP1",
+          "KIM:GG3.GP1",
+          "MA:GG1.GP1",
+          "MA:GG3.GP1",
+          "MON:GG1.GP1",
+          "MON:GG3.GP1",
+          "OPD:SG1",
+          "OPD:SG1.SP1",
+          "OPD:GG1.GP1",
+          "OPD:GG3.GP1",
+          "OPF:GG1.GP1",
+          "OPF:GG3.GP1",
+          "OTA:GG1.GP1",
+          "OTA:GG3.GP1",
+          "PM:GG1.GP1",
+          "PM:GG3.GP1",
+          "RISK:GG1.GP1",
+          "RISK:GG3.GP1",
+          "RRD:GG1.GP1",
+          "RRD:GG3.GP1",
+          "RRM:GG1.GP1",
+          "RRM:GG3.GP1",
+          "RTSE:GG1.GP1",
+          "RTSE:GG3.GP1",
+          "SC:GG1.GP1",
+          "SC:GG3.GP1",
+          "TM:GG1.GP1",
+          "TM:GG3.GP1",
+          "VAR:GG1.GP1",
+          "VAR:GG3.GP1",
+          "GG1.GP1"
+        ],
+        "usa-federal-doe-c2m2-2-1": [
+          "ASSET-5a",
+          "THREAT-3a",
+          "RISK-5a",
+          "ACCESS-4a",
+          "SITUATION-4a",
+          "RESPONSE-5a",
+          "THIRD-PARTIES-3a",
+          "WORKFORCE-5a",
+          "ARCHITECTURE-6a",
+          "PROGRAM-3a"
+        ],
+        "usa-federal-doc-data-privacy-framework-2023": [
+          "II.7.a.ii"
+        ],
+        "usa-federal-dow-zt-roadmap-1-1": [
+          "6.7.1"
+        ],
+        "usa-federal-fda-21-cfr-part-11-2025": [
+          "11.10",
+          "11.10(f)",
+          "11.10(k)"
+        ],
+        "usa-federal-law-glba-cfr-314-2023": [
+          "314.4(c)(7)",
+          "314.4(c)(8)",
+          "314.4(e)"
+        ],
+        "usa-federal-law-hipaa-simplification-2013": [
+          "164.310(b)",
+          "164.316(b)(2)(ii)"
+        ],
+        "usa-federal-law-hipaa-security-rule-2013": [
+          "164.310(b)",
+          "164.316(b)(2)(ii)"
+        ],
+        "usa-federal-cms-marse-2-0": [
+          "AC-1.b",
+          "AT-1.b",
+          "AU-1.b",
+          "CA-1.b",
+          "CA-1.d",
+          "CM-1.b",
+          "CP-1.b",
+          "IA-1.b",
+          "IR-1.b",
+          "MA-1.b",
+          "MP-1.b",
+          "MP-1-IS.2",
+          "PE-1.b",
+          "PL-1.b",
+          "PS-1.b",
+          "SA-1.b",
+          "SC-1.b",
+          "SI-1.b"
+        ],
+        "usa-federal-nerc-cip-2024": [
+          "CIP-006-6 1.1"
+        ],
+        "usa-federal-tsa-security-directive-1580-82-2022-01": [
+          "III.D.2"
+        ],
+        "usa-state-nv-regulation-5-2024": [
+          "5.260.6"
+        ],
+        "usa-state-ny-dfs-23-nycrr500-2023-amd2": [
+          "500.2(b)(2)",
+          "500.3",
+          "500.8(a)"
+        ],
+        "emea-eu-eba-ict-srm-2025": [
+          "3.4.2.(31)",
+          "3.4.2(31)(a)",
+          "3.4.2(31)(b)",
+          "3.4.2(31)(c)",
+          "3.4.2(31)(d)",
+          "3.4.2(31)(e)",
+          "3.4.2(31)(f)",
+          "3.4.2(31)(g)",
+          "3.4.5(38)",
+          "3.5(50)"
+        ],
+        "emea-eu-dora-2023": [
+          "Article 6.2",
+          "Article 9.2",
+          "Article 9.4(e)"
+        ],
+        "emea-eu-nis2-annex-2024": [
+          "7.1",
+          "9.1"
+        ],
+        "emea-deu-c5-2020": [
+          "SP-01",
+          "IDM-02"
+        ],
+        "emea-isr-cmo-1-0": [
+          "12.2",
+          "12.3",
+          "18.2",
+          "22.2"
+        ],
+        "emea-sau-cgiot-2024": [
+          "1-2-1"
+        ],
+        "emea-esp-boe-a-2022-7191": [
+          "Article 13.2(d)",
+          "Article 13.4",
+          "Article 22.2"
+        ],
+        "emea-esp-decree-311-2022": [
+          "13.2(d)",
+          "13.4",
+          "22.2"
+        ],
+        "emea-esp-ccn-stic-825-2023": [
+          "6.3 [ORG.3]"
+        ],
+        "emea-gbr-def-stan-05-138-2024": [
+          "1100",
+          "2100",
+          "2101"
+        ],
+        "emea-gbr-def-stan-05-138-l1-2024": [
+          "1100",
+          "2100"
+        ],
+        "emea-gbr-def-stan-05-138-l2-2024": [
+          "1100",
+          "2100",
+          "2101"
+        ],
+        "emea-gbr-def-stan-05-138-l3-2024": [
+          "1100",
+          "2100",
+          "2101"
+        ],
+        "apac-chn-pipl-2021": [
+          "51",
+          "51(1)",
+          "51(2)",
+          "51(3)",
+          "51(4)",
+          "51(5)",
+          "51(6)"
+        ],
+        "apac-ind-sebi-2024": [
+          "PR.AA.S14",
+          "PR.IP.S7",
+          "RC.RP.S4"
+        ],
+        "apac-jpn-ismap": [
+          "8.3.1.11",
+          "12.1.1",
+          "12.1.1.1",
+          "12.1.1.2",
+          "12.1.1.3",
+          "12.1.1.4",
+          "12.1.1.5",
+          "12.1.1.6",
+          "12.1.1.7",
+          "12.1.1.8",
+          "12.1.1.9",
+          "12.1.1.10",
+          "12.1.1.11",
+          "12.1.1.12",
+          "12.1.1.13",
+          "12.1.5.P",
+          "12.1.5.1.PB"
+        ],
+        "apac-nzl-hisf-suppliers-2023": [
+          "HSUP01"
+        ],
+        "apac-nzl-ism-3-9": [
+          "3.4.12.C.01",
+          "3.4.12.C.02",
+          "5.1.11.C.01",
+          "5.1.13.C.01",
+          "5.5.3.C.01",
+          "5.5.4.C.01",
+          "5.5.5.C.01",
+          "5.5.6.C.01"
+        ],
+        "americas-can-osfi-b13-2022": [
+          "2.2.1",
+          "2.8",
+          "3"
+        ],
+        "americas-can-itsp-10-171-2025": [
+          "03.15.01.A"
+        ]
+      }
+    },
+    {
+      "control_id": "OPS-02",
+      "title": "Security Concept Of Operations (CONOPS)",
+      "family": "OPS",
+      "description": "Mechanisms exist to develop a security Concept of Operations (CONOPS), or a similarly-defined plan for achieving cybersecurity objectives, that documents management, operational and technical measures implemented to apply defense-in-depth techniques that is communicated to all appropriate stakeholders.",
+      "scf_question": "Does the organization develop a security Concept of Operations (CONOPS), or a similarly-defined plan for achieving cybersecurity objectives, that documents management, operational and technical measures implemented to apply defense-in-depth techniques that is communicated to all appropriate stakeholders?",
+      "relative_weight": 9,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [],
+      "pptdf": "Process",
+      "nist_csf_function": "Protect",
+      "scrm_focus": {
+        "strategic": true,
+        "operational": true,
+        "tactical": true
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "Security Operations (OPS) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with OPS domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Cybersecurity operations-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ Cybersecurity operations are primarily viewed as additional duties for IT staff.\n▪ There is no Security Operations Center (SOC) with 24x7x365 operations coverage.",
+        "2": "Security Operations (OPS) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with OPS domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with OPS domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with OPS  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Security operations management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Security operations management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT and/or cybersecurity personnel create “run books,” or SOPs, to capture operational knowledge in documentation form for critical business functions and/or for sensitive/regulated obligations  to protect the Confidentiality, Integrity, Availability and Safety (CIAS) of the organization's TAASD.",
+        "3": "Security Operations (OPS) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with OPS domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with OPS domain capabilities are well-documented and kept current by process owners.\n▪ A Security Operations Center (SOC), or similar function, is appropriately staffed and supported to implement and maintain OPS domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of security operations management (e.g., SIEM solution, EDR/XDR tools, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with OPS domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ Cybersecurity personnel create “run books,” or SOPs, to capture operational knowledge in documentation form for critical business functions and/or for sensitive/regulated obligations.\n▪ An implemented and operational capability exists to develop a security Concept of Operations (CONOPS), or a similarly-defined plan for achieving cybersecurity objectives, that documents management, operational and technical measures implemented to apply defense-in-depth techniques that is communicated to all appropriate stakeholders.",
+        "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [
+        "SCRMS",
+        "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+      ],
+      "possible_solutions": {
+        "micro_small": "∙ Document relevant policy and procedures",
+        "small": "∙ Written policy and procedures\n∙ Designated responsible owner\n∙ Annual review",
+        "medium": "∙ Cybersecurity-focused Concept of Operations (CONOPS)",
+        "large": "∙ Cybersecurity-focused Concept of Operations (CONOPS)",
+        "enterprise": "∙ Cybersecurity-focused Concept of Operations (CONOPS)"
+      },
+      "risks": [
+        "R-AM-3",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-3",
+        "R-GV-4",
+        "R-GV-5",
+        "R-GV-6",
+        "R-GV-7",
+        "R-SA-1",
+        "R-SA-2",
+        "R-SC-1",
+        "R-SC-2",
+        "R-SC-3",
+        "R-SC-4",
+        "R-SC-5",
+        "R-SC-6"
+      ],
+      "threats": [
+        "NT-1",
+        "NT-2",
+        "NT-3",
+        "NT-4",
+        "NT-5",
+        "NT-6",
+        "NT-7",
+        "NT-8",
+        "NT-9",
+        "NT-10",
+        "NT-11",
+        "NT-12",
+        "NT-13",
+        "NT-14",
+        "MT-1",
+        "MT-2",
+        "MT-3",
+        "MT-4",
+        "MT-5",
+        "MT-6",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Security Operations",
+      "crosswalks": {
+        "general-aicpa-tsc-2017": [
+          "CC5.1",
+          "CC7.2"
+        ],
+        "general-coso-2013": [
+          "10"
+        ],
+        "general-iso-21434-2021": [
+          "RQ-05-13"
+        ],
+        "general-nist-privacy-framework-1-0": [
+          "ID.BE-P3"
+        ],
+        "general-nist-800-53-r4": [
+          "PL-7"
+        ],
+        "general-nist-800-53-r5-2": [
+          "PL-07"
+        ],
+        "general-nist-800-82-r3": [
+          "PL-07"
+        ],
+        "general-nist-800-161-r1": [
+          "PL-7"
+        ],
+        "general-nist-800-161-r1-level-3": [
+          "PL-7"
+        ],
+        "general-tisax-6-0-3": [
+          "8.1.1"
+        ],
+        "emea-eu-eba-ict-srm-2025": [
+          "3.2.1(6)"
+        ],
+        "emea-eu-dora-2023": [
+          "Article 9.1",
+          "Article 9.2"
+        ],
+        "apac-nzl-ism-3-9": [
+          "5.1.15.C.01"
+        ],
+        "amaericas-can-osfi-self-assessment": [
+          "4.30"
+        ],
+        "americas-can-osfi-b13-2022": [
+          "1.3.2"
+        ]
+      }
+    },
+    {
+      "control_id": "OPS-03",
+      "title": "Service Delivery\n(Business Process Support)",
+      "family": "OPS",
+      "description": "Mechanisms exist to define supporting business processes and implement appropriate governance and service management to ensure appropriate planning, delivery and support of the organization's technology capabilities supporting business functions, workforce, and/or customers based on industry-recognized standards to achieve the specific goals of the process area.",
+      "scf_question": "Does the organization define supporting business processes and implement appropriate governance and service management to ensure appropriate planning, delivery and support of its technology capabilities supporting business functions, workforce, and/or customers based on industry-recognized standards to achieve the specific goals of the process area?",
+      "relative_weight": 7,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [
+        "E-TPM-04"
+      ],
+      "pptdf": "Process",
+      "nist_csf_function": "Protect",
+      "scrm_focus": {
+        "strategic": true,
+        "operational": true,
+        "tactical": false
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "2": "Security Operations (OPS) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with OPS domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with OPS domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with OPS  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Security operations management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Security operations management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT and/or cybersecurity personnel create “run books,” or SOPs, to capture operational knowledge in documentation form for critical business functions and/or for sensitive/regulated obligations  to protect the Confidentiality, Integrity, Availability and Safety (CIAS) of the organization's TAASD.",
+        "3": "Security Operations (OPS) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with OPS domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with OPS domain capabilities are well-documented and kept current by process owners.\n▪ A Security Operations Center (SOC), or similar function, is appropriately staffed and supported to implement and maintain OPS domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of security operations management (e.g., SIEM solution, EDR/XDR tools, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with OPS domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ Cybersecurity personnel create “run books,” or SOPs, to capture operational knowledge in documentation form for critical business functions and/or for sensitive/regulated obligations.\n▪ An implemented and operational capability exists to define supporting business processes and implement appropriate governance and service management to ensure appropriate planning, delivery and support of the organization's technology capabilities supporting business functions, workforce, and/or customers based on industry-recognized standards to achieve the specific goals of the process area.",
+        "4": "Security Operations (OPS) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [
+        "SCRMS",
+        "CORE ESP Level 2 Critical Infrastructure",
+        "CORE ESP Level 3 Advanced Threats",
+        "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+      ],
+      "possible_solutions": {
+        "micro_small": "∙ Documented Standardized Operating Procedures (SOP)",
+        "small": "∙ Documented Standardized Operating Procedures (SOP)",
+        "medium": "∙ Documented Standardized Operating Procedures (SOP)\n∙ VisibleOps (https://itpi.org) \n∙ ITIL 4 (https://axelos.com)",
+        "large": "∙ Documented Standardized Operating Procedures (SOP)\n∙ VisibleOps (https://itpi.org) \n∙ ITIL 4 (https://axelos.com)\n∙ COBIT 2019 Framework (https://isaca.org)",
+        "enterprise": "∙ Documented Standardized Operating Procedures (SOP)\n∙ VisibleOps (https://itpi.org) \n∙ ITIL 4 (https://axelos.com)\n∙ COBIT 2019 Framework (https://isaca.org)"
+      },
+      "risks": [
+        "R-AM-3",
+        "R-BC-1",
+        "R-BC-3",
+        "R-EX-5",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-3",
+        "R-GV-4",
+        "R-GV-5",
+        "R-GV-6",
+        "R-GV-7",
+        "R-SA-1",
+        "R-SA-2",
+        "R-SC-1",
+        "R-SC-2",
+        "R-SC-3",
+        "R-SC-4",
+        "R-SC-5",
+        "R-SC-6"
+      ],
+      "threats": [
+        "NT-1",
+        "NT-2",
+        "NT-3",
+        "NT-4",
+        "NT-5",
+        "NT-6",
+        "NT-7",
+        "NT-8",
+        "NT-9",
+        "NT-10",
+        "NT-11",
+        "NT-12",
+        "NT-13",
+        "NT-14",
+        "MT-1",
+        "MT-2",
+        "MT-3",
+        "MT-4",
+        "MT-5",
+        "MT-6",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Security Operations",
+      "crosswalks": {
+        "general-aicpa-tsc-2017": [
+          "CC2.1",
+          "CC2.1-POF1",
+          "CC2.1-POF2",
+          "CC2.1-POF3",
+          "CC2.1-POF4",
+          "CC2.2-POF1",
+          "CC2.3-POF2",
+          "CC2.3-POF6",
+          "CC3.1-POF7",
+          "CC3.1-POF8",
+          "CC3.1-POF9",
+          "CC3.1-POF10",
+          "CC3.1-POF11",
+          "CC3.1-POF12",
+          "CC3.1-POF13",
+          "CC3.1-POF14",
+          "CC3.1-POF15",
+          "CC3.1-POF16",
+          "CC5.3-POF3",
+          "PI1.1",
+          "PI1.3-POF1",
+          "PI1.3-POF2",
+          "PI1.3-POF3",
+          "PI1.3-POF4",
+          "PI1.3-POF5",
+          "PI1.4-POF1",
+          "PI1.4-POF2",
+          "PI1.4-POF3",
+          "PI1.4-POF4",
+          "PI1.5-POF1",
+          "PI1.5-POF2",
+          "PI1.5-POF3",
+          "PI1.5-POF4"
+        ],
+        "general-cobit-2019": [
+          "APO01.11",
+          "APO08.05",
+          "APO09.02",
+          "APO09.03",
+          "APO09.04",
+          "APO09.05",
+          "APO11.01",
+          "APO11.02",
+          "APO11.03",
+          "APO11.04",
+          "APO11.05"
+        ],
+        "general-coso-2013": [
+          "13"
+        ],
+        "general-csa-iot-2": [
+          "IAM-16"
+        ],
+        "general-iso-21434-2021": [
+          "RQ-05-13"
+        ],
+        "general-iso-27001-2022": [
+          "8.1"
+        ],
+        "general-iso-27002-2022": [
+          "5.37"
+        ],
+        "general-iso-27017-2015": [
+          "12.1.1"
+        ],
+        "general-iso-27018-2025": [
+          "5.2(a)",
+          "5.37",
+          "8.5(a)"
+        ],
+        "general-iso-42001-2023": [
+          "A.6.2.7",
+          "A.6.2.8",
+          "A.9",
+          "A.9.2",
+          "A.9.3",
+          "A.9.4"
+        ],
+        "general-nist-privacy-framework-1-0": [
+          "ID.IM-P5"
+        ],
+        "general-nist-800-53-r4": [
+          "IP-4",
+          "IP-4(1)"
+        ],
+        "general-nist-800-66-r2": [
+          "164.310(b)",
+          "164.316(b)"
+        ],
+        "general-nist-800-171-r3": [
+          "03.15.01.b"
+        ],
+        "general-nist-800-218": [
+          "PO.3.2"
+        ],
+        "usa-federal-dhs-cisa-tic-3-0": [
+          "3.UNI.SADMI"
+        ],
+        "usa-federal-fbi-cjis-6-0": [
+          "5.1.2"
+        ],
+        "usa-federal-fda-21-cfr-part-11-2025": [
+          "11.10"
+        ],
+        "usa-federal-law-hipaa-simplification-2013": [
+          "164.310(b)",
+          "164.312(e)(2)(ii)",
+          "164.316(b)(2)(ii)"
+        ],
+        "usa-federal-law-hipaa-security-rule-2013": [
+          "164.310(b)",
+          "164.312(e)(2)(ii)",
+          "164.316(b)(2)(ii)"
+        ],
+        "usa-federal-cms-marse-2-0": [
+          "IP-4",
+          "IP-4(1)"
+        ],
+        "emea-eu-dora-2023": [
+          "Article 9.1",
+          "Article 9.2"
+        ],
+        "emea-deu-bsrit-2017": [
+          "8.1",
+          "8.2",
+          "11.1",
+          "11.2",
+          "11.3",
+          "11.4",
+          "11.5",
+          "11.6",
+          "11.7",
+          "11.8"
+        ],
+        "apac-chn-pipl-2021": [
+          "51"
+        ],
+        "apac-jpn-ismap": [
+          "13.1.1.11.P",
+          "13.1.4.1.P",
+          "13.1.4.2.P",
+          "14.1.1.19.P",
+          "14.1.1.20.P"
+        ],
+        "apac-sgp-mas-trm-2021": [
+          "7.1.1"
+        ],
+        "amaericas-can-osfi-self-assessment": [
+          "1.3",
+          "1.5"
+        ],
+        "americas-can-osfi-b13-2022": [
+          "2.2.1",
+          "2.8"
+        ],
+        "americas-can-itsp-10-171-2025": [
+          "03.15.01.B"
+        ]
+      }
+    },
+    {
+      "control_id": "OPS-04",
+      "title": "Security Operations Center (SOC)",
+      "family": "OPS",
+      "description": "Mechanisms exist to establish and maintain a Security Operations Center (SOC) that facilitates a 24x7 response capability.",
+      "scf_question": "Does the organization establish and maintain a Security Operations Center (SOC) that facilitates a 24x7 response capability?",
+      "relative_weight": 8,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [
+        "E-OPS-01"
+      ],
+      "pptdf": "Process",
+      "nist_csf_function": "Protect",
+      "scrm_focus": {
+        "strategic": false,
+        "operational": true,
+        "tactical": true
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "2": "Security Operations (OPS) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with OPS domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with OPS domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with OPS  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Security operations management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Security operations management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT and/or cybersecurity personnel create “run books,” or SOPs, to capture operational knowledge in documentation form for critical business functions and/or for sensitive/regulated obligations  to protect the Confidentiality, Integrity, Availability and Safety (CIAS) of the organization's TAASD.",
+        "3": "Security Operations (OPS) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with OPS domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with OPS domain capabilities are well-documented and kept current by process owners.\n▪ A Security Operations Center (SOC), or similar function, is appropriately staffed and supported to implement and maintain OPS domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of security operations management (e.g., SIEM solution, EDR/XDR tools, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with OPS domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ Cybersecurity personnel create “run books,” or SOPs, to capture operational knowledge in documentation form for critical business functions and/or for sensitive/regulated obligations.\n▪ An implemented and operational capability exists to establish and maintain a Security Operations Center (SOC) that facilitates a 24x7 response capability.",
+        "4": "Security Operations (OPS) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [
+        "CORE ESP Level 3 Advanced Threats",
+        "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+      ],
+      "possible_solutions": {
+        "micro_small": "∙ Outsourced 24x7 Security Operations Center (SOC) through a Managed Security Services Provider (MSSP).",
+        "small": "∙ Outsourced 24x7 Security Operations Center (SOC) through a Managed Security Services Provider (MSSP).",
+        "medium": "∙ Outsourced 24x7 Security Operations Center (SOC) through a Managed Security Services Provider (MSSP).\n∙ Internal 8x5 staff augmentation",
+        "large": "∙ In-house 24x7 Security Operations Center (SOC)",
+        "enterprise": "∙ In-house 24x7 Security Operations Center (SOC)"
+      },
+      "risks": [
+        "R-AM-3",
+        "R-BC-1",
+        "R-BC-3",
+        "R-BC-4",
+        "R-BC-5",
+        "R-EX-5",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-3",
+        "R-GV-4",
+        "R-GV-5",
+        "R-GV-6",
+        "R-GV-7",
+        "R-IR-1",
+        "R-IR-2",
+        "R-IR-4",
+        "R-SA-1",
+        "R-SA-2",
+        "R-SC-1",
+        "R-SC-2",
+        "R-SC-3",
+        "R-SC-4",
+        "R-SC-5",
+        "R-SC-6"
+      ],
+      "threats": [
+        "NT-1",
+        "NT-2",
+        "NT-3",
+        "NT-4",
+        "NT-5",
+        "NT-6",
+        "NT-7",
+        "NT-8",
+        "NT-9",
+        "NT-10",
+        "NT-11",
+        "NT-12",
+        "NT-13",
+        "NT-14",
+        "MT-1",
+        "MT-2",
+        "MT-3",
+        "MT-4",
+        "MT-5",
+        "MT-6",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Security Operations",
+      "crosswalks": {
+        "general-nist-800-53-r4": [
+          "SC-38"
+        ],
+        "general-nist-800-53-r5-2": [
+          "IR-04(14)",
+          "SC-38"
+        ],
+        "general-nist-800-53-r5-2-privacy": [
+          "SC-38"
+        ],
+        "general-nist-800-82-r3": [
+          "IR-04(14)",
+          "SC-38"
+        ],
+        "general-nist-800-161-r1": [
+          "SC-38"
+        ],
+        "general-nist-800-161-r1-level-2": [
+          "SC-38"
+        ],
+        "general-nist-800-161-r1-level-3": [
+          "SC-38"
+        ],
+        "general-nist-800-172": [
+          "3.6.1e"
+        ],
+        "usa-federal-dow-cmmc-2-level-3": [
+          "IR.L3-3.6.1E"
+        ],
+        "usa-federal-dow-zt-roadmap-1-1": [
+          "6.7",
+          "7.3",
+          "7.5"
+        ],
+        "usa-federal-gsa-fedramp-5-low": [
+          "SC-38"
+        ],
+        "usa-federal-gsa-fedramp-5-mod": [
+          "SC-38"
+        ],
+        "usa-federal-gsa-fedramp-5-high": [
+          "SC-38"
+        ],
+        "usa-federal-gsa-fedramp-5-li-saas": [
+          "SC-38"
+        ],
+        "apac-ind-sebi-2024": [
+          "DE.CM.S1"
+        ],
+        "apac-sgp-mas-trm-2021": [
+          "12.2.1"
+        ],
+        "amaericas-can-osfi-self-assessment": [
+          "1.4"
+        ]
+      }
+    },
+    {
+      "control_id": "OPS-05",
+      "title": "Secure Practices Guidelines",
+      "family": "OPS",
+      "description": "Mechanisms exist to provide guidelines and recommendations for the secure use of Technology Assets, Applications and/or Services (TAAS) to assist in the configuration, installation and use of the product and/or service.",
+      "scf_question": "Does the organization provide guidelines and recommendations for the secure use of Technology Assets, Applications and/or Services (TAAS) to assist in the configuration, installation and use of the product and/or service?",
+      "relative_weight": 7,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [],
+      "pptdf": "Process",
+      "nist_csf_function": "Protect",
+      "scrm_focus": {
+        "strategic": false,
+        "operational": true,
+        "tactical": false
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "2": "Security Operations (OPS) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with OPS domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with OPS domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with OPS  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Security operations management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Security operations management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT and/or cybersecurity personnel create “run books,” or SOPs, to capture operational knowledge in documentation form for critical business functions and/or for sensitive/regulated obligations  to protect the Confidentiality, Integrity, Availability and Safety (CIAS) of the organization's TAASD.",
+        "3": "Security Operations (OPS) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with OPS domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with OPS domain capabilities are well-documented and kept current by process owners.\n▪ A Security Operations Center (SOC), or similar function, is appropriately staffed and supported to implement and maintain OPS domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of security operations management (e.g., SIEM solution, EDR/XDR tools, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with OPS domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ Cybersecurity personnel create “run books,” or SOPs, to capture operational knowledge in documentation form for critical business functions and/or for sensitive/regulated obligations.\n▪ An implemented and operational capability exists to provide guidelines and recommendations for the secure use of Technology Assets, Applications and/or Services (TAAS) to assist in the configuration, installation and use of the product and/or service.",
+        "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [
+        "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+      ],
+      "possible_solutions": {
+        "micro_small": "∙ Product / project management",
+        "small": "∙ Product / project management",
+        "medium": "∙ Product / project management",
+        "large": "∙ Product / project management\n∙ Program Management Office (PMO)",
+        "enterprise": "∙ Product / project management\n∙ Program Management Office (PMO)"
+      },
+      "risks": [
+        "R-BC-1",
+        "R-BC-3",
+        "R-BC-4",
+        "R-BC-5",
+        "R-EX-5",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-3",
+        "R-GV-4",
+        "R-GV-5",
+        "R-GV-6",
+        "R-GV-7",
+        "R-IR-1",
+        "R-IR-2",
+        "R-IR-4",
+        "R-SA-1",
+        "R-SA-2",
+        "R-SC-1",
+        "R-SC-2",
+        "R-SC-3",
+        "R-SC-4",
+        "R-SC-5",
+        "R-SC-6"
+      ],
+      "threats": [
+        "NT-1",
+        "NT-2",
+        "NT-3",
+        "NT-4",
+        "NT-5",
+        "NT-6",
+        "NT-7",
+        "NT-8",
+        "NT-9",
+        "NT-10",
+        "NT-11",
+        "NT-12",
+        "NT-13",
+        "NT-14",
+        "MT-1",
+        "MT-2",
+        "MT-3",
+        "MT-4",
+        "MT-5",
+        "MT-6",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Security Operations",
+      "crosswalks": {
+        "general-iso-42001-2023": [
+          "A.6.2.7",
+          "A.6.2.8"
+        ],
+        "general-tisax-6-0-3": [
+          "9.8.1"
+        ],
+        "usa-federal-dow-zt-roadmap-1-1": [
+          "6.5.3"
+        ],
+        "emea-deu-c5-2020": [
+          "PSS-01"
+        ],
+        "amaericas-can-osfi-self-assessment": [
+          "4.29",
+          "4.30"
+        ]
+      }
+    },
+    {
+      "control_id": "OPS-06",
+      "title": "Security Orchestration, Automation, and Response (SOAR)",
+      "family": "OPS",
+      "description": "Mechanisms exist to utilize Security Orchestration, Automation and Response (SOAR) tools to define, prioritize and automate the response to security incidents.",
+      "scf_question": "Does the organization utilize Security Orchestration, Automation and Response (SOAR) tools to define, prioritize and automate the response to security incidents?",
+      "relative_weight": 5,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [],
+      "pptdf": "Process",
+      "nist_csf_function": "Protect",
+      "scrm_focus": {
+        "strategic": true,
+        "operational": true,
+        "tactical": true
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "Security Operations (OPS) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with OPS domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Cybersecurity operations-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ Cybersecurity operations are primarily viewed as additional duties for IT staff.",
+        "2": "SCR-CMM Level 2 criteria definitions are not available for this control:\n▪ A reasonable person would conclude a well-defined and standardized process is required.\n▪ At this level of maturity, the “requirements-driven” nature of performing the control is focused on a localized and/or regionalized implementation, not uniform and consistent across the organization.\n▪ Requirements are narrowly scoped for applicability and are primarily derived from compliance obligations (e.g., laws, regulations and contracts).",
+        "3": "Security Operations (OPS) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with OPS domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with OPS domain capabilities are well-documented and kept current by process owners.\n▪ A Security Operations Center (SOC), or similar function, is appropriately staffed and supported to implement and maintain OPS domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of security operations management (e.g., SIEM solution, EDR/XDR tools, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with OPS domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ Cybersecurity personnel create “run books,” or SOPs, to capture operational knowledge in documentation form for critical business functions and/or for sensitive/regulated obligations.\n▪ An implemented and operational capability exists to utilize Security Orchestration, Automation and Response (SOAR) tools to define, prioritize and automate the response to security incidents.",
+        "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [
+        "CORE ESP Level 2 Critical Infrastructure",
+        "CORE ESP Level 3 Advanced Threats"
+      ],
+      "possible_solutions": {
+        "micro_small": "∙ Centralized event logging\n∙ Managed Security Services Provider (MSSP)",
+        "small": "∙ Centralized event logging\n∙ Security Incident Event Manager (SIEM)\n∙ Managed Security Services Provider (MSSP)",
+        "medium": "∙ Centralized event logging\n∙ Security Incident Event Management (SIEM)\n∙ Managed Security Services Provider (MSSP)\n∙ Security Orchestration, Automation & Response (SOAR)\n∙ Extended Detection and Response (XDR)",
+        "large": "∙ Centralized event logging\n∙ Security Incident Event Management (SIEM)\n∙ Managed Security Services Provider (MSSP)\n∙ Security Orchestration, Automation & Response (SOAR)\n∙ Extended Detection and Response (XDR)",
+        "enterprise": "∙ Centralized event logging\n∙ Security Incident Event Management (SIEM)\n∙ Managed Security Services Provider (MSSP)\n∙ Security Orchestration, Automation & Response (SOAR)\n∙ Extended Detection and Response (XDR)"
+      },
+      "risks": [
+        "R-GV-1",
+        "R-IR-1",
+        "R-IR-2",
+        "R-IR-3",
+        "R-IR-4"
+      ],
+      "threats": [
+        "NT-2",
+        "NT-3",
+        "NT-4",
+        "NT-5",
+        "NT-6",
+        "NT-7",
+        "NT-8",
+        "NT-9",
+        "NT-10",
+        "NT-11",
+        "NT-12",
+        "NT-13",
+        "NT-14",
+        "MT-1",
+        "MT-2",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-10",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Security Operations",
+      "crosswalks": {
+        "general-nist-800-172": [
+          "3.11.3e"
+        ],
+        "usa-federal-dhs-cisa-tic-3-0": [
+          "3.PEP.EN.SOARE"
+        ],
+        "usa-federal-dow-cmmc-2-level-3": [
+          "RA.L3-3.11.3E"
+        ],
+        "usa-federal-dow-zt-roadmap-1-1": [
+          "6.5",
+          "6.5.2",
+          "6.7.4"
+        ],
+        "usa-federal-tsa-security-directive-1580-82-2022-01": [
+          "III.D.2.d"
+        ]
+      }
+    },
+    {
+      "control_id": "OPS-07",
+      "title": "Shadow Information Technology Detection",
+      "family": "OPS",
+      "description": "Mechanisms exist to detect the presence of unauthorized Technology Assets, Applications and/or Services (TAAS) in use.",
+      "scf_question": "Does the organization detect the presence of unauthorized Technology Assets, Applications and/or Services (TAAS) in use?",
+      "relative_weight": 8,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [],
+      "pptdf": "Process",
+      "nist_csf_function": "Govern",
+      "scrm_focus": {
+        "strategic": true,
+        "operational": true,
+        "tactical": true
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "Security Operations (OPS) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with OPS domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Cybersecurity operations-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ Cybersecurity operations are primarily viewed as additional duties for IT staff.\n▪ There is no Security Operations Center (SOC) with 24x7x365 operations coverage.",
+        "2": "Security Operations (OPS) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with OPS domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with OPS domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with OPS  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Security operations management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Security operations management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
+        "3": "Security Operations (OPS) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with OPS domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with OPS domain capabilities are well-documented and kept current by process owners.\n▪ A Security Operations Center (SOC), or similar function, is appropriately staffed and supported to implement and maintain OPS domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of security operations management (e.g., SIEM solution, EDR/XDR tools, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with OPS domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to detect the presence of unauthorized Technology Assets, Applications and/or Services (TAAS) in use.",
+        "4": "Security Operations (OPS) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [
+        "CORE ESP Level 2 Critical Infrastructure",
+        "CORE ESP Level 3 Advanced Threats",
+        "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+      ],
+      "possible_solutions": {
+        "micro_small": "∙ Product / project management",
+        "small": "∙ Product / project management",
+        "medium": "∙ Product / project management",
+        "large": "∙ Product / project management\n∙ Program Management Office (PMO)",
+        "enterprise": "∙ Product / project management\n∙ Program Management Office (PMO)"
+      },
+      "risks": [
+        "R-AC-1",
+        "R-AC-2",
+        "R-AC-3",
+        "R-AC-4",
+        "R-AM-1",
+        "R-AM-2",
+        "R-AM-3",
+        "R-BC-1",
+        "R-BC-2",
+        "R-BC-3",
+        "R-BC-4",
+        "R-BC-5",
+        "R-EX-1",
+        "R-EX-2",
+        "R-EX-3",
+        "R-EX-4",
+        "R-EX-5",
+        "R-EX-6",
+        "R-EX-7",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-3",
+        "R-GV-4",
+        "R-GV-5",
+        "R-GV-6",
+        "R-GV-7",
+        "R-GV-8",
+        "R-IR-1",
+        "R-IR-2",
+        "R-IR-3",
+        "R-IR-4",
+        "R-SA-1",
+        "R-SA-2",
+        "R-SC-1",
+        "R-SC-2",
+        "R-SC-3",
+        "R-SC-4",
+        "R-SC-5",
+        "R-SC-6"
+      ],
+      "threats": [
+        "NT-2",
+        "NT-3",
+        "NT-4",
+        "NT-5",
+        "NT-6",
+        "NT-7",
+        "NT-8",
+        "NT-9",
+        "NT-10",
+        "NT-11",
+        "NT-12",
+        "NT-13",
+        "NT-14",
+        "MT-1",
+        "MT-2",
+        "MT-3",
+        "MT-4",
+        "MT-5",
+        "MT-6",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-10",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-16",
+        "MT-17",
+        "MT-18",
+        "MT-19",
+        "MT-20",
+        "MT-21",
+        "MT-22",
+        "MT-23",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Security Operations",
+      "crosswalks": {
+        "usa-federal-dhs-cisa-tic-3-0": [
+          "3.PEP.EN.SITDE"
+        ],
+        "apac-ind-sebi-2024": [
+          "ID.AM.S3"
+        ]
+      }
+    }
+  ]
+}

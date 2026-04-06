@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "GOV-20",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "GOV-20",
+      "ao_id": "GOV-20_A01",
+      "objective": "standardized practices to conduct Mergers, Acquisitions and Divestiture (MA&D) activities are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

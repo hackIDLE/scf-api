@@ -1,0 +1,246 @@
+{
+  "scf_control_id": "NET-03",
+  "total": 24,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-03",
+      "ao_id": "NET-03_A01",
+      "objective": "the external system boundary is defined.",
+      "pptdf": "Process",
+      "origin": "171A_3.13.1[a]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-03",
+      "ao_id": "NET-03_A02",
+      "objective": "key internal system boundaries are defined.",
+      "pptdf": "Process",
+      "origin": "171A_3.13.1[b]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-03",
+      "ao_id": "NET-03_A03",
+      "objective": "communications are protected at the external system boundary.",
+      "pptdf": "Technology",
+      "origin": "171A_3.13.1[g]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-03",
+      "ao_id": "NET-03_A04",
+      "objective": "communications are protected at key internal boundaries.",
+      "pptdf": "Technology",
+      "origin": "171A_3.13.1[h]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-03",
+      "ao_id": "NET-03_A05",
+      "objective": "communications are monitored at the external system boundary.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-07_ODP\n53A_R5_SC-07a.[01]\n171A_3.13.1[c]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-03",
+      "ao_id": "NET-03_A06",
+      "objective": "communications are controlled at the external system boundary.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-07_ODP\n53A_R5_SC-07a.[02]\n171A_3.13.1[e]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-03",
+      "ao_id": "NET-03_A07",
+      "objective": "communications are monitored at key internal boundaries.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-07a.[03]\n171A_3.13.1[d]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-03",
+      "ao_id": "NET-03_A08",
+      "objective": "communications are controlled at key internal boundaries.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-07a.[04]\n171A_3.13.1[f]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-03",
+      "ao_id": "NET-03_A09",
+      "objective": "subnetworks for publicly accessible system components are selected per organization-defined values separated from internal organizational networks.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-07b.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-03",
+      "ao_id": "NET-03_A10",
+      "objective": "external networks or systems are only connected to through managed interfaces consisting of boundary protection devices arranged in accordance with an organizational cybersecurity / data privacy architecture.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-07c.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-03",
+      "ao_id": "NET-03_A11",
+      "objective": "outgoing communications traffic posing a threat to external systems is detected.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-07(09)(a)[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-03",
+      "ao_id": "NET-03_A12",
+      "objective": "outgoing communications traffic posing a threat to external systems is denied.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-07(09)(a)[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-03",
+      "ao_id": "NET-03_A13",
+      "objective": "the identity of internal users associated with denied communications is audited.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-07(09)(b)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-03",
+      "ao_id": "NET-03_A14",
+      "objective": "authorized sources of incoming communications to be routed are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-07(11)_ODP[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-03",
+      "ao_id": "NET-03_A15",
+      "objective": "authorized destinations to which incoming communications from authorized sources may be routed are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-07(11)_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-03",
+      "ao_id": "NET-03_A16",
+      "objective": "only incoming communications from authorized sources are allowed to be routed to authorized destinations.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-07(11)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-03",
+      "ao_id": "NET-03_A17",
+      "objective": "one or more of the following is/are selected: physical isolation techniques. logical isolation techniques.",
+      "pptdf": "Technology",
+      "origin": "172A_3.13.4e_ODP[1]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-03",
+      "ao_id": "NET-03_A18",
+      "objective": "physical isolation techniques are defined.",
+      "pptdf": "Process",
+      "origin": "172A_3.13.4e_ODP[2]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-03",
+      "ao_id": "NET-03_A19",
+      "objective": "logical isolation techniques are defined.",
+      "pptdf": "Process",
+      "origin": "172A_3.13.4e_ODP[3]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-03",
+      "ao_id": "NET-03_A20",
+      "objective": "physical isolation techniques and/or organization-defined logical isolation techniques are employed in organizational systems and system components.",
+      "pptdf": "Technology",
+      "origin": "172A_3.13.4e[a]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-03",
+      "ao_id": "NET-03_A21",
+      "objective": "connection requirements are established for mobile devices.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.01.18.a[03]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-03",
+      "ao_id": "NET-03_A22",
+      "objective": "external system connections are only made through managed interfaces that consist of boundary protection devices arranged in accordance with an organizational security architecture.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.13.01.c",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-03",
+      "ao_id": "NET-03_A23",
+      "objective": "communications at external managed interfaces to the system are controlled.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.13.01.a[02]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-03",
+      "ao_id": "NET-03_A24",
+      "objective": "communications at key internal managed interfaces within the system are controlled.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.13.01.a[04]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

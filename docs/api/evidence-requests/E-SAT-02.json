@@ -1,0 +1,14 @@
+{
+  "erl_id": "E-SAT-02",
+  "area": "Education",
+  "artifact_name": "Initial User Training",
+  "artifact_description": "Documented evidence of initial user training for security, compliance and/or resilience topics.",
+  "scf_controls": [
+    "SAT-01",
+    "SAT-02",
+    "SAT-02.2",
+    "SAT-04",
+    "HRS-05.7"
+  ],
+  "cmmc_mapping": ""
+}

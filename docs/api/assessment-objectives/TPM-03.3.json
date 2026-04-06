@@ -1,0 +1,86 @@
+{
+  "scf_control_id": "TPM-03.3",
+  "total": 8,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TPM-03.3",
+      "ao_id": "TPM-03.3_A01",
+      "objective": "the system or system component requiring a process or processes to identify and address weaknesses or deficiencies is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-03_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-03.3",
+      "ao_id": "TPM-03.3_A02",
+      "objective": "supply chain personnel with whom to coordinate the process or processes to identify and address weaknesses or deficiencies in the supply chain elements and processes is/are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-03_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-03.3",
+      "ao_id": "TPM-03.3_A03",
+      "objective": "supply chain controls employed to protect against supply chain risks to the system, system component or system service and to limit the harm or consequences from supply chain-related events are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-03_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-03.3",
+      "ao_id": "TPM-03.3_A04",
+      "objective": "the document identifying the selected and implemented supply chain processes and controls is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-03_ODP[04]\n53A_R5_SR-03_ODP[05]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-03.3",
+      "ao_id": "TPM-03.3_A05",
+      "objective": "a process or processes is/are established to identify and address weaknesses or deficiencies in the supply chain elements and processes of system or system component.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-03a.[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-03.3",
+      "ao_id": "TPM-03.3_A06",
+      "objective": "the process or processes to identify and address weaknesses or deficiencies in the supply chain elements and processes of system or system component is/are coordinated with supply chain personnel.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-03a.[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-03.3",
+      "ao_id": "TPM-03.3_A07",
+      "objective": "supply chain controls are employed to protect against supply chain risks to the system, system component or system service and to limit the harm or consequences from supply chain-related events.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-03b.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-03.3",
+      "ao_id": "TPM-03.3_A08",
+      "objective": "the selected and implemented supply chain processes and controls are documented in accordance with organization-defined criteria.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-03c.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

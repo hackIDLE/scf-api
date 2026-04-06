@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-RSK-12",
+  "area": "Risk Management",
+  "artifact_name": "Risk Management Justification",
+  "artifact_description": "Document evidence of justification for selecting a specific course of action to manage material risk.",
+  "scf_controls": [
+    "RSK-13.2"
+  ],
+  "cmmc_mapping": ""
+}

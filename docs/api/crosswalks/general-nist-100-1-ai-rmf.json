@@ -1,0 +1,1130 @@
+{
+  "framework_id": "general-nist-100-1-ai-rmf",
+  "display_name": "NIST AI 100-1 (AI RMF 1.0)",
+  "scf_to_framework": {
+    "total_mappings": 158,
+    "mappings": {
+      "GOV-01.1": [
+        "GOVERN 2.3",
+        "MAP 3.5",
+        "MAP 5.2"
+      ],
+      "GOV-01.2": [
+        "GOVERN 2.3",
+        "MAP 3.5"
+      ],
+      "GOV-02": [
+        "GOVERN 1.0",
+        "GOVERN 1.2",
+        "GOVERN 1.3",
+        "GOVERN 1.4",
+        "GOVERN 3.2",
+        "GOVERN 4.1",
+        "GOVERN 5.1",
+        "GOVERN 6.0",
+        "GOVERN 6.1",
+        "MAP 3.5"
+      ],
+      "GOV-04": [
+        "GOVERN 1.3",
+        "GOVERN 2.1",
+        "GOVERN 2.3",
+        "GOVERN 5.0"
+      ],
+      "GOV-04.1": [
+        "GOVERN 1.3",
+        "GOVERN 2.0",
+        "GOVERN 2.1",
+        "GOVERN 5.0",
+        "MANAGE 2.4"
+      ],
+      "GOV-04.2": [
+        "GOVERN 1.3",
+        "GOVERN 2.1"
+      ],
+      "GOV-05": [
+        "GOVERN 1.5",
+        "MAP 5.2",
+        "MEASURE 1.0",
+        "MEASURE 1.1",
+        "MEASURE 1.2",
+        "MEASURE 4.0",
+        "MEASURE 4.3"
+      ],
+      "GOV-05.1": [
+        "MEASURE 4.1",
+        "MEASURE 4.3"
+      ],
+      "GOV-05.2": [
+        "MEASURE 4.1",
+        "MEASURE 4.3"
+      ],
+      "GOV-08": [
+        "MAP 1.3"
+      ],
+      "GOV-14": [
+        "GOVERN 4.0"
+      ],
+      "GOV-15": [
+        "GOVERN 4.0"
+      ],
+      "AAT-01": [
+        "GOVERN 1.0",
+        "GOVERN 2.1",
+        "GOVERN 4.1",
+        "MAP 3.5",
+        "MAP 5.2"
+      ],
+      "AAT-01.1": [
+        "GOVERN 1.1"
+      ],
+      "AAT-01.2": [
+        "GOVERN 1.2",
+        "MEASURE 2.5"
+      ],
+      "AAT-01.3": [
+        "MANAGE 2.2"
+      ],
+      "AAT-02": [
+        "GOVERN 1.6"
+      ],
+      "AAT-02.1": [
+        "MAP 4.1"
+      ],
+      "AAT-02.2": [
+        "MAP 4.2"
+      ],
+      "AAT-03": [
+        "MAP 1.0",
+        "MAP 1.1",
+        "MAP 1.4",
+        "MAP 3.0"
+      ],
+      "AAT-03.1": [
+        "MAP 1.3",
+        "MAP 1.4",
+        "MAP 3.0"
+      ],
+      "AAT-04": [
+        "MAP 1.1",
+        "MAP 3.0",
+        "MAP 3.1",
+        "MAP 3.2"
+      ],
+      "AAT-04.1": [
+        "MAP 3.1"
+      ],
+      "AAT-04.2": [
+        "MAP 3.2"
+      ],
+      "AAT-04.3": [
+        "MAP 3.3"
+      ],
+      "AAT-04.4": [
+        "MAP 4.0"
+      ],
+      "AAT-06": [
+        "GOVERN 3.0"
+      ],
+      "AAT-07": [
+        "GOVERN 3.1"
+      ],
+      "AAT-07.1": [
+        "MAP 5.0"
+      ],
+      "AAT-07.2": [
+        "MAP 5.1"
+      ],
+      "AAT-07.3": [
+        "MANAGE 2.0"
+      ],
+      "AAT-08": [
+        "GOVERN 2.1",
+        "GOVERN 3.2",
+        "MAP 1.2"
+      ],
+      "AAT-09": [
+        "GOVERN 4.2"
+      ],
+      "AAT-10": [
+        "GOVERN 4.3",
+        "MEASURE 2.2"
+      ],
+      "AAT-10.1": [
+        "MEASURE 2.0"
+      ],
+      "AAT-10.2": [
+        "MAP 2.3",
+        "MEASURE 2.1"
+      ],
+      "AAT-10.3": [
+        "MEASURE 2.0"
+      ],
+      "AAT-10.4": [
+        "MEASURE 2.6"
+      ],
+      "AAT-10.5": [
+        "MEASURE 2.7"
+      ],
+      "AAT-10.6": [
+        "MEASURE 2.8"
+      ],
+      "AAT-10.7": [
+        "MEASURE 2.10"
+      ],
+      "AAT-10.8": [
+        "MEASURE 2.11"
+      ],
+      "AAT-10.9": [
+        "MEASURE 2.5",
+        "MEASURE 2.9"
+      ],
+      "AAT-10.10": [
+        "MEASURE 2.13",
+        "MANAGE 1.1"
+      ],
+      "AAT-10.11": [
+        "MEASURE 2.13"
+      ],
+      "AAT-10.12": [
+        "MEASURE 2.3"
+      ],
+      "AAT-10.13": [
+        "MEASURE 2.4",
+        "MEASURE 2.6",
+        "MANAGE 4.1"
+      ],
+      "AAT-10.14": [
+        "MANAGE 4.2"
+      ],
+      "AAT-11": [
+        "GOVERN 5.0",
+        "MAP 5.2"
+      ],
+      "AAT-11.1": [
+        "GOVERN 5.1",
+        "GOVERN 5.2",
+        "MANAGE 4.1"
+      ],
+      "AAT-11.2": [
+        "MEASURE 1.3",
+        "MEASURE 2.6",
+        "MANAGE 4.1"
+      ],
+      "AAT-11.3": [
+        "MEASURE 3.3",
+        "MANAGE 4.1"
+      ],
+      "AAT-11.4": [
+        "MANAGE 4.3"
+      ],
+      "AAT-12": [
+        "GOVERN 6.1"
+      ],
+      "AAT-13": [
+        "MAP 1.2"
+      ],
+      "AAT-13.1": [
+        "MAP 3.4"
+      ],
+      "AAT-14": [
+        "MAP 1.6"
+      ],
+      "AAT-14.1": [
+        "MAP 2.1"
+      ],
+      "AAT-14.2": [
+        "MAP 2.2"
+      ],
+      "AAT-15": [
+        "MANAGE 1.1"
+      ],
+      "AAT-15.1": [
+        "MANAGE 1.1",
+        "MANAGE 1.2",
+        "MANAGE 1.4"
+      ],
+      "AAT-15.2": [
+        "MANAGE 1.1",
+        "MANAGE 1.2",
+        "MANAGE 2.4"
+      ],
+      "AAT-16": [
+        "MEASURE 2.4"
+      ],
+      "AAT-16.1": [
+        "MEASURE 4.1"
+      ],
+      "AAT-16.2": [
+        "MEASURE 1.0",
+        "MEASURE 1.1",
+        "MEASURE 1.2",
+        "MEASURE 3.0"
+      ],
+      "AAT-16.3": [
+        "MEASURE 1.1"
+      ],
+      "AAT-16.4": [
+        "MEASURE 4.0"
+      ],
+      "AAT-16.5": [
+        "MEASURE 4.2"
+      ],
+      "AAT-16.6": [
+        "MEASURE 4.3"
+      ],
+      "AAT-16.7": [
+        "MANAGE 3.2"
+      ],
+      "AAT-17": [
+        "MEASURE 2.2",
+        "MEASURE 3.1"
+      ],
+      "AAT-17.1": [
+        "MEASURE 2.2"
+      ],
+      "AAT-17.2": [
+        "MEASURE 2.12"
+      ],
+      "AAT-17.3": [
+        "MANAGE 2.3"
+      ],
+      "AAT-18": [
+        "MEASURE 3.2"
+      ],
+      "AAT-18.1": [
+        "MANAGE 1.0"
+      ],
+      "AST-01": [
+        "GOVERN 2.0"
+      ],
+      "AST-01.2": [
+        "GOVERN 1.1",
+        "GOVERN 2.0",
+        "GOVERN 5.0"
+      ],
+      "AST-02": [
+        "GOVERN 1.6"
+      ],
+      "AST-09": [
+        "GOVERN 1.7"
+      ],
+      "AST-30": [
+        "GOVERN 1.7"
+      ],
+      "AST-31": [
+        "MAP 2.0"
+      ],
+      "AST-31.1": [
+        "MAP 2.0"
+      ],
+      "BCD-01": [
+        "GOVERN 6.2"
+      ],
+      "BCD-02": [
+        "GOVERN 1.6"
+      ],
+      "BCD-16": [
+        "GOVERN 6.2"
+      ],
+      "CHG-05": [
+        "GOVERN 5.0"
+      ],
+      "CPL-01": [
+        "GOVERN 1.1"
+      ],
+      "CPL-01.2": [
+        "GOVERN 1.1",
+        "GOVERN 1.3",
+        "MAP 3.3"
+      ],
+      "CPL-02": [
+        "GOVERN 1.5"
+      ],
+      "CPL-03": [
+        "GOVERN 1.5"
+      ],
+      "CPL-04": [
+        "GOVERN 1.5"
+      ],
+      "DCH-02": [
+        "GOVERN 1.6"
+      ],
+      "HRS-01": [
+        "GOVERN 4.1"
+      ],
+      "HRS-03": [
+        "GOVERN 2.0",
+        "GOVERN 2.1"
+      ],
+      "HRS-03.1": [
+        "GOVERN 4.1"
+      ],
+      "HRS-03.2": [
+        "GOVERN 4.1",
+        "MAP 1.2",
+        "MAP 3.4"
+      ],
+      "HRS-04.1": [
+        "GOVERN 2.0",
+        "GOVERN 4.1"
+      ],
+      "HRS-05.1": [
+        "GOVERN 2.0",
+        "GOVERN 4.1"
+      ],
+      "HRS-05.4": [
+        "GOVERN 2.0",
+        "GOVERN 4.1"
+      ],
+      "IRO-01": [
+        "GOVERN 6.2",
+        "MANAGE 2.3",
+        "MANAGE 2.4"
+      ],
+      "IRO-02": [
+        "GOVERN 6.2",
+        "MANAGE 2.3",
+        "MANAGE 2.4"
+      ],
+      "IRO-02.4": [
+        "GOVERN 6.2"
+      ],
+      "IRO-04": [
+        "GOVERN 6.2",
+        "MANAGE 4.0"
+      ],
+      "IRO-10": [
+        "MANAGE 4.3"
+      ],
+      "IAO-01": [
+        "GOVERN 4.3",
+        "MANAGE 1.1"
+      ],
+      "IAO-02": [
+        "MEASURE 2.0"
+      ],
+      "IAO-02.2": [
+        "MAP 2.3",
+        "MEASURE 3.1",
+        "MEASURE 3.2"
+      ],
+      "IAO-03": [
+        "MANAGE 4.0"
+      ],
+      "IAO-05": [
+        "MEASURE 3.0",
+        "MEASURE 3.1",
+        "MEASURE 3.2",
+        "MANAGE 1.1",
+        "MANAGE 1.2",
+        "MANAGE 1.3",
+        "MANAGE 1.4",
+        "MANAGE 3.1",
+        "MANAGE 4.0"
+      ],
+      "IAO-06": [
+        "MEASURE 2.0"
+      ],
+      "IAO-07": [
+        "MANAGE 1.1"
+      ],
+      "PRI-01": [
+        "MAP 1.6"
+      ],
+      "PRI-05.4": [
+        "MAP 1.6"
+      ],
+      "PRM-01": [
+        "MANAGE 2.1",
+        "MANAGE 2.2"
+      ],
+      "PRM-01.1": [
+        "MAP 1.3"
+      ],
+      "PRM-02": [
+        "MANAGE 2.1"
+      ],
+      "PRM-03": [
+        "MANAGE 2.1"
+      ],
+      "PRM-05": [
+        "MAP 1.6"
+      ],
+      "PRM-06": [
+        "MAP 1.0",
+        "MAP 1.1",
+        "MAP 1.4",
+        "MAP 2.1"
+      ],
+      "PRM-07": [
+        "GOVERN 1.7",
+        "MANAGE 2.2"
+      ],
+      "RSK-01": [
+        "GOVERN 1.3",
+        "GOVERN 1.4",
+        "GOVERN 1.5",
+        "MANAGE 1.0"
+      ],
+      "RSK-01.1": [
+        "GOVERN 1.3",
+        "GOVERN 1.4"
+      ],
+      "RSK-01.2": [
+        "GOVERN 1.3",
+        "GOVERN 1.4",
+        "MANAGE 2.1"
+      ],
+      "RSK-01.3": [
+        "GOVERN 1.3",
+        "MAP 1.5",
+        "MAP 3.2"
+      ],
+      "RSK-02.1": [
+        "MAP 5.1",
+        "MANAGE 1.2"
+      ],
+      "RSK-03": [
+        "MANAGE 1.0",
+        "MANAGE 2.3"
+      ],
+      "RSK-04": [
+        "GOVERN 1.5",
+        "MANAGE 1.0"
+      ],
+      "RSK-04.1": [
+        "GOVERN 1.5",
+        "MEASURE 3.0",
+        "MEASURE 3.1",
+        "MEASURE 3.2",
+        "MANAGE 1.4"
+      ],
+      "RSK-05": [
+        "MANAGE 1.2"
+      ],
+      "RSK-06": [
+        "MANAGE 1.2",
+        "MANAGE 4.0"
+      ],
+      "RSK-06.1": [
+        "MANAGE 1.3",
+        "MANAGE 2.3",
+        "MANAGE 2.4",
+        "MANAGE 4.0"
+      ],
+      "RSK-06.2": [
+        "MANAGE 2.1"
+      ],
+      "RSK-08": [
+        "GOVERN 1.5",
+        "MAP 1.1",
+        "MAP 5.1"
+      ],
+      "RSK-09": [
+        "MANAGE 3.0"
+      ],
+      "RSK-09.1": [
+        "MANAGE 3.1"
+      ],
+      "RSK-09.2": [
+        "GOVERN 6.0",
+        "MANAGE 3.0",
+        "MANAGE 3.1"
+      ],
+      "RSK-10": [
+        "MAP 1.1",
+        "MEASURE 2.10"
+      ],
+      "RSK-12": [
+        "GOVERN 4.0"
+      ],
+      "SEA-01": [
+        "GOVERN 1.2"
+      ],
+      "SEA-01.1": [
+        "GOVERN 1.2"
+      ],
+      "SEA-01.2": [
+        "MEASURE 2.7"
+      ],
+      "SEA-02.3": [
+        "GOVERN 1.7"
+      ],
+      "OPS-01": [
+        "GOVERN 1.2",
+        "GOVERN 1.3",
+        "GOVERN 1.4",
+        "GOVERN 3.2",
+        "GOVERN 4.1",
+        "GOVERN 5.1",
+        "GOVERN 6.0",
+        "GOVERN 6.1",
+        "MAP 3.5"
+      ],
+      "OPS-01.1": [
+        "GOVERN 1.0",
+        "GOVERN 1.2",
+        "GOVERN 1.3",
+        "GOVERN 1.4",
+        "GOVERN 3.2",
+        "GOVERN 4.1",
+        "GOVERN 5.1",
+        "GOVERN 6.0",
+        "GOVERN 6.1",
+        "MAP 3.5"
+      ],
+      "SAT-01": [
+        "GOVERN 2.0",
+        "GOVERN 4.1"
+      ],
+      "SAT-03": [
+        "GOVERN 2.0",
+        "GOVERN 2.2"
+      ],
+      "SAT-03.5": [
+        "GOVERN 2.2"
+      ],
+      "SAT-03.6": [
+        "GOVERN 2.2"
+      ],
+      "TDA-01": [
+        "GOVERN 1.2",
+        "GOVERN 3.1",
+        "GOVERN 4.2",
+        "MANAGE 2.0"
+      ],
+      "TDA-01.1": [
+        "GOVERN 1.2",
+        "GOVERN 3.1",
+        "GOVERN 4.1",
+        "GOVERN 4.2",
+        "GOVERN 5.1",
+        "GOVERN 5.2",
+        "GOVERN 6.0",
+        "MAP 2.1",
+        "MANAGE 2.0",
+        "MANAGE 2.2"
+      ],
+      "TDA-02.3": [
+        "GOVERN 4.1",
+        "GOVERN 4.2"
+      ],
+      "TDA-04": [
+        "GOVERN 4.2"
+      ],
+      "TDA-05": [
+        "GOVERN 4.2"
+      ],
+      "TDA-17": [
+        "GOVERN 1.7"
+      ],
+      "TPM-01": [
+        "MANAGE 3.0"
+      ],
+      "TPM-04.1": [
+        "MANAGE 3.1"
+      ],
+      "TPM-08": [
+        "MANAGE 3.0",
+        "MANAGE 3.1"
+      ]
+    }
+  },
+  "framework_to_scf": {
+    "total_mappings": 91,
+    "mappings": {
+      "GOVERN 2.3": [
+        "GOV-01.1",
+        "GOV-01.2",
+        "GOV-04"
+      ],
+      "MAP 3.5": [
+        "GOV-01.1",
+        "GOV-01.2",
+        "GOV-02",
+        "AAT-01",
+        "OPS-01",
+        "OPS-01.1"
+      ],
+      "MAP 5.2": [
+        "GOV-01.1",
+        "GOV-05",
+        "AAT-01",
+        "AAT-11"
+      ],
+      "GOVERN 1.0": [
+        "GOV-02",
+        "AAT-01",
+        "OPS-01.1"
+      ],
+      "GOVERN 1.2": [
+        "GOV-02",
+        "AAT-01.2",
+        "SEA-01",
+        "SEA-01.1",
+        "OPS-01",
+        "OPS-01.1",
+        "TDA-01",
+        "TDA-01.1"
+      ],
+      "GOVERN 1.3": [
+        "GOV-02",
+        "GOV-04",
+        "GOV-04.1",
+        "GOV-04.2",
+        "CPL-01.2",
+        "RSK-01",
+        "RSK-01.1",
+        "RSK-01.2",
+        "RSK-01.3",
+        "OPS-01",
+        "OPS-01.1"
+      ],
+      "GOVERN 1.4": [
+        "GOV-02",
+        "RSK-01",
+        "RSK-01.1",
+        "RSK-01.2",
+        "OPS-01",
+        "OPS-01.1"
+      ],
+      "GOVERN 3.2": [
+        "GOV-02",
+        "AAT-08",
+        "OPS-01",
+        "OPS-01.1"
+      ],
+      "GOVERN 4.1": [
+        "GOV-02",
+        "AAT-01",
+        "HRS-01",
+        "HRS-03.1",
+        "HRS-03.2",
+        "HRS-04.1",
+        "HRS-05.1",
+        "HRS-05.4",
+        "OPS-01",
+        "OPS-01.1",
+        "SAT-01",
+        "TDA-01.1",
+        "TDA-02.3"
+      ],
+      "GOVERN 5.1": [
+        "GOV-02",
+        "AAT-11.1",
+        "OPS-01",
+        "OPS-01.1",
+        "TDA-01.1"
+      ],
+      "GOVERN 6.0": [
+        "GOV-02",
+        "RSK-09.2",
+        "OPS-01",
+        "OPS-01.1",
+        "TDA-01.1"
+      ],
+      "GOVERN 6.1": [
+        "GOV-02",
+        "AAT-12",
+        "OPS-01",
+        "OPS-01.1"
+      ],
+      "GOVERN 2.1": [
+        "GOV-04",
+        "GOV-04.1",
+        "GOV-04.2",
+        "AAT-01",
+        "AAT-08",
+        "HRS-03"
+      ],
+      "GOVERN 5.0": [
+        "GOV-04",
+        "GOV-04.1",
+        "AAT-11",
+        "AST-01.2",
+        "CHG-05"
+      ],
+      "GOVERN 2.0": [
+        "GOV-04.1",
+        "AST-01",
+        "AST-01.2",
+        "HRS-03",
+        "HRS-04.1",
+        "HRS-05.1",
+        "HRS-05.4",
+        "SAT-01",
+        "SAT-03"
+      ],
+      "MANAGE 2.4": [
+        "GOV-04.1",
+        "AAT-15.2",
+        "IRO-01",
+        "IRO-02",
+        "RSK-06.1"
+      ],
+      "GOVERN 1.5": [
+        "GOV-05",
+        "CPL-02",
+        "CPL-03",
+        "CPL-04",
+        "RSK-01",
+        "RSK-04",
+        "RSK-04.1",
+        "RSK-08"
+      ],
+      "MEASURE 1.0": [
+        "GOV-05",
+        "AAT-16.2"
+      ],
+      "MEASURE 1.1": [
+        "GOV-05",
+        "AAT-16.2",
+        "AAT-16.3"
+      ],
+      "MEASURE 1.2": [
+        "GOV-05",
+        "AAT-16.2"
+      ],
+      "MEASURE 4.0": [
+        "GOV-05",
+        "AAT-16.4"
+      ],
+      "MEASURE 4.3": [
+        "GOV-05",
+        "GOV-05.1",
+        "GOV-05.2",
+        "AAT-16.6"
+      ],
+      "MEASURE 4.1": [
+        "GOV-05.1",
+        "GOV-05.2",
+        "AAT-16.1"
+      ],
+      "MAP 1.3": [
+        "GOV-08",
+        "AAT-03.1",
+        "PRM-01.1"
+      ],
+      "GOVERN 4.0": [
+        "GOV-14",
+        "GOV-15",
+        "RSK-12"
+      ],
+      "GOVERN 1.1": [
+        "AAT-01.1",
+        "AST-01.2",
+        "CPL-01",
+        "CPL-01.2"
+      ],
+      "MEASURE 2.5": [
+        "AAT-01.2",
+        "AAT-10.9"
+      ],
+      "MANAGE 2.2": [
+        "AAT-01.3",
+        "PRM-01",
+        "PRM-07",
+        "TDA-01.1"
+      ],
+      "GOVERN 1.6": [
+        "AAT-02",
+        "AST-02",
+        "BCD-02",
+        "DCH-02"
+      ],
+      "MAP 4.1": [
+        "AAT-02.1"
+      ],
+      "MAP 4.2": [
+        "AAT-02.2"
+      ],
+      "MAP 1.0": [
+        "AAT-03",
+        "PRM-06"
+      ],
+      "MAP 1.1": [
+        "AAT-03",
+        "AAT-04",
+        "PRM-06",
+        "RSK-08",
+        "RSK-10"
+      ],
+      "MAP 1.4": [
+        "AAT-03",
+        "AAT-03.1",
+        "PRM-06"
+      ],
+      "MAP 3.0": [
+        "AAT-03",
+        "AAT-03.1",
+        "AAT-04"
+      ],
+      "MAP 3.1": [
+        "AAT-04",
+        "AAT-04.1"
+      ],
+      "MAP 3.2": [
+        "AAT-04",
+        "AAT-04.2",
+        "RSK-01.3"
+      ],
+      "MAP 3.3": [
+        "AAT-04.3",
+        "CPL-01.2"
+      ],
+      "MAP 4.0": [
+        "AAT-04.4"
+      ],
+      "GOVERN 3.0": [
+        "AAT-06"
+      ],
+      "GOVERN 3.1": [
+        "AAT-07",
+        "TDA-01",
+        "TDA-01.1"
+      ],
+      "MAP 5.0": [
+        "AAT-07.1"
+      ],
+      "MAP 5.1": [
+        "AAT-07.2",
+        "RSK-02.1",
+        "RSK-08"
+      ],
+      "MANAGE 2.0": [
+        "AAT-07.3",
+        "TDA-01",
+        "TDA-01.1"
+      ],
+      "MAP 1.2": [
+        "AAT-08",
+        "AAT-13",
+        "HRS-03.2"
+      ],
+      "GOVERN 4.2": [
+        "AAT-09",
+        "TDA-01",
+        "TDA-01.1",
+        "TDA-02.3",
+        "TDA-04",
+        "TDA-05"
+      ],
+      "GOVERN 4.3": [
+        "AAT-10",
+        "IAO-01"
+      ],
+      "MEASURE 2.2": [
+        "AAT-10",
+        "AAT-17",
+        "AAT-17.1"
+      ],
+      "MEASURE 2.0": [
+        "AAT-10.1",
+        "AAT-10.3",
+        "IAO-02",
+        "IAO-06"
+      ],
+      "MAP 2.3": [
+        "AAT-10.2",
+        "IAO-02.2"
+      ],
+      "MEASURE 2.1": [
+        "AAT-10.2"
+      ],
+      "MEASURE 2.6": [
+        "AAT-10.4",
+        "AAT-10.13",
+        "AAT-11.2"
+      ],
+      "MEASURE 2.7": [
+        "AAT-10.5",
+        "SEA-01.2"
+      ],
+      "MEASURE 2.8": [
+        "AAT-10.6"
+      ],
+      "MEASURE 2.10": [
+        "AAT-10.7",
+        "RSK-10"
+      ],
+      "MEASURE 2.11": [
+        "AAT-10.8"
+      ],
+      "MEASURE 2.9": [
+        "AAT-10.9"
+      ],
+      "MEASURE 2.13": [
+        "AAT-10.10",
+        "AAT-10.11"
+      ],
+      "MANAGE 1.1": [
+        "AAT-10.10",
+        "AAT-15",
+        "AAT-15.1",
+        "AAT-15.2",
+        "IAO-01",
+        "IAO-05",
+        "IAO-07"
+      ],
+      "MEASURE 2.3": [
+        "AAT-10.12"
+      ],
+      "MEASURE 2.4": [
+        "AAT-10.13",
+        "AAT-16"
+      ],
+      "MANAGE 4.1": [
+        "AAT-10.13",
+        "AAT-11.1",
+        "AAT-11.2",
+        "AAT-11.3"
+      ],
+      "MANAGE 4.2": [
+        "AAT-10.14"
+      ],
+      "GOVERN 5.2": [
+        "AAT-11.1",
+        "TDA-01.1"
+      ],
+      "MEASURE 1.3": [
+        "AAT-11.2"
+      ],
+      "MEASURE 3.3": [
+        "AAT-11.3"
+      ],
+      "MANAGE 4.3": [
+        "AAT-11.4",
+        "IRO-10"
+      ],
+      "MAP 3.4": [
+        "AAT-13.1",
+        "HRS-03.2"
+      ],
+      "MAP 1.6": [
+        "AAT-14",
+        "PRI-01",
+        "PRI-05.4",
+        "PRM-05"
+      ],
+      "MAP 2.1": [
+        "AAT-14.1",
+        "PRM-06",
+        "TDA-01.1"
+      ],
+      "MAP 2.2": [
+        "AAT-14.2"
+      ],
+      "MANAGE 1.2": [
+        "AAT-15.1",
+        "AAT-15.2",
+        "IAO-05",
+        "RSK-02.1",
+        "RSK-05",
+        "RSK-06"
+      ],
+      "MANAGE 1.4": [
+        "AAT-15.1",
+        "IAO-05",
+        "RSK-04.1"
+      ],
+      "MEASURE 3.0": [
+        "AAT-16.2",
+        "IAO-05",
+        "RSK-04.1"
+      ],
+      "MEASURE 4.2": [
+        "AAT-16.5"
+      ],
+      "MANAGE 3.2": [
+        "AAT-16.7"
+      ],
+      "MEASURE 3.1": [
+        "AAT-17",
+        "IAO-02.2",
+        "IAO-05",
+        "RSK-04.1"
+      ],
+      "MEASURE 2.12": [
+        "AAT-17.2"
+      ],
+      "MANAGE 2.3": [
+        "AAT-17.3",
+        "IRO-01",
+        "IRO-02",
+        "RSK-03",
+        "RSK-06.1"
+      ],
+      "MEASURE 3.2": [
+        "AAT-18",
+        "IAO-02.2",
+        "IAO-05",
+        "RSK-04.1"
+      ],
+      "MANAGE 1.0": [
+        "AAT-18.1",
+        "RSK-01",
+        "RSK-03",
+        "RSK-04"
+      ],
+      "GOVERN 1.7": [
+        "AST-09",
+        "AST-30",
+        "PRM-07",
+        "SEA-02.3",
+        "TDA-17"
+      ],
+      "MAP 2.0": [
+        "AST-31",
+        "AST-31.1"
+      ],
+      "GOVERN 6.2": [
+        "BCD-01",
+        "BCD-16",
+        "IRO-01",
+        "IRO-02",
+        "IRO-02.4",
+        "IRO-04"
+      ],
+      "MANAGE 4.0": [
+        "IRO-04",
+        "IAO-03",
+        "IAO-05",
+        "RSK-06",
+        "RSK-06.1"
+      ],
+      "MANAGE 1.3": [
+        "IAO-05",
+        "RSK-06.1"
+      ],
+      "MANAGE 3.1": [
+        "IAO-05",
+        "RSK-09.1",
+        "RSK-09.2",
+        "TPM-04.1",
+        "TPM-08"
+      ],
+      "MANAGE 2.1": [
+        "PRM-01",
+        "PRM-02",
+        "PRM-03",
+        "RSK-01.2",
+        "RSK-06.2"
+      ],
+      "MAP 1.5": [
+        "RSK-01.3"
+      ],
+      "MANAGE 3.0": [
+        "RSK-09",
+        "RSK-09.2",
+        "TPM-01",
+        "TPM-08"
+      ],
+      "GOVERN 2.2": [
+        "SAT-03",
+        "SAT-03.5",
+        "SAT-03.6"
+      ]
+    }
+  }
+}

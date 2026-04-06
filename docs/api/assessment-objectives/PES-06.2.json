@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PES-06.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PES-06.2",
+      "ao_id": "PES-06.2_A01",
+      "objective": "a list of acceptable forms of identification for visitor access to the facility where the system resides is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PE-02(02)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-06.2",
+      "ao_id": "PES-06.2_A02",
+      "objective": "two forms of identification are required from list of acceptable forms of identification for visitor access to the facility where the system resides.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-02(02)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

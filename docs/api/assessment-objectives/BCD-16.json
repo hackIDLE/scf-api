@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "BCD-16",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "BCD-16",
+      "ao_id": "BCD-16_A01",
+      "objective": "an incident handling capability for incidents involving Artificial Intelligence (AI) and Autonomous Technologies (AAT) exists.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-16",
+      "ao_id": "BCD-16_A02",
+      "objective": "processes are in place to handle failures or incidents in third-party data or Artificial Intelligence (AI) and Autonomous Technologies (AAT) deemed to be high-risk.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

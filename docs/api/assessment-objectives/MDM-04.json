@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "MDM-04",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MDM-04",
+      "ao_id": "MDM-04_A01",
+      "objective": "anti-tamper technologies to be employed are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PE-03(05)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MDM-04",
+      "ao_id": "MDM-04_A02",
+      "objective": "hardware components to be protected from physical tampering or alteration are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PE-03(05)_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MDM-04",
+      "ao_id": "MDM-04_A03",
+      "objective": "anti-tamper technologies are employed to detect and/or prevent physical tampering or alteration of hardware components within the system.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PE-03(05)\n53A_R5_PE-03(05)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

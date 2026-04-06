@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "SEA-12",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "SEA-12",
+      "ao_id": "SEA-12_A01",
+      "objective": "system components that proactively seek to identify network-based malicious code or malicious websites are included.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-35",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-12",
+      "ao_id": "SEA-12_A02",
+      "objective": "environments or resources which may contain or may be related to anomalous or suspected adversarial behavior are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-04(13)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-12",
+      "ao_id": "SEA-12_A03",
+      "objective": "anomalous or suspected adversarial behavior in or related to organization-defined environments or resources are analyzed.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IR-04(13)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-HRS-25",
+  "area": "Human Resources",
+  "artifact_name": "Separation of Duties (SoD)",
+  "artifact_description": "Documented evidence of personnel management practices to implement and maintain Separation of Duties (SoD) to prevent potential inappropriate activity without collusion.",
+  "scf_controls": [
+    "HRS-11",
+    "HRS-12"
+  ],
+  "cmmc_mapping": "AC.L2-3.1.4"
+}

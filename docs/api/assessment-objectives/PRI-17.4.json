@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PRI-17.4",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-17.4",
+      "ao_id": "PRI-17.4_A01",
+      "objective": "metrics associated with data subject requests and responses are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-17.4",
+      "ao_id": "PRI-17.4_A02",
+      "objective": "metrics associated with data subject requests and responses are collected.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "MON-03.2",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MON-03.2",
+      "ao_id": "MON-03.2_A01",
+      "objective": "the content of the audit records needed to support the ability to uniquely trace users to their actions is defined.",
+      "pptdf": "Process",
+      "origin": "171A_3.3.2[a]\n53A_R5_AU-02_ODP[01]\n53A_R5_AU-02_ODP[02]\n53A_R5_AU-02a.\n53A_R5_AU-02c.[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "successful and unsuccessful account logon events, account management events, object access, policy change, privilege functions, process tracking, and system events.\n\nFor Web applications: all administrator activity, authentication checks, authorization checks, data deletions, data access, data changes, and permission changes",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-03.2",
+      "ao_id": "MON-03.2_A02",
+      "objective": "audit records are created (generated).",
+      "pptdf": "Technology",
+      "origin": "171A_3.3.1[c]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-03.2",
+      "ao_id": "MON-03.2_A03",
+      "objective": "audit records contain information that establishes the identity of any individuals, subjects or objects/entities associated with the event.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AU-03f.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

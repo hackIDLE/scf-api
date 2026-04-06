@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "CPL-05.1",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CPL-05.1",
+      "ao_id": "CPL-05.1_A01",
+      "objective": "a formal process exists to intake and document government investigation requests.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-05.1",
+      "ao_id": "CPL-05.1_A02",
+      "objective": "a formal process exists to evaluate government investigation requests for legal requirements the organization must comply with.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-05.1",
+      "ao_id": "CPL-05.1_A03",
+      "objective": "processes exist to notify affected customer(s) about investigation requests, unless the applicable legal basis for a government agency's action prohibits notification (e.g., potential criminal prosecution).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "control_id": "MON-09.1",
+  "title": "Identity Binding",
+  "family": "MON",
+  "description": "Mechanisms exist to bind the identity of the information producer to the information generated.",
+  "scf_question": "Does the organization bind the identity of the information producer to the information generated?",
+  "relative_weight": 4,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [],
+  "pptdf": "Technology",
+  "nist_csf_function": "Protect",
+  "scrm_focus": {
+    "strategic": false,
+    "operational": true,
+    "tactical": true
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "Continuous Monitoring (MON) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with MON domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Event monitoring-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ Monitoring is primarily reactive in nature, focused on identifying incidents that occurred.\n▪ Event log reviews primarily rely on manual processes to identify anomalous behaviors.",
+    "2": "SCR-CMM Level 2 criteria definitions are not available for this control:\n▪ A reasonable person would conclude a well-defined and standardized process is required.\n▪ At this level of maturity, the “requirements-driven” nature of performing the control is focused on a localized and/or regionalized implementation, not uniform and consistent across the organization.\n▪ Requirements are narrowly scoped for applicability and are primarily derived from compliance obligations (e.g., laws, regulations and contracts).",
+    "3": "Continuous Monitoring (MON) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MON domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Cybersecurity personnel use a structured process via Standardized Operating Procedures (SOP) to review and analyze logs.\n▪ A Security Operations Center (SOC) team, or similar function, is appropriately staffed and supported to implement and maintain MON domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of continuous monitoring operations (e.g., Security Incident Event Manager (SIEM), etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MON domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ Secure Baseline Configurations (SBC) enforce security event logging to contain sufficient information to establish necessary details of activity and allow for forensics analysis.\n▪ An implemented and operational capability exists to bind the identity of the information producer to the information generated.",
+    "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [],
+  "possible_solutions": {
+    "micro_small": "∙ Secure Baseline Configurations (SBC)",
+    "small": "∙ Secure Baseline Configurations (SBC)",
+    "medium": "∙ Secure Baseline Configurations (SBC)",
+    "large": "∙ Secure Baseline Configurations (SBC)",
+    "enterprise": "∙ Secure Baseline Configurations (SBC)"
+  },
+  "risks": [
+    "R-AC-1",
+    "R-AM-3",
+    "R-IR-1",
+    "R-IR-2",
+    "R-IR-3",
+    "R-IR-4",
+    "R-SA-1"
+  ],
+  "threats": [
+    "MT-8",
+    "MT-9",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Continuous Monitoring",
+  "crosswalks": {
+    "general-nist-800-53-r5-2": [
+      "AU-10(01)",
+      "AU-10(02)"
+    ],
+    "general-nist-800-82-r3": [
+      "AU-10(01)",
+      "AU-10(02)"
+    ],
+    "general-nist-800-160-vol-2-r1": [
+      "AU-10(02)"
+    ],
+    "general-nist-800-161-r1": [
+      "AU-10(1)",
+      "AU-10(2)"
+    ],
+    "general-nist-800-161-r1-level-2": [
+      "AU-10(1)",
+      "AU-10(2)"
+    ],
+    "general-nist-800-161-r1-level-3": [
+      "AU-10(2)"
+    ]
+  }
+}

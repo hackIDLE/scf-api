@@ -1,0 +1,458 @@
+{
+  "control_id": "NET-06",
+  "title": "Network Segmentation (macrosegementation)",
+  "family": "NET",
+  "description": "Mechanisms exist to ensure network architecture utilizes network segmentation to isolate Technology Assets, Applications and/or Services (TAAS) to protect from other network resources.",
+  "scf_question": "Does the organization ensure network architecture utilizes network segmentation to isolate Technology Assets, Applications and/or Services (TAAS) to protect from other network resources?",
+  "relative_weight": 10,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [],
+  "pptdf": "Technology",
+  "nist_csf_function": "Protect",
+  "scrm_focus": {
+    "strategic": false,
+    "operational": false,
+    "tactical": true
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "2": "Network Security (NET) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with NET domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with NET domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with NET  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Network security-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Network security management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT personnel define secure networking practices to protect the Confidentiality, Integrity, Availability and Safety (CIAS) of the organization's TAASD.\n▪ Secure Baseline Configurations (SBC) enforce the principles of least privileges and least functionality for boundary protection technologies.\n▪ Network segmentation exists to implement separate network addresses (e.g., different subnets) to connect TAASD in different security domains (e.g., sensitive/regulated data environments).\n▪ IT and/or cybersecurity architects maintain a segmented development network to ensure a secure development environment.",
+    "3": "Network Security (NET) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with NET domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with NET domain capabilities are well-documented and kept current by process owners.\n▪ A network security management team, or similar function, is appropriately staffed and supported to implement and maintain NET domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of network security operations (e.g., network management solution, log aggregator, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with NET domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ Secure Baseline Configurations (SBC) enforce the principles of least privileges and least functionality for boundary protection technologies.\n▪ An implemented and operational capability exists to ensure network architecture utilizes network segmentation to isolate Technology Assets, Applications and/or Services (TAAS) to protect from other network resources.",
+    "4": "Network Security (NET) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [
+    "CORE ESP Level 2 Critical Infrastructure",
+    "CORE ESP Level 3 Advanced Threats",
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ Subnetting\n∙ Virtual Local Area Network (VLAN)",
+    "small": "∙ Subnetting\n∙ Virtual Local Area Network (VLAN)",
+    "medium": "∙ Subnetting\n∙ Virtual Local Area Network (VLAN)",
+    "large": "∙ Subnetting\n∙ Virtual Local Area Network (VLAN)",
+    "enterprise": "∙ Subnetting\n∙ Virtual Local Area Network (VLAN)"
+  },
+  "risks": [
+    "R-AC-1",
+    "R-AC-2",
+    "R-AC-3",
+    "R-AC-4",
+    "R-AM-1",
+    "R-AM-2",
+    "R-AM-3",
+    "R-BC-1",
+    "R-BC-2",
+    "R-BC-3",
+    "R-BC-4",
+    "R-BC-5",
+    "R-EX-1",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-EX-5",
+    "R-EX-6",
+    "R-EX-7",
+    "R-GV-1",
+    "R-GV-2",
+    "R-GV-3",
+    "R-GV-4",
+    "R-GV-5",
+    "R-GV-6",
+    "R-GV-7",
+    "R-GV-8",
+    "R-IR-1",
+    "R-IR-2",
+    "R-IR-3",
+    "R-IR-4",
+    "R-SA-1",
+    "R-SC-1",
+    "R-SC-2",
+    "R-SC-3",
+    "R-SC-4",
+    "R-SC-5",
+    "R-SC-6"
+  ],
+  "threats": [
+    "NT-2",
+    "NT-3",
+    "NT-4",
+    "NT-5",
+    "NT-6",
+    "NT-7",
+    "NT-8",
+    "NT-9",
+    "NT-10",
+    "NT-11",
+    "NT-12",
+    "NT-13",
+    "NT-14",
+    "MT-1",
+    "MT-2",
+    "MT-3",
+    "MT-4",
+    "MT-5",
+    "MT-6",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-10",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Network Security",
+  "crosswalks": {
+    "general-aicpa-pmf-2020": [
+      "S7.1-POF4"
+    ],
+    "general-aicpa-tsc-2017": [
+      "CC6.1"
+    ],
+    "general-csa-cmm-4-1-0": [
+      "I&S-06"
+    ],
+    "general-csa-iot-2": [
+      "SAP-01"
+    ],
+    "general-govramp": [
+      "AC-04(21)"
+    ],
+    "general-govramp-mod": [
+      "AC-04(21)"
+    ],
+    "general-govramp-high": [
+      "AC-04(21)"
+    ],
+    "general-iec-tr-60601-4-5-2021": [
+      "5.2 - CR 5.1"
+    ],
+    "general-iec-62443-2-1-2024": [
+      "NET 1.1",
+      "NET 1.3",
+      "NET 2.2"
+    ],
+    "general-iec-62443-3-3-2013": [
+      "SR 5.1",
+      "SR 5.1 RE 1"
+    ],
+    "general-iec-62443-4-2-2019": [
+      "CR 5.1"
+    ],
+    "general-imo-maritime-cyber-risk-management-2025": [
+      "3.5.3.3"
+    ],
+    "general-iso-27002-2022": [
+      "8.2",
+      "8.22"
+    ],
+    "general-iso-27017-2015": [
+      "13.1.1",
+      "13.1.3"
+    ],
+    "general-iso-27018-2025": [
+      "8.20",
+      "8.22"
+    ],
+    "general-mpa-csbp-5-3-1": [
+      "TS-2.8",
+      "TS-2.11",
+      "TS-8.2"
+    ],
+    "general-nist-privacy-framework-1-0": [
+      "PR.AC-P5"
+    ],
+    "general-nist-800-53-r4": [
+      "AC-4(21)"
+    ],
+    "general-nist-800-53-r5-2": [
+      "AC-04(21)"
+    ],
+    "general-nist-800-82-r3": [
+      "AC-04(21)"
+    ],
+    "general-nist-800-160-vol-2-r1": [
+      "AC-04(21)"
+    ],
+    "general-nist-800-161-r1": [
+      "AC-4(21)"
+    ],
+    "general-nist-800-161-r1-level-3": [
+      "AC-4(21)"
+    ],
+    "general-nist-800-171-r2": [
+      "3.13.5"
+    ],
+    "general-nist-800-171-r3": [
+      "03.13.01.b"
+    ],
+    "general-nist-800-171a": [
+      "3.13.5[a]",
+      "3.13.5[b]"
+    ],
+    "general-nist-800-171a-r3": [
+      "A.03.13.01.b"
+    ],
+    "general-nist-800-172": [
+      "3.14.3e"
+    ],
+    "general-pci-dss-4-0-1": [
+      "1.2.1",
+      "1.2.3",
+      "1.2.4",
+      "1.2.5",
+      "1.2.6",
+      "1.2.7",
+      "1.2.8",
+      "1.3",
+      "1.3.1",
+      "1.3.2",
+      "1.3.3",
+      "1.4.1",
+      "1.4.2",
+      "11.4.5",
+      "11.4.6",
+      "12.5.2",
+      "A1.1.4",
+      "A3.2.1",
+      "A3.2.4"
+    ],
+    "general-pci-dss-4-0-1-saq-a-ep": [
+      "1.2.1",
+      "1.2.3",
+      "1.2.4",
+      "1.2.5",
+      "1.2.6",
+      "1.2.7",
+      "1.2.8",
+      "1.3.1",
+      "1.3.2",
+      "1.3.3",
+      "1.4.1",
+      "1.4.2",
+      "11.4.5"
+    ],
+    "general-pci-dss-4-0-1-saq-b-ip": [
+      "1.2.3",
+      "1.2.5",
+      "1.2.6",
+      "1.3.1",
+      "1.3.2",
+      "1.3.3",
+      "11.4.5"
+    ],
+    "general-pci-dss-4-0-1-saq-c": [
+      "1.3.1",
+      "1.3.2",
+      "1.3.3",
+      "11.4.5"
+    ],
+    "general-pci-dss-4-0-1-saq-c-vt": [
+      "1.3.1",
+      "1.3.2",
+      "1.3.3"
+    ],
+    "general-pci-dss-4-0-1-saq-d-merchant": [
+      "1.2.1",
+      "1.2.3",
+      "1.2.4",
+      "1.2.5",
+      "1.2.6",
+      "1.2.7",
+      "1.2.8",
+      "1.3.1",
+      "1.3.2",
+      "1.3.3",
+      "1.4.1",
+      "1.4.2",
+      "11.4.5",
+      "12.5.2"
+    ],
+    "general-pci-dss-4-0-1-saq-d-service-provider": [
+      "1.2.1",
+      "1.2.3",
+      "1.2.4",
+      "1.2.5",
+      "1.2.6",
+      "1.2.7",
+      "1.2.8",
+      "1.3.1",
+      "1.3.2",
+      "1.3.3",
+      "1.4.1",
+      "1.4.2",
+      "11.4.5",
+      "11.4.6",
+      "12.5.2",
+      "A1.1.4"
+    ],
+    "general-sparta": [
+      "CM0038"
+    ],
+    "general-swift-cscf-2025": [
+      "1.1",
+      "1.4",
+      "1.5"
+    ],
+    "general-tisax-6-0-3": [
+      "5.2.7"
+    ],
+    "usa-federal-dhs-cisa-tic-3-0": [
+      "3.PEP.NE.NSEGM"
+    ],
+    "usa-federal-dhs-cisa-cpg-2-0": [
+      "2.F"
+    ],
+    "usa-federal-doe-c2m2-2-1": [
+      "ARCHITECTURE-2b",
+      "ARCHITECTURE-2d",
+      "ARCHITECTURE-2h"
+    ],
+    "usa-federal-dow-cmmc-2-level-1": [
+      "SC.L1-B.1.XI"
+    ],
+    "usa-federal-dow-cmmc-2-level-1-aos": [
+      "SC.L1-B.1.XI[a]",
+      "SC.L1-B.1.XI[b]"
+    ],
+    "usa-federal-dow-cmmc-2-level-2": [
+      "SCL2.-3.13.5"
+    ],
+    "usa-federal-dow-cmmc-2-level-3": [
+      "SI.L3-3.14.3E"
+    ],
+    "usa-federal-dow-zt-roadmap-1-1": [
+      "5.2.3",
+      "5.3",
+      "5.3.2"
+    ],
+    "usa-federal-dow-zta-reference-architecture-2-0": [
+      "3.1"
+    ],
+    "usa-federal-far-52-204-21": [
+      "52.204-21(b)(1)(xi)"
+    ],
+    "usa-federal-gsa-fedramp-5-mod": [
+      "AC-04(21)"
+    ],
+    "usa-federal-gsa-fedramp-5-high": [
+      "AC-04(21)"
+    ],
+    "usa-state-ca-ccpa-cpra-2026": [
+      "7123(c)(5)(B)",
+      "7123(c)(10)"
+    ],
+    "emea-eu-eba-ict-srm-2025": [
+      "3.4.4(36)(c)"
+    ],
+    "emea-eu-nis2-annex-2024": [
+      "6.8.1",
+      "6.8.2(a)",
+      "6.8.2(b)",
+      "6.8.2(c)",
+      "6.8.2(d)",
+      "6.8.2(e)",
+      "6.8.2(f)",
+      "6.8.2(g)",
+      "6.8.2(h)"
+    ],
+    "emea-deu-c5-2020": [
+      "COS-06"
+    ],
+    "emea-isr-cmo-1-0": [
+      "9.2",
+      "9.18",
+      "9.19",
+      "10.8",
+      "12.4",
+      "12.5",
+      "12.11"
+    ],
+    "emea-sau-cscc-1-2019": [
+      "2-3-1-4",
+      "2-4-1-1"
+    ],
+    "emea-sau-cgiot-2024": [
+      "2-4-4"
+    ],
+    "emea-sau-ecc-1-2018": [
+      "5-1-3-1",
+      "5-1-3-2"
+    ],
+    "emea-sau-otcc-1-2022": [
+      "2-4-1-1",
+      "2-4-1-2",
+      "2-4-1-3",
+      "2-4-1-5",
+      "2-4-1-10"
+    ],
+    "emea-sau-sacs-002-2022": [
+      "TPC-38",
+      "TPC-40"
+    ],
+    "emea-esp-ccn-stic-825-2023": [
+      "8.4.4 [MP.COM.4]"
+    ],
+    "emea-gbr-def-stan-05-138-2024": [
+      "2508"
+    ],
+    "emea-gbr-def-stan-05-138-l1-2024": [
+      "2508"
+    ],
+    "emea-gbr-def-stan-05-138-l2-2024": [
+      "2508"
+    ],
+    "emea-gbr-def-stan-05-138-l3-2024": [
+      "2508"
+    ],
+    "apac-aus-ism-2024-june": [
+      "ISM-1181",
+      "ISM-1269",
+      "ISM-1270",
+      "ISM-1271",
+      "ISM-1577",
+      "ISM-1750"
+    ],
+    "apac-ind-sebi-2024": [
+      "PR.AA.S2"
+    ],
+    "apac-jpn-ismap": [
+      "13.1.3",
+      "13.1.3.1",
+      "13.1.3.2",
+      "13.1.3.3",
+      "13.1.3.4",
+      "13.1.3.5",
+      "13.1.3.6",
+      "13.1.3.7",
+      "13.1.3.8",
+      "13.1.3.9",
+      "13.1.3.10.P",
+      "13.1.3.11.P",
+      "13.1.3.12.P",
+      "13.1.4.P"
+    ],
+    "apac-nzl-hisf-mlhsp-2023": [
+      "HHSP55",
+      "HML55"
+    ],
+    "apac-nzl-hisf-suppliers-2023": [
+      "HSUP47"
+    ],
+    "apac-sgp-mas-trm-2021": [
+      "11.2.6"
+    ],
+    "americas-can-osfi-b13-2022": [
+      "3.2.5"
+    ],
+    "americas-can-itsp-10-171-2025": [
+      "03.13.01.B"
+    ]
+  }
+}

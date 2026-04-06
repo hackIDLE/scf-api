@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "PRI-02.8",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-02.8",
+      "ao_id": "PRI-02.8_A01",
+      "objective": "the cadence to periodically assess disclosed purposes for which Personal Data (PD) is collected, received, processed, stored, transmitted and/or shared is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-02.8",
+      "ao_id": "PRI-02.8_A02",
+      "objective": "reasonable consumer expectations for disclosed purposes for which Personal Data (PD) is collected, received, processed, stored, transmitted and/or shared is identified.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-02.8",
+      "ao_id": "PRI-02.8_A03",
+      "objective": "disclosed purposes for which Personal Data (PD) is collected, received, processed, stored, transmitted and/or shared are periodically assessed to ensure compatibility with reasonable consumer expectations.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

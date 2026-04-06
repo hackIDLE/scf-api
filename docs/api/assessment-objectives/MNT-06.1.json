@@ -1,0 +1,146 @@
+{
+  "scf_control_id": "MNT-06.1",
+  "total": 14,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MNT-06.1",
+      "ao_id": "MNT-06.1_A01",
+      "objective": "maintenance personnel without required access authorization are supervised during maintenance activities.",
+      "pptdf": "Process",
+      "origin": "171A_3.7.6",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-06.1",
+      "ao_id": "MNT-06.1_A02",
+      "objective": "organizational personnel with required access authorizations are designated to supervise the maintenance activities of personnel who do not possess the required access authorizations.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.07.06.d[01]\n53A_R5_MA-05c.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-06.1",
+      "ao_id": "MNT-06.1_A03",
+      "objective": "procedures for the use of maintenance personnel who lack appropriate security clearances or are not U.S. citizens are implemented and include approved organizational personnel who are fully cleared, have appropriate access authorizations and are technically qualified escorting and supervising maintenance personnel without the needed access authorization during the performance of maintenance and diagnostic activities.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-05(01)(a)(01)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-06.1",
+      "ao_id": "MNT-06.1_A04",
+      "objective": "procedures for the use of maintenance personnel who lack appropriate security clearances or are not U.S. citizens are implemented and include all volatile information storage components within the system being sanitized and all non-volatile storage media being removed or physically disconnected from the system and secured prior to initiating maintenance or diagnostic activities.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-05(01)(a)(02)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-06.1",
+      "ao_id": "MNT-06.1_A05",
+      "objective": "alternate controls are developed and implemented in the event that a system cannot be sanitized, removed or disconnected from the system.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-05(01)(b)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-06.1",
+      "ao_id": "MNT-06.1_A06",
+      "objective": "personnel performing maintenance and diagnostic activities on a system processing, storing or transmitting sensitive / regulated data possess security clearances for at least the highest classification level and for compartments of information on the system.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-05(02)[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-06.1",
+      "ao_id": "MNT-06.1_A07",
+      "objective": "personnel performing maintenance and diagnostic activities on a system processing, storing or transmitting sensitive / regulated data possess formal access approvals for at least the highest classification level and for compartments of information on the system.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-05(02)[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-06.1",
+      "ao_id": "MNT-06.1_A08",
+      "objective": "personnel performing maintenance and diagnostic activities on a system processing, storing or transmitting sensitive / regulated data are U.S. citizens.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-05(03)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-06.1",
+      "ao_id": "MNT-06.1_A09",
+      "objective": "foreign nationals are used to conduct maintenance and diagnostic activities on systems only when approved and authorized.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-05(04)(a)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-06.1",
+      "ao_id": "MNT-06.1_A10",
+      "objective": "approvals regarding the use of foreign nationals to conduct maintenance and diagnostic activities on classified systems are fully documented within Memoranda of Agreements.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-05(04)(b)[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-06.1",
+      "ao_id": "MNT-06.1_A11",
+      "objective": "consents regarding the use of foreign nationals to conduct maintenance and diagnostic activities on classified systems are fully documented within Memoranda of Agreements.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-05(04)(b)[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-06.1",
+      "ao_id": "MNT-06.1_A12",
+      "objective": "detailed operational conditions regarding the use of foreign nationals to conduct maintenance and diagnostic activities on classified systems are fully documented within Memoranda of Agreements.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-05(04)(b)[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-06.1",
+      "ao_id": "MNT-06.1_A13",
+      "objective": "non-escorted personnel who perform maintenance on the system possess the required access authorizations.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.07.06.c",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-06.1",
+      "ao_id": "MNT-06.1_A14",
+      "objective": "organizational personnel with required technical competence are designated to supervise the maintenance activities of personnel who do not possess the required access authorizations.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.07.06.d[02]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "DCH-14.2",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-14.2",
+      "ao_id": "DCH-14.2_A01",
+      "objective": "individuals or systems transferring data between interconnecting systems have the requisite authorizations (e.g., write permissions or privileges) prior to accepting such data.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_CA-03(06)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

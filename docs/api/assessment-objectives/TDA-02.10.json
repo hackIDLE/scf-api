@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "TDA-02.10",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-02.10",
+      "ao_id": "TDA-02.10_A01",
+      "objective": "an appropriate level of security and resiliency for products and/or services is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-02.10",
+      "ao_id": "TDA-02.10_A02",
+      "objective": "products and/or services are regularly reviewed for an appropriate level of security and resiliency based on applicable risks and threats.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "IAC-16.3",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-16.3",
+      "ao_id": "IAC-16.3_A01",
+      "objective": "privilege change requests require additional levels of authentication (e.g., authentication prompt).",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

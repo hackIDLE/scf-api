@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "NET-08.3",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-08.3",
+      "ao_id": "NET-08.3_A01",
+      "objective": "host containment protections exist that revoke or quarantine a host’s access to the network.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

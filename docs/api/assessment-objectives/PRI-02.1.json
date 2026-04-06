@@ -1,0 +1,106 @@
+{
+  "scf_control_id": "PRI-02.1",
+  "total": 10,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-02.1",
+      "ao_id": "PRI-02.1_A01",
+      "objective": "the purpose(s) for processing Personal Data (PD) is/are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PT-03_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-02.1",
+      "ao_id": "PRI-02.1_A02",
+      "objective": "the processing of Personal Data (PD) to be restricted is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PT-03_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-02.1",
+      "ao_id": "PRI-02.1_A03",
+      "objective": "mechanisms to be implemented for ensuring any changes in the processing of Personal Data (PD) are made in accordance with requirements are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PT-03_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-02.1",
+      "ao_id": "PRI-02.1_A04",
+      "objective": "requirements for changing the processing of Personal Data (PD) are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PT-03_ODP[04]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-02.1",
+      "ao_id": "PRI-02.1_A05",
+      "objective": "the purpose(s) for processing Personal Data (PD) is/are identified and documented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PT-03a.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-02.1",
+      "ao_id": "PRI-02.1_A06",
+      "objective": "the purpose(s) is/are described in the public privacy notices of the organization.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PT-03b.[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-02.1",
+      "ao_id": "PRI-02.1_A07",
+      "objective": "the purpose(s) is/are described in the policies of the organization.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PT-03b.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-02.1",
+      "ao_id": "PRI-02.1_A08",
+      "objective": "the processing of Personal Data (PD) is restricted to only that which is compatible with the identified purpose(s).",
+      "pptdf": "Process",
+      "origin": "53A_R5_PT-03c.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-02.1",
+      "ao_id": "PRI-02.1_A09",
+      "objective": "changes in the processing of Personal Data (PD) are monitored.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PT-03d.[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-02.1",
+      "ao_id": "PRI-02.1_A10",
+      "objective": "mechanisms are implemented to ensure that any changes are made in accordance with requirements.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PT-03d.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

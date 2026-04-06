@@ -1,0 +1,66 @@
+{
+  "scf_control_id": "END-03",
+  "total": 6,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "END-03",
+      "ao_id": "END-03_A01",
+      "objective": "policies governing the installation of software by users are established.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-11_ODP[01]\n53A_R5_CM-11a.",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-03",
+      "ao_id": "END-03_A02",
+      "objective": "user installation of software is allowed only with explicit privileged status.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_CM-11(02)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-03",
+      "ao_id": "END-03_A03",
+      "objective": "methods used to enforce software installation policies are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-11_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-03",
+      "ao_id": "END-03_A04",
+      "objective": "the frequency with which to monitor compliance is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-11_ODP[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-03",
+      "ao_id": "END-03_A05",
+      "objective": "software installation policies are enforced through methods.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_CM-11b.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-03",
+      "ao_id": "END-03_A06",
+      "objective": "compliance with policies is monitored frequency.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-11c.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "continuously",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "scf_control_id": "PRI-05.7",
+  "total": 9,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-05.7",
+      "ao_id": "PRI-05.7_A01",
+      "objective": "processing conditions to be applied for specific categories of Personal Data (PD) are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PT-07_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05.7",
+      "ao_id": "PRI-05.7_A02",
+      "objective": "processing conditions are applied for specific categories of Personal Data (PD).",
+      "pptdf": "Process",
+      "origin": "53A_R5_PT-07",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05.7",
+      "ao_id": "PRI-05.7_A03",
+      "objective": "when a system processes Social Security numbers, the unnecessary collection, maintenance and use of Social Security numbers are eliminated.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PT-07(01)(a)[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05.7",
+      "ao_id": "PRI-05.7_A04",
+      "objective": "when a system processes Social Security numbers, alternatives to the use of Social Security Numbers as a personal identifier are explored.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PT-07(01)(a)[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05.7",
+      "ao_id": "PRI-05.7_A05",
+      "objective": "when a system processes Social Security numbers, individual rights, benefits or privileges provided by law are not denied because of an individual’s refusal to disclose their Social Security number.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PT-07(01)(b)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05.7",
+      "ao_id": "PRI-05.7_A06",
+      "objective": "when a system processes Social Security numbers, any individual who is asked to disclose their Social Security number is informed whether that disclosure is mandatory or voluntary, by what statutory or other authority such number is solicited and what uses will be made of it.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PT-07(01)(c)[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05.7",
+      "ao_id": "PRI-05.7_A07",
+      "objective": "when a system processes Social Security numbers, any individual who is asked to disclose their Social Security number is informed by what statutory or other authority the number is solicited.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PT-07(01)(c)[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05.7",
+      "ao_id": "PRI-05.7_A08",
+      "objective": "when a system processes Social Security numbers, any individual who is asked to disclose their Social Security number is informed what uses will be made of it.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PT-07(01)(c)[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05.7",
+      "ao_id": "PRI-05.7_A09",
+      "objective": "the processing of information describing how any individual exercises rights guaranteed by the First Amendment is prohibited unless expressly authorized by statute or by the individual or unless pertinent to and within the scope of an authorized law enforcement activity.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PT-07(02)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

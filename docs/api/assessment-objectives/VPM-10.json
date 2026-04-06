@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "VPM-10",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "VPM-10",
+      "ao_id": "VPM-10_A01",
+      "objective": "red team exercises to simulate attempts by adversaries to compromise organizational systems are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CA-08(02)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-10",
+      "ao_id": "VPM-10_A02",
+      "objective": "organization-defined red team exercises are employed to simulate attempts by adversaries to compromise organizational systems in accordance with applicable rules of engagement.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CA-08(02)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

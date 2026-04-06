@@ -1,0 +1,12 @@
+{
+  "erl_id": "E-BCM-12",
+  "area": "Business Continuity",
+  "artifact_name": "Backups - Remote",
+  "artifact_description": "Documented evidence of event logs for the off-site / remote data backup solution.",
+  "scf_controls": [
+    "BCD-11",
+    "BCD-11.2",
+    "BCD-11.6"
+  ],
+  "cmmc_mapping": ""
+}

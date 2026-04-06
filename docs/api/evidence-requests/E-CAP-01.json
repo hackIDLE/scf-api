@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-CAP-01",
+  "area": "Capacity Management",
+  "artifact_name": "Capacity Planning",
+  "artifact_description": "Documented evidence of proactive capacity planning to meet expected and anticipated future technology-related capacity and/or performance requirements.",
+  "scf_controls": [
+    "CAP-01",
+    "CAP-03"
+  ],
+  "cmmc_mapping": ""
+}

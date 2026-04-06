@@ -1,0 +1,15 @@
+{
+  "erl_id": "E-IAM-02",
+  "area": "Identity & Access Management",
+  "artifact_name": "Defined Roles & Authorizations (RBAC)",
+  "artifact_description": "Documented evidence of defined access control-specific roles (e.g., Role Based Access Control (RBAC)) that affect both logical and physical access authorizations.",
+  "scf_controls": [
+    "CFG-05",
+    "CHG-04",
+    "DCH-03",
+    "END-03",
+    "IAC-08",
+    "IAC-21"
+  ],
+  "cmmc_mapping": "AC.L1-3.1.20\nAC.L2-3.1.21"
+}

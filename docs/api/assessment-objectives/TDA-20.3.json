@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "TDA-20.3",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-20.3",
+      "ao_id": "TDA-20.3_A01",
+      "objective": "source code and supporting documentation are escrowed to ensure software availability in the event the software provider goes out of business or is unable to provide support.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

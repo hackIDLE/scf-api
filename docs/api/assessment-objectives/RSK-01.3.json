@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "RSK-01.3",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "RSK-01.3",
+      "ao_id": "RSK-01.3_A01",
+      "objective": "an executive steering committee, or advisory board, defines the organization's risk tolerance.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

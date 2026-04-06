@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "END-06",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "END-06",
+      "ao_id": "END-06_A01",
+      "objective": "software, firmware and/or information requiring integrity verification tools to be employed to detect unauthorized changes is defined.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-07_ODP[01]\n53A_R5_SI-07_ODP[02]\n53A_R5_SI-07_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-06",
+      "ao_id": "END-06_A02",
+      "objective": "actions to be taken when unauthorized changes to software, firmware and/or information are detected are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-07_ODP[04]\n53A_R5_SI-07_ODP[05]\n53A_R5_SI-07_ODP[06]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-06",
+      "ao_id": "END-06_A03",
+      "objective": "integrity verification tools are employed to detect unauthorized changes to software, firmware and/or information.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-07a.[01]\n53A_R5_SI-07a.[02]\n53A_R5_SI-07a.[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-06",
+      "ao_id": "END-06_A04",
+      "objective": "actions are taken when unauthorized changes to the software, firmware and/or information are detected.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-07b.[01]\n53A_R5_SI-07b.[02]\n53A_R5_SI-07b.[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

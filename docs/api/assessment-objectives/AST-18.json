@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "AST-18",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AST-18",
+      "ao_id": "AST-18_A01",
+      "objective": "security-critical or essential software is defined.",
+      "pptdf": "Process",
+      "origin": "172A_3.14.1e_ODP[1]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-18",
+      "ao_id": "AST-18_A02",
+      "objective": "root of trust mechanisms or cryptographic signatures are identified.",
+      "pptdf": "Process",
+      "origin": "172A_3.14.1e[a]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-18",
+      "ao_id": "AST-18_A03",
+      "objective": "the integrity of security critical or essential software is verified using root of trust mechanisms or cryptographic signatures.",
+      "pptdf": "Process",
+      "origin": "172A_3.14.1e[b]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

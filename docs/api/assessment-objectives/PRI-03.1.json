@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PRI-03.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-03.1",
+      "ao_id": "PRI-03.1_A01",
+      "objective": "tailoring mechanisms for processing selected elements of Personal Data (PD) permissions are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PT-04(01)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-03.1",
+      "ao_id": "PRI-03.1_A02",
+      "objective": "mechanisms are provided to allow individuals to tailor processing permissions to selected elements of Personal Data (PD).",
+      "pptdf": "Process",
+      "origin": "53A_R5_PT-04(01)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

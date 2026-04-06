@@ -1,0 +1,171 @@
+{
+  "control_id": "DCH-07.2",
+  "title": "Encrypting Data In Storage Media",
+  "family": "DCH",
+  "description": "Cryptographic mechanisms exist to protect the confidentiality and integrity of information stored on digital media during transport outside of controlled areas.",
+  "scf_question": "Are cryptographic mechanisms utilized to protect the confidentiality and integrity of information stored on digital media during transport outside of controlled areas?",
+  "relative_weight": 5,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [],
+  "pptdf": "Data",
+  "nist_csf_function": "Protect",
+  "scrm_focus": {
+    "strategic": false,
+    "operational": true,
+    "tactical": true
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "2": "Data Classification & Handling (DCH) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with DCH domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with DCH domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with DCH  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Data classification and handling-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Data classification and handling management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ A formalized data classification scheme exists to identify categories of data, based on protection requirements from applicable laws, regulations and/or contractual obligations.",
+    "3": "Data Classification & Handling (DCH) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with DCH domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with DCH domain capabilities are well-documented and kept current by process owners.\n▪ A Governance, Risk & Compliance (GRC) team, or similar function, is appropriately staffed and supported to implement and maintain DCH domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of data classification and handling operations (e.g., GRC platform).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with DCH domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational cryptographic capability exists to protect the confidentiality and integrity of information stored on digital media during transport outside of controlled areas.",
+    "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [
+    "CORE ESP Level 2 Critical Infrastructure",
+    "CORE ESP Level 3 Advanced Threats"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ Cryptographic governance program\n∙ Secure Baseline Configurations (SBC)\n∙ NIST Cryptographic Module Validation Program (CMVP) (https://csrc.nist.gov)\n∙ Microsoft BitLocker (https://microsoft.com)",
+    "small": "∙ Cryptographic governance program\n∙ Secure Baseline Configurations (SBC)\n∙ NIST Cryptographic Module Validation Program (CMVP) (https://csrc.nist.gov)\n∙ Microsoft BitLocker (https://microsoft.com)",
+    "medium": "∙ Cryptographic governance program\n∙ Secure Baseline Configurations (SBC)\n∙ NIST Cryptographic Module Validation Program (CMVP) (https://csrc.nist.gov)\n∙ Microsoft BitLocker (https://microsoft.com)",
+    "large": "∙ Cryptographic governance program\n∙ Secure Baseline Configurations (SBC)\n∙ NIST Cryptographic Module Validation Program (CMVP) (https://csrc.nist.gov)\n∙ Microsoft BitLocker (https://microsoft.com)",
+    "enterprise": "∙ Cryptographic governance program\n∙ Secure Baseline Configurations (SBC)\n∙ NIST Cryptographic Module Validation Program (CMVP) (https://csrc.nist.gov)\n∙ Microsoft BitLocker (https://microsoft.com)"
+  },
+  "risks": [
+    "R-AC-1",
+    "R-AC-4",
+    "R-AM-1",
+    "R-AM-2",
+    "R-AM-3",
+    "R-BC-1",
+    "R-BC-2",
+    "R-BC-3",
+    "R-BC-4",
+    "R-BC-5",
+    "R-EX-1",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-EX-5",
+    "R-EX-6",
+    "R-EX-7",
+    "R-GV-1",
+    "R-GV-2",
+    "R-GV-3",
+    "R-GV-4",
+    "R-GV-5",
+    "R-IR-1",
+    "R-IR-3",
+    "R-IR-4",
+    "R-SA-1"
+  ],
+  "threats": [
+    "NT-7",
+    "MT-1",
+    "MT-2",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-10",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Data Classification & Handling",
+  "crosswalks": {
+    "general-csa-cmm-4-1-0": [
+      "DCS-05"
+    ],
+    "general-govramp": [
+      "SC-28(01)"
+    ],
+    "general-govramp-mod": [
+      "SC-28(01)"
+    ],
+    "general-govramp-high": [
+      "SC-28(01)"
+    ],
+    "general-iso-27002-2022": [
+      "7.1"
+    ],
+    "general-iso-27018-2025": [
+      "7.10"
+    ],
+    "general-nist-800-53-r4": [
+      "MP-5(4)"
+    ],
+    "general-nist-800-53-r5-2": [
+      "SC-28(01)"
+    ],
+    "general-nist-800-53-r5-2-privacy": [
+      "SC-28(01)"
+    ],
+    "general-nist-800-53-r5-2-mod": [
+      "SC-28(01)"
+    ],
+    "general-nist-800-82-r3": [
+      "SC-28(01)"
+    ],
+    "general-nist-800-82-r3-mod": [
+      "SC-28(01)"
+    ],
+    "general-nist-800-82-r3-high": [
+      "SC-28(01)"
+    ],
+    "general-nist-800-160-vol-2-r1": [
+      "SC-28(01)"
+    ],
+    "general-nist-800-171-r3": [
+      "03.08.05.a"
+    ],
+    "usa-federal-fbi-cjis-6-0": [
+      "SC-28(1)"
+    ],
+    "usa-federal-gsa-fedramp-5-low": [
+      "SC-28(01)"
+    ],
+    "usa-federal-gsa-fedramp-5-mod": [
+      "SC-28(01)"
+    ],
+    "usa-federal-gsa-fedramp-5-high": [
+      "SC-28(01)"
+    ],
+    "usa-federal-gsa-fedramp-5-li-saas": [
+      "SC-28(01)"
+    ],
+    "usa-federal-irs-1075-2021": [
+      "SC-28(CE-1)"
+    ],
+    "usa-federal-cms-marse-2-0": [
+      "MP-5(4)"
+    ],
+    "usa-state-tx-txramp-2-0-level-2": [
+      "SC-28 (01)"
+    ],
+    "emea-eu-nis2-annex-2024": [
+      "12.3.2(c)"
+    ],
+    "emea-gbr-def-stan-05-138-2024": [
+      "2302"
+    ],
+    "emea-gbr-def-stan-05-138-l2-2024": [
+      "2302"
+    ],
+    "emea-gbr-def-stan-05-138-l3-2024": [
+      "2302"
+    ],
+    "apac-nzl-ism-3-9": [
+      "8.4.13.C.01"
+    ],
+    "americas-can-itsp-10-171-2025": [
+      "03.08.05.A"
+    ]
+  }
+}

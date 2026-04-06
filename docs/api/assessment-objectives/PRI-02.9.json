@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PRI-02.9",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-02.9",
+      "ao_id": "PRI-02.9_A01",
+      "objective": "reasonable methods to accommodate data privacy notice formatting for consumers requiring alternative formatting due to accessibility needs are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-02.9",
+      "ao_id": "PRI-02.9_A02",
+      "objective": "reasonable methods to accommodate data privacy notice formatting for consumers requiring alternative formatting due to accessibility needs are implemented.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

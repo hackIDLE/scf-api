@@ -1,0 +1,16 @@
+{
+  "control_id": "PRI-19.2",
+  "risk_if_not_implemented": "Without Automated Decision-Making Technology (ADMT) Opt-Out Consent, security events may go undetected, allowing threats to persist unnoticed and increasing breach dwell time.",
+  "compensating_control_1": {
+    "control_id": "IAC-20",
+    "name": "Access Enforcement",
+    "description": "Mechanisms exist to enforce Logical Access Control (LAC) permissions that conform to the principle of \"least privilege.\"",
+    "justification": "Access Enforcement (IAC-20) provides access control enforcement that compensates for the absence of Automated Decision-Making Technology (ADMT) Opt-Out Consent (PRI-19.2) by restricting system and data access to authorized users through alternative identity and access mechanisms. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  },
+  "compensating_control_2": {
+    "control_id": "PRI-19",
+    "name": "Automated Decision-Making Technology (ADMT) For Data Subject Actions",
+    "description": "Mechanisms exist to ensure data subject actions utilizing Automated Decision-Making Technology (ADMT) where computation replaces, or substantially replaces, human decisionmaking, conforms with all applicable statutory, regulatory and/or contractual obligations.",
+    "justification": "Automated Decision-Making Technology (ADMT) For Data Subject Actions (PRI-19) provides detective monitoring capability that compensates for the absence of Automated Decision-Making Technology (ADMT) Opt-Out Consent (PRI-19.2) by identifying unauthorized, anomalous, or non-compliant activity that the primary control would have prevented. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  }
+}

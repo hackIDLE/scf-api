@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "DCH-05.9",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-05.9",
+      "ao_id": "DCH-05.9_A01",
+      "objective": "techniques or procedures used to validate regarding mechanisms for cybersecurity / data privacy attributes are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-16(09)_ODP[01]\n53A_R5_AC-16(09)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-05.9",
+      "ao_id": "DCH-05.9_A02",
+      "objective": "cybersecurity / data privacy attributes associated with information are changed only via regarding mechanisms validated using organization-defined techniques or procedures.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-16(09)[01]\n53A_R5_AC-16(09)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

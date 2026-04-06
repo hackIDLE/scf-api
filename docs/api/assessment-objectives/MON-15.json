@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "MON-15",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MON-15",
+      "ao_id": "MON-15_A01",
+      "objective": "a covert channel analysis is performed to identify those aspects of communications within the system that are potential avenues for covert channels (e.g., storage and/or timing).",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-31a.\n53A_R5_SC-31_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-15",
+      "ao_id": "MON-15_A02",
+      "objective": "the maximum bandwidth of those channels is estimated.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-31b.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "control_id": "GOV-04.1",
+  "title": "Stakeholder Accountability Structure",
+  "family": "GOV",
+  "description": "Mechanisms exist to enforce an accountability structure so that appropriate teams and individuals are empowered, responsible and trained for mapping, measuring and managing Technology Assets, Applications, Services and/or Data (TAASD)-related risks.",
+  "scf_question": "Does the organization enforce an accountability structure so that appropriate teams and individuals are empowered, responsible and trained for mapping, measuring and managing Technology Assets, Applications, Services and/or Data (TAASD)-related risks?",
+  "relative_weight": 8,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [
+    "E-HRS-15"
+  ],
+  "pptdf": "Process",
+  "nist_csf_function": "Govern",
+  "scrm_focus": {
+    "strategic": true,
+    "operational": true,
+    "tactical": true
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "2": "SCR-CMM Level 2 criteria definitions are not available for this control:\n▪ A reasonable person would conclude a well-defined and standardized process is required.\n▪ At this level of maturity, the “requirements-driven” nature of performing the control is focused on a localized and/or regionalized implementation, not uniform and consistent across the organization.\n▪ Requirements are narrowly scoped for applicability and are primarily derived from compliance obligations (e.g., laws, regulations and contracts).",
+    "3": "Cybersecurity & Data Protection Governance (GOV) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with GOV domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with GOV domain capabilities are well-documented and kept current by process owners.\n▪ The entity's GRC team, or similar function, is appropriately staffed and supported to implement and maintain GOV domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ Technology is leveraged to enhance the efficiency and accuracy of governance, risk management and compliance operations (e.g., GRC platform).\n▪ An implemented and operational capability exists to  enforce an accountability structure so that appropriate teams and individuals are empowered, responsible and trained for mapping, measuring and managing Technology Assets, Applications, Services and/or Data (TAASD)-related risks.",
+    "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [
+    "SCRMS",
+    "CORE AI Model Deployment",
+    "CORE ESP Level 1 Foundational",
+    "CORE ESP Level 2 Critical Infrastructure",
+    "CORE ESP Level 3 Advanced Threats",
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ Documented roles and responsibilities (RACI matrix or equivalent)\n∙ Job descriptions with security duties clearly defined",
+    "small": "∙ Documented RACI matrix for cybersecurity responsibilities\n∙ Formal security role assignments in job descriptions\n∙ Access control aligned to defined roles",
+    "medium": "∙ Documented RACI matrix for cybersecurity responsibilities\n∙ Role-based accountability framework\n∙ Performance metrics tied to security responsibilities",
+    "large": "∙ Formal accountability framework (RACI/RASCI) maintained in GRC platform\n∙ Security role definitions with measurable performance criteria\n∙ Control ownership assigned and tracked in GRC platform",
+    "enterprise": "∙ Enterprise accountability framework integrated with GRC and HR systems\n∙ Control ownership model with documented accountability for each control domain\n∙ Security KPIs tied to role-based performance management\n∙ Third-party accountability structures for key vendors"
+  },
+  "risks": [
+    "R-AC-1",
+    "R-AC-2",
+    "R-AC-3",
+    "R-AC-4",
+    "R-AM-1",
+    "R-AM-2",
+    "R-BC-1",
+    "R-BC-2",
+    "R-BC-3",
+    "R-BC-4",
+    "R-BC-5",
+    "R-EX-1",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-EX-5",
+    "R-EX-6",
+    "R-EX-7",
+    "R-GV-1",
+    "R-GV-2",
+    "R-GV-3",
+    "R-GV-4",
+    "R-GV-5",
+    "R-GV-6",
+    "R-GV-7",
+    "R-GV-8",
+    "R-IR-1",
+    "R-IR-2",
+    "R-IR-3",
+    "R-IR-4",
+    "R-SA-1",
+    "R-SA-2",
+    "R-SC-1",
+    "R-SC-2",
+    "R-SC-3",
+    "R-SC-4",
+    "R-SC-5",
+    "R-SC-6"
+  ],
+  "threats": [
+    "NT-1",
+    "NT-2",
+    "NT-3",
+    "NT-4",
+    "NT-5",
+    "NT-6",
+    "NT-7",
+    "NT-8",
+    "NT-9",
+    "NT-10",
+    "NT-11",
+    "NT-12",
+    "NT-13",
+    "NT-14",
+    "MT-1",
+    "MT-2",
+    "MT-3",
+    "MT-6",
+    "MT-9",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "errata": "- wordsmithed",
+  "family_name": "Cybersecurity & Data Protection Governance",
+  "crosswalks": {
+    "general-aicpa-pmf-2020": [
+      "M1.2-POF1",
+      "M1.2-POF2"
+    ],
+    "general-aicpa-tsc-2017": [
+      "CC1.2-POF1",
+      "CC1.3",
+      "CC1.3-POF1",
+      "CC1.3-POF2",
+      "CC1.3-POF3",
+      "CC1.3-POF4",
+      "CC1.3-POF5",
+      "CC1.3-POF6",
+      "CC1.5-POF1",
+      "CC5.3-POF2"
+    ],
+    "general-bsi-200-1-1-0": [
+      "4.1.6",
+      "7.2"
+    ],
+    "general-cobit-2019": [
+      "BAI01.03"
+    ],
+    "general-coso-2013": [
+      "3",
+      "5"
+    ],
+    "general-csa-cmm-4-1-0": [
+      "GRC-06"
+    ],
+    "general-csa-iot-2": [
+      "GVN-01"
+    ],
+    "general-imo-maritime-cyber-risk-management-2025": [
+      "3.3",
+      "3.5.1.2"
+    ],
+    "general-iso-22301-2019": [
+      "5.3",
+      "5.3(a)",
+      "5.3(b)",
+      "8.4.2.1"
+    ],
+    "general-iso-27017-2015": [
+      "5.1",
+      "7.2.1"
+    ],
+    "general-iso-27018-2025": [
+      "5.4"
+    ],
+    "general-iso-27701-2025": [
+      "5.1",
+      "5.3(a)"
+    ],
+    "general-iso-31000-2018": [
+      "5.2",
+      "5.4.2",
+      "5.4.3"
+    ],
+    "general-iso-42001-2023": [
+      "5.1",
+      "A.3"
+    ],
+    "general-nist-100-1-ai-rmf": [
+      "GOVERN 1.3",
+      "GOVERN 2.0",
+      "GOVERN 2.1",
+      "GOVERN 5.0",
+      "MANAGE 2.4"
+    ],
+    "general-nist-800-37-r2": [
+      "TASK P-9"
+    ],
+    "general-nist-800-218": [
+      "PO.2.3"
+    ],
+    "general-nist-csf-2-0": [
+      "GV.RM-05",
+      "GV.RR-01"
+    ],
+    "general-shared-assessments-sig-2025": [
+      "R.6"
+    ],
+    "general-tisax-6-0-3": [
+      "1.2.1",
+      "1.2.2",
+      "1.2.4"
+    ],
+    "usa-federal-dow-cert-rmm-1-2": [
+      "ADM:SG1.SP3"
+    ],
+    "usa-federal-dhs-cisa-cpg-2-0": [
+      "1.B",
+      "1.C"
+    ],
+    "usa-federal-doe-c2m2-2-1": [
+      "RISK-1e",
+      "PROGRAM-2f"
+    ],
+    "usa-federal-far-52-204-21": [
+      "52.204-21(b)(1)"
+    ],
+    "usa-federal-sec-cybersecurity-rule-2023": [
+      "17 CFR 229.106(c)(1)"
+    ],
+    "usa-state-ny-dfs-23-nycrr500-2023-amd2": [
+      "500.4(b)",
+      "500.4(b)(6)"
+    ],
+    "emea-eu-ai-act-2024": [
+      "Article 17.1(m)"
+    ],
+    "emea-eu-eba-ict-srm-2025": [
+      "3.3.1(11)",
+      "3.7.5(91)"
+    ],
+    "emea-deu-bsrit-2017": [
+      "4.5",
+      "4.6",
+      "4.10"
+    ],
+    "emea-gbr-caf-4-0": [
+      "A1.b"
+    ],
+    "emea-gbr-def-stan-05-138-2024": [
+      "1101",
+      "1103"
+    ],
+    "emea-gbr-def-stan-05-138-l2-2024": [
+      "1101",
+      "1103"
+    ],
+    "emea-gbr-def-stan-05-138-l3-2024": [
+      "1101",
+      "1103"
+    ],
+    "apac-aus-ps-cps-230-2023": [
+      "21"
+    ],
+    "apac-ind-sebi-2024": [
+      "GV.RR.S1",
+      "GV.RR.S2"
+    ],
+    "apac-nzl-hisf-mlhsp-2023": [
+      "HHSP21",
+      "HHSP27",
+      "HML21",
+      "HML27"
+    ],
+    "apac-nzl-hisf-suppliers-2023": [
+      "HSUP19",
+      "HSUP23"
+    ],
+    "americas-can-osfi-b13-2022": [
+      "1",
+      "1.1",
+      "1.1.1",
+      "1.1.2"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "GOV-13",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "GOV-13",
+      "ao_id": "GOV-13_A01",
+      "objective": "an executive steering committee, or advisory board, evaluates business practices for possible instances where host nation business practices could leverage the organization's technology assets for economic or political espionage and/or cyberwarfare activities.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-13",
+      "ao_id": "GOV-13_A02",
+      "objective": "measures exist for the executive steering committee, or advisory board, to proactively identify and evaluate host nation business practices to leverage the organization's technology assets for economic or political espionage and/or cyberwarfare activities.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-13",
+      "ao_id": "GOV-13_A03",
+      "objective": "actions are taken to prevent and/or block potential instances where host nation business practices could leverage the organization's technology assets for economic or political espionage and/or cyberwarfare activities.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

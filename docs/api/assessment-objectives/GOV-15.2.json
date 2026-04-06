@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "GOV-15.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "GOV-15.2",
+      "ao_id": "GOV-15.2_A01",
+      "objective": "roles and responsibilities exist to compel data and/or process owners to implement required cybersecurity / data privacy controls for each system, application and/or service under their control.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-15.2",
+      "ao_id": "GOV-15.2_A02",
+      "objective": "Individual Contributor (IC) performance reviews cover how data and/or process owners implement required cybersecurity / data privacy controls for each system, application and/or service under their control.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "threat_id": "MT-9",
+  "grouping": "Man-Made Threat",
+  "name": "Human Error",
+  "description": "Human error is a broad category that includes non-malicious actions that are unexpected and unpredictable by humans. These incidents can range from misconfigurations, to misunderstandings or other unintentional accidents."
+}

@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-26.4",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-26.4",
+      "ao_id": "AAT-26.4_A01",
+      "objective": "instructions for data annotators are documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-26.4",
+      "ao_id": "AAT-26.4_A02",
+      "objective": "instructions for Artificial Intelligence (AI) and Autonomous Technologies (AAT) red-teamers are documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

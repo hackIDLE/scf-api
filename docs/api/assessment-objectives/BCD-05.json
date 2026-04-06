@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "BCD-05",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "BCD-05",
+      "ao_id": "BCD-05_A01",
+      "objective": "the contingency plan test results are reviewed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-04b.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-05",
+      "ao_id": "BCD-05_A02",
+      "objective": "corrective actions to remediate contingency plan deficiencies are initiated, if needed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-04c.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-AST-27",
+  "area": "Asset Management",
+  "artifact_name": "Configuration Management",
+  "artifact_description": "Documented evidence of standardized configuration management practices.",
+  "scf_controls": [
+    "CFG-01"
+  ],
+  "cmmc_mapping": "AC.L2-3.1.12\nAC.L2-3.1.16\nAC.L2-3.1.18\nCM.L2-3.4.1\nCM.L2-3.4.4\nCM.L2-3.4.5\nCM.L2-3.4.6\nCM.L2-3.4.8\nCM.L2-3.4.9"
+}

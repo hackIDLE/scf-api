@@ -1,0 +1,14 @@
+{
+  "erl_id": "E-MON-05",
+  "area": "Event Log Monitoring",
+  "artifact_name": "Centralized Event Log Collection",
+  "artifact_description": "Documented evidence of security-relevant activities being logged and included as part of the centralized event log collection and review/analysis process.",
+  "scf_controls": [
+    "MON-01.2",
+    "MON-01.8",
+    "MON-02",
+    "MON-02.2",
+    "MON-02.1"
+  ],
+  "cmmc_mapping": "AU.L2-3.3.8"
+}

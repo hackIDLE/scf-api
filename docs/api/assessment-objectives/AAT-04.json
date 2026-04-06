@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "AAT-04",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-04",
+      "ao_id": "AAT-04_A01",
+      "objective": "capabilities for Artificial Intelligence (AI) and Autonomous Technologies (AAT) are benchmarked.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-04",
+      "ao_id": "AAT-04_A02",
+      "objective": "targeted usage for Artificial Intelligence (AI) and Autonomous Technologies (AAT) is benchmarked.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-04",
+      "ao_id": "AAT-04_A03",
+      "objective": "goals for Artificial Intelligence (AI) and Autonomous Technologies (AAT) are benchmarked.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-04",
+      "ao_id": "AAT-04_A04",
+      "objective": "expected benefits for Artificial Intelligence (AI) and Autonomous Technologies (AAT) are benchmarked.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-04",
+      "ao_id": "AAT-04_A05",
+      "objective": "expected costs for Artificial Intelligence (AI) and Autonomous Technologies (AAT) are benchmarked.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

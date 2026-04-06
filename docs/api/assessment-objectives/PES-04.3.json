@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "PES-04.3",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PES-04.3",
+      "ao_id": "PES-04.3_A01",
+      "objective": "physical security personnel temporarily store undelivered packages or deliveries in a dedicated, secure area (e.g., security cage, secure room) that is locked, access-controlled and monitored with surveillance cameras and/or security guards.",
+      "pptdf": "Facility",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

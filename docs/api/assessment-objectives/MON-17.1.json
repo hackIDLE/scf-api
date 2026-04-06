@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "MON-17.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MON-17.1",
+      "ao_id": "MON-17.1_A01",
+      "objective": "an escalation matrix that is specific to the organization's unique monitoring practices is developed and maintained.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

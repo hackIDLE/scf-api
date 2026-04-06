@@ -1,0 +1,16 @@
+{
+  "control_id": "IAC-01.1",
+  "risk_if_not_implemented": "Without Retain Access Records, unauthorized users may gain access to systems or data, increasing risk of data breaches and insider threats.",
+  "compensating_control_1": {
+    "control_id": "IAC-15",
+    "name": "Account Management",
+    "description": "Mechanisms exist to proactively govern account management of individual, group, system, service, application, guest and temporary accounts.",
+    "justification": "Account Management (IAC-15) provides access control enforcement that compensates for the absence of Retain Access Records (IAC-01.1) by restricting system and data access to authorized users through alternative identity and access mechanisms. Given the data-handling focus of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  },
+  "compensating_control_2": {
+    "control_id": "IAC-17",
+    "name": "Periodic Review of Account Privileges",
+    "description": "Mechanisms exist to periodically-review the privileges assigned to individuals and service accounts to validate the need for such privileges and reassign or remove unnecessary privileges, as necessary.",
+    "justification": "Periodic Review of Account Privileges (IAC-17) provides periodic assessment and assurance that compensates for the absence of Retain Access Records (IAC-01.1) by providing structured evaluation of the environment to surface gaps and verify residual control effectiveness. Given the data-handling focus of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  }
+}

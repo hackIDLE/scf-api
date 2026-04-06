@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "AAT-10.10",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-10.10",
+      "ao_id": "AAT-10.10_A01",
+      "objective": "the organization's Artificial Intelligence Test, Evaluation, Validation & Verification (AI TEVV) capability includes a determination on the viability of the proposed Artificial Intelligence (AI) and Autonomous Technologies (AAT).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

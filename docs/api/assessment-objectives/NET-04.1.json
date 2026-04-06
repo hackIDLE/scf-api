@@ -1,0 +1,66 @@
+{
+  "scf_control_id": "NET-04.1",
+  "total": 6,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-04.1",
+      "ao_id": "NET-04.1_A01",
+      "objective": "network communications traffic is denied by default.",
+      "pptdf": "Technology",
+      "origin": "171A_3.13.6[a]\n171A_R3_A.03.13.06[01]\n53A_R5_SC-07(05)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-04.1",
+      "ao_id": "NET-04.1_A02",
+      "objective": "network communications traffic is allowed by exception.",
+      "pptdf": "Technology",
+      "origin": "171A_3.13.6[b]\n171A_R3_A.03.13.06[02]\n53A_R5_SC-07(05)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-04.1",
+      "ao_id": "NET-04.1_A03",
+      "objective": "systems for which network communications traffic is denied by default and network communications traffic is allowed by exception are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-07(05)_ODP[01]\n53A_R5_SC-07(05)_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "any systems",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-04.1",
+      "ao_id": "NET-04.1_A04",
+      "objective": "authorized sources of incoming communications to be routed are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-07(11)_ODP[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-04.1",
+      "ao_id": "NET-04.1_A05",
+      "objective": "authorized destinations to which incoming communications from authorized sources may be routed are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-07(11)_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-04.1",
+      "ao_id": "NET-04.1_A06",
+      "objective": "only incoming communications from authorized sources are allowed to be routed to authorized destinations.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-07(11)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

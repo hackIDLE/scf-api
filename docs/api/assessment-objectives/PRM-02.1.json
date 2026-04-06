@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PRM-02.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRM-02.1",
+      "ao_id": "PRM-02.1_A01",
+      "objective": "foundational cybersecurity practices are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRM-02.1",
+      "ao_id": "PRM-02.1_A02",
+      "objective": "foundational cybersecurity practices are integrated with advanced technologies to maintain situation awareness of and minimize the organization's exposure to evolving risks and threats.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

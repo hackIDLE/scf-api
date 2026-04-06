@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "AAT-08",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-08",
+      "ao_id": "AAT-08_A01",
+      "objective": "cybersecurity / data privacy roles and responsibilities are incorporated into organizational position descriptions.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PS-09[01]\n53A_R5_PS-09[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-08",
+      "ao_id": "AAT-08_A02",
+      "objective": "users are formally made aware of their roles and responsibilities to maintain a safe and secure working environment.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-08",
+      "ao_id": "AAT-08_A03",
+      "objective": "acknowledgement of user awareness is maintained by the organization.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-08",
+      "ao_id": "AAT-08_A04",
+      "objective": "the frequency at which to review / update position risk designations is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PS-02_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-08",
+      "ao_id": "AAT-08_A05",
+      "objective": "a risk designation is assigned to all organizational positions.",
+      "pptdf": "People",
+      "origin": "53A_R5_PS-02a.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

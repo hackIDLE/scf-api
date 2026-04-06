@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "AAT-29.4",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-29.4",
+      "ao_id": "AAT-29.4_A01",
+      "objective": "AI agent orchestration protocols are configured to prevent unauthorized tool chaining.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-29.4",
+      "ao_id": "AAT-29.4_A02",
+      "objective": "AI agent orchestration protocols are configured to prevent context manipulation.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-29.4",
+      "ao_id": "AAT-29.4_A03",
+      "objective": "AI agent orchestration protocols are configured to prevent protocol-based escalation.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

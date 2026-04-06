@@ -1,0 +1,7 @@
+{
+  "risk_id": "R-EX-5",
+  "grouping": "Exposure",
+  "name": "Fines and judgements",
+  "description": "Financial damages due to fines and/or judgements from statutory / regulatory / contractual non-compliance.",
+  "nist_csf_function": "Recover"
+}

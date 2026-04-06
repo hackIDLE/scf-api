@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "IAC-10.3",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-10.3",
+      "ao_id": "IAC-10.3_A01",
+      "objective": "the validation and verification of identity evidence is conducted in person before a designated registration authority.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-12(04)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

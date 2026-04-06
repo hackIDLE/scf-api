@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "AAT-16",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-16",
+      "ao_id": "AAT-16_A01",
+      "objective": "responsible party(ies) monitor the functionality and behavior of deployed Artificial Intelligence (AI) and Autonomous Technologies (AAT) for anomalous performance or outcomes inconsistent with intended use.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

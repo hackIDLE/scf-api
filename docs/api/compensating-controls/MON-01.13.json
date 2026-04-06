@@ -1,0 +1,16 @@
+{
+  "control_id": "MON-01.13",
+  "risk_if_not_implemented": "Without Alert Threshold Tuning, residual security, compliance, or resilience risk may accumulate, potentially leading to control failures or non-compliance.",
+  "compensating_control_1": {
+    "control_id": "CPL-04",
+    "name": "Audit Activities",
+    "description": "Mechanisms exist to thoughtfully plan audits by including input from operational risk and compliance partners to minimize the impact of audit-related activities on business operations.",
+    "justification": "Audit Activities (CPL-04) provides detective monitoring capability that compensates for the absence of Alert Threshold Tuning (MON-01.13) by identifying unauthorized, anomalous, or non-compliant activity that the primary control would have prevented. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  },
+  "compensating_control_2": {
+    "control_id": "MON-17",
+    "name": "Event Log Analysis & Triage",
+    "description": "Mechanisms exist to ensure event log reviews include analysis and triage practices that integrate with the organization's established incident response processes.",
+    "justification": "Event Log Analysis & Triage (MON-17) provides detective monitoring capability that compensates for the absence of Alert Threshold Tuning (MON-01.13) by identifying unauthorized, anomalous, or non-compliant activity that the primary control would have prevented. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  }
+}

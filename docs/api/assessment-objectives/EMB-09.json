@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "EMB-09",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "EMB-09",
+      "ao_id": "EMB-09_A01",
+      "objective": "power levels of embedded technologies are monitored for decreased or excessive power usage, including battery drainage.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "EMB-09",
+      "ao_id": "EMB-09_A02",
+      "objective": "incidents of decreased or excessive power usage, including battery drainage, are investigated for device tampering.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

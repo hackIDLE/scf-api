@@ -1,0 +1,76 @@
+{
+  "scf_control_id": "TDA-12",
+  "total": 7,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-12",
+      "ao_id": "TDA-12_A01",
+      "objective": "suppliers of critical or mission-essential technologies, products and services are identified.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-30(01)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-12",
+      "ao_id": "TDA-12_A02",
+      "objective": "suppliers of critical or mission-essential technologies, products and services are prioritized.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-30(01)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-12",
+      "ao_id": "TDA-12_A03",
+      "objective": "suppliers of critical or mission-essential technologies, products and services are assessed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-30(01)[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-12",
+      "ao_id": "TDA-12_A04",
+      "objective": "critical system components to be reimplemented or custom-developed are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-20_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-12",
+      "ao_id": "TDA-12_A05",
+      "objective": "critical systems are reimplemented or custom-developed.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SA-20",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-12",
+      "ao_id": "TDA-12_A06",
+      "objective": "systems or system components supporting mission-essential services or functions are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-23_ODP[01]\n53A_R5_SA-23_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-12",
+      "ao_id": "TDA-12_A07",
+      "objective": "organization-defined criteria are employed on systems or system components supporting essential services or functions to increase the trustworthiness in those systems or components.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SA-23",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

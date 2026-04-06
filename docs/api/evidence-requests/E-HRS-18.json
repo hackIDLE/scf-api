@@ -1,0 +1,16 @@
+{
+  "erl_id": "E-HRS-18",
+  "area": "Human Resources",
+  "artifact_name": "Provisioning Checklist (Onboarding)",
+  "artifact_description": "Documented evidence of personnel management practices to formally onboard personnel into their assigned roles.",
+  "scf_controls": [
+    "HRS-03",
+    "HRS-03.1",
+    "HRS-04.2",
+    "HRS-05.7",
+    "HRS-10",
+    "IAC-07",
+    "IAC-28"
+  ],
+  "cmmc_mapping": ""
+}

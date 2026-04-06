@@ -1,0 +1,164 @@
+{
+  "control_id": "CFG-06.1",
+  "title": "Integrity Assurance & Enforcement (IAE)",
+  "family": "CFG",
+  "description": "Automated mechanisms exist to identify unauthorized deviations from an approved baseline and implement automated resiliency actions to remediate the unauthorized change.",
+  "scf_question": "Does the organization use automated mechanisms to identify unauthorized deviations from an approved baseline and implement automated resiliency actions to remediate the unauthorized change?",
+  "relative_weight": 3,
+  "conformity_cadence": "Quarterly",
+  "evidence_requests": [],
+  "pptdf": "Technology",
+  "nist_csf_function": "Protect",
+  "scrm_focus": {
+    "strategic": false,
+    "operational": false,
+    "tactical": true
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "2": "SCR-CMM Level 2 criteria definitions are not available for this control:\n▪ A reasonable person would conclude a well-defined and standardized process is required.\n▪ At this level of maturity, the “requirements-driven” nature of performing the control is focused on a localized and/or regionalized implementation, not uniform and consistent across the organization.\n▪ Requirements are narrowly scoped for applicability and are primarily derived from compliance obligations (e.g., laws, regulations and contracts).",
+    "3": "Configuration Management (CFG) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CFG domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CFG domain capabilities are well-documented and kept current by process owners.\n▪ A configuration management team, or similar function, is appropriately staffed and supported to implement and maintain CFG domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of configuration management operations (e.g., Configuration Management Database (CMBD) Asset Management solution).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CFG domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to automatically identify unauthorized deviations from an approved baseline and implement automated resiliency actions to remediate the unauthorized change.",
+    "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [
+    "CORE ESP Level 3 Advanced Threats"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ Document baseline configurations for key systems",
+    "small": "∙ Configuration baseline documentation\n∙ CIS Benchmark hardening guides",
+    "medium": "∙ CimTrak Integrity Suite (https://cimcor.com/cimtrak)",
+    "large": "∙ CimTrak Integrity Suite (https://cimcor.com/cimtrak)",
+    "enterprise": "∙ CimTrak Integrity Suite (https://cimcor.com/cimtrak)"
+  },
+  "risks": [
+    "R-AC-1",
+    "R-AC-2",
+    "R-AC-3",
+    "R-AC-4",
+    "R-AM-1",
+    "R-AM-2",
+    "R-AM-3",
+    "R-BC-1",
+    "R-BC-2",
+    "R-BC-3",
+    "R-BC-4",
+    "R-BC-5",
+    "R-EX-1",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-EX-5",
+    "R-EX-6",
+    "R-EX-7",
+    "R-GV-1",
+    "R-GV-2",
+    "R-GV-3",
+    "R-GV-4",
+    "R-GV-5",
+    "R-GV-6",
+    "R-GV-7",
+    "R-GV-8",
+    "R-IR-1",
+    "R-IR-2",
+    "R-IR-3",
+    "R-IR-4",
+    "R-SA-1",
+    "R-SA-2",
+    "R-SC-1",
+    "R-SC-2",
+    "R-SC-3",
+    "R-SC-4",
+    "R-SC-5",
+    "R-SC-6"
+  ],
+  "threats": [
+    "NT-7",
+    "MT-1",
+    "MT-2",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-10",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Configuration Management",
+  "crosswalks": {
+    "general-cis-csc-8-1": [
+      "2.3",
+      "2.4"
+    ],
+    "general-cis-csc-8-1-ig1": [
+      "2.3"
+    ],
+    "general-cis-csc-8-1-ig2": [
+      "2.3",
+      "2.4"
+    ],
+    "general-cis-csc-8-1-ig3": [
+      "2.3",
+      "2.4"
+    ],
+    "general-iec-62443-4-2-2019": [
+      "HDR 3.11(1)",
+      "NDR 3.11(1)"
+    ],
+    "general-nist-800-53-r5-2": [
+      "CM-03(08)",
+      "CM-11(03)"
+    ],
+    "general-nist-800-53-r5-2-privacy": [
+      "CM-11(03)"
+    ],
+    "general-nist-800-82-r3": [
+      "CM-03(08)",
+      "CM-11(03)"
+    ],
+    "general-nist-800-172": [
+      "3.4.2e",
+      "3.14.7e"
+    ],
+    "general-nist-800-207": [
+      "NIST Tenet 5"
+    ],
+    "usa-federal-dow-cmmc-2-level-3": [
+      "CM.L3-3.4.2E"
+    ],
+    "usa-federal-gsa-fedramp-5-low": [
+      "CM-11(03)"
+    ],
+    "usa-federal-gsa-fedramp-5-mod": [
+      "CM-11(03)"
+    ],
+    "usa-federal-gsa-fedramp-5-high": [
+      "CM-11(03)"
+    ],
+    "usa-federal-gsa-fedramp-5-li-saas": [
+      "CM-11(03)"
+    ],
+    "apac-aus-ism-2024-june": [
+      "ISM-0843",
+      "ISM-0846",
+      "ISM-0955",
+      "ISM-1392",
+      "ISM-1471",
+      "ISM-1490",
+      "ISM-1544",
+      "ISM-1582"
+    ],
+    "apac-ind-sebi-2024": [
+      "PR.DS.S6"
+    ],
+    "amaericas-can-osfi-self-assessment": [
+      "4.19",
+      "4.20"
+    ]
+  }
+}

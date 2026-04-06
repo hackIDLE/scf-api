@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "IAC-10.10",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-10.10",
+      "ao_id": "IAC-10.10_A01",
+      "objective": "the time period after which the use of cached authenticators is prohibited is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IA-05(13)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-10.10",
+      "ao_id": "IAC-10.10_A02",
+      "objective": "the use of cached authenticators is prohibited after an organization-defined time period.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-05(13)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "IRO-10.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IRO-10.2",
+      "ao_id": "IRO-10.2_A01",
+      "objective": "sensitive / regulated data incidents are reported in a timely manner.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-10.2",
+      "ao_id": "IRO-10.2_A02",
+      "objective": "authorities to whom incident information is to be reported are defined.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.06.02.ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

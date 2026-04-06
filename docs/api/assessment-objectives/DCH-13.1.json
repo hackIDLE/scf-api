@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "DCH-13.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-13.1",
+      "ao_id": "DCH-13.1_A01",
+      "objective": "authorized individuals are permitted to use an external system to access the system or to process, store or transmit organization-controlled information only after verification of the implementation of controls on the external system as specified in the organization's cybersecurity / data privacy policies and cybersecurity / data privacy plans (if applicable).",
+      "pptdf": "Data",
+      "origin": "53A_R5_AC-20(01)(a)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-13.1",
+      "ao_id": "DCH-13.1_A02",
+      "objective": "authorized individuals are permitted to use an external system to access the system or to process, store or transmit organization-controlled information only after retention of approved system connection or processing agreements with the organizational entity hosting the external system (if applicable).",
+      "pptdf": "Data",
+      "origin": "53A_R5_AC-20(01)(b)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

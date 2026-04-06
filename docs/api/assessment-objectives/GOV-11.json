@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "GOV-11",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "GOV-11",
+      "ao_id": "GOV-11_A01",
+      "objective": "systems or system components supporting mission-essential services or functions are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-32_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-11",
+      "ao_id": "GOV-11_A02",
+      "objective": "systems or system components supporting mission-essential services or functions are analyzed to ensure that the information resources are being used in a manner that is consistent with their intended purpose.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-32",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

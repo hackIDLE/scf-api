@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "MON-03.5",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MON-03.5",
+      "ao_id": "MON-03.5_A01",
+      "objective": "elements identified in the privacy risk assessment are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AU-03(03)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-03.5",
+      "ao_id": "MON-03.5_A02",
+      "objective": "Personal Data (PD) contained in audit records is limited to organization-defined elements identified in the privacy risk assessment.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AU-03(03)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

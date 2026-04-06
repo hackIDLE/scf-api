@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "EMB-07",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "EMB-07",
+      "ao_id": "EMB-07_A01",
+      "objective": "embedded devices are capable of securely receiving software updates and upgraded functionality.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

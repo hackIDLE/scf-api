@@ -1,0 +1,13 @@
+{
+  "erl_id": "E-AST-23",
+  "area": "Asset Management",
+  "artifact_name": "Geolocation Inventory",
+  "artifact_description": "Documented evidence of designated internal and third-party facilities where organizational data is stored, transmitted and/or processed.",
+  "scf_controls": [
+    "BCD-02.4",
+    "CLD-09",
+    "DCH-19",
+    "DCH-24"
+  ],
+  "cmmc_mapping": ""
+}

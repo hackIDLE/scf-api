@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-CAP-03",
+  "area": "Capacity Management",
+  "artifact_name": "Technology Performance Monitoring",
+  "artifact_description": "Documented evidence of performance monitoring for technology-related capacity and/or performance criteria.",
+  "scf_controls": [
+    "CAP-04"
+  ],
+  "cmmc_mapping": ""
+}

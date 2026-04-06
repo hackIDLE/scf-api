@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PES-07.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PES-07.1",
+      "ao_id": "PES-07.1_A01",
+      "objective": "the critical system components that require automatic voltage controls are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PE-09(02)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-07.1",
+      "ao_id": "PES-07.1_A02",
+      "objective": "automatic voltage controls for critical system components are employed.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-09(02)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

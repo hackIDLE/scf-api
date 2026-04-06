@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "NET-18.1",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-18.1",
+      "ao_id": "NET-18.1_A01",
+      "objective": "internal communications traffic to be routed to external networks is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-07(08)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-18.1",
+      "ao_id": "NET-18.1_A02",
+      "objective": "external networks to which internal communications traffic is to be routed are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-07(08)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "any network outside of organizational control and any network outside the authorization boundary",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-18.1",
+      "ao_id": "NET-18.1_A03",
+      "objective": "internal communications traffic is routed to external networks through authenticated proxy servers at managed interfaces.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-07(08)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

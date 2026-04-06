@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "CFG-04.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CFG-04.1",
+      "ao_id": "CFG-04.1_A01",
+      "objective": "restrictions on the use of open-source software are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-10(01)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-04.1",
+      "ao_id": "CFG-04.1_A02",
+      "objective": "organization-defined restrictions are established for the use of open-source software.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_CM-10(01)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

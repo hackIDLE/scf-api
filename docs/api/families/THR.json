@@ -1,0 +1,2451 @@
+{
+  "family_code": "THR",
+  "family_name": "Threat Management",
+  "control_count": 13,
+  "controls": [
+    {
+      "control_id": "THR-01",
+      "title": "Threat Intelligence Program",
+      "family": "THR",
+      "description": "Mechanisms exist to implement a threat intelligence program that includes a cross-organization information-sharing capability that can influence the development of the system and security architectures, selection of security solutions, monitoring, threat hunting, response and recovery activities.",
+      "scf_question": "Does the organization implement a threat intelligence program that includes a cross-organization information-sharing capability that can influence the development of the system and security architectures, selection of security solutions, monitoring, threat hunting, response and recovery activities?",
+      "relative_weight": 8,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [
+        "E-THR-04"
+      ],
+      "pptdf": "Process",
+      "nist_csf_function": "Govern",
+      "scrm_focus": {
+        "strategic": true,
+        "operational": true,
+        "tactical": true
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "Threat Management (THR) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with THR domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Threat management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ IT and/or cybersecurity personnel subscribe to threat feeds to maintain situational awareness of emerging threats.",
+        "2": "Threat Management (THR) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with THR domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with THR domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with THR  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Threat management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Threat management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
+        "3": "Threat Management (THR) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with THR domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with THR domain capabilities are well-documented and kept current by process owners.\n▪ A threat management team, or similar function, is appropriately staffed and supported to implement and maintain THR domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of threat management operations (e.g., threat intelligence solution, bug bounty solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with THR domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to implement a threat intelligence program that includes a cross-organization information-sharing capability that can influence the development of the system and security architectures, selection of security solutions, monitoring, threat hunting, response and recovery activities.",
+        "4": "Threat Management (THR) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [
+        "SCRMS",
+        "CORE ESP Level 1 Foundational",
+        "CORE ESP Level 2 Critical Infrastructure",
+        "CORE ESP Level 3 Advanced Threats",
+        "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+      ],
+      "possible_solutions": {
+        "micro_small": "∙ Subscribe to free threat intelligence feeds (e.g., CISA alerts)",
+        "small": "∙ CISA alerts subscription\n∙ Basic threat awareness program",
+        "medium": "∙ Threat intelligence program",
+        "large": "∙ Threat intelligence program",
+        "enterprise": "∙ Threat intelligence program"
+      },
+      "risks": [
+        "R-AC-1",
+        "R-AC-2",
+        "R-AC-3",
+        "R-AC-4",
+        "R-AM-1",
+        "R-AM-2",
+        "R-AM-3",
+        "R-BC-1",
+        "R-BC-2",
+        "R-BC-3",
+        "R-BC-4",
+        "R-BC-5",
+        "R-EX-1",
+        "R-EX-2",
+        "R-EX-3",
+        "R-EX-4",
+        "R-EX-5",
+        "R-EX-6",
+        "R-EX-7",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-3",
+        "R-GV-4",
+        "R-GV-5",
+        "R-GV-6",
+        "R-GV-7",
+        "R-IR-1",
+        "R-IR-2",
+        "R-IR-3",
+        "R-IR-4",
+        "R-SA-1",
+        "R-SA-2",
+        "R-SC-1",
+        "R-SC-2",
+        "R-SC-3",
+        "R-SC-4",
+        "R-SC-5",
+        "R-SC-6"
+      ],
+      "threats": [
+        "NT-1",
+        "NT-2",
+        "NT-3",
+        "NT-4",
+        "NT-5",
+        "NT-6",
+        "NT-7",
+        "NT-8",
+        "NT-9",
+        "NT-10",
+        "NT-11",
+        "NT-12",
+        "NT-13",
+        "NT-14",
+        "MT-1",
+        "MT-2",
+        "MT-3",
+        "MT-4",
+        "MT-5",
+        "MT-6",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-16",
+        "MT-17",
+        "MT-18",
+        "MT-19",
+        "MT-20",
+        "MT-21",
+        "MT-22",
+        "MT-23",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Threat Management",
+      "crosswalks": {
+        "general-aicpa-tsc-2017": [
+          "CC3.2-POF6",
+          "CC3.2-POF7",
+          "CC3.3",
+          "CC3.3-POF1",
+          "CC3.3-POF2",
+          "CC3.3-POF3",
+          "CC3.3-POF4",
+          "CC3.3-POF5",
+          "CC3.4-POF6",
+          "CC9.1",
+          "CC9.2-POF13"
+        ],
+        "general-coso-2013": [
+          "8"
+        ],
+        "general-csa-cmm-4-1-0": [
+          "TVM-04"
+        ],
+        "general-imo-maritime-cyber-risk-management-2025": [
+          "3.5.4.1"
+        ],
+        "general-iso-27002-2022": [
+          "5.7"
+        ],
+        "general-iso-27018-2025": [
+          "5.7"
+        ],
+        "general-naic-insurance-data-security-model-law-668-2017": [
+          "4.C(5)",
+          "4.D(4)"
+        ],
+        "general-nist-800-53-r4": [
+          "PM-16"
+        ],
+        "general-nist-800-53-r5-2": [
+          "PM-15",
+          "PM-16"
+        ],
+        "general-nist-800-53-r5-2-privacy": [
+          "PM-15"
+        ],
+        "general-nist-800-82-r3": [
+          "PM-15",
+          "PM-16"
+        ],
+        "general-nist-800-82-r3-low": [
+          "PM-15",
+          "PM-16"
+        ],
+        "general-nist-800-82-r3-mod": [
+          "PM-15",
+          "PM-16"
+        ],
+        "general-nist-800-82-r3-high": [
+          "PM-15",
+          "PM-16"
+        ],
+        "general-nist-800-160-vol-2-r1": [
+          "PM-16"
+        ],
+        "general-nist-800-161-r1": [
+          "AT-3(6)",
+          "PM-15",
+          "PM-16"
+        ],
+        "general-nist-800-161-r1-level-1": [
+          "PM-15",
+          "PM-16"
+        ],
+        "general-nist-800-161-r1-level-2": [
+          "AT-3(6)",
+          "PM-15",
+          "PM-16"
+        ],
+        "general-nist-800-171-r2": [
+          "3.12.3",
+          "3.14.3"
+        ],
+        "general-nist-800-171-r3": [
+          "03.11.02.a",
+          "03.14.03.a"
+        ],
+        "general-nist-800-207": [
+          "NIST Tenet 7"
+        ],
+        "general-nist-csf-2-0": [
+          "ID.RA-03",
+          "ID.RA-08",
+          "DE",
+          "DE.AE-07"
+        ],
+        "general-pci-dss-4-0-1": [
+          "6.3",
+          "A3.5.1"
+        ],
+        "general-sparta": [
+          "CM0009"
+        ],
+        "general-un-155-2021": [
+          "7.2.2.2(g)"
+        ],
+        "general-un-ece-wp-29-2020": [
+          "7.2.2.2(g)"
+        ],
+        "usa-federal-dhs-cisa-tic-3-0": [
+          "3.UNI.ETINT"
+        ],
+        "usa-federal-dhs-cisa-cpg-2-0": [
+          "1.G",
+          "1.H",
+          "3.A"
+        ],
+        "usa-federal-dow-cmmc-2-level-2": [
+          "CAL2.-3.12.3",
+          "SIL2.-3.14.3"
+        ],
+        "usa-federal-law-facta-fcra-2023": [
+          "615(e)(2)(A)"
+        ],
+        "usa-federal-gsa-fedramp-5-low": [
+          "PM-15"
+        ],
+        "usa-federal-gsa-fedramp-5-mod": [
+          "PM-15"
+        ],
+        "usa-federal-gsa-fedramp-5-high": [
+          "PM-15"
+        ],
+        "usa-federal-gsa-fedramp-5-li-saas": [
+          "PM-15"
+        ],
+        "usa-federal-cms-marse-2-0": [
+          "PM-15",
+          "PM-16"
+        ],
+        "usa-federal-nispom-2020": [
+          "§117.18(b)(5)"
+        ],
+        "usa-state-ny-dfs-23-nycrr500-2023-amd2": [
+          "500.10(a)(2)",
+          "500.10(a)(3)"
+        ],
+        "usa-state-tx-dir-security-control-standards-catalog-2-2": [
+          "PM-15",
+          "PM-16"
+        ],
+        "usa-state-vt-act-171-2018": [
+          "2447(b)(2)"
+        ],
+        "emea-eu-dora-2023": [
+          "Article 13.1",
+          "Article 45.1",
+          "Article 45.1(a)",
+          "Article 45.1(b)",
+          "Article 45.1(c)",
+          "Article 45.2",
+          "Article 45.3"
+        ],
+        "emea-aut-fappd-2000": [
+          "Sec 14",
+          "Sec 15"
+        ],
+        "emea-bel-act-8-1992": [
+          "16"
+        ],
+        "emea-deu-bsrit-2017": [
+          "3.10",
+          "5.3"
+        ],
+        "emea-isr-cmo-1-0": [
+          "23.1",
+          "23.4"
+        ],
+        "emea-sau-cgiot-2024": [
+          "2-12-4"
+        ],
+        "emea-sau-ecc-1-2018": [
+          "2-10-4",
+          "2-13-1",
+          "2-13-2",
+          "2-13-3",
+          "2-13-4"
+        ],
+        "emea-sau-sama-csf-1-2017": [
+          "3.3.16"
+        ],
+        "emea-gbr-caf-4-0": [
+          "A2.b"
+        ],
+        "emea-gbr-def-stan-05-138-2024": [
+          "1204"
+        ],
+        "emea-gbr-def-stan-05-138-l3-2024": [
+          "1204"
+        ],
+        "apac-aus-ps-cps-234-2019": [
+          "17"
+        ],
+        "apac-ind-sebi-2024": [
+          "EV.ST.S1"
+        ],
+        "apac-jpn-ismap": [
+          "5.1.1.4"
+        ],
+        "apac-sgp-mas-trm-2021": [
+          "4.2.1",
+          "13.5.1",
+          "13.5.2",
+          "14.3.1",
+          "14.3.2",
+          "14.3.3"
+        ],
+        "americas-bmu-mba-coc-2020": [
+          "6.2"
+        ],
+        "amaericas-can-osfi-self-assessment": [
+          "1.3"
+        ],
+        "americas-can-osfi-b13-2022": [
+          "3.0",
+          "3.1",
+          "3.1.1",
+          "3.1.6"
+        ],
+        "americas-can-itsp-10-171-2025": [
+          "03.11.02.A",
+          "03.14.03.A"
+        ]
+      }
+    },
+    {
+      "control_id": "THR-02",
+      "title": "Indicators of Exposure (IOE)",
+      "family": "THR",
+      "description": "Mechanisms exist to develop Indicators of Exposure (IOE) to understand the potential attack vectors that attackers could use to attack the organization.",
+      "scf_question": "Does the organization develop Indicators of Exposure (IOE) to understand the potential attack vectors that attackers could use to attack the organization?",
+      "relative_weight": 8,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [
+        "E-THR-01"
+      ],
+      "pptdf": "Process",
+      "nist_csf_function": "Identify",
+      "scrm_focus": {
+        "strategic": true,
+        "operational": true,
+        "tactical": true
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "Threat Management (THR) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with THR domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Threat management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.",
+        "2": "Threat Management (THR) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with THR domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with THR domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with THR  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Threat management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Threat management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
+        "3": "Threat Management (THR) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with THR domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with THR domain capabilities are well-documented and kept current by process owners.\n▪ A threat management team, or similar function, is appropriately staffed and supported to implement and maintain THR domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of threat management operations (e.g., threat intelligence solution, bug bounty solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with THR domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to develop Indicators of Exposure (IOE) to understand the potential attack vectors that attackers could use to attack the organization.",
+        "4": "Threat Management (THR) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+        "5": "Threat Management (THR) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions."
+      },
+      "profiles": [
+        "CORE ESP Level 1 Foundational",
+        "CORE ESP Level 2 Critical Infrastructure",
+        "CORE ESP Level 3 Advanced Threats",
+        "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+      ],
+      "possible_solutions": {
+        "micro_small": "∙ Indicators of Exposure (IoE)",
+        "small": "∙ Indicators of Exposure (IoE)",
+        "medium": "∙ Indicators of Exposure (IoE)",
+        "large": "∙ Indicators of Exposure (IoE)",
+        "enterprise": "∙ Indicators of Exposure (IoE)"
+      },
+      "risks": [
+        "R-AC-4",
+        "R-AM-1",
+        "R-AM-3",
+        "R-BC-1",
+        "R-BC-2",
+        "R-BC-4",
+        "R-BC-5",
+        "R-EX-6",
+        "R-EX-7",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-4",
+        "R-GV-5",
+        "R-GV-6",
+        "R-GV-7",
+        "R-IR-1",
+        "R-IR-2",
+        "R-IR-3",
+        "R-IR-4",
+        "R-SA-1",
+        "R-SC-1",
+        "R-SC-2",
+        "R-SC-3",
+        "R-SC-4",
+        "R-SC-5",
+        "R-SC-6"
+      ],
+      "threats": [
+        "NT-7",
+        "MT-1",
+        "MT-2",
+        "MT-5",
+        "MT-6",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Threat Management",
+      "crosswalks": {
+        "general-aicpa-tsc-2017": [
+          "CC3.2-POF6",
+          "CC3.2-POF7",
+          "CC3.3",
+          "CC9.2-POF13"
+        ],
+        "general-coso-2013": [
+          "8"
+        ],
+        "general-cr-cmm-2026": [
+          "CR3.3.2"
+        ],
+        "general-iso-27002-2022": [
+          "5.7"
+        ],
+        "general-iso-27018-2025": [
+          "5.7"
+        ],
+        "general-nist-csf-2-0": [
+          "ID.RA-03",
+          "ID.RA-05",
+          "ID.RA-08",
+          "DE",
+          "DE.CM"
+        ],
+        "usa-federal-dhs-cisa-tic-3-0": [
+          "3.UNI.DTDIS"
+        ],
+        "usa-federal-dhs-cisa-cpg-2-0": [
+          "3.A"
+        ],
+        "emea-isr-cmo-1-0": [
+          "23.3"
+        ],
+        "emea-sau-otcc-1-2022": [
+          "2-12-2-8"
+        ],
+        "apac-sgp-mas-trm-2021": [
+          "14.3.1",
+          "14.3.2",
+          "14.3.3"
+        ],
+        "americas-can-osfi-b13-2022": [
+          "3.1"
+        ]
+      }
+    },
+    {
+      "control_id": "THR-03",
+      "title": "Threat Intelligence Feeds",
+      "family": "THR",
+      "description": "Mechanisms exist to maintain situational awareness of vulnerabilities and evolving threats by leveraging the knowledge of attacker tactics, techniques and procedures to facilitate the implementation of preventative and compensating controls.",
+      "scf_question": "Does the organization maintain situational awareness of vulnerabilities and evolving threats by leveraging the knowledge of attacker tactics, techniques and procedures to facilitate the implementation of preventative and compensating controls?",
+      "relative_weight": 8,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [
+        "E-THR-03"
+      ],
+      "pptdf": "Process",
+      "nist_csf_function": "Identify",
+      "scrm_focus": {
+        "strategic": true,
+        "operational": true,
+        "tactical": true
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "Threat Management (THR) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with THR domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Threat management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ IT and/or cybersecurity personnel subscribe to threat feeds to maintain situational awareness of emerging threats.",
+        "2": "Threat Management (THR) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with THR domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with THR domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with THR  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Threat management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Threat management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT and/or cybersecurity personnel in supervisory positions subscribe to news feeds from groups and associations to facilitate ongoing education and training.",
+        "3": "Threat Management (THR) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with THR domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with THR domain capabilities are well-documented and kept current by process owners.\n▪ A threat management team, or similar function, is appropriately staffed and supported to implement and maintain THR domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of threat management operations (e.g., threat intelligence solution, bug bounty solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with THR domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to maintain situational awareness of vulnerabilities and evolving threats by leveraging the knowledge of attacker tactics, techniques and procedures to facilitate the implementation of preventative and compensating controls.",
+        "4": "Threat Management (THR) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [
+        "SCRMS",
+        "CORE ESP Level 1 Foundational",
+        "CORE ESP Level 2 Critical Infrastructure",
+        "CORE ESP Level 3 Advanced Threats",
+        "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+      ],
+      "possible_solutions": {
+        "micro_small": "∙ US-CERT mailing lists & feeds\n∙ Internal newsletters",
+        "small": "∙ US-CERT mailing lists & feeds\n∙ Internal newsletters",
+        "medium": "∙ US-CERT mailing lists & feeds\n∙ Internal newsletters\n∙ InfraGard (https://infragard.org)",
+        "large": "∙ US-CERT mailing lists & feeds\n∙ Internal newsletters\n∙ InfraGard (https://infragard.org)",
+        "enterprise": "∙ US-CERT mailing lists & feeds\n∙ Internal newsletters\n∙ InfraGard (https://infragard.org)"
+      },
+      "risks": [
+        "R-AM-3",
+        "R-BC-1",
+        "R-BC-2",
+        "R-BC-3",
+        "R-BC-4",
+        "R-BC-5",
+        "R-EX-1",
+        "R-EX-2",
+        "R-EX-3",
+        "R-EX-4",
+        "R-EX-5",
+        "R-EX-6",
+        "R-EX-7",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-3",
+        "R-GV-4",
+        "R-GV-5",
+        "R-GV-6",
+        "R-GV-7",
+        "R-IR-1",
+        "R-IR-2",
+        "R-IR-3",
+        "R-IR-4",
+        "R-SA-1",
+        "R-SC-1",
+        "R-SC-2",
+        "R-SC-3",
+        "R-SC-4",
+        "R-SC-5",
+        "R-SC-6"
+      ],
+      "threats": [
+        "NT-7",
+        "MT-1",
+        "MT-2",
+        "MT-4",
+        "MT-5",
+        "MT-6",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Threat Management",
+      "crosswalks": {
+        "general-aicpa-tsc-2017": [
+          "CC3.2-POF6",
+          "CC3.2-POF7",
+          "CC9.2-POF13"
+        ],
+        "general-csa-cmm-4-1-0": [
+          "TVM-05",
+          "TVM-06"
+        ],
+        "general-csa-iot-2": [
+          "MON-11"
+        ],
+        "general-govramp": [
+          "SI-05",
+          "SI-05(01)"
+        ],
+        "general-govramp-low": [
+          "SI-05"
+        ],
+        "general-govramp-low-plus": [
+          "SI-05"
+        ],
+        "general-govramp-mod": [
+          "SI-05"
+        ],
+        "general-govramp-high": [
+          "SI-05",
+          "SI-05(01)"
+        ],
+        "general-imo-maritime-cyber-risk-management-2025": [
+          "3.5.4.1"
+        ],
+        "general-iso-27001-2022": [
+          "7.4",
+          "7.4(a)",
+          "7.4(b)",
+          "7.4(c)",
+          "7.4(d)"
+        ],
+        "general-iso-27002-2022": [
+          "5.7"
+        ],
+        "general-iso-27018-2025": [
+          "5.7"
+        ],
+        "general-mitre-att&ck-16-1": [
+          "T1068",
+          "T1210",
+          "T1211",
+          "T1212"
+        ],
+        "general-mpa-csbp-5-3-1": [
+          "TS-4.2"
+        ],
+        "general-nist-800-53-r4": [
+          "SI-5",
+          "SI-5(1)"
+        ],
+        "general-nist-800-53-r5-2": [
+          "PM-16(01)",
+          "SI-05",
+          "SI-05(01)"
+        ],
+        "general-nist-800-53-r5-2-privacy": [
+          "SI-05"
+        ],
+        "general-nist-800-53-r5-2-low": [
+          "SI-05"
+        ],
+        "general-nist-800-53-r5-2-high": [
+          "SI-05(01)"
+        ],
+        "general-nist-800-82-r3": [
+          "PM-16(01)",
+          "SI-05",
+          "SI-05(01)"
+        ],
+        "general-nist-800-82-r3-low": [
+          "SI-05"
+        ],
+        "general-nist-800-82-r3-mod": [
+          "SI-05"
+        ],
+        "general-nist-800-82-r3-high": [
+          "SI-05"
+        ],
+        "general-nist-800-160-vol-2-r1": [
+          "PM-16(01)"
+        ],
+        "general-nist-800-161-r1": [
+          "AT-3(6)",
+          "SI-5"
+        ],
+        "general-nist-800-161-r1-cscrm": [
+          "SI-5"
+        ],
+        "general-nist-800-161-r1-flowdown": [
+          "SI-5"
+        ],
+        "general-nist-800-161-r1-level-1": [
+          "SI-5"
+        ],
+        "general-nist-800-161-r1-level-2": [
+          "AT-3(6)",
+          "SI-5"
+        ],
+        "general-nist-800-161-r1-level-3": [
+          "SI-5"
+        ],
+        "general-nist-800-171-r2": [
+          "3.12.3",
+          "3.14.3"
+        ],
+        "general-nist-800-171-r3": [
+          "03.02.01.a.02",
+          "03.02.01.a.03",
+          "03.02.01.b",
+          "03.02.02.b",
+          "03.11.02.a",
+          "03.14.03.a"
+        ],
+        "general-nist-800-171a-r3": [
+          "A.03.14.03.a"
+        ],
+        "general-nist-800-172": [
+          "3.11.1e",
+          "3.14.6e"
+        ],
+        "general-nist-800-207": [
+          "NIST Tenet 7"
+        ],
+        "general-nist-csf-2-0": [
+          "ID.RA-02",
+          "ID.RA-03",
+          "ID.RA-08",
+          "DE",
+          "DE.AE-07"
+        ],
+        "general-pci-dss-4-0-1": [
+          "6.3.1"
+        ],
+        "general-pci-dss-4-0-1-saq-a": [
+          "6.3.1"
+        ],
+        "general-pci-dss-4-0-1-saq-a-ep": [
+          "6.3.1"
+        ],
+        "general-pci-dss-4-0-1-saq-b-ip": [
+          "6.3.1"
+        ],
+        "general-pci-dss-4-0-1-saq-c": [
+          "6.3.1"
+        ],
+        "general-pci-dss-4-0-1-saq-c-vt": [
+          "6.3.1"
+        ],
+        "general-pci-dss-4-0-1-saq-d-merchant": [
+          "6.3.1"
+        ],
+        "general-pci-dss-4-0-1-saq-d-service-provider": [
+          "6.3.1"
+        ],
+        "general-swift-cscf-2025": [
+          "7.4A"
+        ],
+        "general-tisax-6-0-3": [
+          "5.2.5"
+        ],
+        "general-un-155-2021": [
+          "7.2.2.2(g)",
+          "7.2.2.2(h)"
+        ],
+        "general-un-ece-wp-29-2020": [
+          "7.2.2.2(g)",
+          "7.2.2.2(h)"
+        ],
+        "usa-federal-dhs-cisa-tic-3-0": [
+          "3.UNI.ETINT",
+          "3.UNI.VMANG"
+        ],
+        "usa-federal-dhs-cisa-cpg-2-0": [
+          "3.A"
+        ],
+        "usa-federal-fbi-cjis-6-0": [
+          "SI-5"
+        ],
+        "usa-federal-doe-c2m2-2-1": [
+          "THREAT-1a",
+          "THREAT-1b",
+          "THREAT-1e",
+          "THREAT-2f",
+          "THREAT-2j",
+          "THREAT-2k",
+          "RISK-2k",
+          "SITUATION-3e"
+        ],
+        "usa-federal-dow-cmmc-2-level-2": [
+          "CAL2.-3.12.3",
+          "SIL2.-3.14.3"
+        ],
+        "usa-federal-dow-cmmc-2-level-3": [
+          "RA.L3-3.11.1E",
+          "SI.L3-3.14.6E"
+        ],
+        "usa-federal-dow-zt-roadmap-1-1": [
+          "3.3.3",
+          "6.7.3"
+        ],
+        "usa-federal-gsa-fedramp-5-low": [
+          "SI-05"
+        ],
+        "usa-federal-gsa-fedramp-5-mod": [
+          "SI-05"
+        ],
+        "usa-federal-gsa-fedramp-5-high": [
+          "SI-05",
+          "SI-05(01)"
+        ],
+        "usa-federal-gsa-fedramp-5-li-saas": [
+          "SI-05"
+        ],
+        "usa-federal-irs-1075-2021": [
+          "SI-5"
+        ],
+        "usa-federal-cms-marse-2-0": [
+          "SI-5",
+          "SI-5.a",
+          "SI-5.b",
+          "SI-5.c",
+          "SI-5.d"
+        ],
+        "usa-state-ma-201-cmr-17-2008": [
+          "17.03(2)(b)"
+        ],
+        "usa-state-ny-dfs-23-nycrr500-2023-amd2": [
+          "500.9(b)(1)"
+        ],
+        "usa-state-tx-dir-security-control-standards-catalog-2-2": [
+          "SI-05"
+        ],
+        "usa-state-tx-txramp-2-0-level-1": [
+          "SI-05"
+        ],
+        "usa-state-tx-txramp-2-0-level-2": [
+          "SI-05"
+        ],
+        "emea-eu-eba-ict-srm-2025": [
+          "3.3.3(21)"
+        ],
+        "emea-eu-dora-2023": [
+          "Article 13.1"
+        ],
+        "emea-eu-nis2-annex-2024": [
+          "6.10.2(a)"
+        ],
+        "emea-deu-bsrit-2017": [
+          "5.3"
+        ],
+        "emea-isr-cmo-1-0": [
+          "23.2"
+        ],
+        "emea-sau-cgiot-2024": [
+          "2-12-4"
+        ],
+        "emea-sau-ecc-1-2018": [
+          "2-10-3-5",
+          "2-13-3-5"
+        ],
+        "emea-sau-otcc-1-2022": [
+          "1-8-3",
+          "2-12-2-8"
+        ],
+        "emea-gbr-def-stan-05-138-2024": [
+          "1204",
+          "3110"
+        ],
+        "emea-gbr-def-stan-05-138-l2-2024": [
+          "3110"
+        ],
+        "emea-gbr-def-stan-05-138-l3-2024": [
+          "1204",
+          "3110"
+        ],
+        "apac-ind-sebi-2024": [
+          "EV.ST.S1",
+          "EV.ST.S4",
+          "ID.RA.S3",
+          "RS.AN.S1"
+        ],
+        "apac-jpn-ismap": [
+          "4.9",
+          "4.9.2.2",
+          "6.1.4.3",
+          "12.2.1.12",
+          "12.2.1.13"
+        ],
+        "apac-sgp-mas-trm-2021": [
+          "12.1.1",
+          "12.1.2",
+          "12.1.3"
+        ],
+        "amaericas-can-osfi-self-assessment": [
+          "3.7"
+        ],
+        "americas-can-osfi-b13-2022": [
+          "3.0",
+          "3.1",
+          "3.1.1",
+          "3.1.5"
+        ],
+        "americas-can-itsp-10-171-2025": [
+          "03.02.01.A.02",
+          "03.02.01.A.03",
+          "03.02.01.B",
+          "03.02.02.B",
+          "03.11.02.A",
+          "03.14.03.A"
+        ]
+      }
+    },
+    {
+      "control_id": "THR-03.1",
+      "title": "Threat Intelligence Reporting",
+      "family": "THR",
+      "description": "Mechanisms exist to utilize external threat intelligence feeds to generate and disseminate organization-specific security alerts, advisories and/or directives.",
+      "scf_question": "Does the organization utilize external threat intelligence feeds to generate and disseminate organization-specific security alerts, advisories and/or directives?",
+      "relative_weight": 8,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [],
+      "pptdf": "Process",
+      "nist_csf_function": "Identify",
+      "scrm_focus": {
+        "strategic": true,
+        "operational": true,
+        "tactical": true
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "Threat Management (THR) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with THR domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Threat management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ IT and/or cybersecurity personnel subscribe to threat feeds to maintain situational awareness of emerging threats.\n▪ IT and/or cybersecurity personnel provide limited threat intelligence feeds to employees for situational awareness of evolving threats.",
+        "2": "Threat Management (THR) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with THR domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with THR domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with THR  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Threat management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Threat management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Threat feeds are utilized to maintain situational awareness of emerging threats.",
+        "3": "Threat Management (THR) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with THR domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with THR domain capabilities are well-documented and kept current by process owners.\n▪ A threat management team, or similar function, is appropriately staffed and supported to implement and maintain THR domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of threat management operations (e.g., threat intelligence solution, bug bounty solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with THR domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to utilize external threat intelligence feeds to generate and disseminate organization-specific security alerts, advisories and/or directives.",
+        "4": "Threat Management (THR) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [
+        "CORE ESP Level 2 Critical Infrastructure",
+        "CORE ESP Level 3 Advanced Threats",
+        "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+      ],
+      "possible_solutions": {
+        "micro_small": "∙ US-CERT mailing lists & feeds\n∙ Internal newsletters",
+        "small": "∙ US-CERT mailing lists & feeds\n∙ Internal newsletters",
+        "medium": "∙ US-CERT mailing lists & feeds\n∙ Internal newsletters\n∙ InfraGard (https://infragard.org)",
+        "large": "∙ US-CERT mailing lists & feeds\n∙ Internal newsletters\n∙ InfraGard (https://infragard.org)",
+        "enterprise": "∙ US-CERT mailing lists & feeds\n∙ Internal newsletters\n∙ InfraGard (https://infragard.org)"
+      },
+      "risks": [
+        "R-AM-3",
+        "R-BC-1",
+        "R-BC-2",
+        "R-BC-3",
+        "R-BC-4",
+        "R-BC-5",
+        "R-EX-1",
+        "R-EX-2",
+        "R-EX-3",
+        "R-EX-4",
+        "R-EX-5",
+        "R-EX-6",
+        "R-EX-7",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-3",
+        "R-GV-4",
+        "R-GV-5",
+        "R-GV-6",
+        "R-GV-7",
+        "R-IR-1",
+        "R-IR-2",
+        "R-IR-3",
+        "R-IR-4",
+        "R-SA-1",
+        "R-SC-1",
+        "R-SC-2",
+        "R-SC-3",
+        "R-SC-4",
+        "R-SC-5",
+        "R-SC-6"
+      ],
+      "threats": [
+        "NT-7",
+        "MT-1",
+        "MT-2",
+        "MT-4",
+        "MT-5",
+        "MT-6",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Threat Management",
+      "crosswalks": {
+        "general-bsi-200-1-1-0": [
+          "4.2"
+        ],
+        "general-iso-27002-2022": [
+          "5.7"
+        ],
+        "general-iso-27018-2025": [
+          "5.7"
+        ],
+        "general-nist-800-171-r3": [
+          "03.14.03.b"
+        ],
+        "general-nist-800-171a-r3": [
+          "A.03.14.03.b[01]",
+          "A.03.14.03.b[02]"
+        ],
+        "usa-federal-doe-c2m2-2-1": [
+          "THREAT-1i",
+          "THREAT-2b",
+          "THREAT-2h",
+          "THREAT-2k"
+        ],
+        "usa-federal-dow-zt-roadmap-1-1": [
+          "7.5",
+          "7.5.1",
+          "7.5.2"
+        ],
+        "emea-sau-cgiot-2024": [
+          "2-12-4"
+        ],
+        "emea-gbr-def-stan-05-138-2024": [
+          "1204",
+          "3110"
+        ],
+        "emea-gbr-def-stan-05-138-l2-2024": [
+          "3110"
+        ],
+        "emea-gbr-def-stan-05-138-l3-2024": [
+          "1204",
+          "3110"
+        ],
+        "apac-ind-sebi-2024": [
+          "RS.AN.S1"
+        ],
+        "apac-jpn-ismap": [
+          "4.9",
+          "4.9.1.1",
+          "4.9.2.1",
+          "4.9.2.2"
+        ],
+        "americas-can-itsp-10-171-2025": [
+          "03.14.03.B"
+        ]
+      }
+    },
+    {
+      "control_id": "THR-04",
+      "title": "Insider Threat Program",
+      "family": "THR",
+      "description": "Mechanisms exist to implement an insider threat program that includes a cross-discipline insider threat incident handling team.",
+      "scf_question": "Does the organization implement an insider threat program that includes a cross-discipline insider threat incident handling team?",
+      "relative_weight": 8,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [
+        "E-THR-04"
+      ],
+      "pptdf": "Process",
+      "nist_csf_function": "Identify",
+      "scrm_focus": {
+        "strategic": true,
+        "operational": true,
+        "tactical": true
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "Threat Management (THR) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with THR domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Threat management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.",
+        "2": "Threat Management (THR) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with THR domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with THR domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with THR  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Threat management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Threat management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
+        "3": "Threat Management (THR) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with THR domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with THR domain capabilities are well-documented and kept current by process owners.\n▪ A threat management team, or similar function, is appropriately staffed and supported to implement and maintain THR domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of threat management operations (e.g., threat intelligence solution, bug bounty solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with THR domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to implement an insider threat program that includes a cross-discipline insider threat incident handling team.",
+        "4": "Threat Management (THR) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [
+        "CORE ESP Level 1 Foundational",
+        "CORE ESP Level 2 Critical Infrastructure",
+        "CORE ESP Level 3 Advanced Threats"
+      ],
+      "possible_solutions": {
+        "micro_small": "∙ Subscribe to free threat intelligence feeds (e.g., CISA alerts)",
+        "small": "∙ CISA alerts subscription\n∙ Basic threat awareness program",
+        "medium": "∙ Insider threat program",
+        "large": "∙ Insider threat program",
+        "enterprise": "∙ Insider threat program"
+      },
+      "risks": [
+        "R-AC-1",
+        "R-AC-2",
+        "R-AC-3",
+        "R-AC-4",
+        "R-AM-1",
+        "R-AM-2",
+        "R-AM-3",
+        "R-BC-1",
+        "R-BC-2",
+        "R-BC-3",
+        "R-BC-4",
+        "R-BC-5",
+        "R-EX-1",
+        "R-EX-2",
+        "R-EX-3",
+        "R-EX-4",
+        "R-EX-5",
+        "R-EX-6",
+        "R-EX-7",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-3",
+        "R-GV-4",
+        "R-GV-5",
+        "R-GV-6",
+        "R-GV-7",
+        "R-GV-8",
+        "R-IR-1",
+        "R-IR-2",
+        "R-IR-3",
+        "R-IR-4",
+        "R-SA-1",
+        "R-SA-2",
+        "R-SC-1",
+        "R-SC-2",
+        "R-SC-3",
+        "R-SC-4",
+        "R-SC-5",
+        "R-SC-6"
+      ],
+      "threats": [
+        "NT-7",
+        "MT-1",
+        "MT-2",
+        "MT-5",
+        "MT-6",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Threat Management",
+      "crosswalks": {
+        "general-aicpa-tsc-2017": [
+          "CC3.3",
+          "CC3.3-POF1",
+          "CC3.3-POF2",
+          "CC3.3-POF3",
+          "CC3.3-POF4",
+          "CC3.3-POF5"
+        ],
+        "general-coso-2013": [
+          "8"
+        ],
+        "general-nist-800-53-r4": [
+          "PM-12"
+        ],
+        "general-nist-800-53-r5-2": [
+          "PM-12"
+        ],
+        "general-nist-800-82-r3": [
+          "PM-12"
+        ],
+        "general-nist-800-82-r3-low": [
+          "PM-12"
+        ],
+        "general-nist-800-82-r3-mod": [
+          "PM-12"
+        ],
+        "general-nist-800-82-r3-high": [
+          "PM-12"
+        ],
+        "general-nist-800-161-r1": [
+          "PM-12"
+        ],
+        "general-nist-800-161-r1-level-1": [
+          "PM-12"
+        ],
+        "general-nist-800-161-r1-level-2": [
+          "PM-12"
+        ],
+        "general-nist-800-161-r1-level-3": [
+          "PM-12"
+        ],
+        "general-nist-csf-2-0": [
+          "ID.RA-03"
+        ],
+        "general-sparta": [
+          "CM0052"
+        ],
+        "usa-federal-irs-1075-2021": [
+          "PM-12"
+        ],
+        "usa-federal-cms-marse-2-0": [
+          "PM-12"
+        ],
+        "usa-federal-nispom-2020": [
+          "§117.18(b)(4)",
+          "§117.18(b)(4)(i)",
+          "§117.18(b)(4)(ii)",
+          "§117.18(b)(4)(iii)",
+          "§117.18(b)(4)(iv)"
+        ],
+        "apac-aus-ism-2024-june": [
+          "ISM-1625",
+          "ISM-1626"
+        ],
+        "americas-can-osfi-b13-2022": [
+          "3.0"
+        ]
+      }
+    },
+    {
+      "control_id": "THR-05",
+      "title": "Insider Threat Awareness",
+      "family": "THR",
+      "description": "Mechanisms exist to utilize security awareness training on recognizing and reporting potential indicators of insider threat.",
+      "scf_question": "Does the organization utilize security awareness training on recognizing and reporting potential indicators of insider threat?",
+      "relative_weight": 8,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [
+        "E-SAT-04",
+        "E-SAT-05",
+        "E-THR-04"
+      ],
+      "pptdf": "Process",
+      "nist_csf_function": "Identify",
+      "scrm_focus": {
+        "strategic": false,
+        "operational": true,
+        "tactical": false
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "2": "Threat Management (THR) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with THR domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with THR domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with THR  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Threat management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Threat management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
+        "3": "Threat Management (THR) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with THR domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with THR domain capabilities are well-documented and kept current by process owners.\n▪ A threat management team, or similar function, is appropriately staffed and supported to implement and maintain THR domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of threat management operations (e.g., threat intelligence solution, bug bounty solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with THR domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to utilize security awareness training on recognizing and reporting potential indicators of insider threat.",
+        "4": "Threat Management (THR) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [
+        "CORE ESP Level 1 Foundational",
+        "CORE ESP Level 2 Critical Infrastructure",
+        "CORE ESP Level 3 Advanced Threats"
+      ],
+      "possible_solutions": {
+        "micro_small": "∙ Basic insider threat awareness for all employees",
+        "small": "∙ Insider threat awareness training\n∙ Reporting procedure for suspicious behavior",
+        "medium": "∙ Formal insider threat awareness program\n∙ Reporting hotline or mechanism",
+        "large": "∙ Enterprise insider threat program\n∙ Behavioral monitoring\n∙ UEBA integration",
+        "enterprise": "∙ Enterprise insider threat program (NITTF-aligned)\n∙ Dedicated insider threat team\n∙ UEBA platform (e.g., Varonis, Securonix)\n∙ Anonymous reporting"
+      },
+      "risks": [
+        "R-AC-1",
+        "R-AC-2",
+        "R-AC-3",
+        "R-AC-4",
+        "R-AM-1",
+        "R-AM-2",
+        "R-AM-3",
+        "R-BC-1",
+        "R-BC-2",
+        "R-BC-3",
+        "R-BC-4",
+        "R-BC-5",
+        "R-EX-1",
+        "R-EX-2",
+        "R-EX-3",
+        "R-EX-4",
+        "R-EX-5",
+        "R-EX-6",
+        "R-EX-7",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-3",
+        "R-GV-4",
+        "R-GV-5",
+        "R-GV-6",
+        "R-GV-7",
+        "R-GV-8",
+        "R-IR-1",
+        "R-IR-2",
+        "R-IR-3",
+        "R-IR-4",
+        "R-SA-1",
+        "R-SA-2",
+        "R-SC-1",
+        "R-SC-2",
+        "R-SC-3",
+        "R-SC-4",
+        "R-SC-5",
+        "R-SC-6"
+      ],
+      "threats": [
+        "NT-7",
+        "MT-1",
+        "MT-2",
+        "MT-5",
+        "MT-6",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Threat Management",
+      "crosswalks": {
+        "general-govramp": [
+          "AT-02(02)"
+        ],
+        "general-govramp-low-plus": [
+          "AT-02(02)"
+        ],
+        "general-govramp-mod": [
+          "AT-02(02)"
+        ],
+        "general-govramp-high": [
+          "AT-02(02)"
+        ],
+        "general-nist-800-53-r4": [
+          "AT-2(2)"
+        ],
+        "general-nist-800-53-r5-2": [
+          "AT-02(02)"
+        ],
+        "general-nist-800-53-r5-2-low": [
+          "AT-02(02)"
+        ],
+        "general-nist-800-82-r3": [
+          "AT-02(02)"
+        ],
+        "general-nist-800-82-r3-low": [
+          "AT-02(02)"
+        ],
+        "general-nist-800-82-r3-mod": [
+          "AT-02(02)"
+        ],
+        "general-nist-800-82-r3-high": [
+          "AT-02(02)"
+        ],
+        "general-nist-800-161-r1": [
+          "AT-2(2)"
+        ],
+        "general-nist-800-161-r1-cscrm": [
+          "AT-2(2)"
+        ],
+        "general-nist-800-161-r1-flowdown": [
+          "AT-2(2)"
+        ],
+        "general-nist-800-161-r1-level-2": [
+          "AT-2(2)"
+        ],
+        "general-nist-800-171-r2": [
+          "3.2.3"
+        ],
+        "general-nist-800-171-r3": [
+          "03.02.01.a.03"
+        ],
+        "general-nist-800-171a": [
+          "3.2.3[a]",
+          "3.2.3[b]"
+        ],
+        "general-nist-800-171a-r3": [
+          "A.03.02.01.a.03[01]",
+          "A.03.02.01.a.03[02]"
+        ],
+        "general-nist-csf-2-0": [
+          "ID.RA-03"
+        ],
+        "general-sparta": [
+          "CM0052"
+        ],
+        "usa-federal-fbi-cjis-6-0": [
+          "AT-2(2)"
+        ],
+        "usa-federal-dow-cmmc-2-level-2": [
+          "ATL2.-3.2.3"
+        ],
+        "usa-federal-gsa-fedramp-5-low": [
+          "AT-02(02)"
+        ],
+        "usa-federal-gsa-fedramp-5-mod": [
+          "AT-02(02)"
+        ],
+        "usa-federal-gsa-fedramp-5-high": [
+          "AT-02(02)"
+        ],
+        "usa-federal-gsa-fedramp-5-li-saas": [
+          "AT-02(02)"
+        ],
+        "usa-federal-irs-1075-2021": [
+          "AT-2(CE-2)"
+        ],
+        "usa-federal-cms-marse-2-0": [
+          "AT-2(2)"
+        ],
+        "usa-federal-nispom-2020": [
+          "§117.12(g)",
+          "§117.12(g)(1)",
+          "§117.12(g)(1)(i)",
+          "§117.12(g)(1)(ii)",
+          "§117.12(g)(1)(iii)",
+          "§117.12(g)(1)(iv)",
+          "§117.12(g)(2)",
+          "§117.12(g)(2)(i)",
+          "§117.12(g)(2)(ii)",
+          "§117.12(g)(2)(iii)",
+          "§117.12(g)(2)(iv)"
+        ],
+        "usa-state-tx-dir-security-control-standards-catalog-2-2": [
+          "AT-02(2)"
+        ],
+        "usa-state-tx-txramp-2-0-level-2": [
+          "AT-02 (02)"
+        ],
+        "apac-aus-ism-2024-june": [
+          "ISM-1625",
+          "ISM-1626"
+        ],
+        "americas-can-itsp-10-171-2025": [
+          "03.02.01.A.03"
+        ]
+      }
+    },
+    {
+      "control_id": "THR-06",
+      "title": "Vulnerability Disclosure Program (VDP)",
+      "family": "THR",
+      "description": "Mechanisms exist to establish a Vulnerability Disclosure Program (VDP) to assist with the secure development and maintenance of Technology Assets, Applications and/or Services (TAAS) that receives unsolicited input from the public about vulnerabilities in organizational TAAS.",
+      "scf_question": "Does the organization establish a Vulnerability Disclosure Program (VDP) to assist with the secure development and maintenance of Technology Assets, Applications and/or Services (TAAS) that receives unsolicited input from the public about vulnerabilities in organizational TAAS?",
+      "relative_weight": 8,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [
+        "E-TDA-16"
+      ],
+      "pptdf": "Process",
+      "nist_csf_function": "Detect",
+      "scrm_focus": {
+        "strategic": true,
+        "operational": true,
+        "tactical": true
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "2": "Threat Management (THR) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with THR domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with THR domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with THR  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Threat management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Threat management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
+        "3": "Threat Management (THR) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with THR domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with THR domain capabilities are well-documented and kept current by process owners.\n▪ A threat management team, or similar function, is appropriately staffed and supported to implement and maintain THR domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of threat management operations (e.g., threat intelligence solution, bug bounty solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with THR domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to establish a Vulnerability Disclosure Program (VDP) to assist with the secure development and maintenance of Technology Assets, Applications and/or Services (TAAS) that receives unsolicited input from the public about vulnerabilities in organizational TAAS.",
+        "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [
+        "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+      ],
+      "possible_solutions": {
+        "micro_small": "∙ Subscribe to free threat intelligence feeds (e.g., CISA alerts)",
+        "small": "∙ CISA alerts subscription\n∙ Basic threat awareness program",
+        "medium": "∙ Vulnerability Disclosure Program (VDP)\n∙ \"bug bounty\" program",
+        "large": "∙ Vulnerability Disclosure Program (VDP)\n∙ \"bug bounty\" program",
+        "enterprise": "∙ Vulnerability Disclosure Program (VDP)\n∙ \"bug bounty\" program"
+      },
+      "risks": [
+        "R-AC-3",
+        "R-AC-4",
+        "R-AM-1",
+        "R-AM-2",
+        "R-AM-3",
+        "R-BC-1",
+        "R-BC-2",
+        "R-BC-4",
+        "R-EX-7",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-4",
+        "R-GV-5",
+        "R-IR-4",
+        "R-SA-1"
+      ],
+      "threats": [
+        "NT-7",
+        "MT-1",
+        "MT-2",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Threat Management",
+      "crosswalks": {
+        "general-cis-csc-8-1": [
+          "16.2"
+        ],
+        "general-cis-csc-8-1-ig2": [
+          "16.2"
+        ],
+        "general-cis-csc-8-1-ig3": [
+          "16.2"
+        ],
+        "general-csa-iot-2": [
+          "TRN-03",
+          "SET-05"
+        ],
+        "general-nist-800-53-r5-2": [
+          "RA-05(11)"
+        ],
+        "general-nist-800-53-r5-2-low": [
+          "RA-05(11)"
+        ],
+        "general-nist-800-82-r3": [
+          "RA-05(11)"
+        ],
+        "general-nist-800-82-r3-low": [
+          "RA-05(11)"
+        ],
+        "general-nist-800-82-r3-mod": [
+          "RA-05(11)"
+        ],
+        "general-nist-800-82-r3-high": [
+          "RA-05(11)"
+        ],
+        "general-nist-800-218": [
+          "RV.1.3"
+        ],
+        "general-pci-dss-4-0-1": [
+          "6.3.1"
+        ],
+        "general-pci-dss-4-0-1-saq-a": [
+          "6.3.1"
+        ],
+        "general-pci-dss-4-0-1-saq-a-ep": [
+          "6.3.1"
+        ],
+        "general-pci-dss-4-0-1-saq-b-ip": [
+          "6.3.1"
+        ],
+        "general-pci-dss-4-0-1-saq-c": [
+          "6.3.1"
+        ],
+        "general-pci-dss-4-0-1-saq-c-vt": [
+          "6.3.1"
+        ],
+        "general-pci-dss-4-0-1-saq-d-merchant": [
+          "6.3.1"
+        ],
+        "general-pci-dss-4-0-1-saq-d-service-provider": [
+          "6.3.1"
+        ],
+        "general-scf-dpmp-2025": [
+          "5.15"
+        ],
+        "general-shared-assessments-sig-2025": [
+          "T.2"
+        ],
+        "usa-federal-dhs-cisa-ssdaf-2024": [
+          "4.c"
+        ],
+        "usa-federal-dhs-cisa-cpg-2-0": [
+          "4.B"
+        ],
+        "usa-federal-fbi-cjis-6-0": [
+          "RA-5(11)"
+        ],
+        "usa-federal-doe-c2m2-2-1": [
+          "THREAT-1m"
+        ],
+        "usa-federal-eo-14028": [
+          "4e(iv)",
+          "4e(viii)"
+        ],
+        "usa-federal-gsa-fedramp-5-low": [
+          "RA-05(11)"
+        ],
+        "usa-federal-gsa-fedramp-5-mod": [
+          "RA-05(11)"
+        ],
+        "usa-federal-gsa-fedramp-5-high": [
+          "RA-05(11)"
+        ],
+        "usa-federal-gsa-fedramp-5-li-saas": [
+          "RA-05(11)"
+        ],
+        "usa-state-ca-ccpa-cpra-2026": [
+          "7123(c)(6)"
+        ],
+        "usa-state-tx-dir-security-control-standards-catalog-2-2": [
+          "RA-05(11)"
+        ],
+        "emea-eu-cyber-resilience-act-annexes-2022": [
+          "Annex 1.2(5)"
+        ],
+        "apac-aus-ism-2024-june": [
+          "ISM-1616",
+          "ISM-1717",
+          "ISM-1755",
+          "ISM-1756"
+        ],
+        "apac-aus-cop-sitc-2020": [
+          "Principle 2"
+        ],
+        "apac-nzl-ism-3-9": [
+          "5.9.23.C.01",
+          "5.9.24.C.01",
+          "5.9.24.C.02",
+          "5.9.25.C.01",
+          "5.9.26.C.01",
+          "5.9.26.C.02",
+          "5.9.27.C.01"
+        ],
+        "apac-sgp-mas-trm-2021": [
+          "13.2.2"
+        ]
+      }
+    },
+    {
+      "control_id": "THR-06.1",
+      "title": "Security Disclosure Contact Information",
+      "family": "THR",
+      "description": "Mechanisms exist to enable public submissions of discovered or potential security vulnerabilities.",
+      "scf_question": "Does the organization enable public submissions of discovered or potential security vulnerabilities?",
+      "relative_weight": 1,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [],
+      "pptdf": "Process",
+      "nist_csf_function": "Detect",
+      "scrm_focus": {
+        "strategic": false,
+        "operational": true,
+        "tactical": true
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "2": "Threat Management (THR) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with THR domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with THR domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with THR  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Threat management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Threat management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
+        "3": "Threat Management (THR) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with THR domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with THR domain capabilities are well-documented and kept current by process owners.\n▪ A threat management team, or similar function, is appropriately staffed and supported to implement and maintain THR domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of threat management operations (e.g., threat intelligence solution, bug bounty solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with THR domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to enable public submissions of discovered or potential security vulnerabilities.",
+        "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [],
+      "possible_solutions": {
+        "micro_small": "∙ Subscribe to free threat intelligence feeds (e.g., CISA alerts)",
+        "small": "∙ CISA alerts subscription\n∙ Basic threat awareness program",
+        "medium": "∙ Vulnerability Disclosure Program (VDP)\n∙ \"bug bounty\" program",
+        "large": "∙ Vulnerability Disclosure Program (VDP)\n∙ \"bug bounty\" program",
+        "enterprise": "∙ Vulnerability Disclosure Program (VDP)\n∙ \"bug bounty\" program"
+      },
+      "risks": [
+        "R-AC-3",
+        "R-AC-4",
+        "R-AM-1",
+        "R-AM-2",
+        "R-AM-3",
+        "R-BC-1",
+        "R-BC-2",
+        "R-BC-4",
+        "R-EX-7",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-4",
+        "R-GV-5",
+        "R-IR-4",
+        "R-SA-1"
+      ],
+      "threats": [
+        "NT-7",
+        "MT-1",
+        "MT-2",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Threat Management",
+      "crosswalks": {
+        "usa-federal-dhs-cisa-cpg-2-0": [
+          "4.B",
+          "4.C"
+        ],
+        "usa-state-ca-ccpa-cpra-2026": [
+          "7123(c)(6)"
+        ],
+        "emea-eu-cyber-resilience-act-annexes-2022": [
+          "Annex 2.2"
+        ]
+      }
+    },
+    {
+      "control_id": "THR-07",
+      "title": "Threat Hunting",
+      "family": "THR",
+      "description": "Mechanisms exist to perform cyber threat hunting that uses Indicators of Compromise (IoC) to detect, track and disrupt threats that evade existing security controls.",
+      "scf_question": "Does the organization perform cyber threat hunting that uses Indicators of Compromise (IoC) to detect, track and disrupt threats that evade existing security controls?",
+      "relative_weight": 4,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [
+        "E-THR-05"
+      ],
+      "pptdf": "Process",
+      "nist_csf_function": "Detect",
+      "scrm_focus": {
+        "strategic": true,
+        "operational": true,
+        "tactical": true
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "2": "Threat Management (THR) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with THR domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with THR domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with THR  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Threat management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Threat management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
+        "3": "Threat Management (THR) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with THR domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with THR domain capabilities are well-documented and kept current by process owners.\n▪ A threat management team, or similar function, is appropriately staffed and supported to implement and maintain THR domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of threat management operations (e.g., threat intelligence solution, bug bounty solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with THR domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to perform cyber threat hunting that uses Indicators of Compromise (IoC) to detect, track and disrupt threats that evade existing security controls.",
+        "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [
+        "CORE ESP Level 1 Foundational",
+        "CORE ESP Level 2 Critical Infrastructure",
+        "CORE ESP Level 3 Advanced Threats"
+      ],
+      "possible_solutions": {
+        "micro_small": "∙ Subscribe to free threat intelligence feeds (e.g., CISA alerts)",
+        "small": "∙ CISA alerts subscription\n∙ Basic threat awareness program",
+        "medium": "∙ Threat hunting capability",
+        "large": "∙ Threat hunting capability",
+        "enterprise": "∙ Threat hunting capability"
+      },
+      "risks": [
+        "R-AC-1",
+        "R-AC-2",
+        "R-AC-3",
+        "R-AC-4",
+        "R-AM-1",
+        "R-AM-2",
+        "R-AM-3",
+        "R-BC-1",
+        "R-BC-2",
+        "R-BC-3",
+        "R-BC-4",
+        "R-BC-5",
+        "R-EX-1",
+        "R-EX-2",
+        "R-EX-3",
+        "R-EX-4",
+        "R-EX-5",
+        "R-EX-6",
+        "R-EX-7",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-3",
+        "R-GV-4",
+        "R-GV-5",
+        "R-GV-6",
+        "R-GV-7",
+        "R-GV-8",
+        "R-IR-1",
+        "R-IR-2",
+        "R-IR-3",
+        "R-IR-4",
+        "R-SA-1",
+        "R-SA-2",
+        "R-SC-1",
+        "R-SC-2",
+        "R-SC-3",
+        "R-SC-4",
+        "R-SC-5",
+        "R-SC-6"
+      ],
+      "threats": [
+        "NT-7",
+        "MT-1",
+        "MT-2",
+        "MT-5",
+        "MT-6",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Threat Management",
+      "crosswalks": {
+        "general-cr-cmm-2026": [
+          "CR2.2.4"
+        ],
+        "general-mitre-att&ck-16-1": [
+          "T1068",
+          "T1190",
+          "T1195",
+          "T1195.001",
+          "T1195.002",
+          "T1210",
+          "T1211",
+          "T1212"
+        ],
+        "general-nist-800-53-r5-2": [
+          "RA-10",
+          "SC-48"
+        ],
+        "general-nist-800-53-r5-2-privacy": [
+          "SC-48"
+        ],
+        "general-nist-800-82-r3": [
+          "RA-10",
+          "SC-48"
+        ],
+        "general-nist-800-160-vol-2-r1": [
+          "RA-10",
+          "SC-48"
+        ],
+        "general-nist-800-161-r1": [
+          "RA-10"
+        ],
+        "general-nist-800-161-r1-level-1": [
+          "RA-10"
+        ],
+        "general-nist-800-161-r1-level-2": [
+          "RA-10"
+        ],
+        "general-nist-800-161-r1-level-3": [
+          "RA-10"
+        ],
+        "general-nist-800-172": [
+          "3.11.1e",
+          "3.11.2e",
+          "3.14.6e"
+        ],
+        "general-nist-csf-2-0": [
+          "ID.RA-03",
+          "DE"
+        ],
+        "usa-federal-dow-cmmc-2-level-3": [
+          "RA.L3-3.11.1E",
+          "RA.L3-3.11.2E",
+          "SI.L3-3.14.6E"
+        ],
+        "usa-federal-gsa-fedramp-5-low": [
+          "SC-48"
+        ],
+        "usa-federal-gsa-fedramp-5-mod": [
+          "SC-48"
+        ],
+        "usa-federal-gsa-fedramp-5-high": [
+          "SC-48"
+        ],
+        "usa-federal-gsa-fedramp-5-li-saas": [
+          "SC-48"
+        ],
+        "emea-gbr-caf-4-0": [
+          "C2",
+          "C2.a (point 1)",
+          "C2.a (point 2)",
+          "C2.a (point 3)",
+          "C2.a (point 4)",
+          "C2.a (point 5)",
+          "C2.a (point 6)",
+          "C2.a (point 7)",
+          "C2.a (point 8)"
+        ],
+        "apac-ind-sebi-2024": [
+          "DE.DP.S5"
+        ],
+        "americas-can-osfi-b13-2022": [
+          "3.0"
+        ]
+      }
+    },
+    {
+      "control_id": "THR-08",
+      "title": "Tainting",
+      "family": "THR",
+      "description": "Mechanisms exist to embed false data or steganographic data in files to enable the organization to determine if data has been exfiltrated and provide a means to identify the individual(s) involved.",
+      "scf_question": "Does the organization embed false data or steganographic data in files to enable the organization to determine if data has been exfiltrated and provide a means to identify the individual(s) involved?",
+      "relative_weight": 1,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [],
+      "pptdf": "Process",
+      "nist_csf_function": "Detect",
+      "scrm_focus": {
+        "strategic": true,
+        "operational": true,
+        "tactical": true
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "2": "SCR-CMM Level 2 criteria definitions are not available for this control:\n▪ A reasonable person would conclude a well-defined and standardized process is required.\n▪ At this level of maturity, the “requirements-driven” nature of performing the control is focused on a localized and/or regionalized implementation, not uniform and consistent across the organization.\n▪ Requirements are narrowly scoped for applicability and are primarily derived from compliance obligations (e.g., laws, regulations and contracts).",
+        "3": "Threat Management (THR) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with THR domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with THR domain capabilities are well-documented and kept current by process owners.\n▪ A threat management team, or similar function, is appropriately staffed and supported to implement and maintain THR domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of threat management operations (e.g., threat intelligence solution, bug bounty solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with THR domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to embed false data or steganographic data in files to enable the organization to determine if data has been exfiltrated and provide a means to identify the individual(s) involved.",
+        "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [],
+      "possible_solutions": {
+        "medium": "∙ Use honeypots or canary tokens to detect attackers",
+        "large": "∙ Deception technology (honeypots, canary tokens) for threat detection",
+        "enterprise": "∙ Enterprise deception platform (e.g., Thinkst Canary, Attivo)\n∙ Integrated with SIEM/SOAR for automated response"
+      },
+      "risks": [
+        "R-AC-4",
+        "R-AM-1",
+        "R-AM-2",
+        "R-AM-3",
+        "R-BC-1",
+        "R-BC-2",
+        "R-BC-4",
+        "R-BC-5",
+        "R-EX-7",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-4",
+        "R-GV-5",
+        "R-IR-1",
+        "R-SA-1"
+      ],
+      "threats": [
+        "NT-7",
+        "MT-1",
+        "MT-2",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Threat Management",
+      "crosswalks": {
+        "general-nist-800-53-r5-2": [
+          "SI-20"
+        ],
+        "general-nist-800-82-r3": [
+          "SI-20"
+        ],
+        "general-nist-800-160-vol-2-r1": [
+          "SI-20"
+        ],
+        "general-nist-800-161-r1": [
+          "SI-20"
+        ],
+        "general-nist-800-161-r1-flowdown": [
+          "SI-20"
+        ],
+        "general-nist-800-161-r1-level-2": [
+          "SI-20"
+        ],
+        "general-nist-800-161-r1-level-3": [
+          "SI-20"
+        ]
+      }
+    },
+    {
+      "control_id": "THR-09",
+      "title": "Threat Catalog",
+      "family": "THR",
+      "description": "Mechanisms exist to develop and keep current a catalog of applicable internal and external threats to the organization, both natural and manmade.",
+      "scf_question": "Does the organization develop and keep current a catalog of applicable internal and external threats to the organization, both natural and manmade?",
+      "relative_weight": 5,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [
+        "E-THR-06"
+      ],
+      "pptdf": "Process",
+      "nist_csf_function": "Protect",
+      "scrm_focus": {
+        "strategic": true,
+        "operational": true,
+        "tactical": true
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+        "2": "Threat Management (THR) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with THR domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with THR domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with THR  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Threat management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Threat management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
+        "3": "Threat Management (THR) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with THR domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with THR domain capabilities are well-documented and kept current by process owners.\n▪ A threat management team, or similar function, is appropriately staffed and supported to implement and maintain THR domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of threat management operations (e.g., threat intelligence solution, bug bounty solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with THR domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to develop and keep current a catalog of applicable internal and external threats to the organization, both natural and manmade.",
+        "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [
+        "SCRMS",
+        "CORE ESP Level 1 Foundational",
+        "CORE ESP Level 2 Critical Infrastructure",
+        "CORE ESP Level 3 Advanced Threats",
+        "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+      ],
+      "possible_solutions": {
+        "micro_small": "∙ Documented threat catalog",
+        "small": "∙ Documented threat catalog",
+        "medium": "∙ Documented threat catalog",
+        "large": "∙ Documented threat catalog",
+        "enterprise": "∙ Documented threat catalog"
+      },
+      "risks": [
+        "R-BC-1",
+        "R-BC-2",
+        "R-EX-5",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-4",
+        "R-GV-5",
+        "R-GV-6",
+        "R-GV-7",
+        "R-IR-4",
+        "R-SA-1",
+        "R-SA-2",
+        "R-SC-1",
+        "R-SC-2",
+        "R-SC-3",
+        "R-SC-4",
+        "R-SC-5",
+        "R-SC-6"
+      ],
+      "threats": [
+        "NT-7",
+        "MT-1",
+        "MT-2",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Threat Management",
+      "crosswalks": {
+        "general-aicpa-pmf-2020": [
+          "S7.2-POF6"
+        ],
+        "general-aicpa-tsc-2017": [
+          "A1.2-POF11",
+          "CC3.2-POF6",
+          "CC9.1"
+        ],
+        "general-imo-maritime-cyber-risk-management-2025": [
+          "3.5.4.1"
+        ],
+        "general-iso-21434-2021": [
+          "RQ-15-01"
+        ],
+        "general-iso-22301-2019": [
+          "6.1.1"
+        ],
+        "general-mpa-csbp-5-3-1": [
+          "OR-1.2"
+        ],
+        "general-naic-insurance-data-security-model-law-668-2017": [
+          "4.C(2)",
+          "4.C(5)"
+        ],
+        "general-nist-800-39": [
+          "TASK 2-1"
+        ],
+        "general-nist-800-171-r3": [
+          "03.15.02.a.03"
+        ],
+        "general-nist-800-172": [
+          "3.11.5e"
+        ],
+        "general-nist-csf-2-0": [
+          "ID.RA-03",
+          "ID.RA-04",
+          "ID.RA-05",
+          "PR.IR-02",
+          "DE"
+        ],
+        "general-swift-cscf-2025": [
+          "7.4A"
+        ],
+        "general-ul-2900-1-2017": [
+          "12.1(b)"
+        ],
+        "general-un-155-2021": [
+          "7.2.2.2(b)"
+        ],
+        "general-un-ece-wp-29-2020": [
+          "7.2.2.2(b)"
+        ],
+        "usa-federal-dhs-cisa-cpg-2-0": [
+          "3.A"
+        ],
+        "usa-federal-doe-c2m2-2-1": [
+          "RISK-2j"
+        ],
+        "usa-federal-dow-cmmc-2-level-3": [
+          "RA.L3-3.11.5E"
+        ],
+        "usa-federal-law-hipaa-simplification-2013": [
+          "164.306(b)(2)(iv)"
+        ],
+        "usa-federal-law-hipaa-security-rule-2013": [
+          "164.306(b)(2)(iv)"
+        ],
+        "usa-state-ma-201-cmr-17-2008": [
+          "17.03(2)(b)"
+        ],
+        "usa-state-ny-dfs-23-nycrr500-2023-amd2": [
+          "500.9(b)(1)"
+        ],
+        "emea-eu-nis2-annex-2024": [
+          "13.2.1"
+        ],
+        "emea-deu-bsrit-2017": [
+          "3.3",
+          "5.3"
+        ],
+        "emea-sau-cgiot-2024": [
+          "1-4-4"
+        ],
+        "emea-gbr-caf-4-0": [
+          "A2.b",
+          "C1.f"
+        ],
+        "americas-can-osfi-b13-2022": [
+          "3.0",
+          "3.1.6"
+        ],
+        "americas-can-itsp-10-171-2025": [
+          "03.15.02.A.03"
+        ]
+      }
+    },
+    {
+      "control_id": "THR-10",
+      "title": "Threat Analysis",
+      "family": "THR",
+      "description": "Mechanisms exist to identify, assess, prioritize and document the potential impact(s) and likelihood(s) of applicable internal and external threats.",
+      "scf_question": "Does the organization identify, assess, prioritize and document the potential impact(s) and likelihood(s) of applicable internal and external threats?",
+      "relative_weight": 7,
+      "conformity_cadence": "Annual",
+      "evidence_requests": [
+        "E-THR-07"
+      ],
+      "pptdf": "Process",
+      "nist_csf_function": "Protect",
+      "scrm_focus": {
+        "strategic": true,
+        "operational": true,
+        "tactical": true
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "Threat Management (THR) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with THR domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Threat management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.",
+        "2": "Threat Management (THR) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with THR domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with THR domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with THR  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Threat management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Threat management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
+        "3": "Threat Management (THR) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with THR domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with THR domain capabilities are well-documented and kept current by process owners.\n▪ A threat management team, or similar function, is appropriately staffed and supported to implement and maintain THR domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of threat management operations (e.g., threat intelligence solution, bug bounty solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with THR domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to identify, assess, prioritize and document the potential impact(s) and likelihood(s) of applicable internal and external threats.",
+        "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+        "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+      },
+      "profiles": [
+        "SCRMS",
+        "CORE ESP Level 1 Foundational",
+        "CORE ESP Level 2 Critical Infrastructure",
+        "CORE ESP Level 3 Advanced Threats",
+        "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+      ],
+      "possible_solutions": {
+        "micro_small": "∙ Documented threat analysis",
+        "small": "∙ Documented threat analysis",
+        "medium": "∙ Documented threat analysis",
+        "large": "∙ Documented threat analysis",
+        "enterprise": "∙ Documented threat analysis"
+      },
+      "risks": [
+        "R-BC-1",
+        "R-BC-2",
+        "R-EX-5",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-4",
+        "R-GV-5",
+        "R-GV-6",
+        "R-GV-7",
+        "R-IR-4",
+        "R-SA-1",
+        "R-SA-2",
+        "R-SC-1",
+        "R-SC-2",
+        "R-SC-3",
+        "R-SC-4",
+        "R-SC-5",
+        "R-SC-6"
+      ],
+      "threats": [
+        "NT-7",
+        "MT-1",
+        "MT-2",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Threat Management",
+      "crosswalks": {
+        "general-aicpa-tsc-2017": [
+          "A1.2-POF11",
+          "CC3.2-POF6",
+          "CC3.2-POF9",
+          "CC3.4-POF6"
+        ],
+        "general-coso-2013": [
+          "8"
+        ],
+        "general-csa-cmm-4-1-0": [
+          "TVM-10"
+        ],
+        "general-iec-tr-60601-4-5-2021": [
+          "4.6.2"
+        ],
+        "general-imo-maritime-cyber-risk-management-2025": [
+          "3.5.2.3"
+        ],
+        "general-mpa-csbp-5-3-1": [
+          "OR-1.2"
+        ],
+        "general-naic-insurance-data-security-model-law-668-2017": [
+          "4.C(2)",
+          "4.C(3)",
+          "4.C(5)"
+        ],
+        "general-nist-800-39": [
+          "TASK 2-1"
+        ],
+        "general-nist-800-171-r3": [
+          "03.14.03.b"
+        ],
+        "general-nist-csf-2-0": [
+          "ID.RA-04",
+          "ID.RA-05",
+          "DE",
+          "DE.AE-07"
+        ],
+        "general-swift-cscf-2025": [
+          "7.4A"
+        ],
+        "general-ul-2900-1-2017": [
+          "12.1(c)"
+        ],
+        "general-un-155-2021": [
+          "7.2.2.2(b)",
+          "7.2.2.2(g)"
+        ],
+        "general-un-ece-wp-29-2020": [
+          "7.2.2.2(b)",
+          "7.2.2.2(g)"
+        ],
+        "usa-federal-doe-c2m2-2-1": [
+          "THREAT-2c",
+          "THREAT-2e",
+          "THREAT-2g",
+          "THREAT-2i"
+        ],
+        "usa-federal-law-hipaa-simplification-2013": [
+          "164.306(b)(2)(iv)"
+        ],
+        "usa-federal-law-hipaa-security-rule-2013": [
+          "164.306(b)(2)(iv)"
+        ],
+        "usa-federal-sec-cybersecurity-rule-2023": [
+          "17 CFR 229.106(a)"
+        ],
+        "usa-state-ma-201-cmr-17-2008": [
+          "17.03(2)(b)"
+        ],
+        "usa-state-ny-dfs-23-nycrr500-2023-amd2": [
+          "500.9(b)(1)"
+        ],
+        "emea-deu-bsrit-2017": [
+          "3.10",
+          "5.3"
+        ],
+        "emea-sau-cgiot-2024": [
+          "1-4-4"
+        ],
+        "apac-ind-sebi-2024": [
+          "ID.RA.S4"
+        ],
+        "americas-can-osfi-b13-2022": [
+          "3.1",
+          "3.1.1",
+          "3.1.2",
+          "3.1.6"
+        ],
+        "americas-can-itsp-10-171-2025": [
+          "03.14.03.B"
+        ]
+      }
+    },
+    {
+      "control_id": "THR-11",
+      "title": "Behavioral Baselining",
+      "family": "THR",
+      "description": "Automated mechanisms exist to establish behavioral baselines that capture information about user and entity behavior to enable dynamic threat discovery.",
+      "scf_question": "Does the organization use automated mechanisms to establish behavioral baselines that capture information about user and entity behavior to enable dynamic threat discovery?",
+      "relative_weight": 5,
+      "conformity_cadence": "Quarterly",
+      "evidence_requests": [
+        "E-THR-08"
+      ],
+      "pptdf": "Technology",
+      "nist_csf_function": "Govern",
+      "scrm_focus": {
+        "strategic": true,
+        "operational": true,
+        "tactical": true
+      },
+      "maturity": {
+        "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+        "1": "Threat Management (THR) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with THR domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Threat management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.",
+        "2": "Threat Management (THR) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with THR domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with THR domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with THR  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Threat management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Threat management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
+        "3": "Threat Management (THR) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with THR domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with THR domain capabilities are well-documented and kept current by process owners.\n▪ A threat management team, or similar function, is appropriately staffed and supported to implement and maintain THR domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of threat management operations (e.g., threat intelligence solution, bug bounty solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with THR domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to automatically establish behavioral baselines that capture information about user and entity behavior to enable dynamic threat discovery.",
+        "4": "Threat Management (THR) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+        "5": "Threat Management (THR) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions."
+      },
+      "profiles": [
+        "CORE ESP Level 2 Critical Infrastructure",
+        "CORE ESP Level 3 Advanced Threats",
+        "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+      ],
+      "possible_solutions": {
+        "micro_small": "∙ Monitor for deviations from normal user/system behavior",
+        "small": "∙ Baseline user and system behavior\n∙ Alert on significant deviations",
+        "medium": "∙ Formal behavioral baselining program\n∙ SIEM-based anomaly detection",
+        "large": "∙ Enterprise UEBA platform (e.g., Exabeam, Securonix)\n∙ Behavioral analytics for threat detection",
+        "enterprise": "∙ Enterprise UEBA/XDR platform (e.g., Microsoft Sentinel, Exabeam, Securonix)\n∙ ML-based behavioral analytics\n∙ Automated threat response"
+      },
+      "risks": [
+        "R-AC-1",
+        "R-AC-2",
+        "R-AC-3",
+        "R-AC-4",
+        "R-AM-1",
+        "R-AM-2",
+        "R-AM-3",
+        "R-BC-1",
+        "R-BC-2",
+        "R-BC-3",
+        "R-BC-4",
+        "R-BC-5",
+        "R-EX-1",
+        "R-EX-2",
+        "R-EX-3",
+        "R-EX-4",
+        "R-EX-5",
+        "R-EX-6",
+        "R-EX-7",
+        "R-GV-1",
+        "R-GV-2",
+        "R-GV-3",
+        "R-GV-4",
+        "R-GV-5",
+        "R-GV-6",
+        "R-GV-7",
+        "R-GV-8",
+        "R-IR-1",
+        "R-IR-2",
+        "R-IR-3",
+        "R-IR-4",
+        "R-SA-1",
+        "R-SA-2",
+        "R-SC-1",
+        "R-SC-2",
+        "R-SC-3",
+        "R-SC-4",
+        "R-SC-5",
+        "R-SC-6"
+      ],
+      "threats": [
+        "NT-7",
+        "MT-2",
+        "MT-7",
+        "MT-8",
+        "MT-9",
+        "MT-11",
+        "MT-12",
+        "MT-13",
+        "MT-14",
+        "MT-15",
+        "MT-24",
+        "MT-25",
+        "MT-27"
+      ],
+      "family_name": "Threat Management",
+      "crosswalks": {
+        "general-coso-2013": [
+          "8"
+        ],
+        "general-cr-cmm-2026": [
+          "CR2.2.6"
+        ],
+        "usa-federal-dhs-cisa-tic-3-0": [
+          "3.PEP.ID.BBASE",
+          "3.UNI.DTDIS"
+        ],
+        "usa-federal-dow-zt-roadmap-1-1": [
+          "3.4.5",
+          "3.4.6",
+          "7.2.5",
+          "7.3.2",
+          "7.4",
+          "7.4.2"
+        ],
+        "usa-federal-dow-zta-reference-architecture-2-0": [
+          "1.2"
+        ]
+      }
+    }
+  ]
+}

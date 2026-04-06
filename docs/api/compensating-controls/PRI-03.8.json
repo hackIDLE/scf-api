@@ -1,0 +1,16 @@
+{
+  "control_id": "PRI-03.8",
+  "risk_if_not_implemented": "Without Global Privacy Control (GPC), personal data may be processed without appropriate safeguards, increasing regulatory and reputational risk.",
+  "compensating_control_1": {
+    "control_id": "PRI-03",
+    "name": "Choice & Consent",
+    "description": "Mechanisms exist to enable data subjects to authorize the collection, receiving, processing, storage, transmission, sharing, updating and/or disposal of their Personal Data (PD), where prior to collection the data subject is provided with:\n(1) Plain language to illustrate the potential data privacy risks of the authorization; \n(2) A means for users to decline the authorization; and\n(3) All necessary choice and consent-related criteria required by applicable statutory, regulatory and contractual obligations.",
+    "justification": "Choice & Consent (PRI-03) provides privacy protection that compensates for the absence of Global Privacy Control (GPC) (PRI-03.8) by applying alternative privacy safeguards to protect personal data and honor data subject rights. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  },
+  "compensating_control_2": {
+    "control_id": "CPL-01",
+    "name": "Statutory, Regulatory & Contractual Compliance",
+    "description": "Mechanisms exist to facilitate the identification and implementation of relevant statutory, regulatory and contractual controls.",
+    "justification": "Statutory, Regulatory & Contractual Compliance (CPL-01) provides overlapping security capability that compensates for the absence of Global Privacy Control (GPC) (PRI-03.8) by addressing related risk objectives through an alternative control mechanism aligned with Technology applicability. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  }
+}

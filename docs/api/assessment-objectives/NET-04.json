@@ -1,0 +1,126 @@
+{
+  "scf_control_id": "NET-04",
+  "total": 12,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-04",
+      "ao_id": "NET-04_A01",
+      "objective": "information flow control policies are defined.",
+      "pptdf": "Process",
+      "origin": "171A_3.1.3[a]\n53A_R5_AC-04_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-04",
+      "ao_id": "NET-04_A02",
+      "objective": "methods and enforcement mechanisms for controlling the flow of sensitive / regulated data are defined.",
+      "pptdf": "Process",
+      "origin": "171A_3.1.3[b]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-04",
+      "ao_id": "NET-04_A03",
+      "objective": "approved authorizations are enforced for controlling the flow of information within the system and between connected systems based on organization-defined information flow control policies.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-04",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-04",
+      "ao_id": "NET-04_A04",
+      "objective": "designated sources and destinations (e.g., networks, individuals and devices) for sensitive / regulated data within the system and between interconnected systems are identified.",
+      "pptdf": "Process",
+      "origin": "171A_3.1.3[c]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-04",
+      "ao_id": "NET-04_A05",
+      "objective": "authorizations for controlling the flow of sensitive / regulated data are defined.",
+      "pptdf": "Process",
+      "origin": "171A_3.1.3[d]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-04",
+      "ao_id": "NET-04_A06",
+      "objective": "approved authorizations are enforced for controlling the flow of CUI between connected systems.",
+      "pptdf": "Data",
+      "origin": "171A_3.1.3[e]\n171A_R3_A.03.01.03[02]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-04",
+      "ao_id": "NET-04_A07",
+      "objective": "secure information transfer solutions are defined.",
+      "pptdf": "Process",
+      "origin": "172A_3.1.3e_ODP[1]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-04",
+      "ao_id": "NET-04_A08",
+      "objective": "information flows between security domains on connected systems are identified.",
+      "pptdf": "Process",
+      "origin": "172A_3.1.3e[a]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-04",
+      "ao_id": "NET-04_A09",
+      "objective": "solutions are employed to control information flows between security domains on connected systems.",
+      "pptdf": "Technology",
+      "origin": "172A_3.1.3e[b]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-04",
+      "ao_id": "NET-04_A10",
+      "objective": "systems and system components included in the scope of the specified enhanced security requirements are identified.",
+      "pptdf": "Process",
+      "origin": "172A_3.14.3e_ODP[1]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-04",
+      "ao_id": "NET-04_A11",
+      "objective": "systems and system components are included in the scope of the specified enhanced security requirements.",
+      "pptdf": "Technology",
+      "origin": "172A_3.14.3e[a]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-04",
+      "ao_id": "NET-04_A12",
+      "objective": "systems and system components that are not included in systems and system components are segregated in purpose-specific networks.",
+      "pptdf": "Technology",
+      "origin": "172A_3.14.3e[b]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

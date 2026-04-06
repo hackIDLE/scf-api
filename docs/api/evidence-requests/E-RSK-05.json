@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-RSK-05",
+  "area": "Risk Management",
+  "artifact_name": "Supply Chain Risk Assessment (SCRA)",
+  "artifact_description": "Documented evidence of supply chain-specific risk assessment that evaluates risks that are specific to its supply chain.",
+  "scf_controls": [
+    "RSK-09.1"
+  ],
+  "cmmc_mapping": ""
+}

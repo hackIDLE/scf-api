@@ -1,0 +1,3506 @@
+{
+  "total": 303,
+  "evidence_requests": [
+    {
+      "erl_id": "E-GOV-01",
+      "area": "Cybersecurity & Data Protection Management",
+      "artifact_name": "Charter - Cybersecurity Program",
+      "artifact_description": "Documented evidence of a charter to establish and resource the organization's cybersecurity program.",
+      "scf_controls": [
+        "GOV-01"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-GOV-02",
+      "area": "Cybersecurity & Data Protection Management",
+      "artifact_name": "Charter - Data Privacy Program",
+      "artifact_description": "Documented evidence of a charter to establish and resource the organization's data privacy program.",
+      "scf_controls": [
+        "GOV-01",
+        "PRI-01"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-GOV-03",
+      "area": "Cybersecurity & Data Protection Management",
+      "artifact_name": "Charter - Cybersecurity Steering Committee",
+      "artifact_description": "Documented evidence of an executive steering committee, or advisory board, that is formed to perform oversight of cybersecurity management decisions and is comprised of key cybersecurity, technology, risk, privacy and business executives.",
+      "scf_controls": [
+        "GOV-01.1",
+        "GOV-01.2"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-GOV-04",
+      "area": "Cybersecurity & Data Protection Management",
+      "artifact_name": "Charter - Data Privacy Steering Committee",
+      "artifact_description": "Documented evidence of an executive steering committee, or advisory board, that is formed to perform oversight of privacy management decisions and is comprised of key cybersecurity, technology, risk, privacy and business executives.",
+      "scf_controls": [
+        "GOV-01.2",
+        "CPL-02"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-GOV-05",
+      "area": "Cybersecurity & Data Protection Management",
+      "artifact_name": "Charter - Audit Committee",
+      "artifact_description": "Documented evidence of an executive steering committee, or advisory board, that is formed to perform oversight of internal and external audit management decisions and is comprised of key cybersecurity, technology, risk, privacy and business executives.",
+      "scf_controls": [
+        "GOV-01.2",
+        "CPL-02"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-GOV-06",
+      "area": "Cybersecurity & Data Protection Management",
+      "artifact_name": "Charter - Risk Committee",
+      "artifact_description": "Documented evidence of an executive steering committee, or advisory board, that is formed to perform oversight of risk management decisions and is comprised of key cybersecurity, technology, risk, privacy and business executives.",
+      "scf_controls": [
+        "GOV-01.2",
+        "CPL-02"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-GOV-07",
+      "area": "Cybersecurity & Data Protection Management",
+      "artifact_name": "Charter - Data Management Board (DMB)",
+      "artifact_description": "Documented evidence of the organization's Data Management Board (DMB) charter and mission.",
+      "scf_controls": [
+        "GOV-01.2"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-GOV-08",
+      "area": "Cybersecurity & Data Protection Management",
+      "artifact_name": "Cybersecurity & Data Protection Policies",
+      "artifact_description": "Documented evidence of an appropriately-scoped cybersecurity & data protection policies. Policies are high-level statements of management intent from an organization's executive leadership that are designed to influence decisions and guide the organization to achieve the desired outcomes. Policies are enforced by standards and further implemented by procedures to establish actionable and accountable requirements.",
+      "scf_controls": [
+        "GOV-02",
+        "PRI-01"
+      ],
+      "cmmc_mapping": "AC.L1-3.1.1\nAC.L1-3.1.2\nAC.L1-3.1.20\nAC.L1-3.1.22\nAC.L2-3.1.7\nAC.L2-3.1.9\nAC.L2-3.1.10\nAC.L2-3.1.11\nAC.L2-3.1.12\nAC.L2-3.1.13\nAC.L2-3.1.14\nAC.L2-3.1.15\nAC.L2-3.1.16\nAC.L2-3.1.17\nAC.L2-3.1.18\nAC.L2-3.1.19\nAC.L2-3.1.21\nAC.L2-3.1.3\nAC.L2-3.1.4\nAC.L2-3.1.5\nAC.L2-3.1.6\nAC.L2-3.1.8\nAT.L2-3.2.1\nAT.L2-3.2.2\nAT.L2-3.2.3\nAT.L2-3.2.3\nAU.L2-3.3.1\nAU.L2-3.3.2\nAU.L2-3.3.4\nAU.L2-3.3.7\nAU.L2-3.3.8\nAU.L2-3.3.8\nAU.L2-3.3.9\nAU.L2-3.3.9\nCA.L2-3.12.1\nCA.L2-3.12.3\nCA.L2-3.12.4\nCM.L2-3.4.1\nCM.L2-3.4.4\nCM.L2-3.4.5\nCM.L2-3.4.6\nCM.L2-3.4.8\nCM.L2-3.4.9\nIA.L1-3.5.2\nIA.L2-3.5.10\nIA.L2-3.5.4\nIA.L2-3.5.5\nIA.L2-3.5.6\nIA.L2-3.5.7\nIA.L2-3.5.7\nIA.L2-3.5.8\nIA.L2-3.5.8\nIA.L2-3.5.9\nIA.L2-3.5.9\nIR.L2-3.6.1\nIR.L2-3.6.1\nIR.L2-3.6.2\nMA.L2-3.7.2\nMA.L2-3.7.4\nMP.L1-3.8.3\nMP.L2-3.8.1\nMP.L2-3.8.1\nMP.L2-3.8.1\nMP.L2-3.8.6\nMP.L2-3.8.7\nMP.L2-3.8.7\nMP.L2-3.8.8\nMP.L2-3.8.8\nPE.L1-3.10.3\nPE.L1-3.10.4\nPE.L1-3.10.5\nPS.L2-3.9.1\nPS.L2-3.9.2\nRA.L2-3.11.2\nSC.L1-3.13.1\nSC.L1-3.13.5\nSC.L2-3.13.10\nSC.L2-3.13.12\nSC.L2-3.13.12\nSC.L2-3.13.13\nSC.L2-3.13.13\nSC.L2-3.13.14\nSC.L2-3.13.15\nSC.L2-3.13.2\nSC.L2-3.13.2\nSC.L2-3.13.3\nSC.L2-3.13.9\nSI.L1-3.14.1\nSI.L1-3.14.4\nSI.L1-3.14.4\nSI.L1-3.14.5\nSI.L1-3.14.5\nSI.L2-3.14.3\nSI.L2-3.14.6\nSI.L2-3.14.6\nSI.L2-3.14.7"
+    },
+    {
+      "erl_id": "E-GOV-09",
+      "area": "Cybersecurity & Data Protection Management",
+      "artifact_name": "Cybersecurity & Data Protection Standards",
+      "artifact_description": "Documented evidence of an appropriately-scoped cybersecurity & data protection standards. Standards are mandatory requirements regarding processes, actions and configurations. Standards are intended to be granular and prescriptive to ensure Technology Assets, Applications and/or Services (TAAS) are designed and operated to include appropriate cybersecurity & data protection protections",
+      "scf_controls": [
+        "GOV-02"
+      ],
+      "cmmc_mapping": "AC.L1-3.1.1\nAC.L1-3.1.2\nAC.L1-3.1.20\nAC.L1-3.1.22\nAC.L2-3.1.7\nAC.L2-3.1.9\nAC.L2-3.1.10\nAC.L2-3.1.11\nAC.L2-3.1.12\nAC.L2-3.1.13\nAC.L2-3.1.14\nAC.L2-3.1.15\nAC.L2-3.1.16\nAC.L2-3.1.17\nAC.L2-3.1.18\nAC.L2-3.1.19\nAC.L2-3.1.21\nAC.L2-3.1.3\nAC.L2-3.1.4\nAC.L2-3.1.5\nAC.L2-3.1.6\nAC.L2-3.1.8\nAT.L2-3.2.1\nAT.L2-3.2.2\nAT.L2-3.2.3\nAT.L2-3.2.3\nAU.L2-3.3.1\nAU.L2-3.3.2\nAU.L2-3.3.4\nAU.L2-3.3.7\nAU.L2-3.3.8\nAU.L2-3.3.8\nAU.L2-3.3.9\nAU.L2-3.3.9\nCA.L2-3.12.1\nCA.L2-3.12.3\nCA.L2-3.12.4\nCM.L2-3.4.1\nCM.L2-3.4.4\nCM.L2-3.4.5\nCM.L2-3.4.6\nCM.L2-3.4.8\nCM.L2-3.4.9\nIA.L1-3.5.2\nIA.L2-3.5.10\nIA.L2-3.5.4\nIA.L2-3.5.5\nIA.L2-3.5.6\nIA.L2-3.5.7\nIA.L2-3.5.7\nIA.L2-3.5.8\nIA.L2-3.5.8\nIA.L2-3.5.9\nIA.L2-3.5.9\nIR.L2-3.6.1\nIR.L2-3.6.1\nIR.L2-3.6.2\nMA.L2-3.7.2\nMA.L2-3.7.4\nMP.L1-3.8.3\nMP.L2-3.8.1\nMP.L2-3.8.1\nMP.L2-3.8.1\nMP.L2-3.8.6\nMP.L2-3.8.7\nMP.L2-3.8.7\nMP.L2-3.8.8\nMP.L2-3.8.8\nPE.L1-3.10.3\nPE.L1-3.10.4\nPE.L1-3.10.5\nPS.L2-3.9.1\nPS.L2-3.9.2\nRA.L2-3.11.2\nSC.L1-3.13.1\nSC.L1-3.13.5\nSC.L2-3.13.10\nSC.L2-3.13.12\nSC.L2-3.13.12\nSC.L2-3.13.13\nSC.L2-3.13.13\nSC.L2-3.13.14\nSC.L2-3.13.15\nSC.L2-3.13.2\nSC.L2-3.13.2\nSC.L2-3.13.3\nSC.L2-3.13.9\nSI.L1-3.14.1\nSI.L1-3.14.4\nSI.L1-3.14.4\nSI.L1-3.14.5\nSI.L1-3.14.5\nSI.L2-3.14.3\nSI.L2-3.14.6\nSI.L2-3.14.6\nSI.L2-3.14.7"
+    },
+    {
+      "erl_id": "E-GOV-10",
+      "area": "Cybersecurity & Data Protection Management",
+      "artifact_name": "Cybersecurity & Data Protection Controls",
+      "artifact_description": "Documented evidence of an appropriately-scoped cybersecurity & data protection controls. Controls are technical, administrative or physical safeguards. Controls are the nexus used to manage risks through preventing, detecting or lessening the ability of a particular threat from negatively impacting business processes. Controls directly map to standards, since control testing is designed to measure specific aspects of how standards are actually implemented.",
+      "scf_controls": [
+        "GOV-09",
+        "CPL-01",
+        "CPL-01.2",
+        "BCD-13",
+        "BCD-13.1",
+        "SEA-01.1",
+        "SEA-01.2"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-GOV-11",
+      "area": "Cybersecurity & Data Protection Management",
+      "artifact_name": "Cybersecurity & Data Protection Procedures",
+      "artifact_description": "Documented evidence of an appropriate appropriately-scoped cybersecurity & data protection procedures. Procedures are a documented set of steps necessary to perform a specific task or process in conformance with an applicable standard. Procedures help address the question of how the organization actually operationalizes a policy, standard or control. The result of a procedure is intended to satisfy a specific control. Procedures are also commonly referred to as “control activities.”",
+      "scf_controls": [
+        "GOV-02",
+        "OPS-01.1",
+        "BCD-13",
+        "BCD-13.1"
+      ],
+      "cmmc_mapping": "AC.L1-3.1.1\nAC.L1-3.1.2\nAC.L1-3.1.20\nAC.L1-3.1.22\nAC.L2-3.1.10\nAC.L2-3.1.10\nAC.L2-3.1.11\nAC.L2-3.1.12\nAC.L2-3.1.13\nAC.L2-3.1.14\nAC.L2-3.1.15\nAC.L2-3.1.16\nAC.L2-3.1.17\nAC.L2-3.1.18\nAC.L2-3.1.19\nAC.L2-3.1.21\nAC.L2-3.1.3\nAC.L2-3.1.4\nAC.L2-3.1.5\nAC.L2-3.1.5\nAC.L2-3.1.6\nAC.L2-3.1.7\nAC.L2-3.1.8\nAC.L2-3.1.9\nAT.L2-3.2.1\nAT.L2-3.2.2\nAT.L2-3.2.3\nAU.L2-3.3.1\nAU.L2-3.3.1\nAU.L2-3.3.1\nAU.L2-3.3.2\nAU.L2-3.3.2\nAU.L2-3.3.4\nAU.L2-3.3.7\nAU.L2-3.3.8\nCA.L2-3.12.1\nCA.L2-3.12.1\nCA.L2-3.12.3\nCA.L2-3.12.3\nCA.L2-3.12.4\nCA.L2-3.12.4\nCM.L2-3.4.1\nCM.L2-3.4.1\nCM.L2-3.4.4\nCM.L2-3.4.5\nCM.L2-3.4.6\nCM.L2-3.4.8\nCM.L2-3.4.9\nIA.L1-3.5.2\nIA.L1-3.5.2\nIA.L2-3.5.10\nIA.L2-3.5.10\nIA.L2-3.5.4\nIA.L2-3.5.5\nIA.L2-3.5.5\nIA.L2-3.5.6\nIA.L2-3.5.7\nIA.L2-3.5.8\nIA.L2-3.5.9\nIR.L2-3.6.1\nIR.L2-3.6.1\nIR.L2-3.6.1\nIR.L2-3.6.2\nIR.L2-3.6.2\nMA.L2-3.7.2\nMA.L2-3.7.4\nMP.L1-3.8.3\nMP.L2-3.8.1\nMP.L2-3.8.1\nMP.L2-3.8.6\nMP.L2-3.8.7\nMP.L2-3.8.8\nPE.L1-3.10.3\nPE.L1-3.10.4\nPE.L1-3.10.5\nPS.L2-3.9.1\nPS.L2-3.9.2\nRA.L2-3.11.2\nSC.L1-3.13.1\nSC.L1-3.13.5\nSC.L2-3.13.10\nSC.L2-3.13.12\nSC.L2-3.13.13\nSC.L2-3.13.14\nSC.L2-3.13.15\nSC.L2-3.13.2\nSC.L2-3.13.2\nSC.L2-3.13.2\nSC.L2-3.13.3\nSC.L2-3.13.9\nSI.L1-3.14.1\nSI.L1-3.14.1\nSI.L1-3.14.4\nSI.L1-3.14.5\nSI.L2-3.14.3\nSI.L2-3.14.6\nSI.L2-3.14.6\nSI.L2-3.14.7"
+    },
+    {
+      "erl_id": "E-GOV-12",
+      "area": "Cybersecurity & Data Protection Management",
+      "artifact_name": "Cybersecurity & Data Protection Policies & Standards Reviews",
+      "artifact_description": "Documented evidence of a periodic review process for the organization's cybersecurity & data protection policies and standards to identify necessary updates.",
+      "scf_controls": [
+        "GOV-03",
+        "SEA-01.1",
+        "SEA-01.2"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-GOV-13",
+      "area": "Cybersecurity & Data Protection Management",
+      "artifact_name": "Measures of Performance (Metrics)",
+      "artifact_description": "Documented evidence of formal measure of performance that are used to track the health of the cybersecurity & data protection program (e.g., metrics, KPIs, KRIs).",
+      "scf_controls": [
+        "GOV-01.2",
+        "GOV-05",
+        "GOV-05.2",
+        "CPL-02"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-GOV-14",
+      "area": "Cybersecurity & Data Protection Management",
+      "artifact_name": "Materiality Threshold Definition",
+      "artifact_description": "Documented evidence of criteria to define the organization's materiality threshold.",
+      "scf_controls": [
+        "GOV-16"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-GOV-15",
+      "area": "Cybersecurity & Data Protection Management",
+      "artifact_name": "Material Risks",
+      "artifact_description": "Documented evidence of specific risks that are categorized as material risks.",
+      "scf_controls": [
+        "GOV-16.1",
+        "RSK-13",
+        "RSK-13.2"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-GOV-16",
+      "area": "Cybersecurity & Data Protection Management",
+      "artifact_name": "Material Threats",
+      "artifact_description": "Documented evidence of specific threats that are categorized as material threats.",
+      "scf_controls": [
+        "GOV-16.2"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-GOV-17",
+      "area": "Cybersecurity & Data Protection Management",
+      "artifact_name": "Cybersecurity & Data Privacy Status Reports",
+      "artifact_description": "Documented evidence of status reports of the organization's security, compliance and/or resilience program that were submitted to applicable statutory and/or regulatory authorities.",
+      "scf_controls": [
+        "GOV-17"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-GOV-18",
+      "area": "Cybersecurity & Data Protection Management",
+      "artifact_name": "Exception Management",
+      "artifact_description": "Documented evidence of authorized exceptions to standards (e.g., configurations, practices, etc.)",
+      "scf_controls": [
+        "CRY-01.1",
+        "GOV-02.1"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-GOV-19",
+      "area": "Cybersecurity & Data Protection Management",
+      "artifact_name": "Operationalizing Cybersecurity & Data Protection Practices",
+      "artifact_description": "Documented evidence of personnel management actions to compel data and/or process owners to operationalize cybersecurity and data protection practices for each Technology Asset, Application and/or Service (TAAS) under their control.",
+      "scf_controls": [
+        "GOV-15"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-GOV-20",
+      "area": "Cybersecurity & Data Protection Management",
+      "artifact_name": "Compensating Controls",
+      "artifact_description": "Documented evidence of compensating controls (e.g., countermeasure to reduce risk associated with control deficiencies).",
+      "scf_controls": [
+        "CFG-02.9",
+        "RSK-06.2"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-AAT-01",
+      "area": "Artificial Intelligence (AI) & Autonomous Technologies Governance",
+      "artifact_name": "Artificial Intelligence and Autonomous Technologies (AAT) Governance Program",
+      "artifact_description": "Documented evidence of a governance program for Artificial Intelligence and Autonomous Technologies (AAT).",
+      "scf_controls": [
+        "AAT-01"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-AAT-02",
+      "area": "Artificial Intelligence (AI) & Autonomous Technologies Governance",
+      "artifact_name": "Compliance Obligations for Artificial Intelligence and Autonomous Technologies (AAT).",
+      "artifact_description": "Documented evidence of applicable statutory, regulatory and contractual cybersecurity & data privacy obligations for Artificial Intelligence and Autonomous Technologies (AAT).",
+      "scf_controls": [
+        "AAT-01.1"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-AAT-03",
+      "area": "Artificial Intelligence (AI) & Autonomous Technologies Governance",
+      "artifact_name": "Secure Development Practices for Artificial Intelligence and Autonomous Technologies (AAT).",
+      "artifact_description": "Documented evidence of industry-recognized secure practices to develop and maintain trustworthy Artificial Intelligence and Autonomous Technologies (AAT).",
+      "scf_controls": [
+        "AAT-01.2"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-AAT-04",
+      "area": "Artificial Intelligence (AI) & Autonomous Technologies Governance",
+      "artifact_name": "Business Case for Artificial Intelligence and Autonomous Technologies (AAT)",
+      "artifact_description": "Documented evidence of a business case for Artificial Intelligence and Autonomous Technologies (AAT).",
+      "scf_controls": [
+        "AAT-04"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-AAT-05",
+      "area": "Artificial Intelligence (AI) & Autonomous Technologies Governance",
+      "artifact_name": "Risk Management Decision Makers for Artificial Intelligence and Autonomous Technologies (AAT)",
+      "artifact_description": "Documented evidence of diversity of demographics, disciplines, experience, expertise and backgrounds for mapping, measuring and managing Artificial Intelligence (AI) and Autonomous Technologies (AAT)-related risks.",
+      "scf_controls": [
+        "AAT-07"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-AAT-06",
+      "area": "Artificial Intelligence (AI) & Autonomous Technologies Governance",
+      "artifact_name": "Impact Assessments for Artificial Intelligence and Autonomous Technologies (AAT)",
+      "artifact_description": "Documented evidence of impact assessments of proposed Artificial Intelligence (AI) and Autonomous Technologies (AAT) on individuals, groups, communities, organizations and society.",
+      "scf_controls": [
+        "AAT-07.1",
+        "AAT-07.2"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-AAT-07",
+      "area": "Artificial Intelligence (AI) & Autonomous Technologies Governance",
+      "artifact_name": "Artificial Intelligence Test, Evaluation, Validation & Verification (AI TEVV) Practices",
+      "artifact_description": "Documented evidence of Artificial Intelligence Test, Evaluation, Validation & Verification (AI TEVV) practices.",
+      "scf_controls": [
+        "AAT-10"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-AAT-08",
+      "area": "Artificial Intelligence (AI) & Autonomous Technologies Governance",
+      "artifact_name": "Robust Stakeholder Involvement for Artificial Intelligence and Autonomous Technologies (AAT)",
+      "artifact_description": "Documented evidence of robust stakeholder involvement on Artificial Intelligence (AI) and Autonomous Technologies (AAT) initiatives.",
+      "scf_controls": [
+        "AAT-11"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-AAT-09",
+      "area": "Artificial Intelligence (AI) & Autonomous Technologies Governance",
+      "artifact_name": "Intellectual Property (IP) Infringement Assessment of Artificial Intelligence and Autonomous Technologies (AAT)",
+      "artifact_description": "Documented evidence of a legal opinion on the potential for Intellectual Property (IP) infringement by the organization's Artificial Intelligence (AI) and Autonomous Technologies (AAT) initiatives.",
+      "scf_controls": [
+        "AAT-12"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-AAT-10",
+      "area": "Artificial Intelligence (AI) & Autonomous Technologies Governance",
+      "artifact_name": "Source Data Identification for Artificial Intelligence and Autonomous Technologies (AAT)",
+      "artifact_description": "Documented evidence of data sources utilized in the training and/or operation of Artificial Intelligence and Autonomous Technologies (AAT).",
+      "scf_controls": [
+        "AAT-12.1"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-AST-01",
+      "area": "Asset Management",
+      "artifact_name": "IT Asset Management (ITAM)",
+      "artifact_description": "Documented evidence of an IT Asset Management (ITAM) program that addresses the due diligence and due care activities associated with maintaining both secure, compliance and resilient Technology Assets, Applications and/or Services (TAAS).",
+      "scf_controls": [
+        "AST-01",
+        "AST-03",
+        "AST-03.1",
+        "AST-10",
+        "CFG-05",
+        "END-01",
+        "IAC-01",
+        "IAC-02.2",
+        "MON-03",
+        "MON-16.4"
+      ],
+      "cmmc_mapping": "CM.L2-3.4.9"
+    },
+    {
+      "erl_id": "E-AST-02",
+      "area": "Asset Management",
+      "artifact_name": "Asset Scoping Guidance",
+      "artifact_description": "Documented evidence of an asset scoping guidance. This is program-level documentation in the form of a runbook, playbook or a similar format provides guidance on defining in-scope Technology Assets, Applications, Services and/or Data (TAASD) (including third-parties).",
+      "scf_controls": [
+        "AST-04.1",
+        "AST-04.2",
+        "AST-04.3",
+        "CPL-01.2",
+        "IAO-01.1"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-AST-03",
+      "area": "Asset Management",
+      "artifact_name": "Asset Disposal Evidence",
+      "artifact_description": "Documented evidence of asset disposal/destruction (e.g., asset tracking by serial # for shredding, degaussing, etc.).",
+      "scf_controls": [
+        "AST-09",
+        "DCH-08",
+        "DCH-09",
+        "DCH-09.1"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-AST-04",
+      "area": "Asset Management",
+      "artifact_name": "Asset Inventories - Hardware",
+      "artifact_description": "Documented evidence of an inventory of the organization's technology hardware assets.",
+      "scf_controls": [
+        "AST-02"
+      ],
+      "cmmc_mapping": "CM.L2-3.4.1\nSI.L2-3.14.6\nSI.L2-3.14.7"
+    },
+    {
+      "erl_id": "E-AST-05",
+      "area": "Asset Management",
+      "artifact_name": "Asset Inventories - Software",
+      "artifact_description": "Documented evidence of an inventory of the organization's software assets.",
+      "scf_controls": [
+        "AST-02"
+      ],
+      "cmmc_mapping": "CM.L2-3.4.1\nSI.L2-3.14.6\nSI.L2-3.14.7"
+    },
+    {
+      "erl_id": "E-AST-06",
+      "area": "Asset Management",
+      "artifact_name": "Asset Inventories - Cloud Service Provider (CSP)",
+      "artifact_description": "Documented evidence of an inventory of the organization's cloud-based services (e.g., SaaS, IaaS, PaaS, etc.).",
+      "scf_controls": [
+        "CLD-01",
+        "CLD-09",
+        "TPM-01.1"
+      ],
+      "cmmc_mapping": "CM.L2-3.4.1"
+    },
+    {
+      "erl_id": "E-AST-07",
+      "area": "Asset Management",
+      "artifact_name": "Cyber-Physical Systems (CPS)",
+      "artifact_description": "Documented evidence of an inventory of the organization's physical assets that process functions based on software and networks.",
+      "scf_controls": [
+        "AST-02",
+        "EMB-01"
+      ],
+      "cmmc_mapping": "PE.L1-3.10.3\nPE.L1-3.10.4\nPE.L1-3.10.5"
+    },
+    {
+      "erl_id": "E-AST-08",
+      "area": "Asset Management",
+      "artifact_name": "Asset Inventories - Sensitive / Regulated Data",
+      "artifact_description": "Documented evidence of an inventory of the organization's sensitive/regulated data (including systems where sensitive/regulated data is stored, processed and/or transmitted) that contains sufficient information to determine the potential impact in the event of a data loss incident.",
+      "scf_controls": [
+        "CLD-10",
+        "DCH-01.3",
+        "DCH-06.2",
+        "BCD-11.2",
+        "PRI-05.5"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-AST-09",
+      "area": "Asset Management",
+      "artifact_name": "Computer Lifecycle Plan (CLP)",
+      "artifact_description": "Documented evidence of a Computer Lifecycle Plan (CLP) that describes how the life of technology assets is managed.",
+      "scf_controls": [
+        "SEA-07",
+        "SEA-07.1",
+        "TDA-17"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-AST-10",
+      "area": "Asset Management",
+      "artifact_name": "Prohibited Equipment List (PEM)",
+      "artifact_description": "Documented evidence of equipment identified by Federal Acquisition Regulation (FAR) section 889 prohibitions for certain telecommunications equipment.",
+      "scf_controls": [
+        "AST-17"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-AST-11",
+      "area": "Asset Management",
+      "artifact_name": "Data Retention Program",
+      "artifact_description": "Documented evidence of a formal data retention program that governs the retention and destruction of data types.",
+      "scf_controls": [
+        "DCH-18",
+        "MON-10",
+        "PRI-05"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-AST-12",
+      "area": "Asset Management",
+      "artifact_name": "Secure Baseline Configurations Reviews",
+      "artifact_description": "Documented evidence of a review process to ensure Secure Baseline Configurations (SBC) are current and applicable (e.g., system configuration settings and associated documentation).",
+      "scf_controls": [
+        "CFG-02",
+        "CFG-02.1",
+        "CFG-02.5",
+        "CFG-03",
+        "NET-04",
+        "NET-04.1",
+        "NET-04.6"
+      ],
+      "cmmc_mapping": "CM.L2-3.4.8"
+    },
+    {
+      "erl_id": "E-AST-13",
+      "area": "Asset Management",
+      "artifact_name": "Secure Baseline Configurations - Cloud-Based Services",
+      "artifact_description": "Documented evidence of secure baseline configurations for all deployed types of cloud-based services or applications.",
+      "scf_controls": [
+        "CFG-02",
+        "CFG-03",
+        "CFG-02.5"
+      ],
+      "cmmc_mapping": "AC.L1-3.1.1\nAC.L1-3.1.2\nAC.L1-3.1.20\nAC.L2-3.1.10\nAC.L2-3.1.11\nAC.L2-3.1.12\nAC.L2-3.1.13\nAC.L2-3.1.14\nAC.L2-3.1.15\nAC.L2-3.1.16\nAC.L2-3.1.17\nAC.L2-3.1.18\nAC.L2-3.1.19\nAC.L2-3.1.21\nAC.L2-3.1.3\nAC.L2-3.1.4\nAC.L2-3.1.5\nAC.L2-3.1.6\nAC.L2-3.1.7\nAC.L2-3.1.8\nAC.L2-3.1.9\nAU.L2-3.3.1\nAU.L2-3.3.2\nAU.L2-3.3.4\nAU.L2-3.3.7\nAU.L2-3.3.8\nAU.L2-3.3.9\nCM.L2-3.4.1\nCM.L2-3.4.5\nCM.L2-3.4.6\nCM.L2-3.4.8\nCM.L2-3.4.9\nIA.L1-3.5.2\nIA.L2-3.5.10\nIA.L2-3.5.4\nIA.L2-3.5.5\nIA.L2-3.5.6\nIA.L2-3.5.7\nIA.L2-3.5.8\nIA.L2-3.5.9\nMP.L1-3.8.3\nMP.L2-3.8.6\nMP.L2-3.8.7\nMP.L2-3.8.8\nSC.L1-3.13.1\nSC.L1-3.13.5\nSC.L2-3.13.10\nSC.L2-3.13.12\nSC.L2-3.13.14\nSC.L2-3.13.15\nSC.L2-3.13.2\nSC.L2-3.13.3\nSC.L2-3.13.9\nSI.L1-3.14.4\nSI.L1-3.14.5\nSI.L2-3.14.6\nSI.L2-3.14.7"
+    },
+    {
+      "erl_id": "E-AST-14",
+      "area": "Asset Management",
+      "artifact_name": "Secure Baseline Configurations - Databases",
+      "artifact_description": "Documented evidence of secure baseline configurations for all deployed types of databases.",
+      "scf_controls": [
+        "CFG-02",
+        "CFG-03",
+        "CFG-02.5"
+      ],
+      "cmmc_mapping": "AC.L1-3.1.1\nAC.L1-3.1.2\nAC.L1-3.1.20\nAC.L2-3.1.10\nAC.L2-3.1.11\nAC.L2-3.1.12\nAC.L2-3.1.13\nAC.L2-3.1.14\nAC.L2-3.1.15\nAC.L2-3.1.16\nAC.L2-3.1.17\nAC.L2-3.1.18\nAC.L2-3.1.19\nAC.L2-3.1.21\nAC.L2-3.1.3\nAC.L2-3.1.4\nAC.L2-3.1.5\nAC.L2-3.1.6\nAC.L2-3.1.7\nAC.L2-3.1.8\nAC.L2-3.1.9\nAU.L2-3.3.1\nAU.L2-3.3.2\nAU.L2-3.3.4\nAU.L2-3.3.7\nAU.L2-3.3.8\nAU.L2-3.3.9\nCM.L2-3.4.1\nCM.L2-3.4.5\nCM.L2-3.4.6\nCM.L2-3.4.8\nCM.L2-3.4.9\nIA.L1-3.5.2\nIA.L2-3.5.10\nIA.L2-3.5.4\nIA.L2-3.5.5\nIA.L2-3.5.6\nIA.L2-3.5.7\nIA.L2-3.5.8\nIA.L2-3.5.9\nMP.L1-3.8.3\nMP.L2-3.8.6\nMP.L2-3.8.7\nMP.L2-3.8.8\nSC.L1-3.13.1\nSC.L1-3.13.5\nSC.L2-3.13.10\nSC.L2-3.13.12\nSC.L2-3.13.14\nSC.L2-3.13.15\nSC.L2-3.13.2\nSC.L2-3.13.3\nSC.L2-3.13.9\nSI.L1-3.14.4\nSI.L1-3.14.5\nSI.L2-3.14.6\nSI.L2-3.14.7"
+    },
+    {
+      "erl_id": "E-AST-15",
+      "area": "Asset Management",
+      "artifact_name": "Secure Baseline Configurations - Embedded Technologies",
+      "artifact_description": "Documented evidence of secure baseline configurations for all deployed types of embedded technologies.",
+      "scf_controls": [
+        "CFG-02",
+        "CFG-03",
+        "CFG-02.5"
+      ],
+      "cmmc_mapping": "AC.L1-3.1.1\nAC.L1-3.1.2\nAC.L1-3.1.20\nAC.L2-3.1.10\nAC.L2-3.1.11\nAC.L2-3.1.12\nAC.L2-3.1.13\nAC.L2-3.1.14\nAC.L2-3.1.15\nAC.L2-3.1.16\nAC.L2-3.1.17\nAC.L2-3.1.18\nAC.L2-3.1.19\nAC.L2-3.1.21\nAC.L2-3.1.3\nAC.L2-3.1.4\nAC.L2-3.1.5\nAC.L2-3.1.6\nAC.L2-3.1.7\nAC.L2-3.1.8\nAC.L2-3.1.9\nAU.L2-3.3.1\nAU.L2-3.3.2\nAU.L2-3.3.4\nAU.L2-3.3.7\nAU.L2-3.3.8\nAU.L2-3.3.9\nCM.L2-3.4.1\nCM.L2-3.4.5\nCM.L2-3.4.6\nCM.L2-3.4.8\nCM.L2-3.4.9\nIA.L1-3.5.2\nIA.L2-3.5.10\nIA.L2-3.5.4\nIA.L2-3.5.5\nIA.L2-3.5.6\nIA.L2-3.5.7\nIA.L2-3.5.8\nIA.L2-3.5.9\nMP.L1-3.8.3\nMP.L2-3.8.6\nMP.L2-3.8.7\nMP.L2-3.8.8\nSC.L1-3.13.1\nSC.L1-3.13.5\nSC.L2-3.13.10\nSC.L2-3.13.12\nSC.L2-3.13.14\nSC.L2-3.13.15\nSC.L2-3.13.2\nSC.L2-3.13.3\nSC.L2-3.13.9\nSI.L1-3.14.4\nSI.L1-3.14.5\nSI.L2-3.14.6\nSI.L2-3.14.7"
+    },
+    {
+      "erl_id": "E-AST-16",
+      "area": "Asset Management",
+      "artifact_name": "Secure Baseline Configurations - Major Applications",
+      "artifact_description": "Documented evidence of secure baseline configurations for all deployed types of major applications.",
+      "scf_controls": [
+        "CFG-02",
+        "CFG-03",
+        "CFG-02.5"
+      ],
+      "cmmc_mapping": "AC.L1-3.1.1\nAC.L1-3.1.2\nAC.L1-3.1.20\nAC.L2-3.1.10\nAC.L2-3.1.11\nAC.L2-3.1.12\nAC.L2-3.1.13\nAC.L2-3.1.14\nAC.L2-3.1.15\nAC.L2-3.1.16\nAC.L2-3.1.17\nAC.L2-3.1.18\nAC.L2-3.1.19\nAC.L2-3.1.21\nAC.L2-3.1.3\nAC.L2-3.1.4\nAC.L2-3.1.5\nAC.L2-3.1.6\nAC.L2-3.1.7\nAC.L2-3.1.8\nAC.L2-3.1.9\nAU.L2-3.3.1\nAU.L2-3.3.2\nAU.L2-3.3.4\nAU.L2-3.3.7\nAU.L2-3.3.8\nAU.L2-3.3.9\nCM.L2-3.4.1\nCM.L2-3.4.5\nCM.L2-3.4.6\nCM.L2-3.4.8\nCM.L2-3.4.9\nIA.L1-3.5.2\nIA.L2-3.5.10\nIA.L2-3.5.4\nIA.L2-3.5.5\nIA.L2-3.5.6\nIA.L2-3.5.7\nIA.L2-3.5.8\nIA.L2-3.5.9\nMP.L1-3.8.3\nMP.L2-3.8.6\nMP.L2-3.8.7\nMP.L2-3.8.8\nSC.L1-3.13.1\nSC.L2-3.13.13\nSC.L1-3.13.5\nSC.L2-3.13.10\nSC.L2-3.13.12\nSC.L2-3.13.14\nSC.L2-3.13.15\nSC.L2-3.13.2\nSC.L2-3.13.3\nSC.L2-3.13.9\nSI.L1-3.14.4\nSI.L1-3.14.5\nSI.L2-3.14.6\nSI.L2-3.14.7"
+    },
+    {
+      "erl_id": "E-AST-17",
+      "area": "Asset Management",
+      "artifact_name": "Secure Baseline Configurations - Minor Applications",
+      "artifact_description": "Documented evidence of secure baseline configurations for all deployed types of minor applications.",
+      "scf_controls": [
+        "CFG-02",
+        "CFG-03",
+        "CFG-02.5"
+      ],
+      "cmmc_mapping": "AC.L1-3.1.1\nAC.L1-3.1.2\nAC.L1-3.1.20\nAC.L2-3.1.10\nAC.L2-3.1.11\nAC.L2-3.1.12\nAC.L2-3.1.13\nAC.L2-3.1.14\nAC.L2-3.1.15\nAC.L2-3.1.16\nAC.L2-3.1.17\nAC.L2-3.1.18\nAC.L2-3.1.19\nAC.L2-3.1.21\nAC.L2-3.1.3\nAC.L2-3.1.4\nAC.L2-3.1.5\nAC.L2-3.1.6\nAC.L2-3.1.7\nAC.L2-3.1.8\nAC.L2-3.1.9\nAU.L2-3.3.1\nAU.L2-3.3.2\nAU.L2-3.3.4\nAU.L2-3.3.7\nAU.L2-3.3.8\nAU.L2-3.3.9\nCM.L2-3.4.1\nCM.L2-3.4.5\nCM.L2-3.4.6\nCM.L2-3.4.8\nCM.L2-3.4.9\nIA.L1-3.5.2\nIA.L2-3.5.10\nIA.L2-3.5.4\nIA.L2-3.5.5\nIA.L2-3.5.6\nIA.L2-3.5.7\nIA.L2-3.5.8\nIA.L2-3.5.9\nMP.L1-3.8.3\nMP.L2-3.8.6\nMP.L2-3.8.7\nMP.L2-3.8.8\nSC.L1-3.13.1\nSC.L2-3.13.13\nSC.L1-3.13.5\nSC.L2-3.13.10\nSC.L2-3.13.12\nSC.L2-3.13.14\nSC.L2-3.13.15\nSC.L2-3.13.2\nSC.L2-3.13.3\nSC.L2-3.13.9\nSI.L1-3.14.4\nSI.L1-3.14.5\nSI.L2-3.14.6\nSI.L2-3.14.7"
+    },
+    {
+      "erl_id": "E-AST-18",
+      "area": "Asset Management",
+      "artifact_name": "Secure Baseline Configurations - Mobile Devices",
+      "artifact_description": "Documented evidence of secure baseline configurations for all deployed types of mobile devices.",
+      "scf_controls": [
+        "CFG-02",
+        "CFG-03",
+        "CFG-02.5"
+      ],
+      "cmmc_mapping": "AC.L1-3.1.1\nAC.L1-3.1.2\nAC.L1-3.1.20\nAC.L2-3.1.10\nAC.L2-3.1.11\nAC.L2-3.1.12\nAC.L2-3.1.13\nAC.L2-3.1.14\nAC.L2-3.1.15\nAC.L2-3.1.16\nAC.L2-3.1.17\nAC.L2-3.1.18\nAC.L2-3.1.19\nAC.L2-3.1.21\nAC.L2-3.1.3\nAC.L2-3.1.4\nAC.L2-3.1.5\nAC.L2-3.1.6\nAC.L2-3.1.7\nAC.L2-3.1.8\nAC.L2-3.1.9\nAU.L2-3.3.1\nAU.L2-3.3.2\nAU.L2-3.3.4\nAU.L2-3.3.7\nAU.L2-3.3.8\nAU.L2-3.3.9\nCM.L2-3.4.1\nCM.L2-3.4.5\nCM.L2-3.4.6\nCM.L2-3.4.8\nCM.L2-3.4.9\nIA.L1-3.5.2\nIA.L2-3.5.10\nIA.L2-3.5.4\nIA.L2-3.5.5\nIA.L2-3.5.6\nIA.L2-3.5.7\nIA.L2-3.5.8\nIA.L2-3.5.9\nMP.L1-3.8.3\nMP.L2-3.8.6\nMP.L2-3.8.7\nMP.L2-3.8.8\nSC.L1-3.13.1\nSC.L1-3.13.5\nSC.L2-3.13.10\nSC.L2-3.13.12\nSC.L2-3.13.13\nSC.L2-3.13.14\nSC.L2-3.13.15\nSC.L2-3.13.2\nSC.L2-3.13.3\nSC.L2-3.13.9\nSI.L1-3.14.4\nSI.L1-3.14.5\nSI.L2-3.14.6\nSI.L2-3.14.7"
+    },
+    {
+      "erl_id": "E-AST-19",
+      "area": "Asset Management",
+      "artifact_name": "Secure Baseline Configurations - Network Devices",
+      "artifact_description": "Documented evidence of secure baseline configurations for all deployed types of network devices.",
+      "scf_controls": [
+        "CFG-02",
+        "CFG-02.5",
+        "CFG-03",
+        "NET-04",
+        "NET-04.1"
+      ],
+      "cmmc_mapping": "AC.L1-3.1.1\nAC.L1-3.1.2\nAC.L1-3.1.20\nAC.L2-3.1.10\nAC.L2-3.1.11\nAC.L2-3.1.12\nAC.L2-3.1.13\nAC.L2-3.1.14\nAC.L2-3.1.15\nAC.L2-3.1.16\nAC.L2-3.1.17\nAC.L2-3.1.18\nAC.L2-3.1.19\nAC.L2-3.1.21\nAC.L2-3.1.3\nAC.L2-3.1.4\nAC.L2-3.1.5\nAC.L2-3.1.6\nAC.L2-3.1.7\nAC.L2-3.1.8\nAC.L2-3.1.9\nAU.L2-3.3.1\nAU.L2-3.3.2\nAU.L2-3.3.4\nAU.L2-3.3.7\nAU.L2-3.3.8\nAU.L2-3.3.9\nCM.L2-3.4.1\nCM.L2-3.4.5\nCM.L2-3.4.6\nCM.L2-3.4.8\nCM.L2-3.4.9\nIA.L1-3.5.2\nIA.L2-3.5.10\nIA.L2-3.5.4\nIA.L2-3.5.5\nIA.L2-3.5.6\nIA.L2-3.5.7\nIA.L2-3.5.8\nIA.L2-3.5.9\nMP.L1-3.8.3\nMP.L2-3.8.6\nMP.L2-3.8.7\nMP.L2-3.8.8\nSC.L1-3.13.1\nSC.L1-3.13.5\nSC.L2-3.13.10\nSC.L2-3.13.12\nSC.L2-3.13.14\nSC.L2-3.13.15\nSC.L2-3.13.2\nSC.L2-3.13.3\nSC.L2-3.13.9\nSI.L1-3.14.4\nSI.L1-3.14.5\nSI.L2-3.14.6\nSI.L2-3.14.7"
+    },
+    {
+      "erl_id": "E-AST-20",
+      "area": "Asset Management",
+      "artifact_name": "Secure Baseline Configurations - Server Class Systems",
+      "artifact_description": "Documented evidence of secure baseline configurations for all deployed types of server-class operating systems.",
+      "scf_controls": [
+        "CFG-02",
+        "CFG-02.5",
+        "CFG-03",
+        "CFG-03.2"
+      ],
+      "cmmc_mapping": "AC.L1-3.1.1\nAC.L1-3.1.2\nAC.L1-3.1.20\nAC.L2-3.1.10\nAC.L2-3.1.11\nAC.L2-3.1.12\nAC.L2-3.1.13\nAC.L2-3.1.14\nAC.L2-3.1.15\nAC.L2-3.1.16\nAC.L2-3.1.17\nAC.L2-3.1.18\nAC.L2-3.1.19\nAC.L2-3.1.21\nAC.L2-3.1.3\nAC.L2-3.1.4\nAC.L2-3.1.5\nAC.L2-3.1.6\nAC.L2-3.1.7\nAC.L2-3.1.8\nAC.L2-3.1.9\nAU.L2-3.3.1\nAU.L2-3.3.2\nAU.L2-3.3.4\nAU.L2-3.3.7\nAU.L2-3.3.8\nAU.L2-3.3.9\nCM.L2-3.4.1\nCM.L2-3.4.5\nCM.L2-3.4.6\nCM.L2-3.4.8\nCM.L2-3.4.9\nIA.L1-3.5.2\nIA.L2-3.5.10\nIA.L2-3.5.4\nIA.L2-3.5.5\nIA.L2-3.5.6\nIA.L2-3.5.7\nIA.L2-3.5.8\nIA.L2-3.5.9\nMP.L1-3.8.3\nMP.L2-3.8.6\nMP.L2-3.8.7\nMP.L2-3.8.8\nSC.L1-3.13.1\nSC.L1-3.13.5\nSC.L2-3.13.10\nSC.L2-3.13.12\nSC.L2-3.13.14\nSC.L2-3.13.15\nSC.L2-3.13.2\nSC.L2-3.13.13\nSC.L2-3.13.3\nSC.L2-3.13.9\nSI.L1-3.14.4\nSI.L1-3.14.5\nSI.L2-3.14.6\nSI.L2-3.14.7"
+    },
+    {
+      "erl_id": "E-AST-21",
+      "area": "Asset Management",
+      "artifact_name": "Secure Baseline Configurations - Workstation Class Systems",
+      "artifact_description": "Documented evidence of secure baseline configurations for all deployed types of workstation-class operating systems.",
+      "scf_controls": [
+        "CFG-02",
+        "CFG-02.5",
+        "CFG-03",
+        "CFG-03.2",
+        "CFG-05"
+      ],
+      "cmmc_mapping": "AC.L1-3.1.1\nAC.L1-3.1.2\nAC.L1-3.1.20\nAC.L2-3.1.10\nAC.L2-3.1.11\nAC.L2-3.1.12\nAC.L2-3.1.13\nAC.L2-3.1.14\nAC.L2-3.1.15\nAC.L2-3.1.16\nAC.L2-3.1.17\nAC.L2-3.1.18\nAC.L2-3.1.19\nAC.L2-3.1.21\nAC.L2-3.1.3\nAC.L2-3.1.4\nAC.L2-3.1.5\nAC.L2-3.1.6\nAC.L2-3.1.7\nAC.L2-3.1.8\nAC.L2-3.1.9\nAU.L2-3.3.1\nAU.L2-3.3.2\nAU.L2-3.3.4\nAU.L2-3.3.7\nAU.L2-3.3.8\nAU.L2-3.3.9\nCM.L2-3.4.1\nCM.L2-3.4.5\nCM.L2-3.4.6\nCM.L2-3.4.8\nCM.L2-3.4.9\nIA.L1-3.5.2\nIA.L2-3.5.10\nIA.L2-3.5.4\nIA.L2-3.5.5\nIA.L2-3.5.6\nIA.L2-3.5.7\nIA.L2-3.5.8\nIA.L2-3.5.9\nMP.L1-3.8.3\nMP.L2-3.8.6\nMP.L2-3.8.7\nMP.L2-3.8.8\nSC.L1-3.13.1\nSC.L1-3.13.5\nSC.L2-3.13.10\nSC.L2-3.13.12\nSC.L2-3.13.14\nSC.L2-3.13.15\nSC.L2-3.13.2\nSC.L2-3.13.3\nSC.L2-3.13.9\nSI.L1-3.14.4\nSI.L1-3.14.5\nSI.L2-3.14.6\nSI.L2-3.14.7"
+    },
+    {
+      "erl_id": "E-AST-22",
+      "area": "Asset Management",
+      "artifact_name": "Provenance",
+      "artifact_description": "Documented evidence that tracks the origin, development, ownership, location and changes to Technology Assets, Applications, Services and/or Data (TAASD).",
+      "scf_controls": [
+        "AST-03.2"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-AST-23",
+      "area": "Asset Management",
+      "artifact_name": "Geolocation Inventory",
+      "artifact_description": "Documented evidence of designated internal and third-party facilities where organizational data is stored, transmitted and/or processed.",
+      "scf_controls": [
+        "BCD-02.4",
+        "CLD-09",
+        "DCH-19",
+        "DCH-24"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-AST-24",
+      "area": "Asset Management",
+      "artifact_name": "Technology Assets, Applications, and/or Services (TAAS) Categorization",
+      "artifact_description": "Documented evidence of a methodology to categorize Technology Assets, Applications, and/or Services (TAAS) (e.g., criticality and data classification considerations)",
+      "scf_controls": [
+        "AST-31",
+        "AST-31.1"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-AST-25",
+      "area": "Asset Management",
+      "artifact_name": "Logical Tamper Detection Tool",
+      "artifact_description": "Documented evidence of software that is implemented and configured to detect logical tampering (e.g., configurations).",
+      "scf_controls": [
+        "AST-15"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-AST-26",
+      "area": "Asset Management",
+      "artifact_name": "Roots of Trust Evidence",
+      "artifact_description": "Documented evidence of product supplier data that can be used as a “roots of trust” basis for integrity verification.",
+      "scf_controls": [
+        "AST-18"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-AST-27",
+      "area": "Asset Management",
+      "artifact_name": "Configuration Management",
+      "artifact_description": "Documented evidence of standardized configuration management practices.",
+      "scf_controls": [
+        "CFG-01"
+      ],
+      "cmmc_mapping": "AC.L2-3.1.12\nAC.L2-3.1.16\nAC.L2-3.1.18\nCM.L2-3.4.1\nCM.L2-3.4.4\nCM.L2-3.4.5\nCM.L2-3.4.6\nCM.L2-3.4.8\nCM.L2-3.4.9"
+    },
+    {
+      "erl_id": "E-AST-28",
+      "area": "Asset Management",
+      "artifact_name": "Software Licenses",
+      "artifact_description": "Documented evidence of software license inventories.",
+      "scf_controls": [
+        "AST-02"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-AST-29",
+      "area": "Asset Management",
+      "artifact_name": "Authorized To Connect",
+      "artifact_description": "Documented evidence of a list of devices and systems authorized to connect to organizational Technology Asset, Application and/or Service (TAAS).",
+      "scf_controls": [
+        "AST-01.5"
+      ],
+      "cmmc_mapping": "AC.L1-3.1.1"
+    },
+    {
+      "erl_id": "E-AST-30",
+      "area": "Asset Management",
+      "artifact_name": "System Events To Be Logged",
+      "artifact_description": "Documented evidence of the justification for certain system events to be logged.",
+      "scf_controls": [
+        "MON-01.16"
+      ],
+      "cmmc_mapping": "AU.L2-3.3.1"
+    },
+    {
+      "erl_id": "E-AST-31",
+      "area": "Asset Management",
+      "artifact_name": "Allowlist / Denylist",
+      "artifact_description": "Documented evidence of software applications that are explicitly allowed (allowlist / whitelist) and/or blocked (denylist / blacklist).",
+      "scf_controls": [
+        "CFG-03.3"
+      ],
+      "cmmc_mapping": "CM.L2-3.4.8"
+    },
+    {
+      "erl_id": "E-AST-32",
+      "area": "Asset Management",
+      "artifact_name": "Mobile Code",
+      "artifact_description": "Documented evidence of mobile code that is explicitly allowed (allowlist / whitelist) and/or blocked (denylist / blacklist).",
+      "scf_controls": [
+        "END-10"
+      ],
+      "cmmc_mapping": "SC.L2-3.13.13"
+    },
+    {
+      "erl_id": "E-AST-33",
+      "area": "Asset Management",
+      "artifact_name": "Tailored Baselines",
+      "artifact_description": "Documented evidence exists for tailored baseline configurations to address unique business and/or technical requirements (e.g., kiosk, hazardous environments, etc.).",
+      "scf_controls": [
+        "AST-02.4",
+        "CFG-02.5",
+        "CFG-02.7",
+        "CFG-02.9"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-BCM-01",
+      "area": "Business Continuity",
+      "artifact_name": "Continuity of Operations Plan (COOP)",
+      "artifact_description": "Documented evidence of a Continuity of Operations Plan (COOP). This is program-level documentation in the form of a runbook, playbook or a similar format provides guidance on organizational practices that support existing policies and standards. This involves internal and external stakeholders for incident response, disaster recovery and business continuity support requirements.",
+      "scf_controls": [
+        "BCD-01",
+        "BCD-01.1",
+        "BCD-01.2",
+        "BCD-01.6",
+        "BCD-01.7",
+        "BCD-02.1",
+        "SEA-01.2"
+      ],
+      "cmmc_mapping": "IR.L2-3.6.1"
+    },
+    {
+      "erl_id": "E-BCM-02",
+      "area": "Business Continuity",
+      "artifact_name": "Recovery Time Objectives (RTOs)",
+      "artifact_description": "Documented evidence of Recovery Time Objectives (RTOs) that guide Continuity of Operations Plan (COOP)-related operations.",
+      "scf_controls": [
+        "BCD-01.4"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-BCM-03",
+      "area": "Business Continuity",
+      "artifact_name": "Recovery Point Objectives (RPOs)",
+      "artifact_description": "Documented evidence of Recovery Point Objectives (RPOs) that guide Continuity of Operations Plan (COOP)-related operations.",
+      "scf_controls": [
+        "BCD-01.4"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-BCM-04",
+      "area": "Business Continuity",
+      "artifact_name": "COOP Root Cause Analysis (RCA)",
+      "artifact_description": "Documented evidence of a Root Cause Analysis (RCA) from any Continuity of Operations Plan (COOP)-related training, testing or incident.",
+      "scf_controls": [
+        "BCD-05"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-BCM-05",
+      "area": "Business Continuity",
+      "artifact_name": "COOP Updates",
+      "artifact_description": "Documented evidence of a periodic review process for the organization's Continuity of Operations Plan (COOP) to identify necessary updates.",
+      "scf_controls": [
+        "BCD-06"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-BCM-06",
+      "area": "Business Continuity",
+      "artifact_name": "COOP Testing",
+      "artifact_description": "Documented evidence of a Continuity of Operations Plan (COOP)-related testing activity.",
+      "scf_controls": [
+        "BCD-03.1",
+        "BCD-04"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-BCM-07",
+      "area": "Business Continuity",
+      "artifact_name": "COOP Training",
+      "artifact_description": "Documented evidence of a Continuity of Operations Plan (COOP)-related training activity.",
+      "scf_controls": [
+        "BCD-03",
+        "BCD-04"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-BCM-08",
+      "area": "Business Continuity",
+      "artifact_name": "COOP Criticality Analysis",
+      "artifact_description": "Documented evidence of a Continuity of Operations Plan (COOP)-related criticality analysis.",
+      "scf_controls": [
+        "BCD-02",
+        "TDA-06.1"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-BCM-09",
+      "area": "Business Continuity",
+      "artifact_name": "COOP Dependency Analysis",
+      "artifact_description": "Documented evidence of a Continuity of Operations Plan (COOP)-related dependency analysis for Technology Assets, Applications, Services and/or Data (TAASD) (including facilities and third-parties).",
+      "scf_controls": [
+        "AST-01.1",
+        "RSK-02",
+        "RSK-02.1"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-BCM-10",
+      "area": "Business Continuity",
+      "artifact_name": "Backups",
+      "artifact_description": "Documented evidence of a Continuity of Operations Plan (COOP)-related data backup scheme that demonstrates the methods of data backup (including protection measures) for all data types to ensure business continuity requirements.",
+      "scf_controls": [
+        "BCD-11",
+        "BCD-11.1"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-BCM-11",
+      "area": "Business Continuity",
+      "artifact_name": "Backups - Local",
+      "artifact_description": "Documented evidence of event logs for the on-site / local data backup solution.",
+      "scf_controls": [
+        "BCD-11",
+        "BCD-11.2"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-BCM-12",
+      "area": "Business Continuity",
+      "artifact_name": "Backups - Remote",
+      "artifact_description": "Documented evidence of event logs for the off-site / remote data backup solution.",
+      "scf_controls": [
+        "BCD-11",
+        "BCD-11.2",
+        "BCD-11.6"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-BCM-13",
+      "area": "Business Continuity",
+      "artifact_name": "Backups - Recovery Activities",
+      "artifact_description": "Documented evidence of recovery activities (successful and failed).",
+      "scf_controls": [
+        "BCD-11",
+        "BCD-11.1"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-BCM-14",
+      "area": "Business Continuity",
+      "artifact_name": "Recovery Operations Criteria",
+      "artifact_description": "Documented evidence of specific criteria to activate Business Continuity / Disaster Recovery (BC/DR) plans.",
+      "scf_controls": [
+        "BCD-01.5"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-BCM-15",
+      "area": "Business Continuity",
+      "artifact_name": "Restoration Events",
+      "artifact_description": "Documented evidence of system, application and/or data recovery events. This can include random testing of data backups to ensure recovery methods are viable.",
+      "scf_controls": [
+        "BCD-11.5",
+        "BCD-12"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-BCM-16",
+      "area": "Business Continuity",
+      "artifact_name": "Encrypted Backup Media",
+      "artifact_description": "Documented evidence of backup media being encrypted.",
+      "scf_controls": [
+        "BCD-11.4"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-BCM-17",
+      "area": "Business Continuity",
+      "artifact_name": "Designated Alternative Decision Makers",
+      "artifact_description": "Documented evidence of personnel being assigned with decision-making authority if the primary decision maker is unable to communicate due to adverse conditions.",
+      "scf_controls": [
+        "BCD-06.1"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-CAP-01",
+      "area": "Capacity Management",
+      "artifact_name": "Capacity Planning",
+      "artifact_description": "Documented evidence of proactive capacity planning to meet expected and anticipated future technology-related capacity and/or performance requirements.",
+      "scf_controls": [
+        "CAP-01",
+        "CAP-03"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-CAP-02",
+      "area": "Capacity Management",
+      "artifact_name": "Resource Prioritization",
+      "artifact_description": "Documented evidence of resource prioritization to maintain business performance requirements for critical Technology Assets, Applications, Services and/or Data (TAASD) (including facilities and third-parties).",
+      "scf_controls": [
+        "CAP-02"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-CAP-03",
+      "area": "Capacity Management",
+      "artifact_name": "Technology Performance Monitoring",
+      "artifact_description": "Documented evidence of performance monitoring for technology-related capacity and/or performance criteria.",
+      "scf_controls": [
+        "CAP-04"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-CAP-04",
+      "area": "Capacity Management",
+      "artifact_name": "Dynamic Expansion Capabilities",
+      "artifact_description": "Documented evidence of dynamic expansion capabilities (e.g., elastic expansion) to meet capacity and/or performance requirements for critical Technology Assets, Applications and/or Services (TAAS).",
+      "scf_controls": [
+        "CAP-05"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-CHG-01",
+      "area": "Change Management",
+      "artifact_name": "Business Impact Analysis (BIA)",
+      "artifact_description": "Documented evidence of a Business Impact Analysis (BIA) for proposed changes.",
+      "scf_controls": [
+        "RSK-08",
+        "TDA-06.1"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-CHG-02",
+      "area": "Change Management",
+      "artifact_name": "Charter - Change Control Board (CCB)",
+      "artifact_description": "Documented evidence of the organization's Change Control Board (CCB) charter and mission to govern the organization's change control processes.",
+      "scf_controls": [
+        "CHG-01",
+        "CHG-02",
+        "CHG-02.1"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-CHG-03",
+      "area": "Change Management",
+      "artifact_name": "Change Control Board (CCB) Minutes",
+      "artifact_description": "Documented evidence of Change Control Board (CCB) meeting minutes",
+      "scf_controls": [
+        "CHG-02.2"
+      ],
+      "cmmc_mapping": "CM.L2-3.4.1\nCM.L2-3.4.4\nCM.L2-3.4.5\nCM.L2-3.4.8\nIA.L1-3.5.2\nIA.L2-3.5.10\nIA.L2-3.5.5\nSI.L1-3.14.1"
+    },
+    {
+      "erl_id": "E-CHG-04",
+      "area": "Change Management",
+      "artifact_name": "Evidence of Cybersecurity / Data Privacy Reviews",
+      "artifact_description": "Documented evidence of Change Control Board (CCB) meeting-related security, compliance and/or resilience reviews for proposed change(s).",
+      "scf_controls": [
+        "CHG-02.3",
+        "CHG-03"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-CHG-05",
+      "area": "Change Management",
+      "artifact_name": "Change Control Records",
+      "artifact_description": "Documented evidence of change control records (including test results, when applicable).",
+      "scf_controls": [
+        "CHG-02",
+        "CHG-02.2"
+      ],
+      "cmmc_mapping": "CM.L2-3.4.1\nCM.L2-3.4.4\nCM.L2-3.4.5\nCM.L2-3.4.6\nCM.L2-3.4.8\nIA.L1-3.5.2\nIA.L2-3.5.10\nIA.L2-3.5.5\nSI.L1-3.14.1"
+    },
+    {
+      "erl_id": "E-CHG-06",
+      "area": "Change Management",
+      "artifact_name": "Stakeholder Notification of Changes",
+      "artifact_description": "Documented evidence of stakeholder notification communications for proposed changes.",
+      "scf_controls": [
+        "CHG-05"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-CPL-01",
+      "area": "Compliance",
+      "artifact_name": "Statutory, Regulatory & Contractual Obligations",
+      "artifact_description": "Documented evidence of applicable statutory, regulatory and/or contractual obligations for cybersecurity & data privacy controls.",
+      "scf_controls": [
+        "CPL-01",
+        "MON-03"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-CPL-02",
+      "area": "Compliance",
+      "artifact_name": "Defined Compliance Scope (DCS)",
+      "artifact_description": "Documented evidence of a formal scoping document that identifies applicable statutory, regulatory and/or contractual obligations for the organization. Defines the affected Lines of Business (LOB), internal / external stakeholders and facilities for the specific scope of compliance obligations.",
+      "scf_controls": [
+        "AST-04.1",
+        "AST-04.2",
+        "AST-04.3",
+        "CPL-01.2"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-CPL-03",
+      "area": "Compliance",
+      "artifact_name": "Shared Responsibility Matrix (SRM) / Controls Responsibility Matrix (CRM)",
+      "artifact_description": "Documented evidence of a Controls Responsibility Matrix (CRM), or similar documentation, that identifies the stakeholder involved in executing assigned controls (e.g., Responsible, Accountable, Supportive, Consulted & Informed (RASCI) matrix).",
+      "scf_controls": [
+        "AST-01.2",
+        "AST-03",
+        "CLD-06.1",
+        "TPM-05.4"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-CPL-04",
+      "area": "Compliance",
+      "artifact_name": "Internal Audit (IA)",
+      "artifact_description": "Documented evidence of an Internal Audit (IA) capability.",
+      "scf_controls": [
+        "CPL-02.1"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-CPL-05",
+      "area": "Compliance",
+      "artifact_name": "Internal Audit (IA) Findings",
+      "artifact_description": "Documented evidence of a centrally-managed and prioritized repository Internal Audit (IA) findings.",
+      "scf_controls": [
+        "CPL-01.1",
+        "CPL-03",
+        "GOV-01.2"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-CPL-06",
+      "area": "Compliance",
+      "artifact_name": "Manufacturer Disclosure Statement for Medical Device Security (MDS2)",
+      "artifact_description": "Documented Manufacturer Disclosure Statement for Medical Device Security (MDS2) that communicates information about medical device cybersecurity & data privacy characteristics to current device owners and potential buyers. [note MDS2 is specific to medical device manufacturers]",
+      "scf_controls": [
+        "TDA-01.1",
+        "TDA-02.1",
+        "TDA-02.5",
+        "TDA-04",
+        "TDA-04.1",
+        "TPM-04",
+        "TPM-04.2"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-CPL-07",
+      "area": "Compliance",
+      "artifact_name": "Control Assessments",
+      "artifact_description": "Documented evidence of internal or third-party control assessments to provide governance oversight of cybersecurity & data privacy controls.",
+      "scf_controls": [
+        "CPL-02",
+        "CPL-02.1",
+        "CPL-03",
+        "CPL-03.1"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-CPL-08",
+      "area": "Compliance",
+      "artifact_name": "Functional Review of Cybersecurity Controls",
+      "artifact_description": "Documented evidence of control testing to ensure cybersecurity controls function as expected.",
+      "scf_controls": [
+        "CPL-03.2"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-CPL-09",
+      "area": "Compliance",
+      "artifact_name": "Non-Compliance Oversight Reporting",
+      "artifact_description": "Documented evidence of governance oversight reporting of non-compliance to the organization's executive leadership.",
+      "scf_controls": [
+        "CPL-02",
+        "GOV-01.2"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-CPL-10",
+      "area": "Compliance",
+      "artifact_name": "Statement of Applicability (SOA)",
+      "artifact_description": "Documented Statement of Applicability (SOA), or similar document, that scopes compliance-related activities.",
+      "scf_controls": [
+        "CPL-12"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-CRY-01",
+      "area": "Cryptographic Protections",
+      "artifact_name": "Cryptographic Protections",
+      "artifact_description": "Documented evidence of organization-approved cryptographic solutions and modules for both data at rest and in transit.",
+      "scf_controls": [
+        "CRY-01",
+        "CRY-03",
+        "CRY-04",
+        "CRY-05",
+        "CRY-09",
+        "CRY-09.1",
+        "CRY-09.2",
+        "DCH-01",
+        "DCH-01.2"
+      ],
+      "cmmc_mapping": "AC.L2-3.1.13\nAC.L2-3.1.19\nSC.L2-3.13.10"
+    },
+    {
+      "erl_id": "E-CRY-02",
+      "area": "Cryptographic Protections",
+      "artifact_name": "Cryptographic Key Management",
+      "artifact_description": "Documented evidence of cryptographic key management practices.",
+      "scf_controls": [
+        "CRY-09"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-CRY-03",
+      "area": "Cryptographic Protections",
+      "artifact_name": "Certificate Monitoring",
+      "artifact_description": "Documented evidence of certificate monitoring activities.",
+      "scf_controls": [
+        "CRY-12"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-DCH-01",
+      "area": "Data Protection",
+      "artifact_name": "Data Classification Scheme",
+      "artifact_description": "Documented evidence of an organization-specific data classification scheme.",
+      "scf_controls": [
+        "AST-04.1",
+        "DCH-02"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-DCH-02",
+      "area": "Data Protection",
+      "artifact_name": "Data Handling Practices",
+      "artifact_description": "Documented evidence of an organization-specific data handling practices (e.g., guidance specific the data classification scheme).",
+      "scf_controls": [
+        "AST-04.1",
+        "DCH-01.1",
+        "DCH-01.2",
+        "DCH-01.4",
+        "DCH-02",
+        "DCH-06"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-DCH-03",
+      "area": "Data Protection",
+      "artifact_name": "Network Diagram - Global System View (GSV)",
+      "artifact_description": "Documented evidence of a high-level network diagram that provides a conceptual, logical depiction of the network(s) to describe the interconnections of the systems/applications/services, including internal and external interfaces.",
+      "scf_controls": [
+        "AST-04",
+        "NET-02"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-DCH-04",
+      "area": "Data Protection",
+      "artifact_name": "Network Diagram - Low Level",
+      "artifact_description": "Documented evidence of a low-level network diagram that provides a detailed, logical depiction of assets on the network(s).",
+      "scf_controls": [
+        "AST-04",
+        "NET-02"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-DCH-05",
+      "area": "Data Protection",
+      "artifact_name": "Data Flow Diagram (DFD)",
+      "artifact_description": "Documented evidence of a Data Flow Diagram (DFD) that accurately identifies where sensitive/regulated data is stored, transmitted and/or processed.",
+      "scf_controls": [
+        "AST-02.8",
+        "AST-04",
+        "NET-02"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-DCH-06",
+      "area": "Data Protection",
+      "artifact_name": "Third-Party Inventories",
+      "artifact_description": "Documented evidence of an inventory of External Service Providers (ESP), contractors, vendors, etc. that directly or indirectly impact the organization's Technology Assets, Applications, Services and/or Data (TAASD).",
+      "scf_controls": [
+        "TPM-01.1"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-DCH-07",
+      "area": "Data Protection",
+      "artifact_name": "Media Sanitization Documentation",
+      "artifact_description": "Documented evidence of media sanitization actions.",
+      "scf_controls": [
+        "DCH-09",
+        "DCH-09.1"
+      ],
+      "cmmc_mapping": "MP.L1-3.8.3"
+    },
+    {
+      "erl_id": "E-DCH-08",
+      "area": "Data Protection",
+      "artifact_name": "Authorization Documentation",
+      "artifact_description": "Documented evidence of that identifies authorized users and processes acting on behalf of authorized users.",
+      "scf_controls": [
+        "CFG-08",
+        "DCH-01.4"
+      ],
+      "cmmc_mapping": "AC.L2-3.1.4\nAC.L2-3.1.5\nAU.L2-3.3.9"
+    },
+    {
+      "erl_id": "E-DCH-09",
+      "area": "Data Protection",
+      "artifact_name": "Assigned Responsibilities",
+      "artifact_description": "Documented evidence of data stewardship being assigned and communicated to individuals entrusted with sensitive and/or regulated data.",
+      "scf_controls": [
+        "CRY-01",
+        "DCH-01.1",
+        "DCH-14"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-DCH-10",
+      "area": "Data Protection",
+      "artifact_name": "Structured & Unstructured Data Reviews",
+      "artifact_description": "Documented evidence of a capability to review and/or scan data repositories (structured or unstructured) for instances of sensitive and/or regulated data.",
+      "scf_controls": [
+        "DCH-06.3"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-DCH-11",
+      "area": "Data Protection",
+      "artifact_name": "Authorized Users To Post Publicly Accessible Content",
+      "artifact_description": "Documented evidence of list of users authorized to post publicly accessible content on organizational systems.",
+      "scf_controls": [
+        "HRS-05.2"
+      ],
+      "cmmc_mapping": "AC.L1-3.1.22"
+    },
+    {
+      "erl_id": "E-DCH-12",
+      "area": "Data Protection",
+      "artifact_name": "Publicly Accessible Information Reviews",
+      "artifact_description": "Documented evidence of reviews for publicly accessible sensitive / regulated data.",
+      "scf_controls": [
+        "DCH-15",
+        "WEB-14"
+      ],
+      "cmmc_mapping": "AC.L1-3.1.22"
+    },
+    {
+      "erl_id": "E-DCH-13",
+      "area": "Data Protection",
+      "artifact_name": "Media Storage Facilities",
+      "artifact_description": "Documented evidence of media storage facilities.",
+      "scf_controls": [
+        "BCD-01.3",
+        "DCH-06"
+      ],
+      "cmmc_mapping": "MP.L2-3.8.1"
+    },
+    {
+      "erl_id": "E-DCH-14",
+      "area": "Data Protection",
+      "artifact_name": "Media Transportation Records",
+      "artifact_description": "Documented evidence of media transportation records.",
+      "scf_controls": [
+        "DCH-07"
+      ],
+      "cmmc_mapping": "MP.L2-3.8.6"
+    },
+    {
+      "erl_id": "E-DCH-15",
+      "area": "Data Protection",
+      "artifact_name": "Geolocation Restrictions",
+      "artifact_description": "Documented evidence of geolocation restrictions placed on specific types of sensitive and/or regulated data for where that data can be stored and/or processed.",
+      "scf_controls": [
+        "CLD-09"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-SAT-01",
+      "area": "Education",
+      "artifact_name": "Continuing Professional Education (CPE)",
+      "artifact_description": "Documented evidence of Continuing Professional Education (CPE) requirements for cybersecurity & data privacy personnel.",
+      "scf_controls": [
+        "SAT-03.7"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-SAT-02",
+      "area": "Education",
+      "artifact_name": "Initial User Training",
+      "artifact_description": "Documented evidence of initial user training for security, compliance and/or resilience topics.",
+      "scf_controls": [
+        "SAT-01",
+        "SAT-02",
+        "SAT-02.2",
+        "SAT-04",
+        "HRS-05.7"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-SAT-03",
+      "area": "Education",
+      "artifact_name": "Practical Exercises",
+      "artifact_description": "Documented evidence of practical user training exercises for security, compliance and/or resilience topics (e.g., phishing exercise).",
+      "scf_controls": [
+        "SAT-02.1",
+        "SAT-03.1",
+        "SAT-04"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-SAT-04",
+      "area": "Education",
+      "artifact_name": "Recurring User Training",
+      "artifact_description": "Documented evidence of recurring (e.g., annual) user training for security, compliance and/or resilience topics.",
+      "scf_controls": [
+        "SAT-01",
+        "SAT-03.4",
+        "SAT-03.6",
+        "SAT-03.7",
+        "SAT-04",
+        "HRS-05.7",
+        "THR-05"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-SAT-05",
+      "area": "Education",
+      "artifact_name": "Role-Based Training",
+      "artifact_description": "Documented evidence of specialized user training for privileged users, executives, individuals who handle sensitive/regulated data, etc.",
+      "scf_controls": [
+        "DCH-14",
+        "SAT-01",
+        "SAT-03",
+        "SAT-03.4",
+        "SAT-03.5",
+        "SAT-04",
+        "THR-05"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-SAT-06",
+      "area": "Education",
+      "artifact_name": "Training Materials",
+      "artifact_description": "Documented evidence of security awareness training materials (e.g., curriculum, course work, presentations, etc.)",
+      "scf_controls": [
+        "SAT-04"
+      ],
+      "cmmc_mapping": "AC.L1-3.1.22\nAT.L2-3.2.1\nAT.L2-3.2.2\nAT.L2-3.2.3\nIR.L2-3.6.1"
+    },
+    {
+      "erl_id": "E-SAT-07",
+      "area": "Education",
+      "artifact_name": "Training Records",
+      "artifact_description": "Documented evidence of security awareness training records",
+      "scf_controls": [
+        "SAT-04"
+      ],
+      "cmmc_mapping": "AC.L1-3.1.22\nAT.L2-3.2.1\nAT.L2-3.2.2\nCM.L2-3.4.9\nIR.L2-3.6.1\nSI.L2-3.14.6\nSI.L2-3.14.7"
+    },
+    {
+      "erl_id": "E-MON-01",
+      "area": "Event Log Monitoring",
+      "artifact_name": "Event Log Review & Analysis",
+      "artifact_description": "Documented evidence of a capability to perform security event log review and analysis (e.g., system monitoring records, continuous monitoring strategy, etc.).",
+      "scf_controls": [
+        "MON-01",
+        "MON-01.1",
+        "MON-01.2",
+        "MON-01.3",
+        "MON-01.4",
+        "MON-01.8",
+        "MON-02",
+        "MON-02.2"
+      ],
+      "cmmc_mapping": "AC.L1-3.1.1\nCM.L2-3.4.9\nSC.L2-3.13.13\nSC.L2-3.13.14\nSI.L2-3.14.6\nSI.L2-3.14.7"
+    },
+    {
+      "erl_id": "E-MON-02",
+      "area": "Event Log Monitoring",
+      "artifact_name": "Malware Activity",
+      "artifact_description": "Documented evidence of malware activity being logged and included as part of the centralized event log collection and review/analysis process.",
+      "scf_controls": [
+        "MON-01.8",
+        "MON-02.2",
+        "END-04.3"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-MON-03",
+      "area": "Event Log Monitoring",
+      "artifact_name": "Privileged User Oversight",
+      "artifact_description": "Documented evidence of privileged user activity being logged and included as part of the centralized event log collection and review/analysis process.",
+      "scf_controls": [
+        "MON-01.14",
+        "MON-01.15"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-MON-04",
+      "area": "Event Log Monitoring",
+      "artifact_name": "Rogue Devices",
+      "artifact_description": "Documented evidence of rogue device identification is included as part of the centralized event log collection and review/analysis process.",
+      "scf_controls": [
+        "AST-02.6"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-MON-05",
+      "area": "Event Log Monitoring",
+      "artifact_name": "Centralized Event Log Collection",
+      "artifact_description": "Documented evidence of security-relevant activities being logged and included as part of the centralized event log collection and review/analysis process.",
+      "scf_controls": [
+        "MON-01.2",
+        "MON-01.8",
+        "MON-02",
+        "MON-02.2",
+        "MON-02.1"
+      ],
+      "cmmc_mapping": "AU.L2-3.3.8"
+    },
+    {
+      "erl_id": "E-MON-06",
+      "area": "Event Log Monitoring",
+      "artifact_name": "Automated Event Escalation & Reporting",
+      "artifact_description": "Documented evidence of a capability for selected events to alert applicable personnel, or roles, based on the type of event. This can be demonstrated by the configuration of a Security Incident Event Manager (SIEM), or similar technology, that helps automate event log analysis and reporting.",
+      "scf_controls": [
+        "MON-01",
+        "MON-01.1",
+        "MON-01.3",
+        "MON-01.4",
+        "MON-01.12"
+      ],
+      "cmmc_mapping": "AU.L2-3.3.2\nAU.L2-3.3.8"
+    },
+    {
+      "erl_id": "E-MON-07",
+      "area": "Event Log Monitoring",
+      "artifact_name": "Situational Awareness",
+      "artifact_description": "Documented evidence of the organization leveraging knowledge of event log generation to gain situational awareness of cross-domain activities (e.g., technology issues, security events, policy violations, service provider activities, remote workforce activities, physical security events, etc.).",
+      "scf_controls": [
+        "MON-01",
+        "MON-01.1",
+        "MON-01.3",
+        "MON-01.4",
+        "MON-02.1",
+        "MON-11.3",
+        "MON-16",
+        "MON-16.1",
+        "MON-16.2",
+        "MON-16.3"
+      ],
+      "cmmc_mapping": "AU.L2-3.3.2"
+    },
+    {
+      "erl_id": "E-MON-08",
+      "area": "Event Log Monitoring",
+      "artifact_name": "Integrity Monitoring",
+      "artifact_description": "Documented evidence of integrity monitoring, where files and/or configurations on critical Technology Assets, Applications and/or Services (TAAS) are actively monitored for changes that could indicate unauthorized changes.",
+      "scf_controls": [
+        "MON-01.7"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-MON-09",
+      "area": "Event Log Monitoring",
+      "artifact_name": "Event Logs",
+      "artifact_description": "Documented evidence of event logs being generated by Technology Assets, Applications and/or Services (TAAS).",
+      "scf_controls": [
+        "MON-03.2",
+        "MON-03.3"
+      ],
+      "cmmc_mapping": "AC.L1-3.1.1\nAC.L1-3.1.2\nAC.L1-3.1.22\nAC.L2-3.1.11\nAC.L2-3.1.12\nAC.L2-3.1.13\nAC.L2-3.1.14\nAC.L2-3.1.15\nAC.L2-3.1.16\nAC.L2-3.1.17\nAC.L2-3.1.18\nAC.L2-3.1.19\nAC.L2-3.1.3\nAC.L2-3.1.4\nAC.L2-3.1.6\nAC.L2-3.1.7\nAC.L2-3.1.8\nAC.L2-3.1.9\nAU.L2-3.3.1\nAU.L2-3.3.2\nAU.L2-3.3.4\nAU.L2-3.3.7\nAU.L2-3.3.8\nAU.L2-3.3.9\nCM.L2-3.4.4\nCM.L2-3.4.5\nCM.L2-3.4.8\nCM.L2-3.4.9\nIA.L1-3.5.2\nIA.L2-3.5.10\nIA.L2-3.5.4\nIA.L2-3.5.5\nMP.L2-3.8.1\nMP.L1-3.8.3\nMP.L2-3.8.6\nMP.L2-3.8.7\nMP.L2-3.8.8\nSC.L1-3.13.1\nSC.L1-3.13.5\nSC.L2-3.13.10\nSC.L2-3.13.12\nSC.L2-3.13.13\nSC.L2-3.13.13\nSC.L2-3.13.14\nSC.L2-3.13.15\nSC.L2-3.13.3\nSC.L2-3.13.9\nSI.L1-3.14.4\nSI.L1-3.14.5\nSI.L2-3.14.6"
+    },
+    {
+      "erl_id": "E-MON-10",
+      "area": "Event Log Monitoring",
+      "artifact_name": "Event Logging Processing Failure Notifications",
+      "artifact_description": "Documented evidence of the list of personnel to be notified in the event of an event log processing failure.",
+      "scf_controls": [
+        "MON-05"
+      ],
+      "cmmc_mapping": "AU.L2-3.3.4"
+    },
+    {
+      "erl_id": "E-MON-11",
+      "area": "Event Log Monitoring",
+      "artifact_name": "System Authenticator Types",
+      "artifact_description": "Documented evidence of the list of authorized system authenticator types.",
+      "scf_controls": [
+        "IAC-01"
+      ],
+      "cmmc_mapping": "IA.L1-3.5.2\nIA.L2-3.5.10\nIA.L2-3.5.5"
+    },
+    {
+      "erl_id": "E-HRS-01",
+      "area": "Human Resources",
+      "artifact_name": "Position Categorization",
+      "artifact_description": "Documented evidence of a discrete roles for cybersecurity & data privacy functions (e.g., position categorization).",
+      "scf_controls": [
+        "GOV-04",
+        "HRS-01",
+        "HRS-02",
+        "HRS-03",
+        "HRS-03.1"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-HRS-02",
+      "area": "Human Resources",
+      "artifact_name": "Assigned Roles - Application Developers",
+      "artifact_description": "List of employed or contract personnel assigned to application development roles.",
+      "scf_controls": [
+        "HRS-02",
+        "HRS-02.1",
+        "HRS-03",
+        "OPS-01"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-HRS-03",
+      "area": "Human Resources",
+      "artifact_name": "Assigned Roles - Cybersecurity Staff",
+      "artifact_description": "List of employed or contract personnel assigned to cybersecurity roles.",
+      "scf_controls": [
+        "HRS-02",
+        "HRS-02.1",
+        "HRS-03",
+        "OPS-01"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-HRS-04",
+      "area": "Human Resources",
+      "artifact_name": "Assigned Roles - Data Privacy Staff",
+      "artifact_description": "List of employed or contract personnel assigned to data privacy roles.",
+      "scf_controls": [
+        "HRS-02",
+        "HRS-02.1",
+        "HRS-03",
+        "OPS-01"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-HRS-05",
+      "area": "Human Resources",
+      "artifact_name": "Role Assignment - CISO",
+      "artifact_description": "Documented evidence of a formal role assignment to the Chief Information Security Officer (CISO) position.",
+      "scf_controls": [
+        "GOV-04"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-HRS-06",
+      "area": "Human Resources",
+      "artifact_name": "Role Assignment - COO",
+      "artifact_description": "Documented evidence of a formal role assignment to the Chief Operations Officer (COO) position.",
+      "scf_controls": [
+        "GOV-04"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-HRS-07",
+      "area": "Human Resources",
+      "artifact_name": "Role Assignment - CIO",
+      "artifact_description": "Documented evidence of a formal role assignment to the Chief Information Officer (CIO) position.",
+      "scf_controls": [
+        "GOV-04"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-HRS-08",
+      "area": "Human Resources",
+      "artifact_name": "Role Assignment - CPO",
+      "artifact_description": "Documented evidence of a formal role assignment to the Chief Privacy Officer (CPO) position.",
+      "scf_controls": [
+        "GOV-04",
+        "PRI-01.1"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-HRS-09",
+      "area": "Human Resources",
+      "artifact_name": "Role Assignment - CRO",
+      "artifact_description": "Documented evidence of a formal role assignment to the Chief Risk Officer (CRO) position.",
+      "scf_controls": [
+        "GOV-04"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-HRS-10",
+      "area": "Human Resources",
+      "artifact_name": "Role Assignment - DPO",
+      "artifact_description": "Documented evidence of a formal role assignment to Data Protection Officer (DPO) positions.",
+      "scf_controls": [
+        "GOV-04",
+        "PRI-01.4"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-HRS-11",
+      "area": "Human Resources",
+      "artifact_name": "Role Assignment - Sensitive / Regulated Data",
+      "artifact_description": "Documented evidence of a formal role assignment to personnel who are cleared to handle sensitive/regulated data.",
+      "scf_controls": [
+        "HRS-02",
+        "HRS-02.1",
+        "HRS-03"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-HRS-12",
+      "area": "Human Resources",
+      "artifact_name": "Role Review",
+      "artifact_description": "Documented evidence of a formal review process to ensure personnel roles currently reflect business needs.",
+      "scf_controls": [
+        "IAC-07",
+        "IAC-07.1",
+        "IAC-08",
+        "IAC-17"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-HRS-13",
+      "area": "Human Resources",
+      "artifact_name": "Defined Cybersecurity & Data Privacy Responsibilities",
+      "artifact_description": "Documented evidence of a role-based cybersecurity & data privacy responsibilities to ensure personnel are both educated on the role and are responsible for the associated control execution.",
+      "scf_controls": [
+        "CHG-04",
+        "GOV-04",
+        "HRS-03",
+        "HRS-03.1",
+        "OPS-01"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-HRS-14",
+      "area": "Human Resources",
+      "artifact_name": "Responsibilities Review",
+      "artifact_description": "Documented evidence of a formal review process to ensure assigned responsibilities currently reflect business needs for the assigned role.",
+      "scf_controls": [
+        "IAC-17"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-HRS-15",
+      "area": "Human Resources",
+      "artifact_name": "Organization Chart",
+      "artifact_description": "Current and accurate organization chart that depicts logical staff hierarchies.",
+      "scf_controls": [
+        "GOV-04",
+        "GOV-04.1",
+        "GOV-04.2",
+        "HRS-01",
+        "OPS-01"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-HRS-16",
+      "area": "Human Resources",
+      "artifact_name": "Access Agreements",
+      "artifact_description": "Documented evidence of personnel management practices protecting sensitive/regulated data through formal access agreements.",
+      "scf_controls": [
+        "HRS-03.1",
+        "HRS-05",
+        "HRS-06",
+        "HRS-10"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-HRS-17",
+      "area": "Human Resources",
+      "artifact_name": "Background Checks",
+      "artifact_description": "Documented evidence of personnel screening practices, which centers around some form of formalized background check process.",
+      "scf_controls": [
+        "HRS-04",
+        "HRS-04.1"
+      ],
+      "cmmc_mapping": "PS.L2-3.9.1"
+    },
+    {
+      "erl_id": "E-HRS-18",
+      "area": "Human Resources",
+      "artifact_name": "Provisioning Checklist (Onboarding)",
+      "artifact_description": "Documented evidence of personnel management practices to formally onboard personnel into their assigned roles.",
+      "scf_controls": [
+        "HRS-03",
+        "HRS-03.1",
+        "HRS-04.2",
+        "HRS-05.7",
+        "HRS-10",
+        "IAC-07",
+        "IAC-28"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-HRS-19",
+      "area": "Human Resources",
+      "artifact_name": "Deprovisioning Checklist (Offboarding)",
+      "artifact_description": "Documented evidence of personnel management practices to formally offboard personnel from their assigned roles due to employment termination or role change.",
+      "scf_controls": [
+        "HRS-06.2",
+        "HRS-09",
+        "HRS-09.1",
+        "HRS-09.2",
+        "HRS-09.3",
+        "IAC-07",
+        "IAC-07.1",
+        "IAC-07.2"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-HRS-20",
+      "area": "Human Resources",
+      "artifact_name": "Non-Disclosure Agreements (NDAs)",
+      "artifact_description": "Documented evidence of the use of Non-Disclosure Agreements (NDAs) that restricts unauthorized sharing of sensitive/regulated data.",
+      "scf_controls": [
+        "HRS-06.1"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-HRS-21",
+      "area": "Human Resources",
+      "artifact_name": "Position Competency Requirements",
+      "artifact_description": "Documented evidence of personnel management practices to define minimum competency requirements for cybersecurity & data privacy-related roles.",
+      "scf_controls": [
+        "HRS-03.2",
+        "HRS-04",
+        "HRS-04.1"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-HRS-22",
+      "area": "Human Resources",
+      "artifact_name": "Rules of Behavior",
+      "artifact_description": "Documented evidence of personnel management practices to define \"acceptable use\" or \"rules of behavior\" criteria that specify acceptable and unacceptable user behaviors.",
+      "scf_controls": [
+        "HRS-02",
+        "HRS-02.1",
+        "HRS-03",
+        "HRS-05",
+        "HRS-05.1",
+        "HRS-05.2",
+        "HRS-05.3",
+        "HRS-05.4",
+        "HRS-05.5",
+        "HRS-10"
+      ],
+      "cmmc_mapping": "MP.L2-3.8.7\nMP.L2-3.8.8"
+    },
+    {
+      "erl_id": "E-HRS-23",
+      "area": "Human Resources",
+      "artifact_name": "Critical Cybersecurity & Data Privacy Skills",
+      "artifact_description": "Documented evidence of personnel management practices to formally identify critical cybersecurity skills needed to support business operations.",
+      "scf_controls": [
+        "HRS-03.2",
+        "HRS-13"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-HRS-24",
+      "area": "Human Resources",
+      "artifact_name": "Critical Cybersecurity & Data Privacy Skill Gaps",
+      "artifact_description": "Documented evidence of personnel management practices to formally identify critical cybersecurity & data privacy skill gaps.",
+      "scf_controls": [
+        "HRS-13",
+        "HRS-13.1"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-HRS-25",
+      "area": "Human Resources",
+      "artifact_name": "Separation of Duties (SoD)",
+      "artifact_description": "Documented evidence of personnel management practices to implement and maintain Separation of Duties (SoD) to prevent potential inappropriate activity without collusion.",
+      "scf_controls": [
+        "HRS-11",
+        "HRS-12"
+      ],
+      "cmmc_mapping": "AC.L2-3.1.4"
+    },
+    {
+      "erl_id": "E-HRS-26",
+      "area": "Human Resources",
+      "artifact_name": "Vital Cybersecurity & Data Privacy Staff",
+      "artifact_description": "Documented evidence of personnel management practices to formally identify vital cybersecurity & data privacy personnel.",
+      "scf_controls": [
+        "HRS-13.2"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-HRS-27",
+      "area": "Human Resources",
+      "artifact_name": "Personnel Sanctions",
+      "artifact_description": "Documented evidence of personnel management practices to formally sanction unacceptable behavior(s).",
+      "scf_controls": [
+        "HRS-01",
+        "HRS-07",
+        "OPS-01"
+      ],
+      "cmmc_mapping": "PS.L2-3.9.2"
+    },
+    {
+      "erl_id": "E-HRS-28",
+      "area": "Human Resources",
+      "artifact_name": "Authorized Personnel Access List",
+      "artifact_description": "Documented evidence of an authorized personnel access list.",
+      "scf_controls": [
+        "HRS-03",
+        "PES-02"
+      ],
+      "cmmc_mapping": "IA.L2-3.5.6\nPS.L2-3.9.2"
+    },
+    {
+      "erl_id": "E-HRS-29",
+      "area": "Human Resources",
+      "artifact_name": "Personnel Actions Documentation",
+      "artifact_description": "Documented evidence of notifications or records of recently transferred, separated, or terminated employees.",
+      "scf_controls": [
+        "HRS-07",
+        "HRS-08",
+        "HRS-09"
+      ],
+      "cmmc_mapping": "AC.L1-3.1.1\nAC.L2-3.1.5\nPS.L2-3.9.1\nPS.L2-3.9.2"
+    },
+    {
+      "erl_id": "E-IAM-01",
+      "area": "Identity & Access Management",
+      "artifact_name": "Access Permission Review",
+      "artifact_description": "Documented evidence of periodic access permission reviews.",
+      "scf_controls": [
+        "IAC-17"
+      ],
+      "cmmc_mapping": "AC.L1-3.1.1\nAC.L2-3.1.5"
+    },
+    {
+      "erl_id": "E-IAM-02",
+      "area": "Identity & Access Management",
+      "artifact_name": "Defined Roles & Authorizations (RBAC)",
+      "artifact_description": "Documented evidence of defined access control-specific roles (e.g., Role Based Access Control (RBAC)) that affect both logical and physical access authorizations.",
+      "scf_controls": [
+        "CFG-05",
+        "CHG-04",
+        "DCH-03",
+        "END-03",
+        "IAC-08",
+        "IAC-21"
+      ],
+      "cmmc_mapping": "AC.L1-3.1.20\nAC.L2-3.1.21"
+    },
+    {
+      "erl_id": "E-IAM-03",
+      "area": "Identity & Access Management",
+      "artifact_name": "Privileged User Inventory",
+      "artifact_description": "Documented evidence of an inventory of privileged users across Technology Assets, Applications and/or Services (TAAS) (internal and external).",
+      "scf_controls": [
+        "IAC-16",
+        "IAC-16.1"
+      ],
+      "cmmc_mapping": "AC.L2-3.1.5\nAU.L2-3.3.9\nIA.L2-3.5.4"
+    },
+    {
+      "erl_id": "E-IAM-04",
+      "area": "Identity & Access Management",
+      "artifact_name": "User & Service Inventory",
+      "artifact_description": "Documented evidence of an inventory of authorized users and services.",
+      "scf_controls": [
+        "IAC-01.3"
+      ],
+      "cmmc_mapping": "AC.L2-3.1.5\nAC.L2-3.1.6\nIA.L2-3.5.6\nPS.L2-3.9.2"
+    },
+    {
+      "erl_id": "E-IAM-05",
+      "area": "Identity & Access Management",
+      "artifact_name": "Identity & Access Management (IAM) Function",
+      "artifact_description": "Documented evidence of an Identity & Access Management (IAM), or similar function, that facilitates the implementation of identification and access management controls.",
+      "scf_controls": [
+        "IAC-01",
+        "IAC-02",
+        "IAC-02.2",
+        "IAC-03",
+        "IAC-03.5",
+        "IAC-04",
+        "IAC-05",
+        "IAC-21",
+        "IAC-28"
+      ],
+      "cmmc_mapping": "AC.L1-3.1.20\nAC.L2-3.1.21"
+    },
+    {
+      "erl_id": "E-IAM-06",
+      "area": "Identity & Access Management",
+      "artifact_name": "Authenticate, Authorize and Audit (AAA) Solution",
+      "artifact_description": "Documented evidence of an Authenticate, Authorize and Audit (AAA) solution (on-premises and hosted by External Service Providers (ESP)).",
+      "scf_controls": [
+        "IAC-01.2",
+        "IAC-02",
+        "IAC-02.2",
+        "IAC-03",
+        "IAC-03.5",
+        "IAC-04",
+        "IAC-05",
+        "IAC-21",
+        "IAC-28"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-IAM-07",
+      "area": "Identity & Access Management",
+      "artifact_name": "Account Management Compliance Reviews",
+      "artifact_description": "Documented evidence of account management compliance reviews.",
+      "scf_controls": [
+        "IAC-15",
+        "IAC-15.7"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-IAM-08",
+      "area": "Identity & Access Management",
+      "artifact_name": "Conditions for Group / Role Membership",
+      "artifact_description": "Documented evidence of conditions for group and role membership.",
+      "scf_controls": [
+        "IAC-15",
+        "IAC-15.5"
+      ],
+      "cmmc_mapping": "AC.L1-3.1.1\nAC.L2-3.1.5"
+    },
+    {
+      "erl_id": "E-IAM-09",
+      "area": "Identity & Access Management",
+      "artifact_name": "Access Authorization Records",
+      "artifact_description": "Documented evidence of access authorization records.",
+      "scf_controls": [
+        "IAC-21.3",
+        "IAC-28.1"
+      ],
+      "cmmc_mapping": "AC.L1-3.1.1\nAC.L1-3.1.5\nAC.L1-3.1.2\nSC.L2-3.13.13"
+    },
+    {
+      "erl_id": "E-IAM-10",
+      "area": "Identity & Access Management",
+      "artifact_name": "Active Accounts",
+      "artifact_description": "Documented evidence of active system accounts and the name of the individual associated with each account.",
+      "scf_controls": [
+        "IAC-01.3"
+      ],
+      "cmmc_mapping": "AC.L1-3.1.1\nAC.L2-3.1.5\nIA.L2-3.5.4\nIA.L2-3.5.6\nPS.L2-3.9.2"
+    },
+    {
+      "erl_id": "E-IAM-11",
+      "area": "Identity & Access Management",
+      "artifact_name": "Recently Disabled Accounts",
+      "artifact_description": "Documented evidence of list of recently disabled system accounts along with the name of the individual associated with each account.",
+      "scf_controls": [
+        "IAC-01.3"
+      ],
+      "cmmc_mapping": "AC.L1-3.1.1\nAC.L2-3.1.5"
+    },
+    {
+      "erl_id": "E-IAM-12",
+      "area": "Identity & Access Management",
+      "artifact_name": "Account Management Documentation",
+      "artifact_description": "Documented evidence of list of account management practices.",
+      "scf_controls": [
+        "IAC-01"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-IAM-13",
+      "area": "Asset Management",
+      "artifact_name": "Authenticator Types",
+      "artifact_description": "Documented evidence of system authenticator types.",
+      "scf_controls": [
+        "IAC-02"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-IAM-14",
+      "area": "Asset Management",
+      "artifact_name": "Remote Access Authorizations",
+      "artifact_description": "Documented evidence of authorization for users to connect via remote access methods.",
+      "scf_controls": [
+        "NET-14",
+        "NET-14.5",
+        "NET-14.6"
+      ],
+      "cmmc_mapping": "AC.L2-3.1.12"
+    },
+    {
+      "erl_id": "E-IRO-01",
+      "area": "Incident Response",
+      "artifact_name": "Incident Response Plan (IRP)",
+      "artifact_description": "Documented evidence of a Incident Response Plan (IRP). This is program-level documentation in the form of a runbook, playbook or a similar format provides guidance on organizational practices that support existing policies and standards.",
+      "scf_controls": [
+        "IRO-01",
+        "IRO-02.4",
+        "IRO-02.5",
+        "IRO-04",
+        "IRO-06.1",
+        "IRO-07",
+        "IRO-08",
+        "IRO-10",
+        "IRO-10.2"
+      ],
+      "cmmc_mapping": "IR.L2-3.6.1\nIR.L2-3.6.2"
+    },
+    {
+      "erl_id": "E-IRO-02",
+      "area": "Incident Response",
+      "artifact_name": "Indicators of Compromise (IOC)",
+      "artifact_description": "Documented evidence of defined Indicators of Compromise (IOC).",
+      "scf_controls": [
+        "MON-11.3",
+        "MON-16",
+        "MON-16.1",
+        "MON-16.2",
+        "MON-16.3",
+        "IRO-03"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-IRO-03",
+      "area": "Incident Response",
+      "artifact_name": "Incident Tracking",
+      "artifact_description": "Documented evidence of a centralized repository to track cybersecurity & data privacy incidents.",
+      "scf_controls": [
+        "IRO-02",
+        "IRO-09"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-IRO-04",
+      "area": "Incident Response",
+      "artifact_name": "IRP Testing",
+      "artifact_description": "Documented evidence of an Incident Response Plan (IRP)-related testing activity.",
+      "scf_controls": [
+        "IRO-06"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-IRO-05",
+      "area": "Incident Response",
+      "artifact_name": "Table Top Exercises",
+      "artifact_description": "Documented evidence of \"table top\" exercises that test incident response practices.",
+      "scf_controls": [
+        "IRO-05"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-IRO-06",
+      "area": "Incident Response",
+      "artifact_name": "IRP Training",
+      "artifact_description": "Documented evidence of an Incident Response Plan (IRP)-related training activity.",
+      "scf_controls": [
+        "IRO-05"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-IRO-07",
+      "area": "Incident Response",
+      "artifact_name": "IRP Updates",
+      "artifact_description": "Documented evidence of a periodic review process for the organization's Incident Response Plan (IRP) to identify necessary updates.",
+      "scf_controls": [
+        "IRO-04.2"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-IRO-08",
+      "area": "Incident Response",
+      "artifact_name": "Root Cause Analysis (RCA)",
+      "artifact_description": "Documented evidence of a Root Cause Analysis (RCA) from any Incident Response Plan (IRP)-related training, testing or significant incident.",
+      "scf_controls": [
+        "IRO-13"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-IRO-09",
+      "area": "Incident Response",
+      "artifact_name": "Formally Assigned Incident Response Roles & Responsibilities",
+      "artifact_description": "Documented evidence of the establishment of a formally-assigned, integrated team of cybersecurity, IT and business function representatives that are capable of addressing cybersecurity & data privacy incident response operations.",
+      "scf_controls": [
+        "IRO-07",
+        "IRO-16"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-IRO-10",
+      "area": "Incident Response",
+      "artifact_name": "Chain of Custody",
+      "artifact_description": "Documented evidence of an in-house, or externally contracted, capability to perform digital forensics and maintain the integrity of the chain of custody, in accordance with applicable laws, regulations and industry-recognized secure practices.",
+      "scf_controls": [
+        "IRO-08"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-IRO-11",
+      "area": "Incident Response",
+      "artifact_name": "Incident Reporting Capability",
+      "artifact_description": "Documented evidence of a capability to provide situational awareness of incidents to internal stakeholders and generated necessary reporting to affected clients, applicable third-parties and regulatory authorities.",
+      "scf_controls": [
+        "IRO-10",
+        "IRO-10.2"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-IRO-12",
+      "area": "Incident Response",
+      "artifact_name": "Sensitive / Regulated Data Spills",
+      "artifact_description": "Documented evidence of records of response to sensitive / regulated data spills.",
+      "scf_controls": [
+        "IRO-12"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-IRO-13",
+      "area": "Incident Response",
+      "artifact_name": "Incident Response Records",
+      "artifact_description": "Documented evidence of records of response to cybersecurity and/or data protection incidents.",
+      "scf_controls": [
+        "IRO-09"
+      ],
+      "cmmc_mapping": "AU.L2-3.3.1\nAU.L2-3.3.2\nAU.L2-3.3.4\nAC.L1-3.1.22\nIR.L2-3.6.2"
+    },
+    {
+      "erl_id": "E-IAO-01",
+      "area": "Information Assurance",
+      "artifact_name": "Information Assurance Program (IAP)",
+      "artifact_description": "Documented evidence of a Information Assurance Program (IAP). This is program-level documentation in the form of a runbook, playbook or a similar format provides guidance on organizational practices that support existing policies and standards.",
+      "scf_controls": [
+        "IAO-01",
+        "IAO-02.4"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-IAO-02",
+      "area": "Information Assurance",
+      "artifact_name": "Artificial Intelligence Test, Evaluation, Validation & Verification (AI TEVV)",
+      "artifact_description": "Documented evidence of Artificial Intelligence Test, Evaluation, Validation & Verification (AI TEVV) practices to enable AI-related testing, identification of incidents and information sharing.",
+      "scf_controls": [
+        "AAT-10"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-IAO-03",
+      "area": "Information Assurance",
+      "artifact_name": "Pre-Production Controls Testing",
+      "artifact_description": "Documented evidence of pre-production cybersecurity & data protection controls testing to determine the extent to which the controls are implemented correctly, operating as intended and producing the desired outcome with respect to meeting expected requirements.",
+      "scf_controls": [
+        "IAO-02",
+        "IAO-02.4",
+        "IAO-03.2"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-IAO-04",
+      "area": "Information Assurance",
+      "artifact_name": "Security Assessment Plan",
+      "artifact_description": "Documented evidence of a plan to conduct security assessments.",
+      "scf_controls": [
+        "IAO-02"
+      ],
+      "cmmc_mapping": "CA.L2-3.12.1"
+    },
+    {
+      "erl_id": "E-IAO-05",
+      "area": "Information Assurance",
+      "artifact_name": "Security Assessment Report",
+      "artifact_description": "Documented evidence of a report on security assessments.",
+      "scf_controls": [
+        "IAO-02.4"
+      ],
+      "cmmc_mapping": "RA.L2-3.11.2"
+    },
+    {
+      "erl_id": "E-MNT-01",
+      "area": "Maintenance",
+      "artifact_name": "Maintenance - Authorized Maintenance Personnel",
+      "artifact_description": "Documented evidence of personnel who have designated maintenance roles.",
+      "scf_controls": [
+        "MNT-06.1"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-MNT-02",
+      "area": "Maintenance",
+      "artifact_name": "Maintenance Plan",
+      "artifact_description": "Documented evidence of a Maintenance Plan. This is program-level documentation in the form of a runbook, playbook or a similar format provides guidance on organizational practices that support existing policies and standards.",
+      "scf_controls": [
+        "MNT-01"
+      ],
+      "cmmc_mapping": "MA.L2-3.7.2\nMA.L2-3.7.4"
+    },
+    {
+      "erl_id": "E-MNT-03",
+      "area": "Maintenance",
+      "artifact_name": "Patch Management",
+      "artifact_description": "Documented evidence of maintenance activities for Technology Assets, Applications and/or Services (TAAS) (e.g., patch management).",
+      "scf_controls": [
+        "VPM-01",
+        "VPM-04",
+        "VPM-05"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-MNT-04",
+      "area": "Maintenance",
+      "artifact_name": "Maintenance Activities",
+      "artifact_description": "Documented evidence of maintenance activities for the organization's Technology Assets, Applications and/or Services (TAAS).",
+      "scf_controls": [
+        "MNT-01",
+        "MNT-02",
+        "MNT-03",
+        "MNT-03.1"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-MNT-05",
+      "area": "Maintenance",
+      "artifact_name": "Maintenance Tool Inspection Records",
+      "artifact_description": "Documented evidence of maintenance tool inspection records.",
+      "scf_controls": [
+        "MNT-04.2"
+      ],
+      "cmmc_mapping": "MA.L2-3.7.2"
+    },
+    {
+      "erl_id": "E-NET-01",
+      "area": "Network Security",
+      "artifact_name": "Content / DNS Filtering",
+      "artifact_description": "Documented evidence of the methods that content / DNS filtering is implemented to prevent Internet traffic from prohibited content and/or hostile web sites.",
+      "scf_controls": [
+        "NET-18",
+        "NET-18.1"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-NET-02",
+      "area": "Network Security",
+      "artifact_name": "Wireless Rogue Detection",
+      "artifact_description": "Documented evidence of automated or manual means to detect rogue wireless devices.",
+      "scf_controls": [
+        "NET-15.5"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-NET-03",
+      "area": "Network Security",
+      "artifact_name": "Work From Anywhere (WFA) Guidance (remote workers)",
+      "artifact_description": "Documented evidence of administrative and technical measures that are enforced at \"alternate work sites\" which includes working from home or working while traveling on business.",
+      "scf_controls": [
+        "NET-14",
+        "NET-14.5"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-NET-04",
+      "area": "Network Security",
+      "artifact_name": "Network Security Controls (NSC)",
+      "artifact_description": "Documented evidence of the organization's network security controls (e.g., boundary protections, content filtering, wireless infrastructure, etc.).",
+      "scf_controls": [
+        "NET-01"
+      ],
+      "cmmc_mapping": "SC.L1-3.13.1\nSC.L1-3.13.5\nSC.L2-3.13.14"
+    },
+    {
+      "erl_id": "E-NET-05",
+      "area": "Network Security",
+      "artifact_name": "Zero Trust Architecture (ZTA)",
+      "artifact_description": "Documented evidence of controls that would enable the organization to claim conformity with Zero Trust (ZT) principles.",
+      "scf_controls": [
+        "NET-01.1"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-NET-06",
+      "area": "Network Security",
+      "artifact_name": "Authorized Network Connections",
+      "artifact_description": "Documented evidence of third-party Technology Assets, Applications and/or Services (TAAS) authorized to connect to organizational TAAS, including remote access authorizations.",
+      "scf_controls": [
+        "NET-04",
+        "NET-05",
+        "NET-05.1",
+        "MDM-11"
+      ],
+      "cmmc_mapping": "AC.L2-3.1.16\nAC.L2-3.1.18\nSC.L2-3.13.14"
+    },
+    {
+      "erl_id": "E-NET-07",
+      "area": "Network Security",
+      "artifact_name": "External System Accessibility",
+      "artifact_description": "Documented evidence of a list of Technology Assets, Applications and/or Services (TAAS) accessible from third-party entities.",
+      "scf_controls": [
+        "NET-04",
+        "NET-04.1"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-NET-08",
+      "area": "Network Security",
+      "artifact_name": "Internal Boundaries",
+      "artifact_description": "Documented evidence of key internal boundaries.",
+      "scf_controls": [
+        "NET-03"
+      ],
+      "cmmc_mapping": "SC.L1-3.13.1\nSC.L1-3.13.5"
+    },
+    {
+      "erl_id": "E-NET-09",
+      "area": "Network Security",
+      "artifact_name": "Network Access Control Points",
+      "artifact_description": "Documented evidence of network access control points.",
+      "scf_controls": [
+        "NET-03",
+        "NET-05.1",
+        "NET-14.3"
+      ],
+      "cmmc_mapping": "AC.L2-3.1.14"
+    },
+    {
+      "erl_id": "E-NET-10",
+      "area": "Network Security",
+      "artifact_name": "Information Flow Control",
+      "artifact_description": "Documented evidence of information flow control mechanisms (e.g., Access Control Lists, etc.).",
+      "scf_controls": [
+        "NET-04",
+        "NET-04.1"
+      ],
+      "cmmc_mapping": "AC.L2-3.1.3\nAU.L2-3.3.9"
+    },
+    {
+      "erl_id": "E-PES-01",
+      "area": "Physical Security",
+      "artifact_name": "Environmental Monitoring",
+      "artifact_description": "Documented evidence of environmental monitoring (e.g., water leaks, temperature, humidity, etc.)",
+      "scf_controls": [
+        "PES-01",
+        "PES-07",
+        "PES-07.5",
+        "PES-08",
+        "PES-09"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-PES-02",
+      "area": "Physical Security",
+      "artifact_name": "Visitor Logbook",
+      "artifact_description": "Documented evidence of a visitor management and logging visitor activities.",
+      "scf_controls": [
+        "PES-03.3",
+        "PES-06",
+        "PES-06.4"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-PES-03",
+      "area": "Physical Security",
+      "artifact_name": "Defined Physical Security Roles",
+      "artifact_description": "Documented evidence of defined physical access control-specific roles that limit physical access to rooms and/or facilities.",
+      "scf_controls": [
+        "PES-02",
+        "PES-02.1"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-PES-04",
+      "area": "Physical Security",
+      "artifact_name": "Physical Security Plan",
+      "artifact_description": "Documented evidence of a physical security plan.",
+      "scf_controls": [
+        "PES-01.1"
+      ],
+      "cmmc_mapping": "SI.L2-3.14.6\nSI.L2-3.14.7"
+    },
+    {
+      "erl_id": "E-PES-05",
+      "area": "Physical Security",
+      "artifact_name": "Physical Security Operations",
+      "artifact_description": "Documented evidence of the organization's physical security capabilities as it pertains to operating and monitoring Physical Access Control (PAC) mechanisms.",
+      "scf_controls": [
+        "PES-01",
+        "PES-02",
+        "PES-02.1",
+        "PES-03",
+        "PES-05"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-PES-06",
+      "area": "Physical Security",
+      "artifact_name": "Physical Access Control Logs",
+      "artifact_description": "Documented evidence of physical access control logs or records.",
+      "scf_controls": [
+        "PES-03"
+      ],
+      "cmmc_mapping": "IA.L2-3.5.6\nMP.L2-3.8.1\nPE.L1-3.10.3\nPE.L1-3.10.4\nPE.L1-3.10.5"
+    },
+    {
+      "erl_id": "E-PES-07",
+      "area": "Physical Security",
+      "artifact_name": "Physical Access Control Devices",
+      "artifact_description": "Documented evidence of Physical Access Control (PAC) mechanisms.",
+      "scf_controls": [
+        "PES-03"
+      ],
+      "cmmc_mapping": "PE.L1-3.10.3\nPE.L1-3.10.4\nPE.L1-3.10.5"
+    },
+    {
+      "erl_id": "E-PES-08",
+      "area": "Physical Security",
+      "artifact_name": "Physical Access Control Device Inventories",
+      "artifact_description": "Documented evidence of inventory records of physical access control devices.",
+      "scf_controls": [
+        "PES-03"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-PES-09",
+      "area": "Physical Security",
+      "artifact_name": "Key & Combination Changes",
+      "artifact_description": "Documented evidence of key and lock combination changes.",
+      "scf_controls": [
+        "PES-03"
+      ],
+      "cmmc_mapping": "PE.L1-3.10.3\nPE.L1-3.10.4\nPE.L1-3.10.5"
+    },
+    {
+      "erl_id": "E-PES-10",
+      "area": "Physical Security",
+      "artifact_name": "Physical Access Authorizations",
+      "artifact_description": "Documented evidence of physical access authorization activities (e.g., list reviews, termination changes, etc.).",
+      "scf_controls": [
+        "PES-02",
+        "PES-02.1"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-PES-11",
+      "area": "Physical Security",
+      "artifact_name": "Physical Security Zones",
+      "artifact_description": "Documented evidence of security safeguards controlling access to designated physical security zones within facilities.",
+      "scf_controls": [
+        "PES-01.2"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-PES-12",
+      "area": "Physical Security",
+      "artifact_name": "Entry and Exist Points",
+      "artifact_description": "Documented evidence of physical entry and exit points.",
+      "scf_controls": [
+        "PES-03.1"
+      ],
+      "cmmc_mapping": "PE.L1-3.10.3\nPE.L1-3.10.4\nPE.L1-3.10.5"
+    },
+    {
+      "erl_id": "E-PRI-01",
+      "area": "Privacy",
+      "artifact_name": "Accounting of Disclosures",
+      "artifact_description": "Documented evidence of accounting for privacy-related disclosures.",
+      "scf_controls": [
+        "PRI-14.1"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-PRI-02",
+      "area": "Privacy",
+      "artifact_name": "Authorized Use",
+      "artifact_description": "Documented evidence of authorized use definitions for privacy-related data operations.",
+      "scf_controls": [
+        "PRI-04",
+        "PRI-04.1",
+        "PRI-05",
+        "PRI-05.1"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-PRI-03",
+      "area": "Privacy",
+      "artifact_name": "Data Authority Registrations",
+      "artifact_description": "Documented evidence of registrations made with applicable data authorities for privacy-related data processing.",
+      "scf_controls": [
+        "PRI-15"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-PRI-04",
+      "area": "Privacy",
+      "artifact_name": "Data Protection Impact Assessment (DPIA)",
+      "artifact_description": "Documented evidence of Data Protection Impact Assessment (DPIA).",
+      "scf_controls": [
+        "RSK-10"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-PRI-05",
+      "area": "Privacy",
+      "artifact_name": "Data Sharing Agreement",
+      "artifact_description": "Documented evidence of formal data sharing practices that address, at a minimum:\n• The business justification for the data sharing;\n• The type / category of data being shared;\n• The third-parties the data is being shared with;\n• Lawful bases for data sharing; and\n• Data subject rights.",
+      "scf_controls": [
+        "PRI-01.5",
+        "PRI-07",
+        "PRI-07.1",
+        "PRI-07.2"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-PRI-06",
+      "area": "Privacy",
+      "artifact_name": "Data Subject Access",
+      "artifact_description": "Documented evidence of how data subject access requests are handled that includes intake through remediation.",
+      "scf_controls": [
+        "PRI-06"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-PRI-07",
+      "area": "Privacy",
+      "artifact_name": "Personal Data Categories",
+      "artifact_description": "Documented evidence of formal personal data categories.",
+      "scf_controls": [
+        "PRI-05.7"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-PRI-08",
+      "area": "Privacy",
+      "artifact_name": "Data Privacy Notice",
+      "artifact_description": "Documented evidence of a publicly-accessible data privacy notice.",
+      "scf_controls": [
+        "PRI-02"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-PRM-01",
+      "area": "Resource Management",
+      "artifact_name": "Cybersecurity Business Plan (CBP)",
+      "artifact_description": "Documented evidence of a cybersecurity-specific business plan that documents a strategic plan and discrete objectives.",
+      "scf_controls": [
+        "GOV-08",
+        "PRM-01.1",
+        "PRM-03"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-PRM-02",
+      "area": "Resource Management",
+      "artifact_name": "Portfolio Roadmap",
+      "artifact_description": "Documented evidence of the organization's roadmap for implementing cybersecurity-related initiatives and technologies.",
+      "scf_controls": [
+        "PRM-01",
+        "PRM-02",
+        "PRM-03"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-PRM-03",
+      "area": "Resource Management",
+      "artifact_name": "Secure Development Lifecycle (SDLC)",
+      "artifact_description": "Documented evidence of a secure development lifecycle that the organization utilizes for new initiatives or significant changes to existing initiatives to ensure cybersecurity & data privacy principles are identified and implemented by default.",
+      "scf_controls": [
+        "PRM-04",
+        "PRM-05",
+        "PRM-06",
+        "PRM-07"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-PRM-04",
+      "area": "Resource Management",
+      "artifact_name": "Targeted Maturity Level",
+      "artifact_description": "Documented evidence of a targeted level of control maturity from a Capability Maturity Model (CMM).",
+      "scf_controls": [
+        "PRM-01.2"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-PRM-05",
+      "area": "Resource Management",
+      "artifact_name": "System Design Document (SDD)",
+      "artifact_description": "Documented evidence of a System Design Document (SDD) focuses on how a Technology Asset, Application and/or Service (TAAS) is built (e.g., architecture, components, data flow, functions, etc.).",
+      "scf_controls": [
+        "PRM-04",
+        "PRM-05",
+        "PRM-06",
+        "PRM-07"
+      ],
+      "cmmc_mapping": "AC.L1-3.1.1\nAC.L1-3.1.2\nAC.L2-3.1.10\nAC.L2-3.1.11\nAC.L2-3.1.12\nAC.L2-3.1.13\nAC.L2-3.1.14\nAC.L2-3.1.16\nAC.L2-3.1.17\nAC.L2-3.1.18\nAC.L2-3.1.19\nAC.L2-3.1.3\nAC.L2-3.1.5\nAC.L2-3.1.7\nAC.L2-3.1.8\nAC.L2-3.1.9\nAU.L2-3.3.1\nAU.L2-3.3.2\nAU.L2-3.3.4\nAU.L2-3.3.7\nAU.L2-3.3.8\nAU.L2-3.3.9\nCM.L2-3.4.1\nCM.L2-3.4.5\nCM.L2-3.4.6\nCM.L2-3.4.8\nCM.L2-3.4.9\nIA.L1-3.5.2\nIA.L2-3.5.10\nIA.L2-3.5.4\nIA.L2-3.5.5\nIA.L2-3.5.6\nIA.L2-3.5.7\nIA.L2-3.5.8\nIA.L2-3.5.9\nMP.L1-3.8.3\nMP.L2-3.8.6\nMP.L2-3.8.7\nMP.L2-3.8.8\nSC.L1-3.13.1\nSC.L1-3.13.5\nSC.L2-3.13.10\nSC.L2-3.13.12\nSC.L2-3.13.14\nSC.L2-3.13.15\nSC.L2-3.13.2\nSC.L2-3.13.3\nSC.L2-3.13.9\nSI.L1-3.14.4\nSI.L1-3.14.5\nSI.L2-3.14.6\nSI.L2-3.14.7"
+    },
+    {
+      "erl_id": "E-PRM-06",
+      "area": "Resource Management",
+      "artifact_name": "Quarterly Business Review (QBR)",
+      "artifact_description": "Documented evidence of a Quarterly Business Review (QBR), or similar process, to provide recurring status reports on the current state of the cybersecurity and data protection program.",
+      "scf_controls": [
+        "GOV-01.1"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-RSK-01",
+      "area": "Risk Management",
+      "artifact_name": "Risk Management Program (RMP)",
+      "artifact_description": "Documented evidence of a Risk Management Program (RMP). This is program-level documentation in the form of a runbook, playbook or a similar format provides guidance on organizational practices that support existing policies and standards.",
+      "scf_controls": [
+        "RSK-01",
+        "RSK-01.1",
+        "RSK-02",
+        "RSK-12"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-RSK-02",
+      "area": "Risk Management",
+      "artifact_name": "Supply Chain Risk Management (SCRM) Plan",
+      "artifact_description": "Documented evidence of a Supply Chain Risk Management (SCRM) Plan. This is program-level documentation in the form of a playbook, concept of operations or a similar format provides guidance on organizational practices that support existing policies and standards.",
+      "scf_controls": [
+        "IRO-10.4",
+        "RSK-09",
+        "TPM-03",
+        "TPM-05",
+        "TPM-05.2"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-RSK-03",
+      "area": "Risk Management",
+      "artifact_name": "Plan of Actions & Milestones (POA&M) / Risk Register",
+      "artifact_description": "Documented evidence of a POA&M, or risk register, that tracks control deficiencies from identification through remediation.",
+      "scf_controls": [
+        "AST-02.4",
+        "CPL-02",
+        "IAO-05",
+        "RSK-04.1",
+        "RSK-06",
+        "RSK-06.1",
+        "RSK-06.2",
+        "VPM-02",
+        "VPM-03"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-RSK-04",
+      "area": "Risk Management",
+      "artifact_name": "Cybersecurity Risk Assessment (RA)",
+      "artifact_description": "Documented evidence of a cybersecurity-specific risk assessment.",
+      "scf_controls": [
+        "RSK-02",
+        "RSK-02.1",
+        "RSK-03",
+        "RSK-04",
+        "RSK-05",
+        "VPM-02",
+        "VPM-03"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-RSK-05",
+      "area": "Risk Management",
+      "artifact_name": "Supply Chain Risk Assessment (SCRA)",
+      "artifact_description": "Documented evidence of supply chain-specific risk assessment that evaluates risks that are specific to its supply chain.",
+      "scf_controls": [
+        "RSK-09.1"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-RSK-06",
+      "area": "Risk Management",
+      "artifact_name": "Risk Threshold",
+      "artifact_description": "Documented evidence the organization has a defined risk threshold.",
+      "scf_controls": [
+        "RSK-01.1",
+        "RSK-01.3"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-RSK-07",
+      "area": "Risk Management",
+      "artifact_name": "Risk Tolerance",
+      "artifact_description": "Documented evidence the organization has a defined risk tolerance.",
+      "scf_controls": [
+        "RSK-01.1",
+        "RSK-01.4"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-RSK-08",
+      "area": "Risk Management",
+      "artifact_name": "Risk Appetite",
+      "artifact_description": "Documented evidence the organization has a defined risk appetite.",
+      "scf_controls": [
+        "RSK-01.1",
+        "RSK-01.5"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-RSK-09",
+      "area": "Risk Management",
+      "artifact_name": "Risk Catalog",
+      "artifact_description": "Documented evidence of a risk catalog.",
+      "scf_controls": [
+        "RSK-03.1"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-RSK-10",
+      "area": "Risk Management",
+      "artifact_name": "Material Risk Definition",
+      "artifact_description": "Documented evidence of criteria necessary to designate a risk as a material risk.",
+      "scf_controls": [
+        "GOV-16.1",
+        "RSK-13",
+        "RSK-13.2"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-RSK-11",
+      "area": "Risk Management",
+      "artifact_name": "Risk Alternatives",
+      "artifact_description": "Documented evidence of alternative courses of action to manage material risks.",
+      "scf_controls": [
+        "RSK-13.1"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-RSK-12",
+      "area": "Risk Management",
+      "artifact_name": "Risk Management Justification",
+      "artifact_description": "Document evidence of justification for selecting a specific course of action to manage material risk.",
+      "scf_controls": [
+        "RSK-13.2"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-RSK-13",
+      "area": "Risk Management",
+      "artifact_name": "Risk Treatment Options",
+      "artifact_description": "Documented evidence of organization-approved risk treatment options.",
+      "scf_controls": [
+        "RSK-06.3"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-RSK-14",
+      "area": "Risk Management",
+      "artifact_name": "Risk Treatment Plan",
+      "artifact_description": "Documented Risk Treatment Plan (RTP) for applicable stakeholders to utilize in remediating identified risks according to a defined timeline.",
+      "scf_controls": [
+        "RSK-06.4"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-RSK-15",
+      "area": "Risk Management",
+      "artifact_name": "Instances Requiring A Risk Assessment",
+      "artifact_description": "Documented criteria that define instances requiring a risk assessment to be performed.",
+      "scf_controls": [
+        "RSK-04.3"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-SEA-01",
+      "area": "Secure Engineering & Architecture",
+      "artifact_name": "Logon Banner",
+      "artifact_description": "Documented evidence of a system use notification message or logon banner.",
+      "scf_controls": [
+        "SEA-18",
+        "SEA-18.1",
+        "SEA-18.2"
+      ],
+      "cmmc_mapping": "AC.L2-3.1.7\nAC.L2-3.1.9"
+    },
+    {
+      "erl_id": "E-SEA-02",
+      "area": "Secure Engineering & Architecture",
+      "artifact_name": "Security Architecture",
+      "artifact_description": "Documented evidence of security architecture-related documentation.",
+      "scf_controls": [
+        "SEA-01",
+        "SEA-02"
+      ],
+      "cmmc_mapping": "SC.L1-3.13.1\nSC.L2-3.13.2\nSC.L1-3.13.5"
+    },
+    {
+      "erl_id": "E-OPS-01",
+      "area": "Security Operations",
+      "artifact_name": "Security Operations Center (SOC)",
+      "artifact_description": "Documented evidence of a Security Operations Center (SOC).",
+      "scf_controls": [
+        "OPS-04"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-TDA-01",
+      "area": "Technology Design & Acquisition",
+      "artifact_name": "Secure Software Development Principles (SSDP)",
+      "artifact_description": "Documented evidence of a Secure Software Development Principles (SSDP). This is program-level documentation in the form of a runbook, playbook or a similar format provides guidance on organizational practices that support existing policies and standards.",
+      "scf_controls": [
+        "SEA-01",
+        "TDA-01",
+        "TDA-14",
+        "TDA-14.1",
+        "TDA-14.2"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-TDA-02",
+      "area": "Technology Design & Acquisition",
+      "artifact_name": "Secure Engineering & Data Privacy (SEDP)",
+      "artifact_description": "Documented evidence of a Secure Engineering & Data Privacy (SEDP) program. This is program-level documentation in the form of a runbook, playbook or a similar format provides guidance on organizational practices that support existing policies and standards.",
+      "scf_controls": [
+        "SEA-01",
+        "TDA-01",
+        "TDA-14",
+        "TDA-14.1",
+        "TDA-14.2"
+      ],
+      "cmmc_mapping": "CA.L2-3.12.3\nCA.L2-3.12.4\nCM.L2-3.4.1\nCM.L2-3.4.5\nSC.L2-3.13.2"
+    },
+    {
+      "erl_id": "E-TDA-03",
+      "area": "Technology Design & Acquisition",
+      "artifact_name": "Application Security Testing (AST)",
+      "artifact_description": "Documented evidence of application security testing (e.g., DAST, SAST, fuzzing, etc.).",
+      "scf_controls": [
+        "TDA-06.2",
+        "TDA-09",
+        "TDA-09.1",
+        "TDA-09.2",
+        "TDA-09.3",
+        "TDA-09.4",
+        "TDA-09.5",
+        "TDA-09.6"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-TDA-04",
+      "area": "Technology Design & Acquisition",
+      "artifact_name": "Design and Development Plan (DDP)",
+      "artifact_description": "Documented evidence of an engineering method to control the design process and govern the lifecycle of the product/service.",
+      "scf_controls": [
+        "SEA-01",
+        "SEA-02",
+        "SEA-03",
+        "TDA-02.3",
+        "TDA-05",
+        "TDA-06.3",
+        "TDA-14",
+        "TDA-14.1",
+        "TDA-14.2"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-TDA-05",
+      "area": "Technology Design & Acquisition",
+      "artifact_name": "Failure Mode and Effect Analysis (FMEA)",
+      "artifact_description": "Documented evidence of an engineering method designed to define, identify, and present solutions for system failures, problems, or errors.",
+      "scf_controls": [
+        "TDA-01.1",
+        "TDA-06.5",
+        "TDA-09"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-TDA-06",
+      "area": "Technology Design & Acquisition",
+      "artifact_name": "Multi Patient Harm View (MPHV)",
+      "artifact_description": "Documented evidence of a description of a Multi Patient Harm View (MPHV) that explains how the device / system defends against and/or responds to attacks with the potential to harm multiple patients. [note MPHV is specific to medical device manufacturers]",
+      "scf_controls": [
+        "TDA-01.1",
+        "TDA-02",
+        "TDA-04",
+        "TDA-04.1"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-TDA-07",
+      "area": "Technology Design & Acquisition",
+      "artifact_name": "Ports, Protocols & Services (PPS)",
+      "artifact_description": "Documented evidence of all ports, protocols and services in use by the system, application or service.",
+      "scf_controls": [
+        "TDA-01.1",
+        "TDA-02.1",
+        "TDA-02.5",
+        "TPM-04.2"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-TDA-08",
+      "area": "Technology Design & Acquisition",
+      "artifact_name": "Secure Engineering Principles (SEP)",
+      "artifact_description": "Documented evidence of defined secure engineering principles used to ensure Sensitivity, Integrity, Availability & Safety (CIAS) concerns are properly addressed in the design and implementation of Technology Assets, Applications and/or Services (TAAS).",
+      "scf_controls": [
+        "SEA-01",
+        "TDA-01",
+        "TDA-06",
+        "TDA-14",
+        "TDA-14.1",
+        "TDA-14.2"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-TDA-09",
+      "area": "Technology Design & Acquisition",
+      "artifact_name": "Security Architecture View",
+      "artifact_description": "Documented evidence that identifies security-relevant system elements and their interfaces:\n• Define security context, domains, boundaries, and external interfaces of the system;\n• Align the architecture with (a) the system security objectives and requirements, (b) security design characteristics; and\n• Establish traceability of architecture elements to user and system security requirements.",
+      "scf_controls": [
+        "CLD-02",
+        "SEA-01",
+        "SEA-02",
+        "SEA-03"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-TDA-10",
+      "area": "Technology Design & Acquisition",
+      "artifact_name": "Security Use Case View (SUCV)",
+      "artifact_description": "Documented evidence of diagrams, with explanatory text, describing various security scenarios in each of the operational and clinical functionality states of the system and how the system addresses each scenario architecturally. [note SUCV is specific to medical device manufacturers]",
+      "scf_controls": [
+        "TDA-04",
+        "TDA-04.1",
+        "TDA-06.2"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-TDA-11",
+      "area": "Technology Design & Acquisition",
+      "artifact_name": "Software Assurance Maturity Model (SAMM)",
+      "artifact_description": "Documented evidence of a Software Assurance Maturity Model (SAMM).",
+      "scf_controls": [
+        "TDA-06",
+        "TDA-06.3"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-TDA-12",
+      "area": "Technology Design & Acquisition",
+      "artifact_name": "Software Bill of Materials (SBOM)",
+      "artifact_description": "Documented evidence of a Software Bill of Materials (SBOM).",
+      "scf_controls": [
+        "TDA-04.2"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-TDA-13",
+      "area": "Technology Design & Acquisition",
+      "artifact_name": "Software Escrow",
+      "artifact_description": "Documented evidence of a software escrow solution.",
+      "scf_controls": [
+        "TDA-20.3"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-TDA-14",
+      "area": "Technology Design & Acquisition",
+      "artifact_name": "System Security Plan (SSP)",
+      "artifact_description": "Documented evidence of at least one (1) System Security Plan (SSP) that covers the sensitive/regulated data environment. There may be multiple SSPs, based on applicable contracts.",
+      "scf_controls": [
+        "AST-02.4",
+        "IAO-03"
+      ],
+      "cmmc_mapping": "AC.L1-3.1.1\nAC.L1-3.1.2\nAC.L2-3.1.12\nAC.L1-3.1.20\nAC.L1-3.1.22\nAC.L2-3.1.10\nAC.L2-3.1.11\nAC.L2-3.1.13\nAC.L2-3.1.14\nAC.L2-3.1.15\nAC.L2-3.1.16\nAC.L2-3.1.17\nAC.L2-3.1.18\nAC.L2-3.1.19\nAC.L2-3.1.21\nAC.L2-3.1.3\nAC.L2-3.1.4\nAC.L2-3.1.5\nAC.L2-3.1.6\nAC.L2-3.1.7\nAC.L2-3.1.8\nAC.L2-3.1.9\nAT.L2-3.2.1\nAT.L2-3.2.2\nAT.L2-3.2.3\nAU.L2-3.3.1\nAU.L2-3.3.2\nAU.L2-3.3.4\nAU.L2-3.3.7\nAU.L2-3.3.8\nAU.L2-3.3.9\nCA.L2-3.12.1\nCA.L2-3.12.3\nCA.L2-3.12.4\nCM.L2-3.4.1\nCM.L2-3.4.4\nCM.L2-3.4.5\nCM.L2-3.4.6\nCM.L2-3.4.8\nCM.L2-3.4.9\nIA.L1-3.5.2\nIA.L2-3.5.10\nIA.L2-3.5.4\nIA.L2-3.5.5\nIA.L2-3.5.6\nIA.L2-3.5.7\nIA.L2-3.5.8\nIA.L2-3.5.9\nIR.L2-3.6.1\nIR.L2-3.6.2\nMA.L2-3.7.2\nMA.L2-3.7.4\nMP.L1-3.8.3\nMP.L2-3.8.1\nMP.L2-3.8.6\nMP.L2-3.8.7\nMP.L2-3.8.8\nPE.L1-3.10.3\nPE.L1-3.10.4\nPE.L1-3.10.5\nPS.L2-3.9.1\nRA.L2-3.11.2\nSC.L1-3.13.1\nSC.L1-3.13.5\nSC.L2-3.13.9\nSC.L2-3.13.10\nSC.L2-3.13.12\nSC.L2-3.13.13\nSC.L2-3.13.14\nSC.L2-3.13.15\nSC.L2-3.13.2\nSC.L2-3.13.3\nSI.L1-3.14.1\nSI.L1-3.14.4\nSI.L1-3.14.5\nSI.L2-3.14.3\nSI.L2-3.14.6\nSI.L2-3.14.7"
+    },
+    {
+      "erl_id": "E-TDA-15",
+      "area": "Technology Design & Acquisition",
+      "artifact_name": "Updateability / Patchability View",
+      "artifact_description": "Documented evidence of a description of the end-to-end process permitting software updates and patches to be deployed to the device/service.",
+      "scf_controls": [
+        "TDA-01.1",
+        "TDA-01.2",
+        "TDA-04.1"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-TDA-16",
+      "area": "Technology Design & Acquisition",
+      "artifact_name": "Vulnerability Disclosure Program (VDP)",
+      "artifact_description": "Documented evidence of a Vulnerability Disclosure Program (VDP) (e.g., bug bounty).",
+      "scf_controls": [
+        "THR-06"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-TDA-17",
+      "area": "Technology Design & Acquisition",
+      "artifact_name": "System Design Documentation",
+      "artifact_description": "Documented evidence of system design documentation.",
+      "scf_controls": [
+        "TDA-01",
+        "TDA-01.1"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-TDA-18",
+      "area": "Technology Design & Acquisition",
+      "artifact_name": "System Security Plan (SSP) Reviews",
+      "artifact_description": "Documented evidence of reviews and/or updates to System Security Plan (SSP) documentation.",
+      "scf_controls": [
+        "IAO-03"
+      ],
+      "cmmc_mapping": "CA.L2-3.12.3\nCA.L2-3.12.4\nSC.L2-3.13.2"
+    },
+    {
+      "erl_id": "E-THR-01",
+      "area": "Threat Management",
+      "artifact_name": "Indicators of Exposure (IOE)",
+      "artifact_description": "Documented evidence of defined Indicators of Exposure (IOE).",
+      "scf_controls": [
+        "THR-02"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-THR-02",
+      "area": "Threat Management",
+      "artifact_name": "Industry Associations / Memberships",
+      "artifact_description": "Documented evidence of industry associations the organization utilizes to maintain situational awareness of evolving threats and trends.",
+      "scf_controls": [
+        "GOV-07"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-THR-03",
+      "area": "Threat Management",
+      "artifact_name": "Threat Intelligence Feeds (TIF)",
+      "artifact_description": "Documented evidence of threat intelligence feeds.",
+      "scf_controls": [
+        "THR-03"
+      ],
+      "cmmc_mapping": "SI.L2-3.14.3"
+    },
+    {
+      "erl_id": "E-THR-04",
+      "area": "Threat Management",
+      "artifact_name": "Threat Intelligence Program (TIP)",
+      "artifact_description": "Documented evidence of a formal capability that intakes and analysis threat information to determine specific threat to the organization and necessary actions to mitigate the threat(s).",
+      "scf_controls": [
+        "THR-01",
+        "THR-04",
+        "THR-05"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-THR-05",
+      "area": "Threat Management",
+      "artifact_name": "Threat Mitigation",
+      "artifact_description": "Documented evidence of steps taken to mitigate identified threats.",
+      "scf_controls": [
+        "TDA-06.2",
+        "THR-07",
+        "VPM-01",
+        "VPM-04"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-THR-06",
+      "area": "Threat Management",
+      "artifact_name": "Threat Catalog",
+      "artifact_description": "Documented evidence of a threat catalog.",
+      "scf_controls": [
+        "THR-09"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-THR-07",
+      "area": "Threat Management",
+      "artifact_name": "Threat Analysis",
+      "artifact_description": "Documented evidence of a completed threat analysis.",
+      "scf_controls": [
+        "THR-10"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-THR-08",
+      "area": "Threat Management",
+      "artifact_name": "Behavioral Baselining",
+      "artifact_description": "Documented evidence of behavioral baselining to determine normal vs abnormal activities.",
+      "scf_controls": [
+        "THR-11"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-TPM-01",
+      "area": "Third-Party Management",
+      "artifact_name": "Third-Party Contracts",
+      "artifact_description": "Documented evidence of third-party contractual obligations for cybersecurity & data privacy protections.",
+      "scf_controls": [
+        "PRI-07",
+        "PRI-07.1",
+        "PRI-07.2",
+        "TPM-01",
+        "TPM-03.2",
+        "TPM-03.3",
+        "TPM-04.1",
+        "TPM-05",
+        "TPM-04.3",
+        "TPM-05.3",
+        "TPM-05.6",
+        "TPM-06",
+        "TPM-10",
+        "TPM-11"
+      ],
+      "cmmc_mapping": "AC.L1-3.1.20"
+    },
+    {
+      "erl_id": "E-TPM-02",
+      "area": "Third-Party Management",
+      "artifact_name": "Third-Party Criticality Assessment",
+      "artifact_description": "Documented evidence of third-party criticality assessment that evaluates the critical nature of each third-party the organization works with.",
+      "scf_controls": [
+        "RSK-02",
+        "RSK-02.1",
+        "TDA-06.1",
+        "TPM-02",
+        "TPM-03.2",
+        "TPM-03.3",
+        "TPM-04.1"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-TPM-03",
+      "area": "Third-Party Management",
+      "artifact_name": "Third-Party Service Reviews",
+      "artifact_description": "Documented evidence of a formal, annual stakeholder review of third-party services for each External Service Provider (ESP).",
+      "scf_controls": [
+        "TPM-01",
+        "TPM-03.2",
+        "TPM-03.3",
+        "TPM-04.1",
+        "TPM-05",
+        "TPM-05.5",
+        "TPM-08",
+        "TPM-09"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-TPM-04",
+      "area": "Third-Party Management",
+      "artifact_name": "Service Level Agreements (SLAs)",
+      "artifact_description": "Documented evidence of third-party Service Level Agreements (SLAs) to support business operations.",
+      "scf_controls": [
+        "BCD-09.3",
+        "BCD-10.1",
+        "OPS-03"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-TPM-05",
+      "area": "Third-Party Management",
+      "artifact_name": "Break Clauses",
+      "artifact_description": "Documented evidence of \"break clauses\" in third-party contracts.",
+      "scf_controls": [
+        "TPM-03.2",
+        "TPM-03.3",
+        "TPM-05.7"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-TPM-06",
+      "area": "Third-Party Management",
+      "artifact_name": "Third-Party Terms & Conditions",
+      "artifact_description": "Documented evidence of terms and conditions for external systems.",
+      "scf_controls": [
+        "TPM-01",
+        "TPM-05"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-TPM-07",
+      "area": "Third-Party Management",
+      "artifact_name": "System Connection or Processing Agreements",
+      "artifact_description": "Documented evidence of system connection or processing agreements.",
+      "scf_controls": [
+        "TPM-05"
+      ],
+      "cmmc_mapping": "AC.L1-3.1.2\nAC.L1-3.1.20\nAC.L2-3.1.21"
+    },
+    {
+      "erl_id": "E-VPM-01",
+      "area": "Vulnerability & Patch Management",
+      "artifact_name": "Vulnerability & Patch Management Program (VPMP)",
+      "artifact_description": "Documented evidence of a Vulnerability & Patch Management Program (VPMP). This is program-level documentation in the form of a runbook, playbook or a similar format provides guidance on organizational practices that support existing policies and standards.",
+      "scf_controls": [
+        "VPM-01",
+        "VPM-02",
+        "VPM-03"
+      ],
+      "cmmc_mapping": "RA.L2-3.11.2"
+    },
+    {
+      "erl_id": "E-VPM-02",
+      "area": "Vulnerability Management",
+      "artifact_name": "Penetration Testing - Application",
+      "artifact_description": "Documented evidence of Application Security Testing (AST) activities:\n• Abuse case, malformed, and unexpected inputs (e.g., Robustness or Fuzz testing);\n• Attack surface analysis;\n• Vulnerability chaining;\n• Closed box testing of known vulnerability scanning;\n• Software composition analysis of binary executable files; and/or\n• Static and dynamic code analysis, including testing for credentials that are “hardcoded,” default, easily guessed, and easily compromised.",
+      "scf_controls": [
+        "VPM-07"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-VPM-03",
+      "area": "Vulnerability Management",
+      "artifact_name": "Penetration Testing - Network",
+      "artifact_description": "Documented evidence of internal and external network penetration testing activities that focus on discovering and exploiting security vulnerabilities.",
+      "scf_controls": [
+        "VPM-07"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-VPM-04",
+      "area": "Vulnerability Management",
+      "artifact_name": "Red Team Testing",
+      "artifact_description": "Documented evidence of \"red team\" testing.",
+      "scf_controls": [
+        "VPM-07.1"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-VPM-05",
+      "area": "Vulnerability Management",
+      "artifact_name": "Vulnerability Assessments",
+      "artifact_description": "Documented evidence of internal and external vulnerability assessment activities.",
+      "scf_controls": [
+        "VPM-06",
+        "VPM-06.6",
+        "VPM-06.7"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-VPM-06",
+      "area": "Vulnerability Management",
+      "artifact_name": "Attack Surface Scope",
+      "artifact_description": "Documented evidence of the organization defining its attack surface (e.g., may be in the form of graphical network diagrams or other forms of written documentation).",
+      "scf_controls": [
+        "VPM-01.1"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-VPM-07",
+      "area": "Vulnerability Management",
+      "artifact_name": "Flaw Remediation Change Control",
+      "artifact_description": "Documented evidence of installation/change control records for security-relevant software and firmware updates.",
+      "scf_controls": [
+        "VPM-01.1"
+      ],
+      "cmmc_mapping": ""
+    },
+    {
+      "erl_id": "E-VPM-08",
+      "area": "Vulnerability Management",
+      "artifact_name": "Flaw Remediation Test Results",
+      "artifact_description": "Documented evidence of test results from the installation of software and firmware updates to correct system flaws.",
+      "scf_controls": [
+        "VPM-01.1"
+      ],
+      "cmmc_mapping": "SI.L1-3.14.1"
+    },
+    {
+      "erl_id": "E-VPM-09",
+      "area": "Vulnerability Management",
+      "artifact_name": "Flaw Remediation Actions",
+      "artifact_description": "Documented evidence of list of recent security flaw remediation actions performed on the system (e.g., list of installed patches, service packs, hot fixes, and other software updates to correct system flaws).",
+      "scf_controls": [
+        "VPM-02"
+      ],
+      "cmmc_mapping": "RA.L2-3.11.2\nSI.L1-3.14.1"
+    },
+    {
+      "erl_id": "E-VPM-10",
+      "area": "Vulnerability Management",
+      "artifact_name": "Applicable Flaws & Vulnerabilities",
+      "artifact_description": "Documented evidence of flaws and vulnerabilities potentially affecting a specific system, application and/or service.",
+      "scf_controls": [
+        "VPM-03",
+        "VPM-05"
+      ],
+      "cmmc_mapping": "RA.L2-3.11.2\nSI.L1-3.14.1"
+    },
+    {
+      "erl_id": "E-VPM-11",
+      "area": "Vulnerability Management",
+      "artifact_name": "Vulnerability Scanning",
+      "artifact_description": "Documented evidence of internal and external vulnerability scans being performed.",
+      "scf_controls": [
+        "VPM-06"
+      ],
+      "cmmc_mapping": "RA.L2-3.11.2"
+    },
+    {
+      "erl_id": "E-END-01",
+      "area": "Endpoint Security",
+      "artifact_name": "Endpoint Security Tools",
+      "artifact_description": "Documented evidence of endpoint security tools employed by the organization to ensure secure, compliant and resilient Technology Assets, Applications and/or Services (TAAS) (e.g., antimalware, FIM, etc.).",
+      "scf_controls": [
+        "END-01",
+        "END-04",
+        "END-06"
+      ],
+      "cmmc_mapping": "SI.L1-3.14.4\nSI.L1-3.14.5"
+    },
+    {
+      "erl_id": "E-END-02",
+      "area": "Endpoint Security",
+      "artifact_name": "Malware Tool Updates",
+      "artifact_description": "Documented evidence of malicious code protection updates.",
+      "scf_controls": [
+        "END-04.1"
+      ],
+      "cmmc_mapping": "SI.L1-3.14.4\nSI.L1-3.14.5"
+    },
+    {
+      "erl_id": "E-END-03",
+      "area": "Endpoint Security",
+      "artifact_name": "Antimalware Scanning Results",
+      "artifact_description": "Documented evidence of scan results from malicious code protection mechanisms.",
+      "scf_controls": [
+        "END-04.3",
+        "MON-01.4"
+      ],
+      "cmmc_mapping": "SI.L1-3.14.4\nSI.L1-3.14.5"
+    }
+  ]
+}

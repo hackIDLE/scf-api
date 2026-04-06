@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "NET-14.6",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-14.6",
+      "ao_id": "NET-14.6_A01",
+      "objective": "proactively control and monitor third-party accounts used to access, support or maintain system components via remote access.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

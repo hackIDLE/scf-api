@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "AAT-16.13",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-16.13",
+      "ao_id": "AAT-16.13_A01",
+      "objective": "the organization has the ability to detect emergent or collusive behaviors among multiple Artificial Intelligence (AI) and Autonomous Technologies (AAT).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-16.13",
+      "ao_id": "AAT-16.13_A02",
+      "objective": "the organization has the ability to contain emergent or collusive behaviors among multiple AAT through automated or human-triggered means.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-16.13",
+      "ao_id": "AAT-16.13_A03",
+      "objective": "formal investigation determines the root cause of agentic cascades or collusion.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

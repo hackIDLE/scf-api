@@ -1,0 +1,208 @@
+{
+  "control_id": "PRI-01.11",
+  "title": "Reasonable Data Privacy Practices",
+  "family": "PRI",
+  "description": "Mechanisms exist to limit the collection, receiving, processing, storage, transmission, sharing, updating and/or disposal of Personal Data (PD) according to reasonable consumer expectations for what is necessary and proportionate.",
+  "scf_question": "Does the organization limit the collection, receiving, processing, storage, transmission, sharing, updating and/or disposal of Personal Data (PD) according to reasonable consumer expectations for what is necessary and proportionate?",
+  "relative_weight": 9,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [],
+  "pptdf": "Process",
+  "nist_csf_function": "Protect",
+  "scrm_focus": {
+    "strategic": true,
+    "operational": true,
+    "tactical": true
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "Privacy (PRI) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with PRI domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Data privacy-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ No formal data privacy team exists. Privacy roles are assigned to existing IT / cybersecurity.\n▪ Data/process owners are expected to take the initiative to work with Data Protection Officers (DPOs) to ensure applicable statutory, regulatory and contractual obligations are properly addressed, including the storage, transmission and processing of sensitive/regulated data.",
+    "2": "Privacy (PRI) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with PRI domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with PRI domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with PRI  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Data privacy management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Data privacy management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ A qualified individual is formally assigned as the Chief Privacy Officer (CPO), or similar role, to lead the organization's data privacy program. This individual may be assigned to multiple data privacy-related roles.\n▪ The CPO, or similar role, identifies appropriate data privacy controls that Technology Assets, Applications and/or Services (TAAS) and third-parties must adhere to, in addition to applicable statutory, regulatory and/or contractual obligations.\n▪ The data privacy program is developed to work with IT and cybersecurity staff to ensure that applicable statutory, regulatory and/or contractual data privacy obligations for Personal Data (PD) are properly identified and implemented.\n▪ Communications with data subjects is designed to be readily accessible and written in a manner that is concise, unambiguous and understandable by a reasonable person.\n▪ Asset / process owners collect, store, processes, transmit share or use PD only for the purposes identified in the data privacy notice.",
+    "3": "Privacy (PRI) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with PRI domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with PRI domain capabilities are well-documented and kept current by process owners.\n▪ A data privacy team, or similar function, is appropriately staffed and supported to implement and maintain PRI domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of data privacy operations (e.g., privacy notice management software, customer management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with PRI domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to limit the collection, receiving, processing, storage, transmission, sharing, updating and/or disposal of Personal Data (PD) according to reasonable consumer expectations for what is necessary and proportionate.",
+    "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [
+    "SCRMS"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ Follow basic privacy best practices for data handling",
+    "small": "∙ Documented reasonable data privacy practices policy",
+    "medium": "∙ Formal reasonable data privacy practices program\n∙ Privacy principles implementation",
+    "large": "∙ Enterprise privacy program aligned with GDPR/CCPA principles",
+    "enterprise": "∙ Enterprise privacy management platform (e.g., OneTrust, TrustArc)\n∙ Comprehensive privacy practices program\n∙ Regulatory compliance management"
+  },
+  "risks": [
+    "R-EX-1",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-EX-5",
+    "R-GV-1",
+    "R-GV-2",
+    "R-GV-3",
+    "R-GV-4",
+    "R-GV-5",
+    "R-GV-6",
+    "R-GV-7"
+  ],
+  "threats": [
+    "MT-8",
+    "MT-9",
+    "MT-10",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15"
+  ],
+  "family_name": "Data Privacy",
+  "crosswalks": {
+    "general-aicpa-pmf-2020": [
+      "N2.2-POF1"
+    ],
+    "general-apec-privacy-framework-2015": [
+      "2-1",
+      "2-2"
+    ],
+    "general-csa-cmm-4-1-0": [
+      "DSP-08"
+    ],
+    "general-iso-27017-2015": [
+      "18.1.4"
+    ],
+    "general-iso-29100-2024": [
+      "6.5",
+      "6.8",
+      "6.1"
+    ],
+    "general-mpa-csbp-5-3-1": [
+      "TS-1.14"
+    ],
+    "general-nist-privacy-framework-1-0": [
+      "GV.PO-P5",
+      "GV.MT-P3",
+      "GV.MT-P5",
+      "CT.PO-P1",
+      "CM.AW-P2",
+      "CM.AW-P3"
+    ],
+    "general-nist-800-37-r2": [
+      "TASK P-16"
+    ],
+    "general-scf-dpmp-2025": [
+      "1.0"
+    ],
+    "usa-federal-law-coppa-2024": [
+      "Sec. 6502.(b)(1)(D)"
+    ],
+    "usa-federal-law-facta-fcra-2023": [
+      "623(a)(1)(A)",
+      "623(a)(1)(B)",
+      "623(a)(1)(B)(i)",
+      "623(a)(1)(B)(ii)"
+    ],
+    "usa-federal-law-ferpa-2010": [
+      "1232h(a)",
+      "1232h(c)(1)(C)(ii)",
+      "1232h(c)(1)(D)",
+      "1232h(c)(1)(E)",
+      "1232h(c)(1)(F)(i)",
+      "1232h(c)(1)(F)(ii)"
+    ],
+    "usa-federal-omb-fipps-1973": [
+      "2",
+      "4"
+    ],
+    "usa-state-ca-ccpa-cpra-2026": [
+      "7002(b)",
+      "7002(b)(1)",
+      "7002(b)(2)",
+      "7002(b)(3)",
+      "7002(d)",
+      "7002(d)(1)",
+      "7002(d)(2)",
+      "7027(m)",
+      "7027(m)(1)",
+      "7027(m)(2)",
+      "7027(m)(3)",
+      "7027(m)(4)",
+      "7027(m)(5)",
+      "7027(m)(6)",
+      "7027(m)(7)",
+      "7027(m)(8)"
+    ],
+    "usa-state-co-privacy-act-2021": [
+      "6-1-1305(2)(a)",
+      "6-1-1305(4)",
+      "6-1-1308(3)",
+      "6-1-1308(4)",
+      "6-1-1308(5)",
+      "6-1-1308(7)"
+    ],
+    "usa-state-il-bipa-2008": [
+      "15(e)(1)",
+      "15(e)(2)"
+    ],
+    "usa-state-il-ipa-2009": [
+      "10(a)(3)",
+      "10(b)(2)",
+      "10(b)(3)",
+      "10(c)(3)",
+      "10(c)(4)",
+      "10(c)(6)",
+      "10(d)"
+    ],
+    "usa-state-il-pipa-2006": [
+      "45(a)"
+    ],
+    "usa-state-ny-shield-act-2019": [
+      "899-bb.2(a)",
+      "899-bb.2(b)(ii)(A)"
+    ],
+    "usa-state-or-ors-646a-2025": [
+      "646A.578(1)(c)",
+      "646A.578(2)(a)",
+      "646A.578(2)(b)",
+      "646A.578(2)(c)",
+      "646A.578(2)(d)",
+      "646A.581(1)",
+      "646A.581(1)(a)",
+      "646A.581(1)(b)",
+      "646A.581(1)(c)",
+      "646A.583(1)(b)"
+    ],
+    "usa-state-tx-bc521-2009": [
+      "521.051(a)",
+      "521.052(a)"
+    ],
+    "usa-state-va-cdpa-2023": [
+      "59.1-577.1.B",
+      "59.1-577.1.C",
+      "59.1-577.1.E",
+      "59.1-578.A.4",
+      "59.1-578.F.1.d",
+      "59.1-578.F.2",
+      "59.1-579.A.1",
+      "59.1-579.A.2",
+      "59.1-579.A.3"
+    ],
+    "usa-state-vt-act-171-2018": [
+      "2433(a)(1)",
+      "2433(a)(2)(A)",
+      "2433(a)(2)(B)",
+      "2433(a)(2)(C)",
+      "2447(a)(2)"
+    ],
+    "apac-jpn-ismap": [
+      "7.1.1.12",
+      "18.1.4",
+      "18.1.4.1",
+      "18.1.4.2",
+      "18.1.4.3",
+      "18.1.4.4",
+      "18.1.4.5",
+      "18.1.4.6"
+    ]
+  }
+}

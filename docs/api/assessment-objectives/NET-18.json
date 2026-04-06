@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "NET-18",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-18",
+      "ao_id": "NET-18_A01",
+      "objective": "Internet-bound network traffic is routed through a proxy device or service for URL content filtering and DNS filtering to limit a user's ability to connect to dangerous or prohibited Internet sites.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "NET-20.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-20.1",
+      "ao_id": "NET-20.1_A01",
+      "objective": "domains associated with domain used for email purposes are identified.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-20.1",
+      "ao_id": "NET-20.1_A02",
+      "objective": "processes exist to monitor the organization's email domain’s reputation.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

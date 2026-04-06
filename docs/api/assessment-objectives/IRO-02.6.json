@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "IRO-02.6",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IRO-02.6",
+      "ao_id": "IRO-02.6_A01",
+      "objective": "a configurable capability is implemented to automatically disable the system if security violations are detected.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IR-04(05)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

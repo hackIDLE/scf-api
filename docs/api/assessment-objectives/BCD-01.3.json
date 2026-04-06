@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "BCD-01.3",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "BCD-01.3",
+      "ao_id": "BCD-01.3_A01",
+      "objective": "the transfer of organization-defined criteria mission and business functions to alternate processing and/or storage sites with minimal or no loss of operational continuity is planned for.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-02(06)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-01.3",
+      "ao_id": "BCD-01.3_A02",
+      "objective": "operational continuity is sustained until full system restoration at primary processing and/or storage sites.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-02(06)[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

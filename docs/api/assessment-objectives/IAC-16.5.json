@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "IAC-16.5",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-16.5",
+      "ao_id": "IAC-16.5_A01",
+      "objective": "instances that require a manual override of the current account privileges to enable the timely response to unusual conditions without terminating the current session and establishing a new session as a higher-privileged user are identified.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-16.5",
+      "ao_id": "IAC-16.5_A02",
+      "objective": "processes/technologies necessary to enable a manual override of the current account privileges to enable the timely response to unusual conditions without terminating the current session and establishing a new session as a higher-privileged user are identified.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-16.5",
+      "ao_id": "IAC-16.5_A03",
+      "objective": "a capability exists to manually override of the current account privileges to enable the timely response to unusual conditions without terminating the current session and establishing a new session as a higher-privileged user.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

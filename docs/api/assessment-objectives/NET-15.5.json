@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "NET-15.5",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-15.5",
+      "ao_id": "NET-15.5_A01",
+      "objective": "all authorized and unauthorized Wireless Access Points (WAPs) are identified within the facility(ies).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-15.5",
+      "ao_id": "NET-15.5_A02",
+      "objective": "rogue WAPs are responded to in accordance with published incident response plans.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

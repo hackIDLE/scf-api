@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "BCD-01.2",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "BCD-01.2",
+      "ao_id": "BCD-01.2_A01",
+      "objective": "the contingency plan is coordinated with the contingency plans of external service providers to ensure that contingency requirements can be satisfied.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-02(07)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

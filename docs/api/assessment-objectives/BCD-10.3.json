@@ -1,0 +1,76 @@
+{
+  "scf_control_id": "BCD-10.3",
+  "total": 7,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "BCD-10.3",
+      "ao_id": "BCD-10.3_A01",
+      "objective": "the frequency at which to obtain evidence of contingency testing by providers is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-08(04)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-10.3",
+      "ao_id": "BCD-10.3_A02",
+      "objective": "the frequency at which to obtain evidence of contingency training by providers is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-08(04)_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-10.3",
+      "ao_id": "BCD-10.3_A03",
+      "objective": "primary telecommunications service providers are required to have contingency plans.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_CP-08(04)(a)[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-10.3",
+      "ao_id": "BCD-10.3_A04",
+      "objective": "alternate telecommunications service providers are required to have contingency plans.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_CP-08(04)(a)[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-10.3",
+      "ao_id": "BCD-10.3_A05",
+      "objective": "provider contingency plans are reviewed to ensure that the plans meet organizational contingency requirements.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-08(04)(b)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-10.3",
+      "ao_id": "BCD-10.3_A06",
+      "objective": "evidence of contingency testing by providers is obtained.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-08(04)(c)[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-10.3",
+      "ao_id": "BCD-10.3_A07",
+      "objective": "evidence of contingency training by providers is obtained.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-08(04)(c)[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    }
+  ]
+}

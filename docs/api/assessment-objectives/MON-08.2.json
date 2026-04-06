@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "MON-08.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MON-08.2",
+      "ao_id": "MON-08.2_A01",
+      "objective": "a subset of privileged users or roles authorized to access management of event logging functionality is defined.",
+      "pptdf": "Process",
+      "origin": "171A_3.3.9[a]\n53A_R5_AU-09(04)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-08.2",
+      "ao_id": "MON-08.2_A02",
+      "objective": "access to management of audit logging functionality is authorized to only a subset of privileged users or roles.",
+      "pptdf": "Technology",
+      "origin": "171A_3.3.9[b]\n171A_R3_A.03.03.08.b\n53A_R5_AU-09(04)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

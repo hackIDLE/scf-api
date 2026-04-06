@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "AST-06.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AST-06.1",
+      "ao_id": "AST-06.1_A01",
+      "objective": "users are educated on the need to physically secure laptops and other mobile devices out of site when traveling, preferably in the trunk of a vehicle.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "BCD-08.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "BCD-08.2",
+      "ao_id": "BCD-08.2_A01",
+      "objective": "potential accessibility problems to the alternate storage site in the event of an area-wide disruption or disaster are identified.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-06(03)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-08.2",
+      "ao_id": "BCD-08.2_A02",
+      "objective": "explicit mitigation actions to address identified accessibility problems are outlined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-06(03)[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "control_id": "HRS-02",
+  "title": "Position Categorization",
+  "family": "HRS",
+  "description": "Mechanisms exist to manage personnel security risk by assigning a risk designation to all positions and establishing screening criteria for individuals filling those positions.",
+  "scf_question": "Does the organization manage personnel security risk by assigning a risk designation to all positions and establishing screening criteria for individuals filling those positions?",
+  "relative_weight": 8,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [
+    "E-HRS-01",
+    "E-HRS-02",
+    "E-HRS-03",
+    "E-HRS-04",
+    "E-HRS-11",
+    "E-HRS-22"
+  ],
+  "pptdf": "People",
+  "nist_csf_function": "Identify",
+  "scrm_focus": {
+    "strategic": false,
+    "operational": true,
+    "tactical": false
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "Human Resources Security (HRS) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with HRS domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Personnel management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ The Human Resources (HR) department provides guidance on secure HR practices for hiring, retaining and terminating employees, contractors and other personnel that work on behalf of the organization.\n▪ HR, in conjunction with IT and/or cybersecurity personnel, evaluates the business-critical cybersecurity and data protection skills needed to support the organization's mission.",
+    "2": "Human Resources Security (HRS) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with HRS domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with HRS domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with HRS  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Personnel management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Personnel management is decentralized at a localized/regionalized function, where there are non-standardized methods to govern personnel matters across the organization.\n▪ Localized HR practices are implemented for hiring, managing, training, investigating and terminating employees, contractors and other personnel that work on behalf of the organization.\n▪ The HR department, in conjunction with IT and/or cybersecurity personnel, evaluates the business-critical cybersecurity and data protection skills needed to support the organization's mission and identify gaps that exist.",
+    "3": "Human Resources Security (HRS) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with HRS domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with HRS domain capabilities are well-documented and kept current by process owners.\n▪ A Human Resources (HR) team, or similar function, is appropriately staffed and supported to implement and maintain HRS domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of human resources security operations (e.g., personnel management software solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with HRS domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to manage personnel security risk by assigning a risk designation to all positions and establishing screening criteria for individuals filling those positions.",
+    "4": "Human Resources Security (HRS) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [
+    "CORE ESP Level 1 Foundational",
+    "CORE ESP Level 2 Critical Infrastructure",
+    "CORE ESP Level 3 Advanced Threats",
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ Employee security policy acknowledgment\n∙ Background check for sensitive roles",
+    "small": "∙ Security awareness policy\n∙ Background checks\n∙ Security onboarding checklist",
+    "medium": "∙ HR security program\n∙ Background checks for all staff\n∙ Security onboarding training",
+    "large": "∙ Enterprise HR security program\n∙ Background screening service\n∙ Automated offboarding workflows",
+    "enterprise": "∙ Enterprise HR security framework\n∙ Background screening platform\n∙ Integrated HR/IAM offboarding\n∙ Continuous monitoring"
+  },
+  "risks": [
+    "R-AC-2",
+    "R-AC-4",
+    "R-AM-1",
+    "R-AM-2",
+    "R-BC-1",
+    "R-BC-2",
+    "R-BC-3",
+    "R-BC-4",
+    "R-BC-5",
+    "R-EX-1",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-EX-5",
+    "R-EX-6",
+    "R-EX-7",
+    "R-GV-1",
+    "R-GV-2",
+    "R-GV-3",
+    "R-GV-4",
+    "R-GV-5",
+    "R-GV-6",
+    "R-GV-7",
+    "R-GV-8",
+    "R-IR-1",
+    "R-IR-2",
+    "R-IR-3",
+    "R-IR-4",
+    "R-SA-2",
+    "R-SC-1",
+    "R-SC-2",
+    "R-SC-3",
+    "R-SC-4",
+    "R-SC-5",
+    "R-SC-6"
+  ],
+  "threats": [
+    "NT-7",
+    "MT-1",
+    "MT-2",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Human Resources Security",
+  "crosswalks": {
+    "general-aicpa-tsc-2017": [
+      "CC1.2",
+      "CC1.2-POF1",
+      "CC1.2-POF2",
+      "CC1.2-POF3",
+      "CC1.2-POF4"
+    ],
+    "general-bsi-200-1-1-0": [
+      "6"
+    ],
+    "general-coso-2013": [
+      "2"
+    ],
+    "general-govramp": [
+      "PS-02"
+    ],
+    "general-govramp-mod": [
+      "PS-02"
+    ],
+    "general-govramp-high": [
+      "PS-02"
+    ],
+    "general-iso-27001-2022": [
+      "7.2(a)"
+    ],
+    "general-iso-27017-2015": [
+      "6.1"
+    ],
+    "general-iso-42001-2023": [
+      "7.2"
+    ],
+    "general-mpa-csbp-5-3-1": [
+      "OR-3.1"
+    ],
+    "general-nist-800-53-r4": [
+      "PS-2"
+    ],
+    "general-nist-800-53-r5-2": [
+      "PS-02"
+    ],
+    "general-nist-800-53-r5-2-privacy": [
+      "PS-02"
+    ],
+    "general-nist-800-53-r5-2-low": [
+      "PS-02"
+    ],
+    "general-nist-800-66-r2": [
+      "164.308(a)(3)",
+      "164.312(a)"
+    ],
+    "general-nist-800-82-r3": [
+      "PS-02"
+    ],
+    "general-nist-800-82-r3-low": [
+      "PS-02"
+    ],
+    "general-nist-800-82-r3-mod": [
+      "PS-02"
+    ],
+    "general-nist-800-82-r3-high": [
+      "PS-02"
+    ],
+    "general-nist-800-171-r3": [
+      "03.01.01.c.01",
+      "03.01.01.c.02",
+      "03.01.01.d.01",
+      "03.01.01.d.02",
+      "03.01.02",
+      "03.09.01.a",
+      "03.09.01.b"
+    ],
+    "general-nist-800-172": [
+      "3.9.1e"
+    ],
+    "general-nist-csf-2-0": [
+      "GV.RR-02",
+      "PR.AA-05"
+    ],
+    "general-pci-dss-4-0-1": [
+      "12.7",
+      "12.7.1"
+    ],
+    "general-pci-dss-4-0-1-saq-d-merchant": [
+      "12.7.1"
+    ],
+    "general-pci-dss-4-0-1-saq-d-service-provider": [
+      "12.7.1"
+    ],
+    "general-swift-cscf-2025": [
+      "5.1"
+    ],
+    "general-tisax-6-0-3": [
+      "1.2.2",
+      "2.1.1"
+    ],
+    "usa-federal-dhs-cisa-tic-3-0": [
+      "3.UNI.UATRA"
+    ],
+    "usa-federal-fbi-cjis-6-0": [
+      "PS-2"
+    ],
+    "usa-federal-doe-c2m2-2-1": [
+      "ACCESS-3h",
+      "WORKFORCE-3a"
+    ],
+    "usa-federal-sro-fca-crm-2023": [
+      "609.930(b)(3)"
+    ],
+    "usa-federal-fda-21-cfr-part-11-2025": [
+      "11.10(i)"
+    ],
+    "usa-federal-gsa-fedramp-5-low": [
+      "PS-02"
+    ],
+    "usa-federal-gsa-fedramp-5-mod": [
+      "PS-02"
+    ],
+    "usa-federal-gsa-fedramp-5-high": [
+      "PS-02"
+    ],
+    "usa-federal-gsa-fedramp-5-li-saas": [
+      "PS-02"
+    ],
+    "usa-federal-omb-fipps-1973": [
+      "2"
+    ],
+    "usa-federal-law-hipaa-simplification-2013": [
+      "164.308(a)(3)(ii)(B)",
+      "164.312(a)(1)",
+      "164.530(a)(2)"
+    ],
+    "usa-federal-law-hipaa-security-rule-2013": [
+      "164.308(a)(3)(ii)(B)",
+      "164.312(a)(1)"
+    ],
+    "usa-federal-irs-1075-2021": [
+      "PS-2"
+    ],
+    "usa-federal-cms-marse-2-0": [
+      "PS-2",
+      "PS-2.a",
+      "PS-2.b",
+      "PS-2.c"
+    ],
+    "usa-state-ca-ccpa-cpra-2026": [
+      "7123(c)(3)(B)"
+    ],
+    "usa-state-ny-dfs-23-nycrr500-2023-amd2": [
+      "500.16(a)(2)(ii)"
+    ],
+    "usa-state-tx-dir-security-control-standards-catalog-2-2": [
+      "PS-02"
+    ],
+    "usa-state-tx-txramp-2-0-level-1": [
+      "PS-02"
+    ],
+    "usa-state-tx-txramp-2-0-level-2": [
+      "PS-02"
+    ],
+    "emea-eu-eba-ict-srm-2025": [
+      "3.3.2(15)"
+    ],
+    "emea-eu-gdpr-2016": [
+      "Article 32.4"
+    ],
+    "emea-eu-nis2-annex-2024": [
+      "10.1.2(b)",
+      "10.1.3"
+    ],
+    "emea-isr-cmo-1-0": [
+      "19.1"
+    ],
+    "emea-sau-cscc-1-2019": [
+      "1-5-1-2"
+    ],
+    "emea-sau-cgiot-2024": [
+      "1-8-1"
+    ],
+    "emea-sau-ecc-1-2018": [
+      "1-9-2"
+    ],
+    "emea-sau-sacs-002-2022": [
+      "TPC-26"
+    ],
+    "emea-esp-boe-a-2022-7191": [
+      "Article 13.2"
+    ],
+    "emea-esp-decree-311-2022": [
+      "13.2"
+    ],
+    "apac-ind-sebi-2024": [
+      "DE.DP.S1",
+      "GV.RR.S2",
+      "PR.AT.S4",
+      "RS.CO.S1"
+    ],
+    "apac-jpn-ismap": [
+      "4.5.2.2"
+    ],
+    "apac-nzl-ism-3-9": [
+      "9.2.10.C.01",
+      "9.2.10.C.02",
+      "9.2.11.C.01",
+      "9.2.11.C.02"
+    ],
+    "americas-can-itsp-10-171-2025": [
+      "03.01.01.C.01",
+      "03.01.01.C.02",
+      "03.01.01.D.01",
+      "03.01.01.D.02",
+      "03.01.02",
+      "03.09.01.A",
+      "03.09.01.B"
+    ]
+  }
+}

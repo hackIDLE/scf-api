@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-AAT-09",
+  "area": "Artificial Intelligence (AI) & Autonomous Technologies Governance",
+  "artifact_name": "Intellectual Property (IP) Infringement Assessment of Artificial Intelligence and Autonomous Technologies (AAT)",
+  "artifact_description": "Documented evidence of a legal opinion on the potential for Intellectual Property (IP) infringement by the organization's Artificial Intelligence (AI) and Autonomous Technologies (AAT) initiatives.",
+  "scf_controls": [
+    "AAT-12"
+  ],
+  "cmmc_mapping": ""
+}

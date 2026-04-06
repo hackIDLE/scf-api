@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "AAT-22.3",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-22.3",
+      "ao_id": "AAT-22.3_A01",
+      "objective": "no action or decision able to be taken by the deployer of an Artificial Intelligence (AI) and Autonomous Technologies (AAT) based solely on the basis of AAT-generated evidence, unless that evidence has been separately verified and confirmed by at least two (2) individuals with the necessary competence, training and authority.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

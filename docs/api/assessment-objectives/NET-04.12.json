@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "NET-04.12",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-04.12",
+      "ao_id": "NET-04.12_A01",
+      "objective": "source and destination points are uniquely identified and authenticated by organization-defined criteria for information transfer (e.g., organization, system, application, service or individual).",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-04(17)_ODP\n53A_R5_AC-04(17)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

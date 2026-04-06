@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "VPM-05.7",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "VPM-05.7",
+      "ao_id": "VPM-05.7_A01",
+      "objective": "a process to perform out-of-cycle software and/or firmware patching to address time-sensitive remediations is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-05.7",
+      "ao_id": "VPM-05.7_A02",
+      "objective": "the organization performs out-of-cycle software and/or firmware patching to address time-sensitive remediations.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

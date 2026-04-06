@@ -1,0 +1,14 @@
+{
+  "erl_id": "E-TDA-01",
+  "area": "Technology Design & Acquisition",
+  "artifact_name": "Secure Software Development Principles (SSDP)",
+  "artifact_description": "Documented evidence of a Secure Software Development Principles (SSDP). This is program-level documentation in the form of a runbook, playbook or a similar format provides guidance on organizational practices that support existing policies and standards.",
+  "scf_controls": [
+    "SEA-01",
+    "TDA-01",
+    "TDA-14",
+    "TDA-14.1",
+    "TDA-14.2"
+  ],
+  "cmmc_mapping": ""
+}

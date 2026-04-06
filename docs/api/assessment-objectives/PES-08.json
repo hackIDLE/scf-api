@@ -1,0 +1,66 @@
+{
+  "scf_control_id": "PES-08",
+  "total": 6,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PES-08",
+      "ao_id": "PES-08_A01",
+      "objective": "fire detection systems are employed.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-13[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-08",
+      "ao_id": "PES-08_A02",
+      "objective": "employed fire detection systems are supported by an independent energy source.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-13[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-08",
+      "ao_id": "PES-08_A03",
+      "objective": "employed fire detection systems are maintained.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-13[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-08",
+      "ao_id": "PES-08_A04",
+      "objective": "fire suppression systems are employed.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-13[04]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-08",
+      "ao_id": "PES-08_A05",
+      "objective": "employed fire suppression systems are supported by an independent energy source.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-13[05]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-08",
+      "ao_id": "PES-08_A06",
+      "objective": "employed fire suppression systems are maintained.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-13[06]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "HRS-02.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "HRS-02.1",
+      "ao_id": "HRS-02.1_A01",
+      "objective": "every user accessing a system, application or service that processes, stores or transmits sensitive / regulated information is cleared and regularly trained to handle the information in question.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

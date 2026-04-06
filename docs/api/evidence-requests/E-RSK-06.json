@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-RSK-06",
+  "area": "Risk Management",
+  "artifact_name": "Risk Threshold",
+  "artifact_description": "Documented evidence the organization has a defined risk threshold.",
+  "scf_controls": [
+    "RSK-01.1",
+    "RSK-01.3"
+  ],
+  "cmmc_mapping": ""
+}

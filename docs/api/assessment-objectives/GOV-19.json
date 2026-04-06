@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "GOV-19",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "GOV-19",
+      "ao_id": "GOV-19_A01",
+      "objective": "the basis for confidence that implemented practices conform to applicable security, compliance and resilience controls, where the control implementation performs as intended is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

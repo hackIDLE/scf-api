@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "IRO-09.3",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IRO-09.3",
+      "ao_id": "IRO-09.3_A01",
+      "objective": "a repository to document cybersecurity events and incidents is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-09.3",
+      "ao_id": "IRO-09.3_A02",
+      "objective": "details of the incident (e.g., category, severity, affected parties, etc.) are documented in the repository.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-09.3",
+      "ao_id": "IRO-09.3_A03",
+      "objective": "remediation actions taken through incident closure are documented in the repository.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-09.3",
+      "ao_id": "IRO-09.3_A04",
+      "objective": "a summary from the Root Cause Analysis (RCA) are documented in the repository, if applicable.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

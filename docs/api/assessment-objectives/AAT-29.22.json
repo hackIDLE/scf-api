@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "AAT-29.22",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-29.22",
+      "ao_id": "AAT-29.22_A01",
+      "objective": "the organization has the capability to identify unfair, unethical or biased AI agent actions.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

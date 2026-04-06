@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "AST-24",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AST-24",
+      "ao_id": "AST-24_A01",
+      "objective": "the organization maintains a pool of temporary, loaner or \"travel-only\" end user technology (e.g., laptops and mobile devices).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-24",
+      "ao_id": "AST-24_A02",
+      "objective": "personnel travelling overseas request and are issued a temporary, loaner or \"travel-only\" end user technology (e.g., laptops and mobile devices) when travelling to authoritarian countries with a higher-than average risk for Intellectual Property (IP) theft or espionage against individuals and private companies.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-24",
+      "ao_id": "AST-24_A03",
+      "objective": "systems or system components with organization-defined configurations are issued to individuals traveling to high-risk locations.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-24",
+      "ao_id": "AST-24_A04",
+      "objective": "systems or system components with the following configurations are issued to individuals traveling to high-risk locations: <A.03.04.12.ODP[01]: configurations>.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.04.12.a",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "a configuration that has no CUI or FCI stored on the system and prevents the processing, storing, and transmission of CUI and FCI, unless a specific exception is granted in writing by the Contracting Officer",
+      "org_defined_parameters": ""
+    }
+  ]
+}

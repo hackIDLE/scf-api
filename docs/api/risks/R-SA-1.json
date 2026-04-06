@@ -1,0 +1,7 @@
+{
+  "risk_id": "R-SA-1",
+  "grouping": "Situational Awareness",
+  "name": "Inability to maintain situational awareness",
+  "description": "The inability to detect cybersecurity and/or privacy incidents (e.g., a lack of situational awareness).",
+  "nist_csf_function": "Detect"
+}

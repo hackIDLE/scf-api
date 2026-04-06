@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-VPM-09",
+  "area": "Vulnerability Management",
+  "artifact_name": "Flaw Remediation Actions",
+  "artifact_description": "Documented evidence of list of recent security flaw remediation actions performed on the system (e.g., list of installed patches, service packs, hot fixes, and other software updates to correct system flaws).",
+  "scf_controls": [
+    "VPM-02"
+  ],
+  "cmmc_mapping": "RA.L2-3.11.2\nSI.L1-3.14.1"
+}

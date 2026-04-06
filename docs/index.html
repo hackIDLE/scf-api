@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SCF API</title>
+  <meta name="description" content="Static JSON API for the Secure Controls Framework. 1468 controls, 33 families, 249 framework crosswalks." />
+  <style>
+    body { font-family: system-ui, sans-serif; background: #1e1e2e; color: #cdd6f4; max-width: 600px; margin: 0 auto; padding: 2rem 1rem; line-height: 1.6; }
+    h1 { color: #cdd6f4; font-size: 1.3rem; margin-bottom: 0.5rem; }
+    h2 { color: #a6adc8; font-size: 0.9rem; margin-top: 1.5rem; margin-bottom: 0.5rem; }
+    p { color: #a6adc8; margin-bottom: 0.75rem; font-size: 0.9rem; }
+    a { color: #89b4fa; }
+    a:hover { color: #b4befe; }
+    code { color: #a6e3a1; font-size: 0.85em; }
+    ul { padding-left: 1.2rem; margin: 0; }
+    li { margin-bottom: 0.25rem; font-size: 0.9rem; }
+    .sub { color: #6c7086; font-size: 0.8rem; margin-top: 2rem; }
+    .sub a { color: #6c7086; }
+    .sub a:hover { color: #89b4fa; }
+  </style>
+</head>
+<body>
+  <h1>SCF API</h1>
+  <p>1468 controls, 33 families, 249 crosswalks, 41 threats, 39 risks, 5776 assessment objectives. Static JSON from the <a href="https://securecontrolsframework.com">Secure Controls Framework</a>.</p>
+
+  <h2>Agents</h2>
+  <ul>
+    <li><a href="llms.txt">llms.txt</a></li>
+    <li><a href="llms-full.txt">llms-full.txt</a></li>
+    <li><a href="api/docs.md">api/docs.md</a></li>
+  </ul>
+
+  <h2>Endpoints</h2>
+  <ul>
+    <li><a href="api/summary.json"><code>summary</code></a></li>
+    <li><a href="api/controls.json"><code>controls</code></a> &middot; <a href="api/controls/GOV-01.json"><code>controls/{ID}</code></a></li>
+    <li><a href="api/families.json"><code>families</code></a> &middot; <a href="api/families/GOV.json"><code>families/{CODE}</code></a></li>
+    <li><a href="api/crosswalks.json"><code>crosswalks</code></a> &middot; <a href="api/crosswalks/general-nist-800-53-r5-2.json"><code>crosswalks/{FW}</code></a></li>
+    <li><a href="api/threats.json"><code>threats</code></a> &middot; <a href="api/threats/NT-1.json"><code>threats/{ID}</code></a></li>
+    <li><a href="api/risks.json"><code>risks</code></a> &middot; <a href="api/risks/R-AC-1.json"><code>risks/{ID}</code></a></li>
+    <li><a href="api/assessment-objectives.json"><code>assessment-objectives</code></a> &middot; <a href="api/assessment-objectives/GOV-01.json"><code>assessment-objectives/{SCF_ID}</code></a></li>
+    <li><a href="api/evidence-requests.json"><code>evidence-requests</code></a> &middot; <a href="api/evidence-requests/E-GOV-01.json"><code>evidence-requests/{ERL_ID}</code></a></li>
+    <li><a href="api/compensating-controls.json"><code>compensating-controls</code></a> &middot; <a href="api/compensating-controls/GOV-01.1.json"><code>compensating-controls/{SCF_ID}</code></a></li>
+    <li><a href="api/privacy-principles.json"><code>privacy-principles</code></a></li>
+  </ul>
+
+  <p class="sub">SCF v2026.1 &middot; CC BY-ND &middot; <a href="https://github.com/hackIDLE/scf-api">hackIDLE</a></p>
+</body>
+</html>

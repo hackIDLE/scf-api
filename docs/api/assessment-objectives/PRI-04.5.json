@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "PRI-04.5",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-04.5",
+      "ao_id": "PRI-04.5_A01",
+      "objective": "data subjects, or authorized representatives, are prompted to validate Personal Data (PD) during the collection process.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

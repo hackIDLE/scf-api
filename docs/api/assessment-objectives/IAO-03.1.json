@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "IAO-03.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAO-03.1",
+      "ao_id": "IAO-03.1_A01",
+      "objective": "a cybersecurity / data privacy plan for the system is developed that describes the operational environment for the system and any dependencies on or connections to other systems or system components.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-02a.09[01]\n53A_R5_PL-02a.09[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

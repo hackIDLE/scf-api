@@ -1,0 +1,96 @@
+{
+  "scf_control_id": "TDA-06.1",
+  "total": 9,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-06.1",
+      "ao_id": "TDA-06.1_A01",
+      "objective": "decision points in the system development life cycle are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-15(03)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-06.1",
+      "ao_id": "TDA-06.1_A02",
+      "objective": "the breadth of criticality analysis is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-15(03)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-06.1",
+      "ao_id": "TDA-06.1_A03",
+      "objective": "the depth of criticality analysis is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-15(03)_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-06.1",
+      "ao_id": "TDA-06.1_A04",
+      "objective": "the developer of the system, system component, or system service is required to perform a criticality analysis at organization-defined decision points in the system development life cycle.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-15(03)(a)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-06.1",
+      "ao_id": "TDA-06.1_A05",
+      "objective": "the developer of the system, system component, or system service is required to perform a criticality analysis per an organization-defined breadth.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-15(03)(b)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-06.1",
+      "ao_id": "TDA-06.1_A06",
+      "objective": "the developer of the system, system component, or system service is required to perform a criticality analysis per an organization-defined depth.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-15(03)(b)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-06.1",
+      "ao_id": "TDA-06.1_A07",
+      "objective": "suppliers of critical or mission-essential technologies, products and services are identified.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-30(01)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-06.1",
+      "ao_id": "TDA-06.1_A08",
+      "objective": "suppliers of critical or mission-essential technologies, products and services are prioritized.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-30(01)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-06.1",
+      "ao_id": "TDA-06.1_A09",
+      "objective": "suppliers of critical or mission-essential technologies, products and services are assessed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-30(01)[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

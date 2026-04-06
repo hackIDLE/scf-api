@@ -1,0 +1,17 @@
+{
+  "erl_id": "E-TPM-03",
+  "area": "Third-Party Management",
+  "artifact_name": "Third-Party Service Reviews",
+  "artifact_description": "Documented evidence of a formal, annual stakeholder review of third-party services for each External Service Provider (ESP).",
+  "scf_controls": [
+    "TPM-01",
+    "TPM-03.2",
+    "TPM-03.3",
+    "TPM-04.1",
+    "TPM-05",
+    "TPM-05.5",
+    "TPM-08",
+    "TPM-09"
+  ],
+  "cmmc_mapping": ""
+}

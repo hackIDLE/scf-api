@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "DCH-03.2",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-03.2",
+      "ao_id": "DCH-03.2_A01",
+      "objective": "automated mechanisms apply data masking to sensitive information that is displayed or printed, where technically feasible.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

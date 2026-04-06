@@ -1,0 +1,106 @@
+{
+  "scf_control_id": "MNT-05",
+  "total": 10,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MNT-05",
+      "ao_id": "MNT-05_A01",
+      "objective": "nonlocal maintenance and diagnostic activities are approved.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-04a.[01]\n171A_R3_A.03.07.05.a[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-05",
+      "ao_id": "MNT-05_A02",
+      "objective": "nonlocal maintenance and diagnostic activities are monitored.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_MA-04a.[02]\n171A_R3_A.03.07.05.a[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-05",
+      "ao_id": "MNT-05_A03",
+      "objective": "the use of nonlocal maintenance and diagnostic tools are allowed only as consistent with organizational policy.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_MA-04b.[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-05",
+      "ao_id": "MNT-05_A04",
+      "objective": "the use of nonlocal maintenance and diagnostic tools are documented in the security plan for the system.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-04b.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-05",
+      "ao_id": "MNT-05_A05",
+      "objective": "strong authentication is employed in the establishment of nonlocal maintenance and diagnostic sessions.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_MA-04c.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-05",
+      "ao_id": "MNT-05_A06",
+      "objective": "records for nonlocal maintenance and diagnostic activities are maintained.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-04d.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-05",
+      "ao_id": "MNT-05_A07",
+      "objective": "session connections are terminated when nonlocal maintenance is completed.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_MA-04e.[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-05",
+      "ao_id": "MNT-05_A08",
+      "objective": "network connections are terminated when nonlocal maintenance is completed.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_MA-04e.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-05",
+      "ao_id": "MNT-05_A09",
+      "objective": "multifactor authentication is used to establish nonlocal maintenance sessions via external network connections.",
+      "pptdf": "Technology",
+      "origin": "171A_3.7.5[a]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-05",
+      "ao_id": "MNT-05_A10",
+      "objective": "nonlocal maintenance sessions established via external network connections are terminated when nonlocal maintenance is complete.",
+      "pptdf": "Technology",
+      "origin": "171A_3.7.5[b]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

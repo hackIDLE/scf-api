@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-NET-07",
+  "area": "Network Security",
+  "artifact_name": "External System Accessibility",
+  "artifact_description": "Documented evidence of a list of Technology Assets, Applications and/or Services (TAAS) accessible from third-party entities.",
+  "scf_controls": [
+    "NET-04",
+    "NET-04.1"
+  ],
+  "cmmc_mapping": ""
+}

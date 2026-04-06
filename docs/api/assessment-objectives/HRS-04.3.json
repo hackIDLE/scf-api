@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "HRS-04.3",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "HRS-04.3",
+      "ao_id": "HRS-04.3_A01",
+      "objective": "information types that are processed, stored or transmitted by a system, application or service that requires individuals accessing the system to meet citizenship requirements are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PS-03(04)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-04.3",
+      "ao_id": "HRS-04.3_A02",
+      "objective": "citizenship requirements to be met by individuals to access a system, application or service processing, storing or transmitting information are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PS-03(04)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-04.3",
+      "ao_id": "HRS-04.3_A03",
+      "objective": "individuals accessing a system, application or service processing, storing or transmitting information types meet citizenship requirements.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PS-03(04)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

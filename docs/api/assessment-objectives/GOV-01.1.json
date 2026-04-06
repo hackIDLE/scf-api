@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "GOV-01.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "GOV-01.1",
+      "ao_id": "GOV-01.1_A01",
+      "objective": "an executive steering committee, or advisory board, is formed and is comprised of key cybersecurity, technology, risk, privacy and business executives.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-01.1",
+      "ao_id": "GOV-01.1_A02",
+      "objective": "the executive steering committee, or advisory board, coordinates cybersecurity, technology, risk, privacy and business alignment through recurring, formal meetings.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

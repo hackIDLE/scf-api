@@ -1,0 +1,16 @@
+{
+  "erl_id": "E-RSK-04",
+  "area": "Risk Management",
+  "artifact_name": "Cybersecurity Risk Assessment (RA)",
+  "artifact_description": "Documented evidence of a cybersecurity-specific risk assessment.",
+  "scf_controls": [
+    "RSK-02",
+    "RSK-02.1",
+    "RSK-03",
+    "RSK-04",
+    "RSK-05",
+    "VPM-02",
+    "VPM-03"
+  ],
+  "cmmc_mapping": ""
+}

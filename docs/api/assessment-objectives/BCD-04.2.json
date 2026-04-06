@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "BCD-04.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "BCD-04.2",
+      "ao_id": "BCD-04.2_A01",
+      "objective": "the contingency plan is tested at the alternate processing site to familiarize contingency personnel with the facility and available resources.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-04(02)(a)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-04.2",
+      "ao_id": "BCD-04.2_A02",
+      "objective": "the contingency plan is tested at the alternate processing site to evaluate the capabilities of the alternate processing site to support contingency operations.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-04(02)(b)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

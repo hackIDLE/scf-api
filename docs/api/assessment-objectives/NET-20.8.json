@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "NET-20.8",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-20.8",
+      "ao_id": "NET-20.8_A01",
+      "objective": "email systems are configured to implement email labeling that apply organization-defined tags to incoming email.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-20.8",
+      "ao_id": "NET-20.8_A02",
+      "objective": "email systems are configured to implement email labeling that apply organization-defined tags to outgoing email.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

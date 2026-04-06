@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "AAT-03",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-03",
+      "ao_id": "AAT-03_A01",
+      "objective": "the context for the intended purpose(s) for Artificial Intelligence (AI) and Autonomous Technologies (AAT) is clearly documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-03",
+      "ao_id": "AAT-03_A02",
+      "objective": "the context for the potentially beneficial use(s) for Artificial Intelligence (AI) and Autonomous Technologies (AAT) is clearly documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-03",
+      "ao_id": "AAT-03_A03",
+      "objective": "the context for the legal and regulatory compliance for Artificial Intelligence (AI) and Autonomous Technologies (AAT) is clearly documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-03",
+      "ao_id": "AAT-03_A04",
+      "objective": "the context for the norms and expectations for Artificial Intelligence (AI) and Autonomous Technologies (AAT) is clearly documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-03",
+      "ao_id": "AAT-03_A05",
+      "objective": "the context for the proposed deployment setting(s) for Artificial Intelligence (AI) and Autonomous Technologies (AAT) is clearly documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

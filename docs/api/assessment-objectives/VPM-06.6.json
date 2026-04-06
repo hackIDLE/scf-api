@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "VPM-06.6",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "VPM-06.6",
+      "ao_id": "VPM-06.6_A01",
+      "objective": "for Payment Card Industry Data Security Standard (PCI DSS) compliance, quarterly external vulnerability scans (outside the organization's network looking inward) via a reputable vulnerability service provider, are performed until passing results are obtained or all “high” vulnerabilities are resolved, as defined by the Common Vulnerability Scoring System (CVSS).",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

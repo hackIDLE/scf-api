@@ -1,0 +1,612 @@
+{
+  "framework_id": "apac-nzl-hisf-suppliers-2023",
+  "display_name": "New Zealand - HISF Guidance for Suppliers (2023)",
+  "scf_to_framework": {
+    "total_mappings": 101,
+    "mappings": {
+      "GOV-01.1": [
+        "HSUP10",
+        "HSUP19"
+      ],
+      "GOV-01.2": [
+        "HSUP10",
+        "HSUP38",
+        "HSUP65"
+      ],
+      "GOV-02": [
+        "HSUP01"
+      ],
+      "GOV-03": [
+        "HSUP58"
+      ],
+      "GOV-04": [
+        "HSUP19",
+        "HSUP23"
+      ],
+      "GOV-04.1": [
+        "HSUP19",
+        "HSUP23"
+      ],
+      "GOV-05": [
+        "HSUP38"
+      ],
+      "GOV-15": [
+        "HSUP14",
+        "HSUP24"
+      ],
+      "AST-01": [
+        "HSUP05",
+        "HSUP46"
+      ],
+      "AST-01.2": [
+        "HSUP27"
+      ],
+      "AST-09": [
+        "HSUP06"
+      ],
+      "BCD-01": [
+        "HSUP08",
+        "HSUP22",
+        "HSUP53"
+      ],
+      "BCD-01.4": [
+        "HSUP22"
+      ],
+      "BCD-02.1": [
+        "HSUP31"
+      ],
+      "BCD-02.2": [
+        "HSUP31"
+      ],
+      "BCD-05": [
+        "HSUP56"
+      ],
+      "BCD-11": [
+        "HSUP15",
+        "HSUP48",
+        "HSUP60"
+      ],
+      "BCD-11.1": [
+        "HSUP49",
+        "HSUP60"
+      ],
+      "BCD-11.10": [
+        "HSUP48"
+      ],
+      "BCD-12": [
+        "HSUP15"
+      ],
+      "CAP-01": [
+        "HSUP53"
+      ],
+      "CHG-01": [
+        "HSUP16"
+      ],
+      "CHG-02": [
+        "HSUP16"
+      ],
+      "CHG-03": [
+        "HSUP29"
+      ],
+      "CLD-02": [
+        "HSUP43"
+      ],
+      "CLD-04": [
+        "HSUP44"
+      ],
+      "CLD-06": [
+        "HSUP45"
+      ],
+      "CPL-01": [
+        "HSUP25"
+      ],
+      "CPL-02": [
+        "HSUP58"
+      ],
+      "CPL-02.1": [
+        "HSUP58"
+      ],
+      "CFG-02": [
+        "HSUP14",
+        "HSUP46",
+        "HSUP52"
+      ],
+      "MON-01": [
+        "HSUP61"
+      ],
+      "MON-01.4": [
+        "HSUP60"
+      ],
+      "MON-01.12": [
+        "HSUP60"
+      ],
+      "MON-03": [
+        "HSUP61"
+      ],
+      "MON-03.2": [
+        "HSUP61"
+      ],
+      "MON-07.1": [
+        "HSUP62"
+      ],
+      "MON-11": [
+        "HSUP55"
+      ],
+      "CRY-01": [
+        "HSUP32"
+      ],
+      "DCH-01": [
+        "HSUP12",
+        "HSUP30",
+        "HSUP66"
+      ],
+      "DCH-01.2": [
+        "HSUP12",
+        "HSUP66"
+      ],
+      "DCH-02": [
+        "HSUP30"
+      ],
+      "DCH-12": [
+        "HSUP12"
+      ],
+      "END-01": [
+        "HSUP30"
+      ],
+      "END-04": [
+        "HSUP54"
+      ],
+      "HRS-01": [
+        "HSUP02"
+      ],
+      "HRS-03": [
+        "HSUP02",
+        "HSUP21"
+      ],
+      "HRS-04": [
+        "HSUP18"
+      ],
+      "HRS-05.1": [
+        "HSUP01"
+      ],
+      "HRS-07": [
+        "HSUP03",
+        "HSUP63",
+        "HSUP64"
+      ],
+      "HRS-07.1": [
+        "HSUP03",
+        "HSUP64"
+      ],
+      "IAC-01.2": [
+        "HSUP34"
+      ],
+      "IAC-05": [
+        "HSUP41"
+      ],
+      "IAC-07": [
+        "HSUP04",
+        "HSUP35"
+      ],
+      "IAC-07.1": [
+        "HSUP04"
+      ],
+      "IAC-07.2": [
+        "HSUP04"
+      ],
+      "IAC-08": [
+        "HSUP04",
+        "HSUP37"
+      ],
+      "IAC-15": [
+        "HSUP33",
+        "HSUP35"
+      ],
+      "IAC-16": [
+        "HSUP36"
+      ],
+      "IAC-20": [
+        "HSUP09"
+      ],
+      "IRO-02": [
+        "HSUP07"
+      ],
+      "IRO-04": [
+        "HSUP07"
+      ],
+      "IRO-08": [
+        "HSUP66"
+      ],
+      "IRO-10": [
+        "HSUP65"
+      ],
+      "IAO-01": [
+        "HSUP59"
+      ],
+      "IAO-02": [
+        "HSUP59"
+      ],
+      "MNT-01": [
+        "HSUP13"
+      ],
+      "NET-01": [
+        "HSUP41",
+        "HSUP46"
+      ],
+      "NET-03.7": [
+        "HSUP47"
+      ],
+      "NET-06": [
+        "HSUP47"
+      ],
+      "NET-17": [
+        "HSUP55"
+      ],
+      "PES-01": [
+        "HSUP11",
+        "HSUP39"
+      ],
+      "PES-01.1": [
+        "HSUP11"
+      ],
+      "PES-02": [
+        "HSUP04"
+      ],
+      "PES-02.1": [
+        "HSUP04"
+      ],
+      "PES-03": [
+        "HSUP40"
+      ],
+      "PES-03.4": [
+        "HSUP09"
+      ],
+      "PES-04": [
+        "HSUP40"
+      ],
+      "PES-05": [
+        "HSUP57"
+      ],
+      "PRM-04": [
+        "HSUP24"
+      ],
+      "PRM-05": [
+        "HSUP27"
+      ],
+      "PRM-06": [
+        "HSUP27"
+      ],
+      "RSK-01": [
+        "HSUP26"
+      ],
+      "RSK-04": [
+        "HSUP28"
+      ],
+      "SEA-01": [
+        "HSUP14"
+      ],
+      "OPS-01.1": [
+        "HSUP01"
+      ],
+      "SAT-01": [
+        "HSUP20"
+      ],
+      "TDA-01": [
+        "HSUP42"
+      ],
+      "TDA-01.1": [
+        "HSUP42"
+      ],
+      "TDA-06": [
+        "HSUP42"
+      ],
+      "TDA-08": [
+        "HSUP50"
+      ],
+      "TDA-20": [
+        "HSUP37"
+      ],
+      "TPM-01": [
+        "HSUP67"
+      ],
+      "TPM-04.1": [
+        "HSUP67"
+      ],
+      "TPM-05": [
+        "HSUP63",
+        "HSUP68"
+      ],
+      "TPM-07": [
+        "HSUP64"
+      ],
+      "TPM-08": [
+        "HSUP64",
+        "HSUP67"
+      ],
+      "VPM-01": [
+        "HSUP17"
+      ],
+      "VPM-02": [
+        "HSUP17",
+        "HSUP51"
+      ],
+      "VPM-05": [
+        "HSUP17"
+      ],
+      "VPM-06": [
+        "HSUP51"
+      ]
+    }
+  },
+  "framework_to_scf": {
+    "total_mappings": 68,
+    "mappings": {
+      "HSUP10": [
+        "GOV-01.1",
+        "GOV-01.2"
+      ],
+      "HSUP19": [
+        "GOV-01.1",
+        "GOV-04",
+        "GOV-04.1"
+      ],
+      "HSUP38": [
+        "GOV-01.2",
+        "GOV-05"
+      ],
+      "HSUP65": [
+        "GOV-01.2",
+        "IRO-10"
+      ],
+      "HSUP01": [
+        "GOV-02",
+        "HRS-05.1",
+        "OPS-01.1"
+      ],
+      "HSUP58": [
+        "GOV-03",
+        "CPL-02",
+        "CPL-02.1"
+      ],
+      "HSUP23": [
+        "GOV-04",
+        "GOV-04.1"
+      ],
+      "HSUP14": [
+        "GOV-15",
+        "CFG-02",
+        "SEA-01"
+      ],
+      "HSUP24": [
+        "GOV-15",
+        "PRM-04"
+      ],
+      "HSUP05": [
+        "AST-01"
+      ],
+      "HSUP46": [
+        "AST-01",
+        "CFG-02",
+        "NET-01"
+      ],
+      "HSUP27": [
+        "AST-01.2",
+        "PRM-05",
+        "PRM-06"
+      ],
+      "HSUP06": [
+        "AST-09"
+      ],
+      "HSUP08": [
+        "BCD-01"
+      ],
+      "HSUP22": [
+        "BCD-01",
+        "BCD-01.4"
+      ],
+      "HSUP53": [
+        "BCD-01",
+        "CAP-01"
+      ],
+      "HSUP31": [
+        "BCD-02.1",
+        "BCD-02.2"
+      ],
+      "HSUP56": [
+        "BCD-05"
+      ],
+      "HSUP15": [
+        "BCD-11",
+        "BCD-12"
+      ],
+      "HSUP48": [
+        "BCD-11",
+        "BCD-11.10"
+      ],
+      "HSUP60": [
+        "BCD-11",
+        "BCD-11.1",
+        "MON-01.4",
+        "MON-01.12"
+      ],
+      "HSUP49": [
+        "BCD-11.1"
+      ],
+      "HSUP16": [
+        "CHG-01",
+        "CHG-02"
+      ],
+      "HSUP29": [
+        "CHG-03"
+      ],
+      "HSUP43": [
+        "CLD-02"
+      ],
+      "HSUP44": [
+        "CLD-04"
+      ],
+      "HSUP45": [
+        "CLD-06"
+      ],
+      "HSUP25": [
+        "CPL-01"
+      ],
+      "HSUP52": [
+        "CFG-02"
+      ],
+      "HSUP61": [
+        "MON-01",
+        "MON-03",
+        "MON-03.2"
+      ],
+      "HSUP62": [
+        "MON-07.1"
+      ],
+      "HSUP55": [
+        "MON-11",
+        "NET-17"
+      ],
+      "HSUP32": [
+        "CRY-01"
+      ],
+      "HSUP12": [
+        "DCH-01",
+        "DCH-01.2",
+        "DCH-12"
+      ],
+      "HSUP30": [
+        "DCH-01",
+        "DCH-02",
+        "END-01"
+      ],
+      "HSUP66": [
+        "DCH-01",
+        "DCH-01.2",
+        "IRO-08"
+      ],
+      "HSUP54": [
+        "END-04"
+      ],
+      "HSUP02": [
+        "HRS-01",
+        "HRS-03"
+      ],
+      "HSUP21": [
+        "HRS-03"
+      ],
+      "HSUP18": [
+        "HRS-04"
+      ],
+      "HSUP03": [
+        "HRS-07",
+        "HRS-07.1"
+      ],
+      "HSUP63": [
+        "HRS-07",
+        "TPM-05"
+      ],
+      "HSUP64": [
+        "HRS-07",
+        "HRS-07.1",
+        "TPM-07",
+        "TPM-08"
+      ],
+      "HSUP34": [
+        "IAC-01.2"
+      ],
+      "HSUP41": [
+        "IAC-05",
+        "NET-01"
+      ],
+      "HSUP04": [
+        "IAC-07",
+        "IAC-07.1",
+        "IAC-07.2",
+        "IAC-08",
+        "PES-02",
+        "PES-02.1"
+      ],
+      "HSUP35": [
+        "IAC-07",
+        "IAC-15"
+      ],
+      "HSUP37": [
+        "IAC-08",
+        "TDA-20"
+      ],
+      "HSUP33": [
+        "IAC-15"
+      ],
+      "HSUP36": [
+        "IAC-16"
+      ],
+      "HSUP09": [
+        "IAC-20",
+        "PES-03.4"
+      ],
+      "HSUP07": [
+        "IRO-02",
+        "IRO-04"
+      ],
+      "HSUP59": [
+        "IAO-01",
+        "IAO-02"
+      ],
+      "HSUP13": [
+        "MNT-01"
+      ],
+      "HSUP47": [
+        "NET-03.7",
+        "NET-06"
+      ],
+      "HSUP11": [
+        "PES-01",
+        "PES-01.1"
+      ],
+      "HSUP39": [
+        "PES-01"
+      ],
+      "HSUP40": [
+        "PES-03",
+        "PES-04"
+      ],
+      "HSUP57": [
+        "PES-05"
+      ],
+      "HSUP26": [
+        "RSK-01"
+      ],
+      "HSUP28": [
+        "RSK-04"
+      ],
+      "HSUP20": [
+        "SAT-01"
+      ],
+      "HSUP42": [
+        "TDA-01",
+        "TDA-01.1",
+        "TDA-06"
+      ],
+      "HSUP50": [
+        "TDA-08"
+      ],
+      "HSUP67": [
+        "TPM-01",
+        "TPM-04.1",
+        "TPM-08"
+      ],
+      "HSUP68": [
+        "TPM-05"
+      ],
+      "HSUP17": [
+        "VPM-01",
+        "VPM-02",
+        "VPM-05"
+      ],
+      "HSUP51": [
+        "VPM-02",
+        "VPM-06"
+      ]
+    }
+  }
+}

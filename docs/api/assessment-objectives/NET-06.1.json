@@ -1,0 +1,86 @@
+{
+  "scf_control_id": "NET-06.1",
+  "total": 8,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-06.1",
+      "ao_id": "NET-06.1_A01",
+      "objective": "cybersecurity tools, mechanisms and support components to be isolated from other internal system components are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-07(13)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-06.1",
+      "ao_id": "NET-06.1_A02",
+      "objective": "cybersecurity tools, mechanisms and support components are isolated from other internal system components by implementing physically separate subnetworks with managed interfaces to other components of the system.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-07(13)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-06.1",
+      "ao_id": "NET-06.1_A03",
+      "objective": "security management subnets are logically isolated.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-07(29)_ODP[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-06.1",
+      "ao_id": "NET-06.1_A04",
+      "objective": "security management subnet system components and functions to be isolated are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-07(29)_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-06.1",
+      "ao_id": "NET-06.1_A05",
+      "objective": "organization-defined criteria are used to isolate security management subnets.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-07(29)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-06.1",
+      "ao_id": "NET-06.1_A06",
+      "objective": "physical isolation techniques are defined.",
+      "pptdf": "Process",
+      "origin": "172A_3.13.4e_ODP[1]\n172A_3.13.4e_ODP[2]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-06.1",
+      "ao_id": "NET-06.1_A07",
+      "objective": "logical isolation techniques are defined.",
+      "pptdf": "Process",
+      "origin": "172A_3.13.4e_ODP[1]\n172A_3.13.4e_ODP[3]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-06.1",
+      "ao_id": "NET-06.1_A08",
+      "objective": "physical isolation techniques and/or organization-defined logical isolation techniques are employed in organizational systems and system components.",
+      "pptdf": "Technology",
+      "origin": "172A_3.13.4e[a]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PRI-19.3",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-19.3",
+      "ao_id": "PRI-19.3_A01",
+      "objective": "sufficient details of the logic and parameters used by Automated Decision-Making Technology (ADMT) to process the Personal Data (PD) to generate an output with respect to the data subject are documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-19.3",
+      "ao_id": "PRI-19.3_A02",
+      "objective": "data subjects are provided with sufficient details of the logic and parameters used by Automated Decision-Making Technology (ADMT) to process the Personal Data (PD) to generate an output with respect to the data subject.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

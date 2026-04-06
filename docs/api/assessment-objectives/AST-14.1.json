@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AST-14.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AST-14.1",
+      "ao_id": "AST-14.1_A01",
+      "objective": "the possession of unauthorized Bluetooth and wireless devices (e.g., Near Field Communications (NFC)) is prohibited in sensitive areas.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-14.1",
+      "ao_id": "AST-14.1_A02",
+      "objective": "the usage of Bluetooth and wireless devices (e.g., Near Field Communications (NFC)) is prohibited in sensitive areas, unless use is in a Radio Frequency (RF)-screened building.",
+      "pptdf": "Facility",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

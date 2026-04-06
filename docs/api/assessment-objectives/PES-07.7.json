@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PES-07.7",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PES-07.7",
+      "ao_id": "PES-07.7_A01",
+      "objective": "distance by which redundant power cabling paths are to be physically separated is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PE-09(01)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-07.7",
+      "ao_id": "PES-07.7_A02",
+      "objective": "redundant power cabling paths that are physically separated by organization-defined distance are employed.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-09(01)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

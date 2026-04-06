@@ -1,0 +1,38 @@
+{
+  "framework_id": "usa-federal-far-52-204-25",
+  "display_name": "FAR 52.204-25 (NDAA Section 889)",
+  "scf_to_framework": {
+    "total_mappings": 2,
+    "mappings": {
+      "GOV-17": [
+        "52.204-25(d)(2)(i)",
+        "52.204-25(d)(2)(ii)",
+        "52.204-25(d)"
+      ],
+      "AST-17": [
+        "52.204-25(b)(1)",
+        "52.204-25(b)(2)"
+      ]
+    }
+  },
+  "framework_to_scf": {
+    "total_mappings": 5,
+    "mappings": {
+      "52.204-25(d)(2)(i)": [
+        "GOV-17"
+      ],
+      "52.204-25(d)(2)(ii)": [
+        "GOV-17"
+      ],
+      "52.204-25(d)": [
+        "GOV-17"
+      ],
+      "52.204-25(b)(1)": [
+        "AST-17"
+      ],
+      "52.204-25(b)(2)": [
+        "AST-17"
+      ]
+    }
+  }
+}

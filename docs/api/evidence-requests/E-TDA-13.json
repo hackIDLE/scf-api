@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-TDA-13",
+  "area": "Technology Design & Acquisition",
+  "artifact_name": "Software Escrow",
+  "artifact_description": "Documented evidence of a software escrow solution.",
+  "scf_controls": [
+    "TDA-20.3"
+  ],
+  "cmmc_mapping": ""
+}

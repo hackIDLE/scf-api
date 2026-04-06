@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "AAT-22.1",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-22.1",
+      "ao_id": "AAT-22.1_A01",
+      "objective": "human oversight of Artificial Intelligence (AI) and Autonomous Technologies (AAT) to prevent or minimize the risks is assigned to one, or more, individuals.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-22.1",
+      "ao_id": "AAT-22.1_A02",
+      "objective": "human oversight of Artificial Intelligence (AI) and Autonomous Technologies (AAT) focuses on preventing, or minimizing, risks associated with an individual's health.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-22.1",
+      "ao_id": "AAT-22.1_A03",
+      "objective": "human oversight of Artificial Intelligence (AI) and Autonomous Technologies (AAT) focuses on preventing, or minimizing, risks associated with an individual's safety.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-22.1",
+      "ao_id": "AAT-22.1_A04",
+      "objective": "human oversight of Artificial Intelligence (AI) and Autonomous Technologies (AAT) focuses on preventing, or minimizing, risks associated with an individual's fundamental rights.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

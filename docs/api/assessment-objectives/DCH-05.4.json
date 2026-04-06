@@ -1,0 +1,66 @@
+{
+  "scf_control_id": "DCH-05.4",
+  "total": 6,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-05.4",
+      "ao_id": "DCH-05.4_A01",
+      "objective": "cybersecurity / data privacy attributes associated with subjects by authorized individuals (or processes acting on behalf of individuals) are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-16(04)_ODP[01]\n53A_R5_AC-16(04)_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-05.4",
+      "ao_id": "DCH-05.4_A02",
+      "objective": "cybersecurity / data privacy attributes associated with objects by authorized individuals (or processes acting on behalf of individuals) are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-16(04)_ODP[02]\n53A_R5_AC-16(04)_ODP[04]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-05.4",
+      "ao_id": "DCH-05.4_A03",
+      "objective": "subjects requiring the association of cybersecurity / data privacy attributes by authorized individuals (or processes acting on behalf of individuals) are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-16(04)_ODP[05]\n53A_R5_AC-16(04)_ODP[07]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-05.4",
+      "ao_id": "DCH-05.4_A04",
+      "objective": "objects requiring the association of cybersecurity / data privacy attributes by authorized individuals (or processes acting on behalf of individuals) are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-16(04)_ODP[06]\n53A_R5_AC-16(04)_ODP[08]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-05.4",
+      "ao_id": "DCH-05.4_A05",
+      "objective": "authorized individuals (or processes acting on behalf of individuals) are provided with the capability to associate organization-defined cybersecurity / data privacy attributes with organization-defined subjects.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-16(04)[01]\n53A_R5_AC-16(04)[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-05.4",
+      "ao_id": "DCH-05.4_A06",
+      "objective": "authorized individuals (or processes acting on behalf of individuals) are provided with the capability to associate organization-defined cybersecurity / data privacy attributes with organization-defined objects.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-16(04)[02]\n53A_R5_AC-16(04)[04]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

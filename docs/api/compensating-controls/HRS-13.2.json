@@ -1,0 +1,16 @@
+{
+  "control_id": "HRS-13.2",
+  "risk_if_not_implemented": "Without Identify Vital Security, Compliance & Resilience Staff, the organization may be unable to recover from disruptions, resulting in data loss and extended downtime.",
+  "compensating_control_1": {
+    "control_id": "SAT-03",
+    "name": "Role-Based Security, Compliance & Resilience Training",
+    "description": "Mechanisms exist to provide role-based security, compliance and resilience-related training: \n(1) Before authorizing access to the system or performing assigned duties; \n(2) When required by system changes; and \n(3) Annually thereafter.",
+    "justification": "Role-Based Security, Compliance & Resilience Training (SAT-03) provides personnel training and awareness that compensates for the absence of Identify Vital Security, Compliance & Resilience Staff (HRS-13.2) by reducing human-factor risk by equipping personnel to recognize and respond to relevant threats. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  },
+  "compensating_control_2": {
+    "control_id": "HRS-13",
+    "name": "Identify Critical Skills & Gaps",
+    "description": "Mechanisms exist to evaluate the critical security, compliance and resilience skills needed to support the organization's mission and identify gaps that exist.",
+    "justification": "Identify Critical Skills & Gaps (HRS-13) provides overlapping security capability that compensates for the absence of Identify Vital Security, Compliance & Resilience Staff (HRS-13.2) by addressing related risk objectives through an alternative control mechanism aligned with Process applicability. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  }
+}

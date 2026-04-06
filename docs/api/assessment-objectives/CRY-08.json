@@ -1,0 +1,66 @@
+{
+  "scf_control_id": "CRY-08",
+  "total": 6,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CRY-08",
+      "ao_id": "CRY-08_A01",
+      "objective": "requirements for key generation, distribution, storage, access and destruction are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-12_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CRY-08",
+      "ao_id": "CRY-08_A02",
+      "objective": "a certificate policy for issuing public key certificates is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-17_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CRY-08",
+      "ao_id": "CRY-08_A03",
+      "objective": "public key certificates are issued under an organization-defined certificate policy or public key certificates are obtained from an approved service provider.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-17a.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CRY-08",
+      "ao_id": "CRY-08_A04",
+      "objective": "only approved trust anchors are included in trust stores or certificate stores managed by the organization.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-17b.",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CRY-08",
+      "ao_id": "CRY-08_A05",
+      "objective": "cryptographic keys are established whenever cryptography is employed.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-12[01]\n171A_3.13.10[a]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CRY-08",
+      "ao_id": "CRY-08_A06",
+      "objective": "cryptographic keys are managed whenever cryptography is employed.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-12[02]\n171A_3.13.10[b]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

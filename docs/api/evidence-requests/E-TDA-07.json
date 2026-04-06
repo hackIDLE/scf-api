@@ -1,0 +1,13 @@
+{
+  "erl_id": "E-TDA-07",
+  "area": "Technology Design & Acquisition",
+  "artifact_name": "Ports, Protocols & Services (PPS)",
+  "artifact_description": "Documented evidence of all ports, protocols and services in use by the system, application or service.",
+  "scf_controls": [
+    "TDA-01.1",
+    "TDA-02.1",
+    "TDA-02.5",
+    "TPM-04.2"
+  ],
+  "cmmc_mapping": ""
+}

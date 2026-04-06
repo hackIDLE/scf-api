@@ -1,0 +1,508 @@
+{
+  "control_id": "BCD-11",
+  "title": "Data Backups",
+  "family": "BCD",
+  "description": "Mechanisms exist to create recurring backups of data, software and/or system images, as well as verify the integrity of these backups, to ensure the availability of the data to satisfy Recovery Time Objectives (RTOs) and Recovery Point Objectives (RPOs).",
+  "scf_question": "Does the organization create recurring backups of data, software and/or system images, as well as verify the integrity of these backups, to ensure the availability of the data to satisfy Recovery Time Objectives (RTOs) and Recovery Point Objectives (RPOs)?",
+  "relative_weight": 10,
+  "conformity_cadence": "Quarterly",
+  "evidence_requests": [
+    "E-BCM-10",
+    "E-BCM-11",
+    "E-BCM-12",
+    "E-BCM-13"
+  ],
+  "pptdf": "Technology",
+  "nist_csf_function": "Protect",
+  "scrm_focus": {
+    "strategic": true,
+    "operational": true,
+    "tactical": true
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "Business Continuity & Disaster Recovery (BCD) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with BCD domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Contingency management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ Limited technologies exist to support near real-time network infrastructure failover (e.g., redundant ISPs, redundant power, etc.).\n▪ Backups are performed ad-hoc and focus on business-critical Technology Assets, Applications, Services and/or Data (TAASD).\n▪ IT and/or cybersecurity personnel use a backup methodology (e.g., grandfather, father & son rotation) to create backups to support business needs (e.g., Recovery Time Objectives).\n▪ Limited technologies exist to conduct full, incremental or differential backups (e.g., tape/disk, hybrid cloud or direct-to-cloud).\n▪ Backups of sensitive/regulated data are cryptographically protected to prevent the unauthorized disclosure and modification of backup information.",
+    "2": "Business Continuity & Disaster Recovery (BCD) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with BCD domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with BCD domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with BCD  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Business Continuity / Disaster Recovery (BC/DR)-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ BC/DR may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Appropriate TAASD exist to conduct full, incremental and/or differential backups (e.g., tape/disk, hybrid cloud or direct-to-cloud).\n▪ IT personnel configure business-critical Technology Assets, Applications and/or Services to transfer backup data to the alternate site(s) at a rate that is capable of meeting RTOs and RPOs.\n▪ The backup methodology is sufficient to support RTOs and RPOs for critical business functions.\n▪ IT personnel store backups in a secondary location, separate from the primary storage site (e.g., cloud-based storage).",
+    "3": "Business Continuity & Disaster Recovery (BCD) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with BCD domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with BCD domain capabilities are well-documented and kept current by process owners.\n▪ A Business Continuity & Disaster Recovery (BC/DR) team, or similar function, is appropriately staffed and supported to implement and maintain BCD domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of BC/DR operations (e.g., BC/DR planning software, Disaster Recovery as a Service (DRaaS), Orchestration and Automation Tools, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with BCD domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to create recurring backups of data, software and/or system images, as well as verify the integrity of these backups, to ensure the availability of the data to satisfy Recovery Time Objectives (RTOs) and Recovery Point Objectives (RPOs).",
+    "4": "Business Continuity & Disaster Recovery (BCD) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [
+    "SCRMS",
+    "CORE ESP Level 1 Foundational",
+    "CORE ESP Level 2 Critical Infrastructure",
+    "CORE ESP Level 3 Advanced Threats",
+    "CORE Fundamentals",
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ Disaster Recovery Plan (DRP)\n∙ 3-2-1 backup rule (3 copies, 2 media types, 1 offsite)\n∙ Cloud backup service (e.g., Backblaze B2, iDrive, Veeam Agent Free)",
+    "small": "∙ Disaster Recovery Plan (DRP)\n∙ 3-2-1 backup strategy (on-site + off-site/cloud)\n∙ Cloud backup service (e.g., Acronis, Veeam, Azure Backup)",
+    "medium": "∙ Disaster Recovery Plan (DRP)\n∙ 3-2-1-1 backup strategy (including immutable/offsite copy)\n∙ Enterprise backup solution (e.g., Veeam Backup & Replication, Acronis Cyber Backup)",
+    "large": "∙ Disaster Recovery Plan (DRP)\n∙ Immutable backup copies (air-gapped or object-locked S3/Azure Blob)\n∙ Enterprise backup platform (e.g., Veeam, Commvault, Cohesity)\n∙ Automated backup testing and alerting",
+    "enterprise": "∙ Disaster Recovery Plan (DRP)\n∙ Enterprise backup platform with immutable storage (e.g., Commvault, Veeam, Rubrik)\n∙ Ransomware-resilient backup architecture (air-gap or immutable)\n∙ Automated backup validation and recovery testing\n∙ Backup data encrypted at rest and in transit"
+  },
+  "risks": [
+    "R-AM-3",
+    "R-BC-1",
+    "R-BC-3",
+    "R-BC-4",
+    "R-BC-5",
+    "R-EX-1",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-EX-5",
+    "R-GV-1"
+  ],
+  "threats": [
+    "NT-2",
+    "NT-3",
+    "NT-4",
+    "NT-5",
+    "NT-6",
+    "NT-7",
+    "NT-8",
+    "NT-9",
+    "NT-10",
+    "NT-11",
+    "NT-12",
+    "NT-13",
+    "NT-14",
+    "MT-1",
+    "MT-2",
+    "MT-3",
+    "MT-4",
+    "MT-5",
+    "MT-6",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-10",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Business Continuity & Disaster Recovery",
+  "crosswalks": {
+    "general-aicpa-tsc-2017": [
+      "A1.2",
+      "A1.2-POF7",
+      "A1.2-POF8",
+      "CC7.5"
+    ],
+    "general-cis-csc-8-1": [
+      "11.2"
+    ],
+    "general-cis-csc-8-1-ig1": [
+      "11.2"
+    ],
+    "general-cis-csc-8-1-ig2": [
+      "11.2"
+    ],
+    "general-cis-csc-8-1-ig3": [
+      "11.2"
+    ],
+    "general-cobit-2019": [
+      "APO14.10",
+      "DSS04.07"
+    ],
+    "general-csa-cmm-4-1-0": [
+      "BCR-08"
+    ],
+    "general-govramp": [
+      "CP-09"
+    ],
+    "general-govramp-core": [
+      "CP-09"
+    ],
+    "general-govramp-low": [
+      "CP-09"
+    ],
+    "general-govramp-low-plus": [
+      "CP-09"
+    ],
+    "general-govramp-mod": [
+      "CP-09"
+    ],
+    "general-govramp-high": [
+      "CP-09"
+    ],
+    "general-iec-62443-2-1-2024": [
+      "AVAIL 2.1",
+      "AVAIL 2.2"
+    ],
+    "general-iec-62443-3-3-2013": [
+      "SR 7.3 RE 2"
+    ],
+    "general-iec-62443-4-2-2019": [
+      "CR 7.3"
+    ],
+    "general-imo-maritime-cyber-risk-management-2025": [
+      "3.5.1",
+      "3.5.3.7"
+    ],
+    "general-iso-27002-2022": [
+      "8.13"
+    ],
+    "general-iso-27017-2015": [
+      "12.3.1"
+    ],
+    "general-iso-27018-2025": [
+      "8.13"
+    ],
+    "general-mitre-att&ck-16-1": [
+      "T1003",
+      "T1003.003",
+      "T1005",
+      "T1025",
+      "T1070",
+      "T1070.001",
+      "T1070.002",
+      "T1070.008",
+      "T1119",
+      "T1485",
+      "T1485.001",
+      "T1486",
+      "T1490",
+      "T1491",
+      "T1491.001",
+      "T1491.002",
+      "T1561",
+      "T1561.001",
+      "T1561.002",
+      "T1565",
+      "T1565.001",
+      "T1565.003"
+    ],
+    "general-mpa-csbp-5-3-1": [
+      "OR-1.3"
+    ],
+    "general-nist-privacy-framework-1-0": [
+      "PR.PO-P3"
+    ],
+    "general-nist-800-53-r4": [
+      "CP-9",
+      "SC-28(2)"
+    ],
+    "general-nist-800-53-r5-2": [
+      "CP-09",
+      "SC-28(02)"
+    ],
+    "general-nist-800-53-r5-2-privacy": [
+      "SC-28(02)"
+    ],
+    "general-nist-800-53-r5-2-low": [
+      "CP-09"
+    ],
+    "general-nist-800-66-r2": [
+      "164.308(a)(7)",
+      "164.310(d)"
+    ],
+    "general-nist-800-82-r3": [
+      "CP-09",
+      "SC-28(02)"
+    ],
+    "general-nist-800-82-r3-low": [
+      "CP-09"
+    ],
+    "general-nist-800-82-r3-mod": [
+      "CP-09"
+    ],
+    "general-nist-800-82-r3-high": [
+      "CP-09"
+    ],
+    "general-nist-800-160-vol-2-r1": [
+      "CP-09"
+    ],
+    "general-nist-800-171-r2": [
+      "3.8.9"
+    ],
+    "general-nist-800-171-r3": [
+      "03.08.09.a"
+    ],
+    "general-nist-800-171a": [
+      "3.8.9"
+    ],
+    "general-nist-csf-2-0": [
+      "PR.DS-11"
+    ],
+    "general-pci-dss-4-0-1": [
+      "9.4.1.1",
+      "9.4.1.2",
+      "12.10.1"
+    ],
+    "general-pci-dss-4-0-1-saq-a": [
+      "9.4.1.1",
+      "12.10.1"
+    ],
+    "general-pci-dss-4-0-1-saq-a-ep": [
+      "9.4.1.1",
+      "12.10.1"
+    ],
+    "general-pci-dss-4-0-1-saq-b": [
+      "9.4.1.1",
+      "12.10.1"
+    ],
+    "general-pci-dss-4-0-1-saq-b-ip": [
+      "9.4.1.1",
+      "12.10.1"
+    ],
+    "general-pci-dss-4-0-1-saq-c": [
+      "9.4.1.1",
+      "12.10.1"
+    ],
+    "general-pci-dss-4-0-1-saq-c-vt": [
+      "9.4.1.1",
+      "12.10.1"
+    ],
+    "general-pci-dss-4-0-1-saq-d-merchant": [
+      "9.4.1.1",
+      "9.4.1.2",
+      "12.10.1"
+    ],
+    "general-pci-dss-4-0-1-saq-d-service-provider": [
+      "9.4.1.1",
+      "9.4.1.2",
+      "12.10.1"
+    ],
+    "general-pci-dss-4-0-1-saq-p2pe": [
+      "9.4.1.1",
+      "12.10.1"
+    ],
+    "general-shared-assessments-sig-2025": [
+      "K.1"
+    ],
+    "general-sparta": [
+      "CM0056"
+    ],
+    "general-tisax-6-0-3": [
+      "5.2.9"
+    ],
+    "usa-federal-dhs-cisa-tic-3-0": [
+      "3.UNI.BRECO"
+    ],
+    "usa-federal-dhs-cisa-cpg-2-0": [
+      "2.R"
+    ],
+    "usa-federal-fbi-cjis-6-0": [
+      "CP-9"
+    ],
+    "usa-federal-doe-c2m2-2-1": [
+      "RESPONSE-4b",
+      "RESPONSE-4j"
+    ],
+    "usa-federal-dow-cmmc-2-level-2": [
+      "MPL2.-3.8.9"
+    ],
+    "usa-federal-gsa-fedramp-5-low": [
+      "CP-09",
+      "SC-28(02)"
+    ],
+    "usa-federal-gsa-fedramp-5-mod": [
+      "CP-09",
+      "SC-28(02)"
+    ],
+    "usa-federal-gsa-fedramp-5-high": [
+      "CP-09",
+      "SC-28(02)"
+    ],
+    "usa-federal-gsa-fedramp-5-li-saas": [
+      "CP-09",
+      "SC-28(02)"
+    ],
+    "usa-federal-law-hipaa-simplification-2013": [
+      "164.308(a)(7)(ii)(A)",
+      "164.310(d)(2)(iv)"
+    ],
+    "usa-federal-law-hipaa-security-rule-2013": [
+      "164.308(a)(7)(ii)(A)",
+      "164.310(d)(2)(iv)"
+    ],
+    "usa-federal-irs-1075-2021": [
+      "CP-9"
+    ],
+    "usa-federal-cms-marse-2-0": [
+      "CP-9",
+      "CP-9.a",
+      "CP-9.b",
+      "CP-9.c",
+      "CP-9.d",
+      "CP-9-IS.1",
+      "CP-9-IS.2",
+      "CP-9-IS.3",
+      "CP-9-IS.4"
+    ],
+    "usa-federal-nerc-cip-2024": [
+      "CIP-009-6 1.3",
+      "CIP-009-6 1.4"
+    ],
+    "usa-state-ny-dfs-23-nycrr500-2023-amd2": [
+      "500.16(a)(2)(v)",
+      "500.16(e)"
+    ],
+    "usa-state-tx-dir-security-control-standards-catalog-2-2": [
+      "CP-06-SID",
+      "CP-09"
+    ],
+    "usa-state-tx-txramp-2-0-level-1": [
+      "CP-09"
+    ],
+    "usa-state-tx-txramp-2-0-level-2": [
+      "CP-09"
+    ],
+    "emea-eu-eba-ict-srm-2025": [
+      "3.5(57)"
+    ],
+    "emea-eu-dora-2023": [
+      "Article 12.1",
+      "Article 12.1(a)",
+      "Article 12.1(b)",
+      "Article 12.2"
+    ],
+    "emea-eu-nis2-2022": [
+      "Article 21.2(c)"
+    ],
+    "emea-eu-nis2-annex-2024": [
+      "4.1.2(g)",
+      "4.2.1",
+      "4.2.2(b)",
+      "4.2.2(c)",
+      "4.2.2(f)"
+    ],
+    "emea-deu-bsrit-2017": [
+      "8.7"
+    ],
+    "emea-deu-c5-2020": [
+      "OPS-06"
+    ],
+    "emea-isr-cmo-1-0": [
+      "25.9"
+    ],
+    "emea-sau-cscc-1-2019": [
+      "2-8-1-2",
+      "2-8-1-3"
+    ],
+    "emea-sau-cgiot-2024": [
+      "2-8-1",
+      "2-8-2"
+    ],
+    "emea-sau-ecc-1-2018": [
+      "2-9-3"
+    ],
+    "emea-sau-otcc-1-2022": [
+      "2-8",
+      "2-8-1",
+      "2-8-1-1",
+      "2-8-1-2",
+      "2-8-1-3",
+      "2-8-1-4",
+      "2-8-2"
+    ],
+    "emea-sau-sacs-002-2022": [
+      "TPC-64"
+    ],
+    "emea-esp-boe-a-2022-7191": [
+      "Article 26"
+    ],
+    "emea-esp-decree-311-2022": [
+      "26"
+    ],
+    "emea-esp-ccn-stic-825-2023": [
+      "8.7.7 [MP.INFO.7]"
+    ],
+    "emea-gbr-caf-4-0": [
+      "B5.c"
+    ],
+    "emea-gbr-def-stan-05-138-2024": [
+      "2504",
+      "2505"
+    ],
+    "emea-gbr-def-stan-05-138-l1-2024": [
+      "2504"
+    ],
+    "emea-gbr-def-stan-05-138-l2-2024": [
+      "2505"
+    ],
+    "emea-gbr-def-stan-05-138-l3-2024": [
+      "2505"
+    ],
+    "apac-aus-essential-8-2024": [
+      "ML1-P8",
+      "ML2-P8",
+      "ML3-P8"
+    ],
+    "apac-aus-ism-2024-june": [
+      "ISM-0859",
+      "ISM-0991",
+      "ISM-1511",
+      "ISM-1547",
+      "ISM-1548",
+      "ISM-1810",
+      "ISM-1811"
+    ],
+    "apac-chn-cybersecurity-law-2017": [
+      "Article 34(3)"
+    ],
+    "apac-ind-sebi-2024": [
+      "PR.IP.S7",
+      "PR.IP.S8",
+      "RC.RP.S4"
+    ],
+    "apac-jpn-ismap": [
+      "12.3",
+      "12.3.1",
+      "12.3.1.1",
+      "12.3.1.2",
+      "12.3.1.3",
+      "12.3.1.4",
+      "12.3.1.5",
+      "12.3.1.11",
+      "12.3.1.12",
+      "12.3.1.13",
+      "12.3.1.14",
+      "12.3.1.16.P",
+      "12.3.1.17.P",
+      "12.3.1.18.P",
+      "12.3.1.21.P",
+      "12.3.1.24.P"
+    ],
+    "apac-nzl-hisf-mlhsp-2023": [
+      "HHSP17",
+      "HHSP56",
+      "HHSP69",
+      "HML17",
+      "HML56",
+      "HML68"
+    ],
+    "apac-nzl-hisf-microsmall-2023": [
+      "HMS11"
+    ],
+    "apac-nzl-hisf-suppliers-2023": [
+      "HSUP15",
+      "HSUP48",
+      "HSUP60"
+    ],
+    "apac-nzl-ism-3-9": [
+      "6.4.6.C.01"
+    ],
+    "apac-sgp-mas-trm-2021": [
+      "8.4.1",
+      "8.4.2"
+    ],
+    "americas-bmu-mba-coc-2020": [
+      "6.14"
+    ],
+    "americas-can-osfi-b13-2022": [
+      "2.9.1"
+    ],
+    "americas-can-itsp-10-171-2025": [
+      "03.08.09.A"
+    ]
+  }
+}

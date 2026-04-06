@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "EMB-12",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "EMB-12",
+      "ao_id": "EMB-12_A01",
+      "objective": "configurations for embedded technologies require the initiation of all communications and drop new, incoming communications.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "HRS-05.6",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "HRS-05.6",
+      "ao_id": "HRS-05.6_A01",
+      "objective": "the use of oversized clothing (e.g., baggy pants, oversized hooded sweatshirts, etc.) is prohibited to prevent the unauthorized exfiltration of data and technology assets.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

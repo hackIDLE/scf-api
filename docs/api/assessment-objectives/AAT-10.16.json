@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-10.16",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-10.16",
+      "ao_id": "AAT-10.16_A01",
+      "objective": "an empirically validated methods to evaluate claims of Artificial Intelligence (AI) and Autonomous Technologies (AAT) model capabilities is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-10.16",
+      "ao_id": "AAT-10.16_A02",
+      "objective": "the organization evaluates claims of Artificial Intelligence (AI) and Autonomous Technologies (AAT) model capabilities using an organization-defined empirically validated method.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

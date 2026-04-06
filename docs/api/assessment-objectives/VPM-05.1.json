@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "VPM-05.1",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "VPM-05.1",
+      "ao_id": "VPM-05.1_A01",
+      "objective": "cybersecurity / data privacy controls and related processes to be centrally managed are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-09_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-05.1",
+      "ao_id": "VPM-05.1_A02",
+      "objective": "controls and related processes are centrally managed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-09",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-05.1",
+      "ao_id": "VPM-05.1_A03",
+      "objective": "the system components requiring automated patch management tools to facilitate flaw remediation are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-02(04)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-05.1",
+      "ao_id": "VPM-05.1_A04",
+      "objective": "automated patch management tools are employed to facilitate flaw remediation to components.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-02(04)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

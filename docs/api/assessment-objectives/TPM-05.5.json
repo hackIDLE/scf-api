@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "TPM-05.5",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TPM-05.5",
+      "ao_id": "TPM-05.5_A01",
+      "objective": "recurring validation of the Responsible, Accountable, Supportive, Consulted & Informed (RASCI) matrix, or similar documentation, is performed to ensure cybersecurity / data privacy control assignments accurately reflect current business practices, compliance obligations, technologies and stakeholders.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-05.5",
+      "ao_id": "TPM-05.5_A02",
+      "objective": "processes, methods, and techniques to monitor security requirement compliance by external service providers on an ongoing basis are implemented.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.16.03.c",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

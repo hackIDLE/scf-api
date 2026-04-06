@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "CLD-15",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CLD-15",
+      "ao_id": "CLD-15_A01",
+      "objective": "Software Defined Storage (SDS) is used to automatically scale access management permissions to Data, Assets, Applications & Services (DAAS).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

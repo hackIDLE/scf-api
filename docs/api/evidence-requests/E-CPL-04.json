@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-CPL-04",
+  "area": "Compliance",
+  "artifact_name": "Internal Audit (IA)",
+  "artifact_description": "Documented evidence of an Internal Audit (IA) capability.",
+  "scf_controls": [
+    "CPL-02.1"
+  ],
+  "cmmc_mapping": ""
+}

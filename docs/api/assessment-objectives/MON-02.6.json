@@ -1,0 +1,66 @@
+{
+  "scf_control_id": "MON-02.6",
+  "total": 6,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MON-02.6",
+      "ao_id": "MON-02.6_A01",
+      "objective": "system audit records are reviewed and analyzed per an organization-defined frequency for indications of organization-defined inappropriate or unusual activity and the potential impact of the inappropriate or unusual activity.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AU-06a.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least weekly",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-02.6",
+      "ao_id": "MON-02.6_A02",
+      "objective": "findings are reported to organization-defined personnel or roles.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AU-06b.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least weekly",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-02.6",
+      "ao_id": "MON-02.6_A03",
+      "objective": "the level of audit record review, analysis and reporting within the system is adjusted when there is a change in risk based on law enforcement information, intelligence information or other credible sources of information.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AU-06c.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-02.6",
+      "ao_id": "MON-02.6_A04",
+      "objective": "the frequency at which system audit records are reviewed and analyzed is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AU-06_ODP[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least weekly",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-02.6",
+      "ao_id": "MON-02.6_A05",
+      "objective": "inappropriate or unusual activity is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AU-06_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-02.6",
+      "ao_id": "MON-02.6_A06",
+      "objective": "personnel or roles to receive findings from reviews and analyses of system records is/are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AU-06_ODP[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

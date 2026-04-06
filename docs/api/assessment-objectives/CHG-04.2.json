@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "CHG-04.2",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CHG-04.2",
+      "ao_id": "CHG-04.2_A01",
+      "objective": "software or firmware components requiring verification of a digitally signed certificate before installation are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-14_ODP[01]\n53A_R5_CM-14_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-04.2",
+      "ao_id": "CHG-04.2_A02",
+      "objective": "the installation of software or firmware components is prevented unless it is verified that the software has been digitally signed using a certificate recognized and approved by the organization.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_CM-14[01]\n53A_R5_CM-14[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-04.2",
+      "ao_id": "CHG-04.2_A03",
+      "objective": "software or firmware components to be authenticated by cryptographic mechanisms prior to installation are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-07(15)_ODP",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-04.2",
+      "ao_id": "CHG-04.2_A04",
+      "objective": "cryptographic mechanisms are implemented to authenticate software or firmware components prior to installation.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-07(15)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

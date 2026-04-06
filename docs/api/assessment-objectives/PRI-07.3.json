@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "PRI-07.3",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-07.3",
+      "ao_id": "PRI-07.3_A01",
+      "objective": "inform applicable third-parties of any modification, deletion or other change that affects shared Personal Data (PD).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

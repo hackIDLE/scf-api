@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "DCH-18.3",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-18.3",
+      "ao_id": "DCH-18.3_A01",
+      "objective": "periodic checks of temporary files for the existence of Personal Data (PD) are performed.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-BCM-08",
+  "area": "Business Continuity",
+  "artifact_name": "COOP Criticality Analysis",
+  "artifact_description": "Documented evidence of a Continuity of Operations Plan (COOP)-related criticality analysis.",
+  "scf_controls": [
+    "BCD-02",
+    "TDA-06.1"
+  ],
+  "cmmc_mapping": ""
+}

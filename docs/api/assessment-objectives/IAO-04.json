@@ -1,0 +1,66 @@
+{
+  "scf_control_id": "IAO-04",
+  "total": 6,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAO-04",
+      "ao_id": "IAO-04_A01",
+      "objective": "the breadth of penetration testing is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11(05)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-04",
+      "ao_id": "IAO-04_A02",
+      "objective": "the depth of penetration testing is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11(05)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-04",
+      "ao_id": "IAO-04_A03",
+      "objective": "constraints of penetration testing are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11(05)_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-04",
+      "ao_id": "IAO-04_A04",
+      "objective": "the developer of the system, system component, or system service is required to perform penetration testing at an organization-defined breadth.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11(05)(a)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-04",
+      "ao_id": "IAO-04_A05",
+      "objective": "the developer of the system, system component, or system service is required to perform penetration testing at an organization-defined level of rigor.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11(05)(a)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-04",
+      "ao_id": "IAO-04_A06",
+      "objective": "the developer of the system, system component, or system service is required to perform penetration testing under organization-defined constraints.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-11(05)(b)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

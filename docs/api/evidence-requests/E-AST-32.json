@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-AST-32",
+  "area": "Asset Management",
+  "artifact_name": "Mobile Code",
+  "artifact_description": "Documented evidence of mobile code that is explicitly allowed (allowlist / whitelist) and/or blocked (denylist / blacklist).",
+  "scf_controls": [
+    "END-10"
+  ],
+  "cmmc_mapping": "SC.L2-3.13.13"
+}

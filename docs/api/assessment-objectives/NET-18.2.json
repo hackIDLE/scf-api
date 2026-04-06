@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "NET-18.2",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-18.2",
+      "ao_id": "NET-18.2_A01",
+      "objective": "encrypted communications traffic to be made visible to system monitoring tools and mechanisms is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-04(10)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-18.2",
+      "ao_id": "NET-18.2_A02",
+      "objective": "system monitoring tools and mechanisms to be provided access to encrypted communications traffic are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-04(10)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-18.2",
+      "ao_id": "NET-18.2_A03",
+      "objective": "provisions are made so that encrypted communications traffic is visible to system monitoring tools and mechanisms.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-04(10)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

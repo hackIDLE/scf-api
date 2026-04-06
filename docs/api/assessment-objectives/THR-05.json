@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "THR-05",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "THR-05",
+      "ao_id": "THR-05_A01",
+      "objective": "potential indicators associated with insider threats are identified.",
+      "pptdf": "Process",
+      "origin": "171A_3.2.3[a]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "THR-05",
+      "ao_id": "THR-05_A02",
+      "objective": "security literacy training is provided to system users on recognizing indicators of insider threat.",
+      "pptdf": "People",
+      "origin": "171A_R3_A.03.02.01.a.03[01]\n53A_R5_AT-02(02)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "THR-05",
+      "ao_id": "THR-05_A03",
+      "objective": "security literacy training is provided to system users on reporting indicators of insider threat.",
+      "pptdf": "People",
+      "origin": "171A_R3_A.03.02.01.a.03[02]\n53A_R5_AT-02(02)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "THR-05",
+      "ao_id": "THR-05_A04",
+      "objective": "security awareness training on recognizing and reporting potential indicators of insider threat is provided to managers and employees.",
+      "pptdf": "People",
+      "origin": "171A_3.2.3[b]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

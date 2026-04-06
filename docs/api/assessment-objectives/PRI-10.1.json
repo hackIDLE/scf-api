@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PRI-10.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-10.1",
+      "ao_id": "PRI-10.1_A01",
+      "objective": "automated mechanisms for tracking the processing purposes of Personal Data (PD) are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PT-03(02)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-10.1",
+      "ao_id": "PRI-10.1_A02",
+      "objective": "the processing purposes of Personal Data (PD) are tracked using automated mechanisms.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_PT-03(02)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

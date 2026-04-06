@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "IAO-02.2",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAO-02.2",
+      "ao_id": "IAO-02.2_A01",
+      "objective": "the frequency at which to include specialized assessments as part of the control assessment is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CA-02(02)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-02.2",
+      "ao_id": "IAO-02.2_A02",
+      "objective": "other forms of announced or unannounced assessment are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CA-02(02)_ODP[02]\n53A_R5_CA-02(02)_ODP[03]\n53A_R5_CA-02(02)_ODP[04]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAO-02.2",
+      "ao_id": "IAO-02.2_A03",
+      "objective": "organization-defined specialized assessment frequencies are included as part of control assessments.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CA-02(02)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

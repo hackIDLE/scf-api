@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-CHG-04",
+  "area": "Change Management",
+  "artifact_name": "Evidence of Cybersecurity / Data Privacy Reviews",
+  "artifact_description": "Documented evidence of Change Control Board (CCB) meeting-related security, compliance and/or resilience reviews for proposed change(s).",
+  "scf_controls": [
+    "CHG-02.3",
+    "CHG-03"
+  ],
+  "cmmc_mapping": ""
+}

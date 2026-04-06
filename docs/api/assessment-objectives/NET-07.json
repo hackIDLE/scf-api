@@ -1,0 +1,76 @@
+{
+  "scf_control_id": "NET-07",
+  "total": 7,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-07",
+      "ao_id": "NET-07_A01",
+      "objective": "a period of inactivity to terminate network connections associated with communications sessions is defined.",
+      "pptdf": "Process",
+      "origin": "171A_3.13.9[a]\n53A_R5_SC-10_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "no longer than ten (10) minutes for privileged sessions and no longer than fifteen (15) minutes for user sessions",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-07",
+      "ao_id": "NET-07_A02",
+      "objective": "network connections associated with communications sessions are terminated at the end of the sessions.",
+      "pptdf": "Technology",
+      "origin": "171A_3.13.9[b]\n53A_R5_SC-10",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "no longer than ten (10) minutes for privileged sessions and no longer than fifteen (15) minutes for user sessions",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-07",
+      "ao_id": "NET-07_A03",
+      "objective": "network connections associated with communications sessions are terminated after the defined period of inactivity.",
+      "pptdf": "Technology",
+      "origin": "171A_3.13.9[c]\n53A_R5_SC-10",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "no longer than ten (10) minutes for privileged sessions and no longer than fifteen (15) minutes for user sessions",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-07",
+      "ao_id": "NET-07_A04",
+      "objective": "network connections are terminated when nonlocal maintenance is completed.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.07.05.c[02]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-07",
+      "ao_id": "NET-07_A05",
+      "objective": "the time period of inactivity after which the system terminates a network connection associated with a communications session is defined.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.13.09.ODP[01]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-07",
+      "ao_id": "NET-07_A06",
+      "objective": "the network connection associated with a communications session is terminated at the end of the session or after an organization-defined time period of inactivity.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-07",
+      "ao_id": "NET-07_A07",
+      "objective": "the network connection associated with a communications session is terminated at the end of the session or after <A.03.13.09.ODP[01]: time period> of inactivity.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.13.09",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "no longer than 15 minutes",
+      "org_defined_parameters": ""
+    }
+  ]
+}

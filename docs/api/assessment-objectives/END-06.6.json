@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "END-06.6",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "END-06.6",
+      "ao_id": "END-06.6_A01",
+      "objective": "mechanisms to be implemented to protect the integrity of boot firmware in system components are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-07(10)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-06.6",
+      "ao_id": "END-06.6_A02",
+      "objective": "system components requiring mechanisms to protect the integrity of boot firmware are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-07(10)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-06.6",
+      "ao_id": "END-06.6_A03",
+      "objective": "mechanisms are implemented to protect the integrity of boot firmware in system components.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-07(10)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

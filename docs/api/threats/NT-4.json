@@ -1,0 +1,6 @@
+{
+  "threat_id": "NT-4",
+  "grouping": "Natural Threat",
+  "name": "Floods",
+  "description": "Flooding is the most common of natural hazards and requires an understanding of the local environment, including floodplains and the frequency of flooding events. Location of critical technologies should be considered (e.g., server room is in the basement or first floor of the facility)."
+}

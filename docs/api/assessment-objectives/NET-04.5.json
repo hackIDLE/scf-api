@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "NET-04.5",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-04.5",
+      "ao_id": "NET-04.5_A01",
+      "objective": "metadata on which to base enforcement of information flow control is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-04(06)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-04.5",
+      "ao_id": "NET-04.5_A02",
+      "objective": "information flow control enforcement is based on organization-defined metadata.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-04(06)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-04.5",
+      "ao_id": "NET-04.5_A03",
+      "objective": "secure information transfer solutions are defined.",
+      "pptdf": "Process",
+      "origin": "172A_3.1.3e_ODP[1]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-04.5",
+      "ao_id": "NET-04.5_A04",
+      "objective": "information flows between security domains on connected systems are identified.",
+      "pptdf": "Process",
+      "origin": "172A_3.1.3e[a]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-04.5",
+      "ao_id": "NET-04.5_A05",
+      "objective": "solutions are employed to control information flows between security domains on connected systems.",
+      "pptdf": "Technology",
+      "origin": "172A_3.1.3e[b]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

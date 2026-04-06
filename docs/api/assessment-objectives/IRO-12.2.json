@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "IRO-12.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IRO-12.2",
+      "ao_id": "IRO-12.2_A01",
+      "objective": "the frequency at which to provide information spillage response training is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-09(02)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-12.2",
+      "ao_id": "IRO-12.2_A02",
+      "objective": "information spillage response training is provided frequently.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-09(02)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    }
+  ]
+}

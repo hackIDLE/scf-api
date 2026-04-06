@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "HRS-05.2",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "HRS-05.2",
+      "ao_id": "HRS-05.2_A01",
+      "objective": "the rules of behavior include restrictions on the use of social media, social networking sites and external sites/applications.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-04(01)(a)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-05.2",
+      "ao_id": "HRS-05.2_A02",
+      "objective": "the rules of behavior include restrictions on posting organizational information on public websites.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-04(01)(b)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-05.2",
+      "ao_id": "HRS-05.2_A03",
+      "objective": "the rules of behavior include restrictions on the use of organization-provided identifiers (e.g., email addresses) and authentication secrets (e.g., passwords) for creating accounts on external sites/applications.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-04(01)(c)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-05.2",
+      "ao_id": "HRS-05.2_A04",
+      "objective": "rules that describe responsibilities and expected behavior for system usage and protecting sensitive / regulated data are established.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-05.2",
+      "ao_id": "HRS-05.2_A05",
+      "objective": "rules that describe responsibilities and expected behavior for system usage and protecting CUI are established.",
+      "pptdf": "Data",
+      "origin": "171A_R3_A.03.15.03.a",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

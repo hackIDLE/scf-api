@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PRI-03.4",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-03.4",
+      "ao_id": "PRI-03.4_A01",
+      "objective": "the tools or mechanisms to be implemented for revoking consent to the processing of Personal Data (PD) are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PT-04(03)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-03.4",
+      "ao_id": "PRI-03.4_A02",
+      "objective": "the tools or mechanisms are implemented for individuals to revoke consent to the processing of their Personal Data (PD).",
+      "pptdf": "Technology",
+      "origin": "53A_R5_PT-04(03)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

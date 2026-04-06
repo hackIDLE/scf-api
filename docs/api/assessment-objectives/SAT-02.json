@@ -1,0 +1,176 @@
+{
+  "scf_control_id": "SAT-02",
+  "total": 17,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "SAT-02",
+      "ao_id": "SAT-02_A01",
+      "objective": "cybersecurity / data privacy literacy training is provided to system users (including managers, senior executives and contractors) as part of initial training for new users.",
+      "pptdf": "People",
+      "origin": "53A_R5_AT-02a.01[01]\n53A_R5_AT-02a.01[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-02",
+      "ao_id": "SAT-02_A02",
+      "objective": "cybersecurity / data privacy literacy training is provided to system users (including managers, senior executives and contractors) organization-defined frequency thereafter.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AT-02a.01[03]\n53A_R5_AT-02a.01[04]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-02",
+      "ao_id": "SAT-02_A03",
+      "objective": "cybersecurity / data privacy literacy training is provided to system users (including managers, senior executives and contractors) when required by system changes or following organization-defined events.",
+      "pptdf": "People",
+      "origin": "53A_R5_AT-02a.02[01]\n53A_R5_AT-02a.02[02]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-02",
+      "ao_id": "SAT-02_A04",
+      "objective": "security risks associated with organizational activities involving sensitive / regulated data are identified.",
+      "pptdf": "Process",
+      "origin": "171A_3.2.1[a]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-02",
+      "ao_id": "SAT-02_A05",
+      "objective": "policies, standards and procedures related to the security of the system are identified.",
+      "pptdf": "Process",
+      "origin": "171A_3.2.1[b]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-02",
+      "ao_id": "SAT-02_A06",
+      "objective": "managers, systems administrators and users of the system are made aware of the security risks associated with their activities.",
+      "pptdf": "People",
+      "origin": "171A_3.2.1[c]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-02",
+      "ao_id": "SAT-02_A07",
+      "objective": "managers, systems administrators and users of the system are made aware of the applicable policies, standards and procedures related to the security of the system.",
+      "pptdf": "Process",
+      "origin": "171A_3.2.1[d]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-02",
+      "ao_id": "SAT-02_A08",
+      "objective": "the frequency at which to provide cybersecurity / data privacy literacy training to system users (including managers, senior executives and contractors) after initial training is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AT-02_ODP[01]\n53A_R5_AT-02_ODP[02]\nAT-02_ODP[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least every 12 months, or when there are significant\nincidents or significant changes to risks",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-02",
+      "ao_id": "SAT-02_A09",
+      "objective": "events that require cybersecurity / data privacy literacy training for system users are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AT-02_ODP[03]\n53A_R5_AT-02_ODP[04]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-02",
+      "ao_id": "SAT-02_A10",
+      "objective": "techniques to be employed to increase the cybersecurity / data privacy awareness of system users are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AT-02_ODP[05]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-02",
+      "ao_id": "SAT-02_A11",
+      "objective": "events that require security literacy training for system users are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AT-02_ODP[06]\n172A_3.2.1e_ODP[2]\n171A_R3_A.03.02.01.ODP[03]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-02",
+      "ao_id": "SAT-02_A12",
+      "objective": "events that require security literacy training content updates are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AT-02_ODP[07]\n171A_R3_A.03.02.01.ODP[04]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-02",
+      "ao_id": "SAT-02_A13",
+      "objective": "awareness training is updated frequently or when there are significant changes to the threat.",
+      "pptdf": "Process",
+      "origin": "172A_3.2.1e[d]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-02",
+      "ao_id": "SAT-02_A14",
+      "objective": "organization-defined awareness techniques are employed to increase the cybersecurity / data privacy awareness of system users.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AT-02b.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-02",
+      "ao_id": "SAT-02_A15",
+      "objective": "literacy training and awareness content is updated organization-defined frequency.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AT-02c.[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least every 12 months, or when there are significant\nincidents or significant changes to risks",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-02",
+      "ao_id": "SAT-02_A16",
+      "objective": "literacy training and awareness content is updated following organization-defined events.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AT-02c.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-02",
+      "ao_id": "SAT-02_A17",
+      "objective": "lessons learned from internal or external security incidents or breaches are incorporated into literacy training and awareness techniques.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AT-02d.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

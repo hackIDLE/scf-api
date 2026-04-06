@@ -1,0 +1,146 @@
+{
+  "control_id": "DCH-18.1",
+  "title": "Minimize Sensitive / Regulated Data",
+  "family": "DCH",
+  "description": "Mechanisms exist to minimize sensitive/regulated data that is collected, received, processed, stored and/or transmitted throughout the information lifecycle to only those elements necessary to support necessary business processes.",
+  "scf_question": "Does the organization minimize sensitive/regulated data that is collected, received, processed, stored and/or transmitted throughout the information lifecycle to only those elements necessary to support necessary business processes?",
+  "relative_weight": 8,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [],
+  "pptdf": "Data",
+  "nist_csf_function": "Protect",
+  "scrm_focus": {
+    "strategic": false,
+    "operational": true,
+    "tactical": false
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "Data Classification & Handling (DCH) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with DCH domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Data management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ Data protection controls are primarily administrative in nature (e.g., policies & standards) to classify, protect and dispose of systems and data, including storage media.\n▪ Requirements exist for limiting the use of sensitive/regulated data in testing, training and research.",
+    "2": "Data Classification & Handling (DCH) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with DCH domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with DCH domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with DCH  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Data classification and handling-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Data classification and handling management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ A formalized data classification scheme exists to identify categories of data, based on protection requirements from applicable laws, regulations and/or contractual obligations.",
+    "3": "Data Classification & Handling (DCH) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with DCH domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with DCH domain capabilities are well-documented and kept current by process owners.\n▪ A Governance, Risk & Compliance (GRC) team, or similar function, is appropriately staffed and supported to implement and maintain DCH domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of data classification and handling operations (e.g., GRC platform).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with DCH domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to minimize sensitive/regulated data that is collected, received, processed, stored and/or transmitted throughout the information lifecycle to only those elements necessary to support necessary business processes.",
+    "4": "Data Classification & Handling (DCH) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+    "5": "Data Classification & Handling (DCH) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions."
+  },
+  "profiles": [
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ Data classification program\n∙ Product / project management\n∙ Data Protection Impact Assessment (DPIA)",
+    "small": "∙ Data classification program\n∙ Product / project management\n∙ Data Protection Impact Assessment (DPIA)",
+    "medium": "∙ Data classification program\n∙ Product / project management\n∙ Data Protection Impact Assessment (DPIA)",
+    "large": "∙ Data classification program\n∙ Product / project management\n∙ Data Protection Impact Assessment (DPIA)\n∙ Data governance program",
+    "enterprise": "∙ Data classification program\n∙ Product / project management\n∙ Data Protection Impact Assessment (DPIA)\n∙ Data governance program"
+  },
+  "risks": [
+    "R-AC-1",
+    "R-AC-4",
+    "R-AM-1",
+    "R-AM-2",
+    "R-AM-3",
+    "R-BC-1",
+    "R-BC-2",
+    "R-BC-3",
+    "R-BC-4",
+    "R-BC-5",
+    "R-EX-1",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-EX-5",
+    "R-EX-6",
+    "R-EX-7",
+    "R-GV-1",
+    "R-GV-2",
+    "R-GV-3",
+    "R-GV-4",
+    "R-GV-5",
+    "R-GV-6",
+    "R-GV-7",
+    "R-IR-1",
+    "R-IR-3",
+    "R-IR-4",
+    "R-SA-1",
+    "R-SC-1",
+    "R-SC-2",
+    "R-SC-3",
+    "R-SC-4",
+    "R-SC-5",
+    "R-SC-6"
+  ],
+  "threats": [
+    "NT-7",
+    "MT-1",
+    "MT-2",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-10",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Data Classification & Handling",
+  "crosswalks": {
+    "general-iec-tr-60601-4-5-2021": [
+      "4.5"
+    ],
+    "general-iso-29100-2024": [
+      "6.5"
+    ],
+    "general-nist-privacy-framework-1-0": [
+      "CT.DM-P8"
+    ],
+    "general-nist-800-53-r5-2": [
+      "SI-12(01)"
+    ],
+    "general-nist-800-53-r5-2-privacy": [
+      "SI-12(01)"
+    ],
+    "general-nist-800-82-r3": [
+      "SI-12(01)"
+    ],
+    "general-scf-dpmp-2025": [
+      "3.3",
+      "5.4"
+    ],
+    "general-shared-assessments-sig-2025": [
+      "P.6"
+    ],
+    "usa-federal-fbi-cjis-6-0": [
+      "SI-12(1)"
+    ],
+    "usa-federal-gsa-fedramp-5-low": [
+      "SI-12(01)"
+    ],
+    "usa-federal-gsa-fedramp-5-mod": [
+      "SI-12(01)"
+    ],
+    "usa-federal-gsa-fedramp-5-high": [
+      "SI-12(01)"
+    ],
+    "usa-federal-gsa-fedramp-5-li-saas": [
+      "SI-12(01)"
+    ],
+    "usa-federal-law-hipaa-simplification-2013": [
+      "164.502(b)(1)"
+    ],
+    "emea-sau-pdpl-2023": [
+      "Article 11.3"
+    ],
+    "emea-zaf-popia-2013": [
+      "19"
+    ],
+    "emea-esp-boe-a-2022-7191": [
+      "Article 24.2"
+    ],
+    "emea-esp-decree-311-2022": [
+      "24.2"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "CRY-09.7",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CRY-09.7",
+      "ao_id": "CRY-09.7_A01",
+      "objective": "exclusive control of cryptographic keys is maintained for encrypted material stored or transmitted through an external system.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SA-09(06)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

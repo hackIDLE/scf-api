@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-16.4",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-16.4",
+      "ao_id": "AAT-16.4_A01",
+      "objective": "responsible party(ies) gather feedback about efficacy of Artificial Intelligence (AI) and Autonomous Technologies (AAT)-related measurements.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-16.4",
+      "ao_id": "AAT-16.4_A02",
+      "objective": "an executive steering committee, or advisory board, assesses the efficacy of Artificial Intelligence (AI) and Autonomous Technologies (AAT)-related measurements.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "erl_id": "E-MON-07",
+  "area": "Event Log Monitoring",
+  "artifact_name": "Situational Awareness",
+  "artifact_description": "Documented evidence of the organization leveraging knowledge of event log generation to gain situational awareness of cross-domain activities (e.g., technology issues, security events, policy violations, service provider activities, remote workforce activities, physical security events, etc.).",
+  "scf_controls": [
+    "MON-01",
+    "MON-01.1",
+    "MON-01.3",
+    "MON-01.4",
+    "MON-02.1",
+    "MON-11.3",
+    "MON-16",
+    "MON-16.1",
+    "MON-16.2",
+    "MON-16.3"
+  ],
+  "cmmc_mapping": "AU.L2-3.3.2"
+}

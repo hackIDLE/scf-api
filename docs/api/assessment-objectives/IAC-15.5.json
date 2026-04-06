@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "IAC-15.5",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-15.5",
+      "ao_id": "IAC-15.5_A01",
+      "objective": "conditions for establishing shared and group accounts are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-02(09)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "organization-defined need with justification statement that explains why such accounts are necessary",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-15.5",
+      "ao_id": "IAC-15.5_A02",
+      "objective": "the use of shared and group accounts is only permitted if organization-defined conditions are met.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-02(09)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "organization-defined need with justification statement that explains why such accounts are necessary",
+      "org_defined_parameters": ""
+    }
+  ]
+}

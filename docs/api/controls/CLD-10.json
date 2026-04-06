@@ -1,0 +1,104 @@
+{
+  "control_id": "CLD-10",
+  "title": "Sensitive Data In Public Cloud Providers",
+  "family": "CLD",
+  "description": "Mechanisms exist to limit and manage the storage of sensitive/regulated data in public cloud providers.",
+  "scf_question": "Does the organization limit and manage the storage of sensitive/regulated data in public cloud providers?",
+  "relative_weight": 6,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [
+    "E-AST-08"
+  ],
+  "pptdf": "Data",
+  "nist_csf_function": "Protect",
+  "scrm_focus": {
+    "strategic": false,
+    "operational": true,
+    "tactical": false
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "Cloud Security (CLD) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with CLD domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Cloud management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.",
+    "2": "Cloud Security (CLD) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CLD domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with CLD domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CLD  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Cloud management controls-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Cloud management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Cloud-based Technology Assets, Applications and/or Services (TAAS) are governed according to the same processes used for on-premises TAAS, where no formal, dedicated cloud governance process exists.",
+    "3": "Cloud Security (CLD) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CLD domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CLD domain capabilities are well-documented and kept current by process owners.\n▪ A cloud governance team, or similar function, is appropriately staffed and supported to implement and maintain CLD domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cloud governance operations (e.g., multi-cloud governance tools, policy enforcement, cost management, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CLD domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to limit and manage the storage of sensitive/regulated data in public cloud providers.",
+    "4": "Compliance (CPL) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [
+    "SCRMS",
+    "CORE ESP Level 1 Foundational",
+    "CORE ESP Level 2 Critical Infrastructure",
+    "CORE ESP Level 3 Advanced Threats",
+    "CORE Fundamentals",
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ Data Protection Impact Assessment (DPIA)\n∙ Security and network architecture diagrams\n∙ Data Flow Diagram (DFD)\n∙ Cybersecurity Supply Chain Risk Management (C-SCRM) program",
+    "small": "∙ Data Protection Impact Assessment (DPIA)\n∙ Security and network architecture diagrams\n∙ Data Flow Diagram (DFD)\n∙ Cybersecurity Supply Chain Risk Management (C-SCRM) program",
+    "medium": "∙ Data Protection Impact Assessment (DPIA)\n∙ Security and network architecture diagrams\n∙ Data Flow Diagram (DFD)\n∙ Cybersecurity Supply Chain Risk Management (C-SCRM) program",
+    "large": "∙ Data Protection Impact Assessment (DPIA)\n∙ Security and network architecture diagrams\n∙ Data Flow Diagram (DFD)\n∙ Cybersecurity Supply Chain Risk Management (C-SCRM) program",
+    "enterprise": "∙ Data Protection Impact Assessment (DPIA)\n∙ Security and network architecture diagrams\n∙ Data Flow Diagram (DFD)\n∙ Cybersecurity Supply Chain Risk Management (C-SCRM) program"
+  },
+  "risks": [
+    "R-AC-4",
+    "R-AM-3",
+    "R-BC-2",
+    "R-BC-4",
+    "R-BC-5",
+    "R-EX-1",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-EX-5"
+  ],
+  "threats": [
+    "NT-7",
+    "MT-1",
+    "MT-2",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-10",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Cloud Security",
+  "crosswalks": {
+    "general-csa-cmm-4-1-0": [
+      "DSP-17"
+    ],
+    "general-nist-800-171-r2": [
+      "3.1.22"
+    ],
+    "general-nist-800-171a": [
+      "3.1.22[a]",
+      "3.1.22[b]",
+      "3.1.22[c]",
+      "3.1.22[d]",
+      "3.1.22[e]"
+    ],
+    "usa-federal-dow-cmmc-2-level-1": [
+      "AC.L1-B.1.IV"
+    ],
+    "usa-federal-dow-cmmc-2-level-2": [
+      "ACL2.-3.1.22"
+    ],
+    "usa-federal-far-52-204-21": [
+      "52.204-21(b)(1)(iv)"
+    ],
+    "emea-isr-cmo-1-0": [
+      "11.6"
+    ],
+    "apac-nzl-ism-3-9": [
+      "2.3.23.C.01",
+      "22.1.22.C.04",
+      "22.1.22.C.05"
+    ]
+  }
+}

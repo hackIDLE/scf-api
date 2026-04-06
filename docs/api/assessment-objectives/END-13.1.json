@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "END-13.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "END-13.1",
+      "ao_id": "END-13.1_A01",
+      "objective": "measures to be employed so that data or information collected by sensors is only used for authorized purposes are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-42(02)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-13.1",
+      "ao_id": "END-13.1_A02",
+      "objective": "organization-defined measures are employed so that data or information collected by sensors is only used for authorized purposes.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-42(02)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

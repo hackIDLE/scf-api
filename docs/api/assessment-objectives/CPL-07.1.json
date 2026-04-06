@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "CPL-07.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CPL-07.1",
+      "ao_id": "CPL-07.1_A01",
+      "objective": "a response mechanism exists to respond to legitimate grievances related to the organization's cybersecurity and/or data protection practices.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

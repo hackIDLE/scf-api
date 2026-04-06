@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-MON-10",
+  "area": "Event Log Monitoring",
+  "artifact_name": "Event Logging Processing Failure Notifications",
+  "artifact_description": "Documented evidence of the list of personnel to be notified in the event of an event log processing failure.",
+  "scf_controls": [
+    "MON-05"
+  ],
+  "cmmc_mapping": "AU.L2-3.3.4"
+}

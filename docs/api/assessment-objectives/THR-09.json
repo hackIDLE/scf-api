@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "THR-09",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "THR-09",
+      "ao_id": "THR-09_A01",
+      "objective": "the organization maintains a threat catalog that documents applicable internal and external threats that are specific to the organization.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "THR-09",
+      "ao_id": "THR-09_A02",
+      "objective": "the threat catalog documents both natural and manmade threats.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "THR-09",
+      "ao_id": "THR-09_A03",
+      "objective": "on at least an annual basis, a threat assessment is performed to identify and assess applicable internal and external threats.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "THR-09",
+      "ao_id": "THR-09_A04",
+      "objective": "the threat catalog is updated, based on a current threat assessment.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

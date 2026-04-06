@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "OPS-02",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "OPS-02",
+      "ao_id": "OPS-02_A02",
+      "objective": "a Concept of Operations (CONOPS) for the system describing how the organization intends to operate the system from the perspective of cybersecurity / data privacy is developed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-07a.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "OPS-02",
+      "ao_id": "OPS-02_A01",
+      "objective": "frequency for review / update of the Concept of Operations (CONOPS) is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-07_ODP",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "OPS-02",
+      "ao_id": "OPS-02_A03",
+      "objective": "the Concept of Operations (CONOPS) is reviewed / updated per an organization-defined frequency.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-07b.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "AAT-02",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-02",
+      "ao_id": "AAT-02_A01",
+      "objective": "an inventory of systems and system components that is at the level of granularity deemed necessary for tracking and reporting is documented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-08a.04",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

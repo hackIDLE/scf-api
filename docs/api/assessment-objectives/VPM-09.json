@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "VPM-09",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "VPM-09",
+      "ao_id": "VPM-09_A01",
+      "objective": "logs associated with scanning activities are monitored to ensure that those activities are limited to the timeframes of legitimate scans.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-09",
+      "ao_id": "VPM-09_A02",
+      "objective": "logs associated with administrator accounts are monitored to ensure that those activities are limited to the timeframes of legitimate scans.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

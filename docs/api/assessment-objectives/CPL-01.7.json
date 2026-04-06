@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "CPL-01.7",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CPL-01.7",
+      "ao_id": "CPL-01.7_A01",
+      "objective": "a designate an individual is assigned authority to make statements of conformity on behalf of the organization.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-01.7",
+      "ao_id": "CPL-01.7_A02",
+      "objective": "the designated individual is provided formal guidance on the limitations of statements of conformity that can be made on behalf of the organization.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

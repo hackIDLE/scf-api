@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-AAT-02",
+  "area": "Artificial Intelligence (AI) & Autonomous Technologies Governance",
+  "artifact_name": "Compliance Obligations for Artificial Intelligence and Autonomous Technologies (AAT).",
+  "artifact_description": "Documented evidence of applicable statutory, regulatory and contractual cybersecurity & data privacy obligations for Artificial Intelligence and Autonomous Technologies (AAT).",
+  "scf_controls": [
+    "AAT-01.1"
+  ],
+  "cmmc_mapping": ""
+}

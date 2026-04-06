@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "NET-03.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-03.1",
+      "ao_id": "NET-03.1_A01",
+      "objective": "the number of external network connections to the system is limited.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-07(03)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

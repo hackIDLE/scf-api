@@ -1,0 +1,3376 @@
+{
+  "framework_id": "usa-federal-dow-cert-rmm-1-2",
+  "display_name": "CERT-RMM (v1.2)",
+  "scf_to_framework": {
+    "total_mappings": 85,
+    "mappings": {
+      "GOV-01": [
+        "ADM:GG1",
+        "ADM:GG2.GP1",
+        "ADM:GG3",
+        "AM:GG1",
+        "AM:GG2.GP1",
+        "AM:GG3",
+        "COMM:GG1",
+        "COMM:GG2.GP1",
+        "COMM:GG3",
+        "COMP:GG2.GP1",
+        "COMP:GG3",
+        "CTRL:GG1",
+        "CTRL:GG1.GP1",
+        "CTRL:GG2",
+        "CTRL:GG2.GP1",
+        "CTRL:GG2.GP2",
+        "CTRL:GG3",
+        "EC:GG1",
+        "EC:GG2.GP1",
+        "EC:GG3",
+        "EF:GG1",
+        "EF:GG2.GP1",
+        "EF:GG3",
+        "EXD:GG1",
+        "EXD:GG2.GP1",
+        "EXD:GG3",
+        "FRM:GG1",
+        "FRM:GG2.GP1",
+        "FRM:GG3",
+        "HRM:GG1",
+        "HRM:GG2.GP1",
+        "HRM:GG3",
+        "ID:GG1",
+        "ID:GG2.GP1",
+        "ID:GG3",
+        "IMC:GG1",
+        "IMC:GG2.GP1",
+        "IMC:GG3",
+        "KIM:GG1",
+        "KIM:GG2.GP1",
+        "KIM:GG3",
+        "MA:GG1",
+        "MA:GG2.GP1",
+        "MA:GG3",
+        "MON:GG1",
+        "MON:GG2.GP1",
+        "MON:GG3",
+        "OPD:GG1",
+        "OPD:GG2.GP1",
+        "OPD:GG3",
+        "OPF:GG1",
+        "OPF:GG2.GP1",
+        "OPF:GG3",
+        "OTA:GG1",
+        "OTA:GG2.GP1",
+        "OTA:GG3",
+        "PM:GG1",
+        "PM:GG2.GP1",
+        "PM:GG3",
+        "RISK:GG1",
+        "RISK:GG2.GP1",
+        "RISK:GG3",
+        "RRD:GG1",
+        "RRD:GG2.GP1",
+        "RRD:GG3",
+        "RRM:GG1",
+        "RRM:GG2.GP1",
+        "RRM:GG3",
+        "RTSE:GG1",
+        "RTSE:GG2.GP1",
+        "RTSE:GG3",
+        "SC:GG1",
+        "SC:GG2.GP1",
+        "SC:GG3",
+        "TM:GG1",
+        "TM:GG2",
+        "TM:GG2.GP1",
+        "TM:GG3",
+        "VAR:GG1",
+        "VAR:GG2.GP1",
+        "VAR:GG3",
+        "GG1",
+        "GG1.GP1",
+        "GG2",
+        "GG2.GP1",
+        "GG2.GP2",
+        "GG3",
+        "GG3.GP1"
+      ],
+      "GOV-01.1": [
+        "ADM:GG2.GP10",
+        "AM:GG2.GP10",
+        "COMM:GG2.GP10",
+        "COMP:GG2.GP10",
+        "CTRL:GG2.GP10",
+        "EC:GG2.GP10",
+        "EF:SG3",
+        "EF:SG4",
+        "EF:SG4.SP1",
+        "EF:SG4.SP2",
+        "EF:GG1.GP1",
+        "EF:GG2",
+        "EF:GG2.GP2",
+        "EF:GG2.GP10",
+        "EXD:GG2.GP10",
+        "FRM:GG2.GP10",
+        "HRM:GG2.GP10",
+        "ID:GG2.GP10",
+        "IMC:GG2.GP10",
+        "KIM:GG2.GP10",
+        "MA:GG2.GP10",
+        "MON:GG2.GP10",
+        "OPD:GG2.GP10",
+        "OPF:GG2.GP10",
+        "OTA:GG2.GP10",
+        "PM:GG2.GP10",
+        "RISK:GG2.GP10",
+        "RRD:GG2.GP10",
+        "RRM:GG2.GP10",
+        "RTSE:GG2.GP10",
+        "SC:GG2.GP10",
+        "TM:GG2.GP10",
+        "VAR:GG2.GP10",
+        "GG2.GP10"
+      ],
+      "GOV-01.3": [
+        "EF:SG3.SP1",
+        "EF:SG3.SP3",
+        "EF:SG4.SP3"
+      ],
+      "GOV-04.1": [
+        "ADM:SG1.SP3"
+      ],
+      "GOV-05": [
+        "MA:SG1",
+        "MA:SG1.SP1",
+        "MA:SG1.SP2",
+        "MA:SG1.SP3",
+        "MA:SG1.SP4",
+        "MA:SG2",
+        "MA:SG2.SP1",
+        "MA:SG2.SP2",
+        "MA:SG2.SP3",
+        "MA:SG2.SP4",
+        "MA:GG1.GP1",
+        "MA:GG2",
+        "MA:GG2.GP2"
+      ],
+      "GOV-09": [
+        "CTRL:SG1",
+        "CTRL:SG1.SP1"
+      ],
+      "GOV-14": [
+        "EF:SG3.SP2"
+      ],
+      "GOV-15.1": [
+        "CTRL:SG2.SP1",
+        "EC:SG2",
+        "EC:SG2.SP2",
+        "KIM:SG2",
+        "KIM:SG2.SP2",
+        "TM:SG2",
+        "TM:SG2.SP2"
+      ],
+      "GOV-15.2": [
+        "CTRL:SG2"
+      ],
+      "GOV-15.3": [
+        "CTRL:SG3",
+        "CTRL:SG3.SP1",
+        "CTRL:SG4",
+        "CTRL:SG4.SP1"
+      ],
+      "GOV-19.2": [
+        "ADM:GG2.GP9",
+        "AM:GG2.GP9",
+        "COMM:GG2.GP9",
+        "COMP:GG2.GP9",
+        "CTRL:GG2.GP9",
+        "EC:GG2.GP9",
+        "EF:GG2.GP9",
+        "EXD:GG2.GP9",
+        "FRM:GG2.GP9",
+        "HRM:GG2.GP9",
+        "ID:GG2.GP9",
+        "IMC:GG2.GP9",
+        "KIM:GG2.GP9",
+        "MA:GG2.GP9",
+        "MON:GG2.GP9",
+        "OPD:GG2.GP9",
+        "OPF:GG2.GP9",
+        "OTA:GG2.GP9",
+        "PM:GG2.GP9",
+        "RISK:GG2.GP9",
+        "RRD:GG2.GP9",
+        "RRM:GG2.GP9",
+        "RTSE:GG2.GP9",
+        "SC:GG2.GP9",
+        "TM:GG2.GP9",
+        "VAR:GG2.GP9",
+        "GG2.GP9"
+      ],
+      "AST-01": [
+        "ADM:SG1",
+        "ADM:SG1.SP2",
+        "ADM:GG1.GP1",
+        "ADM:GG2",
+        "ADM:GG2.GP2",
+        "KIM:SG1",
+        "KIM:SG1.SP1",
+        "KIM:SG1.SP2",
+        "TM:SG4.SP4"
+      ],
+      "AST-01.1": [
+        "ADM:SG2",
+        "ADM:SG2.SP1",
+        "ADM:SG2.SP2"
+      ],
+      "AST-01.2": [
+        "ADM:GG2.GP7",
+        "AM:GG2.GP7",
+        "COMM:GG2.GP7",
+        "COMP:GG2.GP7",
+        "CTRL:GG2.GP7",
+        "EC:GG2.GP7",
+        "EF:GG2.GP7",
+        "EXD:GG2.GP7",
+        "FRM:GG2.GP7",
+        "HRM:GG2.GP7",
+        "ID:GG2.GP7",
+        "IMC:GG2.GP7",
+        "KIM:GG2.GP7",
+        "MA:GG2.GP7",
+        "MON:GG2.GP7",
+        "OPD:GG2.GP7",
+        "OPF:GG2.GP7",
+        "OTA:GG2.GP7",
+        "PM:GG2.GP7",
+        "RISK:GG2.GP7",
+        "RRD:GG2.GP7",
+        "RRM:GG2.GP7",
+        "RTSE:GG2.GP7",
+        "SC:GG2.GP7",
+        "TM:GG2.GP7",
+        "VAR:GG2.GP7",
+        "GG2.GP7"
+      ],
+      "AST-02": [
+        "ADM:SG1.SP1"
+      ],
+      "AST-02.9": [
+        "ADM:SG3.SP1",
+        "ADM:SG3.SP2"
+      ],
+      "AST-03": [
+        "ADM:SG1.SP3"
+      ],
+      "AST-03.1": [
+        "ADM:SG1.SP3"
+      ],
+      "AST-31": [
+        "TM:SG1",
+        "TM:SG1.SP1"
+      ],
+      "BCD-01": [
+        "COMM:SG1",
+        "COMM:SG1.SP1",
+        "COMM:SG1.SP2",
+        "COMM:SG1.SP3",
+        "COMM:SG2",
+        "COMM:SG2.SP1",
+        "COMM:SG2.SP2",
+        "COMM:SG2.SP3",
+        "COMM:SG3",
+        "COMM:SG3.SP1",
+        "COMM:SG3.SP2",
+        "COMM:GG1.GP1",
+        "COMM:GG2",
+        "COMM:GG2.GP2",
+        "EC:SG1",
+        "EC:SG4.SP1",
+        "EC:SG4.SP3",
+        "EC:SG4.SP4",
+        "SC:SG3.SP2",
+        "SC:SG3.SP3",
+        "SC:SG3.SP4",
+        "SC:SG3.SP5",
+        "SC:SG4",
+        "SC:SG4.SP1",
+        "SC:SG4.SP2",
+        "SC:SG5",
+        "SC:SG5.SP1",
+        "SC:SG5.SP2",
+        "SC:SG5.SP3",
+        "SC:SG5.SP4",
+        "SC:SG6",
+        "SC:SG6.SP1",
+        "SC:SG6.SP2",
+        "SC:SG7",
+        "SC:SG7.SP1",
+        "SC:SG7.SP2",
+        "SC:GG1.GP1",
+        "SC:GG2",
+        "SC:GG2.GP2",
+        "TM:SG5",
+        "TM:SG5.SP1",
+        "TM:SG5.SP2",
+        "TM:SG5.SP3",
+        "TM:SG5.SP4",
+        "TM:GG1.GP1",
+        "TM:GG2.GP2"
+      ],
+      "BCD-01.7": [
+        "EC:SG1.SP1",
+        "PM:SG3.SP3",
+        "PM:SG3.SP4",
+        "PM:SG3.SP5"
+      ],
+      "BCD-02": [
+        "ADM:SG2.SP2",
+        "EC:SG1.SP2",
+        "TM:SG1.SP2"
+      ],
+      "CAP-01": [
+        "EC:SG4.SP1"
+      ],
+      "CHG-01": [
+        "ADM:SG3.SP1",
+        "TM:SG4",
+        "TM:SG4.SP1",
+        "TM:SG4.SP2",
+        "TM:SG4.SP3"
+      ],
+      "CHG-02": [
+        "ADM:SG3.SP2"
+      ],
+      "CPL-01": [
+        "COMP:SG1",
+        "COMP:SG1.SP1",
+        "COMP:SG1.SP2",
+        "COMP:SG1.SP3",
+        "COMP:SG2",
+        "COMP:SG2.SP1",
+        "COMP:SG2.SP2",
+        "COMP:SG2.SP3",
+        "COMP:GG1",
+        "COMP:GG1.GP1",
+        "COMP:GG2",
+        "COMP:GG2.GP2"
+      ],
+      "CPL-01.1": [
+        "COMP:SG3.SP3"
+      ],
+      "CPL-01.3": [
+        "COMP:SG3.SP1",
+        "COMP:SG3.SP2"
+      ],
+      "CPL-01.5": [
+        "COMP:SG3"
+      ],
+      "CPL-02": [
+        "ADM:GG2.GP8",
+        "AM:GG2.GP8",
+        "COMM:GG2.GP8",
+        "COMP:SG4",
+        "COMP:GG2.GP8",
+        "CTRL:GG2.GP8",
+        "EC:GG2.GP8",
+        "EF:GG2.GP8",
+        "EXD:GG2.GP8",
+        "FRM:GG2.GP8",
+        "HRM:GG2.GP8",
+        "ID:GG2.GP8",
+        "IMC:GG2.GP8",
+        "KIM:GG2.GP8",
+        "MA:GG2.GP8",
+        "MON:GG2.GP8",
+        "OPD:GG2.GP8",
+        "OPF:GG2.GP8",
+        "OTA:GG2.GP8",
+        "PM:GG2.GP8",
+        "RISK:GG2.GP8",
+        "RRD:GG2.GP8",
+        "RRM:GG2.GP8",
+        "RTSE:GG2.GP8",
+        "SC:GG2.GP8",
+        "TM:GG2.GP8",
+        "VAR:GG2.GP8",
+        "GG2.GP8"
+      ],
+      "CPL-03.1": [
+        "COMP:SG4.SP1"
+      ],
+      "CPL-13": [
+        "ADM:GG1.GP1",
+        "ADM:GG3.GP2",
+        "AM:GG1.GP1",
+        "AM:GG3.GP2",
+        "COMM:GG1.GP1",
+        "COMM:GG3.GP2",
+        "COMP:GG1.GP1",
+        "COMP:GG3.GP2",
+        "CTRL:GG1.GP1",
+        "CTRL:GG3.GP2",
+        "EC:GG1.GP1",
+        "EC:GG3.GP2",
+        "EF:GG1.GP1",
+        "EF:GG3.GP2",
+        "EXD:GG1.GP1",
+        "EXD:GG3.GP2",
+        "FRM:GG1.GP1",
+        "FRM:GG3.GP2",
+        "HRM:GG1.GP1",
+        "HRM:GG3.GP2",
+        "ID:GG1.GP1",
+        "ID:GG3.GP2",
+        "IMC:GG1.GP1",
+        "IMC:GG3.GP2",
+        "KIM:GG1.GP1",
+        "KIM:GG3.GP2",
+        "MA:GG1.GP1",
+        "MA:GG3.GP2",
+        "MON:GG1.GP1",
+        "MON:GG3.GP2",
+        "OPD:GG1.GP1",
+        "OPD:GG3.GP2",
+        "OPF:GG1.GP1",
+        "OPF:GG3.GP2",
+        "OTA:GG1.GP1",
+        "OTA:GG3.GP2",
+        "PM:GG1.GP1",
+        "PM:GG3.GP2",
+        "RISK:GG1.GP1",
+        "RISK:GG3.GP2",
+        "RRD:GG1.GP1",
+        "RRD:GG3.GP2",
+        "RRM:GG1.GP1",
+        "RRM:GG3.GP2",
+        "RTSE:GG1.GP1",
+        "RTSE:GG3.GP2",
+        "SC:GG1.GP1",
+        "SC:GG3.GP2",
+        "TM:GG1.GP1",
+        "TM:GG3.GP2",
+        "VAR:GG1.GP1",
+        "VAR:GG3.GP2",
+        "GG1.GP1",
+        "GG3.GP2"
+      ],
+      "CFG-02.9": [
+        "OPD:SG1.SP2"
+      ],
+      "MON-01": [
+        "MON:SG1",
+        "MON:SG1.SP1",
+        "MON:SG1.SP2",
+        "MON:SG1.SP3",
+        "MON:SG1.SP4",
+        "MON:SG2",
+        "MON:SG2.SP1",
+        "MON:SG2.SP2",
+        "MON:SG2.SP3",
+        "MON:SG2.SP4",
+        "MON:GG1.GP1",
+        "MON:GG2",
+        "MON:GG2.GP2"
+      ],
+      "MON-01.4": [
+        "IMC:SG2",
+        "IMC:SG2.SP1",
+        "IMC:SG2.SP2"
+      ],
+      "DCH-01": [
+        "KIM:SG4",
+        "KIM:SG4.SP1",
+        "KIM:SG4.SP2",
+        "KIM:SG4.SP3",
+        "KIM:SG5",
+        "KIM:SG5.SP1",
+        "KIM:SG5.SP2",
+        "KIM:SG5.SP3",
+        "KIM:SG6",
+        "KIM:SG6.SP1",
+        "KIM:SG6.SP2",
+        "KIM:GG1.GP1",
+        "KIM:GG2",
+        "KIM:GG2.GP2"
+      ],
+      "HRS-01": [
+        "HRM:SG1",
+        "HRM:SG1.SP1",
+        "HRM:SG1.SP2",
+        "HRM:SG2.SP1",
+        "HRM:SG2.SP2",
+        "HRM:SG3",
+        "HRM:SG3.SP3",
+        "HRM:SG4",
+        "HRM:SG4.SP1",
+        "HRM:SG4.SP2",
+        "HRM:SG4.SP3",
+        "HRM:GG1.GP1",
+        "HRM:GG2",
+        "HRM:GG2.GP2",
+        "PM:SG3",
+        "PM:SG3.SP1",
+        "PM:SG3.SP2",
+        "PM:GG1.GP1",
+        "PM:GG2",
+        "PM:GG2.GP2"
+      ],
+      "HRS-03": [
+        "ADM:GG2.GP4",
+        "ADM:GG2.GP6",
+        "AM:GG2.GP4",
+        "AM:GG2.GP6",
+        "COMM:GG2.GP4",
+        "COMM:GG2.GP6",
+        "COMP:GG2.GP4",
+        "COMP:GG2.GP6",
+        "CTRL:GG2.GP4",
+        "CTRL:GG2.GP6",
+        "EC:GG2.GP4",
+        "EC:GG2.GP6",
+        "EF:GG2.GP4",
+        "EF:GG2.GP6",
+        "EXD:GG2.GP4",
+        "EXD:GG2.GP6",
+        "FRM:GG2.GP4",
+        "FRM:GG2.GP6",
+        "HRM:SG3.SP1",
+        "HRM:GG2.GP4",
+        "HRM:GG2.GP6",
+        "ID:GG2.GP4",
+        "ID:GG2.GP6",
+        "IMC:GG2.GP4",
+        "IMC:GG2.GP6",
+        "KIM:GG2.GP4",
+        "KIM:GG2.GP6",
+        "MA:GG2.GP4",
+        "MA:GG2.GP6",
+        "MON:GG2.GP4",
+        "MON:GG2.GP6",
+        "OPD:GG2.GP4",
+        "OPD:GG2.GP6",
+        "OPF:GG2.GP4",
+        "OPF:GG2.GP6",
+        "OTA:GG2.GP4",
+        "OTA:GG2.GP6",
+        "PM:GG2.GP4",
+        "PM:GG2.GP6",
+        "RISK:GG2.GP4",
+        "RISK:GG2.GP6",
+        "RRD:GG2.GP4",
+        "RRD:GG2.GP6",
+        "RRM:GG2.GP4",
+        "RRM:GG2.GP6",
+        "RTSE:GG2.GP4",
+        "RTSE:GG2.GP6",
+        "SC:GG2.GP4",
+        "SC:GG2.GP6",
+        "TM:GG2.GP4",
+        "TM:GG2.GP6",
+        "VAR:GG2.GP4",
+        "VAR:GG2.GP6",
+        "GG2.GP4",
+        "GG2.GP6"
+      ],
+      "HRS-03.1": [
+        "HRM:SG3.SP2"
+      ],
+      "HRS-07": [
+        "HRM:SG3.SP4"
+      ],
+      "HRS-13": [
+        "HRM:SG1.SP3"
+      ],
+      "HRS-13.1": [
+        "HRM:SG2"
+      ],
+      "HRS-13.2": [
+        "PM:SG1",
+        "PM:SG1.SP1",
+        "PM:SG2",
+        "PM:SG2.SP1"
+      ],
+      "IAC-01": [
+        "AM:SG1",
+        "AM:GG1.GP1",
+        "AM:GG2",
+        "AM:GG2.GP2",
+        "ID:SG1",
+        "ID:SG1.SP1",
+        "ID:SG1.SP2",
+        "ID:SG1.SP3",
+        "ID:SG2",
+        "ID:SG2.SP1",
+        "ID:SG2.SP2",
+        "ID:SG2.SP3",
+        "ID:SG2.SP4",
+        "ID:GG1.GP1",
+        "ID:GG2",
+        "ID:GG2.GP2"
+      ],
+      "IAC-08": [
+        "AM:SG1.SP1"
+      ],
+      "IAC-15.7": [
+        "AM:SG1.SP2"
+      ],
+      "IAC-17": [
+        "AM:SG1.SP3",
+        "AM:SG1.SP4"
+      ],
+      "IRO-01": [
+        "IMC:SG1",
+        "IMC:SG1.SP1",
+        "IMC:SG1.SP2",
+        "IMC:GG1.GP1",
+        "IMC:GG2",
+        "IMC:GG2.GP2"
+      ],
+      "IRO-02": [
+        "IMC:SG2.SP4",
+        "IMC:SG3",
+        "IMC:SG3.SP1",
+        "IMC:SG3.SP2",
+        "IMC:SG4",
+        "IMC:SG4.SP1",
+        "IMC:SG4.SP2",
+        "IMC:SG4.SP3",
+        "IMC:SG4.SP4"
+      ],
+      "IRO-08": [
+        "IMC:SG2.SP3"
+      ],
+      "IRO-13": [
+        "IMC:SG5",
+        "IMC:SG5.SP1",
+        "IMC:SG5.SP2"
+      ],
+      "PES-01": [
+        "EC:SG4",
+        "EC:SG4.SP2",
+        "EC:GG1.GP1",
+        "EC:GG2",
+        "EC:GG2.GP2"
+      ],
+      "PRI-05.5": [
+        "ADM:SG2.SP1"
+      ],
+      "PRM-01": [
+        "EF:SG1.SP3",
+        "FRM:SG1",
+        "FRM:SG1.SP1",
+        "FRM:SG1.SP2",
+        "FRM:SG2",
+        "FRM:SG2.SP1",
+        "FRM:SG2.SP2",
+        "FRM:SG2.SP3",
+        "FRM:SG3",
+        "FRM:SG3.SP1",
+        "FRM:SG4",
+        "FRM:SG4.SP1",
+        "FRM:SG4.SP2",
+        "FRM:SG5",
+        "FRM:SG5.SP1",
+        "FRM:SG5.SP2",
+        "FRM:SG5.SP3",
+        "FRM:GG1.GP1",
+        "FRM:GG2",
+        "FRM:GG2.GP2",
+        "SC:SG1",
+        "SC:SG1.SP1",
+        "SC:SG1.SP2",
+        "SC:SG2",
+        "SC:SG2.SP1"
+      ],
+      "PRM-01.1": [
+        "EF:SG1",
+        "EF:SG1.SP1",
+        "EF:SG1.SP2",
+        "EF:SG2.SP1"
+      ],
+      "PRM-02": [
+        "ADM:GG2.GP3",
+        "AM:GG2.GP3",
+        "COMM:GG2.GP3",
+        "COMP:GG2.GP3",
+        "CTRL:GG2.GP3",
+        "EC:SG4.SP5",
+        "EC:GG2.GP3",
+        "EF:SG2",
+        "EF:GG2.GP3",
+        "EXD:GG2.GP3",
+        "FRM:GG2.GP3",
+        "HRM:GG2.GP3",
+        "ID:GG2.GP3",
+        "IMC:GG2.GP3",
+        "KIM:GG2.GP3",
+        "MA:GG2.GP3",
+        "MON:GG2.GP3",
+        "OPD:GG2.GP3",
+        "OPF:GG2.GP3",
+        "OTA:GG2.GP3",
+        "PM:GG2.GP3",
+        "RISK:GG2.GP3",
+        "RRD:GG2.GP3",
+        "RRM:GG2.GP3",
+        "RTSE:GG2.GP3",
+        "SC:GG2.GP3",
+        "TM:GG2.GP3",
+        "VAR:GG2.GP3",
+        "GG2.GP3"
+      ],
+      "PRM-04": [
+        "EF:SG2.SP2"
+      ],
+      "PRM-06": [
+        "ADM:SG2.SP1",
+        "ADM:GG1.GP1",
+        "AM:GG1.GP1",
+        "COMM:GG1.GP1",
+        "COMP:GG1.GP1",
+        "CTRL:GG1.GP1",
+        "EC:GG1.GP1",
+        "EF:GG1.GP1",
+        "EXD:GG1.GP1",
+        "FRM:GG1.GP1",
+        "HRM:GG1.GP1",
+        "ID:GG1.GP1",
+        "IMC:GG1.GP1",
+        "KIM:GG1.GP1",
+        "MA:GG1.GP1",
+        "MON:GG1.GP1",
+        "OPD:GG1.GP1",
+        "OPF:GG1.GP1",
+        "OTA:GG1.GP1",
+        "PM:GG1.GP1",
+        "RISK:GG1.GP1",
+        "RRD:GG1.GP1",
+        "RRM:GG1.GP1",
+        "RTSE:GG1.GP1",
+        "SC:SG2.SP2",
+        "SC:SG2.SP3",
+        "SC:SG3",
+        "SC:SG3.SP1",
+        "SC:GG1.GP1",
+        "TM:GG1.GP1",
+        "VAR:GG1.GP1",
+        "GG1.GP1"
+      ],
+      "PRM-07": [
+        "ADM:SG3"
+      ],
+      "RSK-01": [
+        "RISK:SG1",
+        "RISK:SG1.SP1",
+        "RISK:SG1.SP2",
+        "RISK:SG4.SP3",
+        "RISK:SG6",
+        "RISK:SG6.SP1",
+        "RISK:SG6.SP2",
+        "RISK:GG1.GP1",
+        "RISK:GG2",
+        "RISK:GG2.GP2",
+        "TM:SG3",
+        "TM:SG3.SP1"
+      ],
+      "RSK-01.5": [
+        "RISK:SG2",
+        "RISK:SG2.SP1"
+      ],
+      "RSK-02": [
+        "ADM:SG2.SP1",
+        "RISK:SG4.SP2"
+      ],
+      "RSK-02.1": [
+        "RISK:SG4"
+      ],
+      "RSK-03": [
+        "EC:SG3",
+        "KIM:SG3",
+        "KIM:SG3.SP1",
+        "RISK:SG3",
+        "RISK:SG3.SP1",
+        "RISK:SG3.SP2"
+      ],
+      "RSK-04": [
+        "EC:SG3.SP1",
+        "RISK:SG4.SP1"
+      ],
+      "RSK-04.2": [
+        "RISK:SG2.SP2"
+      ],
+      "RSK-06": [
+        "RISK:SG5"
+      ],
+      "RSK-06.4": [
+        "EC:SG3.SP2",
+        "KIM:SG3.SP2",
+        "PM:SG2.SP2",
+        "RISK:SG5.SP1",
+        "RISK:SG5.SP2",
+        "TM:SG3.SP2"
+      ],
+      "SEA-01": [
+        "RTSE:SG1",
+        "RTSE:SG1.SP1",
+        "RTSE:SG1.SP2",
+        "RTSE:SG1.SP3",
+        "RTSE:SG1.SP4",
+        "RTSE:SG1.SP5",
+        "RTSE:SG2",
+        "RTSE:SG2.SP1",
+        "RTSE:SG2.SP2",
+        "RTSE:SG3",
+        "RTSE:GG1.GP1",
+        "RTSE:GG2",
+        "RTSE:GG2.GP2"
+      ],
+      "SEA-01.2": [
+        "RRD:GG1.GP1",
+        "RRM:GG1.GP1"
+      ],
+      "SEA-01.3": [
+        "EC:SG2.SP1",
+        "KIM:SG2.SP1",
+        "RRD:SG1",
+        "RRD:SG1.SP1",
+        "RRD:SG2",
+        "RRD:SG2.SP1",
+        "RRD:SG2.SP2",
+        "RRD:SG3",
+        "RRD:SG3.SP1",
+        "RRD:SG3.SP2",
+        "RRD:SG3.SP3",
+        "RRD:GG2",
+        "RRD:GG2.GP2",
+        "RRM:SG1",
+        "RRM:SG1.SP1",
+        "RRM:SG1.SP2",
+        "RRM:SG1.SP3",
+        "RRM:SG1.SP4",
+        "RRM:SG1.SP5",
+        "RRM:GG2",
+        "RRM:GG2.GP2",
+        "RTSE:SG3.SP1",
+        "RTSE:SG3.SP2",
+        "TM:SG2.SP1"
+      ],
+      "SEA-02.1": [
+        "ADM:SG1.SP2"
+      ],
+      "OPS-01.1": [
+        "ADM:GG1.GP1",
+        "ADM:GG3.GP1",
+        "AM:GG1.GP1",
+        "AM:GG3.GP1",
+        "COMM:GG1.GP1",
+        "COMM:GG3.GP1",
+        "COMP:GG1.GP1",
+        "COMP:GG3.GP1",
+        "CTRL:GG1.GP1",
+        "CTRL:GG3.GP1",
+        "EC:GG1.GP1",
+        "EC:GG3.GP1",
+        "EF:GG1.GP1",
+        "EF:GG3.GP1",
+        "EXD:GG1.GP1",
+        "EXD:GG3.GP1",
+        "FRM:GG1.GP1",
+        "FRM:GG3.GP1",
+        "HRM:GG1.GP1",
+        "HRM:GG3.GP1",
+        "ID:GG1.GP1",
+        "ID:GG3.GP1",
+        "IMC:GG1.GP1",
+        "IMC:GG3.GP1",
+        "KIM:GG1.GP1",
+        "KIM:GG3.GP1",
+        "MA:GG1.GP1",
+        "MA:GG3.GP1",
+        "MON:GG1.GP1",
+        "MON:GG3.GP1",
+        "OPD:SG1",
+        "OPD:SG1.SP1",
+        "OPD:GG1.GP1",
+        "OPD:GG3.GP1",
+        "OPF:GG1.GP1",
+        "OPF:GG3.GP1",
+        "OTA:GG1.GP1",
+        "OTA:GG3.GP1",
+        "PM:GG1.GP1",
+        "PM:GG3.GP1",
+        "RISK:GG1.GP1",
+        "RISK:GG3.GP1",
+        "RRD:GG1.GP1",
+        "RRD:GG3.GP1",
+        "RRM:GG1.GP1",
+        "RRM:GG3.GP1",
+        "RTSE:GG1.GP1",
+        "RTSE:GG3.GP1",
+        "SC:GG1.GP1",
+        "SC:GG3.GP1",
+        "TM:GG1.GP1",
+        "TM:GG3.GP1",
+        "VAR:GG1.GP1",
+        "VAR:GG3.GP1",
+        "GG1.GP1"
+      ],
+      "SAT-01": [
+        "OTA:SG1",
+        "OTA:SG1.SP1",
+        "OTA:SG1.SP2",
+        "OTA:SG1.SP3",
+        "OTA:SG2",
+        "OTA:SG2.SP1",
+        "OTA:SG2.SP2",
+        "OTA:SG2.SP3",
+        "OTA:SG3",
+        "OTA:SG3.SP1",
+        "OTA:SG3.SP2",
+        "OTA:SG3.SP3",
+        "OTA:SG4",
+        "OTA:SG4.SP1",
+        "OTA:SG4.SP2",
+        "OTA:SG4.SP3",
+        "OTA:GG1.GP1",
+        "OTA:GG2",
+        "OTA:GG2.GP2"
+      ],
+      "SAT-03": [
+        "ADM:GG2.GP5",
+        "AM:GG2.GP5",
+        "COMM:GG2.GP5",
+        "COMP:GG2.GP5",
+        "CTRL:GG2.GP5",
+        "EC:GG2.GP5",
+        "EF:GG2.GP5",
+        "EXD:GG2.GP5",
+        "FRM:GG2.GP5",
+        "HRM:GG2.GP5",
+        "ID:GG2.GP5",
+        "IMC:GG2.GP5",
+        "KIM:GG2.GP5",
+        "MA:GG2.GP5",
+        "MON:GG2.GP5",
+        "OPD:GG2.GP5",
+        "OPF:GG2.GP5",
+        "OTA:GG2.GP5",
+        "PM:GG2.GP5",
+        "RISK:GG2.GP5",
+        "RRD:GG2.GP5",
+        "RRM:GG2.GP5",
+        "RTSE:GG2.GP5",
+        "SC:GG2.GP5",
+        "TM:GG2.GP5",
+        "VAR:GG2.GP5",
+        "GG2.GP5"
+      ],
+      "TPM-01": [
+        "EXD:GG1.GP1",
+        "EXD:GG2",
+        "EXD:GG2.GP2"
+      ],
+      "TPM-01.1": [
+        "EXD:SG1",
+        "EXD:SG1.SP1"
+      ],
+      "TPM-02": [
+        "EXD:SG1.SP2"
+      ],
+      "TPM-03": [
+        "EXD:SG2",
+        "EXD:SG2.SP1",
+        "EXD:SG2.SP2",
+        "EXD:SG3",
+        "EXD:SG3.SP1",
+        "EXD:SG3.SP2"
+      ],
+      "TPM-04": [
+        "ADM:SG2.SP1"
+      ],
+      "TPM-04.1": [
+        "EXD:SG3.SP3"
+      ],
+      "TPM-05": [
+        "EXD:SG3.SP4"
+      ],
+      "TPM-08": [
+        "EXD:SG4",
+        "EXD:SG4.SP1"
+      ],
+      "TPM-09": [
+        "EXD:SG4.SP2"
+      ],
+      "VPM-01": [
+        "VAR:SG1",
+        "VAR:SG1.SP1",
+        "VAR:SG1.SP2",
+        "VAR:SG2",
+        "VAR:SG2.SP1",
+        "VAR:SG2.SP2",
+        "VAR:SG2.SP3",
+        "VAR:SG3",
+        "VAR:SG3.SP1",
+        "VAR:SG4",
+        "VAR:SG4.SP1",
+        "VAR:GG1.GP1",
+        "VAR:GG2",
+        "VAR:GG2.GP2"
+      ]
+    }
+  },
+  "framework_to_scf": {
+    "total_mappings": 753,
+    "mappings": {
+      "ADM:GG1": [
+        "GOV-01"
+      ],
+      "ADM:GG2.GP1": [
+        "GOV-01"
+      ],
+      "ADM:GG3": [
+        "GOV-01"
+      ],
+      "AM:GG1": [
+        "GOV-01"
+      ],
+      "AM:GG2.GP1": [
+        "GOV-01"
+      ],
+      "AM:GG3": [
+        "GOV-01"
+      ],
+      "COMM:GG1": [
+        "GOV-01"
+      ],
+      "COMM:GG2.GP1": [
+        "GOV-01"
+      ],
+      "COMM:GG3": [
+        "GOV-01"
+      ],
+      "COMP:GG2.GP1": [
+        "GOV-01"
+      ],
+      "COMP:GG3": [
+        "GOV-01"
+      ],
+      "CTRL:GG1": [
+        "GOV-01"
+      ],
+      "CTRL:GG1.GP1": [
+        "GOV-01",
+        "CPL-13",
+        "PRM-06",
+        "OPS-01.1"
+      ],
+      "CTRL:GG2": [
+        "GOV-01"
+      ],
+      "CTRL:GG2.GP1": [
+        "GOV-01"
+      ],
+      "CTRL:GG2.GP2": [
+        "GOV-01"
+      ],
+      "CTRL:GG3": [
+        "GOV-01"
+      ],
+      "EC:GG1": [
+        "GOV-01"
+      ],
+      "EC:GG2.GP1": [
+        "GOV-01"
+      ],
+      "EC:GG3": [
+        "GOV-01"
+      ],
+      "EF:GG1": [
+        "GOV-01"
+      ],
+      "EF:GG2.GP1": [
+        "GOV-01"
+      ],
+      "EF:GG3": [
+        "GOV-01"
+      ],
+      "EXD:GG1": [
+        "GOV-01"
+      ],
+      "EXD:GG2.GP1": [
+        "GOV-01"
+      ],
+      "EXD:GG3": [
+        "GOV-01"
+      ],
+      "FRM:GG1": [
+        "GOV-01"
+      ],
+      "FRM:GG2.GP1": [
+        "GOV-01"
+      ],
+      "FRM:GG3": [
+        "GOV-01"
+      ],
+      "HRM:GG1": [
+        "GOV-01"
+      ],
+      "HRM:GG2.GP1": [
+        "GOV-01"
+      ],
+      "HRM:GG3": [
+        "GOV-01"
+      ],
+      "ID:GG1": [
+        "GOV-01"
+      ],
+      "ID:GG2.GP1": [
+        "GOV-01"
+      ],
+      "ID:GG3": [
+        "GOV-01"
+      ],
+      "IMC:GG1": [
+        "GOV-01"
+      ],
+      "IMC:GG2.GP1": [
+        "GOV-01"
+      ],
+      "IMC:GG3": [
+        "GOV-01"
+      ],
+      "KIM:GG1": [
+        "GOV-01"
+      ],
+      "KIM:GG2.GP1": [
+        "GOV-01"
+      ],
+      "KIM:GG3": [
+        "GOV-01"
+      ],
+      "MA:GG1": [
+        "GOV-01"
+      ],
+      "MA:GG2.GP1": [
+        "GOV-01"
+      ],
+      "MA:GG3": [
+        "GOV-01"
+      ],
+      "MON:GG1": [
+        "GOV-01"
+      ],
+      "MON:GG2.GP1": [
+        "GOV-01"
+      ],
+      "MON:GG3": [
+        "GOV-01"
+      ],
+      "OPD:GG1": [
+        "GOV-01"
+      ],
+      "OPD:GG2.GP1": [
+        "GOV-01"
+      ],
+      "OPD:GG3": [
+        "GOV-01"
+      ],
+      "OPF:GG1": [
+        "GOV-01"
+      ],
+      "OPF:GG2.GP1": [
+        "GOV-01"
+      ],
+      "OPF:GG3": [
+        "GOV-01"
+      ],
+      "OTA:GG1": [
+        "GOV-01"
+      ],
+      "OTA:GG2.GP1": [
+        "GOV-01"
+      ],
+      "OTA:GG3": [
+        "GOV-01"
+      ],
+      "PM:GG1": [
+        "GOV-01"
+      ],
+      "PM:GG2.GP1": [
+        "GOV-01"
+      ],
+      "PM:GG3": [
+        "GOV-01"
+      ],
+      "RISK:GG1": [
+        "GOV-01"
+      ],
+      "RISK:GG2.GP1": [
+        "GOV-01"
+      ],
+      "RISK:GG3": [
+        "GOV-01"
+      ],
+      "RRD:GG1": [
+        "GOV-01"
+      ],
+      "RRD:GG2.GP1": [
+        "GOV-01"
+      ],
+      "RRD:GG3": [
+        "GOV-01"
+      ],
+      "RRM:GG1": [
+        "GOV-01"
+      ],
+      "RRM:GG2.GP1": [
+        "GOV-01"
+      ],
+      "RRM:GG3": [
+        "GOV-01"
+      ],
+      "RTSE:GG1": [
+        "GOV-01"
+      ],
+      "RTSE:GG2.GP1": [
+        "GOV-01"
+      ],
+      "RTSE:GG3": [
+        "GOV-01"
+      ],
+      "SC:GG1": [
+        "GOV-01"
+      ],
+      "SC:GG2.GP1": [
+        "GOV-01"
+      ],
+      "SC:GG3": [
+        "GOV-01"
+      ],
+      "TM:GG1": [
+        "GOV-01"
+      ],
+      "TM:GG2": [
+        "GOV-01"
+      ],
+      "TM:GG2.GP1": [
+        "GOV-01"
+      ],
+      "TM:GG3": [
+        "GOV-01"
+      ],
+      "VAR:GG1": [
+        "GOV-01"
+      ],
+      "VAR:GG2.GP1": [
+        "GOV-01"
+      ],
+      "VAR:GG3": [
+        "GOV-01"
+      ],
+      "GG1": [
+        "GOV-01"
+      ],
+      "GG1.GP1": [
+        "GOV-01",
+        "CPL-13",
+        "PRM-06",
+        "OPS-01.1"
+      ],
+      "GG2": [
+        "GOV-01"
+      ],
+      "GG2.GP1": [
+        "GOV-01"
+      ],
+      "GG2.GP2": [
+        "GOV-01"
+      ],
+      "GG3": [
+        "GOV-01"
+      ],
+      "GG3.GP1": [
+        "GOV-01"
+      ],
+      "ADM:GG2.GP10": [
+        "GOV-01.1"
+      ],
+      "AM:GG2.GP10": [
+        "GOV-01.1"
+      ],
+      "COMM:GG2.GP10": [
+        "GOV-01.1"
+      ],
+      "COMP:GG2.GP10": [
+        "GOV-01.1"
+      ],
+      "CTRL:GG2.GP10": [
+        "GOV-01.1"
+      ],
+      "EC:GG2.GP10": [
+        "GOV-01.1"
+      ],
+      "EF:SG3": [
+        "GOV-01.1"
+      ],
+      "EF:SG4": [
+        "GOV-01.1"
+      ],
+      "EF:SG4.SP1": [
+        "GOV-01.1"
+      ],
+      "EF:SG4.SP2": [
+        "GOV-01.1"
+      ],
+      "EF:GG1.GP1": [
+        "GOV-01.1",
+        "CPL-13",
+        "PRM-06",
+        "OPS-01.1"
+      ],
+      "EF:GG2": [
+        "GOV-01.1"
+      ],
+      "EF:GG2.GP2": [
+        "GOV-01.1"
+      ],
+      "EF:GG2.GP10": [
+        "GOV-01.1"
+      ],
+      "EXD:GG2.GP10": [
+        "GOV-01.1"
+      ],
+      "FRM:GG2.GP10": [
+        "GOV-01.1"
+      ],
+      "HRM:GG2.GP10": [
+        "GOV-01.1"
+      ],
+      "ID:GG2.GP10": [
+        "GOV-01.1"
+      ],
+      "IMC:GG2.GP10": [
+        "GOV-01.1"
+      ],
+      "KIM:GG2.GP10": [
+        "GOV-01.1"
+      ],
+      "MA:GG2.GP10": [
+        "GOV-01.1"
+      ],
+      "MON:GG2.GP10": [
+        "GOV-01.1"
+      ],
+      "OPD:GG2.GP10": [
+        "GOV-01.1"
+      ],
+      "OPF:GG2.GP10": [
+        "GOV-01.1"
+      ],
+      "OTA:GG2.GP10": [
+        "GOV-01.1"
+      ],
+      "PM:GG2.GP10": [
+        "GOV-01.1"
+      ],
+      "RISK:GG2.GP10": [
+        "GOV-01.1"
+      ],
+      "RRD:GG2.GP10": [
+        "GOV-01.1"
+      ],
+      "RRM:GG2.GP10": [
+        "GOV-01.1"
+      ],
+      "RTSE:GG2.GP10": [
+        "GOV-01.1"
+      ],
+      "SC:GG2.GP10": [
+        "GOV-01.1"
+      ],
+      "TM:GG2.GP10": [
+        "GOV-01.1"
+      ],
+      "VAR:GG2.GP10": [
+        "GOV-01.1"
+      ],
+      "GG2.GP10": [
+        "GOV-01.1"
+      ],
+      "EF:SG3.SP1": [
+        "GOV-01.3"
+      ],
+      "EF:SG3.SP3": [
+        "GOV-01.3"
+      ],
+      "EF:SG4.SP3": [
+        "GOV-01.3"
+      ],
+      "ADM:SG1.SP3": [
+        "GOV-04.1",
+        "AST-03",
+        "AST-03.1"
+      ],
+      "MA:SG1": [
+        "GOV-05"
+      ],
+      "MA:SG1.SP1": [
+        "GOV-05"
+      ],
+      "MA:SG1.SP2": [
+        "GOV-05"
+      ],
+      "MA:SG1.SP3": [
+        "GOV-05"
+      ],
+      "MA:SG1.SP4": [
+        "GOV-05"
+      ],
+      "MA:SG2": [
+        "GOV-05"
+      ],
+      "MA:SG2.SP1": [
+        "GOV-05"
+      ],
+      "MA:SG2.SP2": [
+        "GOV-05"
+      ],
+      "MA:SG2.SP3": [
+        "GOV-05"
+      ],
+      "MA:SG2.SP4": [
+        "GOV-05"
+      ],
+      "MA:GG1.GP1": [
+        "GOV-05",
+        "CPL-13",
+        "PRM-06",
+        "OPS-01.1"
+      ],
+      "MA:GG2": [
+        "GOV-05"
+      ],
+      "MA:GG2.GP2": [
+        "GOV-05"
+      ],
+      "CTRL:SG1": [
+        "GOV-09"
+      ],
+      "CTRL:SG1.SP1": [
+        "GOV-09"
+      ],
+      "EF:SG3.SP2": [
+        "GOV-14"
+      ],
+      "CTRL:SG2.SP1": [
+        "GOV-15.1"
+      ],
+      "EC:SG2": [
+        "GOV-15.1"
+      ],
+      "EC:SG2.SP2": [
+        "GOV-15.1"
+      ],
+      "KIM:SG2": [
+        "GOV-15.1"
+      ],
+      "KIM:SG2.SP2": [
+        "GOV-15.1"
+      ],
+      "TM:SG2": [
+        "GOV-15.1"
+      ],
+      "TM:SG2.SP2": [
+        "GOV-15.1"
+      ],
+      "CTRL:SG2": [
+        "GOV-15.2"
+      ],
+      "CTRL:SG3": [
+        "GOV-15.3"
+      ],
+      "CTRL:SG3.SP1": [
+        "GOV-15.3"
+      ],
+      "CTRL:SG4": [
+        "GOV-15.3"
+      ],
+      "CTRL:SG4.SP1": [
+        "GOV-15.3"
+      ],
+      "ADM:GG2.GP9": [
+        "GOV-19.2"
+      ],
+      "AM:GG2.GP9": [
+        "GOV-19.2"
+      ],
+      "COMM:GG2.GP9": [
+        "GOV-19.2"
+      ],
+      "COMP:GG2.GP9": [
+        "GOV-19.2"
+      ],
+      "CTRL:GG2.GP9": [
+        "GOV-19.2"
+      ],
+      "EC:GG2.GP9": [
+        "GOV-19.2"
+      ],
+      "EF:GG2.GP9": [
+        "GOV-19.2"
+      ],
+      "EXD:GG2.GP9": [
+        "GOV-19.2"
+      ],
+      "FRM:GG2.GP9": [
+        "GOV-19.2"
+      ],
+      "HRM:GG2.GP9": [
+        "GOV-19.2"
+      ],
+      "ID:GG2.GP9": [
+        "GOV-19.2"
+      ],
+      "IMC:GG2.GP9": [
+        "GOV-19.2"
+      ],
+      "KIM:GG2.GP9": [
+        "GOV-19.2"
+      ],
+      "MA:GG2.GP9": [
+        "GOV-19.2"
+      ],
+      "MON:GG2.GP9": [
+        "GOV-19.2"
+      ],
+      "OPD:GG2.GP9": [
+        "GOV-19.2"
+      ],
+      "OPF:GG2.GP9": [
+        "GOV-19.2"
+      ],
+      "OTA:GG2.GP9": [
+        "GOV-19.2"
+      ],
+      "PM:GG2.GP9": [
+        "GOV-19.2"
+      ],
+      "RISK:GG2.GP9": [
+        "GOV-19.2"
+      ],
+      "RRD:GG2.GP9": [
+        "GOV-19.2"
+      ],
+      "RRM:GG2.GP9": [
+        "GOV-19.2"
+      ],
+      "RTSE:GG2.GP9": [
+        "GOV-19.2"
+      ],
+      "SC:GG2.GP9": [
+        "GOV-19.2"
+      ],
+      "TM:GG2.GP9": [
+        "GOV-19.2"
+      ],
+      "VAR:GG2.GP9": [
+        "GOV-19.2"
+      ],
+      "GG2.GP9": [
+        "GOV-19.2"
+      ],
+      "ADM:SG1": [
+        "AST-01"
+      ],
+      "ADM:SG1.SP2": [
+        "AST-01",
+        "SEA-02.1"
+      ],
+      "ADM:GG1.GP1": [
+        "AST-01",
+        "CPL-13",
+        "PRM-06",
+        "OPS-01.1"
+      ],
+      "ADM:GG2": [
+        "AST-01"
+      ],
+      "ADM:GG2.GP2": [
+        "AST-01"
+      ],
+      "KIM:SG1": [
+        "AST-01"
+      ],
+      "KIM:SG1.SP1": [
+        "AST-01"
+      ],
+      "KIM:SG1.SP2": [
+        "AST-01"
+      ],
+      "TM:SG4.SP4": [
+        "AST-01"
+      ],
+      "ADM:SG2": [
+        "AST-01.1"
+      ],
+      "ADM:SG2.SP1": [
+        "AST-01.1",
+        "PRI-05.5",
+        "PRM-06",
+        "RSK-02",
+        "TPM-04"
+      ],
+      "ADM:SG2.SP2": [
+        "AST-01.1",
+        "BCD-02"
+      ],
+      "ADM:GG2.GP7": [
+        "AST-01.2"
+      ],
+      "AM:GG2.GP7": [
+        "AST-01.2"
+      ],
+      "COMM:GG2.GP7": [
+        "AST-01.2"
+      ],
+      "COMP:GG2.GP7": [
+        "AST-01.2"
+      ],
+      "CTRL:GG2.GP7": [
+        "AST-01.2"
+      ],
+      "EC:GG2.GP7": [
+        "AST-01.2"
+      ],
+      "EF:GG2.GP7": [
+        "AST-01.2"
+      ],
+      "EXD:GG2.GP7": [
+        "AST-01.2"
+      ],
+      "FRM:GG2.GP7": [
+        "AST-01.2"
+      ],
+      "HRM:GG2.GP7": [
+        "AST-01.2"
+      ],
+      "ID:GG2.GP7": [
+        "AST-01.2"
+      ],
+      "IMC:GG2.GP7": [
+        "AST-01.2"
+      ],
+      "KIM:GG2.GP7": [
+        "AST-01.2"
+      ],
+      "MA:GG2.GP7": [
+        "AST-01.2"
+      ],
+      "MON:GG2.GP7": [
+        "AST-01.2"
+      ],
+      "OPD:GG2.GP7": [
+        "AST-01.2"
+      ],
+      "OPF:GG2.GP7": [
+        "AST-01.2"
+      ],
+      "OTA:GG2.GP7": [
+        "AST-01.2"
+      ],
+      "PM:GG2.GP7": [
+        "AST-01.2"
+      ],
+      "RISK:GG2.GP7": [
+        "AST-01.2"
+      ],
+      "RRD:GG2.GP7": [
+        "AST-01.2"
+      ],
+      "RRM:GG2.GP7": [
+        "AST-01.2"
+      ],
+      "RTSE:GG2.GP7": [
+        "AST-01.2"
+      ],
+      "SC:GG2.GP7": [
+        "AST-01.2"
+      ],
+      "TM:GG2.GP7": [
+        "AST-01.2"
+      ],
+      "VAR:GG2.GP7": [
+        "AST-01.2"
+      ],
+      "GG2.GP7": [
+        "AST-01.2"
+      ],
+      "ADM:SG1.SP1": [
+        "AST-02"
+      ],
+      "ADM:SG3.SP1": [
+        "AST-02.9",
+        "CHG-01"
+      ],
+      "ADM:SG3.SP2": [
+        "AST-02.9",
+        "CHG-02"
+      ],
+      "TM:SG1": [
+        "AST-31"
+      ],
+      "TM:SG1.SP1": [
+        "AST-31"
+      ],
+      "COMM:SG1": [
+        "BCD-01"
+      ],
+      "COMM:SG1.SP1": [
+        "BCD-01"
+      ],
+      "COMM:SG1.SP2": [
+        "BCD-01"
+      ],
+      "COMM:SG1.SP3": [
+        "BCD-01"
+      ],
+      "COMM:SG2": [
+        "BCD-01"
+      ],
+      "COMM:SG2.SP1": [
+        "BCD-01"
+      ],
+      "COMM:SG2.SP2": [
+        "BCD-01"
+      ],
+      "COMM:SG2.SP3": [
+        "BCD-01"
+      ],
+      "COMM:SG3": [
+        "BCD-01"
+      ],
+      "COMM:SG3.SP1": [
+        "BCD-01"
+      ],
+      "COMM:SG3.SP2": [
+        "BCD-01"
+      ],
+      "COMM:GG1.GP1": [
+        "BCD-01",
+        "CPL-13",
+        "PRM-06",
+        "OPS-01.1"
+      ],
+      "COMM:GG2": [
+        "BCD-01"
+      ],
+      "COMM:GG2.GP2": [
+        "BCD-01"
+      ],
+      "EC:SG1": [
+        "BCD-01"
+      ],
+      "EC:SG4.SP1": [
+        "BCD-01",
+        "CAP-01"
+      ],
+      "EC:SG4.SP3": [
+        "BCD-01"
+      ],
+      "EC:SG4.SP4": [
+        "BCD-01"
+      ],
+      "SC:SG3.SP2": [
+        "BCD-01"
+      ],
+      "SC:SG3.SP3": [
+        "BCD-01"
+      ],
+      "SC:SG3.SP4": [
+        "BCD-01"
+      ],
+      "SC:SG3.SP5": [
+        "BCD-01"
+      ],
+      "SC:SG4": [
+        "BCD-01"
+      ],
+      "SC:SG4.SP1": [
+        "BCD-01"
+      ],
+      "SC:SG4.SP2": [
+        "BCD-01"
+      ],
+      "SC:SG5": [
+        "BCD-01"
+      ],
+      "SC:SG5.SP1": [
+        "BCD-01"
+      ],
+      "SC:SG5.SP2": [
+        "BCD-01"
+      ],
+      "SC:SG5.SP3": [
+        "BCD-01"
+      ],
+      "SC:SG5.SP4": [
+        "BCD-01"
+      ],
+      "SC:SG6": [
+        "BCD-01"
+      ],
+      "SC:SG6.SP1": [
+        "BCD-01"
+      ],
+      "SC:SG6.SP2": [
+        "BCD-01"
+      ],
+      "SC:SG7": [
+        "BCD-01"
+      ],
+      "SC:SG7.SP1": [
+        "BCD-01"
+      ],
+      "SC:SG7.SP2": [
+        "BCD-01"
+      ],
+      "SC:GG1.GP1": [
+        "BCD-01",
+        "CPL-13",
+        "PRM-06",
+        "OPS-01.1"
+      ],
+      "SC:GG2": [
+        "BCD-01"
+      ],
+      "SC:GG2.GP2": [
+        "BCD-01"
+      ],
+      "TM:SG5": [
+        "BCD-01"
+      ],
+      "TM:SG5.SP1": [
+        "BCD-01"
+      ],
+      "TM:SG5.SP2": [
+        "BCD-01"
+      ],
+      "TM:SG5.SP3": [
+        "BCD-01"
+      ],
+      "TM:SG5.SP4": [
+        "BCD-01"
+      ],
+      "TM:GG1.GP1": [
+        "BCD-01",
+        "CPL-13",
+        "PRM-06",
+        "OPS-01.1"
+      ],
+      "TM:GG2.GP2": [
+        "BCD-01"
+      ],
+      "EC:SG1.SP1": [
+        "BCD-01.7"
+      ],
+      "PM:SG3.SP3": [
+        "BCD-01.7"
+      ],
+      "PM:SG3.SP4": [
+        "BCD-01.7"
+      ],
+      "PM:SG3.SP5": [
+        "BCD-01.7"
+      ],
+      "EC:SG1.SP2": [
+        "BCD-02"
+      ],
+      "TM:SG1.SP2": [
+        "BCD-02"
+      ],
+      "TM:SG4": [
+        "CHG-01"
+      ],
+      "TM:SG4.SP1": [
+        "CHG-01"
+      ],
+      "TM:SG4.SP2": [
+        "CHG-01"
+      ],
+      "TM:SG4.SP3": [
+        "CHG-01"
+      ],
+      "COMP:SG1": [
+        "CPL-01"
+      ],
+      "COMP:SG1.SP1": [
+        "CPL-01"
+      ],
+      "COMP:SG1.SP2": [
+        "CPL-01"
+      ],
+      "COMP:SG1.SP3": [
+        "CPL-01"
+      ],
+      "COMP:SG2": [
+        "CPL-01"
+      ],
+      "COMP:SG2.SP1": [
+        "CPL-01"
+      ],
+      "COMP:SG2.SP2": [
+        "CPL-01"
+      ],
+      "COMP:SG2.SP3": [
+        "CPL-01"
+      ],
+      "COMP:GG1": [
+        "CPL-01"
+      ],
+      "COMP:GG1.GP1": [
+        "CPL-01",
+        "CPL-13",
+        "PRM-06",
+        "OPS-01.1"
+      ],
+      "COMP:GG2": [
+        "CPL-01"
+      ],
+      "COMP:GG2.GP2": [
+        "CPL-01"
+      ],
+      "COMP:SG3.SP3": [
+        "CPL-01.1"
+      ],
+      "COMP:SG3.SP1": [
+        "CPL-01.3"
+      ],
+      "COMP:SG3.SP2": [
+        "CPL-01.3"
+      ],
+      "COMP:SG3": [
+        "CPL-01.5"
+      ],
+      "ADM:GG2.GP8": [
+        "CPL-02"
+      ],
+      "AM:GG2.GP8": [
+        "CPL-02"
+      ],
+      "COMM:GG2.GP8": [
+        "CPL-02"
+      ],
+      "COMP:SG4": [
+        "CPL-02"
+      ],
+      "COMP:GG2.GP8": [
+        "CPL-02"
+      ],
+      "CTRL:GG2.GP8": [
+        "CPL-02"
+      ],
+      "EC:GG2.GP8": [
+        "CPL-02"
+      ],
+      "EF:GG2.GP8": [
+        "CPL-02"
+      ],
+      "EXD:GG2.GP8": [
+        "CPL-02"
+      ],
+      "FRM:GG2.GP8": [
+        "CPL-02"
+      ],
+      "HRM:GG2.GP8": [
+        "CPL-02"
+      ],
+      "ID:GG2.GP8": [
+        "CPL-02"
+      ],
+      "IMC:GG2.GP8": [
+        "CPL-02"
+      ],
+      "KIM:GG2.GP8": [
+        "CPL-02"
+      ],
+      "MA:GG2.GP8": [
+        "CPL-02"
+      ],
+      "MON:GG2.GP8": [
+        "CPL-02"
+      ],
+      "OPD:GG2.GP8": [
+        "CPL-02"
+      ],
+      "OPF:GG2.GP8": [
+        "CPL-02"
+      ],
+      "OTA:GG2.GP8": [
+        "CPL-02"
+      ],
+      "PM:GG2.GP8": [
+        "CPL-02"
+      ],
+      "RISK:GG2.GP8": [
+        "CPL-02"
+      ],
+      "RRD:GG2.GP8": [
+        "CPL-02"
+      ],
+      "RRM:GG2.GP8": [
+        "CPL-02"
+      ],
+      "RTSE:GG2.GP8": [
+        "CPL-02"
+      ],
+      "SC:GG2.GP8": [
+        "CPL-02"
+      ],
+      "TM:GG2.GP8": [
+        "CPL-02"
+      ],
+      "VAR:GG2.GP8": [
+        "CPL-02"
+      ],
+      "GG2.GP8": [
+        "CPL-02"
+      ],
+      "COMP:SG4.SP1": [
+        "CPL-03.1"
+      ],
+      "ADM:GG3.GP2": [
+        "CPL-13"
+      ],
+      "AM:GG1.GP1": [
+        "CPL-13",
+        "IAC-01",
+        "PRM-06",
+        "OPS-01.1"
+      ],
+      "AM:GG3.GP2": [
+        "CPL-13"
+      ],
+      "COMM:GG3.GP2": [
+        "CPL-13"
+      ],
+      "COMP:GG3.GP2": [
+        "CPL-13"
+      ],
+      "CTRL:GG3.GP2": [
+        "CPL-13"
+      ],
+      "EC:GG1.GP1": [
+        "CPL-13",
+        "PES-01",
+        "PRM-06",
+        "OPS-01.1"
+      ],
+      "EC:GG3.GP2": [
+        "CPL-13"
+      ],
+      "EF:GG3.GP2": [
+        "CPL-13"
+      ],
+      "EXD:GG1.GP1": [
+        "CPL-13",
+        "PRM-06",
+        "OPS-01.1",
+        "TPM-01"
+      ],
+      "EXD:GG3.GP2": [
+        "CPL-13"
+      ],
+      "FRM:GG1.GP1": [
+        "CPL-13",
+        "PRM-01",
+        "PRM-06",
+        "OPS-01.1"
+      ],
+      "FRM:GG3.GP2": [
+        "CPL-13"
+      ],
+      "HRM:GG1.GP1": [
+        "CPL-13",
+        "HRS-01",
+        "PRM-06",
+        "OPS-01.1"
+      ],
+      "HRM:GG3.GP2": [
+        "CPL-13"
+      ],
+      "ID:GG1.GP1": [
+        "CPL-13",
+        "IAC-01",
+        "PRM-06",
+        "OPS-01.1"
+      ],
+      "ID:GG3.GP2": [
+        "CPL-13"
+      ],
+      "IMC:GG1.GP1": [
+        "CPL-13",
+        "IRO-01",
+        "PRM-06",
+        "OPS-01.1"
+      ],
+      "IMC:GG3.GP2": [
+        "CPL-13"
+      ],
+      "KIM:GG1.GP1": [
+        "CPL-13",
+        "DCH-01",
+        "PRM-06",
+        "OPS-01.1"
+      ],
+      "KIM:GG3.GP2": [
+        "CPL-13"
+      ],
+      "MA:GG3.GP2": [
+        "CPL-13"
+      ],
+      "MON:GG1.GP1": [
+        "CPL-13",
+        "MON-01",
+        "PRM-06",
+        "OPS-01.1"
+      ],
+      "MON:GG3.GP2": [
+        "CPL-13"
+      ],
+      "OPD:GG1.GP1": [
+        "CPL-13",
+        "PRM-06",
+        "OPS-01.1"
+      ],
+      "OPD:GG3.GP2": [
+        "CPL-13"
+      ],
+      "OPF:GG1.GP1": [
+        "CPL-13",
+        "PRM-06",
+        "OPS-01.1"
+      ],
+      "OPF:GG3.GP2": [
+        "CPL-13"
+      ],
+      "OTA:GG1.GP1": [
+        "CPL-13",
+        "PRM-06",
+        "OPS-01.1",
+        "SAT-01"
+      ],
+      "OTA:GG3.GP2": [
+        "CPL-13"
+      ],
+      "PM:GG1.GP1": [
+        "CPL-13",
+        "HRS-01",
+        "PRM-06",
+        "OPS-01.1"
+      ],
+      "PM:GG3.GP2": [
+        "CPL-13"
+      ],
+      "RISK:GG1.GP1": [
+        "CPL-13",
+        "PRM-06",
+        "RSK-01",
+        "OPS-01.1"
+      ],
+      "RISK:GG3.GP2": [
+        "CPL-13"
+      ],
+      "RRD:GG1.GP1": [
+        "CPL-13",
+        "PRM-06",
+        "SEA-01.2",
+        "OPS-01.1"
+      ],
+      "RRD:GG3.GP2": [
+        "CPL-13"
+      ],
+      "RRM:GG1.GP1": [
+        "CPL-13",
+        "PRM-06",
+        "SEA-01.2",
+        "OPS-01.1"
+      ],
+      "RRM:GG3.GP2": [
+        "CPL-13"
+      ],
+      "RTSE:GG1.GP1": [
+        "CPL-13",
+        "PRM-06",
+        "SEA-01",
+        "OPS-01.1"
+      ],
+      "RTSE:GG3.GP2": [
+        "CPL-13"
+      ],
+      "SC:GG3.GP2": [
+        "CPL-13"
+      ],
+      "TM:GG3.GP2": [
+        "CPL-13"
+      ],
+      "VAR:GG1.GP1": [
+        "CPL-13",
+        "PRM-06",
+        "OPS-01.1",
+        "VPM-01"
+      ],
+      "VAR:GG3.GP2": [
+        "CPL-13"
+      ],
+      "GG3.GP2": [
+        "CPL-13"
+      ],
+      "OPD:SG1.SP2": [
+        "CFG-02.9"
+      ],
+      "MON:SG1": [
+        "MON-01"
+      ],
+      "MON:SG1.SP1": [
+        "MON-01"
+      ],
+      "MON:SG1.SP2": [
+        "MON-01"
+      ],
+      "MON:SG1.SP3": [
+        "MON-01"
+      ],
+      "MON:SG1.SP4": [
+        "MON-01"
+      ],
+      "MON:SG2": [
+        "MON-01"
+      ],
+      "MON:SG2.SP1": [
+        "MON-01"
+      ],
+      "MON:SG2.SP2": [
+        "MON-01"
+      ],
+      "MON:SG2.SP3": [
+        "MON-01"
+      ],
+      "MON:SG2.SP4": [
+        "MON-01"
+      ],
+      "MON:GG2": [
+        "MON-01"
+      ],
+      "MON:GG2.GP2": [
+        "MON-01"
+      ],
+      "IMC:SG2": [
+        "MON-01.4"
+      ],
+      "IMC:SG2.SP1": [
+        "MON-01.4"
+      ],
+      "IMC:SG2.SP2": [
+        "MON-01.4"
+      ],
+      "KIM:SG4": [
+        "DCH-01"
+      ],
+      "KIM:SG4.SP1": [
+        "DCH-01"
+      ],
+      "KIM:SG4.SP2": [
+        "DCH-01"
+      ],
+      "KIM:SG4.SP3": [
+        "DCH-01"
+      ],
+      "KIM:SG5": [
+        "DCH-01"
+      ],
+      "KIM:SG5.SP1": [
+        "DCH-01"
+      ],
+      "KIM:SG5.SP2": [
+        "DCH-01"
+      ],
+      "KIM:SG5.SP3": [
+        "DCH-01"
+      ],
+      "KIM:SG6": [
+        "DCH-01"
+      ],
+      "KIM:SG6.SP1": [
+        "DCH-01"
+      ],
+      "KIM:SG6.SP2": [
+        "DCH-01"
+      ],
+      "KIM:GG2": [
+        "DCH-01"
+      ],
+      "KIM:GG2.GP2": [
+        "DCH-01"
+      ],
+      "HRM:SG1": [
+        "HRS-01"
+      ],
+      "HRM:SG1.SP1": [
+        "HRS-01"
+      ],
+      "HRM:SG1.SP2": [
+        "HRS-01"
+      ],
+      "HRM:SG2.SP1": [
+        "HRS-01"
+      ],
+      "HRM:SG2.SP2": [
+        "HRS-01"
+      ],
+      "HRM:SG3": [
+        "HRS-01"
+      ],
+      "HRM:SG3.SP3": [
+        "HRS-01"
+      ],
+      "HRM:SG4": [
+        "HRS-01"
+      ],
+      "HRM:SG4.SP1": [
+        "HRS-01"
+      ],
+      "HRM:SG4.SP2": [
+        "HRS-01"
+      ],
+      "HRM:SG4.SP3": [
+        "HRS-01"
+      ],
+      "HRM:GG2": [
+        "HRS-01"
+      ],
+      "HRM:GG2.GP2": [
+        "HRS-01"
+      ],
+      "PM:SG3": [
+        "HRS-01"
+      ],
+      "PM:SG3.SP1": [
+        "HRS-01"
+      ],
+      "PM:SG3.SP2": [
+        "HRS-01"
+      ],
+      "PM:GG2": [
+        "HRS-01"
+      ],
+      "PM:GG2.GP2": [
+        "HRS-01"
+      ],
+      "ADM:GG2.GP4": [
+        "HRS-03"
+      ],
+      "ADM:GG2.GP6": [
+        "HRS-03"
+      ],
+      "AM:GG2.GP4": [
+        "HRS-03"
+      ],
+      "AM:GG2.GP6": [
+        "HRS-03"
+      ],
+      "COMM:GG2.GP4": [
+        "HRS-03"
+      ],
+      "COMM:GG2.GP6": [
+        "HRS-03"
+      ],
+      "COMP:GG2.GP4": [
+        "HRS-03"
+      ],
+      "COMP:GG2.GP6": [
+        "HRS-03"
+      ],
+      "CTRL:GG2.GP4": [
+        "HRS-03"
+      ],
+      "CTRL:GG2.GP6": [
+        "HRS-03"
+      ],
+      "EC:GG2.GP4": [
+        "HRS-03"
+      ],
+      "EC:GG2.GP6": [
+        "HRS-03"
+      ],
+      "EF:GG2.GP4": [
+        "HRS-03"
+      ],
+      "EF:GG2.GP6": [
+        "HRS-03"
+      ],
+      "EXD:GG2.GP4": [
+        "HRS-03"
+      ],
+      "EXD:GG2.GP6": [
+        "HRS-03"
+      ],
+      "FRM:GG2.GP4": [
+        "HRS-03"
+      ],
+      "FRM:GG2.GP6": [
+        "HRS-03"
+      ],
+      "HRM:SG3.SP1": [
+        "HRS-03"
+      ],
+      "HRM:GG2.GP4": [
+        "HRS-03"
+      ],
+      "HRM:GG2.GP6": [
+        "HRS-03"
+      ],
+      "ID:GG2.GP4": [
+        "HRS-03"
+      ],
+      "ID:GG2.GP6": [
+        "HRS-03"
+      ],
+      "IMC:GG2.GP4": [
+        "HRS-03"
+      ],
+      "IMC:GG2.GP6": [
+        "HRS-03"
+      ],
+      "KIM:GG2.GP4": [
+        "HRS-03"
+      ],
+      "KIM:GG2.GP6": [
+        "HRS-03"
+      ],
+      "MA:GG2.GP4": [
+        "HRS-03"
+      ],
+      "MA:GG2.GP6": [
+        "HRS-03"
+      ],
+      "MON:GG2.GP4": [
+        "HRS-03"
+      ],
+      "MON:GG2.GP6": [
+        "HRS-03"
+      ],
+      "OPD:GG2.GP4": [
+        "HRS-03"
+      ],
+      "OPD:GG2.GP6": [
+        "HRS-03"
+      ],
+      "OPF:GG2.GP4": [
+        "HRS-03"
+      ],
+      "OPF:GG2.GP6": [
+        "HRS-03"
+      ],
+      "OTA:GG2.GP4": [
+        "HRS-03"
+      ],
+      "OTA:GG2.GP6": [
+        "HRS-03"
+      ],
+      "PM:GG2.GP4": [
+        "HRS-03"
+      ],
+      "PM:GG2.GP6": [
+        "HRS-03"
+      ],
+      "RISK:GG2.GP4": [
+        "HRS-03"
+      ],
+      "RISK:GG2.GP6": [
+        "HRS-03"
+      ],
+      "RRD:GG2.GP4": [
+        "HRS-03"
+      ],
+      "RRD:GG2.GP6": [
+        "HRS-03"
+      ],
+      "RRM:GG2.GP4": [
+        "HRS-03"
+      ],
+      "RRM:GG2.GP6": [
+        "HRS-03"
+      ],
+      "RTSE:GG2.GP4": [
+        "HRS-03"
+      ],
+      "RTSE:GG2.GP6": [
+        "HRS-03"
+      ],
+      "SC:GG2.GP4": [
+        "HRS-03"
+      ],
+      "SC:GG2.GP6": [
+        "HRS-03"
+      ],
+      "TM:GG2.GP4": [
+        "HRS-03"
+      ],
+      "TM:GG2.GP6": [
+        "HRS-03"
+      ],
+      "VAR:GG2.GP4": [
+        "HRS-03"
+      ],
+      "VAR:GG2.GP6": [
+        "HRS-03"
+      ],
+      "GG2.GP4": [
+        "HRS-03"
+      ],
+      "GG2.GP6": [
+        "HRS-03"
+      ],
+      "HRM:SG3.SP2": [
+        "HRS-03.1"
+      ],
+      "HRM:SG3.SP4": [
+        "HRS-07"
+      ],
+      "HRM:SG1.SP3": [
+        "HRS-13"
+      ],
+      "HRM:SG2": [
+        "HRS-13.1"
+      ],
+      "PM:SG1": [
+        "HRS-13.2"
+      ],
+      "PM:SG1.SP1": [
+        "HRS-13.2"
+      ],
+      "PM:SG2": [
+        "HRS-13.2"
+      ],
+      "PM:SG2.SP1": [
+        "HRS-13.2"
+      ],
+      "AM:SG1": [
+        "IAC-01"
+      ],
+      "AM:GG2": [
+        "IAC-01"
+      ],
+      "AM:GG2.GP2": [
+        "IAC-01"
+      ],
+      "ID:SG1": [
+        "IAC-01"
+      ],
+      "ID:SG1.SP1": [
+        "IAC-01"
+      ],
+      "ID:SG1.SP2": [
+        "IAC-01"
+      ],
+      "ID:SG1.SP3": [
+        "IAC-01"
+      ],
+      "ID:SG2": [
+        "IAC-01"
+      ],
+      "ID:SG2.SP1": [
+        "IAC-01"
+      ],
+      "ID:SG2.SP2": [
+        "IAC-01"
+      ],
+      "ID:SG2.SP3": [
+        "IAC-01"
+      ],
+      "ID:SG2.SP4": [
+        "IAC-01"
+      ],
+      "ID:GG2": [
+        "IAC-01"
+      ],
+      "ID:GG2.GP2": [
+        "IAC-01"
+      ],
+      "AM:SG1.SP1": [
+        "IAC-08"
+      ],
+      "AM:SG1.SP2": [
+        "IAC-15.7"
+      ],
+      "AM:SG1.SP3": [
+        "IAC-17"
+      ],
+      "AM:SG1.SP4": [
+        "IAC-17"
+      ],
+      "IMC:SG1": [
+        "IRO-01"
+      ],
+      "IMC:SG1.SP1": [
+        "IRO-01"
+      ],
+      "IMC:SG1.SP2": [
+        "IRO-01"
+      ],
+      "IMC:GG2": [
+        "IRO-01"
+      ],
+      "IMC:GG2.GP2": [
+        "IRO-01"
+      ],
+      "IMC:SG2.SP4": [
+        "IRO-02"
+      ],
+      "IMC:SG3": [
+        "IRO-02"
+      ],
+      "IMC:SG3.SP1": [
+        "IRO-02"
+      ],
+      "IMC:SG3.SP2": [
+        "IRO-02"
+      ],
+      "IMC:SG4": [
+        "IRO-02"
+      ],
+      "IMC:SG4.SP1": [
+        "IRO-02"
+      ],
+      "IMC:SG4.SP2": [
+        "IRO-02"
+      ],
+      "IMC:SG4.SP3": [
+        "IRO-02"
+      ],
+      "IMC:SG4.SP4": [
+        "IRO-02"
+      ],
+      "IMC:SG2.SP3": [
+        "IRO-08"
+      ],
+      "IMC:SG5": [
+        "IRO-13"
+      ],
+      "IMC:SG5.SP1": [
+        "IRO-13"
+      ],
+      "IMC:SG5.SP2": [
+        "IRO-13"
+      ],
+      "EC:SG4": [
+        "PES-01"
+      ],
+      "EC:SG4.SP2": [
+        "PES-01"
+      ],
+      "EC:GG2": [
+        "PES-01"
+      ],
+      "EC:GG2.GP2": [
+        "PES-01"
+      ],
+      "EF:SG1.SP3": [
+        "PRM-01"
+      ],
+      "FRM:SG1": [
+        "PRM-01"
+      ],
+      "FRM:SG1.SP1": [
+        "PRM-01"
+      ],
+      "FRM:SG1.SP2": [
+        "PRM-01"
+      ],
+      "FRM:SG2": [
+        "PRM-01"
+      ],
+      "FRM:SG2.SP1": [
+        "PRM-01"
+      ],
+      "FRM:SG2.SP2": [
+        "PRM-01"
+      ],
+      "FRM:SG2.SP3": [
+        "PRM-01"
+      ],
+      "FRM:SG3": [
+        "PRM-01"
+      ],
+      "FRM:SG3.SP1": [
+        "PRM-01"
+      ],
+      "FRM:SG4": [
+        "PRM-01"
+      ],
+      "FRM:SG4.SP1": [
+        "PRM-01"
+      ],
+      "FRM:SG4.SP2": [
+        "PRM-01"
+      ],
+      "FRM:SG5": [
+        "PRM-01"
+      ],
+      "FRM:SG5.SP1": [
+        "PRM-01"
+      ],
+      "FRM:SG5.SP2": [
+        "PRM-01"
+      ],
+      "FRM:SG5.SP3": [
+        "PRM-01"
+      ],
+      "FRM:GG2": [
+        "PRM-01"
+      ],
+      "FRM:GG2.GP2": [
+        "PRM-01"
+      ],
+      "SC:SG1": [
+        "PRM-01"
+      ],
+      "SC:SG1.SP1": [
+        "PRM-01"
+      ],
+      "SC:SG1.SP2": [
+        "PRM-01"
+      ],
+      "SC:SG2": [
+        "PRM-01"
+      ],
+      "SC:SG2.SP1": [
+        "PRM-01"
+      ],
+      "EF:SG1": [
+        "PRM-01.1"
+      ],
+      "EF:SG1.SP1": [
+        "PRM-01.1"
+      ],
+      "EF:SG1.SP2": [
+        "PRM-01.1"
+      ],
+      "EF:SG2.SP1": [
+        "PRM-01.1"
+      ],
+      "ADM:GG2.GP3": [
+        "PRM-02"
+      ],
+      "AM:GG2.GP3": [
+        "PRM-02"
+      ],
+      "COMM:GG2.GP3": [
+        "PRM-02"
+      ],
+      "COMP:GG2.GP3": [
+        "PRM-02"
+      ],
+      "CTRL:GG2.GP3": [
+        "PRM-02"
+      ],
+      "EC:SG4.SP5": [
+        "PRM-02"
+      ],
+      "EC:GG2.GP3": [
+        "PRM-02"
+      ],
+      "EF:SG2": [
+        "PRM-02"
+      ],
+      "EF:GG2.GP3": [
+        "PRM-02"
+      ],
+      "EXD:GG2.GP3": [
+        "PRM-02"
+      ],
+      "FRM:GG2.GP3": [
+        "PRM-02"
+      ],
+      "HRM:GG2.GP3": [
+        "PRM-02"
+      ],
+      "ID:GG2.GP3": [
+        "PRM-02"
+      ],
+      "IMC:GG2.GP3": [
+        "PRM-02"
+      ],
+      "KIM:GG2.GP3": [
+        "PRM-02"
+      ],
+      "MA:GG2.GP3": [
+        "PRM-02"
+      ],
+      "MON:GG2.GP3": [
+        "PRM-02"
+      ],
+      "OPD:GG2.GP3": [
+        "PRM-02"
+      ],
+      "OPF:GG2.GP3": [
+        "PRM-02"
+      ],
+      "OTA:GG2.GP3": [
+        "PRM-02"
+      ],
+      "PM:GG2.GP3": [
+        "PRM-02"
+      ],
+      "RISK:GG2.GP3": [
+        "PRM-02"
+      ],
+      "RRD:GG2.GP3": [
+        "PRM-02"
+      ],
+      "RRM:GG2.GP3": [
+        "PRM-02"
+      ],
+      "RTSE:GG2.GP3": [
+        "PRM-02"
+      ],
+      "SC:GG2.GP3": [
+        "PRM-02"
+      ],
+      "TM:GG2.GP3": [
+        "PRM-02"
+      ],
+      "VAR:GG2.GP3": [
+        "PRM-02"
+      ],
+      "GG2.GP3": [
+        "PRM-02"
+      ],
+      "EF:SG2.SP2": [
+        "PRM-04"
+      ],
+      "SC:SG2.SP2": [
+        "PRM-06"
+      ],
+      "SC:SG2.SP3": [
+        "PRM-06"
+      ],
+      "SC:SG3": [
+        "PRM-06"
+      ],
+      "SC:SG3.SP1": [
+        "PRM-06"
+      ],
+      "ADM:SG3": [
+        "PRM-07"
+      ],
+      "RISK:SG1": [
+        "RSK-01"
+      ],
+      "RISK:SG1.SP1": [
+        "RSK-01"
+      ],
+      "RISK:SG1.SP2": [
+        "RSK-01"
+      ],
+      "RISK:SG4.SP3": [
+        "RSK-01"
+      ],
+      "RISK:SG6": [
+        "RSK-01"
+      ],
+      "RISK:SG6.SP1": [
+        "RSK-01"
+      ],
+      "RISK:SG6.SP2": [
+        "RSK-01"
+      ],
+      "RISK:GG2": [
+        "RSK-01"
+      ],
+      "RISK:GG2.GP2": [
+        "RSK-01"
+      ],
+      "TM:SG3": [
+        "RSK-01"
+      ],
+      "TM:SG3.SP1": [
+        "RSK-01"
+      ],
+      "RISK:SG2": [
+        "RSK-01.5"
+      ],
+      "RISK:SG2.SP1": [
+        "RSK-01.5"
+      ],
+      "RISK:SG4.SP2": [
+        "RSK-02"
+      ],
+      "RISK:SG4": [
+        "RSK-02.1"
+      ],
+      "EC:SG3": [
+        "RSK-03"
+      ],
+      "KIM:SG3": [
+        "RSK-03"
+      ],
+      "KIM:SG3.SP1": [
+        "RSK-03"
+      ],
+      "RISK:SG3": [
+        "RSK-03"
+      ],
+      "RISK:SG3.SP1": [
+        "RSK-03"
+      ],
+      "RISK:SG3.SP2": [
+        "RSK-03"
+      ],
+      "EC:SG3.SP1": [
+        "RSK-04"
+      ],
+      "RISK:SG4.SP1": [
+        "RSK-04"
+      ],
+      "RISK:SG2.SP2": [
+        "RSK-04.2"
+      ],
+      "RISK:SG5": [
+        "RSK-06"
+      ],
+      "EC:SG3.SP2": [
+        "RSK-06.4"
+      ],
+      "KIM:SG3.SP2": [
+        "RSK-06.4"
+      ],
+      "PM:SG2.SP2": [
+        "RSK-06.4"
+      ],
+      "RISK:SG5.SP1": [
+        "RSK-06.4"
+      ],
+      "RISK:SG5.SP2": [
+        "RSK-06.4"
+      ],
+      "TM:SG3.SP2": [
+        "RSK-06.4"
+      ],
+      "RTSE:SG1": [
+        "SEA-01"
+      ],
+      "RTSE:SG1.SP1": [
+        "SEA-01"
+      ],
+      "RTSE:SG1.SP2": [
+        "SEA-01"
+      ],
+      "RTSE:SG1.SP3": [
+        "SEA-01"
+      ],
+      "RTSE:SG1.SP4": [
+        "SEA-01"
+      ],
+      "RTSE:SG1.SP5": [
+        "SEA-01"
+      ],
+      "RTSE:SG2": [
+        "SEA-01"
+      ],
+      "RTSE:SG2.SP1": [
+        "SEA-01"
+      ],
+      "RTSE:SG2.SP2": [
+        "SEA-01"
+      ],
+      "RTSE:SG3": [
+        "SEA-01"
+      ],
+      "RTSE:GG2": [
+        "SEA-01"
+      ],
+      "RTSE:GG2.GP2": [
+        "SEA-01"
+      ],
+      "EC:SG2.SP1": [
+        "SEA-01.3"
+      ],
+      "KIM:SG2.SP1": [
+        "SEA-01.3"
+      ],
+      "RRD:SG1": [
+        "SEA-01.3"
+      ],
+      "RRD:SG1.SP1": [
+        "SEA-01.3"
+      ],
+      "RRD:SG2": [
+        "SEA-01.3"
+      ],
+      "RRD:SG2.SP1": [
+        "SEA-01.3"
+      ],
+      "RRD:SG2.SP2": [
+        "SEA-01.3"
+      ],
+      "RRD:SG3": [
+        "SEA-01.3"
+      ],
+      "RRD:SG3.SP1": [
+        "SEA-01.3"
+      ],
+      "RRD:SG3.SP2": [
+        "SEA-01.3"
+      ],
+      "RRD:SG3.SP3": [
+        "SEA-01.3"
+      ],
+      "RRD:GG2": [
+        "SEA-01.3"
+      ],
+      "RRD:GG2.GP2": [
+        "SEA-01.3"
+      ],
+      "RRM:SG1": [
+        "SEA-01.3"
+      ],
+      "RRM:SG1.SP1": [
+        "SEA-01.3"
+      ],
+      "RRM:SG1.SP2": [
+        "SEA-01.3"
+      ],
+      "RRM:SG1.SP3": [
+        "SEA-01.3"
+      ],
+      "RRM:SG1.SP4": [
+        "SEA-01.3"
+      ],
+      "RRM:SG1.SP5": [
+        "SEA-01.3"
+      ],
+      "RRM:GG2": [
+        "SEA-01.3"
+      ],
+      "RRM:GG2.GP2": [
+        "SEA-01.3"
+      ],
+      "RTSE:SG3.SP1": [
+        "SEA-01.3"
+      ],
+      "RTSE:SG3.SP2": [
+        "SEA-01.3"
+      ],
+      "TM:SG2.SP1": [
+        "SEA-01.3"
+      ],
+      "ADM:GG3.GP1": [
+        "OPS-01.1"
+      ],
+      "AM:GG3.GP1": [
+        "OPS-01.1"
+      ],
+      "COMM:GG3.GP1": [
+        "OPS-01.1"
+      ],
+      "COMP:GG3.GP1": [
+        "OPS-01.1"
+      ],
+      "CTRL:GG3.GP1": [
+        "OPS-01.1"
+      ],
+      "EC:GG3.GP1": [
+        "OPS-01.1"
+      ],
+      "EF:GG3.GP1": [
+        "OPS-01.1"
+      ],
+      "EXD:GG3.GP1": [
+        "OPS-01.1"
+      ],
+      "FRM:GG3.GP1": [
+        "OPS-01.1"
+      ],
+      "HRM:GG3.GP1": [
+        "OPS-01.1"
+      ],
+      "ID:GG3.GP1": [
+        "OPS-01.1"
+      ],
+      "IMC:GG3.GP1": [
+        "OPS-01.1"
+      ],
+      "KIM:GG3.GP1": [
+        "OPS-01.1"
+      ],
+      "MA:GG3.GP1": [
+        "OPS-01.1"
+      ],
+      "MON:GG3.GP1": [
+        "OPS-01.1"
+      ],
+      "OPD:SG1": [
+        "OPS-01.1"
+      ],
+      "OPD:SG1.SP1": [
+        "OPS-01.1"
+      ],
+      "OPD:GG3.GP1": [
+        "OPS-01.1"
+      ],
+      "OPF:GG3.GP1": [
+        "OPS-01.1"
+      ],
+      "OTA:GG3.GP1": [
+        "OPS-01.1"
+      ],
+      "PM:GG3.GP1": [
+        "OPS-01.1"
+      ],
+      "RISK:GG3.GP1": [
+        "OPS-01.1"
+      ],
+      "RRD:GG3.GP1": [
+        "OPS-01.1"
+      ],
+      "RRM:GG3.GP1": [
+        "OPS-01.1"
+      ],
+      "RTSE:GG3.GP1": [
+        "OPS-01.1"
+      ],
+      "SC:GG3.GP1": [
+        "OPS-01.1"
+      ],
+      "TM:GG3.GP1": [
+        "OPS-01.1"
+      ],
+      "VAR:GG3.GP1": [
+        "OPS-01.1"
+      ],
+      "OTA:SG1": [
+        "SAT-01"
+      ],
+      "OTA:SG1.SP1": [
+        "SAT-01"
+      ],
+      "OTA:SG1.SP2": [
+        "SAT-01"
+      ],
+      "OTA:SG1.SP3": [
+        "SAT-01"
+      ],
+      "OTA:SG2": [
+        "SAT-01"
+      ],
+      "OTA:SG2.SP1": [
+        "SAT-01"
+      ],
+      "OTA:SG2.SP2": [
+        "SAT-01"
+      ],
+      "OTA:SG2.SP3": [
+        "SAT-01"
+      ],
+      "OTA:SG3": [
+        "SAT-01"
+      ],
+      "OTA:SG3.SP1": [
+        "SAT-01"
+      ],
+      "OTA:SG3.SP2": [
+        "SAT-01"
+      ],
+      "OTA:SG3.SP3": [
+        "SAT-01"
+      ],
+      "OTA:SG4": [
+        "SAT-01"
+      ],
+      "OTA:SG4.SP1": [
+        "SAT-01"
+      ],
+      "OTA:SG4.SP2": [
+        "SAT-01"
+      ],
+      "OTA:SG4.SP3": [
+        "SAT-01"
+      ],
+      "OTA:GG2": [
+        "SAT-01"
+      ],
+      "OTA:GG2.GP2": [
+        "SAT-01"
+      ],
+      "ADM:GG2.GP5": [
+        "SAT-03"
+      ],
+      "AM:GG2.GP5": [
+        "SAT-03"
+      ],
+      "COMM:GG2.GP5": [
+        "SAT-03"
+      ],
+      "COMP:GG2.GP5": [
+        "SAT-03"
+      ],
+      "CTRL:GG2.GP5": [
+        "SAT-03"
+      ],
+      "EC:GG2.GP5": [
+        "SAT-03"
+      ],
+      "EF:GG2.GP5": [
+        "SAT-03"
+      ],
+      "EXD:GG2.GP5": [
+        "SAT-03"
+      ],
+      "FRM:GG2.GP5": [
+        "SAT-03"
+      ],
+      "HRM:GG2.GP5": [
+        "SAT-03"
+      ],
+      "ID:GG2.GP5": [
+        "SAT-03"
+      ],
+      "IMC:GG2.GP5": [
+        "SAT-03"
+      ],
+      "KIM:GG2.GP5": [
+        "SAT-03"
+      ],
+      "MA:GG2.GP5": [
+        "SAT-03"
+      ],
+      "MON:GG2.GP5": [
+        "SAT-03"
+      ],
+      "OPD:GG2.GP5": [
+        "SAT-03"
+      ],
+      "OPF:GG2.GP5": [
+        "SAT-03"
+      ],
+      "OTA:GG2.GP5": [
+        "SAT-03"
+      ],
+      "PM:GG2.GP5": [
+        "SAT-03"
+      ],
+      "RISK:GG2.GP5": [
+        "SAT-03"
+      ],
+      "RRD:GG2.GP5": [
+        "SAT-03"
+      ],
+      "RRM:GG2.GP5": [
+        "SAT-03"
+      ],
+      "RTSE:GG2.GP5": [
+        "SAT-03"
+      ],
+      "SC:GG2.GP5": [
+        "SAT-03"
+      ],
+      "TM:GG2.GP5": [
+        "SAT-03"
+      ],
+      "VAR:GG2.GP5": [
+        "SAT-03"
+      ],
+      "GG2.GP5": [
+        "SAT-03"
+      ],
+      "EXD:GG2": [
+        "TPM-01"
+      ],
+      "EXD:GG2.GP2": [
+        "TPM-01"
+      ],
+      "EXD:SG1": [
+        "TPM-01.1"
+      ],
+      "EXD:SG1.SP1": [
+        "TPM-01.1"
+      ],
+      "EXD:SG1.SP2": [
+        "TPM-02"
+      ],
+      "EXD:SG2": [
+        "TPM-03"
+      ],
+      "EXD:SG2.SP1": [
+        "TPM-03"
+      ],
+      "EXD:SG2.SP2": [
+        "TPM-03"
+      ],
+      "EXD:SG3": [
+        "TPM-03"
+      ],
+      "EXD:SG3.SP1": [
+        "TPM-03"
+      ],
+      "EXD:SG3.SP2": [
+        "TPM-03"
+      ],
+      "EXD:SG3.SP3": [
+        "TPM-04.1"
+      ],
+      "EXD:SG3.SP4": [
+        "TPM-05"
+      ],
+      "EXD:SG4": [
+        "TPM-08"
+      ],
+      "EXD:SG4.SP1": [
+        "TPM-08"
+      ],
+      "EXD:SG4.SP2": [
+        "TPM-09"
+      ],
+      "VAR:SG1": [
+        "VPM-01"
+      ],
+      "VAR:SG1.SP1": [
+        "VPM-01"
+      ],
+      "VAR:SG1.SP2": [
+        "VPM-01"
+      ],
+      "VAR:SG2": [
+        "VPM-01"
+      ],
+      "VAR:SG2.SP1": [
+        "VPM-01"
+      ],
+      "VAR:SG2.SP2": [
+        "VPM-01"
+      ],
+      "VAR:SG2.SP3": [
+        "VPM-01"
+      ],
+      "VAR:SG3": [
+        "VPM-01"
+      ],
+      "VAR:SG3.SP1": [
+        "VPM-01"
+      ],
+      "VAR:SG4": [
+        "VPM-01"
+      ],
+      "VAR:SG4.SP1": [
+        "VPM-01"
+      ],
+      "VAR:GG2": [
+        "VPM-01"
+      ],
+      "VAR:GG2.GP2": [
+        "VPM-01"
+      ]
+    }
+  }
+}

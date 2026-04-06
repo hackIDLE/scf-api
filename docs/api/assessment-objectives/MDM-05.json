@@ -1,0 +1,76 @@
+{
+  "scf_control_id": "MDM-05",
+  "total": 7,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MDM-05",
+      "ao_id": "MDM-05_A01",
+      "objective": "mobile devices to be purged or wiped of information are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-07(02)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MDM-05",
+      "ao_id": "MDM-05_A02",
+      "objective": "purging or wiping requirements and techniques to be used when mobile devices are purged or wiped of information are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-07(02)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MDM-05",
+      "ao_id": "MDM-05_A03",
+      "objective": "information is purged or wiped from organization-defined mobile devices based on organization-defined purging or wiping requirements or techniques after organization-defined number consecutive, unsuccessful device logon attempts.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-07(02)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MDM-05",
+      "ao_id": "MDM-05_A04",
+      "objective": "the number of consecutive, unsuccessful logon attempts before the information is purged or wiped from mobile devices is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-07(02)_ODP[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MDM-05",
+      "ao_id": "MDM-05_A05",
+      "objective": "systems or system components to purge or wipe information either remotely or under specific conditions are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MP-06(08)_ODP[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MDM-05",
+      "ao_id": "MDM-05_A06",
+      "objective": "conditions under which information is to be purged or wiped are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MP-06(08)_ODP[02]\n53A_R5_MP-06(08)_ODP[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MDM-05",
+      "ao_id": "MDM-05_A07",
+      "objective": "the capability to purge or wipe information from systems or system components organization-defined criteria are provided.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_MP-06(08)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

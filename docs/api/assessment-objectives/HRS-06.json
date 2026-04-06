@@ -1,0 +1,66 @@
+{
+  "scf_control_id": "HRS-06",
+  "total": 6,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "HRS-06",
+      "ao_id": "HRS-06_A01",
+      "objective": "access agreements are developed and documented for organizational systems.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PS-06a.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-06",
+      "ao_id": "HRS-06_A02",
+      "objective": "individuals requiring access to organizational information and systems sign appropriate access agreements prior to being granted access.",
+      "pptdf": "People",
+      "origin": "53A_R5_PS-06c.01",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually and any time there is a change to the user's level of access",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-06",
+      "ao_id": "HRS-06_A03",
+      "objective": "individuals requiring access to organizational information and systems re-sign access agreements to maintain access to organizational systems when access agreements have been updated or frequency.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PS-06c.02",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "at least annually and any time there is a change to the user's level of access",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-06",
+      "ao_id": "HRS-06_A04",
+      "objective": "the frequency at which to review / update access agreements is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PS-06_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually and any time there is a change to the user's level of access",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-06",
+      "ao_id": "HRS-06_A05",
+      "objective": "the frequency at which to re-sign access agreements to maintain access to organizational information is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PS-06_ODP[02]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "at least annually and any time there is a change to the user's level of access",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-06",
+      "ao_id": "HRS-06_A06",
+      "objective": "the access agreements are reviewed / updated frequently.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PS-06b.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "AAT-26.3",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-26.3",
+      "ao_id": "AAT-26.3_A01",
+      "objective": "relevant end-users, practitioners and operators in Artificial Intelligence (AI) and Autonomous Technologies (AAT) prototyping and testing activities are included to cover applicable use case scenarios.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-26.3",
+      "ao_id": "AAT-26.3_A02",
+      "objective": "relevant end-users, practitioners and operators in Artificial Intelligence (AI) and Autonomous Technologies (AAT) prototyping and testing activities are included to cover crisis situations.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-26.3",
+      "ao_id": "AAT-26.3_A03",
+      "objective": "relevant end-users, practitioners and operators in Artificial Intelligence (AI) and Autonomous Technologies (AAT) prototyping and testing activities are included to cover ethically sensitive contexts.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

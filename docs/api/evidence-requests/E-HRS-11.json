@@ -1,0 +1,12 @@
+{
+  "erl_id": "E-HRS-11",
+  "area": "Human Resources",
+  "artifact_name": "Role Assignment - Sensitive / Regulated Data",
+  "artifact_description": "Documented evidence of a formal role assignment to personnel who are cleared to handle sensitive/regulated data.",
+  "scf_controls": [
+    "HRS-02",
+    "HRS-02.1",
+    "HRS-03"
+  ],
+  "cmmc_mapping": ""
+}

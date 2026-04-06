@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "CPL-01.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CPL-01.2",
+      "ao_id": "CPL-01.2_A01",
+      "objective": "the organization's applicable cybersecurity / data privacy controls are determined through the analysis of business practices to determine required statutory, regulatory and/or contractual compliance obligations.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-01.2",
+      "ao_id": "CPL-01.2_A02",
+      "objective": "a recurring process exists to validate the scope of cybersecurity / data privacy controls that are determined to meet statutory, regulatory and/or contractual compliance obligations.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

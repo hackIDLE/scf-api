@@ -1,0 +1,187 @@
+{
+  "control_id": "NET-02.3",
+  "title": "Cross Domain Solution (CDS)",
+  "family": "NET",
+  "description": "Mechanisms exist to implement a Cross Domain Solution (CDS) to mitigate the specific security risks of accessing or transferring information between security domains.",
+  "scf_question": "Does the organization implement a Cross Domain Solution (CDS) to mitigate the specific security risks of accessing or transferring information between security domains?",
+  "relative_weight": 6,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [],
+  "pptdf": "Technology",
+  "nist_csf_function": "Protect",
+  "scrm_focus": {
+    "strategic": false,
+    "operational": false,
+    "tactical": true
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "Network Security (NET) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with NET domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Network security-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.",
+    "2": "Network Security (NET) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with NET domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with NET domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with NET  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Network security-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Network security management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT personnel define secure networking practices to protect the Confidentiality, Integrity, Availability and Safety (CIAS) of the organization's TAASD.\n▪ Secure Baseline Configurations (SBC) enforce the principles of least privileges and least functionality for boundary protection technologies.",
+    "3": "Network Security (NET) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with NET domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with NET domain capabilities are well-documented and kept current by process owners.\n▪ A network security management team, or similar function, is appropriately staffed and supported to implement and maintain NET domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of network security operations (e.g., network management solution, log aggregator, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with NET domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ Secure Baseline Configurations (SBC) enforce the principles of least privileges and least functionality for boundary protection technologies.\n▪ An implemented and operational capability exists to implement a Cross Domain Solution (CDS) to mitigate the specific security risks of accessing or transferring information between security domains.",
+    "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [
+    "CORE ESP Level 3 Advanced Threats"
+  ],
+  "possible_solutions": {
+    "medium": "∙ Documented cross-domain solution policy\n∙ Review data transfers between security domains",
+    "large": "∙ Formal cross-domain solution (CDS) controls\n∙ Data transfer approval process",
+    "enterprise": "∙ Enterprise CDS platform\n∙ Hardware data diodes where applicable\n∙ Formal CDS approval and monitoring program"
+  },
+  "risks": [
+    "R-AC-1",
+    "R-AC-2",
+    "R-AC-3",
+    "R-AC-4",
+    "R-AM-1",
+    "R-AM-2",
+    "R-AM-3",
+    "R-BC-1",
+    "R-BC-2",
+    "R-BC-3",
+    "R-BC-4",
+    "R-BC-5",
+    "R-EX-1",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-EX-5",
+    "R-EX-6",
+    "R-EX-7",
+    "R-GV-1",
+    "R-GV-2",
+    "R-GV-3",
+    "R-GV-4",
+    "R-GV-5",
+    "R-GV-6",
+    "R-GV-7",
+    "R-GV-8",
+    "R-IR-1",
+    "R-IR-2",
+    "R-IR-3",
+    "R-IR-4",
+    "R-SA-1",
+    "R-SC-1",
+    "R-SC-2",
+    "R-SC-3",
+    "R-SC-4",
+    "R-SC-5",
+    "R-SC-6"
+  ],
+  "threats": [
+    "NT-2",
+    "NT-3",
+    "NT-4",
+    "NT-5",
+    "NT-6",
+    "NT-7",
+    "NT-8",
+    "NT-9",
+    "NT-10",
+    "NT-11",
+    "NT-12",
+    "NT-13",
+    "NT-14",
+    "MT-1",
+    "MT-2",
+    "MT-3",
+    "MT-4",
+    "MT-5",
+    "MT-6",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-10",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Network Security",
+  "crosswalks": {
+    "general-mitre-att&ck-16-1": [
+      "T1021.001",
+      "T1021.003",
+      "T1021.006",
+      "T1046",
+      "T1048",
+      "T1048.001",
+      "T1048.002",
+      "T1072",
+      "T1098.001",
+      "T1133",
+      "T1136",
+      "T1136.002",
+      "T1190",
+      "T1199",
+      "T1210",
+      "T1482",
+      "T1489",
+      "T1552.007",
+      "T1557",
+      "T1557.001",
+      "T1557.003",
+      "T1557.004",
+      "T1563",
+      "T1563.002",
+      "T1565",
+      "T1565.003",
+      "T1622"
+    ],
+    "general-nist-800-53-r5-2": [
+      "SC-46"
+    ],
+    "general-nist-800-82-r3": [
+      "SC-46"
+    ],
+    "general-nist-800-160-vol-2-r1": [
+      "SC-46"
+    ],
+    "general-nist-800-172": [
+      "3.1.3e"
+    ],
+    "general-nist-800-207": [
+      "NIST Tenet 4"
+    ],
+    "general-swift-cscf-2025": [
+      "2.4"
+    ],
+    "usa-federal-dow-cmmc-2-level-3": [
+      "AC.L3-3.1.3E"
+    ],
+    "usa-federal-tsa-security-directive-1580-82-2022-01": [
+      "III.C.5"
+    ],
+    "emea-sau-otcc-1-2022": [
+      "2-4-1-2"
+    ],
+    "apac-aus-ism-2024-june": [
+      "ISM-0597",
+      "ISM-0610",
+      "ISM-0626",
+      "ISM-0635",
+      "ISM-0670",
+      "ISM-1287",
+      "ISM-1521",
+      "ISM-1522",
+      "ISM-1523"
+    ],
+    "apac-nzl-ism-3-9": [
+      "19.2.15.C.01",
+      "19.2.16.C.01",
+      "19.2.16.C.02",
+      "19.2.17.C.01",
+      "19.2.17.C.02",
+      "19.2.18.C.01",
+      "19.2.19.C.01",
+      "19.2.19.C.02",
+      "19.2.20.C.01"
+    ]
+  }
+}

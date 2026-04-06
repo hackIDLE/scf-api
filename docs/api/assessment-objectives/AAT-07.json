@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "AAT-07",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-07",
+      "ao_id": "AAT-07_A01",
+      "objective": "the organization leverages decision makers from a diversity of demographics for mapping, measuring and managing Artificial Intelligence (AI) and Autonomous Technologies (AAT)-related risks leverage personnel",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-07",
+      "ao_id": "AAT-07_A02",
+      "objective": "the organization leverages decision makers from a diversity of disciplines for mapping, measuring and managing Artificial Intelligence (AI) and Autonomous Technologies (AAT)-related risks leverage personnel",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-07",
+      "ao_id": "AAT-07_A03",
+      "objective": "the organization leverages decision makers from a diversity of experience for mapping, measuring and managing Artificial Intelligence (AI) and Autonomous Technologies (AAT)-related risks leverage personnel",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-07",
+      "ao_id": "AAT-07_A04",
+      "objective": "the organization leverages decision makers from a diversity of expertise for mapping, measuring and managing Artificial Intelligence (AI) and Autonomous Technologies (AAT)-related risks leverage personnel",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-07",
+      "ao_id": "AAT-07_A05",
+      "objective": "the organization leverages decision makers from a diversity of backgrounds for mapping, measuring and managing Artificial Intelligence (AI) and Autonomous Technologies (AAT)-related risks leverage personnel",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

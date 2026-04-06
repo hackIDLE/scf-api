@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "NET-18.8",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-18.8",
+      "ao_id": "NET-18.8_A01",
+      "objective": "systems and processes are required to authenticate Internet-bound traffic with a proxy to enable user, group and/or location-aware security controls.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

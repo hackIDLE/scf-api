@@ -1,0 +1,116 @@
+{
+  "scf_control_id": "IAC-04",
+  "total": 11,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-04",
+      "ao_id": "IAC-04_A01",
+      "objective": "devices or types of devices to be uniquely identified and authenticated before establishing a connection are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IA-03_ODP[01]\n171A_R3_A.03.05.02.ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-04",
+      "ao_id": "IAC-04_A02",
+      "objective": "organization-defined devices or types of devices are authenticated before establishing a system connection.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-03\n53A_R5_IA-03_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-04",
+      "ao_id": "IAC-04_A03",
+      "objective": "devices and/or types of devices are uniquely identified and authenticated before establishing a local connection.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-03\n53A_R5_IA-03_ODP[02]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-04",
+      "ao_id": "IAC-04_A04",
+      "objective": "devices and/or types of devices are uniquely identified and authenticated before establishing a remote connection.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-03\n53A_R5_IA-03_ODP[02]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-04",
+      "ao_id": "IAC-04_A05",
+      "objective": "device identification and authentication are handled based on attestation by configuration management process.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IA-03(04)",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-04",
+      "ao_id": "IAC-04_A06",
+      "objective": "devices and/or types of devices requiring use of cryptographically based, bidirectional authentication to authenticate before establishing one or more connections are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IA-03(01)_ODP[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-04",
+      "ao_id": "IAC-04_A07",
+      "objective": "devices and/or types of devices are authenticated before establishing a local connection using bidirectional authentication that is cryptographically based.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-03(01)\n53A_R5_IA-03(01)_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-04",
+      "ao_id": "IAC-04_A08",
+      "objective": "devices and/or types of devices are authenticated before establishing a remote connection using bidirectional authentication that is cryptographically based.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-03(01)\n53A_R5_IA-03(01)_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-04",
+      "ao_id": "IAC-04_A09",
+      "objective": "devices and/or types of devices are authenticated before establishing a network connection using bidirectional authentication that is cryptographically based.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-03(01)\n53A_R5_IA-03(01)_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-04",
+      "ao_id": "IAC-04_A10",
+      "objective": "<A.03.05.02.ODP[01]: devices or types of devices> are uniquely identified before establishing a system connection.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.05.02[01]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "all devices for identification, where feasible for authentication, and document when not feasible",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-04",
+      "ao_id": "IAC-04_A11",
+      "objective": "<A.03.05.02.ODP[01]: devices or types of devices> are authenticated before establishing a system connection.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.05.02[02]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "all devices for identification, where feasible for authentication, and document when not feasible",
+      "org_defined_parameters": ""
+    }
+  ]
+}

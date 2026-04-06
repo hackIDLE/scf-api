@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "TPM-07",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TPM-07",
+      "ao_id": "TPM-07_A01",
+      "objective": "sensitive / regulated data flows identify information shared with third-parties.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-07",
+      "ao_id": "TPM-07_A02",
+      "objective": "mechanisms are used to look for unauthorized exfiltration or disclosure of sensitive / regulated data that is shared with third-parties.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "IAC-02.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-02.1",
+      "ao_id": "IAC-02.1_A01",
+      "objective": "users are required to be individually authenticated before granting access to the shared accounts or resources when shared accounts or authenticators are employed.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-02(05)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

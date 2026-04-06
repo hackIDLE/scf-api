@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "SAT-03.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "SAT-03.1",
+      "ao_id": "SAT-03.1_A01",
+      "objective": "practical exercises in cybersecurity / data privacy training that reinforce training objectives are provided.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AT-03(03)[01]\n53A_R5_AT-03(03)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "control_id": "IAC-20.7",
+  "risk_if_not_implemented": "Without Authorized System Accounts, unauthorized users may gain access to systems or data, increasing risk of data breaches and insider threats.",
+  "compensating_control_1": {
+    "control_id": "IAC-21",
+    "name": "Least Privilege",
+    "description": "Mechanisms exist to utilize the concept of least privilege, allowing only authorized access to processes necessary to accomplish assigned tasks in accordance with organizational business functions.",
+    "justification": "Least Privilege (IAC-21) provides access control enforcement that compensates for the absence of Authorized System Accounts (IAC-20.7) by restricting system and data access to authorized users through alternative identity and access mechanisms. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  },
+  "compensating_control_2": {
+    "control_id": "MON-12",
+    "name": "Session Audit",
+    "description": "Mechanisms exist to provide session audit capabilities that can: \n(1) Capture and log all content related to a user session; and\n(2) Remotely view all content related to an established user session in real time.",
+    "justification": "Session Audit (MON-12) provides detective monitoring capability that compensates for the absence of Authorized System Accounts (IAC-20.7) by identifying unauthorized, anomalous, or non-compliant activity that the primary control would have prevented. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  }
+}

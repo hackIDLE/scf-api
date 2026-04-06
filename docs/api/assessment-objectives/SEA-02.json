@@ -1,0 +1,146 @@
+{
+  "scf_control_id": "SEA-02",
+  "total": 14,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "SEA-02",
+      "ao_id": "SEA-02_A01",
+      "objective": "an enterprise architecture is developed with consideration for cybersecurity / data privacy.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-07[01]\n53A_R5_PM-07[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-02",
+      "ao_id": "SEA-02_A02",
+      "objective": "an enterprise architecture is maintained with consideration for cybersecurity / data privacy.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-07[02]\n53A_R5_PM-07[04]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-02",
+      "ao_id": "SEA-02_A03",
+      "objective": "an enterprise architecture is developed with consideration for the resulting risk to organizational operations and assets, individuals and other organizations.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-07[05]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-02",
+      "ao_id": "SEA-02_A04",
+      "objective": "an enterprise architecture is maintained with consideration for the resulting risk to organizational operations and assets, individuals and other organizations.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-07[06]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-02",
+      "ao_id": "SEA-02_A05",
+      "objective": "frequency for review / update to reflect changes in the enterprise architecture.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-08_ODP",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least every 12 months, or when there are significant\nincidents or significant changes to risks",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-02",
+      "ao_id": "SEA-02_A06",
+      "objective": "a cybersecurity / data privacy architecture for the system describes the requirements and approach to be taken for protecting the confidentiality, integrity and availability of organizational information.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-08a.01\n53A_R5_PL-08a.02",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-02",
+      "ao_id": "SEA-02_A07",
+      "objective": "a cybersecurity / data privacy architecture for the system describes how the architecture is integrated into and supports the enterprise architecture.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-08a.03[01]\n53A_R5_PL-08a.03[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-02",
+      "ao_id": "SEA-02_A08",
+      "objective": "a cybersecurity / data privacy architecture for the system describes any assumptions about and dependencies on external systems and services.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-08a.04[01]\n53A_R5_PL-08a.04[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-02",
+      "ao_id": "SEA-02_A09",
+      "objective": "changes in the enterprise architecture are reviewed / updated per an organization-defined frequency to reflect changes in the enterprise architecture.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-08b.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually and when a significant change occurs",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-02",
+      "ao_id": "SEA-02_A10",
+      "objective": "planned architecture changes are reflected in the cybersecurity / data privacy plan.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-08c.[01]\n53A_R5_PL-08c.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-02",
+      "ao_id": "SEA-02_A11",
+      "objective": "planned architecture changes are reflected in the Concept of Operations (CONOPS).",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-08c.[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-02",
+      "ao_id": "SEA-02_A12",
+      "objective": "planned architecture changes are reflected in criticality analysis.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-08c.[04]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-02",
+      "ao_id": "SEA-02_A13",
+      "objective": "planned architecture changes are reflected in organizational procedures.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-08c.[05]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-02",
+      "ao_id": "SEA-02_A14",
+      "objective": "planned architecture changes are reflected in procurements and acquisitions.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-08c.[06]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

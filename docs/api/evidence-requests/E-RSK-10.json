@@ -1,0 +1,12 @@
+{
+  "erl_id": "E-RSK-10",
+  "area": "Risk Management",
+  "artifact_name": "Material Risk Definition",
+  "artifact_description": "Documented evidence of criteria necessary to designate a risk as a material risk.",
+  "scf_controls": [
+    "GOV-16.1",
+    "RSK-13",
+    "RSK-13.2"
+  ],
+  "cmmc_mapping": ""
+}

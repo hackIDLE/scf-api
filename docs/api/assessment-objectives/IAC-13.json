@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "IAC-13",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-13",
+      "ao_id": "IAC-13_A01",
+      "objective": "supplemental authentication techniques or mechanisms to be employed when accessing the system under specific circumstances or situations are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IA-10_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-13",
+      "ao_id": "IAC-13_A02",
+      "objective": "circumstances or situations that require individuals accessing the system to employ supplemental authentication techniques or mechanisms are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IA-10_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-13",
+      "ao_id": "IAC-13_A03",
+      "objective": "individuals accessing the system are required to employ supplemental authentication techniques or mechanisms under specific circumstances or situations.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-10",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

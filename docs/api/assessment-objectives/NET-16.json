@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "NET-16",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-16",
+      "ao_id": "NET-16_A01",
+      "objective": "trust relationships are established with other organizations owning, operating, and/or maintaining intranet systems.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-16",
+      "ao_id": "NET-16_A02",
+      "objective": "trust relationships with other organizations allow authorized individuals to: \n •Access the intranet from external systems. and/or and\n •Process, store, and/or transmit organization-controlled information using the external systems.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "PES-08.1",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PES-08.1",
+      "ao_id": "PES-08.1_A01",
+      "objective": "personnel or roles to be notified in the event of a fire is/are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PE-13(01)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "service provider building maintenance/physical security personnel",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-08.1",
+      "ao_id": "PES-08.1_A02",
+      "objective": "emergency responders to be notified in the event of a fire are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PE-13(01)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "service provider emergency responders with incident response responsibilities",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-08.1",
+      "ao_id": "PES-08.1_A03",
+      "objective": "fire detection systems that activate automatically are employed in the event of a fire.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-13(01)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-08.1",
+      "ao_id": "PES-08.1_A04",
+      "objective": "fire detection systems that notify organization-defined personnel or roles automatically are employed in the event of a fire.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-13(01)[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-08.1",
+      "ao_id": "PES-08.1_A05",
+      "objective": "fire detection systems that notify organization-defined emergency responders automatically are employed in the event of a fire.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-13(01)[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

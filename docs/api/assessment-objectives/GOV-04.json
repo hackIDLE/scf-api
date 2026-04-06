@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "GOV-04",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "GOV-04",
+      "ao_id": "GOV-04_A01",
+      "objective": "a senior organizational cybersecurity position is appointed.",
+      "pptdf": "People",
+      "origin": "53A_R5_PM-02[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-04",
+      "ao_id": "GOV-04_A02",
+      "objective": "the senior organizational cybersecurity position is provided with the mission and resources to coordinate, develop, implement and maintain an organization-wide cybersecurity program.",
+      "pptdf": "People",
+      "origin": "53A_R5_PM-02[02]\n53A_R5_PM-02[03]\n53A_R5_PM-02[04]\n53A_R5_PM-02[05]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

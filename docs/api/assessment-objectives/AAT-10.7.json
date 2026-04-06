@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "AAT-10.7",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-10.7",
+      "ao_id": "AAT-10.7_A01",
+      "objective": "the organization's Artificial Intelligence Test, Evaluation, Validation & Verification (AI TEVV) capability includes a Data Protection Impact Assessment (DPIA) to identify and remediate reasonably-expected risks to Personal Data (PD).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "SEA-01.3",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "SEA-01.3",
+      "ao_id": "SEA-01.3_A01",
+      "objective": "cybersecurity and data protection controls are designed and implemented to provide resistance to unintentional errors (by users or software).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-01.3",
+      "ao_id": "SEA-01.3_A02",
+      "objective": "cybersecurity and data protection controls are designed and implemented to provide resistance to intentional attack or circumvention.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

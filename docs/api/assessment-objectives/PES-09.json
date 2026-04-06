@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "PES-09",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PES-09",
+      "ao_id": "PES-09_A01",
+      "objective": "environmental control(s) for which to maintain a specified level in the facility where the system resides are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PE-14_ODP[01]\n53A_R5_PE-14_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-09",
+      "ao_id": "PES-09_A02",
+      "objective": "acceptable levels for environmental controls are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PE-14_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-09",
+      "ao_id": "PES-09_A03",
+      "objective": "frequency at which to monitor environmental control levels is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PE-14_ODP[04]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-09",
+      "ao_id": "PES-09_A04",
+      "objective": "levels are maintained at acceptable levels within the facility where the system resides.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-14a.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "consistent with American Society of Heating, Refrigerating and Air-conditioning Engineers (ASHRAE) document entitled Thermal Guidelines for Data Processing Environments",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-09",
+      "ao_id": "PES-09_A05",
+      "objective": "environmental control levels are monitored frequency.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PE-14b.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

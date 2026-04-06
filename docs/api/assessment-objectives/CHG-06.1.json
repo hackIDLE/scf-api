@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "CHG-06.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CHG-06.1",
+      "ao_id": "CHG-06.1_A01",
+      "objective": "personnel or roles designated to receive the results of cybersecurity / data privacy function verification is/are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-06(03)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-06.1",
+      "ao_id": "CHG-06.1_A02",
+      "objective": "the results of security and/or function verification are reported to pertinent personnel or roles.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-06(03)[01]\n53A_R5_SI-06(03)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

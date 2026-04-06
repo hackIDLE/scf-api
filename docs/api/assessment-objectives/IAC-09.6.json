@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "IAC-09.6",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-09.6",
+      "ao_id": "IAC-09.6_A01",
+      "objective": "pairwise pseudonymous identifiers are generated.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-04(08)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

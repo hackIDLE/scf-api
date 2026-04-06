@@ -1,0 +1,184 @@
+{
+  "control_id": "NET-18.1",
+  "title": "Route Internal Traffic to Proxy Servers",
+  "family": "NET",
+  "description": "Mechanisms exist to route internal communications traffic to external networks through organization-approved proxy servers at managed interfaces.",
+  "scf_question": "Does the organization route internal communications traffic to external networks through organization-approved proxy servers at managed interfaces?",
+  "relative_weight": 9,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [
+    "E-NET-01"
+  ],
+  "pptdf": "Technology",
+  "nist_csf_function": "Protect",
+  "scrm_focus": {
+    "strategic": false,
+    "operational": false,
+    "tactical": true
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "2": "Network Security (NET) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with NET domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with NET domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with NET  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Network security-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Network security management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT personnel define secure networking practices to protect the Confidentiality, Integrity, Availability and Safety (CIAS) of the organization's TAASD.\n▪ Secure Baseline Configurations (SBC) enforce the principles of least privileges and least functionality for boundary protection technologies.\n▪ SBC enforce Internet-bound network traffic routing through a proxy device for URL content filtering to limit a user's ability to connect to prohibited content.",
+    "3": "Network Security (NET) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with NET domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with NET domain capabilities are well-documented and kept current by process owners.\n▪ A network security management team, or similar function, is appropriately staffed and supported to implement and maintain NET domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of network security operations (e.g., network management solution, log aggregator, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with NET domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ Secure Baseline Configurations (SBC) enforce the principles of least privileges and least functionality for boundary protection technologies.\n▪ An implemented and operational capability exists to route internal communications traffic to external networks through organization-approved proxy servers at managed interfaces.",
+    "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ Route internet traffic through a web proxy/filter",
+    "small": "∙ Web proxy for internet traffic (e.g., Squid)\n∙ Proxy usage policy",
+    "medium": "∙ Secure web proxy for internet traffic routing\n∙ Proxy policy enforcement",
+    "large": "∙ Enterprise secure web gateway (SWG) with proxy (e.g., Symantec, Zscaler)",
+    "enterprise": "∙ Enterprise SWG (e.g., Zscaler, Netskope, Symantec Web Security)\n∙ All internet traffic routed through proxy\n∙ SSL inspection"
+  },
+  "risks": [
+    "R-AM-3",
+    "R-BC-2",
+    "R-BC-3",
+    "R-BC-4",
+    "R-BC-5",
+    "R-EX-1",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-EX-5",
+    "R-EX-7",
+    "R-GV-1",
+    "R-GV-2",
+    "R-GV-4",
+    "R-GV-5",
+    "R-GV-6",
+    "R-GV-7",
+    "R-GV-8",
+    "R-IR-1",
+    "R-SA-1",
+    "R-SC-1",
+    "R-SC-2",
+    "R-SC-3",
+    "R-SC-4",
+    "R-SC-5",
+    "R-SC-6"
+  ],
+  "threats": [
+    "NT-2",
+    "NT-3",
+    "NT-4",
+    "NT-5",
+    "NT-6",
+    "NT-7",
+    "NT-8",
+    "NT-9",
+    "NT-10",
+    "NT-11",
+    "NT-12",
+    "NT-13",
+    "NT-14",
+    "MT-1",
+    "MT-2",
+    "MT-3",
+    "MT-4",
+    "MT-5",
+    "MT-6",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-10",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Network Security",
+  "crosswalks": {
+    "general-cis-csc-8-1": [
+      "13.1"
+    ],
+    "general-cis-csc-8-1-ig3": [
+      "13.1"
+    ],
+    "general-govramp": [
+      "SC-07(08)"
+    ],
+    "general-govramp-mod": [
+      "SC-07(08)"
+    ],
+    "general-govramp-high": [
+      "SC-07(08)"
+    ],
+    "general-nist-800-53-r4": [
+      "SC-7(8)"
+    ],
+    "general-nist-800-53-r5-2": [
+      "SC-07(08)"
+    ],
+    "general-nist-800-53-r5-2-privacy": [
+      "SC-07(08)"
+    ],
+    "general-nist-800-53-r5-2-mod": [
+      "SC-07(08)"
+    ],
+    "general-nist-800-82-r3": [
+      "SC-07(08)"
+    ],
+    "general-nist-800-82-r3-mod": [
+      "SC-07(08)"
+    ],
+    "general-nist-800-82-r3-high": [
+      "SC-07(08)"
+    ],
+    "general-swift-cscf-2025": [
+      "1.4"
+    ],
+    "usa-federal-fbi-cjis-6-0": [
+      "SC-7(8)"
+    ],
+    "usa-federal-gsa-fedramp-5-low": [
+      "SC-07(08)"
+    ],
+    "usa-federal-gsa-fedramp-5-mod": [
+      "SC-07(08)"
+    ],
+    "usa-federal-gsa-fedramp-5-high": [
+      "SC-07(08)"
+    ],
+    "usa-federal-gsa-fedramp-5-li-saas": [
+      "SC-07(08)"
+    ],
+    "usa-federal-irs-1075-2021": [
+      "SC-7(CE-8)"
+    ],
+    "usa-federal-cms-marse-2-0": [
+      "SC-7(8)",
+      "SC-7(8)-IS.1"
+    ],
+    "usa-federal-tsa-security-directive-1580-82-2022-01": [
+      "III.D.1.b"
+    ],
+    "emea-isr-cmo-1-0": [
+      "9.14"
+    ],
+    "emea-sau-cscc-1-2019": [
+      "2-4-1-3"
+    ],
+    "emea-sau-ecc-1-2018": [
+      "2-5-3-8"
+    ],
+    "apac-aus-ism-2024-june": [
+      "ISM-0260",
+      "ISM-0570",
+      "ISM-1237"
+    ],
+    "apac-nzl-ism-3-9": [
+      "14.3.6.C.01",
+      "14.3.6.C.02",
+      "14.3.6.C.03"
+    ]
+  }
+}

@@ -1,0 +1,272 @@
+{
+  "control_id": "TPM-03.1",
+  "title": "Acquisition Strategies, Tools & Methods",
+  "family": "TPM",
+  "description": "Mechanisms exist to utilize tailored acquisition strategies, contract tools and procurement methods for the purchase of unique Technology Assets, Applications and/or Services (TAAS).",
+  "scf_question": "Does the organization utilize tailored acquisition strategies, contract tools and procurement methods for the purchase of unique Technology Assets, Applications and/or Services (TAAS)?",
+  "relative_weight": 9,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [],
+  "pptdf": "Process",
+  "nist_csf_function": "Identify",
+  "scrm_focus": {
+    "strategic": true,
+    "operational": true,
+    "tactical": true
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "2": "Third-Party Management (TPM) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with TPM domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with TPM domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with TPM  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Third-party management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Asset management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
+    "3": "Third-Party Management (TPM) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with TPM domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with TPM domain capabilities are well-documented and kept current by process owners.\n▪ A procurement team, or similar function, is appropriately staffed and supported to implement and maintain TPM domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of third-party management operations (e.g., TPRM risk management solution, vendor management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with TPM domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to utilize tailored acquisition strategies, contract tools and procurement methods for the purchase of unique Technology Assets, Applications and/or Services (TAAS).",
+    "4": "Third-Party Management (TPM) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [
+    "CORE ESP Level 1 Foundational",
+    "CORE ESP Level 2 Critical Infrastructure",
+    "CORE ESP Level 3 Advanced Threats"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ Cybersecurity Supply Chain Risk Management (C-SCRM) program\n∙ Data Protection Impact Assessment (DPIA)",
+    "small": "∙ Cybersecurity Supply Chain Risk Management (C-SCRM) program\n∙ Data Protection Impact Assessment (DPIA)",
+    "medium": "∙ Cybersecurity Supply Chain Risk Management (C-SCRM) program\n∙ Data Protection Impact Assessment (DPIA)",
+    "large": "∙ Cybersecurity Supply Chain Risk Management (C-SCRM) program\n∙ Data Protection Impact Assessment (DPIA)",
+    "enterprise": "∙ Cybersecurity Supply Chain Risk Management (C-SCRM) program\n∙ Data Protection Impact Assessment (DPIA)"
+  },
+  "risks": [
+    "R-AM-3",
+    "R-BC-1",
+    "R-EX-1",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-EX-5",
+    "R-GV-1",
+    "R-GV-4",
+    "R-GV-5"
+  ],
+  "threats": [
+    "NT-1",
+    "NT-2",
+    "NT-3",
+    "NT-4",
+    "NT-5",
+    "NT-6",
+    "NT-7",
+    "NT-8",
+    "NT-9",
+    "NT-10",
+    "NT-11",
+    "NT-12",
+    "NT-13",
+    "NT-14",
+    "MT-1",
+    "MT-2",
+    "MT-3",
+    "MT-4",
+    "MT-5",
+    "MT-6",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-16",
+    "MT-17",
+    "MT-18",
+    "MT-19",
+    "MT-20",
+    "MT-21",
+    "MT-22",
+    "MT-23",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Third-Party Management",
+  "crosswalks": {
+    "general-aicpa-tsc-2017": [
+      "CC3.3",
+      "CC9.1"
+    ],
+    "general-cobit-2019": [
+      "BAI03.04"
+    ],
+    "general-coso-2013": [
+      "8"
+    ],
+    "general-iso-27002-2022": [
+      "5.21",
+      "5.22"
+    ],
+    "general-iso-27018-2025": [
+      "5.21",
+      "5.22"
+    ],
+    "general-mitre-att&ck-16-1": [
+      "T1059.002",
+      "T1195",
+      "T1195.001",
+      "T1195.002",
+      "T1195.003",
+      "T1204.003",
+      "T1505",
+      "T1505.001",
+      "T1505.002",
+      "T1505.004",
+      "T1546.006",
+      "T1554",
+      "T1601",
+      "T1601.001",
+      "T1601.002"
+    ],
+    "general-nist-800-53-r4": [
+      "SA-12(1)"
+    ],
+    "general-nist-800-53-r5-2": [
+      "SR-03(01)",
+      "SR-05"
+    ],
+    "general-nist-800-53-r5-2-privacy": [
+      "SR-03(01)"
+    ],
+    "general-nist-800-53-r5-2-low": [
+      "SR-05"
+    ],
+    "general-nist-800-82-r3": [
+      "SR-03(01)",
+      "SR-05"
+    ],
+    "general-nist-800-82-r3-low": [
+      "SR-05"
+    ],
+    "general-nist-800-82-r3-mod": [
+      "SR-05"
+    ],
+    "general-nist-800-82-r3-high": [
+      "SR-05"
+    ],
+    "general-nist-800-160-vol-2-r1": [
+      "SR-03(01)",
+      "SR-05"
+    ],
+    "general-nist-800-161-r1": [
+      "SR-3(1)",
+      "SR-5"
+    ],
+    "general-nist-800-161-r1-cscrm": [
+      "SR-5"
+    ],
+    "general-nist-800-161-r1-level-1": [
+      "SR-5"
+    ],
+    "general-nist-800-161-r1-level-2": [
+      "SR-3(1)",
+      "SR-5"
+    ],
+    "general-nist-800-161-r1-level-3": [
+      "SR-3(1)",
+      "SR-5"
+    ],
+    "general-nist-800-171-r3": [
+      "03.17.01.a",
+      "03.17.02",
+      "03.17.03.a",
+      "03.17.03.b"
+    ],
+    "general-nist-800-171a-r3": [
+      "A.03.17.02[01]",
+      "A.03.17.02[02]",
+      "A.03.17.02[03]"
+    ],
+    "general-owasp-top-10-2025": [
+      "A03:2025"
+    ],
+    "general-sparta": [
+      "CM0027"
+    ],
+    "general-swift-cscf-2025": [
+      "2.8"
+    ],
+    "general-un-155-2021": [
+      "7.2.2.5"
+    ],
+    "general-un-ece-wp-29-2020": [
+      "7.2.2.5"
+    ],
+    "usa-federal-dhs-cisa-cpg-2-0": [
+      "1.I"
+    ],
+    "usa-federal-fbi-cjis-6-0": [
+      "SR-5"
+    ],
+    "usa-federal-doe-c2m2-2-1": [
+      "THIRD-PARTIES-2j",
+      "THIRD-PARTIES-2k",
+      "THIRD-PARTIES-2l",
+      "THIRD-PARTIES-2m"
+    ],
+    "usa-federal-gsa-fedramp-5-low": [
+      "SR-03(01)",
+      "SR-05"
+    ],
+    "usa-federal-gsa-fedramp-5-mod": [
+      "SR-03(01)",
+      "SR-05"
+    ],
+    "usa-federal-gsa-fedramp-5-high": [
+      "SR-03(01)",
+      "SR-05"
+    ],
+    "usa-federal-gsa-fedramp-5-li-saas": [
+      "SR-03(01)",
+      "SR-05"
+    ],
+    "usa-state-ny-shield-act-2019": [
+      "899-bb.2(b)(ii)(A)(5)"
+    ],
+    "usa-state-tx-dir-security-control-standards-catalog-2-2": [
+      "SR-05"
+    ],
+    "emea-eu-eba-ict-srm-2025": [
+      "3.6.2(74)"
+    ],
+    "emea-eu-dora-2023": [
+      "Article 29.1 (end)"
+    ],
+    "emea-eu-nis2-2022": [
+      "Article 21.3"
+    ],
+    "emea-deu-bsrit-2017": [
+      "9.3"
+    ],
+    "emea-deu-c5-2020": [
+      "SSO-05"
+    ],
+    "emea-isr-cmo-1-0": [
+      "16.1"
+    ],
+    "emea-sau-cscc-1-2019": [
+      "4-1-1-1",
+      "4-1-1-2"
+    ],
+    "apac-aus-ism-2024-june": [
+      "ISM-1567",
+      "ISM-1568",
+      "ISM-1632",
+      "ISM-1743",
+      "ISM-1788",
+      "ISM-1789"
+    ],
+    "americas-can-itsp-10-171-2025": [
+      "03.17.01.A",
+      "03.17.02",
+      "03.17.03.A",
+      "03.17.03.B"
+    ]
+  }
+}

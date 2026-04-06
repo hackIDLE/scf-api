@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "MNT-05.6",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MNT-05.6",
+      "ao_id": "MNT-05.6_A01",
+      "objective": "nonlocal maintenance / diagnostic services are required to be performed from a system that implements a security capability comparable to the capability implemented on the system being serviced.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_MA-04(03)(a)[01]\n53A_R5_MA-04(03)(a)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-05.6",
+      "ao_id": "MNT-05.6_A02",
+      "objective": "alternate controls to be developed and implemented in the event that a system component cannot be sanitized, removed or disconnected from the system are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-05(01)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-05.6",
+      "ao_id": "MNT-05.6_A03",
+      "objective": "the component to be serviced is removed from the system prior to nonlocal maintenance or diagnostic services.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-04(03)(b)[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-05.6",
+      "ao_id": "MNT-05.6_A04",
+      "objective": "the component to be serviced is sanitized (for organizational information).",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-04(03)(b)[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-05.6",
+      "ao_id": "MNT-05.6_A05",
+      "objective": "the component is inspected and sanitized (for potentially malicious software) after the service is performed and before reconnecting the component to the system.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-04(03)(b)[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

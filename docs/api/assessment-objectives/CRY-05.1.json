@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "CRY-05.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CRY-05.1",
+      "ao_id": "CRY-05.1_A01",
+      "objective": "storage media types are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CRY-05.1",
+      "ao_id": "CRY-05.1_A02",
+      "objective": "cryptographic mechanisms protect the confidentiality and integrity of the sensitive data residing on storage media.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

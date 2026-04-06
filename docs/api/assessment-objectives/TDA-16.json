@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "TDA-16",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-16",
+      "ao_id": "TDA-16_A01",
+      "objective": "training on the correct use and operation of the implemented cybersecurity / data privacy functions, controls, and/or mechanisms provided by the developer of the system, system component or system service is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-16_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-16",
+      "ao_id": "TDA-16_A02",
+      "objective": "the developer of the system, system component, or system service is required to provide training on the correct use and operation of the implemented cybersecurity / data privacy functions , controls, and/or mechanisms.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-16",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

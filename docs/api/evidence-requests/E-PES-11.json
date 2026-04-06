@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-PES-11",
+  "area": "Physical Security",
+  "artifact_name": "Physical Security Zones",
+  "artifact_description": "Documented evidence of security safeguards controlling access to designated physical security zones within facilities.",
+  "scf_controls": [
+    "PES-01.2"
+  ],
+  "cmmc_mapping": ""
+}

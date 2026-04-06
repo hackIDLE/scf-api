@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-VPM-04",
+  "area": "Vulnerability Management",
+  "artifact_name": "Red Team Testing",
+  "artifact_description": "Documented evidence of \"red team\" testing.",
+  "scf_controls": [
+    "VPM-07.1"
+  ],
+  "cmmc_mapping": ""
+}

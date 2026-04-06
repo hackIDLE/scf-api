@@ -1,0 +1,14 @@
+{
+  "erl_id": "E-MON-06",
+  "area": "Event Log Monitoring",
+  "artifact_name": "Automated Event Escalation & Reporting",
+  "artifact_description": "Documented evidence of a capability for selected events to alert applicable personnel, or roles, based on the type of event. This can be demonstrated by the configuration of a Security Incident Event Manager (SIEM), or similar technology, that helps automate event log analysis and reporting.",
+  "scf_controls": [
+    "MON-01",
+    "MON-01.1",
+    "MON-01.3",
+    "MON-01.4",
+    "MON-01.12"
+  ],
+  "cmmc_mapping": "AU.L2-3.3.2\nAU.L2-3.3.8"
+}

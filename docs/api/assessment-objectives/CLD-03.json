@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "CLD-03",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CLD-03",
+      "ao_id": "CLD-03_A01",
+      "objective": "cloud security management subnets are logically isolated.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-07(29)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CLD-03",
+      "ao_id": "CLD-03_A02",
+      "objective": "cloud security management subnet system components and functions to be isolated are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-07(29)_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CLD-03",
+      "ao_id": "CLD-03_A03",
+      "objective": "organization-defined criteria are used to isolate cloud security management subnets.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-07(29)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

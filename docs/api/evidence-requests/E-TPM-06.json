@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-TPM-06",
+  "area": "Third-Party Management",
+  "artifact_name": "Third-Party Terms & Conditions",
+  "artifact_description": "Documented evidence of terms and conditions for external systems.",
+  "scf_controls": [
+    "TPM-01",
+    "TPM-05"
+  ],
+  "cmmc_mapping": ""
+}

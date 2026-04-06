@@ -1,0 +1,76 @@
+{
+  "scf_control_id": "DCH-05.6",
+  "total": 7,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-05.6",
+      "ao_id": "DCH-05.6_A01",
+      "objective": "cybersecurity / data privacy attributes associated with subjects are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-16(06)_ODP[01]\n53A_R5_AC-16(06)_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-05.6",
+      "ao_id": "DCH-05.6_A02",
+      "objective": "cybersecurity / data privacy attributes associated with objects are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-16(06)_ODP[02]\n53A_R5_AC-16(06)_ODP[04]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-05.6",
+      "ao_id": "DCH-05.6_A03",
+      "objective": "subjects to be associated with cybersecurity / data privacy attributes are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-16(06)_ODP[05]\n53A_R5_AC-16(06)_ODP[07]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-05.6",
+      "ao_id": "DCH-05.6_A04",
+      "objective": "objects to be associated with cybersecurity / data privacy attributes are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-16(06)_ODP[06]\n53A_R5_AC-16(06)_ODP[08]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-05.6",
+      "ao_id": "DCH-05.6_A05",
+      "objective": "cybersecurity / data privacy policies that require personnel to associate and maintain the association of cybersecurity / data privacy attributes with subjects and objects.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-16(06)_ODP[09]\n53A_R5_AC-16(06)_ODP[10]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-05.6",
+      "ao_id": "DCH-05.6_A06",
+      "objective": "personnel are required to associate and maintain the association of organization-defined cybersecurity / data privacy attributes with organization-defined subjects in accordance with organization-defined policies.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-16(06)[01]\n53A_R5_AC-16(06)[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-05.6",
+      "ao_id": "DCH-05.6_A07",
+      "objective": "personnel are required to associate and maintain the association of organization-defined cybersecurity / data privacy attributes with organization-defined objects in accordance with organization-defined policies.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-16(06)[02]\n53A_R5_AC-16(06)[04]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

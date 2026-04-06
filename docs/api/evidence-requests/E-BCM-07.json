@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-BCM-07",
+  "area": "Business Continuity",
+  "artifact_name": "COOP Training",
+  "artifact_description": "Documented evidence of a Continuity of Operations Plan (COOP)-related training activity.",
+  "scf_controls": [
+    "BCD-03",
+    "BCD-04"
+  ],
+  "cmmc_mapping": ""
+}

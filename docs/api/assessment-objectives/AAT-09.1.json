@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-09.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-09.1",
+      "ao_id": "AAT-09.1_A01",
+      "objective": "the organization assesses the risk associated with Artificial Intelligence (AI) and Autonomous Technologies (AAT).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-09.1",
+      "ao_id": "AAT-09.1_A02",
+      "objective": "Artificial Intelligence (AI) and Autonomous Technologies (AAT) are designated as \"High Risk\" if one(1), or more, of the follow criteria are met:\n(1) AAT is used as a safety component of a product or service;\n(2) AAT poses a significant risk of harm to an individual's health, safety or fundamental rights; and/or\n(3) AAT materially influences the outcome of an individual's decision making.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

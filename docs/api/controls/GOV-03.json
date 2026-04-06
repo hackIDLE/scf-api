@@ -1,0 +1,1021 @@
+{
+  "control_id": "GOV-03",
+  "title": "Periodic Review & Update of Security, Compliance & Resilience Program",
+  "family": "GOV",
+  "description": "Mechanisms exist to review the Security, Compliance & Resilience Program (SCRP), including policies, standards and procedures, at planned intervals or if significant changes occur to ensure their continuing suitability, adequacy and effectiveness.",
+  "scf_question": "Does the organization review the Security, Compliance & Resilience Program (SCRP), including policies, standards and procedures, at planned intervals or if significant changes occur to ensure their continuing suitability, adequacy and effectiveness?",
+  "relative_weight": 7,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [
+    "E-GOV-12"
+  ],
+  "pptdf": "Process",
+  "nist_csf_function": "Govern",
+  "scrm_focus": {
+    "strategic": true,
+    "operational": true,
+    "tactical": true
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "2": "Cybersecurity & Data Protection Governance (GOV) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with GOV domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with GOV domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with GOV  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Governance-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ No formal Governance, Risk & Compliance (GRC) team exists. GRC roles are assigned to existing IT and/or cybersecurity personnel.\n▪ IT and/or cybersecurity personnel perform an annual documentation review process that includes the scope of applicable statutory, regulatory and/or contractual obligations.\n▪ Recommendations for documentation edits are submitted for review and are handled in accordance with documentation change control processes.\n▪ Updated documentation versions are published, based on no less than an annual review cycle.",
+    "3": "Cybersecurity & Data Protection Governance (GOV) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with GOV domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with GOV domain capabilities are well-documented and kept current by process owners.\n▪ The entity's GRC team, or similar function, is appropriately staffed and supported to implement and maintain GOV domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ Technology is leveraged to enhance the efficiency and accuracy of governance, risk management and compliance operations (e.g., GRC platform).\n▪ An implemented and operational capability exists to  review the Security, Compliance & Resilience Program (SCRP), including policies, standards and procedures, at planned intervals or if significant changes occur to ensure their continuing suitability, adequacy and effectiveness.",
+    "4": "Cybersecurity & Data Protection Governance (GOV) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [
+    "CORE ESP Level 1 Foundational",
+    "CORE ESP Level 2 Critical Infrastructure",
+    "CORE ESP Level 3 Advanced Threats",
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ Annual human reviews of policies and procedures\n∙ Documentation change control (version history in document)\n∙ Calendar reminders for review cycles",
+    "small": "∙ Annual human reviews with documented review log\n∙ Documentation change control with version history\n∙ Defined policy review and approval process",
+    "medium": "∙ Documented review cycle (minimum annual) with ownership assignment\n∙ Change control process with approval workflows\n∙ Document management system with review reminders (e.g., SharePoint, PolicyTech)",
+    "large": "∙ Formalized policy lifecycle management (create, review, retire)\n∙ Automated review reminders via policy management platform\n∙ GRC-integrated documentation change control\n∙ Triggered reviews for significant regulatory or organizational changes",
+    "enterprise": "∙ Enterprise policy lifecycle management integrated with GRC platform\n∙ Automated review workflows with escalation paths\n∙ Regulatory change monitoring integrated with policy review triggers\n∙ Audit-ready documentation of all policy changes and approvals"
+  },
+  "risks": [
+    "R-AC-1",
+    "R-BC-4",
+    "R-BC-5",
+    "R-EX-2",
+    "R-EX-5",
+    "R-GV-1",
+    "R-GV-2",
+    "R-GV-3",
+    "R-GV-4",
+    "R-GV-5",
+    "R-GV-6",
+    "R-GV-7",
+    "R-GV-8",
+    "R-IR-3",
+    "R-SA-1",
+    "R-SA-2",
+    "R-SC-1",
+    "R-SC-2",
+    "R-SC-3",
+    "R-SC-4",
+    "R-SC-5",
+    "R-SC-6"
+  ],
+  "threats": [
+    "NT-7",
+    "MT-1",
+    "MT-2",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "errata": "- renamed\n- wordsmithed",
+  "family_name": "Cybersecurity & Data Protection Governance",
+  "crosswalks": {
+    "general-aicpa-pmf-2020": [
+      "M1.2-POF5",
+      "M1.3-POF4"
+    ],
+    "general-aicpa-tsc-2017": [
+      "CC2.2-POF7",
+      "CC5.3",
+      "CC5.3-POF6"
+    ],
+    "general-bsi-200-1-1-0": [
+      "7.3"
+    ],
+    "general-cobit-2019": [
+      "EDM01.01",
+      "EDM01.03",
+      "EDM05.01",
+      "APO02.02",
+      "APO14.01",
+      "MEA03.02"
+    ],
+    "general-coso-2013": [
+      "12"
+    ],
+    "general-csa-cmm-4-1-0": [
+      "A&A-01",
+      "AIS-01",
+      "BCR-01",
+      "CCC-01",
+      "CEK-01",
+      "DCS-01",
+      "GRC-03",
+      "IAM-01",
+      "IAM-02",
+      "IPY-01",
+      "I&S-01",
+      "LOG-01",
+      "SEF-01",
+      "SEF-02",
+      "STA-01",
+      "TVM-01",
+      "TVM-02",
+      "TVM-04",
+      "UEM-01"
+    ],
+    "general-govramp": [
+      "AC-01",
+      "AT-01",
+      "AU-01",
+      "CA-01",
+      "CM-01",
+      "CP-01",
+      "IA-01",
+      "IR-01",
+      "MA-01",
+      "MP-01",
+      "PE-01",
+      "PL-01",
+      "PS-01",
+      "RA-01",
+      "SA-01",
+      "SC-01",
+      "SI-01"
+    ],
+    "general-govramp-low": [
+      "AC-01",
+      "AT-01",
+      "AU-01",
+      "CA-01",
+      "CM-01",
+      "CP-01",
+      "IA-01",
+      "IR-01",
+      "MA-01",
+      "MP-01",
+      "PE-01",
+      "PL-01",
+      "PS-01",
+      "RA-01",
+      "SA-01",
+      "SC-01",
+      "SI-01"
+    ],
+    "general-govramp-low-plus": [
+      "AC-01",
+      "AT-01",
+      "AU-01",
+      "CA-01",
+      "CM-01",
+      "CP-01",
+      "IA-01",
+      "IR-01",
+      "MA-01",
+      "MP-01",
+      "PE-01",
+      "PL-01",
+      "PS-01",
+      "RA-01",
+      "SA-01",
+      "SC-01",
+      "SI-01"
+    ],
+    "general-govramp-mod": [
+      "AC-01",
+      "AT-01",
+      "AU-01",
+      "CA-01",
+      "CM-01",
+      "CP-01",
+      "IA-01",
+      "IR-01",
+      "MA-01",
+      "MP-01",
+      "PE-01",
+      "PL-01",
+      "PS-01",
+      "RA-01",
+      "SA-01",
+      "SC-01",
+      "SI-01"
+    ],
+    "general-govramp-high": [
+      "AC-01",
+      "AT-01",
+      "AU-01",
+      "CA-01",
+      "CM-01",
+      "CP-01",
+      "IA-01",
+      "IR-01",
+      "MA-01",
+      "MP-01",
+      "PE-01",
+      "PL-01",
+      "PS-01",
+      "RA-01",
+      "SA-01",
+      "SC-01",
+      "SI-01"
+    ],
+    "general-iso-27001-2022": [
+      "7.5.2",
+      "7.5.2(a)",
+      "7.5.2(b)",
+      "7.5.2(c)"
+    ],
+    "general-iso-27002-2022": [
+      "5.1",
+      "5.37"
+    ],
+    "general-iso-27017-2015": [
+      "5.1.1",
+      "5.1.2",
+      "12.1.1"
+    ],
+    "general-iso-27018-2025": [
+      "5.1",
+      "5.37"
+    ],
+    "general-iso-42001-2023": [
+      "7.5.2",
+      "A.2.4"
+    ],
+    "general-mpa-csbp-5-3-1": [
+      "OR-1.0"
+    ],
+    "general-nist-privacy-framework-1-0": [
+      "GV.MT-P2"
+    ],
+    "general-nist-800-53-r4": [
+      "PM-1"
+    ],
+    "general-nist-800-53-r5-2": [
+      "AC-01",
+      "AT-01",
+      "AU-01",
+      "CA-01",
+      "CM-01",
+      "CP-01",
+      "IA-01",
+      "IR-01",
+      "MA-01",
+      "MP-01",
+      "PE-01",
+      "PL-01",
+      "PM-01",
+      "PS-01",
+      "PT-01",
+      "RA-01",
+      "SA-01",
+      "SC-01",
+      "SI-01",
+      "SR-01"
+    ],
+    "general-nist-800-53-r5-2-privacy": [
+      "AC-01",
+      "AT-01",
+      "AU-01",
+      "CA-01",
+      "CM-01",
+      "CP-01",
+      "IA-01",
+      "IR-01",
+      "MA-01",
+      "MP-01",
+      "PE-01",
+      "PL-01",
+      "PM-01",
+      "PS-01",
+      "PT-01",
+      "RA-01",
+      "SA-01",
+      "SC-01",
+      "SI-01",
+      "SR-01"
+    ],
+    "general-nist-800-53-r5-2-low": [
+      "AC-01",
+      "AT-01",
+      "AU-01",
+      "CA-01",
+      "CM-01",
+      "CP-01",
+      "IA-01",
+      "IR-01",
+      "MA-01",
+      "MP-01",
+      "PE-01",
+      "PL-01",
+      "PS-01",
+      "RA-01",
+      "SA-01",
+      "SC-01",
+      "SI-01",
+      "SR-01"
+    ],
+    "general-nist-800-66-r2": [
+      "164.316(b)"
+    ],
+    "general-nist-800-82-r3": [
+      "AC-01",
+      "AT-01",
+      "AU-01",
+      "CA-01",
+      "CM-01",
+      "CP-01",
+      "IA-01",
+      "IR-01",
+      "MA-01",
+      "MP-01",
+      "PE-01",
+      "PL-01",
+      "PM-01",
+      "PS-01",
+      "PT-01",
+      "RA-01",
+      "SA-01",
+      "SC-01",
+      "SI-01",
+      "SR-01"
+    ],
+    "general-nist-800-82-r3-low": [
+      "AC-01",
+      "AU-01",
+      "CA-01",
+      "CM-01",
+      "CP-01",
+      "IA-01",
+      "IR-01",
+      "MA-01",
+      "MP-01",
+      "PE-01",
+      "PL-01",
+      "PM-01",
+      "PS-01",
+      "RA-01",
+      "SA-01",
+      "SC-01",
+      "SI-01",
+      "SR-01"
+    ],
+    "general-nist-800-82-r3-mod": [
+      "AC-01",
+      "AU-01",
+      "CA-01",
+      "CM-01",
+      "CP-01",
+      "IA-01",
+      "IR-01",
+      "MA-01",
+      "MP-01",
+      "PE-01",
+      "PL-01",
+      "PM-01",
+      "PS-01",
+      "RA-01",
+      "SA-01",
+      "SC-01",
+      "SI-01",
+      "SR-01"
+    ],
+    "general-nist-800-82-r3-high": [
+      "AC-01",
+      "AU-01",
+      "CA-01",
+      "CM-01",
+      "CP-01",
+      "IA-01",
+      "IR-01",
+      "MA-01",
+      "MP-01",
+      "PE-01",
+      "PL-01",
+      "PM-01",
+      "PS-01",
+      "RA-01",
+      "SA-01",
+      "SC-01",
+      "SI-01",
+      "SR-01"
+    ],
+    "general-nist-800-161-r1": [
+      "AC-1",
+      "AT-1",
+      "AU-1",
+      "CA-1",
+      "CM-1",
+      "CP-1",
+      "IA-1",
+      "IR-1",
+      "MA-1",
+      "MP-1",
+      "PE-1",
+      "PL-1",
+      "PS-1",
+      "PT-1",
+      "RA-1",
+      "SA-1",
+      "SC-1",
+      "SI-1",
+      "SR-1"
+    ],
+    "general-nist-800-161-r1-cscrm": [
+      "AC-1",
+      "AT-1",
+      "AU-1",
+      "CA-1",
+      "CM-1",
+      "CP-1",
+      "IA-1",
+      "IR-1",
+      "MA-1",
+      "MP-1",
+      "PE-1",
+      "PL-1",
+      "PS-1",
+      "RA-1",
+      "SA-1",
+      "SC-1",
+      "SI-1",
+      "SR-1"
+    ],
+    "general-nist-800-161-r1-flowdown": [
+      "AC-1",
+      "IR-1",
+      "MA-1",
+      "PS-1",
+      "PT-1"
+    ],
+    "general-nist-800-161-r1-level-1": [
+      "AC-1",
+      "AT-1",
+      "AU-1",
+      "CA-1",
+      "CM-1",
+      "CP-1",
+      "IA-1",
+      "IR-1",
+      "MA-1",
+      "MP-1",
+      "PE-1",
+      "PS-1",
+      "PT-1",
+      "RA-1",
+      "SA-1",
+      "SC-1",
+      "SI-1",
+      "SR-1"
+    ],
+    "general-nist-800-161-r1-level-2": [
+      "AC-1",
+      "AT-1",
+      "AU-1",
+      "CA-1",
+      "CM-1",
+      "CP-1",
+      "IA-1",
+      "IR-1",
+      "MA-1",
+      "MP-1",
+      "PE-1",
+      "PL-1",
+      "PS-1",
+      "PT-1",
+      "RA-1",
+      "SA-1",
+      "SC-1",
+      "SI-1",
+      "SR-1"
+    ],
+    "general-nist-800-161-r1-level-3": [
+      "AC-1",
+      "AU-1",
+      "CA-1",
+      "CM-1",
+      "CP-1",
+      "IA-1",
+      "IR-1",
+      "MA-1",
+      "PE-1",
+      "PS-1",
+      "PT-1",
+      "RA-1",
+      "SA-1",
+      "SC-1",
+      "SI-1",
+      "SR-1"
+    ],
+    "general-nist-800-171-r3": [
+      "03.15.01.b",
+      "03.15.03.d"
+    ],
+    "general-nist-800-171a-r3": [
+      "A.03.15.01.ODP[01]",
+      "A.03.15.01.b[01]",
+      "A.03.15.01.b[02]"
+    ],
+    "general-nist-csf-2-0": [
+      "GV.PO-02",
+      "GV.OV",
+      "GV.OV-01",
+      "GV.OV-02"
+    ],
+    "general-pci-dss-4-0-1": [
+      "1.1.1",
+      "2.1.1",
+      "3.1.1",
+      "4.1.1",
+      "5.1.1",
+      "6.1.1",
+      "7.1.1",
+      "8.1.1",
+      "9.1.1",
+      "10.1.1",
+      "11.1.1",
+      "12.1",
+      "12.1.1",
+      "12.1.2"
+    ],
+    "general-pci-dss-4-0-1-saq-a": [
+      "3.1.1"
+    ],
+    "general-pci-dss-4-0-1-saq-a-ep": [
+      "1.1.1",
+      "2.1.1",
+      "3.1.1",
+      "4.1.1",
+      "5.1.1",
+      "6.1.1",
+      "8.1.1",
+      "12.1.1",
+      "12.1.2"
+    ],
+    "general-pci-dss-4-0-1-saq-b": [
+      "3.1.1",
+      "12.1.1",
+      "12.1.2"
+    ],
+    "general-pci-dss-4-0-1-saq-b-ip": [
+      "3.1.1",
+      "8.1.1",
+      "9.1.1",
+      "12.1.1",
+      "12.1.2"
+    ],
+    "general-pci-dss-4-0-1-saq-c": [
+      "2.1.1",
+      "3.1.1",
+      "5.1.1",
+      "8.1.1",
+      "9.1.1",
+      "10.1.1",
+      "12.1.1",
+      "12.1.2"
+    ],
+    "general-pci-dss-4-0-1-saq-c-vt": [
+      "2.1.1",
+      "3.1.1",
+      "8.1.1",
+      "9.1.1",
+      "12.1.1",
+      "12.1.2"
+    ],
+    "general-pci-dss-4-0-1-saq-d-merchant": [
+      "1.1.1",
+      "2.1.1",
+      "3.1.1",
+      "4.1.1",
+      "5.1.1",
+      "6.1.1",
+      "7.1.1",
+      "8.1.1",
+      "9.1.1",
+      "10.1.1",
+      "11.1.1",
+      "12.1.1",
+      "12.1.2"
+    ],
+    "general-pci-dss-4-0-1-saq-d-service-provider": [
+      "1.1.1",
+      "2.1.1",
+      "3.1.1",
+      "4.1.1",
+      "5.1.1",
+      "6.1.1",
+      "7.1.1",
+      "8.1.1",
+      "9.1.1",
+      "10.1.1",
+      "11.1.1",
+      "12.1.1",
+      "12.1.2"
+    ],
+    "general-pci-dss-4-0-1-saq-p2pe": [
+      "3.1.1",
+      "9.1.1",
+      "12.1.1",
+      "12.1.2"
+    ],
+    "general-scf-dpmp-2025": [
+      "11.3"
+    ],
+    "general-tisax-6-0-3": [
+      "1.5.1"
+    ],
+    "usa-federal-fbi-cjis-6-0": [
+      "AC-1",
+      "AT-1",
+      "AU-1",
+      "CA-1",
+      "CM-1",
+      "CP-1",
+      "IA-1",
+      "IR-1",
+      "MA-1",
+      "MP-1",
+      "PE-1",
+      "PL-1",
+      "PS-1",
+      "RA-1",
+      "SA-1",
+      "SC-1",
+      "SI-1",
+      "SR-1"
+    ],
+    "usa-federal-doe-c2m2-2-1": [
+      "PROGRAM-1h"
+    ],
+    "usa-federal-gsa-fedramp-5-low": [
+      "AC-01",
+      "AT-01",
+      "AU-01",
+      "CA-01",
+      "CM-01",
+      "CP-01",
+      "IA-01",
+      "IR-01",
+      "MA-01",
+      "MP-01",
+      "PE-01",
+      "PL-01",
+      "PM-01",
+      "PS-01",
+      "PT-01",
+      "RA-01",
+      "SA-01",
+      "SC-01",
+      "SI-01",
+      "SR-01"
+    ],
+    "usa-federal-gsa-fedramp-5-mod": [
+      "AC-01",
+      "AT-01",
+      "AU-01",
+      "CA-01",
+      "CM-01",
+      "CP-01",
+      "IA-01",
+      "IR-01",
+      "MA-01",
+      "MP-01",
+      "PE-01",
+      "PL-01",
+      "PM-01",
+      "PS-01",
+      "PT-01",
+      "RA-01",
+      "SA-01",
+      "SC-01",
+      "SI-01",
+      "SR-01"
+    ],
+    "usa-federal-gsa-fedramp-5-high": [
+      "AC-01",
+      "AT-01",
+      "AU-01",
+      "CA-01",
+      "CM-01",
+      "CP-01",
+      "IA-01",
+      "IR-01",
+      "MA-01",
+      "MP-01",
+      "PE-01",
+      "PL-01",
+      "PM-01",
+      "PS-01",
+      "PT-01",
+      "RA-01",
+      "SA-01",
+      "SC-01",
+      "SI-01",
+      "SR-01"
+    ],
+    "usa-federal-gsa-fedramp-5-li-saas": [
+      "AC-01",
+      "AT-01",
+      "AU-01",
+      "CA-01",
+      "CM-01",
+      "CP-01",
+      "IA-01",
+      "IR-01",
+      "MA-01",
+      "MP-01",
+      "PE-01",
+      "PL-01",
+      "PM-01",
+      "PS-01",
+      "PT-01",
+      "RA-01",
+      "SA-01",
+      "SC-01",
+      "SI-01",
+      "SR-01"
+    ],
+    "usa-federal-law-glba-cfr-314-2023": [
+      "314.4(b)",
+      "314.4(g)"
+    ],
+    "usa-federal-hhs-45-cfr-155-260-2016": [
+      "155.260(a)(5)"
+    ],
+    "usa-federal-law-hipaa-simplification-2013": [
+      "164.316(b)(1)(ii)",
+      "164.316(b)(2)(iii)",
+      "164.530(i)(2)(i)",
+      "164.530(i)(2)(ii)",
+      "164.530(i)(2)(iii)",
+      "164.530(i)(3)"
+    ],
+    "usa-federal-law-hipaa-security-rule-2013": [
+      "164.316(b)(1)(ii)",
+      "164.316(b)(2)(iii)"
+    ],
+    "usa-federal-irs-1075-2021": [
+      "AC-1",
+      "AT-1",
+      "AU-1",
+      "CA-1",
+      "CM-1",
+      "CP-1",
+      "IA-1",
+      "IR-1",
+      "MA-1",
+      "MP-1",
+      "PE-1",
+      "PL-1",
+      "PM-1",
+      "PS-1",
+      "PT-1",
+      "RA-1",
+      "SA-1",
+      "SC-1",
+      "SI-1",
+      "SR-1"
+    ],
+    "usa-federal-cms-marse-2-0": [
+      "AC-1",
+      "AT-1",
+      "AU-1",
+      "CA-1",
+      "CM-1",
+      "CP-1",
+      "IA-1",
+      "IR-1",
+      "MA-1",
+      "MP-1",
+      "PE-1",
+      "PL-1",
+      "PS-1",
+      "RA-1",
+      "SA-1",
+      "SC-1",
+      "SI-1",
+      "PM-1"
+    ],
+    "usa-federal-nerc-cip-2024": [
+      "CIP-002-5.1a 2.1",
+      "CIP-002-5.1a 2.2",
+      "CIP-003-8 R1"
+    ],
+    "usa-state-ny-dfs-23-nycrr500-2023-amd2": [
+      "500.8(b)"
+    ],
+    "usa-state-ny-shield-act-2019": [
+      "899-bb.2(b)(ii)(A)(6)"
+    ],
+    "usa-state-tx-dir-security-control-standards-catalog-2-2": [
+      "AC-01",
+      "AT-01",
+      "AU-01",
+      "CA-01",
+      "CM-01",
+      "CP-01",
+      "IA-01",
+      "IR-01",
+      "MA-01",
+      "MP-01",
+      "PE-01",
+      "PL-01",
+      "PM-01",
+      "PS-01",
+      "RA-01",
+      "SA-01",
+      "SC-01",
+      "SI-01",
+      "SR-01"
+    ],
+    "usa-state-tx-txramp-2-0-level-1": [
+      "AC-01",
+      "AT-01",
+      "AU-01",
+      "CA-01",
+      "CM-01",
+      "CP-01",
+      "IA-01",
+      "IR-01",
+      "MA-01",
+      "MP-01",
+      "PE-01",
+      "PL-01",
+      "PS-01",
+      "RA-01",
+      "SA-01",
+      "SC-01",
+      "SI-01"
+    ],
+    "usa-state-tx-txramp-2-0-level-2": [
+      "AC-01",
+      "AT-01",
+      "AU-01",
+      "CA-01",
+      "CM-01",
+      "CP-01",
+      "IA-01",
+      "IR-01",
+      "MA-01",
+      "MP-01",
+      "PE-01",
+      "PL-01",
+      "PS-01",
+      "RA-01",
+      "SA-01",
+      "SC-01",
+      "SI-01"
+    ],
+    "usa-state-vt-act-171-2018": [
+      "2447(b)(8)(B)",
+      "2447(b)(9)",
+      "2447(b)(9)(A)",
+      "2447(b)(9)(B)"
+    ],
+    "emea-eu-eba-ict-srm-2025": [
+      "3.3.1(14)"
+    ],
+    "emea-eu-nis2-annex-2024": [
+      "1.1.2",
+      "2.3.1",
+      "5.1.6",
+      "6.7.3"
+    ],
+    "emea-us-psd2-2015": [
+      "3"
+    ],
+    "emea-aut-fappd-2000": [
+      "Sec 14",
+      "Sec 15"
+    ],
+    "emea-bel-act-8-1992": [
+      "16"
+    ],
+    "emea-deu-bsrit-2017": [
+      "4.2",
+      "4.8"
+    ],
+    "emea-deu-c5-2020": [
+      "OIS-01",
+      "SP-02"
+    ],
+    "emea-isr-cmo-1-0": [
+      "1.1",
+      "5.2",
+      "9.1",
+      "10.1",
+      "11.2",
+      "13.1",
+      "14.1",
+      "15.1",
+      "17.1",
+      "18.1",
+      "21.1",
+      "22.1",
+      "24.1",
+      "25.1"
+    ],
+    "emea-sau-cgiot-2024": [
+      "1-1-4",
+      "1-2-3",
+      "1-4-6",
+      "1-8-3"
+    ],
+    "emea-sau-ecc-1-2018": [
+      "1-1-3",
+      "1-3-4",
+      "1-6-4",
+      "1-9-6",
+      "1-10-5",
+      "2-2-4",
+      "2-3-4",
+      "2-4-4",
+      "2-5-4",
+      "2-6-4",
+      "2-7-4",
+      "2-8-4",
+      "2-9-4",
+      "2-10-4",
+      "2-11-4",
+      "2-12-4",
+      "2-13-4",
+      "2-14-4",
+      "2-15-4",
+      "3-1-4",
+      "4-1-4",
+      "4-2-4",
+      "5-1-4"
+    ],
+    "emea-sau-otcc-1-2022": [
+      "1-1-3"
+    ],
+    "emea-esp-boe-a-2022-7191": [
+      "Article 27"
+    ],
+    "emea-esp-decree-311-2022": [
+      "27"
+    ],
+    "emea-gbr-caf-4-0": [
+      "B1.a"
+    ],
+    "emea-gbr-def-stan-05-138-2024": [
+      "2100",
+      "2101"
+    ],
+    "emea-gbr-def-stan-05-138-l1-2024": [
+      "2100"
+    ],
+    "emea-gbr-def-stan-05-138-l2-2024": [
+      "2100",
+      "2101"
+    ],
+    "emea-gbr-def-stan-05-138-l3-2024": [
+      "2100",
+      "2101"
+    ],
+    "apac-aus-ism-2024-june": [
+      "ISM-1617"
+    ],
+    "apac-aus-ps-cps-234-2019": [
+      "19"
+    ],
+    "apac-ind-sebi-2024": [
+      "GV.PO.S2",
+      "GV.PO.S3",
+      "GV.PO.S4"
+    ],
+    "apac-jpn-ismap": [
+      "4.5.3.1",
+      "4.7.1.5",
+      "4.8.2.1",
+      "5.1.1",
+      "5.1.2",
+      "5.1.2.2",
+      "5.1.2.3",
+      "5.1.2.4"
+    ],
+    "apac-nzl-hisf-mlhsp-2023": [
+      "HHSP67",
+      "HML66"
+    ],
+    "apac-nzl-hisf-suppliers-2023": [
+      "HSUP58"
+    ],
+    "apac-nzl-ism-3-9": [
+      "5.1.14.C.01",
+      "5.1.21.C.01",
+      "5.1.21.C.02"
+    ],
+    "apac-sgp-mas-trm-2021": [
+      "3.2.2"
+    ],
+    "americas-can-osfi-b13-2022": [
+      "1",
+      "1.3.1"
+    ],
+    "americas-can-itsp-10-171-2025": [
+      "03.15.01.B",
+      "03.15.03.D"
+    ]
+  }
+}

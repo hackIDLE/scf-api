@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "GOV-07",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "GOV-07",
+      "ao_id": "GOV-07_A01",
+      "objective": "contact is established and institutionalized with selected groups and associations within the cybersecurity / data privacy community to facilitate ongoing security education and training for organizational personnel.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-15a.[01]\n53A_R5_PM-15a.[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-07",
+      "ao_id": "GOV-07_A02",
+      "objective": "contact is established and institutionalized with selected groups and associations within the cybersecurity / data privacy community to maintain currency with recommended security practices, techniques and technologies.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-15b.[01]\n53A_R5_PM-15b.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-07",
+      "ao_id": "GOV-07_A03",
+      "objective": "contact is established and institutionalized with selected groups and associations within the cybersecurity / data privacy community to share current security information, including threats, vulnerabilities and incidents.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-15c.[01]\n53A_R5_PM-15c.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

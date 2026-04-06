@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "DCH-27",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-27",
+      "ao_id": "DCH-27_A01",
+      "objective": "Data Rights Management (DRM), or similar technologies, are implemented.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-27",
+      "ao_id": "DCH-27_A02",
+      "objective": "Data Rights Management (DRM), or similar technologies, are configured to protect Intellectual Property (IP) rights by preventing the unauthorized distribution and/or modification of sensitive IP.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "CFG-02.3",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CFG-02.3",
+      "ao_id": "CFG-02.3_A01",
+      "objective": "the number of previous baseline configuration versions to be retained is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-02(03)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-02.3",
+      "ao_id": "CFG-02.3_A02",
+      "objective": "organization-defined number of previous baseline configuration version(s) of the system is/are retained to support rollback.",
+      "pptdf": "Data",
+      "origin": "53A_R5_CM-02(03)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

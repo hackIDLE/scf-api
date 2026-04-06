@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-21",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-21",
+      "ao_id": "AAT-21_A01",
+      "objective": "the organization identifies appropriate governing bodies that require the registration of Artificial Intelligence (AI) and Autonomous Technologies (AAT).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-21",
+      "ao_id": "AAT-21_A02",
+      "objective": "the organization maintains a current registration for Artificial Intelligence (AI) and Autonomous Technologies (AAT) with the appropriate governing body, as required by statutory or regulatory requirements.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

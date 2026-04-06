@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "THR-06.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "THR-06.1",
+      "ao_id": "THR-06.1_A01",
+      "objective": "a process to enable public submissions of discovered or potential security vulnerabilities is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "THR-06.1",
+      "ao_id": "THR-06.1_A02",
+      "objective": "a process to receive public submissions of discovered or potential security vulnerabilities is implemented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

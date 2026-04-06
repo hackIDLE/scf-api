@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "IAC-15.4",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-15.4",
+      "ao_id": "IAC-15.4_A01",
+      "objective": "account creation is automatically audited.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-02(04)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-15.4",
+      "ao_id": "IAC-15.4_A02",
+      "objective": "account modification is automatically audited.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-02(04)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-15.4",
+      "ao_id": "IAC-15.4_A03",
+      "objective": "account enabling is automatically audited.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-02(04)[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-15.4",
+      "ao_id": "IAC-15.4_A04",
+      "objective": "account disabling is automatically audited.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-02(04)[04]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-15.4",
+      "ao_id": "IAC-15.4_A05",
+      "objective": "account removal actions are automatically audited.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-02(04)[05]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

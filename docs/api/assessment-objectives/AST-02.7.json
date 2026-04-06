@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AST-02.7",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AST-02.7",
+      "ao_id": "AST-02.7_A01",
+      "objective": "administrative practices identify software licensing restrictions to ensure compliance with End User Licensing Agreements (EULA).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-02.7",
+      "ao_id": "AST-02.7_A02",
+      "objective": "software inventories are automatically or manually reviewed for software licensing compliance.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

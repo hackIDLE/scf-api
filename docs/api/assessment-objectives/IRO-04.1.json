@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "IRO-04.1",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IRO-04.1",
+      "ao_id": "IRO-04.1_A01",
+      "objective": "the incident response plan for breaches involving Personal Data (PD) includes a process to determine if notice to individuals or other organizations, including oversight organizations, is needed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-08(01)(a)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04.1",
+      "ao_id": "IRO-04.1_A02",
+      "objective": "the incident response plan for breaches involving Personal Data (PD) includes an assessment process to determine the extent of the harm, embarrassment, inconvenience or unfairness to affected individuals and any mechanisms to mitigate such harms.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-08(01)(b)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04.1",
+      "ao_id": "IRO-04.1_A03",
+      "objective": "the incident response plan for breaches involving Personal Data (PD) includes the identification of applicable privacy requirements.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-08(01)(c)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

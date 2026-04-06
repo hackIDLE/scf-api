@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "TPM-05.6",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TPM-05.6",
+      "ao_id": "TPM-05.6_A01",
+      "objective": "a First-Party Declaration (1PD) is obtained from applicable Third-Party Service Providers (TSP) that provides assurance of compliance with specified statutory, regulatory and contractual obligations for cybersecurity / data privacy controls, including any flow-down requirements to subcontractors.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-05.6",
+      "ao_id": "TPM-05.6_A02",
+      "objective": "processes, methods, and techniques to monitor security requirement compliance by external service providers on an ongoing basis are implemented.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.16.03.c",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

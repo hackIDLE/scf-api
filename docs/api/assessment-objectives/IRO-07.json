@@ -1,0 +1,96 @@
+{
+  "scf_control_id": "IRO-07",
+  "total": 9,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IRO-07",
+      "ao_id": "IRO-07_A01",
+      "objective": "an integrated incident response team is established and maintained.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-04(11)[01]\n172A_3.6.2e[a]\n172A_3.6.2e[c]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-07",
+      "ao_id": "IRO-07_A02",
+      "objective": "the time period within which an integrated incident response team can be deployed is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-04(11)_ODP\n172A_3.6.2e_ODP[1]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-07",
+      "ao_id": "IRO-07_A03",
+      "objective": "the cyber incident response team can be deployed by the organization within an organization-defined time period.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-04(11)[02]\n172A_3.6.2e[b]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-07",
+      "ao_id": "IRO-07_A04",
+      "objective": "suspected incidents are reported to the organizational incident response capability within an organization-defined time period.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-07",
+      "ao_id": "IRO-07_A05",
+      "objective": "an incident response support resource that offers advice and assistance to system users on handling and reporting incidents is provided.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.06.02.d",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-07",
+      "ao_id": "IRO-07_A06",
+      "objective": "a time period for deploying a cyber incident response team is defined.",
+      "pptdf": "Process",
+      "origin": "172A_3.6.2e_ODP[1]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-07",
+      "ao_id": "IRO-07_A07",
+      "objective": "the cyber incident response team can be deployed by the organization within an organization-defined time period.",
+      "pptdf": "Process",
+      "origin": "172A_3.6.2e[b]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-07",
+      "ao_id": "IRO-07_A08",
+      "objective": "the cyber incident response team is maintained.",
+      "pptdf": "Process",
+      "origin": "172A_3.6.2e[c]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-07",
+      "ao_id": "IRO-07_A09",
+      "objective": "suspected incidents are reported to the organizational incident response capability within <A.03.06.02.ODP[01]: time period>.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.06.02.b",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "near real time or as soon as practicable upon discovery",
+      "org_defined_parameters": ""
+    }
+  ]
+}

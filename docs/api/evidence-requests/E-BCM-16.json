@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-BCM-16",
+  "area": "Business Continuity",
+  "artifact_name": "Encrypted Backup Media",
+  "artifact_description": "Documented evidence of backup media being encrypted.",
+  "scf_controls": [
+    "BCD-11.4"
+  ],
+  "cmmc_mapping": ""
+}

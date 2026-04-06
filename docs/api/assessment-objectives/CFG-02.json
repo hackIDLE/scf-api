@@ -1,0 +1,356 @@
+{
+  "scf_control_id": "CFG-02",
+  "total": 35,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CFG-02",
+      "ao_id": "CFG-02_A01",
+      "objective": "a current baseline configuration for systems, applications and services is developed and documented.",
+      "pptdf": "Process",
+      "origin": "171A_3.4.1[a]\n171A_3.4.2[a]\n53A_R5_CM-02a.[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-02",
+      "ao_id": "CFG-02_A02",
+      "objective": "the baseline configuration includes hardware, software, firmware and documentation.",
+      "pptdf": "Technology",
+      "origin": "171A_3.4.1[b]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-02",
+      "ao_id": "CFG-02_A03",
+      "objective": "security configuration settings for information technology products employed in the system are enforced.",
+      "pptdf": "Technology",
+      "origin": "171A_3.4.2[b]\n53A_R5_CM-06b.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-02",
+      "ao_id": "CFG-02_A04",
+      "objective": "the baseline configuration is maintained (reviewed / updated) throughout the system development life cycle under configuration control.",
+      "pptdf": "Process",
+      "origin": "171A_3.4.1[c]\n53A_R5_CM-02a.[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-02",
+      "ao_id": "CFG-02_A05",
+      "objective": "configuration settings that reflect the most restrictive mode consistent with operational requirements are established and documented for components employed within the system using organization-defined common secure configurations.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-06a.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-02",
+      "ao_id": "CFG-02_A06",
+      "objective": "thresholds to which attack surfaces are to be reduced are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-15(05)_ODP",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-02",
+      "ao_id": "CFG-02_A07",
+      "objective": "the developer of the system, system component or system service is required to reduce attack surfaces to organization-defined thresholds.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-15(05)",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-02",
+      "ao_id": "CFG-02_A08",
+      "objective": "a control baseline for the system is selected.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_PL-10",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-02",
+      "ao_id": "CFG-02_A09",
+      "objective": "approved authorizations are enforced for controlling the flow of CUI within the system.",
+      "pptdf": "Data",
+      "origin": "171A_R3_A.03.01.03[01]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-02",
+      "ao_id": "CFG-02_A10",
+      "objective": "configuration requirements are established for each type of wireless access to the system.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.01.16.a[03]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-02",
+      "ao_id": "CFG-02_A11",
+      "objective": "wireless networking capabilities not intended for use are disabled prior to issuance and deployment.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.01.16.c",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-02",
+      "ao_id": "CFG-02_A12",
+      "objective": "configuration requirements are established for mobile devices.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.01.18.a[02]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-02",
+      "ao_id": "CFG-02_A13",
+      "objective": "audit logging tools are protected from unauthorized access, modification, and deletion.",
+      "pptdf": "Technology",
+      "origin": "171A_3.3.8[d]\n171A_3.3.8[e]\n171A_3.3.8[f]\n171A_R3_A.03.03.08.a[02]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-02",
+      "ao_id": "CFG-02_A14",
+      "objective": "a current baseline configuration of the system is developed.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.04.01.a[01]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-02",
+      "ao_id": "CFG-02_A15",
+      "objective": "a current baseline configuration of the system is maintained under configuration control.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.04.01.a[02]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-02",
+      "ao_id": "CFG-02_A16",
+      "objective": "the following configuration settings for the system that reflect the most restrictive mode consistent with operational requirements are established and documented: <A.03.04.02.ODP[01]: configuration settings>.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.04.02.a[01]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "Apply the appropriate use of common security configurations available from the National Institute of Standards and Technology’s National Checklist Program (NCP) website (https://ncp.nist.gov/repository) and prevent remote devices from simultaneously establishing nonremote connections with organizational systems and communicating via some other unauthorized connection to\nresources in external networks. Document any deviations from the published standard or source document.",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-02",
+      "ao_id": "CFG-02_A17",
+      "objective": "the following configuration settings for the system are implemented: <A.03.04.02.ODP[01]: configuration settings>.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.04.02.a[02]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "Apply the appropriate use of common security configurations available from the National Institute of Standards and Technology’s National Checklist Program (NCP) website (https://ncp.nist.gov/repository) and prevent remote devices from simultaneously establishing nonremote connections with organizational systems and communicating via some other unauthorized connection to\nresources in external networks. Document any deviations from the published standard or source document.",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-02",
+      "ao_id": "CFG-02_A18",
+      "objective": "functions to be prohibited or restricted are defined.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.04.06.ODP[01]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-02",
+      "ao_id": "CFG-02_A19",
+      "objective": "ports to be prohibited or restricted are defined.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.04.06.ODP[02]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-02",
+      "ao_id": "CFG-02_A20",
+      "objective": "protocols to be prohibited or restricted are defined.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.04.06.ODP[03]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-02",
+      "ao_id": "CFG-02_A21",
+      "objective": "connections to be prohibited or restricted are defined.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.04.06.ODP[04]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-02",
+      "ao_id": "CFG-02_A22",
+      "objective": "services to be prohibited or restricted are defined.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.04.06.ODP[05]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-02",
+      "ao_id": "CFG-02_A23",
+      "objective": "the use of the following functions is prohibited or restricted: <A.03.04.06.ODP[01]: functions>.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.04.06.b[01]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "Guidance: Where feasible, organizations should limit component functionality to a single function per component. Organizations should consider removing unused or unnecessary software and disabling unused or unnecessary physical and logical ports and protocols to prevent unauthorized connection of components, transfer of information, and tunneling. Organizations should employ network scanning tools, intrusion detection and prevention systems, and endpoint protection technologies, such as firewalls and host-based intrusion detection systems, to identify and prevent the use of prohibited functions, protocols, ports, and services. Least functionality should also be achieved as part of the fundamental design and development of the system.",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-02",
+      "ao_id": "CFG-02_A24",
+      "objective": "the use of the following ports is prohibited or restricted: <A.03.04.06.ODP[02]: ports>.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.04.06.b[02]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "Guidance: Where feasible, organizations should limit component functionality to a single function per component. Organizations should consider removing unused or unnecessary software and disabling unused or unnecessary physical and logical ports and protocols to prevent unauthorized connection of components, transfer of information, and tunneling. Organizations should employ network scanning tools, intrusion detection and prevention systems, and endpoint protection technologies, such as firewalls and host-based intrusion detection systems, to identify and prevent the use of prohibited functions, protocols, ports, and services. Least functionality should also be achieved as part of the fundamental design and development of the system.",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-02",
+      "ao_id": "CFG-02_A25",
+      "objective": "the use of the following protocols is prohibited or restricted: <A.03.04.06.ODP[03]: protocols>.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.04.06.b[03]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "Guidance: Where feasible, organizations should limit component functionality to a single function per component. Organizations should consider removing unused or unnecessary software and disabling unused or unnecessary physical and logical ports and protocols to prevent unauthorized connection of components, transfer of information, and tunneling. Organizations should employ network scanning tools, intrusion detection and prevention systems, and endpoint protection technologies, such as firewalls and host-based intrusion detection systems, to identify and prevent the use of prohibited functions, protocols, ports, and services. Least functionality should also be achieved as part of the fundamental design and development of the system.",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-02",
+      "ao_id": "CFG-02_A26",
+      "objective": "the use of the following connections is prohibited or restricted: <A.03.04.06.ODP[04]: connections>.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.04.06.b[04]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "Guidance: Where feasible, organizations should limit component functionality to a single function per component. Organizations should consider removing unused or unnecessary software and disabling unused or unnecessary physical and logical ports and protocols to prevent unauthorized connection of components, transfer of information, and tunneling. Organizations should employ network scanning tools, intrusion detection and prevention systems, and endpoint protection technologies, such as firewalls and host-based intrusion detection systems, to identify and prevent the use of prohibited functions, protocols, ports, and services. Least functionality should also be achieved as part of the fundamental design and development of the system.",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-02",
+      "ao_id": "CFG-02_A27",
+      "objective": "the use of the following services is prohibited or restricted: <A.03.04.06.ODP[05]: services>.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.04.06.b[05]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "Guidance: Where feasible, organizations should limit component functionality to a single function per component. Organizations should consider removing unused or unnecessary software and disabling unused or unnecessary physical and logical ports and protocols to prevent unauthorized connection of components, transfer of information, and tunneling. Organizations should employ network scanning tools, intrusion detection and prevention systems, and endpoint protection technologies, such as firewalls and host-based intrusion detection systems, to identify and prevent the use of prohibited functions, protocols, ports, and services. Least functionality should also be achieved as part of the fundamental design and development of the system.",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-02",
+      "ao_id": "CFG-02_A28",
+      "objective": "replay-resistant authentication mechanisms for access to privileged accounts are implemented.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.05.04[01]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-02",
+      "ao_id": "CFG-02_A29",
+      "objective": "replay-resistant authentication mechanisms for access to non-privileged accounts are implemented.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.05.04[02]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-02",
+      "ao_id": "CFG-02_A30",
+      "objective": "passwords are only transmitted over cryptographically protected channels.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.05.07.c",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-02",
+      "ao_id": "CFG-02_A31",
+      "objective": "passwords are stored in a cryptographically protected form.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.05.07.d",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-02",
+      "ao_id": "CFG-02_A32",
+      "objective": "a new password is selected upon first use after account recovery.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.05.07.e",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-02",
+      "ao_id": "CFG-02_A33",
+      "objective": "organization-defined composition and complexity rules for passwords are enforced.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-02",
+      "ao_id": "CFG-02_A34",
+      "objective": "replay resistance is implemented in the establishment of nonlocal maintenance and diagnostic sessions.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.07.05.b[02]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CFG-02",
+      "ao_id": "CFG-02_A35",
+      "objective": "the following composition and complexity rules for passwords are enforced: <A.03.05.07.ODP[02]: rules>.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.05.07.f",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "SDP values:\n(1) Must have a minimum length of 16 characters.\n(2) Contains a string of characters that does not include the user’s account name or full name.",
+      "org_defined_parameters": ""
+    }
+  ]
+}

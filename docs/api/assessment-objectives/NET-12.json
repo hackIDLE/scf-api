@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "NET-12",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-12",
+      "ao_id": "NET-12_A01",
+      "objective": "approved authorizations for logical access to information and system resources are enforced in accordance with applicable access control policies.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-03",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

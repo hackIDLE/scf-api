@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "SEA-09",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "SEA-09",
+      "ao_id": "SEA-09_A01",
+      "objective": "software programs and/or applications whose information output requires validation are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-15_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-09",
+      "ao_id": "SEA-09_A02",
+      "objective": "information output from organization-defined software programs and/or applications is validated to ensure that the information is consistent with the expected content.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-15",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "IAC-09.2",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-09.2",
+      "ao_id": "IAC-09.2_A01",
+      "objective": "characteristic used to identify individual status are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IA-04(04)_ODP\n171A_R3_A.03.05.05.ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "contractors; foreign nationals",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-09.2",
+      "ao_id": "IAC-09.2_A02",
+      "objective": "individual identifiers are managed by uniquely identifying each individual per an organization-defined characteristic.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-04(04)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "contractors; foreign nationals",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-09.2",
+      "ao_id": "IAC-09.2_A03",
+      "objective": "individual identifiers are managed by uniquely identifying each individual as <A.03.05.05.ODP[02]: characteristic>.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.05.05.d",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "privileged or non-privileged users; contractors, foreign nationals, and/or non-organizational users",
+      "org_defined_parameters": ""
+    }
+  ]
+}

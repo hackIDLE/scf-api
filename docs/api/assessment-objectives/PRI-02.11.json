@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PRI-02.11",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-02.11",
+      "ao_id": "PRI-02.11_A01",
+      "objective": "choice architecture that enables data subjects to make well-informed choices is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-02.11",
+      "ao_id": "PRI-02.11_A02",
+      "objective": "choice architecture that supports data subjects' ability to make well-informed choices is implemented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "BCD-12.3",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "BCD-12.3",
+      "ao_id": "BCD-12.3_A01",
+      "objective": "electronic discovery (eDiscovery) capabilities cover current and archived communication transactions.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

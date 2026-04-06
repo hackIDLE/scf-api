@@ -1,0 +1,16 @@
+{
+  "control_id": "GOV-14",
+  "risk_if_not_implemented": "Without Business As Usual (BAU) Security, Compliance & Resilience Practices, the organization may be unable to recover from disruptions, resulting in data loss and extended downtime.",
+  "compensating_control_1": {
+    "control_id": "GOV-01",
+    "name": "Security, Compliance & Resilience Program (SCRP)",
+    "description": "Mechanisms exist to facilitate the implementation of security, compliance and resilience governance controls.",
+    "justification": "Security, Compliance & Resilience Program (SCRP) (GOV-01) provides resilience and recovery capability that compensates for the absence of Business As Usual (BAU) Security, Compliance & Resilience Practices (GOV-14) by ensuring the organization can restore operations and data when the primary control is absent. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  },
+  "compensating_control_2": {
+    "control_id": "SAT-02",
+    "name": "Security, Compliance & Resilience Awareness Training",
+    "description": "Mechanisms exist to provide all employees and contractors appropriate security, compliance and resilience awareness education and training that is relevant for their job function.",
+    "justification": "Security, Compliance & Resilience Awareness Training (SAT-02) provides personnel training and awareness that compensates for the absence of Business As Usual (BAU) Security, Compliance & Resilience Practices (GOV-14) by reducing human-factor risk by equipping personnel to recognize and respond to relevant threats. Given the process-oriented nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  }
+}

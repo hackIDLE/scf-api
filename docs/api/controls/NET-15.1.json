@@ -1,0 +1,228 @@
+{
+  "control_id": "NET-15.1",
+  "title": "Authentication & Encryption",
+  "family": "NET",
+  "description": "Mechanisms exist to secure Wi-Fi (e.g., IEEE 802.11) and prevent unauthorized access by:\n(1) Authenticating devices trying to connect; and \n(2) Encrypting transmitted data.",
+  "scf_question": "Does the organization secure Wi-Fi (e.g., IEEE 802.11) and prevent unauthorized access by:\n (1) Authenticating devices trying to connect; and \n (2) Encrypting transmitted data?",
+  "relative_weight": 9,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [],
+  "pptdf": "Technology",
+  "nist_csf_function": "Protect",
+  "scrm_focus": {
+    "strategic": false,
+    "operational": false,
+    "tactical": true
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "Network Security (NET) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with NET domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Network security-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ Wireless access is protected via secure authentication and encryption.",
+    "2": "Network Security (NET) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with NET domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with NET domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with NET  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Network security-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Network security management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT personnel define secure networking practices to protect the Confidentiality, Integrity, Availability and Safety (CIAS) of the organization's TAASD.\n▪ Secure Baseline Configurations (SBC) enforce the principles of least privileges and least functionality for boundary protection technologies.",
+    "3": "Network Security (NET) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with NET domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with NET domain capabilities are well-documented and kept current by process owners.\n▪ A network security management team, or similar function, is appropriately staffed and supported to implement and maintain NET domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of network security operations (e.g., network management solution, log aggregator, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with NET domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ Secure Baseline Configurations (SBC) enforce the principles of least privileges and least functionality for boundary protection technologies.\n▪ An implemented and operational capability exists to secure Wi-Fi (e.g., IEEE 802.11) and prevent unauthorized access by:\n(1) Authenticating devices trying to connect; and \n(2) Encrypting transmitted data.",
+    "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [
+    "CORE ESP Level 2 Critical Infrastructure",
+    "CORE ESP Level 3 Advanced Threats",
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ Secure Baseline Configurations (SBC)",
+    "small": "∙ Secure Baseline Configurations (SBC)",
+    "medium": "∙ Secure Baseline Configurations (SBC)",
+    "large": "∙ Secure Baseline Configurations (SBC)",
+    "enterprise": "∙ Secure Baseline Configurations (SBC)"
+  },
+  "risks": [
+    "R-AC-4",
+    "R-AM-2",
+    "R-AM-3",
+    "R-BC-1",
+    "R-BC-2",
+    "R-BC-4",
+    "R-EX-1",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-EX-5",
+    "R-EX-7",
+    "R-GV-1",
+    "R-GV-2",
+    "R-GV-4",
+    "R-GV-5",
+    "R-IR-1",
+    "R-IR-2",
+    "R-IR-4",
+    "R-SA-1"
+  ],
+  "threats": [
+    "NT-7",
+    "MT-1",
+    "MT-2",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-10",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Network Security",
+  "crosswalks": {
+    "general-govramp": [
+      "AC-18(01)"
+    ],
+    "general-govramp-mod": [
+      "AC-18(01)"
+    ],
+    "general-govramp-high": [
+      "AC-18(01)"
+    ],
+    "general-iec-62443-4-2-2019": [
+      "NDR 1.6(1)"
+    ],
+    "general-nist-800-53-r4": [
+      "AC-18(1)"
+    ],
+    "general-nist-800-53-r5-2": [
+      "AC-18(01)"
+    ],
+    "general-nist-800-53-r5-2-mod": [
+      "AC-18(01)"
+    ],
+    "general-nist-800-82-r3": [
+      "AC-18(01)"
+    ],
+    "general-nist-800-82-r3-mod": [
+      "AC-18(01)"
+    ],
+    "general-nist-800-82-r3-high": [
+      "AC-18(01)"
+    ],
+    "general-nist-800-171-r2": [
+      "3.1.17"
+    ],
+    "general-nist-800-171-r3": [
+      "03.01.16.a",
+      "03.01.16.b",
+      "03.01.16.d"
+    ],
+    "general-nist-800-171a": [
+      "3.1.17[a]",
+      "3.1.17[b]"
+    ],
+    "general-nist-800-171a-r3": [
+      "A.03.01.16.d[01]",
+      "A.03.01.16.d[02]"
+    ],
+    "general-pci-dss-4-0-1": [
+      "1.3",
+      "2.3.1",
+      "2.3.2",
+      "4.2.1"
+    ],
+    "general-pci-dss-4-0-1-saq-a-ep": [
+      "4.2.1"
+    ],
+    "general-pci-dss-4-0-1-saq-b-ip": [
+      "2.3.1",
+      "2.3.2"
+    ],
+    "general-pci-dss-4-0-1-saq-c": [
+      "2.3.1",
+      "2.3.2",
+      "4.2.1"
+    ],
+    "general-pci-dss-4-0-1-saq-c-vt": [
+      "2.3.1",
+      "2.3.2"
+    ],
+    "general-pci-dss-4-0-1-saq-d-merchant": [
+      "2.3.1",
+      "2.3.2",
+      "4.2.1"
+    ],
+    "general-pci-dss-4-0-1-saq-d-service-provider": [
+      "2.3.1",
+      "2.3.2",
+      "4.2.1"
+    ],
+    "usa-federal-fbi-cjis-6-0": [
+      "AC-18(1)"
+    ],
+    "usa-federal-dow-cmmc-2-level-2": [
+      "ACL2.-3.1.17"
+    ],
+    "usa-federal-gsa-fedramp-5-mod": [
+      "AC-18(01)"
+    ],
+    "usa-federal-gsa-fedramp-5-high": [
+      "AC-18(01)"
+    ],
+    "usa-federal-irs-1075-2021": [
+      "AC-18(CE-1)"
+    ],
+    "usa-federal-cms-marse-2-0": [
+      "AC-18(1)"
+    ],
+    "usa-state-tx-dir-security-control-standards-catalog-2-2": [
+      "AC-18-SID.2"
+    ],
+    "emea-eu-nis2-annex-2024": [
+      "11.4.2(c)"
+    ],
+    "emea-isr-cmo-1-0": [
+      "12.14"
+    ],
+    "emea-gbr-def-stan-05-138-2024": [
+      "2304"
+    ],
+    "emea-gbr-def-stan-05-138-l1-2024": [
+      "2304"
+    ],
+    "emea-gbr-def-stan-05-138-l2-2024": [
+      "2304"
+    ],
+    "emea-gbr-def-stan-05-138-l3-2024": [
+      "2304"
+    ],
+    "apac-nzl-ism-3-9": [
+      "18.2.10.C.01",
+      "18.2.10.C.02",
+      "18.2.11.C.01",
+      "18.2.11.C.02",
+      "18.2.11.C.03",
+      "18.2.11.C.04",
+      "18.2.11.C.05",
+      "18.2.12.C.01",
+      "18.2.12.C.02",
+      "18.2.13.C.01",
+      "18.2.14.C.01",
+      "18.2.15.C.01",
+      "18.2.16.C.01",
+      "18.2.17.C.01",
+      "18.2.18.C.01",
+      "18.2.19.C.01",
+      "18.2.20.C.01",
+      "18.2.20.C.02",
+      "18.2.20.C.03",
+      "18.2.21.C.01",
+      "18.2.22.C.01",
+      "18.2.23.C.01",
+      "18.2.23.C.02",
+      "18.2.24.C.01",
+      "18.2.25.C.01"
+    ],
+    "americas-can-itsp-10-171-2025": [
+      "03.01.16.A",
+      "03.01.16.B",
+      "03.01.16.D"
+    ]
+  }
+}

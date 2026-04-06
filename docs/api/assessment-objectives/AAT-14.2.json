@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-14.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-14.2",
+      "ao_id": "AAT-14.2_A01",
+      "objective": "the knowledge limits of Artificial Intelligence (AI) and Autonomous Technologies (AAT) are identified and documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-14.2",
+      "ao_id": "AAT-14.2_A02",
+      "objective": "stakeholders are provided the knowledge limits of Artificial Intelligence (AI) and Autonomous Technologies (AAT) to assist in decision making.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

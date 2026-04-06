@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "IAC-29.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-29.1",
+      "ao_id": "IAC-29.1_A01",
+      "objective": "Machine Learning (ML) is used to make real-time access decisions based on advanced network analytics, leveraging enterprise-wide data sources.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

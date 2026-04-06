@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-CHG-05",
+  "area": "Change Management",
+  "artifact_name": "Change Control Records",
+  "artifact_description": "Documented evidence of change control records (including test results, when applicable).",
+  "scf_controls": [
+    "CHG-02",
+    "CHG-02.2"
+  ],
+  "cmmc_mapping": "CM.L2-3.4.1\nCM.L2-3.4.4\nCM.L2-3.4.5\nCM.L2-3.4.6\nCM.L2-3.4.8\nIA.L1-3.5.2\nIA.L2-3.5.10\nIA.L2-3.5.5\nSI.L1-3.14.1"
+}

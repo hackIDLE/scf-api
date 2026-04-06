@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-BCM-05",
+  "area": "Business Continuity",
+  "artifact_name": "COOP Updates",
+  "artifact_description": "Documented evidence of a periodic review process for the organization's Continuity of Operations Plan (COOP) to identify necessary updates.",
+  "scf_controls": [
+    "BCD-06"
+  ],
+  "cmmc_mapping": ""
+}

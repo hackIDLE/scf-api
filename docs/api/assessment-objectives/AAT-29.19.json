@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "AAT-29.19",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-29.19",
+      "ao_id": "AAT-29.19_A01",
+      "objective": "AI agent-initiated actions are properly mapped to authenticated user or system identities, with enforced authorization checks.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

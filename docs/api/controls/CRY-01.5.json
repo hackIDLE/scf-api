@@ -1,0 +1,78 @@
+{
+  "control_id": "CRY-01.5",
+  "title": "Cryptographic Cipher Suites and Protocols Inventory",
+  "family": "CRY",
+  "description": "Mechanisms exist to identify, document and review deployed cryptographic cipher suites and protocols to proactively respond to industry trends regarding the continued viability of utilized cryptographic cipher suites and protocols.",
+  "scf_question": "Does the organization identify, document and review deployed cryptographic cipher suites and protocols to proactively respond to industry trends regarding the continued viability of utilized cryptographic cipher suites and protocols?",
+  "relative_weight": 9,
+  "conformity_cadence": "Semi-Annual",
+  "evidence_requests": [],
+  "pptdf": "Process",
+  "nist_csf_function": "Protect",
+  "scrm_focus": {
+    "strategic": true,
+    "operational": true,
+    "tactical": true
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "2": "Cryptographic Protections (CRY) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Cryptographic management controls-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Cryptographic management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Technology Assets, Applications and/or Services (TAAS) that store, process or transmit sensitive/regulated data use cryptographic mechanisms to prevent unauthorized disclosure of information as an alternate to physical safeguards.",
+    "3": "Cryptographic Protections (CRY) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CRY domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CRY domain capabilities are well-documented and kept current by process owners.\n▪ A security engineering team, or similar function, is appropriately staffed and supported to implement and maintain CRY domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cryptographic protections operations (e.g., PKI management tool, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CRY domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to identify, document and review deployed cryptographic cipher suites and protocols to proactively respond to industry trends regarding the continued viability of utilized cryptographic cipher suites and protocols.",
+    "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [
+    "CORE ESP Level 2 Critical Infrastructure",
+    "CORE ESP Level 3 Advanced Threats"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ Enable encryption for sensitive files (e.g., VeraCrypt, BitLocker)",
+    "small": "∙ Full disk encryption\n∙ TLS for data in transit",
+    "medium": "∙ Enterprise encryption standards policy\n∙ PKI management",
+    "large": "∙ Enterprise PKI\n∙ HSM for key management\n∙ Certificate lifecycle management",
+    "enterprise": "∙ Enterprise HSM (e.g., Thales, AWS CloudHSM)\n∙ Enterprise PKI\n∙ Automated certificate management (e.g., Venafi)"
+  },
+  "risks": [
+    "R-AC-1",
+    "R-AC-4",
+    "R-AM-3",
+    "R-BC-1",
+    "R-BC-2",
+    "R-BC-3",
+    "R-BC-4",
+    "R-BC-5",
+    "R-GV-1"
+  ],
+  "threats": [
+    "MT-8",
+    "MT-9",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Cryptographic Protections",
+  "crosswalks": {
+    "general-nist-800-171-r3": [
+      "03.13.11"
+    ],
+    "general-pci-dss-4-0-1": [
+      "12.3.3"
+    ],
+    "general-pci-dss-4-0-1-saq-d-merchant": [
+      "12.3.3"
+    ],
+    "general-pci-dss-4-0-1-saq-d-service-provider": [
+      "12.3.3"
+    ],
+    "emea-sau-cscc-1-2019": [
+      "2-7-1-3"
+    ],
+    "americas-can-itsp-10-171-2025": [
+      "03.13.11"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "PRI-07.2",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-07.2",
+      "ao_id": "PRI-07.2_A01",
+      "objective": "clearly define and communicate the organization's role in processing Personal Data (PD) in the data processing ecosystem.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

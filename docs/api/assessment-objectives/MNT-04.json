@@ -1,0 +1,116 @@
+{
+  "scf_control_id": "MNT-04",
+  "total": 11,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MNT-04",
+      "ao_id": "MNT-04_A01",
+      "objective": "tools used to conduct system maintenance are controlled.",
+      "pptdf": "Technology",
+      "origin": "171A_3.7.2[a]\n53A_R5_MA-03a.[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-04",
+      "ao_id": "MNT-04_A02",
+      "objective": "techniques used to conduct system maintenance are controlled.",
+      "pptdf": "Process",
+      "origin": "171A_3.7.2[b]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-04",
+      "ao_id": "MNT-04_A03",
+      "objective": "mechanisms used to conduct system maintenance are controlled.",
+      "pptdf": "Technology",
+      "origin": "171A_3.7.2[c]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-04",
+      "ao_id": "MNT-04_A04",
+      "objective": "personnel used to conduct system maintenance are controlled.",
+      "pptdf": "Process",
+      "origin": "171A_3.7.2[d]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-04",
+      "ao_id": "MNT-04_A05",
+      "objective": "the use of maintenance tools that execute with increased privilege is monitored.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_MA-03(05)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-04",
+      "ao_id": "MNT-04_A06",
+      "objective": "the frequency at which to review previously approved system maintenance tools is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-03_ODP",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-04",
+      "ao_id": "MNT-04_A07",
+      "objective": "the use of system maintenance tools is approved.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-03a.[01]\n171A_R3_A.03.07.04.a[01]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-04",
+      "ao_id": "MNT-04_A08",
+      "objective": "the use of system maintenance tools is controlled.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.07.04.a[02]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-04",
+      "ao_id": "MNT-04_A09",
+      "objective": "the use of system maintenance tools is monitored.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_MA-03a.[03]\n171A_R3_A.03.07.04.a[03]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-04",
+      "ao_id": "MNT-04_A10",
+      "objective": "previously approved system maintenance tools are reviewed per an organization-defined frequency.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-03b.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-04",
+      "ao_id": "MNT-04_A11",
+      "objective": "maintenance tools are inspected to ensure that the latest software updates and patches are installed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-03(06)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

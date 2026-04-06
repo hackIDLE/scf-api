@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "BCD-02.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "BCD-02.1",
+      "ao_id": "BCD-02.1_A01",
+      "objective": "the contingency plan activation time period within which to resume all mission and business functions is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-02(03)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "Recovery Time Objective (RTO)",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-02.1",
+      "ao_id": "BCD-02.1_A02",
+      "objective": "the resumption of all mission and business functions are planned for within an organization-defined time period of contingency plan activation.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-02(03)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "time period defined in service provider and organization SLA",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "NET-20.9",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-20.9",
+      "ao_id": "NET-20.9_A01",
+      "objective": "methods exist to receive submissions from users of phishing attempts, spam or otherwise malicious actions.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

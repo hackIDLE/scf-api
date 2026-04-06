@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "PRI-18",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-18",
+      "ao_id": "PRI-18_A01",
+      "objective": "the organization has processes to respond to data controls communications pertaining to data subject requests.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-18",
+      "ao_id": "PRI-18_A02",
+      "objective": "the organization has processes to respond to data controls communications pertaining to updating/correcting Personal Data (PD) under its control.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-18",
+      "ao_id": "PRI-18_A03",
+      "objective": "the organization has processes to respond to data controls communications pertaining to the disclosure of Personal Data (PD).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-18",
+      "ao_id": "PRI-18_A04",
+      "objective": "the organization has processes to respond to data controls communications pertaining to accounting for Personal Data (PD) that is stored, processed and/or transmitted on behalf of the data controller.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "END-06.1",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "END-06.1",
+      "ao_id": "END-06.1_A01",
+      "objective": "software, firmware and/or information on which an integrity check is to be performed is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-07(01)_ODP[01]\n53A_R5_SI-07(01)_ODP[05]\n53A_R5_SI-07(01)_ODP[09]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "selection to include security relevant events",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-06.1",
+      "ao_id": "END-06.1_A02",
+      "objective": "an integrity check of software, firmware and/or information is performed per an organization-defined time period.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-07(01)[01]\n53A_R5_SI-07(01)[02]\n53A_R5_SI-07(01)[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-06.1",
+      "ao_id": "END-06.1_A03",
+      "objective": "transitional states or security-relevant events requiring integrity checks software, firmware and/or information are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-07(01)_ODP[02]\n53A_R5_SI-07(01)_ODP[03]\n53A_R5_SI-07(01)_ODP[06]\n53A_R5_SI-07(01)_ODP[07]\n53A_R5_SI-07(01)_ODP[10]\n53A_R5_SI-07(01)_ODP[11]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-06.1",
+      "ao_id": "END-06.1_A04",
+      "objective": "the frequency with which to perform an integrity check software, firmware and/or information is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-07(01)_ODP[04]\n53A_R5_SI-07(01)_ODP[08]\n53A_R5_SI-07(01)_ODP[12]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least monthly",
+      "org_defined_parameters": ""
+    }
+  ]
+}

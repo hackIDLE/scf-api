@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "MON-14.1",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MON-14.1",
+      "ao_id": "MON-14.1_A01",
+      "objective": "organizations with which cross-organizational audit information is to be shared are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AU-16(02)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-14.1",
+      "ao_id": "MON-14.1_A02",
+      "objective": "cross-organizational sharing agreements to be used when providing cross-organizational audit information to organizations are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AU-16(02)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-14.1",
+      "ao_id": "MON-14.1_A03",
+      "objective": "cross-organizational audit information is provided to organization-defined organizations based on organization-defined cross-organizational sharing agreements.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AU-16(02)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

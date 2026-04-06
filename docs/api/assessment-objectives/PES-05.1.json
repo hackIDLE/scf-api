@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PES-05.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PES-05.1",
+      "ao_id": "PES-05.1_A01",
+      "objective": "physical access to the facility where the system resides is monitored using physical intrusion alarms.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-06(01)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-05.1",
+      "ao_id": "PES-05.1_A02",
+      "objective": "physical access to the facility where the system resides is monitored using physical surveillance equipment.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-06(01)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "NET-19",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-19",
+      "ao_id": "NET-19_A01",
+      "objective": "Automated Content Disarm and Reconstruction (CDR) technologies are implemented.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-19",
+      "ao_id": "NET-19_A02",
+      "objective": "Automated Content Disarm and Reconstruction (CDR) mechanisms are configured to detect the presence of unapproved active content and facilitate its removal, resulting in content with only known safe elements.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

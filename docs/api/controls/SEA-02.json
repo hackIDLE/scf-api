@@ -1,0 +1,520 @@
+{
+  "control_id": "SEA-02",
+  "title": "Alignment With Enterprise Architecture",
+  "family": "SEA",
+  "description": "Mechanisms exist to develop an enterprise architecture, aligned with industry-recognized leading practices, with consideration for security, compliance and resilience principles that addresses risk to organizational operations, assets, individuals and other organizations.",
+  "scf_question": "Does the organization develop an enterprise architecture, aligned with industry-recognized leading practices, with consideration for security, compliance and resilience principles that addresses risk to organizational operations, assets, individuals and other organizations?",
+  "relative_weight": 9,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [
+    "E-TDA-04",
+    "E-TDA-09"
+  ],
+  "pptdf": "Process",
+  "nist_csf_function": "Protect",
+  "scrm_focus": {
+    "strategic": true,
+    "operational": true,
+    "tactical": true
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "2": "Secure Engineering & Architecture (SEA) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with SEA domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with SEA domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with SEA  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Secure engineering and architecture-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Secure engineering and architecture management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ IT and/or cybersecurity personnel define entity-specific secure engineering practices to protect the Confidentiality, Integrity, Availability and Safety (CIAS) of the entity's TAASD.\n▪ IT and/or cybersecurity personnel align secure engineering practices with the entity's broader IT architecture practices.\n▪ IT and/or cybersecurity personnel use secure engineering practices to influence Secure Baseline Configurations (SBC).",
+    "3": "Secure Engineering & Architecture (SEA) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with SEA domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with SEA domain capabilities are well-documented and kept current by process owners.\n▪ A cybersecurity engineering / architecture team, or similar function, is appropriately staffed and supported to implement and maintain RSK domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of secure engineering management operations (e.g., project management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with SEA domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ Secure Baseline Configurations (SBC) enforce the secure engineering principles on all applicable Technology Assets, Applications and/or Services (TAAS).\n▪ An implemented and operational capability exists to develop an enterprise architecture, aligned with industry-recognized leading practices, with consideration for security, compliance and resilience principles that addresses risk to organizational operations, assets, individuals and other organizations.",
+    "4": "Secure Engineering & Architecture (SEA) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [
+    "SCRMS",
+    "CORE ESP Level 1 Foundational",
+    "CORE ESP Level 2 Critical Infrastructure",
+    "CORE ESP Level 3 Advanced Threats",
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ Follow secure coding basics\n∙ Document security decisions",
+    "small": "∙ Secure design checklist\n∙ Basic threat modeling",
+    "medium": "∙ Enterprise architecture committee",
+    "large": "∙ Enterprise architecture committee",
+    "enterprise": "∙ Enterprise architecture committee"
+  },
+  "risks": [
+    "R-AC-1",
+    "R-AC-2",
+    "R-AC-3",
+    "R-AC-4",
+    "R-AM-1",
+    "R-AM-2",
+    "R-BC-1",
+    "R-BC-2",
+    "R-BC-3",
+    "R-BC-4",
+    "R-BC-5",
+    "R-EX-1",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-EX-5",
+    "R-EX-6",
+    "R-EX-7",
+    "R-GV-1",
+    "R-GV-2",
+    "R-GV-3",
+    "R-GV-4",
+    "R-GV-5",
+    "R-GV-6",
+    "R-GV-7",
+    "R-GV-8",
+    "R-IR-1",
+    "R-IR-2",
+    "R-IR-3",
+    "R-IR-4",
+    "R-SA-1",
+    "R-SC-1",
+    "R-SC-2",
+    "R-SC-3",
+    "R-SC-4",
+    "R-SC-5",
+    "R-SC-6"
+  ],
+  "threats": [
+    "NT-7",
+    "MT-1",
+    "MT-2",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "errata": "- wordsmithed",
+  "family_name": "Secure Engineering & Architecture",
+  "crosswalks": {
+    "general-aicpa-tsc-2017": [
+      "CC3.1",
+      "CC4.1",
+      "CC5.1",
+      "CC6.1-POF2"
+    ],
+    "general-cis-csc-8-1": [
+      "12.2",
+      "16.1"
+    ],
+    "general-cis-csc-8-1-ig2": [
+      "12.2",
+      "16.1"
+    ],
+    "general-cis-csc-8-1-ig3": [
+      "12.2",
+      "16.1"
+    ],
+    "general-cobit-2019": [
+      "APO02.01",
+      "APO03.01",
+      "APO03.02",
+      "APO03.03",
+      "APO03.04",
+      "APO03.05",
+      "APO04.02",
+      "APO04.03",
+      "APO04.04",
+      "APO04.05",
+      "APO04.06"
+    ],
+    "general-coso-2013": [
+      "10"
+    ],
+    "general-csa-cmm-4-1-0": [
+      "I&S-08"
+    ],
+    "general-csa-iot-2": [
+      "GVN-02",
+      "OPA-06",
+      "OPA-07",
+      "SWS-04"
+    ],
+    "general-govramp": [
+      "PL-08"
+    ],
+    "general-govramp-low-plus": [
+      "PL-08"
+    ],
+    "general-govramp-mod": [
+      "PL-08"
+    ],
+    "general-govramp-high": [
+      "PL-08"
+    ],
+    "general-iso-27002-2022": [
+      "5.8",
+      "8.26"
+    ],
+    "general-iso-27017-2015": [
+      "6.1.5",
+      "14.1.1"
+    ],
+    "general-iso-27018-2025": [
+      "5.8",
+      "8.26"
+    ],
+    "general-nist-privacy-framework-1-0": [
+      "GV.PO-P2"
+    ],
+    "general-nist-800-53-r4": [
+      "PL-8",
+      "PM-7"
+    ],
+    "general-nist-800-53-r5-2": [
+      "PL-08",
+      "PM-07"
+    ],
+    "general-nist-800-53-r5-2-privacy": [
+      "PL-08",
+      "PM-07"
+    ],
+    "general-nist-800-53-r5-2-mod": [
+      "PL-08"
+    ],
+    "general-nist-800-82-r3": [
+      "PL-08",
+      "PM-07"
+    ],
+    "general-nist-800-82-r3-low": [
+      "PM-07"
+    ],
+    "general-nist-800-82-r3-mod": [
+      "PL-08",
+      "PM-07"
+    ],
+    "general-nist-800-82-r3-high": [
+      "PL-08",
+      "PM-07"
+    ],
+    "general-nist-800-161-r1": [
+      "PL-8",
+      "PM-7"
+    ],
+    "general-nist-800-161-r1-level-1": [
+      "PM-7"
+    ],
+    "general-nist-800-161-r1-level-2": [
+      "PL-8",
+      "PM-7"
+    ],
+    "general-nist-800-161-r1-level-3": [
+      "PL-8"
+    ],
+    "general-nist-800-171-r2": [
+      "NFO - PL-8"
+    ],
+    "general-nist-800-171-r3": [
+      "03.01.12.a",
+      "03.01.16.a",
+      "03.01.18.a",
+      "03.13.01.c",
+      "03.16.01"
+    ],
+    "general-nist-csf-2-0": [
+      "PR.IR",
+      "PR.IR-01",
+      "PR.IR-03"
+    ],
+    "general-pci-dss-4-0-1": [
+      "1.2"
+    ],
+    "general-scf-dpmp-2025": [
+      "7.1"
+    ],
+    "general-swift-cscf-2025": [
+      "1.3"
+    ],
+    "general-tisax-6-0-3": [
+      "5.3.1"
+    ],
+    "usa-federal-fbi-cjis-6-0": [
+      "PL-8"
+    ],
+    "usa-federal-doe-c2m2-2-1": [
+      "ARCHITECTURE-1b",
+      "ARCHITECTURE-1c",
+      "ARCHITECTURE-1d",
+      "ARCHITECTURE-1h",
+      "ARCHITECTURE-1j",
+      "ARCHITECTURE-1k"
+    ],
+    "usa-federal-dow-zta-reference-architecture-2-0": [
+      "3.0"
+    ],
+    "usa-federal-fda-21-cfr-part-11-2025": [
+      "11.10"
+    ],
+    "usa-federal-gsa-fedramp-5-low": [
+      "PL-08"
+    ],
+    "usa-federal-gsa-fedramp-5-mod": [
+      "PL-08"
+    ],
+    "usa-federal-gsa-fedramp-5-high": [
+      "PL-08"
+    ],
+    "usa-federal-gsa-fedramp-5-li-saas": [
+      "PL-08"
+    ],
+    "usa-federal-law-ftc-act": [
+      "45(a)(1)"
+    ],
+    "usa-federal-law-hipaa-simplification-2013": [
+      "164.306(b)(1)",
+      "164.306(b)(2)(ii)"
+    ],
+    "usa-federal-law-hipaa-security-rule-2013": [
+      "164.306(b)(1)",
+      "164.306(b)(2)(ii)"
+    ],
+    "usa-federal-irs-1075-2021": [
+      "PL-8",
+      "PM-7",
+      "PM-7(IRS-Defined)"
+    ],
+    "usa-federal-cms-marse-2-0": [
+      "PL-8",
+      "PL-8.a",
+      "PL-8.a.1",
+      "PL-8.a.2",
+      "PL-8.a.3",
+      "PL-8.b",
+      "PL-8.c",
+      "PM-7"
+    ],
+    "usa-state-ca-ccpa-cpra-2026": [
+      "7123(c)(5)(B)"
+    ],
+    "usa-state-ny-dfs-23-nycrr500-2023-amd2": [
+      "500.2(b)(2)"
+    ],
+    "usa-state-tx-dir-security-control-standards-catalog-2-2": [
+      "PM-07"
+    ],
+    "usa-state-tx-txramp-2-0-level-2": [
+      "PL-08"
+    ],
+    "emea-eu-eba-ict-srm-2025": [
+      "3.7.1(79)"
+    ],
+    "emea-eu-dora-2023": [
+      "Article 9.3(a)",
+      "Article 9.3(b)",
+      "Article 9.3(c)",
+      "Article 9.3(d)"
+    ],
+    "emea-aut-fappd-2000": [
+      "Sec 14",
+      "Sec 15"
+    ],
+    "emea-bel-act-8-1992": [
+      "16"
+    ],
+    "emea-deu-fdpa-2017": [
+      "Sec 4b",
+      "Sec 9",
+      "Sec 9a",
+      "Sec 16",
+      "Annex"
+    ],
+    "emea-deu-bsrit-2017": [
+      "12.1"
+    ],
+    "emea-deu-c5-2020": [
+      "COS-01"
+    ],
+    "emea-grc-pirppd-1997": [
+      "9"
+    ],
+    "emea-hun-isdfi-2011": [
+      "7",
+      "8"
+    ],
+    "emea-irl-dpa-2003": [
+      "2"
+    ],
+    "emea-isr-cmo-1-0": [
+      "2.1",
+      "15.6",
+      "17.7"
+    ],
+    "emea-isr-ppl-5741-1981": [
+      "16",
+      "17"
+    ],
+    "emea-ita-pdpc-2003": [
+      "31",
+      "33",
+      "34",
+      "35",
+      "42"
+    ],
+    "emea-nor-pda-2018": [
+      "13",
+      "14",
+      "29"
+    ],
+    "emea-pol-act-29-1997": [
+      "1",
+      "36",
+      "47"
+    ],
+    "emea-rus-federal-law-27-2006": [
+      "7",
+      "12",
+      "19"
+    ],
+    "emea-sau-ecc-1-2018": [
+      "1-6-3-4",
+      "2-4-3",
+      "2-15-3-3"
+    ],
+    "emea-sau-otcc-1-2022": [
+      "1-1-2"
+    ],
+    "emea-sau-sacs-002-2022": [
+      "TPC-43"
+    ],
+    "emea-sau-sama-csf-1-2017": [
+      "3.3.4",
+      "3.3.8",
+      "3.3.13"
+    ],
+    "emea-zaf-popia-2013": [
+      "19",
+      "21"
+    ],
+    "emea-esp-boe-a-2022-7191": [
+      "Article 29"
+    ],
+    "emea-esp-decree-311-2022": [
+      "29"
+    ],
+    "emea-esp-ccn-stic-825-2023": [
+      "7.1.2 [OP.PL.2]"
+    ],
+    "emea-che-fadp-2025": [
+      "6",
+      "7"
+    ],
+    "emea-tur-lppd-2016": [
+      "8",
+      "12"
+    ],
+    "emea-gbr-cap-1850-2020": [
+      "B4",
+      "B5"
+    ],
+    "apac-aus-privacy-act-1998": [
+      "APP Part 8",
+      "APP Part 11"
+    ],
+    "apac-aus-ism-2024-june": [
+      "ISM-1739",
+      "ISM-1743"
+    ],
+    "apac-aus-cop-sitc-2020": [
+      "Principle 4",
+      "Principle 5",
+      "Principle 6",
+      "Principle 7"
+    ],
+    "apac-aus-ps-cps-234-2019": [
+      "15",
+      "18"
+    ],
+    "apac-chn-csnip-2012": [
+      "4"
+    ],
+    "apac-hkg-pdo-2022": [
+      "Principle 4",
+      "Sec 33"
+    ],
+    "apac-ind-privacy-rules-2011": [
+      "7",
+      "8"
+    ],
+    "apac-jpn-ppi-2020": [
+      "20"
+    ],
+    "apac-mys-pdpa-2010": [
+      "9"
+    ],
+    "apac-nzl-ism-3-9": [
+      "1.2.13.C.01",
+      "1.2.13.C.02"
+    ],
+    "apac-phl-dpa-2012": [
+      "25",
+      "29"
+    ],
+    "apac-sgp-pdpa-2012": [
+      "24",
+      "26"
+    ],
+    "apac-sgp-mas-trm-2021": [
+      "5.6.1",
+      "5.6.2",
+      "5.6.3",
+      "11.2.8"
+    ],
+    "apac-kor-pipa-2011": [
+      "3",
+      "29"
+    ],
+    "apac-twn-pdpa-2025": [
+      "21"
+    ],
+    "americas-bhs-dpa-2003": [
+      "6",
+      "12"
+    ],
+    "americas-bmu-mba-coc-2020": [
+      "4"
+    ],
+    "americas-bra-lgpd-2018": [
+      "6.7",
+      "46",
+      "37",
+      "49"
+    ],
+    "americas-can-osfi-b13-2022": [
+      "2",
+      "2.1",
+      "2.1.2"
+    ],
+    "americas-can-itsp-10-171-2025": [
+      "03.01.12.A",
+      "03.01.16.A",
+      "03.01.18.A",
+      "03.13.01.C",
+      "03.16.01"
+    ],
+    "americas-can-pipeda-2000": [
+      "Principle 7"
+    ],
+    "americas-chl-act-19628-1999": [
+      "7"
+    ],
+    "americas-col-law-1581-2012": [
+      "4",
+      "26"
+    ],
+    "americas-mex-fdpa-2010": [
+      "19",
+      "36",
+      "37"
+    ]
+  }
+}

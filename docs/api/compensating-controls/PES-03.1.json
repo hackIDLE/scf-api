@@ -1,0 +1,16 @@
+{
+  "control_id": "PES-03.1",
+  "risk_if_not_implemented": "Without Controlled Ingress & Egress Points, residual security, compliance, or resilience risk may accumulate, potentially leading to control failures or non-compliance.",
+  "compensating_control_1": {
+    "control_id": "PES-05",
+    "name": "Monitoring Physical Access",
+    "description": "Physical access control mechanisms exist to monitor for, detect and respond to physical security incidents.",
+    "justification": "Monitoring Physical Access (PES-05) provides detective monitoring capability that compensates for the absence of Controlled Ingress & Egress Points (PES-03.1) by identifying unauthorized, anomalous, or non-compliant activity that the primary control would have prevented. Given the facility and physical environment focus of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  },
+  "compensating_control_2": {
+    "control_id": "MON-12",
+    "name": "Session Audit",
+    "description": "Mechanisms exist to provide session audit capabilities that can: \n(1) Capture and log all content related to a user session; and\n(2) Remotely view all content related to an established user session in real time.",
+    "justification": "Session Audit (MON-12) provides detective monitoring capability that compensates for the absence of Controlled Ingress & Egress Points (PES-03.1) by identifying unauthorized, anomalous, or non-compliant activity that the primary control would have prevented. Given the facility and physical environment focus of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  }
+}

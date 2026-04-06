@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PRI-17.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-17.1",
+      "ao_id": "PRI-17.1_A01",
+      "objective": "a conspicuous link to the organization's privacy notice exists on all consumer-facing websites.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-17.1",
+      "ao_id": "PRI-17.1_A02",
+      "objective": "a conspicuous link to the organization's privacy notice exists on all consumer-facing mobile applications.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

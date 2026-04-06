@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AST-29",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AST-29",
+      "ao_id": "AST-29_A01",
+      "objective": "secure baseline configurations exist for Radio Frequency Identification (RFID) devices to protect the confidentiality and integrity of data being stored, processed and/or transmitted.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-29",
+      "ao_id": "AST-29_A02",
+      "objective": "Radio Frequency Identification (RFID) devices are secured according to defined secure baseline configurations.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

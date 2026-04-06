@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "CPL-07",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CPL-07",
+      "ao_id": "CPL-07_A01",
+      "objective": "an intake mechanism exists to receive grievances related to the organization's cybersecurity and/or data protection practices.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-07",
+      "ao_id": "CPL-07_A02",
+      "objective": "received grievances are assigned to specific roles to investigate the legitimacy of the complaint.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-07",
+      "ao_id": "CPL-07_A03",
+      "objective": "the analysis of received grievances is documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-07",
+      "ao_id": "CPL-07_A04",
+      "objective": "upon validation of a grievance from a data subject, a process assigns the remediation task to an individual, or team.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "IRO-04.3",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IRO-04.3",
+      "ao_id": "IRO-04.3_A01",
+      "objective": "qualitative / quantitative data from testing are used to determine the effectiveness of incident response processes.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-03(03)(a)[01]\n53A_R5_IR-03(03)(a)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04.3",
+      "ao_id": "IRO-04.3_A02",
+      "objective": "qualitative / quantitative data from testing are used to continuously improve incident response processes.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-03(03)(b)[01]\n53A_R5_IR-03(03)(b)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04.3",
+      "ao_id": "IRO-04.3_A03",
+      "objective": "qualitative / quantitative data from testing are used to provide incident response measures and metrics that are accurate.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-03(03)(c)[01]\n53A_R5_IR-03(03)(c)[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04.3",
+      "ao_id": "IRO-04.3_A04",
+      "objective": "qualitative / quantitative data from testing are used to provide incident response measures and metrics that are consistent.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-03(03)(c)[03]\n53A_R5_IR-03(03)(c)[04]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-04.3",
+      "ao_id": "IRO-04.3_A05",
+      "objective": "qualitative / quantitative data from testing are used to provide incident response measures and metrics in a reproducible format.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-03(03)(c)[05]\n53A_R5_IR-03(03)(c)[06]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

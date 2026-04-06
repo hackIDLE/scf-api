@@ -1,0 +1,106 @@
+{
+  "scf_control_id": "PES-01",
+  "total": 10,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PES-01",
+      "ao_id": "PES-01_A01",
+      "objective": "the physical facility where organizational systems reside is protected.",
+      "pptdf": "Facility",
+      "origin": "171A_3.10.2[a]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-01",
+      "ao_id": "PES-01_A02",
+      "objective": "the location or site of the facility where the system resides is planned considering physical and environmental hazards.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-23a.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-01",
+      "ao_id": "PES-01_A03",
+      "objective": "for existing facilities, physical and environmental hazards are considered in the organizational risk management strategy.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-23b.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-01",
+      "ao_id": "PES-01_A04",
+      "objective": "the support infrastructure for organizational systems is protected.",
+      "pptdf": "Facility",
+      "origin": "171A_3.10.2[b]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-01",
+      "ao_id": "PES-01_A05",
+      "objective": "the physical facility where organizational systems reside is monitored.",
+      "pptdf": "Facility",
+      "origin": "171A_3.10.2[c]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-01",
+      "ao_id": "PES-01_A06",
+      "objective": "the support infrastructure for organizational systems is monitored.",
+      "pptdf": "Facility",
+      "origin": "171A_3.10.2[d]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-01",
+      "ao_id": "PES-01_A07",
+      "objective": "physical security operations are conducted according to documented policies, standards, procedures and/or other organizational directives.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-01",
+      "ao_id": "PES-01_A08",
+      "objective": "adequate resources (e.g., people, processes, technologies, data and/or facilities) are provided to support physical security operations.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-01",
+      "ao_id": "PES-01_A09",
+      "objective": "responsibility and authority for the performance of physical security-related activities are assigned to designated personnel.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-01",
+      "ao_id": "PES-01_A10",
+      "objective": "personnel performing physical security-related activities have the skills and knowledge needed to perform their assigned duties.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

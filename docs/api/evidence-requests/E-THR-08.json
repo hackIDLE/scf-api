@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-THR-08",
+  "area": "Threat Management",
+  "artifact_name": "Behavioral Baselining",
+  "artifact_description": "Documented evidence of behavioral baselining to determine normal vs abnormal activities.",
+  "scf_controls": [
+    "THR-11"
+  ],
+  "cmmc_mapping": ""
+}

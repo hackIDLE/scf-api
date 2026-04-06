@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-IRO-05",
+  "area": "Incident Response",
+  "artifact_name": "Table Top Exercises",
+  "artifact_description": "Documented evidence of \"table top\" exercises that test incident response practices.",
+  "scf_controls": [
+    "IRO-05"
+  ],
+  "cmmc_mapping": ""
+}

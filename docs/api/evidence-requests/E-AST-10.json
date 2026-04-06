@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-AST-10",
+  "area": "Asset Management",
+  "artifact_name": "Prohibited Equipment List (PEM)",
+  "artifact_description": "Documented evidence of equipment identified by Federal Acquisition Regulation (FAR) section 889 prohibitions for certain telecommunications equipment.",
+  "scf_controls": [
+    "AST-17"
+  ],
+  "cmmc_mapping": ""
+}

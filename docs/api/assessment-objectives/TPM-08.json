@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "TPM-08",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TPM-08",
+      "ao_id": "TPM-08_A01",
+      "objective": "the frequency at which to assess and review the supply chain-related risks associated with suppliers or contractors and the systems, system components or system services they provide is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-06_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-08",
+      "ao_id": "TPM-08_A02",
+      "objective": "the supply chain-related risks associated with suppliers or contractors and the systems, system components or system services they provide are assessed and reviewed per an organization-defined frequency.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-06",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-08",
+      "ao_id": "TPM-08_A03",
+      "objective": "supply chain elements, processes and actors to be analyzed and tested are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-06(01)_ODP[01]\n53A_R5_SR-06(01)_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-08",
+      "ao_id": "TPM-08_A04",
+      "objective": "organization-defined mechanisms are employed on supply chain elements, processes and actors associated with the system, system component or system service.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-06(01)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-08",
+      "ao_id": "TPM-08_A05",
+      "objective": "processes, methods, and techniques to monitor security requirement compliance by external service providers on an ongoing basis are implemented.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.16.03.c",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "DCH-05.3",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-05.3",
+      "ao_id": "DCH-05.3_A01",
+      "objective": "cybersecurity / data privacy attributes that require association and integrity maintenance are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-16(03)_ODP[01]\n53A_R5_AC-16(03)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-05.3",
+      "ao_id": "DCH-05.3_A02",
+      "objective": "subjects requiring the association and integrity of cybersecurity / data privacy attributes to such subjects to be maintained are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-16(03)_ODP[03]\n53A_R5_AC-16(03)_ODP[05]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-05.3",
+      "ao_id": "DCH-05.3_A03",
+      "objective": "objects requiring the association and integrity of cybersecurity / data privacy attributes to such objects to be maintained are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-16(03)_ODP[04]\n53A_R5_AC-16(03)_ODP[06]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-05.3",
+      "ao_id": "DCH-05.3_A04",
+      "objective": "the association and integrity of organization-defined cybersecurity / data privacy attributes to organization-defined subjects is maintained.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-16(03)[01]\n53A_R5_AC-16(03)[03]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-05.3",
+      "ao_id": "DCH-05.3_A05",
+      "objective": "the association and integrity of organization-defined cybersecurity / data privacy attributes to organization-defined objects is maintained.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-16(03)[02]\n53A_R5_AC-16(03)[04]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

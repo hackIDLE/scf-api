@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "NET-20.4",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-20.4",
+      "ao_id": "NET-20.4_A01",
+      "objective": "domain signature verification protections are implemented to authenticate incoming email according to the Domain-based Message Authentication Reporting and Conformance (DMARC).",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

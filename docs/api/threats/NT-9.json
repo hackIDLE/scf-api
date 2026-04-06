@@ -1,0 +1,6 @@
+{
+  "threat_id": "NT-9",
+  "grouping": "Natural Threat",
+  "name": "Space Weather",
+  "description": "Space weather includes natural events in space that can affect the near-earth environment and satellites. Most commonly, this is associated with solar flares from the Sun, so an understanding of how solar flares may impact the business is of critical importance in assessing this threat."
+}

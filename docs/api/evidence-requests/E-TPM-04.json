@@ -1,0 +1,12 @@
+{
+  "erl_id": "E-TPM-04",
+  "area": "Third-Party Management",
+  "artifact_name": "Service Level Agreements (SLAs)",
+  "artifact_description": "Documented evidence of third-party Service Level Agreements (SLAs) to support business operations.",
+  "scf_controls": [
+    "BCD-09.3",
+    "BCD-10.1",
+    "OPS-03"
+  ],
+  "cmmc_mapping": ""
+}

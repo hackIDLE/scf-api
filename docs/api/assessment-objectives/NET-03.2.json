@@ -1,0 +1,146 @@
+{
+  "scf_control_id": "NET-03.2",
+  "total": 14,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-03.2",
+      "ao_id": "NET-03.2_A01",
+      "objective": "the frequency at which to review exceptions to traffic flow policy is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-07(04)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least every 180 days or whenever there is a change in the threat environment that warrants a review of the exceptions",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-03.2",
+      "ao_id": "NET-03.2_A02",
+      "objective": "a managed interface is implemented for each external telecommunication service.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-07(04)(a)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-03.2",
+      "ao_id": "NET-03.2_A03",
+      "objective": "a traffic flow policy is established for each managed interface.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-07(04)(b)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-03.2",
+      "ao_id": "NET-03.2_A04",
+      "objective": "the confidentiality of the information being transmitted across each interface is protected.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-07(04)(c)[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-03.2",
+      "ao_id": "NET-03.2_A05",
+      "objective": "the integrity of the information being transmitted across each interface is protected.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-07(04)(c)[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-03.2",
+      "ao_id": "NET-03.2_A06",
+      "objective": "each exception to the traffic flow policy is documented with a supporting mission or business need and duration of that need.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-07(04)(d)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-03.2",
+      "ao_id": "NET-03.2_A07",
+      "objective": "exceptions to the traffic flow policy are reviewed frequently.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-07(04)(e)[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least every 180 days or whenever there is a change in the threat environment that warrants a review of the exceptions",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-03.2",
+      "ao_id": "NET-03.2_A08",
+      "objective": "exceptions to the traffic flow policy that are no longer supported by an explicit mission or business need are removed.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-07(04)(e)[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-03.2",
+      "ao_id": "NET-03.2_A09",
+      "objective": "unauthorized exchanges of control plan traffic with external networks are prevented.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-07(04)(f)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-03.2",
+      "ao_id": "NET-03.2_A10",
+      "objective": "information is published to enable remote networks to detect unauthorized control plane traffic from internal networks.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-07(04)(g)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-03.2",
+      "ao_id": "NET-03.2_A11",
+      "objective": "unauthorized control plane traffic is filtered from external networks.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-07(04)(h)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-03.2",
+      "ao_id": "NET-03.2_A12",
+      "objective": "outgoing communications traffic posing a threat to external systems is detected.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-07(09)(a)[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-03.2",
+      "ao_id": "NET-03.2_A13",
+      "objective": "outgoing communications traffic posing a threat to external systems is denied.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-07(09)(a)[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-03.2",
+      "ao_id": "NET-03.2_A14",
+      "objective": "the identity of internal users associated with denied communications is audited.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-07(09)(b)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

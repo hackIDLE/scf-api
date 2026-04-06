@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "TDA-06.2",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-06.2",
+      "ao_id": "TDA-06.2_A01",
+      "objective": "threat modelling and other secure design techniques are used to ensure that threats to software and solutions are identified and accounted for.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

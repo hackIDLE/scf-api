@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-THR-02",
+  "area": "Threat Management",
+  "artifact_name": "Industry Associations / Memberships",
+  "artifact_description": "Documented evidence of industry associations the organization utilizes to maintain situational awareness of evolving threats and trends.",
+  "scf_controls": [
+    "GOV-07"
+  ],
+  "cmmc_mapping": ""
+}

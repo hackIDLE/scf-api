@@ -1,0 +1,12 @@
+{
+  "erl_id": "E-TDA-10",
+  "area": "Technology Design & Acquisition",
+  "artifact_name": "Security Use Case View (SUCV)",
+  "artifact_description": "Documented evidence of diagrams, with explanatory text, describing various security scenarios in each of the operational and clinical functionality states of the system and how the system addresses each scenario architecturally. [note SUCV is specific to medical device manufacturers]",
+  "scf_controls": [
+    "TDA-04",
+    "TDA-04.1",
+    "TDA-06.2"
+  ],
+  "cmmc_mapping": ""
+}

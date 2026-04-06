@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "OPS-07",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "OPS-07",
+      "ao_id": "OPS-07_A01",
+      "objective": "organizational policy prohibits unauthorized software, systems and services in use by the organization (e.g., shadow IT).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "OPS-07",
+      "ao_id": "OPS-07_A02",
+      "objective": "no less than annually, financial expenditures are reviewed for instances of unauthorized software, systems and services in use by the organization (e.g., shadow IT).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "OPS-07",
+      "ao_id": "OPS-07_A03",
+      "objective": "instances of unauthorized software, systems and services in use by the organization (e.g., shadow IT) are investigated as cybersecurity incidents.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "OPS-07",
+      "ao_id": "OPS-07_A04",
+      "objective": "personnel responsible for unauthorized software, systems and services are held accountable per the organization's disciplinary processes.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

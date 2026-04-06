@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "CLD-10",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CLD-10",
+      "ao_id": "CLD-10_A01",
+      "objective": "sensitive / regulated data in public cloud providers is identified and documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CLD-10",
+      "ao_id": "CLD-10_A02",
+      "objective": "the storage of sensitive / regulated data in public cloud providers is controlled.",
+      "pptdf": "Data",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

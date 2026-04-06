@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "AAT-10",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-10",
+      "ao_id": "AAT-10_A01",
+      "objective": "the organization's Artificial Intelligence Test, Evaluation, Validation & Verification (AI TEVV) capability is organization-wide.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CA-01_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-10",
+      "ao_id": "AAT-10_A02",
+      "objective": "a process is implemented to ensure that organizational plans for conducting cybersecurity / data privacy testing, training and monitoring activities associated with organizational systems are developed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-14a.01[01]\n53A_R5_PM-14a.01[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-10",
+      "ao_id": "AAT-10_A03",
+      "objective": "a process is implemented to ensure that organizational plans for conducting cybersecurity / data privacy testing, training and monitoring activities associated with organizational systems are maintained.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-14a.01[02]\n53A_R5_PM-14a.01[04]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-10",
+      "ao_id": "AAT-10_A04",
+      "objective": "a process is implemented to ensure that organizational plans for conducting cybersecurity / data privacy testing, training and monitoring activities associated with organizational systems continue to be executed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-14a.02[01]\n53A_R5_PM-14a.02[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-10",
+      "ao_id": "AAT-10_A05",
+      "objective": "the authorization processes are integrated into an organization-wide risk management program.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-10c.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

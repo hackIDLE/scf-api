@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-26.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-26.2",
+      "ao_id": "AAT-26.2_A01",
+      "objective": "techniques to delineate human proﬁciency tests from tests of Artificial Intelligence (AI) and Autonomous Technologies (AAT) capabilities are developed.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-26.2",
+      "ao_id": "AAT-26.2_A02",
+      "objective": "techniques to delineate human proﬁciency tests from tests of Artificial Intelligence (AI) and Autonomous Technologies (AAT) capabilities are implemented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

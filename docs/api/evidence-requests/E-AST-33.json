@@ -1,0 +1,13 @@
+{
+  "erl_id": "E-AST-33",
+  "area": "Asset Management",
+  "artifact_name": "Tailored Baselines",
+  "artifact_description": "Documented evidence exists for tailored baseline configurations to address unique business and/or technical requirements (e.g., kiosk, hazardous environments, etc.).",
+  "scf_controls": [
+    "AST-02.4",
+    "CFG-02.5",
+    "CFG-02.7",
+    "CFG-02.9"
+  ],
+  "cmmc_mapping": ""
+}

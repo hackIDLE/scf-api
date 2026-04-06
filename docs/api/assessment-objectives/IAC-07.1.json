@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "IAC-07.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-07.1",
+      "ao_id": "IAC-07.1_A01",
+      "objective": "user access rights are revoked following changes in personnel roles and duties, if no longer necessary or permitted.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

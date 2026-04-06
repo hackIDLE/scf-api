@@ -1,0 +1,30 @@
+{
+  "framework_id": "emea-gbr-def-stan-05-138-l0-2024",
+  "display_name": "UK - Defstan 05-138 (2024) - L0",
+  "scf_to_framework": {
+    "total_mappings": 2,
+    "mappings": {
+      "CPL-01": [
+        "0001",
+        "2314"
+      ],
+      "SEA-01.2": [
+        "2500"
+      ]
+    }
+  },
+  "framework_to_scf": {
+    "total_mappings": 3,
+    "mappings": {
+      "2314": [
+        "CPL-01"
+      ],
+      "2500": [
+        "SEA-01.2"
+      ],
+      "0001": [
+        "CPL-01"
+      ]
+    }
+  }
+}

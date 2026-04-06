@@ -1,0 +1,12 @@
+{
+  "erl_id": "E-CHG-02",
+  "area": "Change Management",
+  "artifact_name": "Charter - Change Control Board (CCB)",
+  "artifact_description": "Documented evidence of the organization's Change Control Board (CCB) charter and mission to govern the organization's change control processes.",
+  "scf_controls": [
+    "CHG-01",
+    "CHG-02",
+    "CHG-02.1"
+  ],
+  "cmmc_mapping": ""
+}

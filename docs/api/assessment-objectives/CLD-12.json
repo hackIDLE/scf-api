@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "CLD-12",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CLD-12",
+      "ao_id": "CLD-12_A01",
+      "objective": "Content Delivery Networks (CDNs) are configured to prevent side channel attacks by restricting access from the origin server's IP address to the CDN and authorized management networks.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

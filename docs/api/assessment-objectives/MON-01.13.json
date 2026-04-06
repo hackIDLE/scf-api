@@ -1,0 +1,66 @@
+{
+  "scf_control_id": "MON-01.13",
+  "total": 6,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MON-01.13",
+      "ao_id": "MON-01.13_A01",
+      "objective": "communications traffic for the system is analyzed.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-04(13)(a)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-01.13",
+      "ao_id": "MON-01.13_A02",
+      "objective": "event patterns for the system are analyzed.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-04(13)(a)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-01.13",
+      "ao_id": "MON-01.13_A03",
+      "objective": "profiles representing common traffic are developed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-04(13)(b)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-01.13",
+      "ao_id": "MON-01.13_A04",
+      "objective": "profiles representing event patterns are developed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-04(13)(b)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-01.13",
+      "ao_id": "MON-01.13_A05",
+      "objective": "traffic profiles are used in tuning system-monitoring devices.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-04(13)(c)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-01.13",
+      "ao_id": "MON-01.13_A06",
+      "objective": "event profiles are used in tuning system-monitoring devices.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-04(13)(c)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

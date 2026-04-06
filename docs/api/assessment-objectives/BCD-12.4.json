@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "BCD-12.4",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "BCD-12.4",
+      "ao_id": "BCD-12.4_A01",
+      "objective": "the capability to restore system components within organization-defined restoration time periods from configuration-controlled and integrity-protected information representing a known, operational state for the components is provided.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_CP-10(04)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-12.4",
+      "ao_id": "BCD-12.4_A02",
+      "objective": "restoration time period within which to restore system components to a known, operational state is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-10(04)_ODP",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

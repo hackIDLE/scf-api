@@ -1,0 +1,12 @@
+{
+  "erl_id": "E-PRM-01",
+  "area": "Resource Management",
+  "artifact_name": "Cybersecurity Business Plan (CBP)",
+  "artifact_description": "Documented evidence of a cybersecurity-specific business plan that documents a strategic plan and discrete objectives.",
+  "scf_controls": [
+    "GOV-08",
+    "PRM-01.1",
+    "PRM-03"
+  ],
+  "cmmc_mapping": ""
+}

@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-29.20",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-29.20",
+      "ao_id": "AAT-29.20_A01",
+      "objective": "comprehensive audit trails of AI agent actions provide rationales.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-29.20",
+      "ao_id": "AAT-29.20_A02",
+      "objective": "comprehensive audit trails of AI agent actions provide user/trigger mappings.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "NET-15.4",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-15.4",
+      "ao_id": "NET-15.4_A01",
+      "objective": "transmission power levels are calibrated to reduce the probability that signals from wireless access points can be received outside of organization-controlled boundaries.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-18(05)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

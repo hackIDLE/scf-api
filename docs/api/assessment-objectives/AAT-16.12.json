@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-16.12",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-16.12",
+      "ao_id": "AAT-16.12_A01",
+      "objective": "human reviews are performed to determine the root cause of high-risk or ambiguous Artificial Intelligence (AI) and Autonomous Technologies (AAT) actions.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-16.12",
+      "ao_id": "AAT-16.12_A02",
+      "objective": "clear escalation paths for approval exist for instances involving high-risk or ambiguous AAT actions.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

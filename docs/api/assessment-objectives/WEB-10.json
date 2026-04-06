@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "WEB-10",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "WEB-10",
+      "ao_id": "WEB-10_A01",
+      "objective": "all web application content is delivered using cryptographic mechanisms (e.g., TLS).",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

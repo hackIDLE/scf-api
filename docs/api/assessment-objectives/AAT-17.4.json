@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "AAT-17.4",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-17.4",
+      "ao_id": "AAT-17.4_A01",
+      "objective": "novel methods and technologies for the measurement of Artificial Intelligence (AI) and Autonomous Technologies (AAT)-related risks are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-17.4",
+      "ao_id": "AAT-17.4_A02",
+      "objective": "novel methods and technologies for the measurement of Artificial Intelligence (AI) and Autonomous Technologies (AAT)-related risks to evaluate content provenance.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-17.4",
+      "ao_id": "AAT-17.4_A03",
+      "objective": "novel methods and technologies for the measurement of Artificial Intelligence (AI) and Autonomous Technologies (AAT)-related risks to evaluate oﬀensive cyber capabilities.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-17.4",
+      "ao_id": "AAT-17.4_A04",
+      "objective": "novel methods and technologies for the measurement of Artificial Intelligence (AI) and Autonomous Technologies (AAT)-related risks to evaluate Chemical, Biological, Radiological or Nuclear (CBRN) weapons.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-17.4",
+      "ao_id": "AAT-17.4_A05",
+      "objective": "novel methods and technologies for the measurement of Artificial Intelligence (AI) and Autonomous Technologies (AAT)-related risks to evaluate other dangerous materials or agents.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

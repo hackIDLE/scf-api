@@ -1,0 +1,96 @@
+{
+  "scf_control_id": "IAC-24",
+  "total": 9,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-24",
+      "ao_id": "IAC-24_A01",
+      "objective": "the period of inactivity after which the system initiates a session lock is defined.",
+      "pptdf": "Process",
+      "origin": "171A_3.1.10[a]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-24",
+      "ao_id": "IAC-24_A02",
+      "objective": "access to the system and viewing of data is prevented by initiating a session lock after the defined period of inactivity.",
+      "pptdf": "Technology",
+      "origin": "171A_3.1.10[b]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-24",
+      "ao_id": "IAC-24_A03",
+      "objective": "previously visible information is concealed via a pattern-hiding display after the defined period of inactivity.",
+      "pptdf": "Technology",
+      "origin": "171A_3.1.10[c]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-24",
+      "ao_id": "IAC-24_A04",
+      "objective": "the time period of expected inactivity or description of when to log out is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-02(05)_ODP",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "When inactivity is anticipated to exceed Fifteen (15) minutes. For privileged users, it is also the end of a user's standard work period.",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-24",
+      "ao_id": "IAC-24_A05",
+      "objective": "users are required to log out when organization-defined time period of expected inactivity or description of when to log out.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-02(05)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "When inactivity is anticipated to exceed Fifteen (15) minutes. For privileged users, it is also the end of a user's standard work period.",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-24",
+      "ao_id": "IAC-24_A06",
+      "objective": "the time period of inactivity after which a device lock is initiated is defined (if selected).",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-11_ODP[01]\n53A_R5_AC-11_ODP[02]\n171A_R3_A.03.01.10.ODP[02]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "fifteen (15) minutes",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-24",
+      "ao_id": "IAC-24_A07",
+      "objective": "access to the system is prevented by <A.03.01.10.ODP[01]: SELECTED PARAMETER VALUES>.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-11a.\n171A_R3_A.03.01.10.a",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "initiating a device lock after “at most 15 minutes” of inactivity and requiring the user to initiate a device lock before leaving the system unattended",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-24",
+      "ao_id": "IAC-24_A08",
+      "objective": "the device lock is retained until the user reestablishes access using established identification and authentication procedures.",
+      "pptdf": "Data",
+      "origin": "53A_R5_AC-11b.\n171A_R3_A.03.01.10.b",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-24",
+      "ao_id": "IAC-24_A09",
+      "objective": "one or more of the following PARAMETER VALUES are selected: {a device lock is initiated after <A.03.01.10.ODP[02]: time period> of inactivity; the user is required to initiate a device lock before leaving the system unattended}.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.01.10.ODP[01]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "at most 15- minute time period",
+      "org_defined_parameters": ""
+    }
+  ]
+}

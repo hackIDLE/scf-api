@@ -1,0 +1,16 @@
+{
+  "control_id": "END-13",
+  "risk_if_not_implemented": "Without Sensor Capability, residual security, compliance, or resilience risk may accumulate, potentially leading to control failures or non-compliance.",
+  "compensating_control_1": {
+    "control_id": "PES-01",
+    "name": "Physical & Environmental Protections",
+    "description": "Mechanisms exist to facilitate the operation of physical and environmental protection controls.",
+    "justification": "Physical & Environmental Protections (PES-01) provides physical access control that compensates for the absence of Sensor Capability (END-13) by preventing unauthorized physical interaction with systems and infrastructure. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  },
+  "compensating_control_2": {
+    "control_id": "CFG-03",
+    "name": "Least Functionality",
+    "description": "Mechanisms exist to configure systems to provide only essential capabilities by specifically prohibiting or restricting the use of ports, protocols, and/or services.",
+    "justification": "Least Functionality (CFG-03) provides configuration hardening that compensates for the absence of Sensor Capability (END-13) by eliminating unnecessary services and enforcing secure settings to reduce inherent exposure. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "DCH-06.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-06.2",
+      "ao_id": "DCH-06.2_A01",
+      "objective": "an inventory is maintained for all sensitive / regulated data.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-06.2",
+      "ao_id": "DCH-06.2_A02",
+      "objective": "recurring inventories keep sensitive / regulated data inventories current and accurate.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

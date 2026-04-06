@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "BCD-14",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "BCD-14",
+      "ao_id": "BCD-14_A01",
+      "objective": "the organization utilizes an isolated, non-production environment to perform data backups via offline, cloud or off-site capabilities.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-14",
+      "ao_id": "BCD-14_A02",
+      "objective": "the organization utilizes an isolated, non-production environment to perform recovery operations through offline, cloud or off-site capabilities.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

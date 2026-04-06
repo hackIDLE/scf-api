@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "HRS-03",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "HRS-03",
+      "ao_id": "HRS-03_A01",
+      "objective": "cybersecurity / data privacy roles and responsibilities are incorporated into organizational position descriptions.",
+      "pptdf": "People",
+      "origin": "53A_R5_PS-09[01]\n53A_R5_PS-09[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-03",
+      "ao_id": "HRS-03_A02",
+      "objective": "the incident response plan is protected from unauthorized disclosure.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.06.05.d",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

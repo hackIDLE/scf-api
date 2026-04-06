@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-VPM-08",
+  "area": "Vulnerability Management",
+  "artifact_name": "Flaw Remediation Test Results",
+  "artifact_description": "Documented evidence of test results from the installation of software and firmware updates to correct system flaws.",
+  "scf_controls": [
+    "VPM-01.1"
+  ],
+  "cmmc_mapping": "SI.L1-3.14.1"
+}

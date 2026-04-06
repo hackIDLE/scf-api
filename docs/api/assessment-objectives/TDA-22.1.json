@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "TDA-22.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-22.1",
+      "ao_id": "TDA-22.1_A01",
+      "objective": "a detailed cybersecurity risk assessment is included in the technical documentation for products and/or services to demonstrate applicable risks in approved use cases.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

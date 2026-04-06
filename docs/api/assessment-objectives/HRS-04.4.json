@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "HRS-04.4",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "HRS-04.4",
+      "ao_id": "HRS-04.4_A01",
+      "objective": "foreign nationals, including by their specific citizenship, are identified.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-04.4",
+      "ao_id": "HRS-04.4_A02",
+      "objective": "foreign citizenship identification is made conspicuous to other users in environments that contain export-controlled data.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

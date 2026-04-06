@@ -1,0 +1,6 @@
+{
+  "threat_id": "MT-20",
+  "grouping": "Man-Made Threat",
+  "name": "Counterfeit / Non-Conforming Products",
+  "description": "Counterfeit / Non-Conforming Products is a Supply Chain Risk Management (SCRM) threat category that pertains to the integrity of components within the supply chain. Counterfeits are products introduced to the supply chain that falsely claim to be produced by the legitimate Original Equipment Manufacturer (OEM), whereas non-conforming are OEM products / materials that fail to meet the customer specifications. Both can have a detrimental effect on the supply chain.\n\nThe items lack industry standard tests during the production phase ( e.g., pressure testing) or are counterfeit items could pose significant risk to the function and safety of the system, increased maintenance costs due to depreciation in quality and added stresses due to an item's inability to function at true capacity."
+}

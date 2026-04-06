@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "AAT-29.10",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-29.10",
+      "ao_id": "AAT-29.10_A01",
+      "objective": "AI agent logic is protected from being subverted or manipulated.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

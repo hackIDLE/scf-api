@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "NET-04.13",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-04.13",
+      "ao_id": "NET-04.13_A01",
+      "objective": "cybersecurity / data privacy policy filters to be implemented on metadata are defined (if selected).",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-04(19)_ODP[01]\n53A_R5_AC-04(19)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-04.13",
+      "ao_id": "NET-04.13_A02",
+      "objective": "when transferring information between different security domains, organization-defined cybersecurity / data privacy policy filters are implemented on metadata.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-04(19)[01]\n53A_R5_AC-04(19)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

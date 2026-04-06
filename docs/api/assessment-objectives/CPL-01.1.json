@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "CPL-01.1",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CPL-01.1",
+      "ao_id": "CPL-01.1_A01",
+      "objective": "instances of non-compliance with statutory, regulatory and/or contractual obligations are documented, including the reason(s) for non-compliance.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-01.1",
+      "ao_id": "CPL-01.1_A02",
+      "objective": "instances of non-compliance with statutory, regulatory and/or contractual obligations are formally-reviewed.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-01.1",
+      "ao_id": "CPL-01.1_A03",
+      "objective": "instances of non-compliance with statutory, regulatory and/or contractual obligations are centrally-governed to maintain appropriate situational awareness.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-01.1",
+      "ao_id": "CPL-01.1_A04",
+      "objective": "instances of non-compliance with statutory, regulatory and/or contractual obligations are assigned to individuals or teams for remediation.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-01.1",
+      "ao_id": "CPL-01.1_A05",
+      "objective": "remediation plans for instances of non-compliance with statutory, regulatory and/or contractual obligations are documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

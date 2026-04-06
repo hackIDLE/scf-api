@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PRI-06.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-06.1",
+      "ao_id": "PRI-06.1_A01",
+      "objective": "recipients of Personal Data (PD) to be notified when the Personal Data (PD) has been corrected or deleted are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-18(05)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-06.1",
+      "ao_id": "PRI-06.1_A02",
+      "objective": "recipients and individuals are notified when the Personal Data (PD) has been corrected or deleted.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-18(05)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

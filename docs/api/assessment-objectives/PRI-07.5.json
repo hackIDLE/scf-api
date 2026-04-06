@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "PRI-07.5",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-07.5",
+      "ao_id": "PRI-07.5_A01",
+      "objective": "criteria to define what constitutes \"repetitious or harassing\" requests for access from data subjects is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-07.5",
+      "ao_id": "PRI-07.5_A02",
+      "objective": "a process exists to document data subject requests.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-07.5",
+      "ao_id": "PRI-07.5_A03",
+      "objective": "data subject requests for access are analyzed for legitimacy.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-07.5",
+      "ao_id": "PRI-07.5_A04",
+      "objective": "a process exists to reject repetitious, or harassing, requests for access from data subjects.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "DCH-05.10",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-05.10",
+      "ao_id": "DCH-05.10_A01",
+      "objective": "authorized individuals are provided with the capability to define or change the type and value of cybersecurity / data privacy attributes available for association with subjects and objects.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-16(10)[01]\n53A_R5_AC-16(10)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

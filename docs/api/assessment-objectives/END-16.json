@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "END-16",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "END-16",
+      "ao_id": "END-16_A01",
+      "objective": "system configurations isolate security functions from non-security functions.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

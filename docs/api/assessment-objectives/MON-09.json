@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "MON-09",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MON-09",
+      "ao_id": "MON-09_A01",
+      "objective": "actions to be covered by non-repudiation are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AU-10_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-09",
+      "ao_id": "MON-09_A02",
+      "objective": "irrefutable evidence is provided that an individual (or process acting on behalf of an individual) has performed organization-defined actions.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AU-10",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

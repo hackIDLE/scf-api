@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "OPS-03",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "OPS-03",
+      "ao_id": "OPS-03_A01",
+      "objective": "supporting business processes are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "OPS-03",
+      "ao_id": "OPS-03_A02",
+      "objective": "appropriate governance and service management is implemented to ensure appropriate planning, delivery and support of business functions, workforce, and/or customers.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

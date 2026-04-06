@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "AST-05.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AST-05.1",
+      "ao_id": "AST-05.1_A01",
+      "objective": "written management approval is obtained prior to the transfer of any sensitive / regulated media outside of the organization's facilities.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

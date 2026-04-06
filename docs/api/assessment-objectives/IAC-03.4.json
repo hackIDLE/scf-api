@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "IAC-03.4",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-03.4",
+      "ao_id": "IAC-03.4_A01",
+      "objective": "disassociability measures are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IA-08(06)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-03.4",
+      "ao_id": "IAC-03.4_A02",
+      "objective": "measures to disassociate user attributes or identifier assertion relationships among individuals, credential service providers and relying parties are implemented.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-08(06)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

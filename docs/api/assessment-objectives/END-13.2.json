@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "END-13.2",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "END-13.2",
+      "ao_id": "END-13.2_A01",
+      "objective": "measures to facilitate an individual’s awareness that Personal Data (PD) is being collected are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-42(04)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-13.2",
+      "ao_id": "END-13.2_A02",
+      "objective": "sensors that collect Personal Data (PD) are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-42(04)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-13.2",
+      "ao_id": "END-13.2_A03",
+      "objective": "organization-defined measures are employed to facilitate an individual’s awareness that Personal Data (PD) is being collected by sensors",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-42(04)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

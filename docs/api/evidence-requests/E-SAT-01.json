@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-SAT-01",
+  "area": "Education",
+  "artifact_name": "Continuing Professional Education (CPE)",
+  "artifact_description": "Documented evidence of Continuing Professional Education (CPE) requirements for cybersecurity & data privacy personnel.",
+  "scf_controls": [
+    "SAT-03.7"
+  ],
+  "cmmc_mapping": ""
+}

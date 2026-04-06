@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "CPL-05.2",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CPL-05.2",
+      "ao_id": "CPL-05.2_A01",
+      "objective": "a formal process exists to intake and document government access requests.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-05.2",
+      "ao_id": "CPL-05.2_A02",
+      "objective": "a formal process exists to evaluate government access requests for legal requirements the organization must comply with.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-05.2",
+      "ao_id": "CPL-05.2_A03",
+      "objective": "the organization supports official investigations by provisioning government investigators with \"least privileges\" and \"least functionality\" to ensure that government investigators only have access to the data and systems needed to perform the investigation.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

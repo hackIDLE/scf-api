@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "AST-03",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AST-03",
+      "ao_id": "AST-03_A01",
+      "objective": "name, position and/or role of data ownership is documented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-08(04)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

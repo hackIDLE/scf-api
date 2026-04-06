@@ -1,0 +1,6 @@
+{
+  "threat_id": "MT-12",
+  "grouping": "Man-Made Threat",
+  "name": "Redundant, Obsolete/Outdated, Toxic or Trivial (ROTT) Data",
+  "description": "Redundant, Obsolete/Outdated, Toxic or Trivial (ROTT) data is information an organization utilizes for business processes even though the data is untrustworthy, due to the data's currency, accuracy, integrity and/or applicability."
+}

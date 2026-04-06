@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "IAC-09.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-09.1",
+      "ao_id": "IAC-09.1_A01",
+      "objective": "characteristics used to identify individual status is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IA-04(04)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "contractors; foreign nationals",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-09.1",
+      "ao_id": "IAC-09.1_A02",
+      "objective": "individual identifiers are managed by uniquely identifying each individual as characteristics.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-04(04)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "contractors; foreign nationals",
+      "org_defined_parameters": ""
+    }
+  ]
+}

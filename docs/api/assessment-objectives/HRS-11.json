@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "HRS-11",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "HRS-11",
+      "ao_id": "HRS-11_A01",
+      "objective": "the duties of individuals requiring separation to reduce the risk of malevolent activity are defined.",
+      "pptdf": "Process",
+      "origin": "171A_3.1.4[a]\n53A_R5_AC-05_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-11",
+      "ao_id": "HRS-11_A02",
+      "objective": "responsibilities for duties that require separation are assigned to separate individuals.",
+      "pptdf": "Process",
+      "origin": "171A_3.1.4[b]\n53A_R5_AC-05a.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-11",
+      "ao_id": "HRS-11_A03",
+      "objective": "separate accounts for individuals whose duties and accesses must be separated to reduce the risk of malevolent activity or collusion are established",
+      "pptdf": "Technology",
+      "origin": "171A_3.1.4[c]\n53A_R5_AC-05b.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

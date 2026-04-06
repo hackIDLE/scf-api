@@ -1,0 +1,90 @@
+{
+  "control_id": "IRO-02.3",
+  "title": "Dynamic Reconfiguration",
+  "family": "IRO",
+  "description": "Automated mechanisms exist to dynamically reconfigure system components as part of the incident response capability.",
+  "scf_question": "Does the organization use automated mechanisms to dynamically reconfigure system components as part of the incident response capability?",
+  "relative_weight": 5,
+  "conformity_cadence": "Quarterly",
+  "evidence_requests": [],
+  "pptdf": "Technology",
+  "nist_csf_function": "Respond",
+  "scrm_focus": {
+    "strategic": false,
+    "operational": false,
+    "tactical": true
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "Incident Response (IRO) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with IRO domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Incident response-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ IT and/or cybersecurity personnel use an informal process to facilitate incident management operations that cover preparation, detection and analysis, containment, eradication and recovery.",
+    "2": "SCR-CMM Level 2 criteria definitions are not available for this control:\n▪ A reasonable person would conclude a well-defined and standardized process is required.\n▪ At this level of maturity, the “requirements-driven” nature of performing the control is focused on a localized and/or regionalized implementation, not uniform and consistent across the organization.\n▪ Requirements are narrowly scoped for applicability and are primarily derived from compliance obligations (e.g., laws, regulations and contracts).",
+    "3": "Incident Response (IRO) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IRO domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Cybersecurity personnel operate an incident response capability using a documented and tested Incident Response Plan (IRP) to facilitate incident management operations that cover preparation, detection and analysis, containment, eradication and recovery.\n▪ An incident response team, or similar function, is appropriately staffed and supported to implement and maintain IRO domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of incident response operations (e.g., incident management software, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IRO domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to automatically dynamically reconfigure system components as part of the incident response capability.",
+    "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [],
+  "possible_solutions": {
+    "micro_small": "∙ Basic incident response plan\n∙ Designate incident response contact",
+    "small": "∙ Documented incident response plan\n∙ Incident log\n∙ Designated IR team",
+    "medium": "∙ CimTrak Integrity Suite (https://cimcor.com/cimtrak)",
+    "large": "∙ CimTrak Integrity Suite (https://cimcor.com/cimtrak)",
+    "enterprise": "∙ CimTrak Integrity Suite (https://cimcor.com/cimtrak)"
+  },
+  "risks": [
+    "R-AM-3",
+    "R-BC-1",
+    "R-BC-2",
+    "R-BC-3",
+    "R-EX-1",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-EX-5",
+    "R-EX-6",
+    "R-GV-1",
+    "R-IR-3"
+  ],
+  "threats": [
+    "NT-7",
+    "MT-1",
+    "MT-2",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-10",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Incident Response",
+  "crosswalks": {
+    "general-cr-cmm-2026": [
+      "CR4.1.7"
+    ],
+    "general-govramp": [
+      "IR-04(02)"
+    ],
+    "general-govramp-high": [
+      "IR-04(02)"
+    ],
+    "general-nist-800-53-r4": [
+      "IR-4(2)"
+    ],
+    "general-nist-800-53-r5-2": [
+      "IR-04(02)"
+    ],
+    "general-nist-800-82-r3": [
+      "IR-04(02)"
+    ],
+    "general-nist-800-160-vol-2-r1": [
+      "IR-04(02)"
+    ],
+    "usa-federal-gsa-fedramp-5-high": [
+      "IR-04(02)"
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "control_id": "AST-02.11",
+  "title": "Component Assignment",
+  "family": "AST",
+  "description": "Mechanisms exist to bind components to a specific system.",
+  "scf_question": "Does the organization bind components to a specific system?",
+  "relative_weight": 3,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [],
+  "pptdf": "Technology",
+  "nist_csf_function": "Identify",
+  "scrm_focus": {
+    "strategic": false,
+    "operational": false,
+    "tactical": true
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "Asset Management (AST) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with AST domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Asset management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ Asset management is informally assigned as an additional duty to existing IT/cybersecurity personnel.\n▪ Inventories are manual (e.g., spreadsheets).",
+    "2": "SCR-CMM Level 2 criteria definitions are not available for this control:\n▪ A reasonable person would conclude a well-defined and standardized process is required.\n▪ At this level of maturity, the “requirements-driven” nature of performing the control is focused on a localized and/or regionalized implementation, not uniform and consistent across the organization.\n▪ Requirements are narrowly scoped for applicability and are primarily derived from compliance obligations (e.g., laws, regulations and contracts).",
+    "3": "Asset Management (AST) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with AST domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with AST domain capabilities are well-documented and kept current by process owners.\n▪ An IT Asset Management (ITAM) team, or similar function, is appropriately staffed and supported to implement and maintain AST domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of ITAM operations (e.g., ITAM platform, (e.g., Configuration Management Database (CMBD) Asset Management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with AST domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to bind components to a specific system.",
+    "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [],
+  "possible_solutions": {
+    "micro_small": "∙ Spreadsheet asset inventory",
+    "small": "∙ Asset inventory spreadsheet\n∙ Asset ownership assignment",
+    "medium": "∙ Asset management tool (e.g., Snipe-IT)\n∙ Asset classification policy",
+    "large": "∙ Enterprise asset management platform (e.g., ServiceNow CMDB, Lansweeper)\n∙ Automated discovery",
+    "enterprise": "∙ Enterprise CMDB (e.g., ServiceNow)\n∙ Automated network discovery\n∙ Asset lifecycle management"
+  },
+  "risks": [
+    "R-AC-3",
+    "R-AM-1",
+    "R-AM-2",
+    "R-AM-3",
+    "R-IR-1",
+    "R-IR-2",
+    "R-IR-3",
+    "R-IR-4"
+  ],
+  "threats": [
+    "MT-2",
+    "MT-8",
+    "MT-9",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Asset Management",
+  "crosswalks": {
+    "general-nist-800-53-r5-2": [
+      "CM-08(09)"
+    ],
+    "general-nist-800-82-r3": [
+      "CM-08(09)"
+    ],
+    "general-nist-800-161-r1": [
+      "CM-8(9)"
+    ],
+    "general-nist-800-161-r1-level-3": [
+      "CM-8(9)"
+    ],
+    "general-shared-assessments-sig-2025": [
+      "G.3"
+    ]
+  }
+}

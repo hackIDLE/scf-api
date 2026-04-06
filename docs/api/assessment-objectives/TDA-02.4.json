@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "TDA-02.4",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-02.4",
+      "ao_id": "TDA-02.4_A01",
+      "objective": "pre-established security configurations for the system, component or service are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-04(05)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-02.4",
+      "ao_id": "TDA-02.4_A02",
+      "objective": "the developer of the system, system component or system service is required to deliver the system, component or service with pre-established security configurations implemented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-04(05)(a)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-02.4",
+      "ao_id": "TDA-02.4_A03",
+      "objective": "the pre-established configurations are used as the default for any subsequent system, component or service reinstallation or upgrade.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SA-04(05)(b)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

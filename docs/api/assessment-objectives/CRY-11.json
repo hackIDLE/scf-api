@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "CRY-11",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CRY-11",
+      "ao_id": "CRY-11_A01",
+      "objective": "certificate authorities to be allowed for verification of the establishment of protected sessions are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-23(05)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CRY-11",
+      "ao_id": "CRY-11_A02",
+      "objective": "only the use of organization-defined certificated authorities for verification of the establishment of protected sessions is allowed.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-23(05)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

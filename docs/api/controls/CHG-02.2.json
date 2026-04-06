@@ -1,0 +1,339 @@
+{
+  "control_id": "CHG-02.2",
+  "title": "Test, Validate & Document Changes",
+  "family": "CHG",
+  "description": "Mechanisms exist to appropriately test and document proposed changes in a non-production environment before changes are implemented in a production environment.",
+  "scf_question": "Does the organization appropriately test and document proposed changes in a non-production environment before changes are implemented in a production environment?",
+  "relative_weight": 9,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [
+    "E-CHG-03",
+    "E-CHG-05"
+  ],
+  "pptdf": "Process",
+  "nist_csf_function": "Protect",
+  "scrm_focus": {
+    "strategic": false,
+    "operational": true,
+    "tactical": true
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "Change Management (CHG) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with CHG domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Change management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ Whenever possible, IT and/or cybersecurity personnel test changes to business-critical Technology Assets, Applications and/or Services (TAAS) on a similarly configured IT environment, prior to widespread production release of the change.",
+    "2": "Change Management (CHG) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CHG domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with CHG domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CHG  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Change management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Change management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Business stakeholders and process owners ensure changes to Technology Assets, Applications and/or Services (TAAS) within the System Development Lifecycle (SDLC) are controlled through formal change control procedures.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to test controls after a change is implemented to ensure cybersecurity and/or data protection controls are operating properly.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to document the results from testing changes.",
+    "3": "Change Management (CHG) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CHG domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CHG domain capabilities are well-documented and kept current by process owners.\n▪ A centralized Change Management Office (CMO), or similar function, is appropriately staffed and supported to implement and maintain CHG domain capabilities.\n▪ Technical procedures (e.g., ITIL change enablement) are utilized along with change management governance capabilities (e.g., Change Advisory Board (CAB)) to ensure successful, efficient and secure change management operations.\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CHG domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to appropriately test and document proposed changes in a non-production environment before changes are implemented in a production environment.",
+    "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [
+    "CORE ESP Level 1 Foundational",
+    "CORE ESP Level 2 Critical Infrastructure",
+    "CORE ESP Level 3 Advanced Threats",
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ Change Control Board (CCB)\n∙ Configuration Management Database (CMDB)\n∙ VisibleOps (https://itpi.org)",
+    "small": "∙ Change Control Board (CCB)\n∙ Configuration Management Database (CMDB)\n∙ VisibleOps (https://itpi.org)",
+    "medium": "∙ Change Control Board (CCB)\n∙ Configuration Management Database (CMDB)\n∙ VisibleOps (https://itpi.org)",
+    "large": "∙ Change Control Board (CCB)\n∙ Configuration Management Database (CMDB)\n∙ VisibleOps (https://itpi.org)",
+    "enterprise": "∙ Change Control Board (CCB)\n∙ Configuration Management Database (CMDB)\n∙ VisibleOps (https://itpi.org)"
+  },
+  "risks": [
+    "R-AC-1",
+    "R-AC-2",
+    "R-AC-3",
+    "R-AC-4",
+    "R-AM-1",
+    "R-AM-2",
+    "R-AM-3",
+    "R-BC-1",
+    "R-BC-2",
+    "R-BC-3",
+    "R-BC-4",
+    "R-BC-5",
+    "R-EX-1",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-EX-5",
+    "R-EX-6",
+    "R-EX-7",
+    "R-GV-1",
+    "R-GV-2",
+    "R-GV-3",
+    "R-GV-4",
+    "R-GV-5",
+    "R-GV-6",
+    "R-GV-7",
+    "R-IR-1",
+    "R-IR-2",
+    "R-IR-3",
+    "R-IR-4",
+    "R-SA-1",
+    "R-SC-1",
+    "R-SC-2",
+    "R-SC-3",
+    "R-SC-4",
+    "R-SC-5",
+    "R-SC-6"
+  ],
+  "threats": [
+    "NT-7",
+    "MT-1",
+    "MT-2",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-10",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Change Management",
+  "crosswalks": {
+    "general-aicpa-tsc-2017": [
+      "CC3.4",
+      "CC8.1",
+      "CC8.1-POF4",
+      "CC8.1-POF5",
+      "CC8.1-POF7",
+      "CC8.1-POF10",
+      "CC8.1-POF13",
+      "CC8.1-POF16"
+    ],
+    "general-cobit-2019": [
+      "BAI07.05"
+    ],
+    "general-coso-2013": [
+      "9"
+    ],
+    "general-csa-cmm-4-1-0": [
+      "CCC-02"
+    ],
+    "general-csa-iot-2": [
+      "CCM-08"
+    ],
+    "general-govramp": [
+      "CM-03(02)"
+    ],
+    "general-govramp-low-plus": [
+      "CM-03(02)"
+    ],
+    "general-govramp-mod": [
+      "CM-03(02)"
+    ],
+    "general-govramp-high": [
+      "CM-03(02)"
+    ],
+    "general-iec-62443-2-1-2024": [
+      "COMP 3.4"
+    ],
+    "general-iec-62443-3-3-2013": [
+      "SR 3.3"
+    ],
+    "general-iso-27002-2022": [
+      "8.19",
+      "8.32"
+    ],
+    "general-iso-27017-2015": [
+      "12.1.2",
+      "14.2.3"
+    ],
+    "general-iso-27018-2025": [
+      "8.19",
+      "8.32"
+    ],
+    "general-mpa-csbp-5-3-1": [
+      "TS-5.0"
+    ],
+    "general-nist-800-53-r4": [
+      "CM-3(2)",
+      "CM-5(2)"
+    ],
+    "general-nist-800-53-r5-2": [
+      "CM-03(02)",
+      "CM-03(07)",
+      "SA-08(31)"
+    ],
+    "general-nist-800-53-r5-2-privacy": [
+      "CM-03(02)",
+      "SA-08(31)"
+    ],
+    "general-nist-800-53-r5-2-mod": [
+      "CM-03(02)"
+    ],
+    "general-nist-800-82-r3": [
+      "CM-03(02)",
+      "CM-03(07)",
+      "SA-08(31)"
+    ],
+    "general-nist-800-160-vol-2-r1": [
+      "SA-08(31)"
+    ],
+    "general-nist-800-161-r1": [
+      "CM-3(2)"
+    ],
+    "general-nist-800-161-r1-level-2": [
+      "CM-3(2)"
+    ],
+    "general-nist-800-161-r1-level-3": [
+      "CM-3(2)"
+    ],
+    "general-nist-800-171-r2": [
+      "NFO - CM-3(2)"
+    ],
+    "general-nist-800-171-r3": [
+      "03.04.03.b",
+      "03.04.03.c",
+      "03.04.04.a",
+      "03.04.11.b"
+    ],
+    "general-nist-800-171a-r3": [
+      "A.03.04.03.c[02]"
+    ],
+    "general-nist-csf-2-0": [
+      "ID.RA-07"
+    ],
+    "general-pci-dss-4-0-1": [
+      "6.5",
+      "6.5.1",
+      "6.5.2",
+      "A3.2.2.1"
+    ],
+    "general-pci-dss-4-0-1-saq-a-ep": [
+      "6.5.1",
+      "6.5.2"
+    ],
+    "general-pci-dss-4-0-1-saq-c": [
+      "6.5.1",
+      "6.5.2"
+    ],
+    "general-pci-dss-4-0-1-saq-d-merchant": [
+      "6.5.1",
+      "6.5.2"
+    ],
+    "general-pci-dss-4-0-1-saq-d-service-provider": [
+      "6.5.1",
+      "6.5.2"
+    ],
+    "usa-federal-fbi-cjis-6-0": [
+      "CM-3(2)"
+    ],
+    "usa-federal-doe-c2m2-2-1": [
+      "ASSET-4b",
+      "ASSET-4c",
+      "ASSET-4d",
+      "ASSET-4f",
+      "ASSET-4h",
+      "ASSET-4i",
+      "THREAT-1h"
+    ],
+    "usa-federal-gsa-fedramp-5-low": [
+      "CM-03(02)",
+      "SA-08(31)"
+    ],
+    "usa-federal-gsa-fedramp-5-mod": [
+      "CM-03(02)",
+      "SA-08(31)"
+    ],
+    "usa-federal-gsa-fedramp-5-high": [
+      "CM-03(02)",
+      "SA-08(31)"
+    ],
+    "usa-federal-gsa-fedramp-5-li-saas": [
+      "CM-03(02)",
+      "SA-08(31)"
+    ],
+    "usa-federal-irs-1075-2021": [
+      "CM-3(CE-2)"
+    ],
+    "usa-federal-cms-marse-2-0": [
+      "CM-3(2)"
+    ],
+    "usa-federal-nerc-cip-2024": [
+      "CIP-010-4 1.4.2",
+      "CIP-010-4 1.5.1",
+      "CIP-010-4 1.5.2"
+    ],
+    "usa-state-ca-ccpa-cpra-2026": [
+      "7123(c)(5)(D)",
+      "7123(c)(5)(E)"
+    ],
+    "usa-state-tx-txramp-2-0-level-2": [
+      "CM-03 (02)"
+    ],
+    "emea-eu-eba-ict-srm-2025": [
+      "3.4.4(37)",
+      "3.6.3(75)",
+      "3.6.3(76)"
+    ],
+    "emea-deu-c5-2020": [
+      "DEV-06",
+      "DEV-08",
+      "DEV-09"
+    ],
+    "emea-isr-cmo-1-0": [
+      "10.6",
+      "12.21",
+      "12.30",
+      "14.6",
+      "14.8",
+      "14.9",
+      "14.10"
+    ],
+    "emea-sau-cscc-1-2019": [
+      "1-3-1-2"
+    ],
+    "emea-sau-cgiot-2024": [
+      "1-5-3"
+    ],
+    "emea-sau-ecc-1-2018": [
+      "1-6-2-1",
+      "1-6-3-5"
+    ],
+    "emea-sau-otcc-1-2022": [
+      "1-5-3-2"
+    ],
+    "emea-sau-sacs-002-2022": [
+      "TPC-73"
+    ],
+    "apac-ind-sebi-2024": [
+      "PR.MA.S1"
+    ],
+    "apac-jpn-ismap": [
+      "12.1.2.10",
+      "12.5.1.5",
+      "12.5.1.9",
+      "14.2.3",
+      "14.2.3.1",
+      "14.2.3.2",
+      "14.2.3.3"
+    ],
+    "apac-nzl-ism-3-9": [
+      "6.3.8.C.01"
+    ],
+    "apac-sgp-mas-trm-2021": [
+      "7.4.2",
+      "7.5.3",
+      "7.5.5",
+      "7.5.7"
+    ],
+    "amaericas-can-osfi-self-assessment": [
+      "6.11"
+    ],
+    "americas-can-osfi-b13-2022": [
+      "2.5.1"
+    ],
+    "americas-can-itsp-10-171-2025": [
+      "03.04.03.B",
+      "03.04.03.C",
+      "03.04.04.A",
+      "03.04.11.B"
+    ]
+  }
+}

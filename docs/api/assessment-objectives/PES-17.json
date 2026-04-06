@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "PES-17",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PES-17",
+      "ao_id": "PES-17_A01",
+      "objective": "physical proximity to robotic or autonomous platforms is monitored to reduce applied force or stop the operation when sensors indicate a potentially dangerous scenario.",
+      "pptdf": "Facility",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

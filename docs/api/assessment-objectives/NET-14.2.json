@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "NET-14.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-14.2",
+      "ao_id": "NET-14.2_A01",
+      "objective": "cryptographic mechanisms to protect the confidentiality of remote access sessions are identified.",
+      "pptdf": "Process",
+      "origin": "171A_3.1.13[a]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-14.2",
+      "ao_id": "NET-14.2_A02",
+      "objective": "cryptographic mechanisms to protect the confidentiality of remote access sessions are implemented.",
+      "pptdf": "Technology",
+      "origin": "171A_3.1.13[b]\n53A_R5_AC-17(02)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

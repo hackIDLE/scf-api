@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-NET-04",
+  "area": "Network Security",
+  "artifact_name": "Network Security Controls (NSC)",
+  "artifact_description": "Documented evidence of the organization's network security controls (e.g., boundary protections, content filtering, wireless infrastructure, etc.).",
+  "scf_controls": [
+    "NET-01"
+  ],
+  "cmmc_mapping": "SC.L1-3.13.1\nSC.L1-3.13.5\nSC.L2-3.13.14"
+}

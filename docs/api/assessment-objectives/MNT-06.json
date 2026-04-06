@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "MNT-06",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MNT-06",
+      "ao_id": "MNT-06_A01",
+      "objective": "a process for maintenance personnel authorization is established.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-05a.[01]\n171A_R3_A.03.07.06.a",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-06",
+      "ao_id": "MNT-06_A02",
+      "objective": "a list of authorized maintenance organizations or personnel is maintained.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_MA-05a.[02]\n171A_R3_A.03.07.06.b",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-06",
+      "ao_id": "MNT-06_A03",
+      "objective": "non-escorted personnel who perform maintenance on the system possess the required access authorizations.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-05b.\n171A_R3_A.03.07.06.c",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

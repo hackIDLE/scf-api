@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "BCD-01.6",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "BCD-01.6",
+      "ao_id": "BCD-01.6_A01",
+      "objective": "internal and external stakeholders requiring notification of recovery activities and progress in restoring operational capabilities are identified.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-01.6",
+      "ao_id": "BCD-01.6_A02",
+      "objective": "based on the type of incident, methods to contact internal and external stakeholders requiring notification of recovery activities and progress in restoring operational capabilities are identified.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-01.6",
+      "ao_id": "BCD-01.6_A03",
+      "objective": "processes exist to communicate the status of recovery activities and progress in restoring operational capabilities to designated internal and external stakeholders.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

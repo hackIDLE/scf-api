@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "IAC-09.5",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-09.5",
+      "ao_id": "IAC-09.5_A01",
+      "objective": "security controls implemented to manage the risk of compromise due to individuals having accounts on multiple systems are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IA-05(08)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-09.5",
+      "ao_id": "IAC-09.5_A02",
+      "objective": "security controls are implemented to manage the risk of compromise due to individuals having accounts on multiple systems.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-05(08)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

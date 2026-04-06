@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "END-04.7",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "END-04.7",
+      "ao_id": "END-04.7_A01",
+      "objective": "malicious code protection mechanisms are configured to perform real-time scans of files from external sources as the files are downloaded, opened or executed.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-03c.01[02]\n171A_3.14.5[c]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-04.7",
+      "ao_id": "END-04.7_A02",
+      "objective": "malicious code protection mechanisms are configured to perform scans of the system per an organization-defined frequency.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least weekly",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-04.7",
+      "ao_id": "END-04.7_A03",
+      "objective": "malicious code protection mechanisms are configured to perform real-time scans of files from external sources at endpoints or system entry and exit points as the files are downloaded, opened, or executed.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.14.02.c.01[02]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-04.7",
+      "ao_id": "END-04.7_A04",
+      "objective": "malicious code protection mechanisms are configured to perform scans of the system <A.03.14.02.ODP[01]: frequency>.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.14.02.c.01[01]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "at least weekly",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-04.7",
+      "ao_id": "END-04.7_A05",
+      "objective": "real-time malicious code scans of files from external sources as files are downloaded, opened, or executed are performed.",
+      "pptdf": "Technology",
+      "origin": "CMMC L1 Assessment Guide",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

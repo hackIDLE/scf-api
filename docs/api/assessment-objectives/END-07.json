@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "END-07",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "END-07",
+      "ao_id": "END-07_A01",
+      "objective": "Host-based Intrusion Detection / Prevention Systems (HIDS / HIPS), or a similar technology, is deployed on business-critical systems.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-07",
+      "ao_id": "END-07_A02",
+      "objective": "Host-based Intrusion Detection / Prevention Systems (HIDS / HIPS), or a similar technology, is deployed on systems that store, process and/or transmit sensitive / regulated data.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

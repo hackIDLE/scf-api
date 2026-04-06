@@ -1,0 +1,158 @@
+{
+  "framework_id": "apac-aus-privacy-principles-2026",
+  "display_name": "Australia - Privacy Principles (2026)",
+  "scf_to_framework": {
+    "total_mappings": 26,
+    "mappings": {
+      "GOV-02": [
+        "APP 1"
+      ],
+      "CLD-09": [
+        "APP 8"
+      ],
+      "DCH-01": [
+        "APP 11"
+      ],
+      "DCH-19": [
+        "APP 8"
+      ],
+      "DCH-22.1": [
+        "APP 13"
+      ],
+      "IAC-09.6": [
+        "APP 2"
+      ],
+      "PRI-01": [
+        "APP 1"
+      ],
+      "PRI-01.3": [
+        "APP 1"
+      ],
+      "PRI-02": [
+        "APP 1",
+        "APP 5"
+      ],
+      "PRI-02.1": [
+        "APP 1"
+      ],
+      "PRI-03": [
+        "APP 3"
+      ],
+      "PRI-03.2": [
+        "APP 5"
+      ],
+      "PRI-03.3": [
+        "APP 7"
+      ],
+      "PRI-04": [
+        "APP 3"
+      ],
+      "PRI-04.1": [
+        "APP 3",
+        "APP 7"
+      ],
+      "PRI-05": [
+        "APP 4",
+        "APP 6"
+      ],
+      "PRI-05.1": [
+        "APP 6"
+      ],
+      "PRI-05.2": [
+        "APP 10"
+      ],
+      "PRI-05.4": [
+        "APP 6",
+        "APP 7",
+        "APP 9"
+      ],
+      "PRI-05.7": [
+        "APP 9"
+      ],
+      "PRI-06": [
+        "APP 12"
+      ],
+      "PRI-06.1": [
+        "APP 13"
+      ],
+      "PRI-06.2": [
+        "APP 13"
+      ],
+      "PRI-06.4": [
+        "APP 12",
+        "APP 13"
+      ],
+      "PRI-07": [
+        "APP 7",
+        "APP 8"
+      ],
+      "PRI-07.1": [
+        "APP 7"
+      ]
+    }
+  },
+  "framework_to_scf": {
+    "total_mappings": 13,
+    "mappings": {
+      "APP 1": [
+        "GOV-02",
+        "PRI-01",
+        "PRI-01.3",
+        "PRI-02",
+        "PRI-02.1"
+      ],
+      "APP 8": [
+        "CLD-09",
+        "DCH-19",
+        "PRI-07"
+      ],
+      "APP 11": [
+        "DCH-01"
+      ],
+      "APP 13": [
+        "DCH-22.1",
+        "PRI-06.1",
+        "PRI-06.2",
+        "PRI-06.4"
+      ],
+      "APP 2": [
+        "IAC-09.6"
+      ],
+      "APP 5": [
+        "PRI-02",
+        "PRI-03.2"
+      ],
+      "APP 3": [
+        "PRI-03",
+        "PRI-04",
+        "PRI-04.1"
+      ],
+      "APP 7": [
+        "PRI-03.3",
+        "PRI-04.1",
+        "PRI-05.4",
+        "PRI-07",
+        "PRI-07.1"
+      ],
+      "APP 4": [
+        "PRI-05"
+      ],
+      "APP 6": [
+        "PRI-05",
+        "PRI-05.1",
+        "PRI-05.4"
+      ],
+      "APP 10": [
+        "PRI-05.2"
+      ],
+      "APP 9": [
+        "PRI-05.4",
+        "PRI-05.7"
+      ],
+      "APP 12": [
+        "PRI-06",
+        "PRI-06.4"
+      ]
+    }
+  }
+}

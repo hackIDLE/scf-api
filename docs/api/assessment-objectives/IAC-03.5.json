@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "IAC-03.5",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-03.5",
+      "ao_id": "IAC-03.5_A01",
+      "objective": "the use of external authenticators is restricted to those that are National Institute of Standards and Technology (NIST)-compliant and maintain a list of accepted external authenticators.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

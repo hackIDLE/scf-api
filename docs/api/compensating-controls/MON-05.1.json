@@ -1,0 +1,16 @@
+{
+  "control_id": "MON-05.1",
+  "risk_if_not_implemented": "Without Real-Time Alerts of Event Logging Failure, security events may go undetected, allowing threats to persist unnoticed and increasing breach dwell time.",
+  "compensating_control_1": {
+    "control_id": "MON-02",
+    "name": "Centralized Collection of Security Event Logs",
+    "description": "Mechanisms exist to utilize a Security Incident Event Manager (SIEM), or similar automated tool, to support the centralized collection of security-related event logs.",
+    "justification": "Centralized Collection of Security Event Logs (MON-02) provides detective monitoring capability that compensates for the absence of Real-Time Alerts of Event Logging Failure (MON-05.1) by identifying unauthorized, anomalous, or non-compliant activity that the primary control would have prevented. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  },
+  "compensating_control_2": {
+    "control_id": "MON-13",
+    "name": "Alternate Event Logging Capability",
+    "description": "Mechanisms exist to provide an alternate event logging capability in the event of a failure in primary audit capability.",
+    "justification": "Alternate Event Logging Capability (MON-13) provides detective monitoring capability that compensates for the absence of Real-Time Alerts of Event Logging Failure (MON-05.1) by identifying unauthorized, anomalous, or non-compliant activity that the primary control would have prevented. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  }
+}

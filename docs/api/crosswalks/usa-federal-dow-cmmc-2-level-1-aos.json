@@ -1,0 +1,282 @@
+{
+  "framework_id": "usa-federal-dow-cmmc-2-level-1-aos",
+  "display_name": "Cybersecurity Maturity Model Certification (CMMC) 2.0 - Level 1 Assessment Objectives",
+  "scf_to_framework": {
+    "total_mappings": 16,
+    "mappings": {
+      "DCH-09": [
+        "MP.L1-B.1.VII[a]",
+        "MP.L1-B.1.VII[b]"
+      ],
+      "DCH-13": [
+        "AC.L1-B.1.III[a]",
+        "AC.L1-B.1.III[b]",
+        "AC.L1-B.1.III[c]",
+        "AC.L1-B.1.III[d]",
+        "AC.L1-B.1.III[e]",
+        "AC.L1-B.1.III[f]"
+      ],
+      "DCH-15": [
+        "AC.L1-B.1.IV[a]",
+        "AC.L1-B.1.IV[b]",
+        "AC.L1-B.1.IV[c]",
+        "AC.L1-B.1.IV[d]",
+        "AC.L1-B.1.IV[e]"
+      ],
+      "END-04": [
+        "SI.L1-B.1.XIII[a]",
+        "SI.L1-B.1.XIII[b]",
+        "SI.L1-B.1.XV[a]",
+        "SI.L1-B.1.XV[b]"
+      ],
+      "END-04.1": [
+        "SI.L1-B.1.XIV[a]"
+      ],
+      "END-04.7": [
+        "SI.L1-B.1.XV[c]"
+      ],
+      "IAC-02": [
+        "IA.L1-B.1.V[a]",
+        "IA.L1-B.1.V[c]",
+        "IA.L1-B.1.VI[a]",
+        "IA.L1-B.1.VI[b]",
+        "IA.L1-B.1.VI[c]"
+      ],
+      "IAC-15": [
+        "AC.L1-B.1.II[a]",
+        "AC.L1-B.1.II[b]"
+      ],
+      "IAC-20": [
+        "AC.L1-B.1.I[a]",
+        "AC.L1-B.1.I[b]",
+        "AC.L1-B.1.Ic]",
+        "AC.L1-B.1.I[d]",
+        "AC.L1-B.1.I[e]",
+        "AC.L1-B.1.I[f]",
+        "IA.L1-B.1.V[b]"
+      ],
+      "NET-03": [
+        "SC.L1-B.1.X[a]",
+        "SC.L1-B.1.X[b]",
+        "SC.L1-B.1.X[c]",
+        "SC.L1-B.1.X[d]",
+        "SC.L1-B.1.X[e]",
+        "SC.L1-B.1.X[f]",
+        "SC.L1-B.1.X[g]",
+        "SC.L1-B.1.X[h]"
+      ],
+      "NET-06": [
+        "SC.L1-B.1.XI[a]",
+        "SC.L1-B.1.XI[b]"
+      ],
+      "PES-02": [
+        "PE.L1-B.1.VIII[a]",
+        "PE.L1-B.1.VIII[b]",
+        "PE.L1-B.1.VIII[c]",
+        "PE.L1-B.1.VIII[d]"
+      ],
+      "PES-03": [
+        "PE.L1-B.1.IX[a]",
+        "PE.L1-B.1.IX[d]",
+        "PE.L1-B.1.IX[e]",
+        "PE.L1-B.1.IX[f]"
+      ],
+      "PES-03.3": [
+        "PE.L1-B.1.IX[c]"
+      ],
+      "PES-06.3": [
+        "PE.L1-B.1.IX[b]"
+      ],
+      "VPM-01": [
+        "SI.L1-B.1.XII[a]",
+        "SI.L1-B.1.XII[b]",
+        "SI.L1-B.1.XII[c]",
+        "SI.L1-B.1.XII[d]",
+        "SI.L1-B.1.XII[e]",
+        "SI.L1-B.1.XII[f]"
+      ]
+    }
+  },
+  "framework_to_scf": {
+    "total_mappings": 59,
+    "mappings": {
+      "MP.L1-B.1.VII[a]": [
+        "DCH-09"
+      ],
+      "MP.L1-B.1.VII[b]": [
+        "DCH-09"
+      ],
+      "AC.L1-B.1.III[a]": [
+        "DCH-13"
+      ],
+      "AC.L1-B.1.III[b]": [
+        "DCH-13"
+      ],
+      "AC.L1-B.1.III[c]": [
+        "DCH-13"
+      ],
+      "AC.L1-B.1.III[d]": [
+        "DCH-13"
+      ],
+      "AC.L1-B.1.III[e]": [
+        "DCH-13"
+      ],
+      "AC.L1-B.1.III[f]": [
+        "DCH-13"
+      ],
+      "AC.L1-B.1.IV[a]": [
+        "DCH-15"
+      ],
+      "AC.L1-B.1.IV[b]": [
+        "DCH-15"
+      ],
+      "AC.L1-B.1.IV[c]": [
+        "DCH-15"
+      ],
+      "AC.L1-B.1.IV[d]": [
+        "DCH-15"
+      ],
+      "AC.L1-B.1.IV[e]": [
+        "DCH-15"
+      ],
+      "SI.L1-B.1.XIII[a]": [
+        "END-04"
+      ],
+      "SI.L1-B.1.XIII[b]": [
+        "END-04"
+      ],
+      "SI.L1-B.1.XV[a]": [
+        "END-04"
+      ],
+      "SI.L1-B.1.XV[b]": [
+        "END-04"
+      ],
+      "SI.L1-B.1.XIV[a]": [
+        "END-04.1"
+      ],
+      "SI.L1-B.1.XV[c]": [
+        "END-04.7"
+      ],
+      "IA.L1-B.1.V[a]": [
+        "IAC-02"
+      ],
+      "IA.L1-B.1.V[c]": [
+        "IAC-02"
+      ],
+      "IA.L1-B.1.VI[a]": [
+        "IAC-02"
+      ],
+      "IA.L1-B.1.VI[b]": [
+        "IAC-02"
+      ],
+      "IA.L1-B.1.VI[c]": [
+        "IAC-02"
+      ],
+      "AC.L1-B.1.II[a]": [
+        "IAC-15"
+      ],
+      "AC.L1-B.1.II[b]": [
+        "IAC-15"
+      ],
+      "AC.L1-B.1.I[a]": [
+        "IAC-20"
+      ],
+      "AC.L1-B.1.I[b]": [
+        "IAC-20"
+      ],
+      "AC.L1-B.1.Ic]": [
+        "IAC-20"
+      ],
+      "AC.L1-B.1.I[d]": [
+        "IAC-20"
+      ],
+      "AC.L1-B.1.I[e]": [
+        "IAC-20"
+      ],
+      "AC.L1-B.1.I[f]": [
+        "IAC-20"
+      ],
+      "IA.L1-B.1.V[b]": [
+        "IAC-20"
+      ],
+      "SC.L1-B.1.X[a]": [
+        "NET-03"
+      ],
+      "SC.L1-B.1.X[b]": [
+        "NET-03"
+      ],
+      "SC.L1-B.1.X[c]": [
+        "NET-03"
+      ],
+      "SC.L1-B.1.X[d]": [
+        "NET-03"
+      ],
+      "SC.L1-B.1.X[e]": [
+        "NET-03"
+      ],
+      "SC.L1-B.1.X[f]": [
+        "NET-03"
+      ],
+      "SC.L1-B.1.X[g]": [
+        "NET-03"
+      ],
+      "SC.L1-B.1.X[h]": [
+        "NET-03"
+      ],
+      "SC.L1-B.1.XI[a]": [
+        "NET-06"
+      ],
+      "SC.L1-B.1.XI[b]": [
+        "NET-06"
+      ],
+      "PE.L1-B.1.VIII[a]": [
+        "PES-02"
+      ],
+      "PE.L1-B.1.VIII[b]": [
+        "PES-02"
+      ],
+      "PE.L1-B.1.VIII[c]": [
+        "PES-02"
+      ],
+      "PE.L1-B.1.VIII[d]": [
+        "PES-02"
+      ],
+      "PE.L1-B.1.IX[a]": [
+        "PES-03"
+      ],
+      "PE.L1-B.1.IX[d]": [
+        "PES-03"
+      ],
+      "PE.L1-B.1.IX[e]": [
+        "PES-03"
+      ],
+      "PE.L1-B.1.IX[f]": [
+        "PES-03"
+      ],
+      "PE.L1-B.1.IX[c]": [
+        "PES-03.3"
+      ],
+      "PE.L1-B.1.IX[b]": [
+        "PES-06.3"
+      ],
+      "SI.L1-B.1.XII[a]": [
+        "VPM-01"
+      ],
+      "SI.L1-B.1.XII[b]": [
+        "VPM-01"
+      ],
+      "SI.L1-B.1.XII[c]": [
+        "VPM-01"
+      ],
+      "SI.L1-B.1.XII[d]": [
+        "VPM-01"
+      ],
+      "SI.L1-B.1.XII[e]": [
+        "VPM-01"
+      ],
+      "SI.L1-B.1.XII[f]": [
+        "VPM-01"
+      ]
+    }
+  }
+}

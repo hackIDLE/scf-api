@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "CRY-13",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CRY-13",
+      "ao_id": "CRY-13_A01",
+      "objective": "approved hash algorithms are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CRY-13",
+      "ao_id": "CRY-13_A02",
+      "objective": "hash algorithms are to generate a hash value that can be used to validate the integrity of data and/or software.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

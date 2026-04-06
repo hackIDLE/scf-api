@@ -1,0 +1,7 @@
+{
+  "risk_id": "R-SA-2",
+  "grouping": "Situational Awareness",
+  "name": "Lack of a security-minded workforce",
+  "description": "The inability to appropriately educate and train personnel to foster a security-minded workforce.",
+  "nist_csf_function": "Protect"
+}

@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "SEA-14",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "SEA-14",
+      "ao_id": "SEA-14_A01",
+      "objective": "concealment and misdirection techniques to be employed to confuse and mislead adversaries potentially targeting systems are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-30_ODP[01]\n172A_3.13.3e_ODP[1]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-14",
+      "ao_id": "SEA-14_A02",
+      "objective": "systems for which concealment and misdirection techniques are to be employed are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-30_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-14",
+      "ao_id": "SEA-14_A03",
+      "objective": "time periods to employ concealment and misdirection techniques for systems are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-30_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-14",
+      "ao_id": "SEA-14_A04",
+      "objective": "concealment and misdirection techniques are employed for systems for time periods to confuse and mislead adversaries.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-30\n172A_3.13.3e[a]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

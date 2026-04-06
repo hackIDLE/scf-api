@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-VPM-06",
+  "area": "Vulnerability Management",
+  "artifact_name": "Attack Surface Scope",
+  "artifact_description": "Documented evidence of the organization defining its attack surface (e.g., may be in the form of graphical network diagrams or other forms of written documentation).",
+  "scf_controls": [
+    "VPM-01.1"
+  ],
+  "cmmc_mapping": ""
+}

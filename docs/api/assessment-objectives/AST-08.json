@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AST-08",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AST-08",
+      "ao_id": "AST-08_A01",
+      "objective": "mobile devices are inspected for evidence of tampering upon return from geographic regions of concern or other known hostile environments that could lead to device compromise.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-08",
+      "ao_id": "AST-08_A02",
+      "objective": "mobile devices that show signs of tampering are confiscated for forensic examination.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

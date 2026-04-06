@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PRI-03.10",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-03.10",
+      "ao_id": "PRI-03.10_A01",
+      "objective": "a process to decouple Personal Data (PD) from business processes in a timely manner is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-03.10",
+      "ao_id": "PRI-03.10_A02",
+      "objective": "upon consent revocation by the data subject, processes decouple Personal Data (PD) from business processes.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

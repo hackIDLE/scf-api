@@ -1,0 +1,66 @@
+{
+  "scf_control_id": "NET-12.1",
+  "total": 6,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-12.1",
+      "ao_id": "NET-12.1_A01",
+      "objective": "external wireless links to be protected from particular types of signal parameter attacks are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-40_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-12.1",
+      "ao_id": "NET-12.1_A02",
+      "objective": "internal wireless links to be protected from particular types of signal parameter attacks are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-40_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-12.1",
+      "ao_id": "NET-12.1_A03",
+      "objective": "external wireless links are protected from types of signal parameter attacks or references to sources for such attacks.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-40[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-12.1",
+      "ao_id": "NET-12.1_A04",
+      "objective": "internal wireless links are protected from types of signal parameter attacks or references to sources for such attacks.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-40[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-12.1",
+      "ao_id": "NET-12.1_A05",
+      "objective": "types of signal parameter attacks or references to sources for such attacks from which to protect external wireless links are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-40_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-12.1",
+      "ao_id": "NET-12.1_A06",
+      "objective": "types of signal parameter attacks or references to sources for such attacks from which to protect internal wireless links are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-40_ODP[04]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

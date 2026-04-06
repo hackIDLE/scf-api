@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "PRM-08",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRM-08",
+      "ao_id": "PRM-08_A01",
+      "objective": "critical organizational knowledge is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRM-08",
+      "ao_id": "PRM-08_A02",
+      "objective": "organizational knowledge of the cybersecurity / data privacy staff is documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRM-08",
+      "ao_id": "PRM-08_A03",
+      "objective": "cross-training is performed to maintain organizational knowledge.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

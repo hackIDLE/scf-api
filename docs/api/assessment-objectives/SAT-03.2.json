@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "SAT-03.2",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "SAT-03.2",
+      "ao_id": "SAT-03.2_A01",
+      "objective": "indicators of malicious code are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AT-02(04)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-03.2",
+      "ao_id": "SAT-03.2_A02",
+      "objective": "literacy training on recognizing suspicious communications and anomalous behavior in organizational systems using organization-defined indicators of malicious code is provided.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AT-02(04)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-03.2",
+      "ao_id": "SAT-03.2_A03",
+      "objective": "literacy training on the advanced persistent threat is provided.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AT-02(05)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

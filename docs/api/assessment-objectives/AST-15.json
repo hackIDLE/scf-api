@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AST-15",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AST-15",
+      "ao_id": "AST-15_A01",
+      "objective": "a tamper protection program is implemented for the system, system component or system service.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-09",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-15",
+      "ao_id": "AST-15_A02",
+      "objective": "anti-tamper technologies, tools and techniques are employed throughout the system development life cycle.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-09(01)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

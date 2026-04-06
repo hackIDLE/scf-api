@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "BCD-11.1",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "BCD-11.1",
+      "ao_id": "BCD-11.1_A01",
+      "objective": "the frequency at which to test backup information for media reliability is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-09(01)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-11.1",
+      "ao_id": "BCD-11.1_A02",
+      "objective": "the frequency at which to test backup information for information integrity is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-09(01)_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-11.1",
+      "ao_id": "BCD-11.1_A03",
+      "objective": "backup information is tested frequently to verify media reliability.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-09(01)[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-11.1",
+      "ao_id": "BCD-11.1_A04",
+      "objective": "backup information is tested frequently to verify information integrity.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CP-09(01)[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    }
+  ]
+}

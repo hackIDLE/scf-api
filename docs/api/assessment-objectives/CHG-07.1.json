@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "CHG-07.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CHG-07.1",
+      "ao_id": "CHG-07.1_A01",
+      "objective": "the documented results of \"emergency\" changes include an explanation for why standard change management procedures could not be followed.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

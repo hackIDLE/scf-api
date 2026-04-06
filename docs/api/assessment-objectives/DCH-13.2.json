@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "DCH-13.2",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-13.2",
+      "ao_id": "DCH-13.2_A01",
+      "objective": "the use of portable storage devices containing sensitive / regulated data on external systems is identified and documented.",
+      "pptdf": "Process",
+      "origin": "171A_3.1.21[a]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-13.2",
+      "ao_id": "DCH-13.2_A02",
+      "objective": "limits on the use of portable storage devices containing sensitive / regulated data on external systems are defined.",
+      "pptdf": "Process",
+      "origin": "171A_3.1.21[b]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-13.2",
+      "ao_id": "DCH-13.2_A03",
+      "objective": "the use of portable storage devices containing sensitive / regulated data on external systems is limited as defined.",
+      "pptdf": "Technology",
+      "origin": "171A_3.1.21[c]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-13.2",
+      "ao_id": "DCH-13.2_A04",
+      "objective": "restrictions on the use of organization-controlled portable storage devices by authorized individuals on external systems are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-20(02)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-13.2",
+      "ao_id": "DCH-13.2_A05",
+      "objective": "the use of organization-controlled portable storage devices by authorized individuals on external systems is restricted.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-20(02)\n171A_R3_A.03.01.20.d",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

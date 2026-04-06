@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "RSK-04.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "RSK-04.2",
+      "ao_id": "RSK-04.2_A01",
+      "objective": "a risk assessment methodology that can cover the organization's components relevant for secure, compliant and resilient operations is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-04.2",
+      "ao_id": "RSK-04.2_A02",
+      "objective": "a risk assessment methodology that covers the organization's components relevant for secure, compliant and resilient operations is implemented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

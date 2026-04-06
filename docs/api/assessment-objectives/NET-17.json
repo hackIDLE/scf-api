@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "NET-17",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-17",
+      "ao_id": "NET-17_A01",
+      "objective": "points where communications traffic is to be analyzed are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-04(18)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-17",
+      "ao_id": "NET-17_A02",
+      "objective": "outbound communications traffic is analyzed at interfaces external to the system to detect covert exfiltration of information.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-04(18)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-17",
+      "ao_id": "NET-17_A03",
+      "objective": "outbound communications traffic is analyzed at interfaces internal to the system to detect covert exfiltration of information.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-04(18)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

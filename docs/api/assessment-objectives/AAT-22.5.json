@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "AAT-22.5",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-22.5",
+      "ao_id": "AAT-22.5_A01",
+      "objective": "input to Artificial Intelligence (AI) and Autonomous Technologies (AAT) limited to what is relevant to the intended purpose of the AAT.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

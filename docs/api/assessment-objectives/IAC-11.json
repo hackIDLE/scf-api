@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "IAC-11",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-11",
+      "ao_id": "IAC-11_A01",
+      "objective": "authentication information is obscured during the authentication process.",
+      "pptdf": "Process",
+      "origin": "171A_3.5.11",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-11",
+      "ao_id": "IAC-11_A02",
+      "objective": "feedback of authentication information during the authentication process is obscured.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IA-06\n171A_R3_A.03.05.11",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

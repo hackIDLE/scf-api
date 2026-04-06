@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "END-06.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "END-06.2",
+      "ao_id": "END-06.2_A01",
+      "objective": "security-relevant changes to the system are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-07(07)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-06.2",
+      "ao_id": "END-06.2_A02",
+      "objective": "the detection of changes is incorporated into the organizational incident response capability.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-07(07)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

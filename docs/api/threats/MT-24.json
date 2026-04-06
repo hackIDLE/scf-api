@@ -1,0 +1,6 @@
+{
+  "threat_id": "MT-24",
+  "grouping": "Man-Made Threat",
+  "name": "Financial",
+  "description": "Financial is a Supply Chain Risk Management (SCRM) threat category that pertains to financial distress that can lead to the inability to meet contractual obligations, hostile takeovers, or bankruptcy. This involves situations where a supplier cannot generate revenue or income resulting in the inability to meet financial obligations."
+}

@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "END-02",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "END-02",
+      "ao_id": "END-02_A01",
+      "objective": "the confidentiality and integrity of sensitive / regulated data at rest is protected.",
+      "pptdf": "Technology",
+      "origin": "171A_3.13.16\n53A_R5_SC-28_ODP[01]\n53A_R5_SC-28",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-02",
+      "ao_id": "END-02_A02",
+      "objective": "information at rest requiring protection is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-28_ODP[01]\n53A_R5_SC-28_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

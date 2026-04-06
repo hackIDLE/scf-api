@@ -1,0 +1,16 @@
+{
+  "erl_id": "E-GOV-10",
+  "area": "Cybersecurity & Data Protection Management",
+  "artifact_name": "Cybersecurity & Data Protection Controls",
+  "artifact_description": "Documented evidence of an appropriately-scoped cybersecurity & data protection controls. Controls are technical, administrative or physical safeguards. Controls are the nexus used to manage risks through preventing, detecting or lessening the ability of a particular threat from negatively impacting business processes. Controls directly map to standards, since control testing is designed to measure specific aspects of how standards are actually implemented.",
+  "scf_controls": [
+    "GOV-09",
+    "CPL-01",
+    "CPL-01.2",
+    "BCD-13",
+    "BCD-13.1",
+    "SEA-01.1",
+    "SEA-01.2"
+  ],
+  "cmmc_mapping": ""
+}

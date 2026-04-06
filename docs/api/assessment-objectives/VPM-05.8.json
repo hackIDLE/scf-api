@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "VPM-05.8",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "VPM-05.8",
+      "ao_id": "VPM-05.8_A01",
+      "objective": "software and/or firmware patches are obtained from trusted sources.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-05.8",
+      "ao_id": "VPM-05.8_A02",
+      "objective": "software and/or firmware patches are checked for integrity.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

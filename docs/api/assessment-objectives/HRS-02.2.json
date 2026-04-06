@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "HRS-02.2",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "HRS-02.2",
+      "ao_id": "HRS-02.2_A01",
+      "objective": "additional monitoring to be implemented on individuals during probationary periods is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-04(21)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-02.2",
+      "ao_id": "HRS-02.2_A02",
+      "objective": "the probationary period of individuals is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-04(21)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-02.2",
+      "ao_id": "HRS-02.2_A03",
+      "objective": "additional monitoring of individuals is implemented during probationary period.",
+      "pptdf": "People",
+      "origin": "53A_R5_SI-04(21)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

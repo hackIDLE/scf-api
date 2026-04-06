@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "WEB-07",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "WEB-07",
+      "ao_id": "WEB-07_A01",
+      "objective": "the Open Web Application Security Project (OWASP) Application Security Verification Standard is incorporated into the organization's Secure Systems Development Lifecycle (SSDLC) process.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

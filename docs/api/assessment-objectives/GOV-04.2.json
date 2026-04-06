@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "GOV-04.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "GOV-04.2",
+      "ao_id": "GOV-04.2_A01",
+      "objective": "a formal organization structure is published.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-04.2",
+      "ao_id": "GOV-04.2_A02",
+      "objective": "an individual's chain of command is clearly delineated.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "NET-20.3",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-20.3",
+      "ao_id": "NET-20.3_A01",
+      "objective": "email systems are configured to utilize an authenticated received chain that allows for an intermediary to sign its own authentication of the original email, allowing downstream entities to accept the intermediary’s authentication even if the email was changed.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

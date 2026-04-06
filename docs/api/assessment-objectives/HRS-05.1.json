@@ -1,0 +1,96 @@
+{
+  "scf_control_id": "HRS-05.1",
+  "total": 9,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "HRS-05.1",
+      "ao_id": "HRS-05.1_A01",
+      "objective": "rules that describe responsibilities and expected behavior for system usage and protecting sensitive / regulated data are established.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-04a.[01]\n53A_R5_PL-04a.[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-05.1",
+      "ao_id": "HRS-05.1_A02",
+      "objective": "before authorizing access to information and the system, a documented acknowledgement from such individuals indicating that they have read, understand and agree to abide by the rules of behavior is received.",
+      "pptdf": "People",
+      "origin": "53A_R5_PL-04b.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-05.1",
+      "ao_id": "HRS-05.1_A03",
+      "objective": "the frequency at which the rules of behavior are reviewed and updated is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-04_ODP[01]\n53A_R5_PL-04_ODP[02]\n171A_R3_A.03.15.03.ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least every 3 years",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-05.1",
+      "ao_id": "HRS-05.1_A04",
+      "objective": "the rules of behavior are reviewed / updated per an organization-defined frequency.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PL-04c.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least every 3 years",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-05.1",
+      "ao_id": "HRS-05.1_A05",
+      "objective": "the frequency for individuals to read and re-acknowledge the rules of behavior is defined.",
+      "pptdf": "People",
+      "origin": "53A_R5_PL-04_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least every 12 months, or when there are significant incidents or significant changes to risks",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-05.1",
+      "ao_id": "HRS-05.1_A06",
+      "objective": "individuals who have acknowledged a previous version of the rules of behavior are required to read and reacknowledge the organization's current rules of behavior.",
+      "pptdf": "People",
+      "origin": "53A_R5_PL-04d.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually and when the rules are revised or changed",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-05.1",
+      "ao_id": "HRS-05.1_A07",
+      "objective": "rules that describe responsibilities and expected behavior for system usage and protecting CUI are established.",
+      "pptdf": "Data",
+      "origin": "171A_R3_A.03.15.03.a",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-05.1",
+      "ao_id": "HRS-05.1_A08",
+      "objective": "the rules of behavior are reviewed <A.03.15.03.ODP[01]: frequency>.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.15.03.d[01]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "at least every 12 months, or when there are significant incidents or significant changes to risks",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-05.1",
+      "ao_id": "HRS-05.1_A09",
+      "objective": "the rules of behavior are updated <A.03.15.03.ODP[01]: frequency>.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.15.03.d[02]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "at least every 12 months, or when there are significant incidents or significant changes to risks",
+      "org_defined_parameters": ""
+    }
+  ]
+}

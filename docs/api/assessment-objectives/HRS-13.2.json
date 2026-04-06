@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "HRS-13.2",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "HRS-13.2",
+      "ao_id": "HRS-13.2_A01",
+      "objective": "vital cybersecurity / data privacy staff are identified.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

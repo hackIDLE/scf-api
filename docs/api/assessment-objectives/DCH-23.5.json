@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "DCH-23.5",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-23.5",
+      "ao_id": "DCH-23.5_A01",
+      "objective": "numerical data is manipulated so that no individual or organization is identifiable in the results of the analysis.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-19(05)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-23.5",
+      "ao_id": "DCH-23.5_A02",
+      "objective": "contingency tables are manipulated so that no individual or organization is identifiable in the results of the analysis.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-19(05)[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-23.5",
+      "ao_id": "DCH-23.5_A03",
+      "objective": "statistical findings are manipulated so that no individual or organization is identifiable in the results of the analysis.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-19(05)[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

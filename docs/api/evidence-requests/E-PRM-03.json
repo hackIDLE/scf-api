@@ -1,0 +1,13 @@
+{
+  "erl_id": "E-PRM-03",
+  "area": "Resource Management",
+  "artifact_name": "Secure Development Lifecycle (SDLC)",
+  "artifact_description": "Documented evidence of a secure development lifecycle that the organization utilizes for new initiatives or significant changes to existing initiatives to ensure cybersecurity & data privacy principles are identified and implemented by default.",
+  "scf_controls": [
+    "PRM-04",
+    "PRM-05",
+    "PRM-06",
+    "PRM-07"
+  ],
+  "cmmc_mapping": ""
+}

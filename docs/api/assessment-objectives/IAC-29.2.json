@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "IAC-29.2",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-29.2",
+      "ao_id": "IAC-29.2_A01",
+      "objective": "access profile rules for sensitive/regulated Data, Assets, Applications & Services (DAAS) access are developed, based on User, Data, Network, Environment & Device attributes.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

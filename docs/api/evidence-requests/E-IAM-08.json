@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-IAM-08",
+  "area": "Identity & Access Management",
+  "artifact_name": "Conditions for Group / Role Membership",
+  "artifact_description": "Documented evidence of conditions for group and role membership.",
+  "scf_controls": [
+    "IAC-15",
+    "IAC-15.5"
+  ],
+  "cmmc_mapping": "AC.L1-3.1.1\nAC.L2-3.1.5"
+}

@@ -1,0 +1,16 @@
+{
+  "erl_id": "E-SAT-04",
+  "area": "Education",
+  "artifact_name": "Recurring User Training",
+  "artifact_description": "Documented evidence of recurring (e.g., annual) user training for security, compliance and/or resilience topics.",
+  "scf_controls": [
+    "SAT-01",
+    "SAT-03.4",
+    "SAT-03.6",
+    "SAT-03.7",
+    "SAT-04",
+    "HRS-05.7",
+    "THR-05"
+  ],
+  "cmmc_mapping": ""
+}

@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-END-03",
+  "area": "Endpoint Security",
+  "artifact_name": "Antimalware Scanning Results",
+  "artifact_description": "Documented evidence of scan results from malicious code protection mechanisms.",
+  "scf_controls": [
+    "END-04.3",
+    "MON-01.4"
+  ],
+  "cmmc_mapping": "SI.L1-3.14.4\nSI.L1-3.14.5"
+}

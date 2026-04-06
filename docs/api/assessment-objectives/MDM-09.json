@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "MDM-09",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MDM-09",
+      "ao_id": "MDM-09_A01",
+      "objective": "the functionality of mobile devices is restricted based on geographic location.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

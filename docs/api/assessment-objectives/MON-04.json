@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "MON-04",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MON-04",
+      "ao_id": "MON-04_A01",
+      "objective": "event log retention requirements are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AU-04_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-04",
+      "ao_id": "MON-04_A02",
+      "objective": "event log storage capacity is allocated to accommodate organization-defined event log retention requirements.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AU-04",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "control_id": "TPM-05.5",
+  "title": "Third-Party Scope Review",
+  "family": "TPM",
+  "description": "Mechanisms exist to perform recurring validation of the Responsible, Accountable, Supportive, Consulted & Informed (RASCI) matrix, or similar documentation, to ensure security, compliance and resilience control assignments accurately reflect current:\n(1) Contractual obligations for the External Service Provider (ESP);\n(2) Business practices;\n(3) Applicable stakeholders; and\n(4) Deployed Technology Assets, Applications and/or Services (TAAS).",
+  "scf_question": "Does the organization perform recurring validation of the Responsible, Accountable, Supportive, Consulted & Informed (RASCI) matrix, or similar documentation, to ensure security, compliance and resilience control assignments accurately reflect current:\n(1) Contractual obligations for the External Service Provider (ESP);\n(2) Business practices;\n(3) Applicable stakeholders; and\n(4) Deployed Technology Assets, Applications and/or Services (TAAS)?",
+  "relative_weight": 10,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [
+    "E-TPM-03"
+  ],
+  "pptdf": "Process",
+  "nist_csf_function": "Identify",
+  "scrm_focus": {
+    "strategic": true,
+    "operational": true,
+    "tactical": true
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "2": "Third-Party Management (TPM) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with TPM domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with TPM domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with TPM  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Third-party management-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Asset management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
+    "3": "Third-Party Management (TPM) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with TPM domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with TPM domain capabilities are well-documented and kept current by process owners.\n▪ A procurement team, or similar function, is appropriately staffed and supported to implement and maintain TPM domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of third-party management operations (e.g., TPRM risk management solution, vendor management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with TPM domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to  perform recurring validation of the Responsible, Accountable, Supportive, Consulted & Informed (RASCI) matrix, or similar documentation, to ensure security, compliance and resilience control assignments accurately reflect current:\n(1) Contractual obligations for the External Service Provider (ESP);\n(2) Business practices;\n(3) Applicable stakeholders; and\n(4) Deployed Technology Assets, Applications and/or Services (TAAS).",
+    "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [
+    "SCRMS",
+    "CORE ESP Level 1 Foundational",
+    "CORE ESP Level 2 Critical Infrastructure",
+    "CORE ESP Level 3 Advanced Threats",
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ Cybersecurity Supply Chain Risk Management (C-SCRM) program",
+    "small": "∙ Cybersecurity Supply Chain Risk Management (C-SCRM) program",
+    "medium": "∙ Cybersecurity Supply Chain Risk Management (C-SCRM) program",
+    "large": "∙ Cybersecurity Supply Chain Risk Management (C-SCRM) program",
+    "enterprise": "∙ Cybersecurity Supply Chain Risk Management (C-SCRM) program"
+  },
+  "risks": [
+    "R-AM-3",
+    "R-BC-1",
+    "R-BC-2",
+    "R-BC-3",
+    "R-BC-4",
+    "R-BC-5",
+    "R-GV-1",
+    "R-GV-2",
+    "R-GV-3",
+    "R-GV-4",
+    "R-GV-5",
+    "R-GV-6",
+    "R-GV-7",
+    "R-IR-1",
+    "R-IR-2",
+    "R-IR-3",
+    "R-IR-4",
+    "R-SC-1",
+    "R-SC-2",
+    "R-SC-3",
+    "R-SC-4",
+    "R-SC-5",
+    "R-SC-6"
+  ],
+  "threats": [
+    "MT-8",
+    "MT-9",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-16",
+    "MT-17",
+    "MT-18",
+    "MT-19",
+    "MT-20",
+    "MT-21",
+    "MT-22",
+    "MT-23",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "errata": "- wordsmithed",
+  "family_name": "Third-Party Management",
+  "crosswalks": {
+    "general-aicpa-tsc-2017": [
+      "CC2.2-POF9",
+      "CC3.4-POF5",
+      "CC9.2-POF7",
+      "CC9.2-POF12"
+    ],
+    "general-cis-csc-8-1": [
+      "15.0"
+    ],
+    "general-iso-42001-2023": [
+      "4.3"
+    ],
+    "general-nist-800-171-r3": [
+      "03.16.03.c",
+      "03.17.02",
+      "03.17.03.a",
+      "03.17.03.b"
+    ],
+    "general-nist-800-171a-r3": [
+      "A.03.16.03.c"
+    ],
+    "general-nist-csf-2-0": [
+      "GV.SC-06"
+    ],
+    "general-pci-dss-4-0-1": [
+      "12.5.2.1",
+      "12.5.3",
+      "12.8",
+      "12.8.1",
+      "A3.2.1",
+      "A3.2.3"
+    ],
+    "general-pci-dss-4-0-1-saq-a": [
+      "12.8.1"
+    ],
+    "general-pci-dss-4-0-1-saq-a-ep": [
+      "12.8.1"
+    ],
+    "general-pci-dss-4-0-1-saq-b": [
+      "12.8.1"
+    ],
+    "general-pci-dss-4-0-1-saq-b-ip": [
+      "12.8.1"
+    ],
+    "general-pci-dss-4-0-1-saq-c": [
+      "12.8.1"
+    ],
+    "general-pci-dss-4-0-1-saq-c-vt": [
+      "12.8.1"
+    ],
+    "general-pci-dss-4-0-1-saq-d-merchant": [
+      "12.8.1"
+    ],
+    "general-pci-dss-4-0-1-saq-d-service-provider": [
+      "12.5.2.1",
+      "12.5.3",
+      "12.8.1"
+    ],
+    "general-pci-dss-4-0-1-saq-p2pe": [
+      "12.8.1"
+    ],
+    "general-scf-dpmp-2025": [
+      "10.4"
+    ],
+    "general-swift-cscf-2025": [
+      "2.8"
+    ],
+    "usa-federal-doe-c2m2-2-1": [
+      "THIRD-PARTIES-2d"
+    ],
+    "usa-state-ca-ccpa-cpra-2026": [
+      "7123(c)(15)"
+    ],
+    "usa-state-ny-dfs-23-nycrr500-2023-amd2": [
+      "500.11(a)(3)",
+      "500.11(a)(4)"
+    ],
+    "emea-eu-eba-ict-srm-2025": [
+      "3.5(55)"
+    ],
+    "emea-eu-nis2-2022": [
+      "Article 21.3"
+    ],
+    "apac-aus-ism-2024-june": [
+      "ISM-1793"
+    ],
+    "americas-can-itsp-10-171-2025": [
+      "03.16.03.C",
+      "03.17.02",
+      "03.17.03.A",
+      "03.17.03.B"
+    ]
+  }
+}

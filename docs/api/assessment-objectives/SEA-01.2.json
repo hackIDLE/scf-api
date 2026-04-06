@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "SEA-01.2",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "SEA-01.2",
+      "ao_id": "SEA-01.2_A01",
+      "objective": "the organization's goals for resiliency are defined for normal and adverse situations.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-01.2",
+      "ao_id": "SEA-01.2_A02",
+      "objective": "solutions exist to achieve resilience requirements in normal situations.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-01.2",
+      "ao_id": "SEA-01.2_A03",
+      "objective": "solutions exist to achieve resilience requirements in adverse situations.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

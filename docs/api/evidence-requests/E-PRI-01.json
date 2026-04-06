@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-PRI-01",
+  "area": "Privacy",
+  "artifact_name": "Accounting of Disclosures",
+  "artifact_description": "Documented evidence of accounting for privacy-related disclosures.",
+  "scf_controls": [
+    "PRI-14.1"
+  ],
+  "cmmc_mapping": ""
+}

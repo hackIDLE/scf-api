@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AST-02.4",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AST-02.4",
+      "ao_id": "AST-02.4_A01",
+      "objective": "assessed component configurations are included in the system component inventory.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-08(06)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-02.4",
+      "ao_id": "AST-02.4_A02",
+      "objective": "any approved deviations to current deployed configurations are included in the system component inventory.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-08(06)[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

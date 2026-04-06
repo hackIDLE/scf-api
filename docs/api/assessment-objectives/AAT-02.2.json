@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-02.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-02.2",
+      "ao_id": "AAT-02.2_A01",
+      "objective": "roles and responsibilities exist to compel data and/or process owners to select required cybersecurity / data privacy controls for Artificial Intelligence (AI) and Autonomous Technologies (AAT) under their control.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-02.2",
+      "ao_id": "AAT-02.2_A02",
+      "objective": "Individual Contributor (IC) performance reviews cover how data and/or process owners operationalized cybersecurity / data privacy practices for Artificial Intelligence (AI) and Autonomous Technologies (AAT) under their control.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

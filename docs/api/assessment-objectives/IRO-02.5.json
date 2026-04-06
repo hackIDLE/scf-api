@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "IRO-02.5",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IRO-02.5",
+      "ao_id": "IRO-02.5_A01",
+      "objective": "external organizations with whom organizational incident information is to be coordinated and shared are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-04(08)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-02.5",
+      "ao_id": "IRO-02.5_A02",
+      "objective": "incident information to be correlated and shared with organization-defined external organizations are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-04(08)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-02.5",
+      "ao_id": "IRO-02.5_A03",
+      "objective": "there is coordination with external organizations to correlate and share incident information to achieve a cross-organization perspective on incident awareness and more effective incident responses.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-04(08)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

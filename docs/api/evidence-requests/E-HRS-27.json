@@ -1,0 +1,12 @@
+{
+  "erl_id": "E-HRS-27",
+  "area": "Human Resources",
+  "artifact_name": "Personnel Sanctions",
+  "artifact_description": "Documented evidence of personnel management practices to formally sanction unacceptable behavior(s).",
+  "scf_controls": [
+    "HRS-01",
+    "HRS-07",
+    "OPS-01"
+  ],
+  "cmmc_mapping": "PS.L2-3.9.2"
+}

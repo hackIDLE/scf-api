@@ -1,0 +1,176 @@
+{
+  "scf_control_id": "TPM-03",
+  "total": 17,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TPM-03",
+      "ao_id": "TPM-03_A01",
+      "objective": "the personnel, roles and responsibilities of the supply chain risk management team are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-02(01)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-03",
+      "ao_id": "TPM-03_A02",
+      "objective": "supply chain risk management activities are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-02(01)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-03",
+      "ao_id": "TPM-03_A03",
+      "objective": "a supply chain risk management team consisting of personnel, roles and responsibilities is established to lead and support supply chain risk management activities.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-02(01)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-03",
+      "ao_id": "TPM-03_A04",
+      "objective": "the supply chain risk management plan addresses risks associated with the research and development of systems, system components or system services.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-02a.[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-03",
+      "ao_id": "TPM-03_A05",
+      "objective": "the supply chain risk management plan addresses risks associated with the design of systems, system components or system services.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-02a.[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-03",
+      "ao_id": "TPM-03_A06",
+      "objective": "the supply chain risk management plan addresses risks associated with the manufacturing of systems, system components or system services.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-02a.[04]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-03",
+      "ao_id": "TPM-03_A07",
+      "objective": "the supply chain risk management plan addresses risks associated with the acquisition of systems, system components or system services.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-02a.[05]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-03",
+      "ao_id": "TPM-03_A08",
+      "objective": "the supply chain risk management plan addresses risks associated with the delivery of systems, system components or system services.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-02a.[06]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-03",
+      "ao_id": "TPM-03_A09",
+      "objective": "the supply chain risk management plan addresses risks associated with the integration of systems, system components or system services.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-02a.[07]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-03",
+      "ao_id": "TPM-03_A10",
+      "objective": "the supply chain risk management plan addresses risks associated with the operation and maintenance of systems, system components or system services.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-02a.[08]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-03",
+      "ao_id": "TPM-03_A11",
+      "objective": "the supply chain risk management plan addresses risks associated with the disposal of systems, system components or system services.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-02a.[09]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-03",
+      "ao_id": "TPM-03_A12",
+      "objective": "systems, system components or system services for which a supply chain risk management plan is developed are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-02_ODP[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-03",
+      "ao_id": "TPM-03_A13",
+      "objective": "the frequency at which to review / update the supply chain risk management plan is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-02_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-03",
+      "ao_id": "TPM-03_A14",
+      "objective": "a plan for managing supply chain risks is developed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-02a.[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-03",
+      "ao_id": "TPM-03_A15",
+      "objective": "the supply chain risk management plan is reviewed / updated frequently or as required to address threat, organizational or environmental changes.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-02b.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-03",
+      "ao_id": "TPM-03_A16",
+      "objective": "the supply chain risk management plan is protected from unauthorized disclosure.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SR-02c.[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-03",
+      "ao_id": "TPM-03_A17",
+      "objective": "the supply chain risk management plan is protected from unauthorized modification.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SR-02c.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

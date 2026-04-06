@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-IRO-09",
+  "area": "Incident Response",
+  "artifact_name": "Formally Assigned Incident Response Roles & Responsibilities",
+  "artifact_description": "Documented evidence of the establishment of a formally-assigned, integrated team of cybersecurity, IT and business function representatives that are capable of addressing cybersecurity & data privacy incident response operations.",
+  "scf_controls": [
+    "IRO-07",
+    "IRO-16"
+  ],
+  "cmmc_mapping": ""
+}

@@ -1,0 +1,86 @@
+{
+  "scf_control_id": "NET-11",
+  "total": 8,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-11",
+      "ao_id": "NET-11_A01",
+      "objective": "out-of-band channels to be employed for the physical delivery or electronic transmission of information, system components or devices to individuals or the system are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-37_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-11",
+      "ao_id": "NET-11_A02",
+      "objective": "out-of-band channels are employed for the physical delivery or electronic transmission of information, system components or devices to individuals or systems.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-37",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-11",
+      "ao_id": "NET-11_A03",
+      "objective": "information, system components or devices to employ out-of-band-channels for physical delivery or electronic transmission are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-37_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-11",
+      "ao_id": "NET-11_A04",
+      "objective": "individuals or systems to which physical delivery or electronic transmission of information, system components or devices is to be achieved via the employment of out-of-band channels are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-37_ODP[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-11",
+      "ao_id": "NET-11_A05",
+      "objective": "controls to be employed to ensure that only designated individuals or systems receive specific information, system components or devices are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-37(01)_ODP[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-11",
+      "ao_id": "NET-11_A06",
+      "objective": "individuals or systems designated to receive specific information, system components or devices are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-37(01)_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-11",
+      "ao_id": "NET-11_A07",
+      "objective": "information, system components or devices that only individuals or systems are designated to receive are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-37(01)_ODP[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-11",
+      "ao_id": "NET-11_A08",
+      "objective": "organization-defined controls are employed to ensure that only authorized individuals or systems receive information, system components or devices.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-37(01)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

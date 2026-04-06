@@ -1,0 +1,66 @@
+{
+  "scf_control_id": "MON-07.1",
+  "total": 6,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MON-07.1",
+      "ao_id": "MON-07.1_A01",
+      "objective": "an authoritative source with which to compare and synchronize internal system clocks is specified.",
+      "pptdf": "Technology",
+      "origin": "171A_3.3.7[b]\n53A_R5_SC-45(01)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-07.1",
+      "ao_id": "MON-07.1_A02",
+      "objective": "internal system clocks used to generate time stamps for audit records are compared to and synchronized with the specified authoritative time source.",
+      "pptdf": "Technology",
+      "origin": "171A_3.3.7[c]\n53A_R5_SC-45(01)(a)\n53A_R5_SC-45(01)_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least hourly",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-07.1",
+      "ao_id": "MON-07.1_A03",
+      "objective": "system clocks are synchronized within and between systems and system components.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-45",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-07.1",
+      "ao_id": "MON-07.1_A04",
+      "objective": "the frequency at which to compare the internal system clocks with the authoritative time source is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-45(01)_ODP[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least hourly",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-07.1",
+      "ao_id": "MON-07.1_A05",
+      "objective": "the internal system clocks are synchronized with the authoritative time source when the time difference is greater than an organization-defined time period.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-45(01)(b)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "any difference",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-07.1",
+      "ao_id": "MON-07.1_A06",
+      "objective": "time stamps are recorded for audit records that use Coordinated Universal Time (UTC), have a fixed local time offset from UTC, or include the local time offset as part of the time stamp.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.03.07.b[02]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

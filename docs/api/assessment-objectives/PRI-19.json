@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "PRI-19",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-19",
+      "ao_id": "PRI-19_A01",
+      "objective": "Automated Decision-Making Technology (ADMT), where computation replaces, or substantially replaces, human decision-making for data subject actions, are identified.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-19",
+      "ao_id": "PRI-19_A02",
+      "objective": "applicable statutory, regulatory and/or contractual obligations for Automated Decision-Making Technology (ADMT), where computation replaces, or substantially replaces, human decision-making for data subject actions, are identified.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-19",
+      "ao_id": "PRI-19_A03",
+      "objective": "the use of Automated Decision-Making Technology (ADMT), where computation replaces, or substantially replaces, human decision-making for data subject actions, conforms with all applicable statutory, regulatory and/or contractual obligations.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "MNT-03.3",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MNT-03.3",
+      "ao_id": "MNT-03.3_A01",
+      "objective": "automated mechanisms used to transfer predictive maintenance data to a maintenance management system are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-06(03)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-03.3",
+      "ao_id": "MNT-03.3_A02",
+      "objective": "predictive maintenance data is transferred to a maintenance management system using automated mechanisms.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_MA-06(03)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

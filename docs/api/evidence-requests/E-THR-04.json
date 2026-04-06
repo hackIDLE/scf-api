@@ -1,0 +1,12 @@
+{
+  "erl_id": "E-THR-04",
+  "area": "Threat Management",
+  "artifact_name": "Threat Intelligence Program (TIP)",
+  "artifact_description": "Documented evidence of a formal capability that intakes and analysis threat information to determine specific threat to the organization and necessary actions to mitigate the threat(s).",
+  "scf_controls": [
+    "THR-01",
+    "THR-04",
+    "THR-05"
+  ],
+  "cmmc_mapping": ""
+}

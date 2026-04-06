@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "DCH-14.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-14.1",
+      "ao_id": "DCH-14.1_A01",
+      "objective": "information-sharing restrictions to be enforced by information search and retrieval services are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-21(02)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-14.1",
+      "ao_id": "DCH-14.1_A02",
+      "objective": "information search and retrieval services that enforce organization-defined information-sharing restrictions are implemented.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-21(02)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

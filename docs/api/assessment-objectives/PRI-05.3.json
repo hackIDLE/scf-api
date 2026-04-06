@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "PRI-05.3",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-05.3",
+      "ao_id": "PRI-05.3_A01",
+      "objective": "direct identifiers in a dataset are removed, masked, encrypted, hashed or replaced.",
+      "pptdf": "Data",
+      "origin": "53A_R5_SI-19(04)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

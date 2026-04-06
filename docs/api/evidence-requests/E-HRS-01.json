@@ -1,0 +1,14 @@
+{
+  "erl_id": "E-HRS-01",
+  "area": "Human Resources",
+  "artifact_name": "Position Categorization",
+  "artifact_description": "Documented evidence of a discrete roles for cybersecurity & data privacy functions (e.g., position categorization).",
+  "scf_controls": [
+    "GOV-04",
+    "HRS-01",
+    "HRS-02",
+    "HRS-03",
+    "HRS-03.1"
+  ],
+  "cmmc_mapping": ""
+}

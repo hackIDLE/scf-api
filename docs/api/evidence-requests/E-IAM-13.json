@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-IAM-13",
+  "area": "Asset Management",
+  "artifact_name": "Authenticator Types",
+  "artifact_description": "Documented evidence of system authenticator types.",
+  "scf_controls": [
+    "IAC-02"
+  ],
+  "cmmc_mapping": ""
+}

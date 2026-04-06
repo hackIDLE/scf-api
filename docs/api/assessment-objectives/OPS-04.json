@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "OPS-04",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "OPS-04",
+      "ao_id": "OPS-04_A01",
+      "objective": "a Security Operations Center (SOC) capability is established and maintained.",
+      "pptdf": "Process",
+      "origin": "172A_3.6.1e[a]\n172A_3.6.1e[c]\n53A_R5_IR-04(14)[01]\n53A_R5_IR-04(14)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "OPS-04",
+      "ao_id": "OPS-04_A02",
+      "objective": "a time period to operate a Security Operations Center (SOC) capability is defined.",
+      "pptdf": "Process",
+      "origin": "172A_3.6.1e_ODP[1]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "OPS-04",
+      "ao_id": "OPS-04_A03",
+      "objective": "the Security Operations Center (SOC) capability operates according to an organization-defined time period.",
+      "pptdf": "Process",
+      "origin": "172A_3.6.1e[b]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "control_id": "MON-01.16",
+  "title": "Analyze and Prioritize Monitoring Requirements",
+  "family": "MON",
+  "description": "Mechanisms exist to assess the organization's needs for monitoring and prioritize the monitoring of Technology Assets, Applications and/or Services (TAAS), based on TAAS criticality and the sensitivity of the data it stores, transmits and processes.",
+  "scf_question": "Does the organization assess the organization's needs for monitoring and prioritize the monitoring of Technology Assets, Applications and/or Services (TAAS), based on TAAS criticality and the sensitivity of the data it stores, transmits and processes?",
+  "relative_weight": 5,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [
+    "E-AST-30"
+  ],
+  "pptdf": "Technology",
+  "nist_csf_function": "Detect",
+  "scrm_focus": {
+    "strategic": false,
+    "operational": true,
+    "tactical": false
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "2": "Continuous Monitoring (MON) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MON domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with MON domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MON  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Continuous monitoring-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Continuous monitoring may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.",
+    "3": "Continuous Monitoring (MON) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MON domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Cybersecurity personnel use a structured process via Standardized Operating Procedures (SOP) to review and analyze logs.\n▪ A Security Operations Center (SOC) team, or similar function, is appropriately staffed and supported to implement and maintain MON domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of continuous monitoring operations (e.g., Security Incident Event Manager (SIEM), etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MON domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ Secure Baseline Configurations (SBC) enforce security event logging to contain sufficient information to establish necessary details of activity and allow for forensics analysis.\n▪ An implemented and operational capability exists to assess the organization's needs for monitoring and prioritize the monitoring of Technology Assets, Applications and/or Services (TAAS), based on TAAS criticality and the sensitivity of the data it stores, transmits and processes.",
+    "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [
+    "CORE ESP Level 1 Foundational",
+    "CORE ESP Level 2 Critical Infrastructure",
+    "CORE ESP Level 3 Advanced Threats",
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ Review system logs periodically",
+    "small": "∙ Log monitoring policy\n∙ Regular review of key system logs",
+    "medium": "∙ SIEM (e.g., Wazuh)\n∙ Automated log collection and alerting",
+    "large": "∙ Enterprise SIEM (e.g., Splunk, IBM QRadar)\n∙ Continuous monitoring program\n∙ SOC monitoring",
+    "enterprise": "∙ Enterprise SIEM/SOAR platform\n∙ 24/7 SOC monitoring\n∙ Threat hunting\n∙ Automated incident response"
+  },
+  "risks": [
+    "R-AC-4",
+    "R-AM-1",
+    "R-AM-2",
+    "R-AM-3",
+    "R-BC-1",
+    "R-BC-2",
+    "R-BC-3",
+    "R-BC-4",
+    "R-BC-5",
+    "R-EX-1",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-EX-5",
+    "R-EX-6",
+    "R-EX-7",
+    "R-GV-1",
+    "R-GV-2",
+    "R-GV-3",
+    "R-GV-4",
+    "R-GV-5",
+    "R-GV-6",
+    "R-GV-7",
+    "R-IR-1",
+    "R-IR-2",
+    "R-IR-3",
+    "R-IR-4",
+    "R-SA-1",
+    "R-SC-1",
+    "R-SC-2",
+    "R-SC-3",
+    "R-SC-4",
+    "R-SC-5",
+    "R-SC-6"
+  ],
+  "threats": [
+    "NT-7",
+    "MT-1",
+    "MT-2",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-10",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-16",
+    "MT-17",
+    "MT-18",
+    "MT-19",
+    "MT-20",
+    "MT-21",
+    "MT-22",
+    "MT-23",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "errata": "- wordsmithed\n- NIST 800-171A",
+  "family_name": "Continuous Monitoring",
+  "crosswalks": {
+    "general-csa-iot-2": [
+      "CLS-07"
+    ],
+    "general-nist-800-66-r2": [
+      "164.312(b)"
+    ],
+    "general-nist-800-171-r2": [
+      "3.3.3"
+    ],
+    "general-owasp-top-10-2025": [
+      "A01:2025",
+      "A09:2025"
+    ],
+    "general-swift-cscf-2025": [
+      "6.4"
+    ],
+    "usa-federal-doe-c2m2-2-1": [
+      "SITUATION-1a",
+      "SITUATION-1f",
+      "SITUATION-2f",
+      "SITUATION-2g",
+      "SITUATION-3g",
+      "RESPONSE-1e"
+    ],
+    "usa-federal-dow-cmmc-2-level-2": [
+      "AUL2.-3.3.3"
+    ],
+    "usa-federal-dow-zt-roadmap-1-1": [
+      "7.1.2"
+    ],
+    "usa-federal-fda-21-cfr-part-11-2025": [
+      "11.10"
+    ],
+    "usa-federal-law-hipaa-simplification-2013": [
+      "164.312(b)"
+    ],
+    "usa-federal-law-hipaa-security-rule-2013": [
+      "164.312(b)"
+    ],
+    "usa-federal-tsa-security-directive-1580-82-2022-01": [
+      "III.D.3.a",
+      "III.D.3.b"
+    ],
+    "emea-eu-eba-ict-srm-2025": [
+      "3.4.5(39)",
+      "3.4.5(40)",
+      "3.5(52)"
+    ],
+    "emea-aut-fappd-2000": [
+      "Sec 14",
+      "Sec 15"
+    ],
+    "emea-bel-act-8-1992": [
+      "16"
+    ],
+    "emea-deu-bsrit-2017": [
+      "5.5",
+      "6.3",
+      "6.7"
+    ],
+    "emea-deu-c5-2020": [
+      "OPS-10"
+    ],
+    "emea-isr-cmo-1-0": [
+      "4.6",
+      "6.8",
+      "9.10",
+      "11.11",
+      "12.31",
+      "13.9",
+      "21.1"
+    ],
+    "emea-sau-cscc-1-2019": [
+      "2-11"
+    ],
+    "emea-sau-ecc-1-2018": [
+      "2-3-4",
+      "2-12-1",
+      "2-12-2",
+      "2-12-3",
+      "2-12-4",
+      "5-1-3-3"
+    ],
+    "emea-sau-otcc-1-2022": [
+      "2-11",
+      "2-11-1",
+      "2-11-2"
+    ],
+    "emea-sau-sacs-002-2022": [
+      "TPC-40",
+      "TPC-80"
+    ],
+    "emea-sau-sama-csf-1-2017": [
+      "3.3.14"
+    ],
+    "emea-zaf-popia-2013": [
+      "19.1",
+      "19.2"
+    ],
+    "emea-esp-decree-311-2022": [
+      "10.1",
+      "21.2",
+      "24.1"
+    ],
+    "emea-esp-ccn-stic-825-2023": [
+      "7.3.8 [OP.EXP.8]"
+    ],
+    "emea-gbr-cap-1850-2020": [
+      "C1"
+    ],
+    "apac-aus-ism-2024-june": [
+      "ISM-0109",
+      "ISM-0120",
+      "ISM-0580",
+      "ISM-0660",
+      "ISM-1163",
+      "ISM-1294",
+      "ISM-1586"
+    ],
+    "apac-nzl-ism-3-9": [
+      "16.6.6.C.01",
+      "16.6.6.C.02",
+      "16.6.8.C.01",
+      "16.6.10.C.01",
+      "16.6.10.C.02"
+    ],
+    "apac-sgp-mas-trm-2021": [
+      "12.2.1",
+      "12.2.2",
+      "12.2.3"
+    ],
+    "americas-bmu-mba-coc-2020": [
+      "6.21"
+    ],
+    "amaericas-can-osfi-self-assessment": [
+      "3.5"
+    ]
+  }
+}

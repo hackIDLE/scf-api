@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "PES-15",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PES-15",
+      "ao_id": "PES-15_A01",
+      "objective": "protective measures to be employed against electromagnetic pulse damage are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PE-21_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-15",
+      "ao_id": "PES-15_A02",
+      "objective": "system and system components requiring protection against electromagnetic pulse damage are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PE-21_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-15",
+      "ao_id": "PES-15_A03",
+      "objective": "protective measures are employed against electromagnetic pulse damage for system and system components.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-21",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

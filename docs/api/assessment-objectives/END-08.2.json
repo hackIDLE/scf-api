@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "END-08.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "END-08.2",
+      "ao_id": "END-08.2_A01",
+      "objective": "the frequency at which to automatically update spam protection mechanisms is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-08(02)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-08.2",
+      "ao_id": "END-08.2_A02",
+      "objective": "spam protection mechanisms are automatically updated frequently.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-08b.\n53A_R5_SI-08(02)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

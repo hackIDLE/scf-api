@@ -1,0 +1,88 @@
+{
+  "control_id": "AST-04.3",
+  "title": "Compliance-Specific Asset Identification",
+  "family": "AST",
+  "description": "Mechanisms exist to create and maintain a current inventory of Technology Assets, Applications, Services and/or Data (TAASD) that are in scope for statutory, regulatory and/or contractual compliance obligations that provides sufficient detail to determine control applicability, based on asset scope categorization.",
+  "scf_question": "Does the organization create and maintain a current inventory of Technology Assets, Applications, Services and/or Data (TAASD) that are in scope for statutory, regulatory and/or contractual compliance obligations that provides sufficient detail to determine control applicability, based on asset scope categorization?",
+  "relative_weight": 6,
+  "conformity_cadence": "Semi-Annual",
+  "evidence_requests": [
+    "E-AST-02",
+    "E-CPL-02"
+  ],
+  "pptdf": "Process",
+  "nist_csf_function": "Identify",
+  "scrm_focus": {
+    "strategic": false,
+    "operational": true,
+    "tactical": true
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "Asset Management (AST) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with AST domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Asset management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ Asset management is informally assigned as an additional duty to existing IT/cybersecurity personnel.",
+    "2": "SCR-CMM Level 2 criteria definitions are not available for this control:\n▪ A reasonable person would conclude a well-defined and standardized process is required.\n▪ At this level of maturity, the “requirements-driven” nature of performing the control is focused on a localized and/or regionalized implementation, not uniform and consistent across the organization.\n▪ Requirements are narrowly scoped for applicability and are primarily derived from compliance obligations (e.g., laws, regulations and contracts).",
+    "3": "Asset Management (AST) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with AST domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with AST domain capabilities are well-documented and kept current by process owners.\n▪ An IT Asset Management (ITAM) team, or similar function, is appropriately staffed and supported to implement and maintain AST domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of ITAM operations (e.g., ITAM platform, (e.g., Configuration Management Database (CMBD) Asset Management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with AST domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to create and maintain a current inventory of TAASD that are in scope for statutory, regulatory and/or contractual compliance obligations that provides sufficient detail to determine control applicability, based on asset scope categorization.",
+    "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [
+    "CORE ESP Level 2 Critical Infrastructure",
+    "CORE ESP Level 3 Advanced Threats",
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ Unified Scoping Guide (https://unified-scoping-guide.com)",
+    "small": "∙ Unified Scoping Guide (https://unified-scoping-guide.com)",
+    "medium": "∙ Unified Scoping Guide (https://unified-scoping-guide.com)",
+    "large": "∙ Unified Scoping Guide (https://unified-scoping-guide.com)",
+    "enterprise": "∙ Unified Scoping Guide (https://unified-scoping-guide.com)"
+  },
+  "risks": [
+    "R-AM-3",
+    "R-EX-5",
+    "R-GV-1",
+    "R-SA-1"
+  ],
+  "threats": [
+    "MT-8",
+    "MT-9",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Asset Management",
+  "crosswalks": {
+    "general-nist-800-171-r3": [
+      "03.01.03"
+    ],
+    "general-pci-dss-4-0-1": [
+      "6.3.2",
+      "12.5.1",
+      "12.5.2.1",
+      "A3.2.5"
+    ],
+    "general-pci-dss-4-0-1-saq-a-ep": [
+      "6.3.2"
+    ],
+    "general-pci-dss-4-0-1-saq-d-merchant": [
+      "6.3.2",
+      "12.5.1"
+    ],
+    "general-pci-dss-4-0-1-saq-d-service-provider": [
+      "6.3.2",
+      "12.5.1",
+      "12.5.2.1"
+    ],
+    "emea-eu-nis2-annex-2024": [
+      "12.4.2(a)",
+      "12.4.2(b)"
+    ],
+    "americas-can-itsp-10-171-2025": [
+      "03.01.03"
+    ]
+  }
+}

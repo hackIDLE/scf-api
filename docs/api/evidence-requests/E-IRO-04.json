@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-IRO-04",
+  "area": "Incident Response",
+  "artifact_name": "IRP Testing",
+  "artifact_description": "Documented evidence of an Incident Response Plan (IRP)-related testing activity.",
+  "scf_controls": [
+    "IRO-06"
+  ],
+  "cmmc_mapping": ""
+}

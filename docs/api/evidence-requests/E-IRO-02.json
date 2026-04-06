@@ -1,0 +1,15 @@
+{
+  "erl_id": "E-IRO-02",
+  "area": "Incident Response",
+  "artifact_name": "Indicators of Compromise (IOC)",
+  "artifact_description": "Documented evidence of defined Indicators of Compromise (IOC).",
+  "scf_controls": [
+    "MON-11.3",
+    "MON-16",
+    "MON-16.1",
+    "MON-16.2",
+    "MON-16.3",
+    "IRO-03"
+  ],
+  "cmmc_mapping": ""
+}

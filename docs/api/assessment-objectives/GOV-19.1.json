@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "GOV-19.1",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "GOV-19.1",
+      "ao_id": "GOV-19.1_A01",
+      "objective": "Assurance Levels (AL) for assessment activities are defined standardize assurance attributes.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-19.1",
+      "ao_id": "GOV-19.1_A02",
+      "objective": "Assurance Levels (AL) define depth criteria to addresses the rigor and level of detail of an assessment.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-19.1",
+      "ao_id": "GOV-19.1_A03",
+      "objective": "Assurance Levels (AL) define coverage criteria to address the scope and breadth of an assessment.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

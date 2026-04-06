@@ -1,0 +1,316 @@
+{
+  "scf_control_id": "RSK-09",
+  "total": 31,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "RSK-09",
+      "ao_id": "RSK-09_A01",
+      "objective": "an organization-wide strategy for managing supply chain risks is developed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-30a.[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-09",
+      "ao_id": "RSK-09_A02",
+      "objective": "supply chain risks associated with organizational systems and system components are identified.",
+      "pptdf": "Process",
+      "origin": "172A_3.11.7e[a]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-09",
+      "ao_id": "RSK-09_A03",
+      "objective": "the supply chain risk management strategy is implemented consistently across the organization.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-30b.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-09",
+      "ao_id": "RSK-09_A04",
+      "objective": "a plan for managing supply chain risks is developed.",
+      "pptdf": "Process",
+      "origin": "172A_3.11.7e[c]\n171A_R3_A.03.17.01.a[01]\n53A_R5_SR-02a.[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-09",
+      "ao_id": "RSK-09_A05",
+      "objective": "security requirements to protect against supply chain risks to the system, system components, or system services and to limit the harm or consequences from supply chain-related events are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-02_ODP[01]\n172A_3.11.7e[b]\n171A_R3_A.03.17.03.ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-09",
+      "ao_id": "RSK-09_A06",
+      "objective": "the supply chain risk management strategy is reviewed / updated per an organization-defined frequency or as required to address organizational changes.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-30c.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least every 12 months, or when there are significant\nincidents or significant changes to risks",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-09",
+      "ao_id": "RSK-09_A07",
+      "objective": "the frequency at which to review and update the supply chain risk management plan is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-30_ODP\n53A_R5_SR-02_ODP[02]\n172A_3.11.7e_ODP[1]\n171A_R3_A.03.17.01.ODP[01]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "at least every 12 months, or when there are significant\nincidents or significant changes to risks",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-09",
+      "ao_id": "RSK-09_A08",
+      "objective": "the plan for managing supply chain risks is updated frequently.",
+      "pptdf": "Process",
+      "origin": "172A_3.11.7e[d]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-09",
+      "ao_id": "RSK-09_A09",
+      "objective": "the SCRM plan addresses risks associated with the research and development of the system, system components, or system services.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-02a.[02]\n53A_R5_PM-30a.[02]\n53A_R5_PM-30a.[03]\n53A_R5_PM-30a.[04]\n171A_R3_A.03.17.01.a[02]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-09",
+      "ao_id": "RSK-09_A10",
+      "objective": "the SCRM plan addresses risks associated with the design of the system, system components, or system services.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-02a.[03]\n171A_R3_A.03.17.01.a[03]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-09",
+      "ao_id": "RSK-09_A11",
+      "objective": "the SCRM plan addresses risks associated with the manufacturing of the system, system components, or system services.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-02a.[04]\n171A_R3_A.03.17.01.a[04]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-09",
+      "ao_id": "RSK-09_A12",
+      "objective": "the SCRM plan addresses risks associated with the acquisition of the system, system components, or system services.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-30a.[05]\n53A_R5_PM-30a.[06]\n53A_R5_PM-30a.[07]\n53A_R5_SR-02a.[05]\n171A_R3_A.03.17.01.a[05]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-09",
+      "ao_id": "RSK-09_A13",
+      "objective": "the SCRM plan addresses risks associated with the delivery of the system, system components, or system services.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-02a.[06]\n171A_R3_A.03.17.01.a[06]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-09",
+      "ao_id": "RSK-09_A14",
+      "objective": "the SCRM plan addresses risks associated with the integration of the system, system components, or system services.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-02a.[07]\n171A_R3_A.03.17.01.a[07]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-09",
+      "ao_id": "RSK-09_A15",
+      "objective": "the SCRM plan addresses risks associated with the operation of the system, system components, or system services.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-30a.[08]\n53A_R5_PM-30a.[09]\n53A_R5_PM-30a.[10]\n53A_R5_SR-02a.[08]\n171A_R3_A.03.17.01.a[08]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-09",
+      "ao_id": "RSK-09_A16",
+      "objective": "the SCRM plan addresses risks associated with the maintenance of the system, system components, or system services.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-30a.[08]\n53A_R5_PM-30a.[09]\n53A_R5_PM-30a.[10]\n53A_R5_SR-02a.[08]\n171A_R3_A.03.17.01.a[09]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-09",
+      "ao_id": "RSK-09_A17",
+      "objective": "the SCRM plan addresses risks associated with the disposal of the system, system components, or system services.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-30a.[11]\n53A_R5_PM-30a.[12]\n53A_R5_PM-30a.[13]\n53A_R5_SR-02a.[09]\n171A_R3_A.03.17.01.a[10]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-09",
+      "ao_id": "RSK-09_A18",
+      "objective": "the SCRM plan is reviewed per an organization-defined frequency.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-02b.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-09",
+      "ao_id": "RSK-09_A19",
+      "objective": "the SCRM plan is updated per an organization-defined frequency.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-02b.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-09",
+      "ao_id": "RSK-09_A20",
+      "objective": "the SCRM plan is protected from unauthorized disclosure.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SR-02c.[01]\n171A_R3_A.03.17.01.c",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-09",
+      "ao_id": "RSK-09_A21",
+      "objective": "the supply chain risk management plan is protected from unauthorized modification.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SR-02c.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-09",
+      "ao_id": "RSK-09_A22",
+      "objective": "Operations Security (OPSEC) controls to protect supply chain-related information for the system, system component or system service are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-07_ODP",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-09",
+      "ao_id": "RSK-09_A23",
+      "objective": "OPSEC controls are employed to protect supply chain-related information for the system, system component or system service.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SR-07",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-09",
+      "ao_id": "RSK-09_A24",
+      "objective": "the risk (including supply chain risk) of unauthorized disclosure resulting from the processing, storage, or transmission of sensitive / regulated data is assessed.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-09",
+      "ao_id": "RSK-09_A25",
+      "objective": "a process for identifying weaknesses or deficiencies in the supply chain elements and processes is established.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.17.03.a[01]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-09",
+      "ao_id": "RSK-09_A26",
+      "objective": "organization-defined security requirements are enforced to protect against supply chain risks to the system, system components, or system services and to limit the harm or consequences of supply chain-related events.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-09",
+      "ao_id": "RSK-09_A27",
+      "objective": "a process for addressing weaknesses or deficiencies in the supply chain elements and processes is established.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.17.03.a[02]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-09",
+      "ao_id": "RSK-09_A28",
+      "objective": "the risk (including supply chain risk) of unauthorized disclosure resulting from the processing, storage, or transmission of CUI is assessed.",
+      "pptdf": "Data",
+      "origin": "171A_R3_A.03.11.01.a",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-09",
+      "ao_id": "RSK-09_A29",
+      "objective": "the SCRM plan is reviewed <A.03.17.01.ODP[01]: frequency>.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.17.01.b[01]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "at least every 12 months, or when there are significant incidents or significant changes to risks",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-09",
+      "ao_id": "RSK-09_A30",
+      "objective": "the SCRM plan is updated <A.03.17.01.ODP[01]: frequency>.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.17.01.b[02]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "at least every 12 months, or when there are significant incidents or significant changes to risks",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-09",
+      "ao_id": "RSK-09_A31",
+      "objective": "the following security requirements are enforced to protect against supply chain risks to the system, system components, or system services and to limit the harm or consequences of supply chain-related events: <A.03.17.03.ODP[01]: security requirements>.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.17.03.b",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "at a minimum, integrate Supply Chain Risk Management (SCRM) into  acquisition/procurement policies, provide adequate SCRM resources, define the SCRM control baseline, establish processes to ensure suppliers disclose significant vulnerabilities and significant incidents",
+      "org_defined_parameters": ""
+    }
+  ]
+}

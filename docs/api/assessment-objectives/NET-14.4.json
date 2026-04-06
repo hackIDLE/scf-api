@@ -1,0 +1,76 @@
+{
+  "scf_control_id": "NET-14.4",
+  "total": 7,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-14.4",
+      "ao_id": "NET-14.4_A01",
+      "objective": "privileged commands authorized for remote execution are identified.",
+      "pptdf": "Process",
+      "origin": "171A_3.1.15[a]\n53A_R5_AC-17(04)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-14.4",
+      "ao_id": "NET-14.4_A02",
+      "objective": "security-relevant information authorized to be accessed remotely is identified.",
+      "pptdf": "Process",
+      "origin": "171A_3.1.15[b]\n53A_R5_AC-17(04)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-14.4",
+      "ao_id": "NET-14.4_A03",
+      "objective": "the execution of the identified privileged commands via remote access is authorized.",
+      "pptdf": "Technology",
+      "origin": "171A_3.1.15[c]\n53A_R5_AC-17(04)(a)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-14.4",
+      "ao_id": "NET-14.4_A04",
+      "objective": "access to the identified security-relevant information via remote access is authorized.",
+      "pptdf": "Technology",
+      "origin": "171A_3.1.15[d]\n53A_R5_AC-17(04)(a)[02]\n53A_R5_AC-17(04)(a)[04]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-14.4",
+      "ao_id": "NET-14.4_A05",
+      "objective": "the rationale for remote access is documented in the security plan for the system.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-17(04)(b)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-14.4",
+      "ao_id": "NET-14.4_A06",
+      "objective": "remote execution of privileged commands is authorized.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.01.12.d[1]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-14.4",
+      "ao_id": "NET-14.4_A07",
+      "objective": "remote access to security-relevant information is authorized.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.01.12.d[2]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

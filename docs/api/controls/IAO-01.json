@@ -1,0 +1,460 @@
+{
+  "control_id": "IAO-01",
+  "title": "Information Assurance (IA) Operations",
+  "family": "IAO",
+  "description": "Mechanisms exist to facilitate the implementation of security, compliance and resilience assessment and authorization controls.",
+  "scf_question": "Does the organization facilitate the implementation of security, compliance and resilience assessment and authorization controls?",
+  "relative_weight": 10,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [
+    "E-IAO-01"
+  ],
+  "pptdf": "Process",
+  "nist_csf_function": "Govern",
+  "scrm_focus": {
+    "strategic": true,
+    "operational": true,
+    "tactical": true
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "Information Assurance (IAO) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with IAO domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Pre-production security testing-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ IT and/or cybersecurity personnel implement and maintain an informal process to conduct limited control testing of High Value Assets (HVAs) to meet specific statutory, regulatory and/or contractual requirements for pre-production cybersecurity and data protection control testing.",
+    "2": "Information Assurance (IAO) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IAO domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with IAO domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IAO  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Information Assurance (IA)-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ IA management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Pre-production security testing is decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ IT and/or cybersecurity personnel implement and maintain a limited Information Assurance Program (IAP) capability to conduct limited control testing to meet specific statutory, regulatory and/or contractual requirements for pre-production cybersecurity and data protection control testing.\n▪ IAP operations focus on protecting High Value Assets (HVAs), including environments where sensitive/regulated data is stored, transmitted and processed.\n▪ IT and/or cybersecurity personnel coordinate IAP activities with affected stakeholders before conducting such activities in order to reduce the potential impact on operations.",
+    "3": "Information Assurance (IAO) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with IAO domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with IAO domain capabilities are well-documented and kept current by process owners.\n▪ An information assurance team, or similar function, is appropriately staffed and supported to implement and maintain IAO domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of information assurance operations (e.g., assessment scheduling software, risk assessment software, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with IAO domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to facilitate the implementation of security, compliance and resilience assessment and authorization controls.",
+    "4": "Information Assurance (IAO) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [
+    "SCRMS",
+    "CORE AI Model Deployment",
+    "CORE ESP Level 1 Foundational",
+    "CORE ESP Level 2 Critical Infrastructure",
+    "CORE ESP Level 3 Advanced Threats",
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ Controls Validation Testing (CVT)",
+    "small": "∙ Controls Validation Testing (CVT)",
+    "medium": "∙ Controls Validation Testing (CVT)\n∙ Information Assurance (IA) program\n∙ VisibleOps security management",
+    "large": "∙ Controls Validation Testing (CVT)\n∙ Information Assurance (IA) program\n∙ VisibleOps security management",
+    "enterprise": "∙ Controls Validation Testing (CVT)\n∙ Information Assurance (IA) program\n∙ VisibleOps security management"
+  },
+  "risks": [
+    "R-AC-1",
+    "R-AC-2",
+    "R-AC-3",
+    "R-AC-4",
+    "R-AM-1",
+    "R-AM-2",
+    "R-BC-1",
+    "R-BC-2",
+    "R-BC-3",
+    "R-BC-4",
+    "R-BC-5",
+    "R-EX-1",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-EX-5",
+    "R-EX-6",
+    "R-EX-7",
+    "R-GV-1",
+    "R-GV-2",
+    "R-GV-3",
+    "R-GV-4",
+    "R-GV-5",
+    "R-GV-6",
+    "R-GV-7",
+    "R-GV-8",
+    "R-IR-1",
+    "R-IR-2",
+    "R-IR-3",
+    "R-IR-4",
+    "R-SA-1",
+    "R-SC-1",
+    "R-SC-2",
+    "R-SC-3",
+    "R-SC-4",
+    "R-SC-5",
+    "R-SC-6"
+  ],
+  "threats": [
+    "NT-2",
+    "NT-3",
+    "NT-4",
+    "NT-5",
+    "NT-6",
+    "NT-7",
+    "NT-8",
+    "NT-9",
+    "NT-10",
+    "NT-11",
+    "NT-12",
+    "NT-13",
+    "NT-14",
+    "MT-1",
+    "MT-2",
+    "MT-3",
+    "MT-4",
+    "MT-5",
+    "MT-6",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-16",
+    "MT-17",
+    "MT-18",
+    "MT-19",
+    "MT-20",
+    "MT-21",
+    "MT-22",
+    "MT-23",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "errata": "- wordsmithed",
+  "family_name": "Information Assurance",
+  "crosswalks": {
+    "general-aicpa-tsc-2017": [
+      "CC4.1",
+      "CC4.1-POF8",
+      "CC6.1-POF2",
+      "CC6.1-POF9"
+    ],
+    "general-cobit-2019": [
+      "MEA04.05",
+      "MEA04.06"
+    ],
+    "general-coso-2013": [
+      "16"
+    ],
+    "general-csa-iot-2": [
+      "IOT-01",
+      "SET-01"
+    ],
+    "general-govramp": [
+      "CA-01"
+    ],
+    "general-govramp-low": [
+      "CA-01"
+    ],
+    "general-govramp-low-plus": [
+      "CA-01"
+    ],
+    "general-govramp-mod": [
+      "CA-01"
+    ],
+    "general-govramp-high": [
+      "CA-01"
+    ],
+    "general-iec-62443-2-1-2024": [
+      "ORG 2.4"
+    ],
+    "general-iso-21434-2021": [
+      "PM-06-15",
+      "RQ-06-24",
+      "RQ-06-25",
+      "RQ-06-26",
+      "RQ-06-27",
+      "RQ-06-28",
+      "RQ-06-28(a)",
+      "RQ-06-28(b)",
+      "RQ-06-29"
+    ],
+    "general-iso-27002-2022": [
+      "5.21"
+    ],
+    "general-iso-27018-2025": [
+      "5.21"
+    ],
+    "general-iso-31000-2018": [
+      "5.5",
+      "5.6"
+    ],
+    "general-iso-31010-2009": [
+      "4.3.2"
+    ],
+    "general-iso-42001-2023": [
+      "A.6.2.5"
+    ],
+    "general-nist-100-1-ai-rmf": [
+      "GOVERN 4.3",
+      "MANAGE 1.1"
+    ],
+    "general-nist-800-53-r4": [
+      "CA-1",
+      "PM-10"
+    ],
+    "general-nist-800-53-r5-2": [
+      "CA-01",
+      "PM-10"
+    ],
+    "general-nist-800-53-r5-2-privacy": [
+      "CA-01",
+      "PM-10"
+    ],
+    "general-nist-800-53-r5-2-low": [
+      "CA-01"
+    ],
+    "general-nist-800-82-r3": [
+      "CA-01",
+      "PM-10"
+    ],
+    "general-nist-800-82-r3-low": [
+      "CA-01",
+      "PM-10"
+    ],
+    "general-nist-800-82-r3-mod": [
+      "CA-01",
+      "PM-10"
+    ],
+    "general-nist-800-82-r3-high": [
+      "CA-01",
+      "PM-10"
+    ],
+    "general-nist-800-161-r1": [
+      "CA-1",
+      "PM-10"
+    ],
+    "general-nist-800-161-r1-cscrm": [
+      "CA-1"
+    ],
+    "general-nist-800-161-r1-level-1": [
+      "CA-1",
+      "PM-10"
+    ],
+    "general-nist-800-161-r1-level-2": [
+      "CA-1",
+      "PM-10"
+    ],
+    "general-nist-800-161-r1-level-3": [
+      "CA-1"
+    ],
+    "general-nist-800-171-r2": [
+      "NFO - CA-1"
+    ],
+    "general-nist-800-171-r3": [
+      "03.12.01"
+    ],
+    "general-nist-csf-2-0": [
+      "ID.RA-01"
+    ],
+    "general-scf-dpmp-2025": [
+      "7.11"
+    ],
+    "general-sparta": [
+      "CM0089"
+    ],
+    "general-un-155-2021": [
+      "7.2.2.5"
+    ],
+    "general-un-ece-wp-29-2020": [
+      "7.2.2.2(e)",
+      "7.2.2.5"
+    ],
+    "usa-federal-dhs-cisa-cpg-2-0": [
+      "1.F",
+      "2.Q"
+    ],
+    "usa-federal-fbi-cjis-6-0": [
+      "CA-1"
+    ],
+    "usa-federal-doe-c2m2-2-1": [
+      "RISK-4c"
+    ],
+    "usa-federal-fda-21-cfr-part-11-2025": [
+      "11.10",
+      "11.10(a)",
+      "11.10(b)",
+      "11.10(c)"
+    ],
+    "usa-federal-gsa-fedramp-5-low": [
+      "CA-01"
+    ],
+    "usa-federal-gsa-fedramp-5-mod": [
+      "CA-01"
+    ],
+    "usa-federal-gsa-fedramp-5-high": [
+      "CA-01"
+    ],
+    "usa-federal-gsa-fedramp-5-li-saas": [
+      "CA-01"
+    ],
+    "usa-federal-irs-1075-2021": [
+      "CA-1",
+      "PM-10"
+    ],
+    "usa-federal-cms-marse-2-0": [
+      "CA-1",
+      "PM-10-1",
+      "PM-10-1a",
+      "PM-10-1b",
+      "PM-10-1c",
+      "PM-10-2",
+      "PM-10-2a",
+      "PM-10-2b",
+      "PM-10-2c",
+      "PM-10-2d"
+    ],
+    "usa-federal-dow-safeguarding-nnpi-2010": [
+      "11-3.a(4)(a)"
+    ],
+    "usa-federal-tsa-security-directive-1580-82-2022-01": [
+      "III.F",
+      "III.F.1",
+      "III.F.2.b"
+    ],
+    "usa-state-ca-ccpa-cpra-2026": [
+      "7123(c)(4)(C)"
+    ],
+    "usa-state-tx-dir-security-control-standards-catalog-2-2": [
+      "CA-01",
+      "PM-10"
+    ],
+    "usa-state-tx-txramp-2-0-level-1": [
+      "CA-01"
+    ],
+    "usa-state-tx-txramp-2-0-level-2": [
+      "CA-01"
+    ],
+    "emea-eu-ai-act-2024": [
+      "Article 9.8"
+    ],
+    "emea-eu-eba-ict-srm-2025": [
+      "3.4.6(41)",
+      "3.4.6(42)",
+      "3.4.6(43)",
+      "3.4.6(43)(a)",
+      "3.4.6(43)(b)",
+      "3.4.6(44)",
+      "3.4.6(45)",
+      "3.4.6(46)",
+      "3.4.6(47)",
+      "3.4.6(48)",
+      "3.6.2(70)"
+    ],
+    "emea-eu-nis2-annex-2024": [
+      "6.5.1",
+      "6.5.2(a)",
+      "6.5.3"
+    ],
+    "emea-aut-fappd-2000": [
+      "Sec 14",
+      "Sec 15"
+    ],
+    "emea-bel-act-8-1992": [
+      "16"
+    ],
+    "emea-deu-bsrit-2017": [
+      "7.11"
+    ],
+    "emea-isr-cmo-1-0": [
+      "10.6",
+      "16.5",
+      "17.1",
+      "17.16",
+      "17.18"
+    ],
+    "emea-qat-pdppl-2020": [
+      "11.1",
+      "11.2",
+      "11.3",
+      "11.4",
+      "11.5",
+      "11.6",
+      "11.7",
+      "11.8"
+    ],
+    "emea-sau-cgiot-2024": [
+      "1-5-2",
+      "2-15-2",
+      "4-1-5",
+      "4-2-3"
+    ],
+    "emea-sau-otcc-1-2022": [
+      "1-4-1-2"
+    ],
+    "emea-sau-sacs-002-2022": [
+      "TPC-51"
+    ],
+    "emea-zaf-popia-2013": [
+      "19",
+      "60"
+    ],
+    "emea-gbr-def-stan-05-138-2024": [
+      "1205"
+    ],
+    "emea-gbr-def-stan-05-138-l2-2024": [
+      "1205"
+    ],
+    "emea-gbr-def-stan-05-138-l3-2024": [
+      "1205"
+    ],
+    "apac-aus-ism-2024-june": [
+      "ISM-0027",
+      "ISM-0280",
+      "ISM-1525"
+    ],
+    "apac-ind-sebi-2024": [
+      "ID.AM.S4",
+      "PR.AA.S16"
+    ],
+    "apac-nzl-hisf-mlhsp-2023": [
+      "HHSP68",
+      "HML67"
+    ],
+    "apac-nzl-hisf-suppliers-2023": [
+      "HSUP59"
+    ],
+    "apac-nzl-ism-3-9": [
+      "2.2.5.C.01",
+      "4.4.4.C.01",
+      "4.4.5.C.01",
+      "4.4.5.C.02",
+      "4.4.5.C.03",
+      "4.4.5.C.04",
+      "4.4.6.C.01",
+      "4.4.7.C.01",
+      "4.4.7.C.02",
+      "4.4.8.C.01",
+      "4.4.8.C.02",
+      "4.4.8.C.03",
+      "4.4.8.C.04",
+      "4.4.9.C.01",
+      "4.4.10.C.01",
+      "4.4.11.C.01",
+      "4.4.12.C.01",
+      "4.4.12.C.02",
+      "4.4.12.C.03",
+      "4.4.12.C.04",
+      "4.4.12.C.05"
+    ],
+    "apac-sgp-mas-trm-2021": [
+      "5.1.2",
+      "5.4.1",
+      "5.4.2",
+      "5.4.3",
+      "5.4.4",
+      "5.6.1",
+      "5.6.2",
+      "5.6.3",
+      "5.7.1",
+      "5.7.2"
+    ],
+    "americas-bmu-mba-coc-2020": [
+      "5.14"
+    ],
+    "americas-can-osfi-b13-2022": [
+      "2.4.4"
+    ],
+    "americas-can-itsp-10-171-2025": [
+      "03.12.01"
+    ]
+  }
+}

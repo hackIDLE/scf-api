@@ -1,0 +1,13 @@
+{
+  "erl_id": "E-THR-05",
+  "area": "Threat Management",
+  "artifact_name": "Threat Mitigation",
+  "artifact_description": "Documented evidence of steps taken to mitigate identified threats.",
+  "scf_controls": [
+    "TDA-06.2",
+    "THR-07",
+    "VPM-01",
+    "VPM-04"
+  ],
+  "cmmc_mapping": ""
+}

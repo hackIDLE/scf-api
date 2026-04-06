@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "NET-10.2",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-10.2",
+      "ao_id": "NET-10.2_A01",
+      "objective": "data origin authentication is requested for the name/address resolution responses that the system receives from authoritative sources.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-21[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-10.2",
+      "ao_id": "NET-10.2_A02",
+      "objective": "data origin authentication is performed on the name/address resolution responses that the system receives from authoritative sources.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-21[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-10.2",
+      "ao_id": "NET-10.2_A03",
+      "objective": "data integrity verification is requested for the name/address resolution responses that the system receives from authoritative sources.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-21[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-10.2",
+      "ao_id": "NET-10.2_A04",
+      "objective": "data integrity verification is performed on the name/address resolution responses that the system receives from authoritative sources.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-21[04]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

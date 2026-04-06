@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "IAC-01.1",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-01.1",
+      "ao_id": "IAC-01.1_A01",
+      "objective": "a record of personnel accountability is retained to ensure there is a record of all access granted to an individual (system and application-wise).",
+      "pptdf": "Data",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-01.1",
+      "ao_id": "IAC-01.1_A02",
+      "objective": "a record of personnel accountability is retained to ensure there is a record of who provided the authorization.",
+      "pptdf": "Data",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-01.1",
+      "ao_id": "IAC-01.1_A03",
+      "objective": "a record of personnel accountability is retained to ensure there is a record of when the authorization was granted and when the access was last reviewed.",
+      "pptdf": "Data",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-01.1",
+      "ao_id": "IAC-01.1_A04",
+      "objective": "a record of personnel accountability is retained to ensure there is a record of when the access was last reviewed.",
+      "pptdf": "Data",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

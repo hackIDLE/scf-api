@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-CPL-09",
+  "area": "Compliance",
+  "artifact_name": "Non-Compliance Oversight Reporting",
+  "artifact_description": "Documented evidence of governance oversight reporting of non-compliance to the organization's executive leadership.",
+  "scf_controls": [
+    "CPL-02",
+    "GOV-01.2"
+  ],
+  "cmmc_mapping": ""
+}

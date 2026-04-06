@@ -1,0 +1,171 @@
+{
+  "control_id": "MON-01.15",
+  "title": "Privileged User Oversight",
+  "family": "MON",
+  "description": "Mechanisms exist to implement enhanced activity monitoring for privileged users.",
+  "scf_question": "Does the organization implement enhanced activity monitoring for privileged users?",
+  "relative_weight": 5,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [
+    "E-MON-03"
+  ],
+  "pptdf": "Technology",
+  "nist_csf_function": "Detect",
+  "scrm_focus": {
+    "strategic": false,
+    "operational": true,
+    "tactical": false
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "SCR-CMM Level 1 criteria definitions are not available for this control:\n▪ A reasonable person would conclude this control requires a structured process.\n▪ At this level of maturity, the \"ad hoc\" nature of performing a capability informally would indicate the intent of the control is not met due to a lack of consistency and formality.",
+    "2": "SCR-CMM Level 2 criteria definitions are not available for this control:\n▪ A reasonable person would conclude a well-defined and standardized process is required.\n▪ At this level of maturity, the “requirements-driven” nature of performing the control is focused on a localized and/or regionalized implementation, not uniform and consistent across the organization.\n▪ Requirements are narrowly scoped for applicability and are primarily derived from compliance obligations (e.g., laws, regulations and contracts).",
+    "3": "Continuous Monitoring (MON) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with MON domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Cybersecurity personnel use a structured process via Standardized Operating Procedures (SOP) to review and analyze logs.\n▪ A Security Operations Center (SOC) team, or similar function, is appropriately staffed and supported to implement and maintain MON domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of continuous monitoring operations (e.g., Security Incident Event Manager (SIEM), etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with MON domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ Secure Baseline Configurations (SBC) enforce security event logging to contain sufficient information to establish necessary details of activity and allow for forensics analysis.\n▪ An implemented and operational capability exists to implement enhanced activity monitoring for privileged users.",
+    "4": "Continuous Monitoring (MON) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+    "5": "Continuous Monitoring (MON) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions."
+  },
+  "profiles": [
+    "CORE ESP Level 2 Critical Infrastructure",
+    "CORE ESP Level 3 Advanced Threats",
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ Managed Security Services Provider (MSSP)",
+    "small": "∙ Security Incident Event Manager (SIEM)\n∙ Managed Security Services Provider (MSSP)",
+    "medium": "∙ Security Incident Event Manager (SIEM)\n∙ Managed Security Services Provider (MSSP)",
+    "large": "∙ Security Incident Event Manager (SIEM)\n∙ Managed Security Services Provider (MSSP)",
+    "enterprise": "∙ Security Incident Event Manager (SIEM)\n∙ Managed Security Services Provider (MSSP)"
+  },
+  "risks": [
+    "R-AC-1",
+    "R-AC-2",
+    "R-AC-3",
+    "R-AC-4",
+    "R-AM-1",
+    "R-AM-2",
+    "R-AM-3",
+    "R-BC-1",
+    "R-BC-2",
+    "R-BC-3",
+    "R-BC-4",
+    "R-BC-5",
+    "R-EX-1",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-EX-5",
+    "R-EX-6",
+    "R-EX-7",
+    "R-GV-1",
+    "R-GV-2",
+    "R-GV-3",
+    "R-GV-4",
+    "R-GV-5",
+    "R-GV-6",
+    "R-GV-7",
+    "R-GV-8",
+    "R-IR-1",
+    "R-IR-2",
+    "R-IR-3",
+    "R-IR-4",
+    "R-SA-1",
+    "R-SA-2",
+    "R-SC-1",
+    "R-SC-2",
+    "R-SC-3",
+    "R-SC-4",
+    "R-SC-5",
+    "R-SC-6"
+  ],
+  "threats": [
+    "NT-7",
+    "MT-1",
+    "MT-2",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-10",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Continuous Monitoring",
+  "crosswalks": {
+    "general-cis-csc-8-1": [
+      "3.14"
+    ],
+    "general-cis-csc-8-1-ig3": [
+      "3.14"
+    ],
+    "general-csa-cmm-4-1-0": [
+      "IAM-09",
+      "IAM-10",
+      "IAM-11"
+    ],
+    "general-govramp": [
+      "SI-04(20)"
+    ],
+    "general-govramp-high": [
+      "SI-04(20)"
+    ],
+    "general-nist-800-53-r4": [
+      "SI-4(20)"
+    ],
+    "general-nist-800-53-r5-2": [
+      "SI-04(20)"
+    ],
+    "general-nist-800-53-r5-2-high": [
+      "SI-04(20)"
+    ],
+    "general-nist-800-66-r2": [
+      "164.312(c)"
+    ],
+    "general-nist-800-82-r3": [
+      "SI-04(20)"
+    ],
+    "general-nist-800-82-r3-high": [
+      "SI-04(20)"
+    ],
+    "general-nist-800-171-r3": [
+      "03.01.07.b"
+    ],
+    "usa-federal-gsa-fedramp-5-high": [
+      "SI-04(20)"
+    ],
+    "usa-federal-law-hipaa-simplification-2013": [
+      "164.312(c)(2)"
+    ],
+    "usa-federal-law-hipaa-security-rule-2013": [
+      "164.312(c)(2)"
+    ],
+    "usa-state-ny-dfs-23-nycrr500-2023-amd2": [
+      "500.7(c)"
+    ],
+    "emea-deu-bsrit-2017": [
+      "6.7"
+    ],
+    "emea-sau-ecc-1-2018": [
+      "2-12-3-2"
+    ],
+    "emea-sau-sacs-002-2022": [
+      "TPC-83"
+    ],
+    "emea-gbr-def-stan-05-138-2024": [
+      "2203"
+    ],
+    "emea-gbr-def-stan-05-138-l2-2024": [
+      "2203"
+    ],
+    "emea-gbr-def-stan-05-138-l3-2024": [
+      "2203"
+    ],
+    "americas-can-itsp-10-171-2025": [
+      "03.01.07.B"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "SEA-13.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "SEA-13.1",
+      "ao_id": "SEA-13.1_A01",
+      "objective": "the frequency at which to change the diversity of operating systems and applications deployed using virtualization techniques is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-29(01)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-13.1",
+      "ao_id": "SEA-13.1_A02",
+      "objective": "virtualization techniques are employed to support the deployment of a diverse range of operating systems and applications that are changed per an organization-defined frequency.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-29(01)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

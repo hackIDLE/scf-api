@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "HRS-02",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "HRS-02",
+      "ao_id": "HRS-02_A01",
+      "objective": "the frequency at which to review / update position risk designations is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PS-02_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least every three years",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-02",
+      "ao_id": "HRS-02_A02",
+      "objective": "a risk designation is assigned to all organizational positions.",
+      "pptdf": "People",
+      "origin": "53A_R5_PS-02a.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-02",
+      "ao_id": "HRS-02_A03",
+      "objective": "screening criteria are established for individuals filling organizational positions.",
+      "pptdf": "People",
+      "origin": "53A_R5_PS-02b.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-02",
+      "ao_id": "HRS-02_A04",
+      "objective": "position risk designations are reviewed / updated per an organization-defined frequency.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PS-02c.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least every three years",
+      "org_defined_parameters": ""
+    }
+  ]
+}

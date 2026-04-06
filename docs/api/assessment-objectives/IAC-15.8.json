@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "IAC-15.8",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-15.8",
+      "ao_id": "IAC-15.8_A01",
+      "objective": "circumstances and/or usage conditions to be enforced for system accounts are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-02(11)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-15.8",
+      "ao_id": "IAC-15.8_A02",
+      "objective": "system accounts subject to enforcement of circumstances and/or usage conditions are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-02(11)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-15.8",
+      "ao_id": "IAC-15.8_A03",
+      "objective": "organization-defined system accounts are enforced.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-02(11)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "MON-16.1",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MON-16.1",
+      "ao_id": "MON-16.1_A01",
+      "objective": "a legal opinion regarding insider threat monitoring is obtained.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-16.1",
+      "ao_id": "MON-16.1_A02",
+      "objective": "monitoring activities for insider threats is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MON-16.1",
+      "ao_id": "MON-16.1_A03",
+      "objective": "organization-defined mechanisms are employed to monitor internal personnel activity for potential security incidents.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

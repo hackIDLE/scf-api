@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "AST-04.2",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AST-04.2",
+      "ao_id": "AST-04.2_A01",
+      "objective": "one or more diagrams graphically depict control applicability boundaries for systems, applications, services and third parties to clarify \"in-scope versus out-of-scope\" determinations.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

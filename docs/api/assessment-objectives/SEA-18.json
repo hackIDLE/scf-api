@@ -1,0 +1,146 @@
+{
+  "scf_control_id": "SEA-18",
+  "total": 14,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "SEA-18",
+      "ao_id": "SEA-18_A01",
+      "objective": "system use notification message or banner to be displayed by the system to users before granting access to the system is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-08_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-18",
+      "ao_id": "SEA-18_A02",
+      "objective": "conditions for system use to be displayed by the system before granting further access are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-08_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-18",
+      "ao_id": "SEA-18_A03",
+      "objective": "organization-defined system use notification is displayed to users before granting access to the system that provides privacy and security notices consistent with applicable laws, Executive Orders, directives, regulations, policies, standards and guidelines.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-08a.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-18",
+      "ao_id": "SEA-18_A04",
+      "objective": "the system use notification states that users are accessing a protected system.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-08a.01",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-18",
+      "ao_id": "SEA-18_A05",
+      "objective": "the system use notification states that system usage may be monitored, recorded and subject to audit.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-08a.02",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-18",
+      "ao_id": "SEA-18_A06",
+      "objective": "the system use notification states that unauthorized use of the system is prohibited and subject to criminal and civil penalties.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-08a.03",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-18",
+      "ao_id": "SEA-18_A07",
+      "objective": "the system use notification states that use of the system indicates consent to monitoring and recording.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-08a.04",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-18",
+      "ao_id": "SEA-18_A08",
+      "objective": "the notification message or banner is retained on the screen until users acknowledge the usage conditions and take explicit actions to log on to or further access the system.",
+      "pptdf": "Data",
+      "origin": "53A_R5_AC-08b.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-18",
+      "ao_id": "SEA-18_A09",
+      "objective": "for publicly accessible systems, system use information organization-defined conditions is displayed before granting further access to the publicly accessible system.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-08c.01",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-18",
+      "ao_id": "SEA-18_A10",
+      "objective": "for publicly accessible systems, any references to monitoring, recording or auditing that are consistent with privacy accommodations for such systems that generally prohibit those activities are displayed.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-08c.02",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-18",
+      "ao_id": "SEA-18_A11",
+      "objective": "for publicly accessible systems, a description of the authorized uses of the system is included.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-08c.03",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-18",
+      "ao_id": "SEA-18_A12",
+      "objective": "a system use notification message with privacy and security notices consistent with applicable CUI rules is displayed before granting access to the system.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.01.09",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-18",
+      "ao_id": "SEA-18_A13",
+      "objective": "privacy and security notices required by statutory/regulatory-specified rules are identified, consistent, and associated with the specific sensitive/regulated data category.",
+      "pptdf": "Technology",
+      "origin": "171A_3.1.9[a]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-18",
+      "ao_id": "SEA-18_A14",
+      "objective": "privacy and security notices are displayed.",
+      "pptdf": "Technology",
+      "origin": "171A_3.1.9[b]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

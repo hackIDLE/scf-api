@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PRI-10.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-10.2",
+      "ao_id": "PRI-10.2_A01",
+      "objective": "potential data analytics biases are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-10.2",
+      "ao_id": "PRI-10.2_A02",
+      "objective": "the organization evaluates its analytical processes for potential data analytics bias.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "PRI-09",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-09",
+      "ao_id": "PRI-09_A01",
+      "objective": "records of data disclosures and sharing are maintained.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-09",
+      "ao_id": "PRI-09_A02",
+      "objective": "records of data disclosures and sharing can be accessed for review or transmission/disclosure.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-09",
+      "ao_id": "PRI-09_A03",
+      "objective": "records of data provenance and lineage are maintained",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-09",
+      "ao_id": "PRI-09_A04",
+      "objective": "records of data provenance and lineage can be accessed for review or transmission/disclosure.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

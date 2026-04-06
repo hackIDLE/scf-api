@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "TDA-02.9",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-02.9",
+      "ao_id": "TDA-02.9_A01",
+      "objective": "security updates are delivered to products and/or services, where applicable, through automatic updates.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-02.9",
+      "ao_id": "TDA-02.9_A02",
+      "objective": "security updates are delivered to products and/or services, where applicable, through notification of available updates to affected users.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

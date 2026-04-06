@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "NET-02",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-02",
+      "ao_id": "NET-02_A01",
+      "objective": "security functions are implemented as a layered structure that minimizes interactions between layers of the design and avoiding any dependence by lower layers on the functionality or correctness of higher layers.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

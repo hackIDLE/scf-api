@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "GOV-06",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "GOV-06",
+      "ao_id": "GOV-06_A01",
+      "objective": "relevant law enforcement and/or regulatory bodies are identified that necessitate communications.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "GOV-06",
+      "ao_id": "GOV-06_A02",
+      "objective": "contacts with relevant law enforcement and/or regulatory bodies are established and documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

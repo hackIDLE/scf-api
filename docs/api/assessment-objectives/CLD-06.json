@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "CLD-06",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CLD-06",
+      "ao_id": "CLD-06_A01",
+      "objective": "multi-tenant owned / managed assets (physical and virtual) are designed and governed such that provider and customer (tenant) user access is appropriately segmented from other tenant users.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

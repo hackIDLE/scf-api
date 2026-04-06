@@ -1,0 +1,76 @@
+{
+  "scf_control_id": "SAT-02.2",
+  "total": 7,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "SAT-02.2",
+      "ao_id": "SAT-02.2_A01",
+      "objective": "threats from social engineering, advanced persistent threat actors, breaches and suspicious behaviors are identified.",
+      "pptdf": "Process",
+      "origin": "172A_3.2.1e[a]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-02.2",
+      "ao_id": "SAT-02.2_A02",
+      "objective": "security literacy training is provided to system users on recognizing indicators of social engineering.",
+      "pptdf": "People",
+      "origin": "53A_R5_AT-02(03)[01]\n172A_3.2.1e[b]\n171A_R3_A.03.02.01.a.03[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-02.2",
+      "ao_id": "SAT-02.2_A03",
+      "objective": "security literacy training is provided to system users on reporting indicators of social engineering.",
+      "pptdf": "People",
+      "origin": "53A_R5_AT-02(03)[02]\n172A_3.2.1e[b]\n171A_R3_A.03.02.01.a.03[04]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-02.2",
+      "ao_id": "SAT-02.2_A04",
+      "objective": "security literacy training is provided to system users on recognizing indicators of social mining.",
+      "pptdf": "People",
+      "origin": "53A_R5_AT-02(03)[03]\n172A_3.2.1e[b]\n171A_R3_A.03.02.01.a.03[05]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-02.2",
+      "ao_id": "SAT-02.2_A05",
+      "objective": "security literacy training is provided to system users on reporting indicators of social mining.",
+      "pptdf": "People",
+      "origin": "53A_R5_AT-02(03)[04]\n172A_3.2.1e[b]\n171A_R3_A.03.02.01.a.03[06]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-02.2",
+      "ao_id": "SAT-02.2_A06",
+      "objective": "significant changes to the threats from social engineering, advanced persistent threat actors, breaches and suspicious behaviors are identified.",
+      "pptdf": "Process",
+      "origin": "172A_3.2.1e[c]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SAT-02.2",
+      "ao_id": "SAT-02.2_A07",
+      "objective": "awareness training is updated per an organization-defined frequency or when there are significant changes to the threat.",
+      "pptdf": "Process",
+      "origin": "172A_3.2.1e[d]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least every 12 months, or when there are significant\nincidents or significant changes to risks",
+      "org_defined_parameters": ""
+    }
+  ]
+}

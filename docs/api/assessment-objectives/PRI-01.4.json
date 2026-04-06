@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PRI-01.4",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-01.4",
+      "ao_id": "PRI-01.4_A01",
+      "objective": "a Data Protection Officer (DPO) is appointed based on the basis of professional qualities.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-01.4",
+      "ao_id": "PRI-01.4_A02",
+      "objective": "the role of the Data Protection Officer (DPO) is involved in all issues related to the protection of Personal Data (PD).",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

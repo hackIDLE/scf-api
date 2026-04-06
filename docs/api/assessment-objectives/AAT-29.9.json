@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "AAT-29.9",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-29.9",
+      "ao_id": "AAT-29.9_A01",
+      "objective": "user identification and authentication methods are capable of preventing AI agents from spoofing.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-29.9",
+      "ao_id": "AAT-29.9_A02",
+      "objective": "user identification and authentication methods are capable of preventing AI agents from mimicry.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-29.9",
+      "ao_id": "AAT-29.9_A03",
+      "objective": "user identification and authentication methods are capable of preventing AI agents from impersonation attacks.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

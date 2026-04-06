@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-IAM-07",
+  "area": "Identity & Access Management",
+  "artifact_name": "Account Management Compliance Reviews",
+  "artifact_description": "Documented evidence of account management compliance reviews.",
+  "scf_controls": [
+    "IAC-15",
+    "IAC-15.7"
+  ],
+  "cmmc_mapping": ""
+}

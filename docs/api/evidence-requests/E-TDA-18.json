@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-TDA-18",
+  "area": "Technology Design & Acquisition",
+  "artifact_name": "System Security Plan (SSP) Reviews",
+  "artifact_description": "Documented evidence of reviews and/or updates to System Security Plan (SSP) documentation.",
+  "scf_controls": [
+    "IAO-03"
+  ],
+  "cmmc_mapping": "CA.L2-3.12.3\nCA.L2-3.12.4\nSC.L2-3.13.2"
+}

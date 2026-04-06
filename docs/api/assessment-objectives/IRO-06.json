@@ -1,0 +1,76 @@
+{
+  "scf_control_id": "IRO-06",
+  "total": 7,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IRO-06",
+      "ao_id": "IRO-06_A01",
+      "objective": "the frequency at which to test the effectiveness of the incident response capability for the system is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-03_ODP[01]\n171A_R3_A.03.06.03.ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-06",
+      "ao_id": "IRO-06_A02",
+      "objective": "tests used to test the effectiveness of the incident response capability for the system are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-03_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "functional",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-06",
+      "ao_id": "IRO-06_A03",
+      "objective": "the incident response capability is tested.",
+      "pptdf": "Process",
+      "origin": "171A_3.6.3",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-06",
+      "ao_id": "IRO-06_A04",
+      "objective": "the effectiveness of the incident response capability is tested per an organization-defined frequency.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-03",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-06",
+      "ao_id": "IRO-06_A05",
+      "objective": "a frequency at which to test intrusion-monitoring tools and mechanisms is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-04(09)_ODP",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-06",
+      "ao_id": "IRO-06_A06",
+      "objective": "intrusion-monitoring tools and mechanisms are tested frequently.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-04(09)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-06",
+      "ao_id": "IRO-06_A07",
+      "objective": "the effectiveness of the incident response capability is tested <A.03.06.03.ODP[01]: frequency>.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.06.03",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "at least every 12 months",
+      "org_defined_parameters": ""
+    }
+  ]
+}

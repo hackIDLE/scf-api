@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-12.4",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-12.4",
+      "ao_id": "AAT-12.4_A01",
+      "objective": "Artificial Intelligence and Autonomous Technologies (AAT) are configured to enable auditing of content modifications.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-12.4",
+      "ao_id": "AAT-12.4_A02",
+      "objective": "Artificial Intelligence and Autonomous Technologies (AAT) are configured to generate event logs for content-related changes.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

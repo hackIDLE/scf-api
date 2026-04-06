@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "AAT-16.8",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-16.8",
+      "ao_id": "AAT-16.8_A01",
+      "objective": "Artificial Intelligence (AI) and Autonomous Technologies (AAT) system event logging capabilities are configured to provide start date, start time, end date and end time for each use.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-16.8",
+      "ao_id": "AAT-16.8_A02",
+      "objective": "Artificial Intelligence (AI) and Autonomous Technologies (AAT) system event logging capabilities are configured to provide database(s) against which input data has been checked by the system.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-16.8",
+      "ao_id": "AAT-16.8_A03",
+      "objective": "Artificial Intelligence (AI) and Autonomous Technologies (AAT) system event logging capabilities are configured to provide input data for which the search has led to a match.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-16.8",
+      "ao_id": "AAT-16.8_A04",
+      "objective": "Artificial Intelligence (AI) and Autonomous Technologies (AAT) system event logging capabilities are configured to provide identification of individual(s) involved in the verification of the results.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

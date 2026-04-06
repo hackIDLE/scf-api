@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "BCD-01.7",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "BCD-01.7",
+      "ao_id": "BCD-01.7_A01",
+      "objective": "Documented roles and responsibilities exist that direct process owners to establish and maintain formal Business Continuity & Disaster Recovery (BC/DR) plans.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-01.7",
+      "ao_id": "BCD-01.7_A02",
+      "objective": "Process owners to establish and maintain formal BC/DR plans to ensure information is detailed enough, accurate and representative of current operations in order to sustain and/or restore operations under adverse conditions.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

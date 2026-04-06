@@ -1,0 +1,385 @@
+{
+  "control_id": "PRM-01",
+  "title": "Security, Compliance & Resilience Protection Portfolio Management",
+  "family": "PRM",
+  "description": "Mechanisms exist to facilitate the implementation of resource planning controls that provide a portfolio management approach to achieve security, compliance and resilience objectives.",
+  "scf_question": "Does the organization facilitate the implementation of resource planning controls that provide a portfolio management approach to achieve security, compliance and resilience objectives?",
+  "relative_weight": 8,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [
+    "E-PRM-02"
+  ],
+  "pptdf": "Process",
+  "nist_csf_function": "Govern",
+  "scrm_focus": {
+    "strategic": true,
+    "operational": true,
+    "tactical": false
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "Project & Resource Management (PRM) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with PRM domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Project management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ IT and/or cybersecurity personnel work with data/process owners to help ensure secure practices are implemented throughout the System Development Lifecycle (SDLC) for all high-value projects.",
+    "2": "Project & Resource Management (PRM) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with PRM domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with PRM domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with PRM  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Project & Resource Management -related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Project & Resource Management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ The Chief Information Officer (CIO), or similar function, analyzes the organization's business strategy and prioritizes the objectives and resourcing of the security function, based on broader business requirements.\n▪ A Project Management Office (PMO), or project management function, enables the implementation of cybersecurity and data protection-related resource planning controls across the System Development Lifecycle (SDLC) for all high-value projects.\n▪ Quarterly Business Review (QBR), or similar status reporting, exists to provide recurring reports on the state of the cybersecurity and data protection program.",
+    "3": "Project & Resource Management (PRM) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with PRM domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with PRM domain capabilities are well-documented and kept current by process owners.\n▪ A Project Management Office (PMO), or similar function, is appropriately staffed and supported to implement and maintain PRM domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of project and resource management operations (e.g., project management solution, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with PRM domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ The Chief Information Officer (CIO), or similar function, analyzes the organization's business strategy and prioritizes the objectives and resourcing of the security function, based on broader business requirements.\n▪ An implemented and operational capability exists to facilitate the implementation of resource planning controls that provide a portfolio management approach to achieve security, compliance and resilience objectives.",
+    "4": "Utilize SCR-CMM Level 3 criteria definitions:\n▪ There are no defined Level 4 criteria, since it is reasonable to assume a quantitatively-controlled process is not necessary to operationalize this control. \n▪ While it may be possible to develop “metrics-driven” capabilities for this control, the criteria would be organization-specific to define.",
+    "5": "Utilize SCR-CMM Level 3 or Level 4 (if available) criteria definitions:\n▪ There are no defined Level 5 criteria, since it is reasonable to assume a continuously-improving process is not necessary to operationalize this control. \n▪ Level 5 capabilities should be considered “world-class” where the control builds on Level 4 capabilities, but are continuously improving through Artificial Intelligence (AI) and/or Machine Learning (ML) technologies.\n▪ While it may be possible to develop responsive capabilities for this control through the use of AI and/or ML technologies, the criteria would be organization-specific to define."
+  },
+  "profiles": [
+    "SCRMS",
+    "CORE ESP Level 1 Foundational",
+    "CORE ESP Level 2 Critical Infrastructure",
+    "CORE ESP Level 3 Advanced Threats",
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ Include security tasks in project plans",
+    "small": "∙ Security requirements in project planning\n∙ Project security checklist",
+    "medium": "∙ Security integrated into project management methodology\n∙ Security gates",
+    "large": "∙ Enterprise project management with security integration (e.g., Jira, MS Project)",
+    "enterprise": "∙ Enterprise PPM platform with security integration\n∙ Dedicated security architects\n∙ Security portfolio risk management"
+  },
+  "risks": [
+    "R-BC-1",
+    "R-BC-2",
+    "R-BC-3",
+    "R-BC-4",
+    "R-BC-5",
+    "R-EX-6",
+    "R-GV-1",
+    "R-GV-2",
+    "R-GV-3",
+    "R-GV-4",
+    "R-GV-5",
+    "R-GV-6",
+    "R-GV-7",
+    "R-IR-1",
+    "R-IR-4",
+    "R-SC-1",
+    "R-SC-2",
+    "R-SC-3",
+    "R-SC-4",
+    "R-SC-5",
+    "R-SC-6"
+  ],
+  "threats": [
+    "NT-2",
+    "NT-3",
+    "NT-4",
+    "NT-5",
+    "NT-6",
+    "NT-7",
+    "NT-8",
+    "NT-9",
+    "NT-10",
+    "NT-11",
+    "NT-12",
+    "NT-13",
+    "NT-14",
+    "MT-1",
+    "MT-2",
+    "MT-3",
+    "MT-4",
+    "MT-5",
+    "MT-6",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-16",
+    "MT-17",
+    "MT-18",
+    "MT-19",
+    "MT-20",
+    "MT-21",
+    "MT-22",
+    "MT-23",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "errata": "- renamed\n- wordsmithed",
+  "family_name": "Project & Resource Management",
+  "crosswalks": {
+    "general-aicpa-tsc-2017": [
+      "CC2.2",
+      "CC3.1",
+      "CC3.1-POF4",
+      "CC3.4",
+      "CC5.2"
+    ],
+    "general-bsi-200-1-1-0": [
+      "4.1.3",
+      "4.1.4",
+      "4.1.5",
+      "5",
+      "7"
+    ],
+    "general-cobit-2019": [
+      "EDM02.01",
+      "EDM02.02",
+      "EDM02.03",
+      "EDM02.04",
+      "EDM04.01",
+      "EDM04.02",
+      "EDM04.03",
+      "APO05.01",
+      "APO05.02",
+      "APO05.03",
+      "APO05.04",
+      "APO05.05",
+      "APO12.05",
+      "BAI01.05",
+      "BAI01.08",
+      "BAI01.09",
+      "BAI02.02",
+      "BAI02.04"
+    ],
+    "general-coso-2013": [
+      "6",
+      "9",
+      "14"
+    ],
+    "general-govramp": [
+      "PL-01"
+    ],
+    "general-govramp-low": [
+      "PL-01"
+    ],
+    "general-govramp-low-plus": [
+      "PL-01"
+    ],
+    "general-govramp-mod": [
+      "PL-01"
+    ],
+    "general-govramp-high": [
+      "PL-01"
+    ],
+    "general-iso-22301-2019": [
+      "6.2.1",
+      "6.2.2"
+    ],
+    "general-iso-27001-2022": [
+      "5.1(e)"
+    ],
+    "general-iso-27002-2022": [
+      "5.4",
+      "5.8"
+    ],
+    "general-iso-27017-2015": [
+      "5.1",
+      "6.1.5",
+      "7.2.1"
+    ],
+    "general-iso-27018-2025": [
+      "5.4",
+      "5.8"
+    ],
+    "general-iso-27701-2025": [
+      "7.1"
+    ],
+    "general-iso-31000-2018": [
+      "5.3",
+      "5.4.4"
+    ],
+    "general-iso-42001-2023": [
+      "7.1",
+      "A.4.2",
+      "A.6.1"
+    ],
+    "general-naic-insurance-data-security-model-law-668-2017": [
+      "4.D(2)(b)"
+    ],
+    "general-nist-100-1-ai-rmf": [
+      "MANAGE 2.1",
+      "MANAGE 2.2"
+    ],
+    "general-nist-800-53-r4": [
+      "PL-1"
+    ],
+    "general-nist-800-53-r5-2": [
+      "PL-01"
+    ],
+    "general-nist-800-53-r5-2-privacy": [
+      "PL-01"
+    ],
+    "general-nist-800-53-r5-2-low": [
+      "PL-01"
+    ],
+    "general-nist-800-82-r3": [
+      "PL-01"
+    ],
+    "general-nist-800-161-r1": [
+      "PL-1"
+    ],
+    "general-nist-800-161-r1-cscrm": [
+      "PL-1"
+    ],
+    "general-nist-800-161-r1-level-2": [
+      "PL-1"
+    ],
+    "general-nist-800-171-r2": [
+      "NFO - PL-1"
+    ],
+    "general-nist-800-171-r3": [
+      "03.16.01"
+    ],
+    "general-nist-csf-2-0": [
+      "GV.RM",
+      "GV.RR-03"
+    ],
+    "general-scf-dpmp-2025": [
+      "1.4"
+    ],
+    "usa-federal-dow-cert-rmm-1-2": [
+      "EF:SG1.SP3",
+      "FRM:SG1",
+      "FRM:SG1.SP1",
+      "FRM:SG1.SP2",
+      "FRM:SG2",
+      "FRM:SG2.SP1",
+      "FRM:SG2.SP2",
+      "FRM:SG2.SP3",
+      "FRM:SG3",
+      "FRM:SG3.SP1",
+      "FRM:SG4",
+      "FRM:SG4.SP1",
+      "FRM:SG4.SP2",
+      "FRM:SG5",
+      "FRM:SG5.SP1",
+      "FRM:SG5.SP2",
+      "FRM:SG5.SP3",
+      "FRM:GG1.GP1",
+      "FRM:GG2",
+      "FRM:GG2.GP2",
+      "SC:SG1",
+      "SC:SG1.SP1",
+      "SC:SG1.SP2",
+      "SC:SG2",
+      "SC:SG2.SP1"
+    ],
+    "usa-federal-dhs-cisa-tic-3-0": [
+      "3.PEP.EN.CMONI"
+    ],
+    "usa-federal-fbi-cjis-6-0": [
+      "PL-1"
+    ],
+    "usa-federal-doe-c2m2-2-1": [
+      "RISK-1f",
+      "ARCHITECTURE-1e"
+    ],
+    "usa-federal-sro-fca-crm-2023": [
+      "609.935(d)",
+      "609.935(e)"
+    ],
+    "usa-federal-gsa-fedramp-5-low": [
+      "PL-01"
+    ],
+    "usa-federal-gsa-fedramp-5-mod": [
+      "PL-01"
+    ],
+    "usa-federal-gsa-fedramp-5-high": [
+      "PL-01"
+    ],
+    "usa-federal-gsa-fedramp-5-li-saas": [
+      "PL-01"
+    ],
+    "usa-federal-irs-1075-2021": [
+      "PL-1"
+    ],
+    "usa-federal-cms-marse-2-0": [
+      "PL-1"
+    ],
+    "usa-state-tx-dir-security-control-standards-catalog-2-2": [
+      "PL-01"
+    ],
+    "usa-state-tx-txramp-2-0-level-1": [
+      "PL-01"
+    ],
+    "usa-state-tx-txramp-2-0-level-2": [
+      "PL-01"
+    ],
+    "emea-eu-eba-ict-srm-2025": [
+      "3.2.1(6)",
+      "3.6.1(61)",
+      "3.6.1(62)",
+      "3.6.1(64)",
+      "3.6.1(65)",
+      "3.6.1(66)"
+    ],
+    "emea-eu-dora-2023": [
+      "Article 7(a)",
+      "Article 7(b)",
+      "Article 7(c)",
+      "Article 7(d)"
+    ],
+    "emea-aut-fappd-2000": [
+      "Sec 14",
+      "Sec 15"
+    ],
+    "emea-bel-act-8-1992": [
+      "16"
+    ],
+    "emea-deu-bsrit-2017": [
+      "2.3",
+      "7.4",
+      "7.5",
+      "8.3"
+    ],
+    "emea-isr-cmo-1-0": [
+      "17.5"
+    ],
+    "emea-sau-cscc-1-2019": [
+      "1-1"
+    ],
+    "emea-sau-ecc-1-2018": [
+      "1-1-3",
+      "1-2-3"
+    ],
+    "emea-zaf-popia-2013": [
+      "19"
+    ],
+    "emea-esp-ccn-stic-825-2023": [
+      "9"
+    ],
+    "apac-aus-ism-2024-june": [
+      "ISM-0720",
+      "ISM-0732"
+    ],
+    "apac-aus-ps-cps-230-2023": [
+      "25"
+    ],
+    "apac-aus-ps-cps-234-2019": [
+      "13",
+      "15"
+    ],
+    "apac-ind-sebi-2024": [
+      "GV.RR.S4"
+    ],
+    "apac-jpn-ismap": [
+      "4.5.1.1"
+    ],
+    "apac-nzl-ism-3-9": [
+      "3.2.15.C.01"
+    ],
+    "apac-sgp-mas-trm-2021": [
+      "5.1.1",
+      "5.1.2",
+      "5.1.3",
+      "5.1.4"
+    ],
+    "amaericas-can-osfi-self-assessment": [
+      "1.1",
+      "6.22"
+    ],
+    "americas-can-osfi-b13-2022": [
+      "1.2.1"
+    ],
+    "americas-can-itsp-10-171-2025": [
+      "03.16.01"
+    ]
+  }
+}

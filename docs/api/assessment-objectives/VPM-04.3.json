@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "VPM-04.3",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "VPM-04.3",
+      "ao_id": "VPM-04.3_A01",
+      "objective": "criteria are defined to justify the deferral of software and/or firmware patches.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-04.3",
+      "ao_id": "VPM-04.3_A02",
+      "objective": "the deferral of software and/or firmware patches is facilitated when the disadvantages of applying the patch outweighs the benefits, based on organization-defined criteria.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

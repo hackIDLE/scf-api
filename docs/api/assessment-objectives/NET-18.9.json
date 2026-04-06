@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "NET-18.9",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-18.9",
+      "ao_id": "NET-18.9_A01",
+      "objective": "a set of known bad certificates is documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "NET-18.9",
+      "ao_id": "NET-18.9_A02",
+      "objective": "communication with systems and/or services that use known bad certificates is blocked.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

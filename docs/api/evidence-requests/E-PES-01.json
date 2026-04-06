@@ -1,0 +1,14 @@
+{
+  "erl_id": "E-PES-01",
+  "area": "Physical Security",
+  "artifact_name": "Environmental Monitoring",
+  "artifact_description": "Documented evidence of environmental monitoring (e.g., water leaks, temperature, humidity, etc.)",
+  "scf_controls": [
+    "PES-01",
+    "PES-07",
+    "PES-07.5",
+    "PES-08",
+    "PES-09"
+  ],
+  "cmmc_mapping": ""
+}

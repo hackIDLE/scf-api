@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "CAP-06",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CAP-06",
+      "ao_id": "CAP-06_A01",
+      "objective": "business processes requiring regional delivery of technological services are identified.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CAP-06",
+      "ao_id": "CAP-06_A02",
+      "objective": "applicable services are configured to support geographically dispersed business processes requiring regional delivery of technological services.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

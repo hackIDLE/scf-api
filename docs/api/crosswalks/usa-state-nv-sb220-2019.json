@@ -1,0 +1,36 @@
+{
+  "framework_id": "usa-state-nv-sb220-2019",
+  "display_name": "Nevada SB220 (2019)",
+  "scf_to_framework": {
+    "total_mappings": 3,
+    "mappings": {
+      "PRI-05.4": [
+        "2.3"
+      ],
+      "PRI-06": [
+        "2.1",
+        "2.2"
+      ],
+      "PRI-06.4": [
+        "2.4"
+      ]
+    }
+  },
+  "framework_to_scf": {
+    "total_mappings": 4,
+    "mappings": {
+      "2.3": [
+        "PRI-05.4"
+      ],
+      "2.1": [
+        "PRI-06"
+      ],
+      "2.2": [
+        "PRI-06"
+      ],
+      "2.4": [
+        "PRI-06.4"
+      ]
+    }
+  }
+}

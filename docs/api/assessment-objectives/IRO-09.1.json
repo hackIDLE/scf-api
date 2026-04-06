@@ -1,0 +1,66 @@
+{
+  "scf_control_id": "IRO-09.1",
+  "total": 6,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IRO-09.1",
+      "ao_id": "IRO-09.1_A01",
+      "objective": "automated mechanisms used to track incidents are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-05(01)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-09.1",
+      "ao_id": "IRO-09.1_A02",
+      "objective": "automated mechanisms used to collect incident information are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-05(01)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-09.1",
+      "ao_id": "IRO-09.1_A03",
+      "objective": "automated mechanisms used to analyze incident information are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-05(01)_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-09.1",
+      "ao_id": "IRO-09.1_A04",
+      "objective": "incidents are tracked using automated mechanisms.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IR-05(01)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-09.1",
+      "ao_id": "IRO-09.1_A05",
+      "objective": "incident information is collected using automated mechanisms.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IR-05(01)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-09.1",
+      "ao_id": "IRO-09.1_A06",
+      "objective": "incident information is analyzed using automated mechanisms.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IR-05(01)[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

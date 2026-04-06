@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "MNT-05.3",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MNT-05.3",
+      "ao_id": "MNT-05.3_A01",
+      "objective": "cryptographic mechanisms to be implemented to protect the integrity and confidentiality of nonlocal maintenance and diagnostic communications are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MA-04(06)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-05.3",
+      "ao_id": "MNT-05.3_A02",
+      "objective": "cryptographic mechanisms are implemented to protect the integrity of nonlocal maintenance and diagnostic communications.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_MA-04(06)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-05.3",
+      "ao_id": "MNT-05.3_A03",
+      "objective": "cryptographic mechanisms are implemented to protect the confidentiality of nonlocal maintenance and diagnostic communications.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_MA-04(06)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MNT-05.3",
+      "ao_id": "MNT-05.3_A04",
+      "objective": "replay resistance is implemented in the establishment of nonlocal maintenance and diagnostic sessions.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.07.05.b[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

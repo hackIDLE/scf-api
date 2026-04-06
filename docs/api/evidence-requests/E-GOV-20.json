@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-GOV-20",
+  "area": "Cybersecurity & Data Protection Management",
+  "artifact_name": "Compensating Controls",
+  "artifact_description": "Documented evidence of compensating controls (e.g., countermeasure to reduce risk associated with control deficiencies).",
+  "scf_controls": [
+    "CFG-02.9",
+    "RSK-06.2"
+  ],
+  "cmmc_mapping": ""
+}

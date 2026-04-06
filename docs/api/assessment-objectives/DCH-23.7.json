@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "DCH-23.7",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-23.7",
+      "ao_id": "DCH-23.7_A01",
+      "objective": "de-identification is performed using validated algorithms.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-19(07)[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-23.7",
+      "ao_id": "DCH-23.7_A02",
+      "objective": "de-identification is performed using software that is validated to implement the algorithms.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-19(07)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "HRS-09.3",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "HRS-09.3",
+      "ao_id": "HRS-09.3_A01",
+      "objective": "terminated individuals are notified of applicable, legally binding post-employment requirements for the protection of organizational information.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PS-04(01)(a)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-09.3",
+      "ao_id": "HRS-09.3_A02",
+      "objective": "terminated individuals are required to sign an acknowledgement of post-employment requirements as part of the organizational termination process.",
+      "pptdf": "People",
+      "origin": "53A_R5_PS-04(01)(b)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

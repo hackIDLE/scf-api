@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "IRO-09.4",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IRO-09.4",
+      "ao_id": "IRO-09.4_A01",
+      "objective": "a method to analyze historical incidents in aggregate is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-09.4",
+      "ao_id": "IRO-09.4_A02",
+      "objective": "historical incidents are analyzed in aggregate to identify patterns.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-09.4",
+      "ao_id": "IRO-09.4_A03",
+      "objective": "historical incidents are analyzed in aggregate to identify trends.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-09.4",
+      "ao_id": "IRO-09.4_A04",
+      "objective": "historical incidents are analyzed in aggregate to identify other common root causes in order to address the vulnerability and risk.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "DCH-02.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-02.1",
+      "ao_id": "DCH-02.1_A01",
+      "objective": "data stewards formally categorize systems, applications and services in a System Security & Privacy Plan (SSPP) or similar documentation, according to the highest level of data sensitivity that is stored, transmitted and/or processed.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-02.1",
+      "ao_id": "DCH-02.1_A02",
+      "objective": "a validation process exists to ensure that systems, applications and services are classified according to the highest level of data sensitivity that is stored, transmitted and/or processed.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

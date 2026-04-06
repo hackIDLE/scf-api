@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PRI-12.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-12.1",
+      "ao_id": "PRI-12.1_A01",
+      "objective": "the capability, or processes, to enable data subjects to update their Personal Data (PD) is defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-12.1",
+      "ao_id": "PRI-12.1_A02",
+      "objective": "upon a validated request, data subjects are enabled to update their Personal Data (PD).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

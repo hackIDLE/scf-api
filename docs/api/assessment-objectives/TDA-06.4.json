@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "TDA-06.4",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-06.4",
+      "ao_id": "TDA-06.4_A01",
+      "objective": "a supporting toolchain helps ensure the accuracy, consistency and comprehensiveness of secure practices throughout the asset's lifecycle.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

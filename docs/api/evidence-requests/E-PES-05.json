@@ -1,0 +1,14 @@
+{
+  "erl_id": "E-PES-05",
+  "area": "Physical Security",
+  "artifact_name": "Physical Security Operations",
+  "artifact_description": "Documented evidence of the organization's physical security capabilities as it pertains to operating and monitoring Physical Access Control (PAC) mechanisms.",
+  "scf_controls": [
+    "PES-01",
+    "PES-02",
+    "PES-02.1",
+    "PES-03",
+    "PES-05"
+  ],
+  "cmmc_mapping": ""
+}

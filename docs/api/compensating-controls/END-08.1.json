@@ -1,0 +1,16 @@
+{
+  "control_id": "END-08.1",
+  "risk_if_not_implemented": "Without Central Management, residual security, compliance, or resilience risk may accumulate, potentially leading to control failures or non-compliance.",
+  "compensating_control_1": {
+    "control_id": "NET-18",
+    "name": "DNS & Content Filtering",
+    "description": "Mechanisms exist to force Internet-bound network traffic through a proxy device (e.g., Policy Enforcement Point (PEP)) for URL content filtering and DNS filtering to limit a user's ability to connect to dangerous or prohibited Internet sites.",
+    "justification": "DNS & Content Filtering (NET-18) provides network-level access restriction that compensates for the absence of Central Management (END-08.1) by limiting attacker reach and lateral movement opportunities across the environment. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  },
+  "compensating_control_2": {
+    "control_id": "END-08",
+    "name": "Phishing & Spam Protection",
+    "description": "Mechanisms exist to utilize anti-phishing and spam protection technologies to detect and take action on unsolicited messages transported by electronic mail.",
+    "justification": "Phishing & Spam Protection (END-08) provides overlapping security capability that compensates for the absence of Central Management (END-08.1) by addressing related risk objectives through an alternative control mechanism aligned with Technology applicability. Given the technology-focused nature of this control, this compensating control targets the same underlying risk objective through an alternative approach, helping to maintain an acceptable level of residual risk until the primary control can be implemented."
+  }
+}

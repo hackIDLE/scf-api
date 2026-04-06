@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PRI-21",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-21",
+      "ao_id": "PRI-21_A01",
+      "objective": "data privacy notices inform data subjects of their right to direct an organization that sells or shares their Personal Data (PD) to stop selling or sharing their PD.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-21",
+      "ao_id": "PRI-21_A02",
+      "objective": "data privacy notices inform data subjects of methods available to exercise that right to direct an organization to stop selling or sharing their Personal Data (PD).",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

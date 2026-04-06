@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-MON-08",
+  "area": "Event Log Monitoring",
+  "artifact_name": "Integrity Monitoring",
+  "artifact_description": "Documented evidence of integrity monitoring, where files and/or configurations on critical Technology Assets, Applications and/or Services (TAAS) are actively monitored for changes that could indicate unauthorized changes.",
+  "scf_controls": [
+    "MON-01.7"
+  ],
+  "cmmc_mapping": ""
+}

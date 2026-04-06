@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "DCH-22.1",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-22.1",
+      "ao_id": "DCH-22.1_A01",
+      "objective": "Personal Data (PD) is corrected, or deleted, upon request by individuals or their designated representatives.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-18(04)\n53A_R5_SI-18b.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-22.1",
+      "ao_id": "DCH-22.1_A02",
+      "objective": "recipients and individuals are notified when their Personal Data (PD) has been corrected or deleted.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-18(05)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-22.1",
+      "ao_id": "DCH-22.1_A03",
+      "objective": "recipients of Personal Data (PD) to be notified when their PD has been corrected or deleted are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-18(05)_ODP",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-22.1",
+      "ao_id": "DCH-22.1_A04",
+      "objective": "automated mechanisms used to correct or delete Personal Data (PD) that is inaccurate, outdated, incorrectly determined regarding impact or incorrectly de-identified are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-18(01)_ODP",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-22.1",
+      "ao_id": "DCH-22.1_A05",
+      "objective": "automated mechanisms are used to correct or delete Personal Data (PD) that is inaccurate, outdated, incorrectly determined regarding impact or incorrectly de-identified.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-18(01)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

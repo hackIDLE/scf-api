@@ -1,0 +1,66 @@
+{
+  "scf_control_id": "CPL-06",
+  "total": 6,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CPL-06",
+      "ao_id": "CPL-06_A01",
+      "objective": "a formal process exists to intake and document access requests from host governments for unrestricted and non-monitored access to the organization's systems, applications and services that could potentially violate other applicable statutory, regulatory and/or contractual obligations.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-06",
+      "ao_id": "CPL-06_A02",
+      "objective": "executive leadership, along with legal counsel, formally identifies risks associated with non-compliance (e.g., fines, operational impacts, etc.).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-06",
+      "ao_id": "CPL-06_A03",
+      "objective": "executive leadership, along with legal counsel, formally identifies primary risks associated with compliance (e.g., loss of confidentiality and/or integrity considerations with data governance).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-06",
+      "ao_id": "CPL-06_A04",
+      "objective": "executive leadership, along with legal counsel, formally identifies secondary risks associated with compliance (e.g., non-compliance with other laws, regulations and contractual agreements).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-06",
+      "ao_id": "CPL-06_A05",
+      "objective": "executive leadership, along with legal counsel, formally identifies tertiary risks associated with compliance (e.g., human rights abuses, theft of intellectual property, espionage, etc.).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-06",
+      "ao_id": "CPL-06_A06",
+      "objective": "executive leadership, along with legal counsel, formally adopts an action plan to respond to host government requests for unrestricted and non-monitored access to the organization's systems, applications and services that could potentially violate other applicable statutory, regulatory and/or contractual obligations.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

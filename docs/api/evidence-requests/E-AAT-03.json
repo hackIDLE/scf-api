@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-AAT-03",
+  "area": "Artificial Intelligence (AI) & Autonomous Technologies Governance",
+  "artifact_name": "Secure Development Practices for Artificial Intelligence and Autonomous Technologies (AAT).",
+  "artifact_description": "Documented evidence of industry-recognized secure practices to develop and maintain trustworthy Artificial Intelligence and Autonomous Technologies (AAT).",
+  "scf_controls": [
+    "AAT-01.2"
+  ],
+  "cmmc_mapping": ""
+}

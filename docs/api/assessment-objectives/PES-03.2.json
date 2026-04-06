@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PES-03.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PES-03.2",
+      "ao_id": "PES-03.2_A01",
+      "objective": "system components to be protected from unauthorized physical access are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PE-03(04)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-03.2",
+      "ao_id": "PES-03.2_A02",
+      "objective": "lockable physical casings are used to protect system components from unauthorized access.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-03(04)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

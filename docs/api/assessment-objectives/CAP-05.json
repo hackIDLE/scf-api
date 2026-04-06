@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "CAP-05",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CAP-05",
+      "ao_id": "CAP-05_A01",
+      "objective": "resources needing dynamic expansion (e.g., elasticity) are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CAP-05",
+      "ao_id": "CAP-05_A02",
+      "objective": "applicable services are configured to dynamically expand the resources available for services, as demand conditions change.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

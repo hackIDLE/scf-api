@@ -1,0 +1,13 @@
+{
+  "erl_id": "E-HRS-03",
+  "area": "Human Resources",
+  "artifact_name": "Assigned Roles - Cybersecurity Staff",
+  "artifact_description": "List of employed or contract personnel assigned to cybersecurity roles.",
+  "scf_controls": [
+    "HRS-02",
+    "HRS-02.1",
+    "HRS-03",
+    "OPS-01"
+  ],
+  "cmmc_mapping": ""
+}

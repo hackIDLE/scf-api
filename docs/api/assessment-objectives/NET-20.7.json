@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "NET-20.7",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-20.7",
+      "ao_id": "NET-20.7_A01",
+      "objective": "email systems are configured to utilize adaptive email protections that involve employing risk-based analysis in the application and enforcement of email protections.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

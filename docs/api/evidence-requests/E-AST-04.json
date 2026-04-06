@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-AST-04",
+  "area": "Asset Management",
+  "artifact_name": "Asset Inventories - Hardware",
+  "artifact_description": "Documented evidence of an inventory of the organization's technology hardware assets.",
+  "scf_controls": [
+    "AST-02"
+  ],
+  "cmmc_mapping": "CM.L2-3.4.1\nSI.L2-3.14.6\nSI.L2-3.14.7"
+}

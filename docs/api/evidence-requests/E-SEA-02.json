@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-SEA-02",
+  "area": "Secure Engineering & Architecture",
+  "artifact_name": "Security Architecture",
+  "artifact_description": "Documented evidence of security architecture-related documentation.",
+  "scf_controls": [
+    "SEA-01",
+    "SEA-02"
+  ],
+  "cmmc_mapping": "SC.L1-3.13.1\nSC.L2-3.13.2\nSC.L1-3.13.5"
+}

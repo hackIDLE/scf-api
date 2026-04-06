@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "AST-32",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AST-32",
+      "ao_id": "AST-32_A01",
+      "objective": "Software Defined Networking (SDN), or similar technologies, analyzes network traffic to identify devices.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-32",
+      "ao_id": "AST-32_A02",
+      "objective": "Software Defined Networking (SDN), or similar technologies, analyzes network traffic to document devices.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-32",
+      "ao_id": "AST-32_A03",
+      "objective": "Software Defined Networking (SDN), or similar technologies, analyzes network traffic to track devices.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

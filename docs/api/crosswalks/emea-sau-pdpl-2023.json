@@ -1,0 +1,388 @@
+{
+  "framework_id": "emea-sau-pdpl-2023",
+  "display_name": "Saudi Arabia - Personal Data Protection Law (PDPL) (2023)",
+  "scf_to_framework": {
+    "total_mappings": 36,
+    "mappings": {
+      "CPL-01": [
+        "Article 2.1",
+        "Article 30.3"
+      ],
+      "CPL-01.2": [
+        "Article 2.2"
+      ],
+      "CPL-01.3": [
+        "Article 30.4.a"
+      ],
+      "DCH-03.1": [
+        "Article 15.3",
+        "Article 15.4",
+        "Article 15.5",
+        "Article 15.6",
+        "Article 16.1",
+        "Article 16.2",
+        "Article 16.3",
+        "Article 16.4",
+        "Article 16.5",
+        "Article 16.6",
+        "Article 16.7",
+        "Article 16.8",
+        "Article 16.9"
+      ],
+      "DCH-18.1": [
+        "Article 11.3"
+      ],
+      "DCH-22.1": [
+        "Article 17.1"
+      ],
+      "DCH-22.3": [
+        "Article 10"
+      ],
+      "DCH-25": [
+        "Article 29.1"
+      ],
+      "HRS-03": [
+        "Article 30.2"
+      ],
+      "IRO-04.1": [
+        "Article 20.1",
+        "Article 20.2"
+      ],
+      "PRI-01": [
+        "Article 11.2"
+      ],
+      "PRI-01.4": [
+        "Article 30.2"
+      ],
+      "PRI-01.5": [
+        "Article 29.2.b"
+      ],
+      "PRI-01.6": [
+        "Article 19"
+      ],
+      "PRI-01.7": [
+        "Article 23.1",
+        "Article 23.2",
+        "Article 29.2.c"
+      ],
+      "PRI-02": [
+        "Article 4.1",
+        "Article 12",
+        "Article 13.2",
+        "Article 13.4",
+        "Article 13.5",
+        "Article 13.6"
+      ],
+      "PRI-02.1": [
+        "Article 11.1",
+        "Article 13.2",
+        "Article 13.3"
+      ],
+      "PRI-03": [
+        "Article 5.1",
+        "Article 10.1",
+        "Article 15.1",
+        "Article 24.1",
+        "Article 25.1",
+        "Article 25.2",
+        "Article 25.3",
+        "Article 26"
+      ],
+      "PRI-03.4": [
+        "Article 5.2"
+      ],
+      "PRI-03.5": [
+        "Article 7"
+      ],
+      "PRI-04.1": [
+        "Article 13.1"
+      ],
+      "PRI-04.2": [
+        "Article 10"
+      ],
+      "PRI-04.4": [
+        "Article 10",
+        "Article 14",
+        "Article 15.2"
+      ],
+      "PRI-04.5": [
+        "Article 14"
+      ],
+      "PRI-04.7": [
+        "Article 11.2"
+      ],
+      "PRI-05": [
+        "Article 11.4",
+        "Article 18.1",
+        "Article 18.2.a",
+        "Article 18.2.b"
+      ],
+      "PRI-05.2": [
+        "Article 14"
+      ],
+      "PRI-05.4": [
+        "Article 11.3"
+      ],
+      "PRI-06": [
+        "Article 4.2",
+        "Article 4.3",
+        "Article 4.4",
+        "Article 4.5",
+        "Article 21"
+      ],
+      "PRI-07": [
+        "Article 8"
+      ],
+      "PRI-12": [
+        "Article 17.1"
+      ],
+      "PRI-14": [
+        "Article 31",
+        "Article 31.1",
+        "Article 31.2",
+        "Article 31.3",
+        "Article 31.4",
+        "Article 31.5",
+        "Article 31.6"
+      ],
+      "PRI-14.2": [
+        "Article 24.2"
+      ],
+      "RSK-10": [
+        "Article 22"
+      ],
+      "TPM-05": [
+        "Article 8"
+      ],
+      "TPM-08": [
+        "Article 8"
+      ]
+    }
+  },
+  "framework_to_scf": {
+    "total_mappings": 70,
+    "mappings": {
+      "Article 2.1": [
+        "CPL-01"
+      ],
+      "Article 30.3": [
+        "CPL-01"
+      ],
+      "Article 2.2": [
+        "CPL-01.2"
+      ],
+      "Article 30.4.a": [
+        "CPL-01.3"
+      ],
+      "Article 15.3": [
+        "DCH-03.1"
+      ],
+      "Article 15.4": [
+        "DCH-03.1"
+      ],
+      "Article 15.5": [
+        "DCH-03.1"
+      ],
+      "Article 15.6": [
+        "DCH-03.1"
+      ],
+      "Article 16.1": [
+        "DCH-03.1"
+      ],
+      "Article 16.2": [
+        "DCH-03.1"
+      ],
+      "Article 16.3": [
+        "DCH-03.1"
+      ],
+      "Article 16.4": [
+        "DCH-03.1"
+      ],
+      "Article 16.5": [
+        "DCH-03.1"
+      ],
+      "Article 16.6": [
+        "DCH-03.1"
+      ],
+      "Article 16.7": [
+        "DCH-03.1"
+      ],
+      "Article 16.8": [
+        "DCH-03.1"
+      ],
+      "Article 16.9": [
+        "DCH-03.1"
+      ],
+      "Article 11.3": [
+        "DCH-18.1",
+        "PRI-05.4"
+      ],
+      "Article 17.1": [
+        "DCH-22.1",
+        "PRI-12"
+      ],
+      "Article 10": [
+        "DCH-22.3",
+        "PRI-04.2",
+        "PRI-04.4"
+      ],
+      "Article 29.1": [
+        "DCH-25"
+      ],
+      "Article 30.2": [
+        "HRS-03",
+        "PRI-01.4"
+      ],
+      "Article 20.1": [
+        "IRO-04.1"
+      ],
+      "Article 20.2": [
+        "IRO-04.1"
+      ],
+      "Article 11.2": [
+        "PRI-01",
+        "PRI-04.7"
+      ],
+      "Article 29.2.b": [
+        "PRI-01.5"
+      ],
+      "Article 19": [
+        "PRI-01.6"
+      ],
+      "Article 23.1": [
+        "PRI-01.7"
+      ],
+      "Article 23.2": [
+        "PRI-01.7"
+      ],
+      "Article 29.2.c": [
+        "PRI-01.7"
+      ],
+      "Article 4.1": [
+        "PRI-02"
+      ],
+      "Article 12": [
+        "PRI-02"
+      ],
+      "Article 13.2": [
+        "PRI-02",
+        "PRI-02.1"
+      ],
+      "Article 13.4": [
+        "PRI-02"
+      ],
+      "Article 13.5": [
+        "PRI-02"
+      ],
+      "Article 13.6": [
+        "PRI-02"
+      ],
+      "Article 11.1": [
+        "PRI-02.1"
+      ],
+      "Article 13.3": [
+        "PRI-02.1"
+      ],
+      "Article 5.1": [
+        "PRI-03"
+      ],
+      "Article 10.1": [
+        "PRI-03"
+      ],
+      "Article 15.1": [
+        "PRI-03"
+      ],
+      "Article 24.1": [
+        "PRI-03"
+      ],
+      "Article 25.1": [
+        "PRI-03"
+      ],
+      "Article 25.2": [
+        "PRI-03"
+      ],
+      "Article 25.3": [
+        "PRI-03"
+      ],
+      "Article 26": [
+        "PRI-03"
+      ],
+      "Article 5.2": [
+        "PRI-03.4"
+      ],
+      "Article 7": [
+        "PRI-03.5"
+      ],
+      "Article 13.1": [
+        "PRI-04.1"
+      ],
+      "Article 14": [
+        "PRI-04.4",
+        "PRI-04.5",
+        "PRI-05.2"
+      ],
+      "Article 15.2": [
+        "PRI-04.4"
+      ],
+      "Article 11.4": [
+        "PRI-05"
+      ],
+      "Article 18.1": [
+        "PRI-05"
+      ],
+      "Article 18.2.a": [
+        "PRI-05"
+      ],
+      "Article 18.2.b": [
+        "PRI-05"
+      ],
+      "Article 4.2": [
+        "PRI-06"
+      ],
+      "Article 4.3": [
+        "PRI-06"
+      ],
+      "Article 4.4": [
+        "PRI-06"
+      ],
+      "Article 4.5": [
+        "PRI-06"
+      ],
+      "Article 21": [
+        "PRI-06"
+      ],
+      "Article 8": [
+        "PRI-07",
+        "TPM-05",
+        "TPM-08"
+      ],
+      "Article 31": [
+        "PRI-14"
+      ],
+      "Article 31.1": [
+        "PRI-14"
+      ],
+      "Article 31.2": [
+        "PRI-14"
+      ],
+      "Article 31.3": [
+        "PRI-14"
+      ],
+      "Article 31.4": [
+        "PRI-14"
+      ],
+      "Article 31.5": [
+        "PRI-14"
+      ],
+      "Article 31.6": [
+        "PRI-14"
+      ],
+      "Article 24.2": [
+        "PRI-14.2"
+      ],
+      "Article 22": [
+        "RSK-10"
+      ]
+    }
+  }
+}

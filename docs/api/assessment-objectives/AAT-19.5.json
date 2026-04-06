@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-19.5",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-19.5",
+      "ao_id": "AAT-19.5_A01",
+      "objective": "the organization prohibits the sale, deployment and/or use of Artificial Intelligence (AI) and Autonomous Technologies (AAT) that assess the risk of an individual committing a criminal offence.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-19.5",
+      "ao_id": "AAT-19.5_A02",
+      "objective": "the organization prohibits the sale, deployment and/or use of Artificial Intelligence (AI) and Autonomous Technologies (AAT) that predicts risk based solely on the profiling of personality traits and characteristics.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

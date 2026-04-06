@@ -1,0 +1,76 @@
+{
+  "scf_control_id": "TPM-04",
+  "total": 7,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TPM-04",
+      "ao_id": "TPM-04_A01",
+      "objective": "controls to be employed by external system service providers are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-09_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-04",
+      "ao_id": "TPM-04_A02",
+      "objective": "processes, methods and techniques employed to monitor control compliance by external service providers are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-09_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-04",
+      "ao_id": "TPM-04_A03",
+      "objective": "providers of external system services comply with organizational cybersecurity / data privacy requirements.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-09a.[01]\n53A_R5_SA-09a.[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-04",
+      "ao_id": "TPM-04_A04",
+      "objective": "providers of external system services employ controls.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-09a.[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-04",
+      "ao_id": "TPM-04_A05",
+      "objective": "organizational oversight with regard to external system services are defined and documented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-09b.[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-04",
+      "ao_id": "TPM-04_A06",
+      "objective": "user roles and responsibilities with regard to external system services are defined and documented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-09b.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TPM-04",
+      "ao_id": "TPM-04_A07",
+      "objective": "processes, methods and techniques are employed to monitor control compliance by external service providers on an ongoing basis.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SA-09c.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

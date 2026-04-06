@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-PRM-04",
+  "area": "Resource Management",
+  "artifact_name": "Targeted Maturity Level",
+  "artifact_description": "Documented evidence of a targeted level of control maturity from a Capability Maturity Model (CMM).",
+  "scf_controls": [
+    "PRM-01.2"
+  ],
+  "cmmc_mapping": ""
+}

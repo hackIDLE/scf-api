@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-AST-31",
+  "area": "Asset Management",
+  "artifact_name": "Allowlist / Denylist",
+  "artifact_description": "Documented evidence of software applications that are explicitly allowed (allowlist / whitelist) and/or blocked (denylist / blacklist).",
+  "scf_controls": [
+    "CFG-03.3"
+  ],
+  "cmmc_mapping": "CM.L2-3.4.8"
+}

@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PRI-17",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-17",
+      "ao_id": "PRI-17_A01",
+      "objective": "disclosures and communications to data subjects are made easily accessible.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-17",
+      "ao_id": "PRI-17_A02",
+      "objective": "disclosures and communications to data subjects are written in a manner that is concise, unambiguous and understandable by a reasonable person.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

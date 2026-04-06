@@ -1,0 +1,19 @@
+{
+  "erl_id": "E-HRS-22",
+  "area": "Human Resources",
+  "artifact_name": "Rules of Behavior",
+  "artifact_description": "Documented evidence of personnel management practices to define \"acceptable use\" or \"rules of behavior\" criteria that specify acceptable and unacceptable user behaviors.",
+  "scf_controls": [
+    "HRS-02",
+    "HRS-02.1",
+    "HRS-03",
+    "HRS-05",
+    "HRS-05.1",
+    "HRS-05.2",
+    "HRS-05.3",
+    "HRS-05.4",
+    "HRS-05.5",
+    "HRS-10"
+  ],
+  "cmmc_mapping": "MP.L2-3.8.7\nMP.L2-3.8.8"
+}

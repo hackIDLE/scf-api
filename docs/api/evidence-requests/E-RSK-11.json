@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-RSK-11",
+  "area": "Risk Management",
+  "artifact_name": "Risk Alternatives",
+  "artifact_description": "Documented evidence of alternative courses of action to manage material risks.",
+  "scf_controls": [
+    "RSK-13.1"
+  ],
+  "cmmc_mapping": ""
+}

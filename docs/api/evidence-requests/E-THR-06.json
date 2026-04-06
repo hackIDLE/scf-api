@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-THR-06",
+  "area": "Threat Management",
+  "artifact_name": "Threat Catalog",
+  "artifact_description": "Documented evidence of a threat catalog.",
+  "scf_controls": [
+    "THR-09"
+  ],
+  "cmmc_mapping": ""
+}

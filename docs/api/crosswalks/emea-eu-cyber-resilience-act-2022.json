@@ -1,0 +1,274 @@
+{
+  "framework_id": "emea-eu-cyber-resilience-act-2022",
+  "display_name": "EU Cyber Resilience Act (CRA) (2022)",
+  "scf_to_framework": {
+    "total_mappings": 18,
+    "mappings": {
+      "CPL-01.3": [
+        "Article 10.13"
+      ],
+      "CPL-01.4": [
+        "Article 10.2",
+        "Article 10.7",
+        "Article 13.2(a)",
+        "Article 24.1",
+        "Article 24.1(a)",
+        "Article 24.1(b)",
+        "Article 24.1(c)"
+      ],
+      "CPL-02.3": [
+        "Article 10.12",
+        "Article 13.6",
+        "Article 14.4"
+      ],
+      "CPL-03.3": [
+        "Article 13.8",
+        "Article 14.5"
+      ],
+      "CPL-08": [
+        "Article 12.1"
+      ],
+      "CPL-08.1": [
+        "Article 12.3",
+        "Article 12.3(a)",
+        "Article 12.3(b)",
+        "Article 12.3(c)"
+      ],
+      "DCH-18": [
+        "Article 10.8",
+        "Article 13.7"
+      ],
+      "IRO-10.5": [
+        "Article 11.2",
+        "Article 11.4"
+      ],
+      "SEA-02.1": [
+        "Article 3"
+      ],
+      "TDA-01.1": [
+        "Article 5",
+        "Article 5.1",
+        "Article 5.2",
+        "Article 10.1",
+        "Article 10.5",
+        "Article 10.6",
+        "Article 10.9",
+        "Article 10.10",
+        "Article 10.11",
+        "Article 13.1",
+        "Article 13.2",
+        "Article 13.2(a)",
+        "Article 13.2(b)",
+        "Article 13.2(c)",
+        "Article 13.3",
+        "Article 13.4",
+        "Article 13.5",
+        "Article 13.6",
+        "Article 14.1",
+        "Article 14.2",
+        "Article 14.2(a)",
+        "Article 14.2(b)",
+        "Article 14.3",
+        "Article 14.4"
+      ],
+      "TDA-02.9": [
+        "Article 10.6"
+      ],
+      "TDA-02.11": [
+        "Article 11.7"
+      ],
+      "TDA-02.13": [
+        "Article 11.1"
+      ],
+      "TDA-04.2": [
+        "Article 11.7"
+      ],
+      "TDA-21": [
+        "Article 10.12"
+      ],
+      "TDA-22": [
+        "Article 10.7",
+        "Article 13.2(b)",
+        "Article 23.1",
+        "Article 23.2",
+        "Article 23.3",
+        "Article 23.4"
+      ],
+      "TDA-22.1": [
+        "Article 10.3"
+      ],
+      "TPM-03": [
+        "Article 10.4"
+      ]
+    }
+  },
+  "framework_to_scf": {
+    "total_mappings": 52,
+    "mappings": {
+      "Article 10.13": [
+        "CPL-01.3"
+      ],
+      "Article 10.2": [
+        "CPL-01.4"
+      ],
+      "Article 10.7": [
+        "CPL-01.4",
+        "TDA-22"
+      ],
+      "Article 13.2(a)": [
+        "CPL-01.4",
+        "TDA-01.1"
+      ],
+      "Article 24.1": [
+        "CPL-01.4"
+      ],
+      "Article 24.1(a)": [
+        "CPL-01.4"
+      ],
+      "Article 24.1(b)": [
+        "CPL-01.4"
+      ],
+      "Article 24.1(c)": [
+        "CPL-01.4"
+      ],
+      "Article 10.12": [
+        "CPL-02.3",
+        "TDA-21"
+      ],
+      "Article 13.6": [
+        "CPL-02.3",
+        "TDA-01.1"
+      ],
+      "Article 14.4": [
+        "CPL-02.3",
+        "TDA-01.1"
+      ],
+      "Article 13.8": [
+        "CPL-03.3"
+      ],
+      "Article 14.5": [
+        "CPL-03.3"
+      ],
+      "Article 12.1": [
+        "CPL-08"
+      ],
+      "Article 12.3": [
+        "CPL-08.1"
+      ],
+      "Article 12.3(a)": [
+        "CPL-08.1"
+      ],
+      "Article 12.3(b)": [
+        "CPL-08.1"
+      ],
+      "Article 12.3(c)": [
+        "CPL-08.1"
+      ],
+      "Article 10.8": [
+        "DCH-18"
+      ],
+      "Article 13.7": [
+        "DCH-18"
+      ],
+      "Article 11.2": [
+        "IRO-10.5"
+      ],
+      "Article 11.4": [
+        "IRO-10.5"
+      ],
+      "Article 3": [
+        "SEA-02.1"
+      ],
+      "Article 5": [
+        "TDA-01.1"
+      ],
+      "Article 5.1": [
+        "TDA-01.1"
+      ],
+      "Article 5.2": [
+        "TDA-01.1"
+      ],
+      "Article 10.1": [
+        "TDA-01.1"
+      ],
+      "Article 10.5": [
+        "TDA-01.1"
+      ],
+      "Article 10.6": [
+        "TDA-01.1",
+        "TDA-02.9"
+      ],
+      "Article 10.9": [
+        "TDA-01.1"
+      ],
+      "Article 10.10": [
+        "TDA-01.1"
+      ],
+      "Article 10.11": [
+        "TDA-01.1"
+      ],
+      "Article 13.1": [
+        "TDA-01.1"
+      ],
+      "Article 13.2": [
+        "TDA-01.1"
+      ],
+      "Article 13.2(b)": [
+        "TDA-01.1",
+        "TDA-22"
+      ],
+      "Article 13.2(c)": [
+        "TDA-01.1"
+      ],
+      "Article 13.3": [
+        "TDA-01.1"
+      ],
+      "Article 13.4": [
+        "TDA-01.1"
+      ],
+      "Article 13.5": [
+        "TDA-01.1"
+      ],
+      "Article 14.1": [
+        "TDA-01.1"
+      ],
+      "Article 14.2": [
+        "TDA-01.1"
+      ],
+      "Article 14.2(a)": [
+        "TDA-01.1"
+      ],
+      "Article 14.2(b)": [
+        "TDA-01.1"
+      ],
+      "Article 14.3": [
+        "TDA-01.1"
+      ],
+      "Article 11.7": [
+        "TDA-02.11",
+        "TDA-04.2"
+      ],
+      "Article 11.1": [
+        "TDA-02.13"
+      ],
+      "Article 23.1": [
+        "TDA-22"
+      ],
+      "Article 23.2": [
+        "TDA-22"
+      ],
+      "Article 23.3": [
+        "TDA-22"
+      ],
+      "Article 23.4": [
+        "TDA-22"
+      ],
+      "Article 10.3": [
+        "TDA-22.1"
+      ],
+      "Article 10.4": [
+        "TPM-03"
+      ]
+    }
+  }
+}

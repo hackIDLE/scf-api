@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "PRI-03.13",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-03.13",
+      "ao_id": "PRI-03.13_A01",
+      "objective": "processes that may involve minors are identified.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-03.13",
+      "ao_id": "PRI-03.13_A02",
+      "objective": "reasonable consumer expectations to obtain parental or guardian consent for Personal Data (PD) processing actions when the data subject is a minor are identified.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-03.13",
+      "ao_id": "PRI-03.13_A03",
+      "objective": "parental or guardian consent for Personal Data (PD) processing actions through reasonable consumer expectations, when the data subject is a minor, is obtained.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

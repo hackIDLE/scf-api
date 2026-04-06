@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "IAC-05",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-05",
+      "ao_id": "IAC-05_A01",
+      "objective": "system services and applications to be uniquely identified and authenticated are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IA-09_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-05",
+      "ao_id": "IAC-05_A02",
+      "objective": "system services and applications are uniquely identified and authenticated before establishing communications with devices, users or other services or applications.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-09",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

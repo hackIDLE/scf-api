@@ -1,0 +1,206 @@
+{
+  "control_id": "CLD-09",
+  "title": "Geolocation Requirements for Processing, Storage and Service Locations",
+  "family": "CLD",
+  "description": "Mechanisms exist to control the location of cloud processing/storage based on business requirements that includes statutory, regulatory and contractual obligations.",
+  "scf_question": "Does the organization control the location of cloud processing/storage based on business requirements that includes statutory, regulatory and contractual obligations?",
+  "relative_weight": 10,
+  "conformity_cadence": "Semi-Annual",
+  "evidence_requests": [
+    "E-AST-06",
+    "E-AST-23",
+    "E-DCH-15"
+  ],
+  "pptdf": "Process",
+  "nist_csf_function": "Protect",
+  "scrm_focus": {
+    "strategic": false,
+    "operational": true,
+    "tactical": true
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "Cloud Security (CLD) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with CLD domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Cloud management-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ Geolocation requirements for sensitive/regulated data types identify restrictions on transfer of data to third-countries or international organizations.",
+    "2": "Cloud Security (CLD) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CLD domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with CLD domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CLD  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Cloud management controls-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Cloud management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Cloud-based Technology Assets, Applications and/or Services (TAAS) are governed according to the same processes used for on-premises TAAS, where no formal, dedicated cloud governance process exists.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to govern geolocation requirements for sensitive/regulated data types, including the transfer of data to third-countries or international organizations.",
+    "3": "Cloud Security (CLD) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with CLD domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with CLD domain capabilities are well-documented and kept current by process owners.\n▪ A cloud governance team, or similar function, is appropriately staffed and supported to implement and maintain CLD domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of cloud governance operations (e.g., multi-cloud governance tools, policy enforcement, cost management, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with CLD domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to control the location of cloud processing/storage based on business requirements that includes statutory, regulatory and contractual obligations.",
+    "4": "Compliance (CPL) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+    "5": "Cloud Security (CLD) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions."
+  },
+  "profiles": [
+    "SCRMS",
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+  ],
+  "possible_solutions": {
+    "micro_small": "∙ Data Protection Impact Assessment (DPIA)\n∙ Cybersecurity Supply Chain Risk Management (C-SCRM) program",
+    "small": "∙ Data Protection Impact Assessment (DPIA)\n∙ Cybersecurity Supply Chain Risk Management (C-SCRM) program",
+    "medium": "∙ Data Protection Impact Assessment (DPIA)\n∙ Cybersecurity Supply Chain Risk Management (C-SCRM) program",
+    "large": "∙ Data Protection Impact Assessment (DPIA)\n∙ Cybersecurity Supply Chain Risk Management (C-SCRM) program",
+    "enterprise": "∙ Data Protection Impact Assessment (DPIA)\n∙ Cybersecurity Supply Chain Risk Management (C-SCRM) program"
+  },
+  "risks": [
+    "R-AC-4",
+    "R-AM-1",
+    "R-AM-3",
+    "R-BC-2",
+    "R-BC-4",
+    "R-BC-5",
+    "R-EX-1",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-EX-5",
+    "R-EX-6",
+    "R-GV-1",
+    "R-GV-2",
+    "R-GV-4",
+    "R-GV-5",
+    "R-IR-1",
+    "R-IR-4"
+  ],
+  "threats": [
+    "NT-7",
+    "MT-1",
+    "MT-2",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-10",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Cloud Security",
+  "crosswalks": {
+    "general-aicpa-tsc-2017": [
+      "CC2.1-POF9"
+    ],
+    "general-csa-cmm-4-1-0": [
+      "DSP-19"
+    ],
+    "general-govramp": [
+      "SA-09(05)"
+    ],
+    "general-govramp-high": [
+      "SA-09(05)"
+    ],
+    "general-iso-27002-2022": [
+      "5.23"
+    ],
+    "general-iso-27018-2025": [
+      "5.23"
+    ],
+    "general-nist-800-53-r4": [
+      "SA-9(5)"
+    ],
+    "general-nist-800-53-r5-2": [
+      "SA-09(05)",
+      "SA-09(08)"
+    ],
+    "general-nist-800-53-r5-2-privacy": [
+      "SA-09(05)",
+      "SA-09(08)"
+    ],
+    "general-nist-800-82-r3": [
+      "SA-09(05)",
+      "SA-09(08)"
+    ],
+    "general-nist-800-161-r1": [
+      "SA-9(5)"
+    ],
+    "general-nist-800-161-r1-level-3": [
+      "SA-9(5)"
+    ],
+    "usa-federal-dow-zt-roadmap-1-1": [
+      "4.7.4"
+    ],
+    "usa-federal-gsa-fedramp-5-low": [
+      "SA-09(05)",
+      "SA-09(08)"
+    ],
+    "usa-federal-gsa-fedramp-5-mod": [
+      "SA-09(05)",
+      "SA-09(08)"
+    ],
+    "usa-federal-gsa-fedramp-5-high": [
+      "SA-09(05)",
+      "SA-09(08)"
+    ],
+    "usa-federal-gsa-fedramp-5-li-saas": [
+      "SA-09(05)",
+      "SA-09(08)"
+    ],
+    "usa-federal-irs-1075-2021": [
+      "SA-9(CE-5)",
+      "SA-9(CE-8)"
+    ],
+    "usa-federal-cms-marse-2-0": [
+      "SA-9(5)"
+    ],
+    "usa-federal-dow-safeguarding-nnpi-2010": [
+      "9-3.c"
+    ],
+    "usa-state-tx-txramp-2-0-level-2": [
+      "SA-09 (05)"
+    ],
+    "emea-deu-c5-2020": [
+      "PI-02",
+      "PSS-12"
+    ],
+    "emea-ken-pda-2019": [
+      "25(h)"
+    ],
+    "emea-qat-pdppl-2020": [
+      "15"
+    ],
+    "emea-sau-cscc-1-2019": [
+      "4-2-1-1"
+    ],
+    "emea-sau-ecc-1-2018": [
+      "4-1-3-2",
+      "4-2-3-3"
+    ],
+    "emea-sau-sacs-002-2022": [
+      "TPC-30"
+    ],
+    "apac-aus-privacy-principles-2026": [
+      "APP 8"
+    ],
+    "apac-aus-ism-2024-june": [
+      "ISM-1572"
+    ],
+    "apac-chn-pipl-2021": [
+      "38",
+      "39",
+      "40"
+    ],
+    "apac-ind-sebi-2024": [
+      "PR.DS.S2"
+    ],
+    "apac-jpn-ppi-2020": [
+      "24(1)"
+    ],
+    "apac-nzl-ism-3-9": [
+      "22.1.22.C.01",
+      "22.1.22.C.02",
+      "22.1.22.C.03",
+      "22.1.22.C.04",
+      "22.1.22.C.05",
+      "22.1.22.C.06",
+      "23.4.11.C.01",
+      "23.4.11.C.02"
+    ],
+    "americas-arg-ppd-2018": [
+      "12.1",
+      "12.2"
+    ],
+    "americas-bra-lgpd-2018": [
+      "33",
+      "34"
+    ]
+  }
+}

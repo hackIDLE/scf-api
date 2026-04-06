@@ -1,0 +1,144 @@
+{
+  "framework_id": "apac-aus-privacy-act-1998",
+  "display_name": "Australia - Privacy Act of 1998",
+  "scf_to_framework": {
+    "total_mappings": 23,
+    "mappings": {
+      "GOV-01": [
+        "APP Part 1",
+        "APP Part 11"
+      ],
+      "CPL-01": [
+        "APP Part 11"
+      ],
+      "CPL-02": [
+        "APP Part 11"
+      ],
+      "DCH-01": [
+        "APP Part 8",
+        "APP Part 11"
+      ],
+      "DCH-22.1": [
+        "APP Part 13"
+      ],
+      "PRI-01": [
+        "Inferred",
+        "Expectation"
+      ],
+      "PRI-02": [
+        "APP Part 5"
+      ],
+      "PRI-02.1": [
+        "APP Part 3"
+      ],
+      "PRI-03": [
+        "APP Part 3"
+      ],
+      "PRI-04": [
+        "APP Part 3"
+      ],
+      "PRI-04.1": [
+        "APP Part 3"
+      ],
+      "PRI-05": [
+        "APP Part 3",
+        "APP Part 6"
+      ],
+      "PRI-05.1": [
+        "APP Part 3"
+      ],
+      "PRI-05.2": [
+        "APP Part 10"
+      ],
+      "PRI-05.3": [
+        "APP Part 2"
+      ],
+      "PRI-05.4": [
+        "APP Part 3"
+      ],
+      "PRI-06": [
+        "APP Part 12"
+      ],
+      "PRI-06.1": [
+        "APP Part 13"
+      ],
+      "PRI-06.2": [
+        "APP Part 13"
+      ],
+      "PRI-06.4": [
+        "APP Part 13"
+      ],
+      "SEA-01": [
+        "APP Part 8",
+        "APP Part 11"
+      ],
+      "SEA-02": [
+        "APP Part 8",
+        "APP Part 11"
+      ],
+      "SEA-03": [
+        "APP Part 8",
+        "APP Part 11"
+      ]
+    }
+  },
+  "framework_to_scf": {
+    "total_mappings": 12,
+    "mappings": {
+      "APP Part 1": [
+        "GOV-01"
+      ],
+      "APP Part 11": [
+        "GOV-01",
+        "CPL-01",
+        "CPL-02",
+        "DCH-01",
+        "SEA-01",
+        "SEA-02",
+        "SEA-03"
+      ],
+      "APP Part 8": [
+        "DCH-01",
+        "SEA-01",
+        "SEA-02",
+        "SEA-03"
+      ],
+      "APP Part 13": [
+        "DCH-22.1",
+        "PRI-06.1",
+        "PRI-06.2",
+        "PRI-06.4"
+      ],
+      "Inferred": [
+        "PRI-01"
+      ],
+      "Expectation": [
+        "PRI-01"
+      ],
+      "APP Part 5": [
+        "PRI-02"
+      ],
+      "APP Part 3": [
+        "PRI-02.1",
+        "PRI-03",
+        "PRI-04",
+        "PRI-04.1",
+        "PRI-05",
+        "PRI-05.1",
+        "PRI-05.4"
+      ],
+      "APP Part 6": [
+        "PRI-05"
+      ],
+      "APP Part 10": [
+        "PRI-05.2"
+      ],
+      "APP Part 2": [
+        "PRI-05.3"
+      ],
+      "APP Part 12": [
+        "PRI-06"
+      ]
+    }
+  }
+}

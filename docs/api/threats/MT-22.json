@@ -1,0 +1,6 @@
+{
+  "threat_id": "MT-22",
+  "grouping": "Man-Made Threat",
+  "name": "Manufacturing & Supply",
+  "description": "Manufacturing & Supply is a Supply Chain Risk Management (SCRM) threat category pertaining to interdependencies related to data, systems and mission functions. Concerns include the availability of supply, capacity to surge, sole-source and concentration within or over-reliance on a single source.\n\nAt issue is a single supplier or sector/market that is incapable of meeting market demand. This can be due to reduced throughput or production delays caused by capacity constraints, obsolescence, industrial limitations, market conditions, disrupted material delivery and other conditions."
+}

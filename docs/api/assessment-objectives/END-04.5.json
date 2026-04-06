@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "END-04.5",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "END-04.5",
+      "ao_id": "END-04.5_A01",
+      "objective": "the frequency at which to test malicious code protection mechanisms is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-03(06)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-04.5",
+      "ao_id": "END-04.5_A02",
+      "objective": "malicious code protection mechanisms are tested frequently by introducing known benign code into the system.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-03(06)(a)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-04.5",
+      "ao_id": "END-04.5_A03",
+      "objective": "the detection of (benign test) code occurs.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-03(06)(b)[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "END-04.5",
+      "ao_id": "END-04.5_A04",
+      "objective": "the associated incident reporting occurs.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-03(06)(b)[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

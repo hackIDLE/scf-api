@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "PRI-05.8",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-05.8",
+      "ao_id": "PRI-05.8_A01",
+      "objective": "a data retention schedule, or similar process, dictates the maximum timeline necessary to maintain Personal Data (PD), based on purposes for which the PD are processed.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05.8",
+      "ao_id": "PRI-05.8_A02",
+      "objective": "processes are defined to implement the data retention schedule for Personal Data (PD).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-05.8",
+      "ao_id": "PRI-05.8_A03",
+      "objective": "processes remove Personal Data (PD) which permits the identification of data subjects once it is no longer necessary for the purposes for which the PD are processed.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

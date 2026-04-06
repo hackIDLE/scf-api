@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "IRO-02.2",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IRO-02.2",
+      "ao_id": "IRO-02.2_A01",
+      "objective": "an incident handling capability is implemented for incidents involving insider threats.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-04(06)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

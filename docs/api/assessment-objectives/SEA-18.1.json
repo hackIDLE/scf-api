@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "SEA-18.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "SEA-18.1",
+      "ao_id": "SEA-18.1_A01",
+      "objective": "Microsoft Windows-based systems are configured to display an approved logon banner before granting access to the system that provides privacy and security notices.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "SEA-18.1",
+      "ao_id": "SEA-18.1_A02",
+      "objective": "a system use notification message with privacy and security notices consistent with applicable CUI rules is displayed before granting access to the system.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.01.09",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

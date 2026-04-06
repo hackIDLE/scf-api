@@ -1,0 +1,66 @@
+{
+  "scf_control_id": "MDM-02",
+  "total": 6,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MDM-02",
+      "ao_id": "MDM-02_A01",
+      "objective": "configuration requirements are established for organization-controlled mobile devices, including when such devices are outside of the controlled area.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-19a.[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MDM-02",
+      "ao_id": "MDM-02_A02",
+      "objective": "connection requirements are established for organization-controlled mobile devices, including when such devices are outside of the controlled area.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-19a.[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MDM-02",
+      "ao_id": "MDM-02_A03",
+      "objective": "implementation guidance is established for organization-controlled mobile devices, including when such devices are outside of the controlled area.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-19a.[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MDM-02",
+      "ao_id": "MDM-02_A04",
+      "objective": "the connection of mobile devices to the system is authorized.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-19b.\n171A_3.1.18[b]\n171A_R3_A.03.01.18.b",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MDM-02",
+      "ao_id": "MDM-02_A05",
+      "objective": "mobile devices that process, store or transmit sensitive / regulated data are identified.",
+      "pptdf": "Process",
+      "origin": "171A_3.1.18[a]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "MDM-02",
+      "ao_id": "MDM-02_A06",
+      "objective": "mobile device connections are monitored and logged.",
+      "pptdf": "Technology",
+      "origin": "171A_3.1.18[c]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

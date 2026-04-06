@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PES-07",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PES-07",
+      "ao_id": "PES-07_A01",
+      "objective": "power equipment for the system is protected from damage and destruction.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-09[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-07",
+      "ao_id": "PES-07_A02",
+      "objective": "power cabling for the system is protected from damage and destruction.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-09[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

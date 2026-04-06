@@ -1,0 +1,16 @@
+{
+  "erl_id": "E-SAT-05",
+  "area": "Education",
+  "artifact_name": "Role-Based Training",
+  "artifact_description": "Documented evidence of specialized user training for privileged users, executives, individuals who handle sensitive/regulated data, etc.",
+  "scf_controls": [
+    "DCH-14",
+    "SAT-01",
+    "SAT-03",
+    "SAT-03.4",
+    "SAT-03.5",
+    "SAT-04",
+    "THR-05"
+  ],
+  "cmmc_mapping": ""
+}

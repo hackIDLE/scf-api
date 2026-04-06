@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "IAC-26",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-26",
+      "ao_id": "IAC-26_A01",
+      "objective": "user actions that can be performed on the system without identification or authentication are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-14_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-26",
+      "ao_id": "IAC-26_A02",
+      "objective": "organization-defined user actions that can be performed on the system without identification or authentication consistent with organizational mission and business functions are identified.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-14a.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-26",
+      "ao_id": "IAC-26_A03",
+      "objective": "user actions not requiring identification or authentication are documented in the security plan for the system.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-14b.[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-26",
+      "ao_id": "IAC-26_A04",
+      "objective": "a rationale for user actions not requiring identification or authentication is provided in the security plan for the system.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-14b.[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

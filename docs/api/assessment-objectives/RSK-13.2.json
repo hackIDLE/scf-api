@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "RSK-13.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "RSK-13.2",
+      "ao_id": "RSK-13.3_A01",
+      "objective": "acceptable methods to document executive leadership justification for selecting a specific course of action to manage material risk are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-13.2",
+      "ao_id": "RSK-13.3_A02",
+      "objective": "executive leadership justification for selecting a specific course of action to manage material risk are documented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

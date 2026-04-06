@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-02.4",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-02.4",
+      "ao_id": "AAT-02.4_A01",
+      "objective": "Artificial Intelligence (AI) and Autonomous Technologies (AAT)-specific threat modeling addresses the following criteria across the lifecycle of the AAT:\n(1) Attack surfaces;\n(2) Adversarial threats; and \n(3) Abuse / misuse scenarios.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-02.4",
+      "ao_id": "AAT-02.4_A02",
+      "objective": "Artificial Intelligence (AI) and Autonomous Technologies (AAT)-specific risk assessments address the following criteria across the lifecycle of the AAT:\n(1) Attack surfaces;\n(2) Adversarial threats; and \n(3) Abuse / misuse scenarios.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

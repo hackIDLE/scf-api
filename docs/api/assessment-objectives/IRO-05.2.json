@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "IRO-05.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IRO-05.2",
+      "ao_id": "IRO-05.2_A01",
+      "objective": "automated mechanisms used in an incident response training environment are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-02(02)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-05.2",
+      "ao_id": "IRO-05.2_A02",
+      "objective": "an incident response training environment is provided using automated mechanisms.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IR-02(02)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

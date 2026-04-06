@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "RSK-06",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "RSK-06",
+      "ao_id": "RSK-06_A01",
+      "objective": "a defined risk threshold exists to determine what risk is and is not acceptable.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-06",
+      "ao_id": "RSK-06_A02",
+      "objective": "data / process owners are held accountable to remediate risks to an acceptable level.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-06",
+      "ao_id": "RSK-06_A03",
+      "objective": "the organization utilizes compensating controls to remediate control deficiencies to an acceptable level.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

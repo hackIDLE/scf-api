@@ -1,0 +1,156 @@
+{
+  "scf_control_id": "RSK-01.1",
+  "total": 15,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "RSK-01.1",
+      "ao_id": "RSK-01.1_A01",
+      "objective": "the personnel to receive the results of risk framing activities is/are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-28_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-01.1",
+      "ao_id": "RSK-01.1_A02",
+      "objective": "the frequency for reviewing and updating risk framing considerations is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-28_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "at least annually",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-01.1",
+      "ao_id": "RSK-01.1_A03",
+      "objective": "assumptions affecting risk assessments are identified and documented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-28a.01[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-01.1",
+      "ao_id": "RSK-01.1_A04",
+      "objective": "assumptions affecting risk responses are identified and documented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-28a.01[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-01.1",
+      "ao_id": "RSK-01.1_A05",
+      "objective": "assumptions affecting risk monitoring are identified and documented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-28a.01[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-01.1",
+      "ao_id": "RSK-01.1_A06",
+      "objective": "constraints affecting risk assessments are identified and documented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-28a.02[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-01.1",
+      "ao_id": "RSK-01.1_A07",
+      "objective": "constraints affecting risk responses are identified and documented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-28a.02[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-01.1",
+      "ao_id": "RSK-01.1_A08",
+      "objective": "constraints affecting risk monitoring are identified and documented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-28a.02[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-01.1",
+      "ao_id": "RSK-01.1_A09",
+      "objective": "priorities considered by the organization for managing risk are identified and documented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-28a.03[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-01.1",
+      "ao_id": "RSK-01.1_A10",
+      "objective": "trade-offs considered by the organization for managing risk are identified and documented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-28a.03[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-01.1",
+      "ao_id": "RSK-01.1_A11",
+      "objective": "organizational risk tolerance is identified and documented.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-28a.04",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-01.1",
+      "ao_id": "RSK-01.1_A12",
+      "objective": "the results of risk framing activities are distributed to personnel.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-28b.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-01.1",
+      "ao_id": "RSK-01.1_A13",
+      "objective": "risk framing considerations are reviewed / updated frequently.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PM-28c.",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-01.1",
+      "ao_id": "RSK-01.1_A14",
+      "objective": "the risk (including supply chain risk) of unauthorized disclosure resulting from the processing, storage, or transmission of sensitive / regulated data is assessed.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "RSK-01.1",
+      "ao_id": "RSK-01.1_A15",
+      "objective": "the risk (including supply chain risk) of unauthorized disclosure resulting from the processing, storage, or transmission of CUI is assessed.",
+      "pptdf": "Data",
+      "origin": "171A_R3_A.03.11.01.a",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

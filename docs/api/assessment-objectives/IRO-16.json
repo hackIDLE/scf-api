@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "IRO-16",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IRO-16",
+      "ao_id": "IRO-16_A01",
+      "objective": "public relations associated with an incident are managed.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-04(15)(a)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-16",
+      "ao_id": "IRO-16_A02",
+      "objective": "measures are employed to repair the reputation of the organization.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-04(15)(b)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "framework_id": "usa-federal-law-ftc-act",
+  "display_name": "Federal Trade Commission (FTC) Act",
+  "scf_to_framework": {
+    "total_mappings": 16,
+    "mappings": {
+      "GOV-01": [
+        "45(a)(1)"
+      ],
+      "GOV-01.1": [
+        "45(a)(1)"
+      ],
+      "GOV-08": [
+        "45(a)(1)"
+      ],
+      "GOV-14": [
+        "45(a)(1)"
+      ],
+      "GOV-15": [
+        "45(a)(1)"
+      ],
+      "GOV-15.1": [
+        "45(a)(1)"
+      ],
+      "GOV-15.2": [
+        "45(a)(1)"
+      ],
+      "GOV-15.3": [
+        "45(a)(1)"
+      ],
+      "GOV-15.4": [
+        "45(a)(1)"
+      ],
+      "GOV-15.5": [
+        "45(a)(1)"
+      ],
+      "SEA-01": [
+        "45(a)(1)"
+      ],
+      "SEA-02": [
+        "45(a)(1)"
+      ],
+      "SEA-03": [
+        "45(a)(1)"
+      ],
+      "TDA-01": [
+        "45(a)(1)"
+      ],
+      "TDA-01.1": [
+        "45(a)(1)"
+      ],
+      "TDA-06": [
+        "45(a)(1)"
+      ]
+    }
+  },
+  "framework_to_scf": {
+    "total_mappings": 1,
+    "mappings": {
+      "45(a)(1)": [
+        "GOV-01",
+        "GOV-01.1",
+        "GOV-08",
+        "GOV-14",
+        "GOV-15",
+        "GOV-15.1",
+        "GOV-15.2",
+        "GOV-15.3",
+        "GOV-15.4",
+        "GOV-15.5",
+        "SEA-01",
+        "SEA-02",
+        "SEA-03",
+        "TDA-01",
+        "TDA-01.1",
+        "TDA-06"
+      ]
+    }
+  }
+}

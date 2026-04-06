@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "MDM-08",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MDM-08",
+      "ao_id": "MDM-08_A01",
+      "objective": "data retention on mobile devices is limited to the smallest usable dataset and timeframe.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

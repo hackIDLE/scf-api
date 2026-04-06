@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "HRS-05",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "HRS-05",
+      "ao_id": "HRS-05_A01",
+      "objective": "through terms of employment, all employees and contractors are required to apply cybersecurity / data privacy principles in their daily work.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-05",
+      "ao_id": "HRS-05_A02",
+      "objective": "rules are provided to individuals who require access to the system.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.15.03.b",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

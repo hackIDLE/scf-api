@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "BCD-06.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "BCD-06.2",
+      "ao_id": "BCD-06.2_A01",
+      "objective": "stakeholders for contingency plans are identified.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "BCD-06.2",
+      "ao_id": "BCD-06.2_A02",
+      "objective": "stakeholders are informed of changes to contingency plans.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

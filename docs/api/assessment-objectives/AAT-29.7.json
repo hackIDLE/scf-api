@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "AAT-29.7",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-29.7",
+      "ao_id": "AAT-29.7_A01",
+      "objective": "AI agent access to sensitive/regulated data is restricted so that AI agents cannot ingest, generate or act on unauthorized data.",
+      "pptdf": "Data",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

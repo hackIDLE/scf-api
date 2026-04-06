@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "NET-20.5",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-20.5",
+      "ao_id": "NET-20.5_A01",
+      "objective": "email systems are configured to enable users to digitally sign their emails, allowing external parties to authenticate the email’s sender and its contents according to the Domain-based Message Authentication Reporting and Conformance (DMARC) email authentication protocol.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-16.14",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-16.14",
+      "ao_id": "AAT-16.14_A01",
+      "objective": "AI agent to AI agent communications to are validated to detect poisoning or consensus manipulation.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-16.14",
+      "ao_id": "AAT-16.14_A02",
+      "objective": "AI agent to AI agent communications to are validated to identify rogue or compromised AI agents in distributed or multi-agent environments.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

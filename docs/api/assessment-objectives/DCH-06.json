@@ -1,0 +1,116 @@
+{
+  "scf_control_id": "DCH-06",
+  "total": 11,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-06",
+      "ao_id": "DCH-06_A01",
+      "objective": "types of digital media to be securely stored are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MP-04_ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-06",
+      "ao_id": "DCH-06_A02",
+      "objective": "types of non-digital media to be securely stored are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MP-04_ODP[04]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-06",
+      "ao_id": "DCH-06_A03",
+      "objective": "controlled areas within which to securely store digital media are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MP-04_ODP[05]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-06",
+      "ao_id": "DCH-06_A04",
+      "objective": "controlled areas within which to securely store non-digital media are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MP-04_ODP[06]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-06",
+      "ao_id": "DCH-06_A05",
+      "objective": "types of digital media are securely stored within controlled areas.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_MP-04a.[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "all types of digital and non-digital media with sensitive information",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-06",
+      "ao_id": "DCH-06_A06",
+      "objective": "types of non-digital media are securely stored within controlled areas.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_MP-04a.[04]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "all types of digital and non-digital media with sensitive information",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-06",
+      "ao_id": "DCH-06_A07",
+      "objective": "system media types are protected until the media are destroyed or sanitized using approved equipment, techniques and procedures.",
+      "pptdf": "Process",
+      "origin": "53A_R5_MP-04b.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-06",
+      "ao_id": "DCH-06_A08",
+      "objective": "system media that contain sensitive / regulated data are physically controlled.",
+      "pptdf": "Data",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-06",
+      "ao_id": "DCH-06_A09",
+      "objective": "system media that contain sensitive / regulated data are securely stored.",
+      "pptdf": "Data",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-06",
+      "ao_id": "DCH-06_A10",
+      "objective": "system media that contain CUI are physically controlled.",
+      "pptdf": "Data",
+      "origin": "171A_R3_A.03.08.01[01]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-06",
+      "ao_id": "DCH-06_A11",
+      "objective": "system media that contain CUI are securely stored.",
+      "pptdf": "Data",
+      "origin": "171A_R3_A.03.08.01[02]",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

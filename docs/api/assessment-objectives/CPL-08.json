@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "CPL-08",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CPL-08",
+      "ao_id": "CPL-08_A01",
+      "objective": "localized representation with a physical presence in localities is appointed to represent the organization, as required by applicable laws and/or regulations.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "IRO-15",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IRO-15",
+      "ao_id": "IRO-15_A01",
+      "objective": "the system, system component or location where a detonation chamber capability is to be employed is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-44_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-15",
+      "ao_id": "IRO-15_A02",
+      "objective": "a detonation chamber capability is employed within the organization-defined system, system component or location.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-44",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

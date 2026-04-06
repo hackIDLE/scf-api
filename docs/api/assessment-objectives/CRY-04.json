@@ -1,0 +1,86 @@
+{
+  "scf_control_id": "CRY-04",
+  "total": 8,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CRY-04",
+      "ao_id": "CRY-04_A01",
+      "objective": "the integrity of transmitted information is/are protected.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-08\n53A_R5_SC-08_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CRY-04",
+      "ao_id": "CRY-04_A02",
+      "objective": "cryptographic uses are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-13_ODP[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CRY-04",
+      "ao_id": "CRY-04_A03",
+      "objective": "information requiring cryptographic protection is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-28(01)_ODP[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CRY-04",
+      "ao_id": "CRY-04_A04",
+      "objective": "system components or media requiring cryptographic protection is/are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-28(01)_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CRY-04",
+      "ao_id": "CRY-04_A05",
+      "objective": "types of cryptography for each specified cryptographic use are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-13_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CRY-04",
+      "ao_id": "CRY-04_A06",
+      "objective": "the integrity of transmitted cybersecurity / data privacy attributes is verified.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-16(01)[01]\n53A_R5_SC-16(01)[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CRY-04",
+      "ao_id": "CRY-04_A07",
+      "objective": "cryptographic mechanisms are implemented to prevent unauthorized disclosure of information at rest on system components or media.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-28(01)[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CRY-04",
+      "ao_id": "CRY-04_A08",
+      "objective": "cryptographic mechanisms are implemented to prevent unauthorized modification of information at rest on system components or media.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SC-28(01)[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

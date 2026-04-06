@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "PRI-04.3",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PRI-04.3",
+      "ao_id": "PRI-04.3_A01",
+      "objective": "the business case(s) is defined for the collection, processing, storage and sharing of photographic and/or video surveillance image collection that can identify individuals.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PRI-04.3",
+      "ao_id": "PRI-04.3_A02",
+      "objective": "the collection, processing, storage and sharing of photographic and/or video surveillance image collection that can identify individuals is restricted to legitimate business needs.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

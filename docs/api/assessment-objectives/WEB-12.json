@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "WEB-12",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "WEB-12",
+      "ao_id": "WEB-12_A01",
+      "objective": "web applications implement Content-Security-Policy, HSTS and X-Frame-Options response headers to protect both the web application and its users.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

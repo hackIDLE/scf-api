@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "AAT-29.3",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-29.3",
+      "ao_id": "AAT-29.3_A01",
+      "objective": "tool and Application Programming Interface (API) invocations by AI agents include schema validation.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-29.3",
+      "ao_id": "AAT-29.3_A02",
+      "objective": "tool and API invocations by AI agents include rate limiting.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-29.3",
+      "ao_id": "AAT-29.3_A03",
+      "objective": "tool and API invocations by AI agents include access controls.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-29.3",
+      "ao_id": "AAT-29.3_A04",
+      "objective": "tool and API invocations by AI agents include output validation.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

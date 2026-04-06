@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "TDA-02.11",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-02.11",
+      "ao_id": "TDA-02.11_A01",
+      "objective": "stakeholder vulnerability disclosures contain a description of the vulnerability(ies).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-02.11",
+      "ao_id": "TDA-02.11_A02",
+      "objective": "stakeholder vulnerability disclosures contain information about affected product(s) and/or service(s).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-02.11",
+      "ao_id": "TDA-02.11_A03",
+      "objective": "stakeholder vulnerability disclosures contain information about potential impact of the vulnerability(ies).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-02.11",
+      "ao_id": "TDA-02.11_A04",
+      "objective": "stakeholder vulnerability disclosures contain information about the severity of the vulnerability(ies).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-02.11",
+      "ao_id": "TDA-02.11_A05",
+      "objective": "stakeholder vulnerability disclosures contain information about guidance to remediate the vulnerability(ies).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "IRO-10.3",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IRO-10.3",
+      "ao_id": "IRO-10.3_A01",
+      "objective": "personnel or roles to whom system vulnerabilities associated with reported incidents are reported to is/are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-06(02)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-10.3",
+      "ao_id": "IRO-10.3_A02",
+      "objective": "system vulnerabilities associated with reported incidents are reported to personnel or roles.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-06(02)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

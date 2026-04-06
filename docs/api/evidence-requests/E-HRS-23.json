@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-HRS-23",
+  "area": "Human Resources",
+  "artifact_name": "Critical Cybersecurity & Data Privacy Skills",
+  "artifact_description": "Documented evidence of personnel management practices to formally identify critical cybersecurity skills needed to support business operations.",
+  "scf_controls": [
+    "HRS-03.2",
+    "HRS-13"
+  ],
+  "cmmc_mapping": ""
+}

@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "AAT-02.3",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-02.3",
+      "ao_id": "AAT-02.3_A01",
+      "objective": "risks and threats for Artificial Intelligence (AI) and Autonomous Technologies (AAT) are identified.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-02.3",
+      "ao_id": "AAT-02.3_A02",
+      "objective": "reasonable cybersecurity and data protections that are commensurate with assessed risks and threats for Artificial Intelligence (AI) and Autonomous Technologies (AAT) are defined.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-02.3",
+      "ao_id": "AAT-02.3_A03",
+      "objective": "reasonable cybersecurity and data protections that are commensurate with assessed risks and threats for Artificial Intelligence (AI) and Autonomous Technologies (AAT) are implemented.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

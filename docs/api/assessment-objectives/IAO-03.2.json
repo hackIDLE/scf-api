@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "IAO-03.2",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAO-03.2",
+      "ao_id": "IAO-03.2_A01",
+      "objective": "sensitive / regulated data that is collected, developed, received, transmitted, used or stored in support of the performance of a contract is protected.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

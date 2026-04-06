@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "EMB-03",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "EMB-03",
+      "ao_id": "EMB-03_A01",
+      "objective": "cybersecurity / data privacy risks associated with Operational Technology (OT) are proactively managed.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

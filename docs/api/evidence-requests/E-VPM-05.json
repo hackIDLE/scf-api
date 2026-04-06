@@ -1,0 +1,12 @@
+{
+  "erl_id": "E-VPM-05",
+  "area": "Vulnerability Management",
+  "artifact_name": "Vulnerability Assessments",
+  "artifact_description": "Documented evidence of internal and external vulnerability assessment activities.",
+  "scf_controls": [
+    "VPM-06",
+    "VPM-06.6",
+    "VPM-06.7"
+  ],
+  "cmmc_mapping": ""
+}

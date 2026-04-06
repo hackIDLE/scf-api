@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-PRM-06",
+  "area": "Resource Management",
+  "artifact_name": "Quarterly Business Review (QBR)",
+  "artifact_description": "Documented evidence of a Quarterly Business Review (QBR), or similar process, to provide recurring status reports on the current state of the cybersecurity and data protection program.",
+  "scf_controls": [
+    "GOV-01.1"
+  ],
+  "cmmc_mapping": ""
+}

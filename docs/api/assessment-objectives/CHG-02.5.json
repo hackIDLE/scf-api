@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "CHG-02.5",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CHG-02.5",
+      "ao_id": "CHG-02.5_A01",
+      "objective": "controls provided by cryptographic mechanisms that are to be under configuration management are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-03(06)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-02.5",
+      "ao_id": "CHG-02.5_A02",
+      "objective": "cryptographic mechanisms used to provide organization-defined controls are under configuration management.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_CM-03(06)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

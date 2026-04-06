@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "TDA-19",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "TDA-19",
+      "ao_id": "TDA-19_A01",
+      "objective": "personnel or roles to whom error messages are to be revealed is/are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-11_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-19",
+      "ao_id": "TDA-19_A02",
+      "objective": "error messages that provide the information necessary for corrective actions are generated without revealing information that could be exploited.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-11a.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "TDA-19",
+      "ao_id": "TDA-19_A03",
+      "objective": "error messages are revealed only to organization-defined personnel or roles.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-11b.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

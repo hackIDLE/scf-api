@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AST-02.10",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AST-02.10",
+      "ao_id": "AST-02.10_A01",
+      "objective": "automated mechanisms for tracking components are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-08(08)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-02.10",
+      "ao_id": "AST-02.10_A02",
+      "objective": "organization-defined automated mechanisms are used to support the tracking of system components by geographic location.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_CM-08(08)",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

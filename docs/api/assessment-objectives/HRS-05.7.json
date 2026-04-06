@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "HRS-05.7",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "HRS-05.7",
+      "ao_id": "HRS-05.7_A01",
+      "objective": "personnel receive recurring familiarization with the organization's cybersecurity / data privacy policies.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-05.7",
+      "ao_id": "HRS-05.7_A02",
+      "objective": "a documented acknowledgement from individuals indicating that they have read, understand, and agree to abide by the rules of behavior is received before authorizing access to sensitive / regulated data and the system.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-05.7",
+      "ao_id": "HRS-05.7_A03",
+      "objective": "a documented acknowledgement from individuals indicating that they have read, understand, and agree to abide by the rules of behavior is received before authorizing access to CUI and the system.",
+      "pptdf": "People",
+      "origin": "171A_R3_A.03.15.03.c",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

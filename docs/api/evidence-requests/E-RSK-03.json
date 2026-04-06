@@ -1,0 +1,18 @@
+{
+  "erl_id": "E-RSK-03",
+  "area": "Risk Management",
+  "artifact_name": "Plan of Actions & Milestones (POA&M) / Risk Register",
+  "artifact_description": "Documented evidence of a POA&M, or risk register, that tracks control deficiencies from identification through remediation.",
+  "scf_controls": [
+    "AST-02.4",
+    "CPL-02",
+    "IAO-05",
+    "RSK-04.1",
+    "RSK-06",
+    "RSK-06.1",
+    "RSK-06.2",
+    "VPM-02",
+    "VPM-03"
+  ],
+  "cmmc_mapping": ""
+}

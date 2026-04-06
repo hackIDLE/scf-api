@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "MNT-04.2",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "MNT-04.2",
+      "ao_id": "MNT-04.2_A01",
+      "objective": "media with diagnostic and test programs are checked for malicious code before the media are used in the system.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_MA-03(02)\n171A_3.7.4\n171A_R3_A.03.07.04.b",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

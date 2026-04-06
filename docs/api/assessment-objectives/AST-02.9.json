@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "AST-02.9",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AST-02.9",
+      "ao_id": "AST-02.9_A01",
+      "objective": "a centralized repository for the system and system component inventory is provided.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-08(07)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-02.9",
+      "ao_id": "AST-02.9_A02",
+      "objective": "automated mechanisms used to maintain the currency of the system component inventory are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-08(02)_ODP[01]\n53A_R5_CM-08(02)[01]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-02.9",
+      "ao_id": "AST-02.9_A03",
+      "objective": "automated mechanisms used to maintain the completeness of the system component inventory are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-08(02)_ODP[02]\n53A_R5_CM-08(02)[02]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-02.9",
+      "ao_id": "AST-02.9_A04",
+      "objective": "automated mechanisms used to maintain the accuracy of the system component inventory are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-08(02)_ODP[03]\n53A_R5_CM-08(02)[03]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AST-02.9",
+      "ao_id": "AST-02.9_A05",
+      "objective": "automated mechanisms used to maintain the availability of the system component inventory are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_CM-08(02)_ODP[04]\n53A_R5_CM-08(02)[04]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "IAC-13.2",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-13.2",
+      "ao_id": "IAC-13.2_A01",
+      "objective": "external organizations to be used for federating credentials are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IA-05(09)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IAC-13.2",
+      "ao_id": "IAC-13.2_A02",
+      "objective": "external organizations are used to federate credentials.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_IA-05(09)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

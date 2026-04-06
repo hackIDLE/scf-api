@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "IRO-11",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IRO-11",
+      "ao_id": "IRO-11_A01",
+      "objective": "an incident response support resource that offers advice and assistance to system users on handling and reporting incidents is provided.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-07[01]\n171A_R3_A.03.06.02.d",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-11",
+      "ao_id": "IRO-11_A02",
+      "objective": "the incident response support resource offers advice and assistance to users of the system for the response and reporting of incidents.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-07[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

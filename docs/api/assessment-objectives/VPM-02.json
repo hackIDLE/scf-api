@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "VPM-02",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "VPM-02",
+      "ao_id": "VPM-02_A01",
+      "objective": "vulnerabilities are identified.",
+      "pptdf": "Process",
+      "origin": "171A_3.11.3[a]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-02",
+      "ao_id": "VPM-02_A02",
+      "objective": "response times to remediate system vulnerabilities are defined.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.11.02.ODP[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "VPM-02",
+      "ao_id": "VPM-02_A03",
+      "objective": "vulnerabilities are remediated in accordance with risk assessments.",
+      "pptdf": "Process",
+      "origin": "171A_3.11.3[b]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

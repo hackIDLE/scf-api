@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-29.21",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-29.21",
+      "ao_id": "AAT-29.21_A01",
+      "objective": "human-understandable explanations for significant AI agent actions or decisions are provided to users.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-29.21",
+      "ao_id": "AAT-29.21_A02",
+      "objective": "end users are able to contest AI agent-generated outcomes.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

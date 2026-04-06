@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "AAT-29.15",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-29.15",
+      "ao_id": "AAT-29.15_A01",
+      "objective": "AI agent self-modification is controlled / restricted.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "AAT-29.15",
+      "ao_id": "AAT-29.15_A02",
+      "objective": "AI agent self-modification actions are logged.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

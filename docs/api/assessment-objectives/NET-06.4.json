@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "NET-06.4",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "NET-06.4",
+      "ao_id": "NET-06.4_A01",
+      "objective": "sensitive / regulated data enclaves (secure zones) are isolated from corporate-provided IT resources by providing enclave-specific IT services (e.g., directory services, DNS, NTP, ITAM, antimalware, patch management, etc.) to those isolated network segments.",
+      "pptdf": "Data",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

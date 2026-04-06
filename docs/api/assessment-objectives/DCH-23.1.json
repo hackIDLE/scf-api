@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "DCH-23.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-23.1",
+      "ao_id": "DCH-23.1_A01",
+      "objective": "the dataset is de-identified upon collection by not collecting Personal Data (PD).",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-19(01)",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

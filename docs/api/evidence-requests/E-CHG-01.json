@@ -1,0 +1,11 @@
+{
+  "erl_id": "E-CHG-01",
+  "area": "Change Management",
+  "artifact_name": "Business Impact Analysis (BIA)",
+  "artifact_description": "Documented evidence of a Business Impact Analysis (BIA) for proposed changes.",
+  "scf_controls": [
+    "RSK-08",
+    "TDA-06.1"
+  ],
+  "cmmc_mapping": ""
+}

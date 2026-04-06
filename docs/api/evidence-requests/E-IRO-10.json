@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-IRO-10",
+  "area": "Incident Response",
+  "artifact_name": "Chain of Custody",
+  "artifact_description": "Documented evidence of an in-house, or externally contracted, capability to perform digital forensics and maintain the integrity of the chain of custody, in accordance with applicable laws, regulations and industry-recognized secure practices.",
+  "scf_controls": [
+    "IRO-08"
+  ],
+  "cmmc_mapping": ""
+}

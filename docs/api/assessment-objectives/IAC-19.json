@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "IAC-19",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IAC-19",
+      "ao_id": "IAC-19_A01",
+      "objective": "the sharing of generic IDs, passwords or other generic authentication methods is prevented.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

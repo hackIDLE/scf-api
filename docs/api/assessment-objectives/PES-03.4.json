@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "PES-03.4",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "PES-03.4",
+      "ao_id": "PES-03.4_A01",
+      "objective": "physical spaces are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_PE-03(01)_ODP",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-03.4",
+      "ao_id": "PES-03.4_A02",
+      "objective": "physical access controls are enforced for the facility at physical spaces.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-03(01)02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "PES-03.4",
+      "ao_id": "PES-03.4_A03",
+      "objective": "physical access authorizations are enforced.",
+      "pptdf": "Facility",
+      "origin": "53A_R5_PE-03(01)[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

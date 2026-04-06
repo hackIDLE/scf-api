@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "AAT-28.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-28.1",
+      "ao_id": "AAT-28.1_A01",
+      "objective": "technical controls prevent \"model pollution\" due to accidental and/or malicious inputs by an AI agent that can negatively alter the AI model.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

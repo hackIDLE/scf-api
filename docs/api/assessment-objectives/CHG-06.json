@@ -1,0 +1,106 @@
+{
+  "scf_control_id": "CHG-06",
+  "total": 10,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CHG-06",
+      "ao_id": "CHG-06_A01",
+      "objective": "security functions to be verified for correct operation are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-06_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-06",
+      "ao_id": "CHG-06_A02",
+      "objective": "organization-defined activities are initiated when anomalies are discovered.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-06d.\n53A_R5_SI-06_ODP[07]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-06",
+      "ao_id": "CHG-06_A03",
+      "objective": "the security requirements for the system continue to be satisfied after the system changes have been implemented.",
+      "pptdf": "Technology",
+      "origin": "171A_R3_A.03.04.04.b",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-06",
+      "ao_id": "CHG-06_A04",
+      "objective": "privacy functions to be verified for correct operation are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-06_ODP[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-06",
+      "ao_id": "CHG-06_A05",
+      "objective": "system transitional states requiring the verification of cybersecurity / data privacy functions are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-06_ODP[04]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-06",
+      "ao_id": "CHG-06_A06",
+      "objective": "the frequency at which to verify the correct operation of cybersecurity / data privacy functions is defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-06_ODP[05]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-06",
+      "ao_id": "CHG-06_A07",
+      "objective": "alternative action(s) to be performed when anomalies are discovered are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-06_ODP[08]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-06",
+      "ao_id": "CHG-06_A08",
+      "objective": "cybersecurity / data privacy functions are verified to be operating correctly.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_SI-06a.[01]\n53A_R5_SI-06b.[01]\n53A_R5_CM-03(02)[01]\n53A_R5_CM-03(02)[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "to include upon system startup and/or restart",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-06",
+      "ao_id": "CHG-06_A09",
+      "objective": "personnel or roles to be alerted of failed cybersecurity / data privacy verification tests is/are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-06_ODP[06]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CHG-06",
+      "ao_id": "CHG-06_A10",
+      "objective": "pertinent personnel or roles is/are alerted to failed cybersecurity / data privacy verification tests.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SI-06c.[01]\n53A_R5_SI-06c.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "to include system administrators and security personnel",
+      "org_defined_parameters": ""
+    }
+  ]
+}

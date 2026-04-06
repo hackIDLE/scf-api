@@ -1,0 +1,483 @@
+{
+  "control_id": "TDA-18",
+  "title": "Input Data Validation",
+  "family": "TDA",
+  "description": "Mechanisms exist to check the validity of information inputs.",
+  "scf_question": "Does the organization check the validity of information inputs?",
+  "relative_weight": 9,
+  "conformity_cadence": "Annual",
+  "evidence_requests": [],
+  "pptdf": "Technology",
+  "nist_csf_function": "Protect",
+  "scrm_focus": {
+    "strategic": true,
+    "operational": true,
+    "tactical": true
+  },
+  "maturity": {
+    "0": "Practices are non-existent, based on the inability to demonstrate an implemented and operational capability. A reasonable person would conclude the control is not being performed.",
+    "1": "Technology Development & Acquisition (TDA) domain capabilities are ad hoc and inconsistent. Capability criteria associated with this control may include:\n▪ Policies, standards & procedures associated with TDA domain capabilities provide limited coverage due to the depth and breadth of the existing documentation.\n▪ Technology development & acquisition-related activities are decentralized (e.g., a localized/regionalized function) and uses non-standardized methods to implement secure, resilient and compliant practices.\n▪ Secure development practices loosely conform to industry-recognized standards for secure engineering (e.g., OWASP, NIST SP 800-218, NIST SP 800-160, etc.).",
+    "2": "Technology Development & Acquisition (TDA) capabilities are requirements-driven, but are not standardized across the entity (e.g., local/regional level consistency). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with TDA domain capabilities are formally documented and centrally-managed by the entity.\n▪ Standardized Operating Procedures (SOP) associated with TDA domain capabilities are documented and maintained by process owners.\n▪ IT and/or cybersecurity personnel work with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with TDA  domain capabilities to address applicable statutory, regulatory and/or contractual requirements for Technology Assets, Applications, Services and/or Data (TAASD).\n▪ Technology development and acquisition-related controls are primarily administrative and preventative in nature (e.g., policies, standards, procedures & guidelines).\n▪ Technology development and acquisition management may be a defined function (e.g., team or department) or assigned as an additional duty to existing IT and/or cybersecurity personnel.\n▪ Secure development practices mostly conform to industry-recognized standards for secure engineering of Technology Assets, Applications and/or Services (TAAS) (e.g., OWASP, NIST SP 800-218, NIST SP 800-160, etc.).\n▪ An application development team, or similar function, uses a structured process to design, build and maintain secure configurations for test, development, staging and production environments.",
+    "3": "Technology Development & Acquisition (TDA) capabilities are standardized across the entity for applicability to People, Processes, Technologies, Data and/or Facilities (PPTDF) to ensure consistency for Technology Assets, Applications, Services and/or Data (TAASD). Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Policies and standards associated with TDA domain capabilities are formally documented and centrally-managed by the entity's Governance, Risk & Compliance (GRC) team, or similar function.\n▪ Standardized Operating Procedures (SOP) associated with TDA domain capabilities are well-documented and kept current by process owners.\n▪ A software development team, or similar function, is appropriately staffed and supported to implement and maintain TDA domain capabilities.\n▪ Technology is leveraged to enhance the efficiency and accuracy of technology development and acquisition management (e.g., project management software, software escrow solution, software testing tools, etc.).\n▪ The entity's Governance, Risk & Compliance (GRC) team, or similar function, works with business stakeholders and process owners to appropriately scope and reasonably implement cybersecurity and data protection controls associated with TDA domain capabilities to address Minimum Compliance Requirements (MCR) (e.g., applicable statutory, regulatory and/or contractual requirements) and Discretionary Security Requirements (DSR) (e.g., entity-required controls).\n▪ An implemented and operational capability exists to check the validity of information inputs.",
+    "4": "Technology Development & Acquisition (TDA) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Metrics reporting includes quantitative analysis of Key Performance Indicators (KPIs).\n▪ Metrics reporting includes quantitative analysis of Key Risk Indicators (KRIs).\n▪ Scope of metrics, KPIs and KRIs covers organization-wide cybersecurity and data protection controls, including functions performed by third-parties.\n▪ Organizational leadership maintains a formal process to objectively review and respond to metrics, KPIs and KRIs (e.g., monthly or quarterly review).\n▪ Based on metrics analysis, process improvement recommendations are submitted for review and are handled in accordance with change control processes.\n▪ Business and technical stakeholders are involved in reviewing and approving proposed changes to evolve capabilities.",
+    "5": "Technology Development & Acquisition (TDA) capabilities, in addition to being standardized across the entity and centrally managed to ensure consistency across Technology Assets, Applications, Services and/or Data (TAASD), efforts are metrics driven to provide sufficient insight for decision makers to predict optimal performance, ensure continued operations and/or identify areas for improvement. Capability criteria associated with this control reasonably expect the following criteria to exist:\n▪ Applicable SCR-CMM Level 3 (Well Defined) capabilities are implemented and operational.\n▪ Based on predictive analysis, process improvements are implemented according to “continuous improvement” practices that affect process changes. \n▪ Stakeholders make time-sensitive decisions to support operational efficiency, which may include automated remediation actions."
+  },
+  "profiles": [
+    "CORE ESP Level 1 Foundational",
+    "CORE ESP Level 2 Critical Infrastructure",
+    "CORE ESP Level 3 Advanced Threats",
+    "CORE Mergers, Acquisitions & Divestitures (MA&D)"
+  ],
+  "possible_solutions": {
+    "enterprise": "∙ Enterprise formal methods or model-based design for highest-assurance systems"
+  },
+  "risks": [
+    "R-AC-3",
+    "R-AC-4",
+    "R-AM-2",
+    "R-AM-3",
+    "R-BC-1",
+    "R-BC-2",
+    "R-BC-4",
+    "R-EX-1",
+    "R-EX-2",
+    "R-EX-3",
+    "R-EX-4",
+    "R-EX-5",
+    "R-EX-6",
+    "R-EX-7",
+    "R-GV-1",
+    "R-GV-2",
+    "R-GV-4",
+    "R-GV-5",
+    "R-GV-6",
+    "R-GV-7",
+    "R-IR-4",
+    "R-SA-1",
+    "R-SC-1",
+    "R-SC-2",
+    "R-SC-3",
+    "R-SC-4",
+    "R-SC-5",
+    "R-SC-6"
+  ],
+  "threats": [
+    "NT-7",
+    "MT-1",
+    "MT-2",
+    "MT-7",
+    "MT-8",
+    "MT-9",
+    "MT-11",
+    "MT-12",
+    "MT-13",
+    "MT-14",
+    "MT-15",
+    "MT-24",
+    "MT-25",
+    "MT-27"
+  ],
+  "family_name": "Technology Development & Acquisition",
+  "crosswalks": {
+    "general-aicpa-tsc-2017": [
+      "PI1.2-POF1",
+      "PI1.2-POF2",
+      "PI1.2-POF3"
+    ],
+    "general-govramp": [
+      "AC-02",
+      "AC-03",
+      "AC-05",
+      "SI-03",
+      "SI-04",
+      "SI-05",
+      "SI-07",
+      "SI-10"
+    ],
+    "general-govramp-core": [
+      "AC-02",
+      "SI-03",
+      "SI-04",
+      "SI-07"
+    ],
+    "general-govramp-low": [
+      "AC-02",
+      "AC-03",
+      "SI-03",
+      "SI-04",
+      "SI-05"
+    ],
+    "general-govramp-low-plus": [
+      "AC-02",
+      "AC-03",
+      "AC-05",
+      "SI-03",
+      "SI-04",
+      "SI-05",
+      "SI-07",
+      "SI-10"
+    ],
+    "general-govramp-mod": [
+      "AC-02",
+      "AC-03",
+      "AC-05",
+      "SI-03",
+      "SI-04",
+      "SI-05",
+      "SI-07",
+      "SI-10"
+    ],
+    "general-govramp-high": [
+      "AC-02",
+      "AC-03",
+      "AC-05",
+      "SI-03",
+      "SI-04",
+      "SI-05",
+      "SI-07",
+      "SI-10"
+    ],
+    "general-iec-62443-3-3-2013": [
+      "SR 3.5"
+    ],
+    "general-iec-62443-4-2-2019": [
+      "CR 3.5"
+    ],
+    "general-mitre-att&ck-16-1": [
+      "T1021.002",
+      "T1021.005",
+      "T1027.010",
+      "T1036",
+      "T1036.005",
+      "T1036.008",
+      "T1048",
+      "T1048.001",
+      "T1048.002",
+      "T1048.003",
+      "T1059",
+      "T1059.001",
+      "T1059.002",
+      "T1059.003",
+      "T1059.004",
+      "T1059.005",
+      "T1059.006",
+      "T1059.007",
+      "T1059.008",
+      "T1071.004",
+      "T1080",
+      "T1090",
+      "T1090.003",
+      "T1095",
+      "T1127",
+      "T1127.002",
+      "T1129",
+      "T1176",
+      "T1187",
+      "T1190",
+      "T1197",
+      "T1204",
+      "T1204.002",
+      "T1216",
+      "T1216.001",
+      "T1218",
+      "T1218.001",
+      "T1218.002",
+      "T1218.003",
+      "T1218.004",
+      "T1218.005",
+      "T1218.008",
+      "T1218.009",
+      "T1218.010",
+      "T1218.011",
+      "T1218.012",
+      "T1218.013",
+      "T1218.014",
+      "T1218.015",
+      "T1219",
+      "T1220",
+      "T1221",
+      "T1498",
+      "T1498.001",
+      "T1498.002",
+      "T1499",
+      "T1499.001",
+      "T1499.002",
+      "T1499.003",
+      "T1499.004",
+      "T1530",
+      "T1537",
+      "T1546.002",
+      "T1546.006",
+      "T1546.008",
+      "T1546.009",
+      "T1546.010",
+      "T1547.004",
+      "T1547.006",
+      "T1548.006",
+      "T1552",
+      "T1552.005",
+      "T1553",
+      "T1553.001",
+      "T1553.003",
+      "T1553.005",
+      "T1557",
+      "T1557.001",
+      "T1557.002",
+      "T1557.003",
+      "T1564.003",
+      "T1564.006",
+      "T1564.009",
+      "T1570",
+      "T1572",
+      "T1574",
+      "T1574.001",
+      "T1574.006",
+      "T1574.007",
+      "T1574.008",
+      "T1574.009",
+      "T1574.012",
+      "T1574.013",
+      "T1574.014",
+      "T1599",
+      "T1599.001",
+      "T1602",
+      "T1602.001",
+      "T1602.002",
+      "T1609",
+      "T1622"
+    ],
+    "general-nist-800-53-r4": [
+      "SI-10"
+    ],
+    "general-nist-800-53-r5-2": [
+      "AC-02",
+      "AC-03",
+      "AC-05",
+      "SI-03",
+      "SI-04",
+      "SI-05",
+      "SI-07",
+      "SI-10"
+    ],
+    "general-nist-800-53-r5-2-privacy": [
+      "AC-02",
+      "AC-03",
+      "AC-05",
+      "SI-03",
+      "SI-04",
+      "SI-05",
+      "SI-07",
+      "SI-10"
+    ],
+    "general-nist-800-53-r5-2-low": [
+      "AC-02",
+      "AC-03",
+      "SI-03",
+      "SI-04",
+      "SI-05"
+    ],
+    "general-nist-800-53-r5-2-mod": [
+      "AC-05",
+      "SI-07",
+      "SI-10"
+    ],
+    "general-nist-800-82-r3": [
+      "AC-02",
+      "AC-03",
+      "AC-05",
+      "SI-03",
+      "SI-04",
+      "SI-05",
+      "SI-07",
+      "SI-10"
+    ],
+    "general-nist-800-82-r3-low": [
+      "AC-02",
+      "AC-03",
+      "SI-03",
+      "SI-04",
+      "SI-05"
+    ],
+    "general-nist-800-82-r3-mod": [
+      "AC-02",
+      "AC-03",
+      "AC-05",
+      "SI-03",
+      "SI-04",
+      "SI-05",
+      "SI-07",
+      "SI-10"
+    ],
+    "general-nist-800-82-r3-high": [
+      "AC-02",
+      "AC-03",
+      "AC-05",
+      "SI-03",
+      "SI-04",
+      "SI-05",
+      "SI-07",
+      "SI-10"
+    ],
+    "general-nist-800-160-vol-2-r1": [
+      "SI-07"
+    ],
+    "general-nist-800-161-r1": [
+      "AC-2",
+      "AC-3",
+      "AC-5",
+      "SI-3",
+      "SI-4",
+      "SI-5",
+      "SI-7"
+    ],
+    "general-nist-800-161-r1-cscrm": [
+      "AC-2",
+      "AC-3",
+      "SI-3",
+      "SI-4",
+      "SI-5",
+      "SI-7"
+    ],
+    "general-nist-800-161-r1-flowdown": [
+      "AC-2",
+      "AC-3",
+      "AC-5",
+      "SI-3",
+      "SI-4",
+      "SI-5",
+      "SI-7"
+    ],
+    "general-nist-800-161-r1-level-1": [
+      "SI-4",
+      "SI-5"
+    ],
+    "general-nist-800-161-r1-level-2": [
+      "AC-2",
+      "AC-3",
+      "AC-5",
+      "SI-3",
+      "SI-4",
+      "SI-5",
+      "SI-7"
+    ],
+    "general-nist-800-161-r1-level-3": [
+      "AC-2",
+      "AC-3",
+      "AC-5",
+      "SI-3",
+      "SI-4",
+      "SI-5",
+      "SI-7"
+    ],
+    "general-owasp-top-10-2025": [
+      "A08:2025"
+    ],
+    "usa-federal-fbi-cjis-6-0": [
+      "AC-2",
+      "AC-3",
+      "AC-5",
+      "SI-3",
+      "SI-4",
+      "SI-5",
+      "SI-7",
+      "SI-10"
+    ],
+    "usa-federal-fda-21-cfr-part-11-2025": [
+      "11.10(h)"
+    ],
+    "usa-federal-gsa-fedramp-5-low": [
+      "AC-02",
+      "AC-03",
+      "AC-05",
+      "SI-03",
+      "SI-04",
+      "SI-05",
+      "SI-07",
+      "SI-10"
+    ],
+    "usa-federal-gsa-fedramp-5-mod": [
+      "AC-02",
+      "AC-03",
+      "AC-05",
+      "SI-03",
+      "SI-04",
+      "SI-05",
+      "SI-07",
+      "SI-10"
+    ],
+    "usa-federal-gsa-fedramp-5-high": [
+      "AC-02",
+      "AC-03",
+      "AC-05",
+      "SI-03",
+      "SI-04",
+      "SI-05",
+      "SI-07",
+      "SI-10"
+    ],
+    "usa-federal-gsa-fedramp-5-li-saas": [
+      "AC-02",
+      "AC-03",
+      "AC-05",
+      "SI-03",
+      "SI-04",
+      "SI-05",
+      "SI-07",
+      "SI-10"
+    ],
+    "usa-federal-irs-1075-2021": [
+      "AC-2",
+      "AC-3",
+      "AC-5",
+      "SI-3",
+      "SI-4",
+      "SI-5",
+      "SI-7",
+      "SI-10"
+    ],
+    "usa-federal-cms-marse-2-0": [
+      "AC-2",
+      "AC-3",
+      "AC-5",
+      "SI-3",
+      "SI-4",
+      "SI-5",
+      "SI-7",
+      "SI-10"
+    ],
+    "usa-state-tx-dir-security-control-standards-catalog-2-2": [
+      "AC-02",
+      "AC-03",
+      "AC-05",
+      "SI-03",
+      "SI-04",
+      "SI-05",
+      "SI-10"
+    ],
+    "usa-state-tx-txramp-2-0-level-1": [
+      "AC-02",
+      "AC-03",
+      "SI-03",
+      "SI-04",
+      "SI-05"
+    ],
+    "usa-state-tx-txramp-2-0-level-2": [
+      "AC-02",
+      "AC-03",
+      "SI-03",
+      "SI-04",
+      "SI-05",
+      "SI-07",
+      "SI-10"
+    ],
+    "emea-isr-cmo-1-0": [
+      "17.22"
+    ],
+    "emea-sau-sacs-002-2022": [
+      "TPC-60"
+    ],
+    "apac-jpn-ismap": [
+      "14.2.5.9"
+    ]
+  }
+}

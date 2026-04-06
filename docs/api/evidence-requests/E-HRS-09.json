@@ -1,0 +1,10 @@
+{
+  "erl_id": "E-HRS-09",
+  "area": "Human Resources",
+  "artifact_name": "Role Assignment - CRO",
+  "artifact_description": "Documented evidence of a formal role assignment to the Chief Risk Officer (CRO) position.",
+  "scf_controls": [
+    "GOV-04"
+  ],
+  "cmmc_mapping": ""
+}

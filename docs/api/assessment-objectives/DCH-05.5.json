@@ -1,0 +1,36 @@
+{
+  "scf_control_id": "DCH-05.5",
+  "total": 3,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-05.5",
+      "ao_id": "DCH-05.5_A01",
+      "objective": "special dissemination, handling or distribution instructions to be used for each object that the system transmits to output devices are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-16(05)_ODP[01]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-05.5",
+      "ao_id": "DCH-05.5_A02",
+      "objective": "human-readable, standard naming conventions for the cybersecurity / data privacy attributes to be displayed in human-readable form on each object that the system transmits to output devices are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_AC-16(05)_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "DCH-05.5",
+      "ao_id": "DCH-05.5_A03",
+      "objective": "cybersecurity / data privacy attributes are displayed in human-readable form on each object that the system transmits to output devices to identify organization-defined instructions using organization-defined naming conventions.",
+      "pptdf": "Technology",
+      "origin": "53A_R5_AC-16(05)[01]\n53A_R5_AC-16(05)[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

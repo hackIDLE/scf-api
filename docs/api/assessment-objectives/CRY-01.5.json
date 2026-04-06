@@ -1,0 +1,56 @@
+{
+  "scf_control_id": "CRY-01.5",
+  "total": 5,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CRY-01.5",
+      "ao_id": "CRY-01.5_A01",
+      "objective": "cryptographic uses are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-13_ODP[01]\n53A_R5_SC-13a.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CRY-01.5",
+      "ao_id": "CRY-01.5_A02",
+      "objective": "types of cryptography for each specified cryptographic use are defined.",
+      "pptdf": "Process",
+      "origin": "53A_R5_SC-13_ODP[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CRY-01.5",
+      "ao_id": "CRY-01.5_A03",
+      "objective": "an inventory of cryptographic cipher suites and protocols is maintained.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CRY-01.5",
+      "ao_id": "CRY-01.5_A04",
+      "objective": "deployed cryptographic cipher suites and protocols are periodically reviewed to identify industry trends regarding the continued viability of utilized cryptographic cipher suites and protocols.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CRY-01.5",
+      "ao_id": "CRY-01.5_A05",
+      "objective": "proactive measures are taken to respond to industry trends regarding the continued viability of utilized cryptographic cipher suites and protocols.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

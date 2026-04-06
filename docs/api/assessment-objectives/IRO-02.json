@@ -1,0 +1,226 @@
+{
+  "scf_control_id": "IRO-02",
+  "total": 22,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "IRO-02",
+      "ao_id": "IRO-02_A01",
+      "objective": "an incident handling capability for incidents is implemented that is consistent with the incident response plan.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-04a.[01]\n171A_3.6.1[a]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-02",
+      "ao_id": "IRO-02_A02",
+      "objective": "the incident handling capability includes preparation.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-04a.[02]\n171A_3.6.1[b]\n171A_R3_A.03.06.01[02]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-02",
+      "ao_id": "IRO-02_A03",
+      "objective": "the incident handling capability includes detection and analysis.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-04a.[03]\n171A_3.6.1[c]\n171A_3.6.1[d]\n171A_R3_A.03.06.01[03]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-02",
+      "ao_id": "IRO-02_A04",
+      "objective": "the incident handling capability includes containment.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-04a.[04]\n171A_3.6.1[e]\n171A_R3_A.03.06.01[04]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-02",
+      "ao_id": "IRO-02_A05",
+      "objective": "the incident handling capability includes eradication.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-04a.[05]\n171A_R3_A.03.06.01[05]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-02",
+      "ao_id": "IRO-02_A06",
+      "objective": "the incident handling capability includes recovery.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-04a.[06]\n171A_3.6.1[f]\n171A_R3_A.03.06.01[06]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-02",
+      "ao_id": "IRO-02_A07",
+      "objective": "incident handling activities are coordinated with contingency planning activities.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-04b.",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-02",
+      "ao_id": "IRO-02_A08",
+      "objective": "the operational incident-handling capability includes user response activities.",
+      "pptdf": "Process",
+      "origin": "171A_3.6.1[g]",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-02",
+      "ao_id": "IRO-02_A09",
+      "objective": "authorities to whom incidents are to be reported are identified.",
+      "pptdf": "Process",
+      "origin": "171A_3.6.2[c]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-02",
+      "ao_id": "IRO-02_A10",
+      "objective": "organizational officials to whom incidents are to be reported are identified.",
+      "pptdf": "Process",
+      "origin": "171A_3.6.2[d]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-02",
+      "ao_id": "IRO-02_A11",
+      "objective": "identified authorities are notified of incidents.",
+      "pptdf": "Process",
+      "origin": "171A_3.6.2[e]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-02",
+      "ao_id": "IRO-02_A12",
+      "objective": "identified organizational officials are notified of incidents.",
+      "pptdf": "Process",
+      "origin": "171A_3.6.2[f]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-02",
+      "ao_id": "IRO-02_A13",
+      "objective": "incidents are tracked.",
+      "pptdf": "Process",
+      "origin": "171A_3.6.2[a]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-02",
+      "ao_id": "IRO-02_A14",
+      "objective": "incidents are documented.",
+      "pptdf": "Process",
+      "origin": "171A_3.6.2[b]",
+      "assessment_rigor": "2",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-02",
+      "ao_id": "IRO-02_A15",
+      "objective": "lessons learned from ongoing incident handling activities are incorporated into incident response procedures, training and testing.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-04c.[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-02",
+      "ao_id": "IRO-02_A16",
+      "objective": "the changes resulting from the incorporated lessons learned are implemented accordingly.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-04c.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-02",
+      "ao_id": "IRO-02_A17",
+      "objective": "the rigor of incident handling activities is comparable and predictable across the organization.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-04d.[01]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-02",
+      "ao_id": "IRO-02_A18",
+      "objective": "the intensity of incident handling activities is comparable and predictable across the organization.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-04d.[02]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-02",
+      "ao_id": "IRO-02_A19",
+      "objective": "the scope of incident handling activities is comparable and predictable across the organization.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-04d.[03]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-02",
+      "ao_id": "IRO-02_A20",
+      "objective": "the results of incident handling activities are comparable and predictable across the organization.",
+      "pptdf": "Process",
+      "origin": "53A_R5_IR-04d.[04]",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-02",
+      "ao_id": "IRO-02_A21",
+      "objective": "suspected incidents are reported to the organizational incident response capability within an organization-defined time period.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "3",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "IRO-02",
+      "ao_id": "IRO-02_A22",
+      "objective": "suspected incidents are reported to the organizational incident response capability within <A.03.06.02.ODP[01]: time period>.",
+      "pptdf": "Process",
+      "origin": "171A_R3_A.03.06.02.b",
+      "assessment_rigor": "NIST 800-171",
+      "scf_defined_parameters": "near real time or as soon as practicable upon discovery",
+      "org_defined_parameters": ""
+    }
+  ]
+}

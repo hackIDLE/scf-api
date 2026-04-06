@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "DCH-01.3",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "DCH-01.3",
+      "ao_id": "DCH-01.3_A01",
+      "objective": "data stewards document the potential impact in the event of a data loss incident.",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

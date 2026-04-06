@@ -1,0 +1,26 @@
+{
+  "scf_control_id": "HRS-03.1",
+  "total": 2,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "HRS-03.1",
+      "ao_id": "HRS-03.1_A01",
+      "objective": "users are formally made aware of their roles and responsibilities to maintain a safe and secure working environment.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "HRS-03.1",
+      "ao_id": "HRS-03.1_A02",
+      "objective": "acknowledgement of user awareness is maintained by the organization.",
+      "pptdf": "People",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

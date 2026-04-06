@@ -1,0 +1,46 @@
+{
+  "scf_control_id": "CPL-11.2",
+  "total": 4,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "CPL-11.2",
+      "ao_id": "CPL-11.2_A01",
+      "objective": "logical access to United States (US) export-controlled data is restricted US citizens.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-11.2",
+      "ao_id": "CPL-11.2_A02",
+      "objective": "logical access to United States (US) export-controlled data is restricted US Green Card holders.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-11.2",
+      "ao_id": "CPL-11.2_A03",
+      "objective": "physical access to United States (US) export-controlled data is restricted US citizens.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    },
+    {
+      "scf_control_id": "CPL-11.2",
+      "ao_id": "CPL-11.2_A04",
+      "objective": "physical access to United States (US) export-controlled data is restricted US Green Card holders.",
+      "pptdf": "Technology",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

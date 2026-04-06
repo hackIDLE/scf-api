@@ -1,0 +1,16 @@
+{
+  "scf_control_id": "AAT-14.1",
+  "total": 1,
+  "assessment_objectives": [
+    {
+      "scf_control_id": "AAT-14.1",
+      "ao_id": "AAT-14.1_A01",
+      "objective": "Artificial Intelligence (AI) and Autonomous Technologies (AAT)-related stakeholders define the tasks that AAT will support (e.g., classifiers, generative models, recommenders).",
+      "pptdf": "Process",
+      "origin": "SCF Created",
+      "assessment_rigor": "1",
+      "scf_defined_parameters": "",
+      "org_defined_parameters": ""
+    }
+  ]
+}

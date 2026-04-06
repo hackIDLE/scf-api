@@ -1,0 +1,7 @@
+{
+  "risk_id": "R-BC-2",
+  "grouping": "Business Continuity",
+  "name": "Data loss / corruption",
+  "description": "The inability to maintain the confidentiality of the data (compromise) or prevent data corruption (loss).",
+  "nist_csf_function": "Recover"
+}

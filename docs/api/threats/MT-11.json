@@ -1,0 +1,6 @@
+{
+  "threat_id": "MT-11",
+  "grouping": "Man-Made Threat",
+  "name": "Statutory / Regulatory / Contractual Obligation",
+  "description": "Laws, regulations and/or contractual obligations that directly or indirectly weaken an organization's security & privacy controls. This includes hostile nation states that leverage statutory and/or regulatory means for economic or political espionage and/or cyberwarfare activities. \n\nChanges in statutes, laws, policies, regulations and/or agreements that materially impact a business or market sector and that can increase business operating costs, reduce the attractiveness of investment, or change the competitive landscape. This extends across the supply chain due to a wide-range of laws and regulations."
+}
