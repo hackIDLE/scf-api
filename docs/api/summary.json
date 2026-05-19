@@ -1,5 +1,5 @@
 {
-  "scf_version": "2026.1",
+  "scf_version": "2026.1.1",
   "total_controls": 1468,
   "total_families": 33,
   "families": [
@@ -888,7 +888,7 @@
       "framework_id": "general-iso-27002-2022",
       "display_name": "ISO 27002 (2022)",
       "scf_controls_mapped": 316,
-      "framework_controls_mapped": 89
+      "framework_controls_mapped": 96
     },
     {
       "framework_id": "general-iso-27017-2015",

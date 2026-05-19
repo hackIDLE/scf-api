@@ -1,6 +1,6 @@
 # SCF API
 
-> Source-faithful static JSON API for the Secure Controls Framework (SCF) v2026.1. 1468 controls, 33 families, 249 framework crosswalks, 41 threats, 39 risks, 5776 assessment objectives, and 303 evidence requests. All static JSON, no auth required.
+> Source-faithful static JSON API for the Secure Controls Framework (SCF) v2026.1.1. 1468 controls, 33 families, 249 framework crosswalks, 41 threats, 39 risks, 5776 assessment objectives, and 303 evidence requests. All static JSON, no auth required.
 
 All data is static JSON. Append paths to the base URL.
 

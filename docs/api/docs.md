@@ -1,6 +1,6 @@
 # SCF API Reference
 
-Static JSON API for the [Secure Controls Framework](https://securecontrolsframework.com) (SCF) v2026.1.
+Static JSON API for the [Secure Controls Framework](https://securecontrolsframework.com) (SCF) v2026.1.1.
 
 - **1468** controls across **33** families
 - **249** framework crosswalks
@@ -210,7 +210,7 @@ GET api/crosswalks.json → compare scf_controls_mapped across frameworks
 
 ## Caveats
 
-- **Versioning:** SCF v2026.1. Check `api/summary.json`.
+- **Versioning:** SCF v2026.1.1. Check `api/summary.json`.
 - **Licensing:** CC BY-ND. Share and use freely, but no derivative works of the framework itself.
 - **Missing mappings:** No crosswalk entry = no established mapping, not irrelevance.
 - **Framework IDs:** Source-derived from the SCF workbook. Use exact IDs from `api/crosswalks.json`.

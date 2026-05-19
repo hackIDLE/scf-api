@@ -1,6 +1,6 @@
 # SCF API
 
-> Source-faithful static JSON API for the Secure Controls Framework (SCF) v2026.1. 1468 controls, 33 families, 249 framework crosswalks, 41 threats, 39 risks, 5776 assessment objectives, and 303 evidence requests. All static JSON, no auth required.
+> Source-faithful static JSON API for the Secure Controls Framework (SCF) v2026.1.1. 1468 controls, 33 families, 249 framework crosswalks, 41 threats, 39 risks, 5776 assessment objectives, and 303 evidence requests. All static JSON, no auth required.
 
 ## Endpoints
 
@@ -203,7 +203,7 @@ GET api/crosswalks.json → compare scf_controls_mapped across frameworks
 
 ## Caveats
 
-- **Versioning:** SCF v2026.1. Check `api/summary.json`.
+- **Versioning:** SCF v2026.1.1. Check `api/summary.json`.
 - **Licensing:** CC BY-ND. Share and use freely, but no derivative works of the framework itself.
 - **Missing mappings:** No crosswalk entry = no established mapping, not irrelevance.
 - **Framework IDs:** Source-derived from the SCF workbook. Use exact IDs from `api/crosswalks.json`.
@@ -331,7 +331,7 @@ GET api/crosswalks.json → compare scf_controls_mapped across frameworks
 - [ISO 21434 (2021)](api/crosswalks/general-iso-21434-2021.json): 51 SCF controls mapped, 232 framework controls.
 - [ISO 22301 (2019)](api/crosswalks/general-iso-22301-2019.json): 36 SCF controls mapped, 259 framework controls.
 - [ISO 27001 (2022)](api/crosswalks/general-iso-27001-2022.json): 51 SCF controls mapped, 148 framework controls.
-- [ISO 27002 (2022)](api/crosswalks/general-iso-27002-2022.json): 316 SCF controls mapped, 89 framework controls.
+- [ISO 27002 (2022)](api/crosswalks/general-iso-27002-2022.json): 316 SCF controls mapped, 96 framework controls.
 - [ISO 27017 (2015)](api/crosswalks/general-iso-27017-2015.json): 224 SCF controls mapped, 118 framework controls.
 - [ISO 27018 (2025)](api/crosswalks/general-iso-27018-2025.json): 322 SCF controls mapped, 108 framework controls.
 - [ISO 27701 (2025)](api/crosswalks/general-iso-27701-2025.json): 59 SCF controls mapped, 90 framework controls.

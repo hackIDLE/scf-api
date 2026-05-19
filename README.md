@@ -59,7 +59,7 @@ curl https://hackidle.github.io/scf-api/api/threats.json
 
 ```bash
 npm ci
-npm run parse -- --tag 2026.1   # or --file path/to/workbook.xlsx
+npm run parse -- --tag 2026.1.1 # or --file path/to/workbook.xlsx
 npm run build
 ```
 

@@ -1,8 +1,8 @@
 {
   "framework": {
-    "id": "scf-2026-1",
+    "id": "scf-2026-1-1",
     "name": "SCF",
-    "version": "2026.1"
+    "version": "2026.1.1"
   },
   "families": {
     "GOV": "Cybersecurity & Data Protection Governance",

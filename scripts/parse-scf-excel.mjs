@@ -108,8 +108,12 @@ const mainSheet = workbook.worksheets.find(
   (ws) => ws.name.startsWith("SCF ") && /\d/.test(ws.name)
 );
 if (!mainSheet) { console.error("Main SCF sheet not found"); process.exit(1); }
-const version = mainSheet.name.replace("SCF ", "").trim();
+const workbookVersion = mainSheet.name.replace("SCF ", "").trim();
+const version = tag || workbookVersion;
 console.log(`SCF version: ${version}`);
+if (tag && tag !== workbookVersion) {
+  console.log(`Workbook sheet version: ${workbookVersion}`);
+}
 
 // ── 1. Families ──
 
@@ -398,7 +402,7 @@ console.log(`Risks: ${risks.length}`);
 
 // ── 7. Assessment Objectives ──
 
-const aoSheet = workbook.getWorksheet("Assessment Objectives " + version);
+const aoSheet = workbook.getWorksheet("Assessment Objectives " + workbookVersion);
 const assessmentObjectives = [];
 if (aoSheet) {
   aoSheet.eachRow({ includeEmpty: false }, (row, num) => {
@@ -422,7 +426,7 @@ console.log(`Assessment objectives: ${assessmentObjectives.length}`);
 
 // ── 8. Evidence Request List ──
 
-const erlSheet = workbook.getWorksheet("Evidence Request List " + version);
+const erlSheet = workbook.getWorksheet("Evidence Request List " + workbookVersion);
 const evidenceRequests = [];
 if (erlSheet) {
   erlSheet.eachRow({ includeEmpty: false }, (row, num) => {
@@ -443,7 +447,7 @@ console.log(`Evidence requests: ${evidenceRequests.length}`);
 
 // ── 9. Compensating Controls ──
 
-const ccSheet = workbook.getWorksheet("Compensating Controls " + version);
+const ccSheet = workbook.getWorksheet("Compensating Controls " + workbookVersion);
 const compensatingControls = [];
 if (ccSheet) {
   ccSheet.eachRow({ includeEmpty: false }, (row, num) => {

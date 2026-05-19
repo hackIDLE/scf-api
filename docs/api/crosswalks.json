@@ -719,7 +719,7 @@
       "framework_id": "general-iso-27002-2022",
       "display_name": "ISO 27002 (2022)",
       "scf_controls_mapped": 316,
-      "framework_controls_mapped": 89
+      "framework_controls_mapped": 96
     },
     {
       "framework_id": "general-iso-27017-2015",
